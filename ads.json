@@ -133,8 +133,8 @@
    "pay": "USDT/PayPal",
    "kind": "general",
    "min": "$5",
-   "id": "GIT_HTTP_LOW_SPEED_LIMIT",
-   "enabled": true
+   "id": "",
+   "enabled": false
   },
   {
    "n": "Monetag",
