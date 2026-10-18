@@ -1,0 +1,100 @@
+{
+ "updated": "2026-10-18 21:26",
+ "sources": [
+  {
+   "n": "ExoClick",
+   "usd": 0,
+   "live": false,
+   "min": 20,
+   "pay": "Paxum/Wire",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "JuicyAds",
+   "usd": 0,
+   "live": false,
+   "min": 50,
+   "pay": "Paxum/BTC",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "Monetag",
+   "usd": 0,
+   "live": false,
+   "min": 5,
+   "pay": "PayPal/Skrill",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "A-ADS",
+   "usd": 0,
+   "live": false,
+   "min": 0,
+   "pay": "BTC تلقائي",
+   "note": "المعرّف مضبوط"
+  },
+  {
+   "n": "TrafficJunky",
+   "usd": 0,
+   "live": false,
+   "min": 100,
+   "pay": "Wire",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "PlugRush",
+   "usd": 0,
+   "live": false,
+   "min": 25,
+   "pay": "PayPal/BTC",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "Clickadu",
+   "usd": 0,
+   "live": false,
+   "min": 5,
+   "pay": "PayPal/Paxum",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "HilltopAds",
+   "usd": 0,
+   "live": false,
+   "min": 50,
+   "pay": "PayPal",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "CPAGrip",
+   "usd": 0,
+   "live": false,
+   "min": 50,
+   "pay": "PayPal",
+   "note": "ينتظر المعرّف"
+  },
+  {
+   "n": "Stripchat",
+   "usd": 0,
+   "live": false,
+   "min": 50,
+   "pay": "Wire",
+   "note": "ينتظر المعرّف"
+  }
+ ],
+ "total_usd": 0.0,
+ "btc_usd": 81056.0,
+ "payout": {
+  "bank": "بنك الكريمي للتمويل الأصغر",
+  "swift": "KBMFYESAXXX",
+  "name": "علي سالم عبدالله احمد",
+  "account": "",
+  "usdt": ""
+ },
+ "ladder": [
+  "الشبكة → USDT(TRC20) / Paxum / PayPal / BTC",
+  "Binance P2P: USDT → نقد",
+  "صرافة محلية",
+  "إيداع الكريمي"
+ ]
+}

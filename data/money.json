@@ -1,0 +1,111 @@
+{
+ "updated": "2026-10-18 21:26",
+ "real": {
+  "github_views_14d": 0,
+  "github_uniques_14d": 0,
+  "hits_total": 0,
+  "live_ad_networks": 1
+ },
+ "estimated": {
+  "impressions": 0,
+  "ecpm_used": 1.35,
+  "usd": 0.0
+ },
+ "networks_live": [
+  {
+   "n": "A-ADS",
+   "pay": "BTC تلقائي"
+  }
+ ],
+ "networks_off": [
+  {
+   "n": "ExoClick",
+   "k": "EXOCLICK_ZONE"
+  },
+  {
+   "n": "JuicyAds",
+   "k": "JUICYADS_ZONE"
+  },
+  {
+   "n": "TrafficJunky",
+   "k": "TRAFFICJUNKY_ZONE"
+  },
+  {
+   "n": "PlugRush",
+   "k": "PLUGRUSH_ZONE"
+  },
+  {
+   "n": "Clickadu",
+   "k": "CLICKADU_ZONE"
+  },
+  {
+   "n": "HilltopAds",
+   "k": "HILLTOPADS_ZONE"
+  },
+  {
+   "n": "AdMaven",
+   "k": "ADMAVEN_ZONE"
+  },
+  {
+   "n": "Galaksion",
+   "k": "GALAKSION_ZONE"
+  },
+  {
+   "n": "MyBid",
+   "k": "MYBID_ZONE"
+  },
+  {
+   "n": "Evadav",
+   "k": "EVADAV_ZONE"
+  },
+  {
+   "n": "Stripchat",
+   "k": "STRIPCHAT_AFF"
+  },
+  {
+   "n": "LiveJasmin",
+   "k": "JASMIN_AFF"
+  },
+  {
+   "n": "BongaCams",
+   "k": "BONGA_AFF"
+  },
+  {
+   "n": "Adsterra",
+   "k": "ADSTERRA_API_KEY"
+  },
+  {
+   "n": "Monetag",
+   "k": "MONETAG_MULTITAG"
+  },
+  {
+   "n": "PropellerAds",
+   "k": "PROPELLER_ZONE"
+  },
+  {
+   "n": "PopAds",
+   "k": "POPADS_SITE_ID"
+  },
+  {
+   "n": "Adcash",
+   "k": "ADCASH_ZONE"
+  },
+  {
+   "n": "AdSense",
+   "k": "ADSENSE_CLIENT"
+  },
+  {
+   "n": "CPAGrip",
+   "k": "CPAGRIP_SMARTLINK"
+  },
+  {
+   "n": "OGAds",
+   "k": "OGADS_SMARTLINK"
+  },
+  {
+   "n": "Linkvertise",
+   "k": "LINKVERTISE_UID"
+  }
+ ],
+ "live_url": ""
+}

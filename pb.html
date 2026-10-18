@@ -21,4 +21,4 @@ j('pb.json').then(function(cfg){ j('auth.json').then(function(a){
   body:JSON.stringify({message:'ads +'+amt,branch:br,content:b64(JSON.stringify({src:'ads:'+src,amount:amt,note:'postback',at:Math.floor(Date.now()/1000)}))})})
  .then(function(r){return r.json().then(function(x){return {s:r.status};});})
  .then(function(r){out.innerHTML=r.s<300?'<span class="ok">✓ سُجل $'+amt+'</span>':'<span class="bad">فشل '+r.s+'</span>';});
-});});})();</script></body></html>
+});});})();</script><script src="hits.js" defer></script></body></html>

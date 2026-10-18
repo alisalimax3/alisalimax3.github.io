@@ -1,25 +1,30 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""يُبلّغ محركات البحث: IndexNow + Sitemap"""
-import os, json, random, urllib.request
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE = os.environ.get("SITE_URL", "https://alkazmybwhwr-dot.github.io")
-host = SITE.replace("https://", "")
-kp = "indexnow-key.txt"
-key = open(kp).read().strip() if os.path.exists(kp) else "".join(random.choice("0123456789abcdef") for _ in range(32))
-open(kp, "w").write(key); open(key + ".txt", "w").write(key)
-urls = [SITE + "/"]
-if os.path.isdir("p"):
-    urls += [SITE + "/p/" + f for f in sorted(os.listdir("p"))[:500] if f.endswith(".html")]
-for ep, payload in (("https://api.indexnow.org/indexnow",
-                     {"host": host, "key": key, "keyLocation": SITE + "/" + key + ".txt", "urlList": urls[:10000]}),):
+import json, os, sys, time, urllib.request
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, "tools"); import gh
+U = gh.login(); S = "https://%s.github.io" % U
+def req(u, d=None, h=None, t=45):
+    r = urllib.request.Request(u, data=d, headers=h or {"User-Agent": "CineHub"})
+    with urllib.request.urlopen(r, timeout=t) as x: return x.status
+def xrpc(host):
+    b = ('<?xml version="1.0"?><methodCall><methodName>weblogUpdates.ping</methodName><params>'
+         '<param><value>CineHub</value></param><param><value>%s</value></param></params></methodCall>' % S).encode()
+    return req(host, b, {"Content-Type": "text/xml"})
+res = {}
+for nm, host in (("pingomatic", "http://rpc.pingomatic.com/"), ("twingly", "https://rpc.twingly.com/")):
+    try: res[nm] = xrpc(host)
+    except Exception as e: res[nm] = str(e)[:30]
+key = next((f[:-4] for f in os.listdir(".") if f.endswith(".txt") and f[:-4].isalnum() and len(f[:-4]) in (8, 32)), None)
+if key:
     try:
-        r = urllib.request.Request(ep, data=json.dumps(payload).encode(),
-                                   headers={"Content-Type": "application/json; charset=utf-8"})
-        print("indexnow", urllib.request.urlopen(r, timeout=30).status)
-    except Exception as e:
-        print("indexnow skip", e)
-for ep in ("https://www.google.com/ping?sitemap=%s/sitemap.xml" % SITE,
-           "https://www.bing.com/ping?sitemap=%s/sitemap.xml" % SITE):
-    try: print("ping", ep.split("/")[2], urllib.request.urlopen(ep, timeout=25).status)
-    except Exception as e: print("ping skip", e)
+        b = json.dumps({"host": "%s.github.io" % U, "key": key,
+                        "keyLocation": "%s/%s.txt" % (S, key),
+                        "urlList": [S + "/", S + "/app.html", S + "/library.html"]}).encode()
+        res["indexnow"] = req("https://api.indexnow.org/indexnow", b, {"Content-Type": "application/json"})
+    except Exception as e: res["indexnow"] = str(e)[:30]
+try: res["wayback"] = req("https://web.archive.org/save/" + S + "/", t=90)
+except Exception as e: res["wayback"] = str(e)[:30]
+os.makedirs("data", exist_ok=True)
+json.dump({"updated": time.strftime("%F %H:%M"), "site": S, "results": res},
+          open("data/ping.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("  ✓ إشعال: " + ", ".join("%s=%s" % (k, v) for k, v in res.items()))
