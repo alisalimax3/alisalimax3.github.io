@@ -1,0 +1,7 @@
+# CineHub 3099 · ads.txt — استبدل المعرّفات بمعرّفاتك بعد التسجيل
+# Adsterra (من لوحة الناشر: Sites → ads.txt)
+adsterra.com, PUBLISHER_ID, DIRECT
+# AdSense (بعد القبول)
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# PropellerAds
+# propellerads.com, ACCOUNT_ID, DIRECT

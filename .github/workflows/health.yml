@@ -1,0 +1,19 @@
+name: health
+on:
+  schedule: [{cron: "40 4 * * 1"}]
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "20"}
+      - run: python3 tools/audit.py
+      - run: |
+          git config user.email agent@cinehub.local
+          git config user.name "CineHub Agent"
+          git add -A; git diff --cached --quiet || git commit -m "weekly audit $(date -u +%FT%TZ)"; git push

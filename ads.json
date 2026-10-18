@@ -1,0 +1,212 @@
+{
+ "direct": "https://alkazmybwhwr-dot.github.io/cinema.html#new-trend-capcut-template-10",
+ "networks": [
+  {
+   "n": "A-ADS",
+   "k": "AADS_UNIT",
+   "pay": "BTC تلقائي",
+   "kind": "adult-ok",
+   "min": "$0",
+   "id": "517190",
+   "enabled": true
+  },
+  {
+   "n": "ExoClick",
+   "k": "EXOCLICK_ZONE",
+   "pay": "Paxum/Wire",
+   "kind": "adult",
+   "min": "€20",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "JuicyAds",
+   "k": "JUICYADS_ZONE",
+   "pay": "Paxum/BTC",
+   "kind": "adult",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "TrafficJunky",
+   "k": "TRAFFICJUNKY_ZONE",
+   "pay": "Wire",
+   "kind": "adult",
+   "min": "$100",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "PlugRush",
+   "k": "PLUGRUSH_ZONE",
+   "pay": "PayPal/BTC",
+   "kind": "adult",
+   "min": "$25",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Clickadu",
+   "k": "CLICKADU_ZONE",
+   "pay": "PayPal/Paxum",
+   "kind": "adult",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "HilltopAds",
+   "k": "HILLTOPADS_ZONE",
+   "pay": "PayPal",
+   "kind": "adult",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "AdMaven",
+   "k": "ADMAVEN_ZONE",
+   "pay": "PayPal",
+   "kind": "adult",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Galaksion",
+   "k": "GALAKSION_ZONE",
+   "pay": "PayPal",
+   "kind": "adult",
+   "min": "$10",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "MyBid",
+   "k": "MYBID_ZONE",
+   "pay": "PayPal",
+   "kind": "adult",
+   "min": "$25",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Evadav",
+   "k": "EVADAV_ZONE",
+   "pay": "PayPal",
+   "kind": "adult",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Stripchat",
+   "k": "STRIPCHAT_AFF",
+   "pay": "Wire/Paxum",
+   "kind": "adult-aff",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "LiveJasmin",
+   "k": "JASMIN_AFF",
+   "pay": "Wire",
+   "kind": "adult-aff",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "BongaCams",
+   "k": "BONGA_AFF",
+   "pay": "Wire",
+   "kind": "adult-aff",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Adsterra",
+   "k": "ADSTERRA_API_KEY",
+   "pay": "USDT/PayPal",
+   "kind": "general",
+   "min": "$5",
+   "id": "GIT_HTTP_LOW_SPEED_LIMIT",
+   "enabled": true
+  },
+  {
+   "n": "Monetag",
+   "k": "MONETAG_MULTITAG",
+   "pay": "PayPal/Skrill",
+   "kind": "general",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "PropellerAds",
+   "k": "PROPELLER_ZONE",
+   "pay": "PayPal/Paxum",
+   "kind": "general",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "PopAds",
+   "k": "POPADS_SITE_ID",
+   "pay": "PayPal/BTC",
+   "kind": "general",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Adcash",
+   "k": "ADCASH_ZONE",
+   "pay": "PayPal/Wire",
+   "kind": "general",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "AdSense",
+   "k": "ADSENSE_CLIENT",
+   "pay": "Wire/Payoneer",
+   "kind": "general",
+   "min": "$100",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "CPAGrip",
+   "k": "CPAGRIP_SMARTLINK",
+   "pay": "PayPal/Payoneer",
+   "kind": "cpa",
+   "min": "$50",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "OGAds",
+   "k": "OGADS_SMARTLINK",
+   "pay": "PayPal",
+   "kind": "cpa",
+   "min": "$20",
+   "id": "",
+   "enabled": false
+  },
+  {
+   "n": "Linkvertise",
+   "k": "LINKVERTISE_UID",
+   "pay": "PayPal",
+   "kind": "short",
+   "min": "$5",
+   "id": "",
+   "enabled": false
+  }
+ ]
+}

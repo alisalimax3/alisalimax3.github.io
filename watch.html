@@ -1,0 +1,54 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>شاهد واقبض · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:900px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:13px;padding:14px;margin:10px 0}
+button{background:#22c55e;color:#04121a;border:0;border-radius:10px;padding:12px 18px;font-weight:800;cursor:pointer}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1px solid #1e2a44;padding:7px;text-align:right}
+th{color:#8aa0bd}.big{font-size:30px;font-weight:800;color:#4dd0e1}.l{color:#8aa0bd;font-size:12.5px}
+a.b{background:#4dd0e1;color:#04121a;border-radius:8px;padding:5px 10px;font-weight:800;text-decoration:none}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="wrap">
+<h1>شاهد واقبض</h1>
+<div class="card"><div class="l">أرباحك من المشاهدة داخل التطبيق</div><div class="big" id="bal">$0.0000</div>
+<div class="l">مكافآت اليوم: <b id="left">—</b> · المشاهدات: <b id="vw">0</b></div>
+<button onclick="CHRewarded.show()">▶ شاهد إعلانًا واقبض</button>
+<div class="l" id="msg" style="margin-top:8px">الإعلان 15 ثانية — الربح يُضاف فورًا لرصيدك القابل للسحب.</div></div>
+<div class="card"><h3>منصات تدفع لك مقابل المشاهدة (بإحالتك)</h3>
+<p class="l">سجّل عبر الرابط، ثم ضع كود الإحالة الخاص بك في apply.html ليربح من يسجّل منك 10–50% من أرباحه.</p>
+<table><thead><tr><th>المنصة</th><th>الأجر</th><th>إحالة</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="l"><a href="/apply.html">كل المنصات</a> · <a href="/withdraw.html">اسحب</a> · <a href="/">الرئيسية</a></p>
+</div>
+<script src="/ledger.js"></script><script src="/ref.js"></script><script src="/cloud.js"></script>
+<script>
+function paint(){document.getElementById('bal').textContent='$'+(window.CHLedger?CHLedger.balance():0).toFixed(4);
+ document.getElementById('vw').textContent=(+(localStorage.getItem('ch_impressions')||0));
+ document.getElementById('left').textContent=(window.CHRewarded?CHRewarded.left():'—');}
+setInterval(paint,2000);paint();
+document.addEventListener('ch:rewarded',function(e){document.getElementById('msg').innerHTML='<b style="color:#22c55e">✓ ربحت $'+e.detail.toFixed(4)+'</b>';paint();});
+Promise.all([fetch('/platforms.json?t='+Date.now()).then(r=>r.json()).catch(()=>({platforms:[]})),
+ fetch('/referrals.json?t='+Date.now()).then(r=>r.json()).catch(()=>({top:[]}))]).then(function(a){
+ var rate={};(a[1].top||[]).forEach(x=>rate[x.id]=x.pct);
+ var rows=(a[0].platforms||[]).filter(x=>x.c==='ptc'||x.c==='gpt').sort(function(x,y){return (rate[y.id]||0)-(rate[x.id]||0)});
+ document.getElementById('tb').innerHTML=rows.map(x=>'<tr><td><b>'+x.n+'</b><br><span class="l">'+x.note+'</span></td><td>من $'+x.min+'</td>'+
+  '<td>'+(rate[x.id]?'<b style="color:#22c55e">'+rate[x.id]+'%</b>':'—')+'</td><td><a class="b" target="_blank" rel="noopener" href="'+x.u+'">سجّل</a></td></tr>').join('');});
+</script><script src="/ads.js" defer></script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+<script src="/owner.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

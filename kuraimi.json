@@ -1,0 +1,52 @@
+{
+ "bank": "بنك الكريمي للتمويل الأصغر الإسلامي",
+ "swift": "KBMFYESAXXX",
+ "holder": "",
+ "account": "",
+ "phone": "",
+ "branch": "",
+ "methods": [
+  {
+   "id": "kuraimi_local",
+   "label": "حوالة الكريمي — ريال يمني",
+   "min": 5,
+   "cur": "YER",
+   "fee": 0
+  },
+  {
+   "id": "kuraimi_usd",
+   "label": "كريمي إكسبرس / دولار",
+   "min": 20,
+   "cur": "USD",
+   "fee": 0
+  },
+  {
+   "id": "mfloos",
+   "label": "محفظة إم فلوس (M-Floos)",
+   "min": 5,
+   "cur": "YER",
+   "fee": 0
+  },
+  {
+   "id": "usdt_trc20",
+   "label": "USDT TRC20",
+   "min": 5,
+   "cur": "USDT",
+   "fee": 1
+  },
+  {
+   "id": "usdt_base",
+   "label": "USDT/USDC على Base",
+   "min": 5,
+   "cur": "USDT",
+   "fee": 0.2
+  },
+  {
+   "id": "binance_p2p",
+   "label": "Binance P2P (وسيط)",
+   "min": 10,
+   "cur": "YER",
+   "fee": 0
+  }
+ ]
+}

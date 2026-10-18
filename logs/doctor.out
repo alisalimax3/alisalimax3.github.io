@@ -1,0 +1,640 @@
+
+[36m═══ 1 · فرز المفاتيح ═══[0m
+═══ إلزامي — الكود يقرأه فعلًا (86) ═══
+  ✗ ADSTERRA_API_KEY           ناقص       tools/pull_stats.py:10
+  ✗ ADULT_MAX                  ناقص       ADULT.sh:72
+      يُقرأ في 3 موضعًا
+  ✗ AHEAD                      ناقص       REPAIR.sh:21
+  ✗ API                        ناقص       restart.sh:35
+      يُقرأ في 3 موضعًا
+  ✗ ASHA                       ناقص       go.sh:133
+  ✗ AUTH                       ناقص       restart.sh:38
+  ✗ AUTO                       ناقص       REAL.sh:146
+  ✗ BASE                       ناقص       WIZARD2.sh:190
+      يُقرأ في 5 موضعًا
+  ✗ BRANCH                     ناقص       restart.sh:27
+      يُقرأ في 2 موضعًا
+  ✗ BROKEN                     ناقص       FIXERR.sh:341
+      يُقرأ في 2 موضعًا
+  ✗ CAND                       ناقص       FINISH.sh:28
+      يُقرأ في 6 موضعًا
+  ✗ CH_NS                      ناقص       RISE.sh:87
+      يُقرأ في 2 موضعًا
+  ✗ CH_REPO                    ناقص       AUDIT.sh:29
+      يُقرأ في 2 موضعًا
+  ✗ CH_TOK                     ناقص       AUDIT.sh:29
+      يُقرأ في 2 موضعًا
+  ✗ CINEHUB_ROOT               ناقص       tools/keys_doctor.py:5
+  ✗ CNT                        ناقص       FINISH.sh:75
+      يُقرأ في 2 موضعًا
+  ✗ CODE                       ناقص       ALLIN.sh:650
+      يُقرأ في 8 موضعًا
+  ✗ CUR                        ناقص       tools/ask.sh:7
+      يُقرأ في 3 موضعًا
+  ✗ DO_KEYS                    ناقص       FINAL.sh:190
+  ✗ DO_OPEN                    ناقص       NEW.sh:105
+      يُقرأ في 2 موضعًا
+  ✗ ETIMEOUT                   ناقص       NEW.sh:221
+      يُقرأ في 2 موضعًا
+  ✗ F404                       ناقص       REPAIR.sh:376
+      يُقرأ في 2 موضعًا
+  ✗ FAIL                       ناقص       FINAL.sh:261
+      يُقرأ في 9 موضعًا
+  ✗ FILES                      ناقص       FINAL.sh:248
+      يُقرأ في 4 موضعًا
+  ✗ FILM_MAX                   ناقص       REBUILD.sh:84
+      يُقرأ في 3 موضعًا
+  ✗ FILM_ROWS                  ناقص       REBUILD.sh:37
+      يُقرأ في 2 موضعًا
+  ✗ FRESH                      ناقص       NEW.sh:46
+  ✗ GHTMP                      ناقص       FIX.sh:24
+      يُقرأ في 4 موضعًا
+  ✗ GH_CLIENT_ID               ناقص       FIX.sh:56
+      يُقرأ في 3 موضعًا
+  ✗ GH_TOKEN                   ناقص       FINAL.sh:139
+      يُقرأ في 3 موضعًا
+  ✗ HARVEST_TARGET             ناقص       tools/harvest.py:7
+  ✗ HOME                       ناقص       ADULT.sh:7
+      يُقرأ في 95 موضعًا
+  ✗ HOST                       ناقص       ai_server.py:9
+  ✗ KEYS                       ناقص       WIZARD2.sh:43
+      يُقرأ في 7 موضعًا
+  ✗ LIMIT                      ناقص       tools/accounts_check.py:19
+  ✗ LIVE                       ناقص       AUDIT.sh:378
+      يُقرأ في 22 موضعًا
+  ✗ LOG                        ناقص       AGENT.sh:187
+      يُقرأ في 107 موضعًا
+  ✗ LOGIN                      ناقص       FINAL.sh:59
+      يُقرأ في 49 موضعًا
+  ✗ MIN_WITHDRAW               ناقص       AGENT.sh:150
+      يُقرأ في 4 موضعًا
+  ✗ MISS                       ناقص       REPAIR.sh:355
+      يُقرأ في 2 موضعًا
+  ✗ MSG                        ناقص       deploy.sh:4
+      يُقرأ في 2 موضعًا
+  ✗ NEED_FILM                  ناقص       FINISH.sh:76
+  ✗ NTOK                       ناقص       FINAL.sh:69
+      يُقرأ في 3 موضعًا
+  ✗ OUT                        ناقص       FINAL.sh:105
+      يُقرأ في 3 موضعًا
+  ✗ OWNER                      ناقص       AUDIT.sh:8
+      يُقرأ في 20 موضعًا
+  ✗ PAGES_LIMIT                ناقص       AGENT.sh:41
+      يُقرأ في 5 موضعًا
+  ✗ PAGE_LIMIT                 ناقص       tools/gen_static.py:6
+  ✗ PASS                       ناقص       NEW.sh:293
+  ✗ PID                        ناقص       ai.sh:13
+      يُقرأ في 10 موضعًا
+  ✗ PLATFORM_TARGET            ناقص       ALLIN.sh:220
+      يُقرأ في 2 موضعًا
+  ✗ PORT                       ناقص       ai_server.py:8
+  ✗ PREFIX                     ناقص       fix.sh:7
+      يُقرأ في 2 موضعًا
+  ✗ PROJ                       ناقص       deploy.py:8
+  ✗ PUSHURL                    ناقص       FINISH.sh:61
+      يُقرأ في 5 موضعًا
+  ✗ PWD                        ناقص       FIX.sh:91
+      يُقرأ في 13 موضعًا
+  ✗ REPO                       ناقص       AUDIT.sh:184
+      يُقرأ في 36 موضعًا
+  ✗ REQ                        ناقص       tools/ask.sh:11
+      يُقرأ في 2 موضعًا
+  ✗ RES                        ناقص       tools/ask.sh:15
+      يُقرأ في 3 موضعًا
+  ✗ RMSG                       ناقص       NEW.sh:266
+      يُقرأ في 4 موضعًا
+  ✗ ROOT                       ناقص       FINAL.sh:11
+      يُقرأ في 10 موضعًا
+  ✗ RUNS                       ناقص       RUNALL.sh:34
+  ✗ RUN_ENGINE                 ناقص       FINAL.sh:188
+      يُقرأ في 2 موضعًا
+  ✗ SCOPE                      ناقص       tools/accounts_check.py:19
+  ✗ SCOPES                     ناقص       FINISH.sh:44
+      يُقرأ في 2 موضعًا
+  ✗ SITE                       ناقص       DEV.sh:497
+      يُقرأ في 14 موضعًا
+  ✗ SITES_TARGET               ناقص       MASTER.sh:152
+      يُقرأ في 2 موضعًا
+  ✗ SITE_URL                   ناقص       ADULT.sh:316
+      يُقرأ في 9 موضعًا
+  ✗ SLUG                       ناقص       FINISH.sh:60
+      يُقرأ في 3 موضعًا
+  ✗ STAMP                      ناقص       ALLIN.sh:31
+      يُقرأ في 22 موضعًا
+  ✗ TESTS                      ناقص       DOCTOR.sh:64
+  ✗ TG_CHAT                    ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TG_REF                     ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TG_TOKEN                   ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TMDB_KEY                   ناقص       EXEC.sh:201
+      يُقرأ في 2 موضعًا
+  ✗ TMP                        ناقص       FIX.sh:17
+      يُقرأ في 16 موضعًا
+  ✗ TMPDIR                     ناقص       DEV.sh:7
+      يُقرأ في 21 موضعًا
+  ✗ TOK                        ناقص       AUDIT.sh:184
+      يُقرأ في 41 موضعًا
+  ✗ TOP                        ناقص       restart.sh:27
+      يُقرأ في 2 موضعًا
+  ✗ TT_SECRET                  ناقص       tools/setup_apply.py:10
+  ✗ TT_TOKEN                   ناقص       tools/setup_apply.py:10
+  ✗ URL                        ناقص       FINAL.sh:214
+      يُقرأ في 4 موضعًا
+  ✗ URLS                       ناقص       WIZARD2.sh:189
+      يُقرأ في 2 موضعًا
+  ✗ VMSG                       ناقص       NEW.sh:242
+      يُقرأ في 3 موضعًا
+  ✗ WFOK                       ناقص       FINISH.sh:101
+      يُقرأ في 2 موضعًا
+  ✗ WHO                        ناقص       FIX3.sh:52
+      يُقرأ في 2 موضعًا
+  ✗ YES                        ناقص       MASTER.sh:421
+
+═══ في keys.env لكن لا يقرأه الكود (47) ═══
+  · AADS_UNIT
+  · ADSENSE_CLIENT
+  · ADSTERRA_BANNER_MID
+  · ADSTERRA_BANNER_MOBILE
+  · ADSTERRA_BANNER_SIDE
+  · ADSTERRA_BANNER_TOP
+  · ADSTERRA_INPAGE
+  · ADSTERRA_POPUNDER
+  · ADSTERRA_PUB_ID
+  · ADSTERRA_SOCIALBAR
+  · APPS_SCRIPT_URL
+  · CCBILL_ACCOUNT
+  · CLKSH_UID
+  · CPAGRIP_SMARTLINK
+  · EXOCLICK_ZONE
+  · Enter
+  · GPLINKS_UID
+  · JUICYADS_ZONE
+  · KURAIMI_ACCOUNT
+  · KURAIMI_BANK
+  · KURAIMI_BRANCH
+  · KURAIMI_NAME
+  · KURAIMI_NAME_EN
+  · KURAIMI_PHONE
+  · KURAIMI_SWIFT
+  · LINKVERTISE_UID
+  · MONETAG_API_KEY
+  · MONETAG_MULTITAG
+  · MONETAG_REWARDED_ZONE
+  · OGADS_SMARTLINK
+  · OWNER_EMAIL
+  · OWNER_TELEGRAM
+  · OWNER_WHATSAPP
+  · POPADS_API_KEY
+  · PROPELLER_API_KEY
+  · SEGPAY_ACCOUNT
+  · SHRINKERN_UID
+  · SHRINKME_UID
+  · SUPABASE_ANON
+  · SUPABASE_URL
+  · TURNSTILE_SECRET
+  · TURNSTILE_SITE
+  · USDT_TRC20
+  · WORKER_URL
+  · WORKINK_UID
+  · data-aa
+  · · نسخت: ))              doneL
+
+═══ قوالب تنتظر قيمة (0) ═══
+
+═══ تعارض أسماء (28 مجموعة) ═══
+
+[36m═══ 2 · تصحيح أسماء الربط ═══[0m
+  لا شيء يحتاج تصحيحًا
+
+[36m═══ 3 · تحقق حيّ من كل مزوّد ═══[0m
+[33m![0m AADS_UNIT → لا يرد (A-ADS)
+[33m![0m EXOCLICK_ZONE → لا يرد (ExoClick)
+[33m![0m JUICYADS_ZONE → لا يرد (JuicyAds)
+
+  حيّ: 0 · فاشل: 3
+
+[36m═══ 4 · فحص الربط بالملفات ═══[0m
+  ✓ AADS_UNIT                  مربوط في 1 ملفًا (WIZARD2.sh)
+  ✓ EXOCLICK_ZONE              مربوط في 4 ملفًا (c/رعب.html)
+  ✗ Enter                      محفوظ لكن غير مربوط بأي ملف
+  ✓ JUICYADS_ZONE              مربوط في 4 ملفًا (c/رعب.html)
+  ✓ KURAIMI_ACCOUNT            مربوط في 6 ملفًا (data/bank.json)
+  ✓ KURAIMI_BANK               مربوط في 6 ملفًا (ads-config.json)
+  ✓ KURAIMI_NAME               مربوط في 5 ملفًا (data/bank.json)
+  ✓ KURAIMI_NAME_EN            مربوط في 4 ملفًا (data/bank.json)
+  ✓ KURAIMI_SWIFT              مربوط في 28 ملفًا (.live.html)
+  ✓ data-aa                    مربوط في 1 ملفًا (KEYS_AUDIT.sh)
+  ✗ · نسخت: ))              doneL محفوظ لكن غير مربوط بأي ملف
+
+  غير مربوط: 2
+
+[36m═══ 5 · الأسماء التي ما زالت ناقصة ═══[0m
+  إلزامي ناقص: 84
+    ADULT_MAX
+    AHEAD
+    API
+    ASHA
+    AUTH
+    AUTO
+    BASE
+    BRANCH
+    BROKEN
+    CAND
+    CH_NS
+    CH_REPO
+    CH_TOK
+    CINEHUB_ROOT
+    CNT
+    CODE
+    CUR
+    DO_KEYS
+    DO_OPEN
+    ETIMEOUT
+    F404
+    FAIL
+    FILES
+    FILM_MAX
+    FILM_ROWS
+    FRESH
+    GHTMP
+    GH_CLIENT_ID
+    GH_TOKEN
+    HARVEST_TARGET
+    HOME
+    HOST
+    KEYS
+    LIMIT
+    LIVE
+    LOG
+    LOGIN
+    MIN_WITHDRAW
+    MISS
+    MSG
+    NEED_FILM
+    NTOK
+    OUT
+    OWNER
+    PAGES_LIMIT
+    PAGE_LIMIT
+    PASS
+    PID
+    PLATFORM_TARGET
+    PORT
+    PREFIX
+    PROJ
+    PUSHURL
+    PWD
+    REPO
+    REQ
+    RES
+    RMSG
+    ROOT
+    RUNS
+    RUN_ENGINE
+    SCOPE
+    SCOPES
+    SITE
+    SITES_TARGET
+    SITE_URL
+    SLUG
+    STAMP
+    TESTS
+    TG_CHAT
+    TG_REF
+    TG_TOKEN
+    TMP
+    TMPDIR
+    TOK
+    TOP
+    TT_SECRET
+    TT_TOKEN
+    URL
+    URLS
+    VMSG
+    WFOK
+    WHO
+    YES
+
+[36m═══ تم — السجل: logs/doctor.2026-10-18_0550.log ═══[0m
+
+[36m═══ 1 · فرز المفاتيح ═══[0m
+═══ إلزامي — الكود يقرأه فعلًا (86) ═══
+  ✗ ADSTERRA_API_KEY           ناقص       tools/pull_stats.py:10
+  ✗ ADULT_MAX                  ناقص       ADULT.sh:72
+      يُقرأ في 3 موضعًا
+  ✗ AHEAD                      ناقص       REPAIR.sh:21
+  ✗ API                        ناقص       restart.sh:35
+      يُقرأ في 3 موضعًا
+  ✗ ASHA                       ناقص       go.sh:133
+  ✗ AUTH                       ناقص       restart.sh:38
+  ✗ AUTO                       ناقص       REAL.sh:146
+  ✗ BASE                       ناقص       WIZARD2.sh:190
+      يُقرأ في 5 موضعًا
+  ✗ BRANCH                     ناقص       restart.sh:27
+      يُقرأ في 2 موضعًا
+  ✗ BROKEN                     ناقص       FIXERR.sh:341
+      يُقرأ في 2 موضعًا
+  ✗ CAND                       ناقص       FINISH.sh:28
+      يُقرأ في 6 موضعًا
+  ✗ CH_NS                      ناقص       RISE.sh:87
+      يُقرأ في 2 موضعًا
+  ✗ CH_REPO                    ناقص       AUDIT.sh:29
+      يُقرأ في 2 موضعًا
+  ✗ CH_TOK                     ناقص       AUDIT.sh:29
+      يُقرأ في 2 موضعًا
+  ✗ CINEHUB_ROOT               ناقص       tools/keys_doctor.py:5
+  ✗ CNT                        ناقص       FINISH.sh:75
+      يُقرأ في 2 موضعًا
+  ✗ CODE                       ناقص       ALLIN.sh:650
+      يُقرأ في 8 موضعًا
+  ✗ CUR                        ناقص       tools/ask.sh:7
+      يُقرأ في 3 موضعًا
+  ✗ DO_KEYS                    ناقص       FINAL.sh:190
+  ✗ DO_OPEN                    ناقص       NEW.sh:105
+      يُقرأ في 2 موضعًا
+  ✗ ETIMEOUT                   ناقص       NEW.sh:221
+      يُقرأ في 2 موضعًا
+  ✗ F404                       ناقص       REPAIR.sh:376
+      يُقرأ في 2 موضعًا
+  ✗ FAIL                       ناقص       FINAL.sh:261
+      يُقرأ في 9 موضعًا
+  ✗ FILES                      ناقص       FINAL.sh:248
+      يُقرأ في 4 موضعًا
+  ✗ FILM_MAX                   ناقص       REBUILD.sh:84
+      يُقرأ في 3 موضعًا
+  ✗ FILM_ROWS                  ناقص       REBUILD.sh:37
+      يُقرأ في 2 موضعًا
+  ✗ FRESH                      ناقص       NEW.sh:46
+  ✗ GHTMP                      ناقص       FIX.sh:24
+      يُقرأ في 4 موضعًا
+  ✗ GH_CLIENT_ID               ناقص       FIX.sh:56
+      يُقرأ في 3 موضعًا
+  ✗ GH_TOKEN                   ناقص       FINAL.sh:139
+      يُقرأ في 3 موضعًا
+  ✗ HARVEST_TARGET             ناقص       tools/harvest.py:7
+  ✗ HOME                       ناقص       ADULT.sh:7
+      يُقرأ في 95 موضعًا
+  ✗ HOST                       ناقص       ai_server.py:9
+  ✗ KEYS                       ناقص       WIZARD2.sh:43
+      يُقرأ في 7 موضعًا
+  ✗ LIMIT                      ناقص       tools/accounts_check.py:19
+  ✗ LIVE                       ناقص       AUDIT.sh:378
+      يُقرأ في 22 موضعًا
+  ✗ LOG                        ناقص       AGENT.sh:187
+      يُقرأ في 107 موضعًا
+  ✗ LOGIN                      ناقص       FINAL.sh:59
+      يُقرأ في 49 موضعًا
+  ✗ MIN_WITHDRAW               ناقص       AGENT.sh:150
+      يُقرأ في 4 موضعًا
+  ✗ MISS                       ناقص       REPAIR.sh:355
+      يُقرأ في 2 موضعًا
+  ✗ MSG                        ناقص       deploy.sh:4
+      يُقرأ في 2 موضعًا
+  ✗ NEED_FILM                  ناقص       FINISH.sh:76
+  ✗ NTOK                       ناقص       FINAL.sh:69
+      يُقرأ في 3 موضعًا
+  ✗ OUT                        ناقص       FINAL.sh:105
+      يُقرأ في 3 موضعًا
+  ✗ OWNER                      ناقص       AUDIT.sh:8
+      يُقرأ في 20 موضعًا
+  ✗ PAGES_LIMIT                ناقص       AGENT.sh:41
+      يُقرأ في 5 موضعًا
+  ✗ PAGE_LIMIT                 ناقص       tools/gen_static.py:6
+  ✗ PASS                       ناقص       NEW.sh:293
+  ✗ PID                        ناقص       ai.sh:13
+      يُقرأ في 10 موضعًا
+  ✗ PLATFORM_TARGET            ناقص       ALLIN.sh:220
+      يُقرأ في 2 موضعًا
+  ✗ PORT                       ناقص       ai_server.py:8
+  ✗ PREFIX                     ناقص       fix.sh:7
+      يُقرأ في 2 موضعًا
+  ✗ PROJ                       ناقص       deploy.py:8
+  ✗ PUSHURL                    ناقص       FINISH.sh:61
+      يُقرأ في 5 موضعًا
+  ✗ PWD                        ناقص       FIX.sh:91
+      يُقرأ في 13 موضعًا
+  ✗ REPO                       ناقص       AUDIT.sh:184
+      يُقرأ في 36 موضعًا
+  ✗ REQ                        ناقص       tools/ask.sh:11
+      يُقرأ في 2 موضعًا
+  ✗ RES                        ناقص       tools/ask.sh:15
+      يُقرأ في 3 موضعًا
+  ✗ RMSG                       ناقص       NEW.sh:266
+      يُقرأ في 4 موضعًا
+  ✗ ROOT                       ناقص       FINAL.sh:11
+      يُقرأ في 10 موضعًا
+  ✗ RUNS                       ناقص       RUNALL.sh:34
+  ✗ RUN_ENGINE                 ناقص       FINAL.sh:188
+      يُقرأ في 2 موضعًا
+  ✗ SCOPE                      ناقص       tools/accounts_check.py:19
+  ✗ SCOPES                     ناقص       FINISH.sh:44
+      يُقرأ في 2 موضعًا
+  ✗ SITE                       ناقص       DEV.sh:497
+      يُقرأ في 14 موضعًا
+  ✗ SITES_TARGET               ناقص       MASTER.sh:152
+      يُقرأ في 2 موضعًا
+  ✗ SITE_URL                   ناقص       ADULT.sh:316
+      يُقرأ في 9 موضعًا
+  ✗ SLUG                       ناقص       FINISH.sh:60
+      يُقرأ في 3 موضعًا
+  ✗ STAMP                      ناقص       ALLIN.sh:31
+      يُقرأ في 22 موضعًا
+  ✗ TESTS                      ناقص       DOCTOR.sh:64
+  ✗ TG_CHAT                    ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TG_REF                     ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TG_TOKEN                   ناقص       DEV.sh:374
+      يُقرأ في 2 موضعًا
+  ✗ TMDB_KEY                   ناقص       EXEC.sh:201
+      يُقرأ في 2 موضعًا
+  ✗ TMP                        ناقص       FIX.sh:17
+      يُقرأ في 16 موضعًا
+  ✗ TMPDIR                     ناقص       DEV.sh:7
+      يُقرأ في 21 موضعًا
+  ✗ TOK                        ناقص       AUDIT.sh:184
+      يُقرأ في 41 موضعًا
+  ✗ TOP                        ناقص       restart.sh:27
+      يُقرأ في 2 موضعًا
+  ✗ TT_SECRET                  ناقص       tools/setup_apply.py:10
+  ✗ TT_TOKEN                   ناقص       tools/setup_apply.py:10
+  ✗ URL                        ناقص       FINAL.sh:214
+      يُقرأ في 4 موضعًا
+  ✗ URLS                       ناقص       WIZARD2.sh:189
+      يُقرأ في 2 موضعًا
+  ✗ VMSG                       ناقص       NEW.sh:242
+      يُقرأ في 3 موضعًا
+  ✗ WFOK                       ناقص       FINISH.sh:101
+      يُقرأ في 2 موضعًا
+  ✗ WHO                        ناقص       FIX3.sh:52
+      يُقرأ في 2 موضعًا
+  ✗ YES                        ناقص       MASTER.sh:421
+
+═══ في keys.env لكن لا يقرأه الكود (47) ═══
+  · AADS_UNIT
+  · ADSENSE_CLIENT
+  · ADSTERRA_BANNER_MID
+  · ADSTERRA_BANNER_MOBILE
+  · ADSTERRA_BANNER_SIDE
+  · ADSTERRA_BANNER_TOP
+  · ADSTERRA_INPAGE
+  · ADSTERRA_POPUNDER
+  · ADSTERRA_PUB_ID
+  · ADSTERRA_SOCIALBAR
+  · APPS_SCRIPT_URL
+  · CCBILL_ACCOUNT
+  · CLKSH_UID
+  · CPAGRIP_SMARTLINK
+  · EXOCLICK_ZONE
+  · Enter
+  · GPLINKS_UID
+  · JUICYADS_ZONE
+  · KURAIMI_ACCOUNT
+  · KURAIMI_BANK
+  · KURAIMI_BRANCH
+  · KURAIMI_NAME
+  · KURAIMI_NAME_EN
+  · KURAIMI_PHONE
+  · KURAIMI_SWIFT
+  · LINKVERTISE_UID
+  · MONETAG_API_KEY
+  · MONETAG_MULTITAG
+  · MONETAG_REWARDED_ZONE
+  · OGADS_SMARTLINK
+  · OWNER_EMAIL
+  · OWNER_TELEGRAM
+  · OWNER_WHATSAPP
+  · POPADS_API_KEY
+  · PROPELLER_API_KEY
+  · SEGPAY_ACCOUNT
+  · SHRINKERN_UID
+  · SHRINKME_UID
+  · SUPABASE_ANON
+  · SUPABASE_URL
+  · TURNSTILE_SECRET
+  · TURNSTILE_SITE
+  · USDT_TRC20
+  · WORKER_URL
+  · WORKINK_UID
+  · data-aa
+  · · نسخت: ))              doneL
+
+═══ قوالب تنتظر قيمة (0) ═══
+
+═══ تعارض أسماء (28 مجموعة) ═══
+
+[36m═══ 2 · تصحيح أسماء الربط ═══[0m
+  لا شيء يحتاج تصحيحًا
+
+[36m═══ 3 · تحقق حيّ من كل مزوّد ═══[0m
+[33m![0m AADS_UNIT → لا يرد (A-ADS)
+[33m![0m EXOCLICK_ZONE → لا يرد (ExoClick)
+[33m![0m JUICYADS_ZONE → ردّ بلا دليل (JuicyAds)
+
+  حيّ: 0 · فاشل: 3
+
+[36m═══ 4 · فحص الربط بالملفات ═══[0m
+  ✓ AADS_UNIT                  مربوط في 1 ملفًا (WIZARD2.sh)
+  ✓ EXOCLICK_ZONE              مربوط في 4 ملفًا (c/رعب.html)
+  ✗ Enter                      محفوظ لكن غير مربوط بأي ملف
+  ✓ JUICYADS_ZONE              مربوط في 4 ملفًا (c/رعب.html)
+  ✓ KURAIMI_ACCOUNT            مربوط في 6 ملفًا (data/bank.json)
+  ✓ KURAIMI_BANK               مربوط في 6 ملفًا (ads-config.json)
+  ✓ KURAIMI_NAME               مربوط في 5 ملفًا (data/bank.json)
+  ✓ KURAIMI_NAME_EN            مربوط في 4 ملفًا (data/bank.json)
+  ✓ KURAIMI_SWIFT              مربوط في 28 ملفًا (.live.html)
+  ✓ data-aa                    مربوط في 1 ملفًا (KEYS_AUDIT.sh)
+  ✗ · نسخت: ))              doneL محفوظ لكن غير مربوط بأي ملف
+
+  غير مربوط: 2
+
+[36m═══ 5 · الأسماء التي ما زالت ناقصة ═══[0m
+  إلزامي ناقص: 84
+    ADULT_MAX
+    AHEAD
+    API
+    ASHA
+    AUTH
+    AUTO
+    BASE
+    BRANCH
+    BROKEN
+    CAND
+    CH_NS
+    CH_REPO
+    CH_TOK
+    CINEHUB_ROOT
+    CNT
+    CODE
+    CUR
+    DO_KEYS
+    DO_OPEN
+    ETIMEOUT
+    F404
+    FAIL
+    FILES
+    FILM_MAX
+    FILM_ROWS
+    FRESH
+    GHTMP
+    GH_CLIENT_ID
+    GH_TOKEN
+    HARVEST_TARGET
+    HOME
+    HOST
+    KEYS
+    LIMIT
+    LIVE
+    LOG
+    LOGIN
+    MIN_WITHDRAW
+    MISS
+    MSG
+    NEED_FILM
+    NTOK
+    OUT
+    OWNER
+    PAGES_LIMIT
+    PAGE_LIMIT
+    PASS
+    PID
+    PLATFORM_TARGET
+    PORT
+    PREFIX
+    PROJ
+    PUSHURL
+    PWD
+    REPO
+    REQ
+    RES
+    RMSG
+    ROOT
+    RUNS
+    RUN_ENGINE
+    SCOPE
+    SCOPES
+    SITE
+    SITES_TARGET
+    SITE_URL
+    SLUG
+    STAMP
+    TESTS
+    TG_CHAT
+    TG_REF
+    TG_TOKEN
+    TMP
+    TMPDIR
+    TOK
+    TOP
+    TT_SECRET
+    TT_TOKEN
+    URL
+    URLS
+    VMSG
+    WFOK
+    WHO
+    YES
+
+[36m═══ تم — السجل: logs/doctor.2026-10-18_0552.log ═══[0m

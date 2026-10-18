@@ -1,0 +1,48 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>جارٍ التحويل…</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:16px;text-align:center}
+.card{max-width:620px;margin:24px auto;background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:16px}
+a.b{display:inline-block;background:#22c55e;color:#04121a;border-radius:10px;padding:12px 20px;font-weight:800;text-decoration:none;margin:10px}
+.l{color:#8aa0bd;font-size:13px}iframe{border:0;width:100%;max-width:100%}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="card">
+<h1>وجهتك جاهزة</h1>
+<div class="l" id="u"></div>
+<a class="b" id="go">اذهب الآن ←</a>
+<div class="ch-ad" data-ad="mid" style="margin:14px 0"></div>
+<div class="l">أو جرّب عرضًا سريعًا من شركائنا:</div>
+<div id="sl" style="margin-top:10px"></div>
+<div class="l" style="margin-top:12px">هذه الصفحة تُشغّل إعلانًا + smartlink CPA قبل الوجهة ⇒ دخل مزدوج من نفس النقرة.</div>
+</div>
+<script>
+var q=new URL(location.href).searchParams,u=q.get('u')||'',n=q.get('n')||'';
+document.getElementById('u').textContent=n?('الوجهة: '+n):'';
+var a=document.getElementById('go');a.href=u||'https://alkazmybwhwr-dot.github.io/';
+Promise.all([fetch('/shorteners.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+ fetch('/platforms.json?t='+Date.now()).then(r=>r.json()).catch(()=>({platforms:[]}))]).then(function(x){
+ var sl=(x[0].smartlinks)||{},host='';
+ try{host=new URL(u).hostname}catch(e){}
+ var c=(x[1].platforms||[]).filter(p=>p.c==='cpa');
+ document.getElementById('sl').innerHTML=c.slice(0,3).map(p=>'<a style="display:inline-block;margin:4px;border:1px solid #1e2a44;border-radius:9px;padding:8px 12px;text-decoration:none;color:#4dd0e1" target="_blank" rel="noopener" href="'+p.u+'">'+p.n+' — '+p.note+'</a>').join('');
+ setTimeout(function(){ if(u&&!q.get('stay')) location.replace(u) },9000);
+});
+</script><script src="/ads.js" defer></script><script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+<script src="/owner.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

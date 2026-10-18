@@ -1,0 +1,82 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>سجّل واقبض · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:1000px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:13px;padding:13px;margin:9px 0}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1px solid #1e2a44;padding:7px;text-align:right}
+th{color:#8aa0bd;position:sticky;top:0;background:#0a0e1a}
+a.b{background:#4dd0e1;color:#04121a;border-radius:8px;padding:5px 10px;font-weight:800;text-decoration:none;white-space:nowrap}
+.big{color:#22c55e;font-weight:800}.l{color:#8aa0bd;font-size:12px}.pill{border:1px solid;border-radius:99px;padding:1px 8px;font-size:11px}
+select,input{background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:8px;padding:8px}
+.bar{height:9px;background:#0d1424;border-radius:99px;overflow:hidden;margin:8px 0}.bar>i{display:block;height:100%;background:linear-gradient(90deg,#22c55e,#4dd0e1)}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="wrap">
+<h1>سجّل واقبض — 170 منصة مرتّبة بالأعلى دخلًا</h1>
+<p class="l">اضغط «سجّل» ← أنشئ الحساب بنفس البريد ← الصق المعرّف/الكود في الخانة ← يُحفظ محليًا. الأعلى عمولة في الأعلى.</p>
+<div class="card"><b>تقدّمك:</b> <span id="pg"></span><div class="bar"><i id="pgi" style="width:0"></i></div>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px">
+<select id="fc"></select><input id="q" placeholder="ابحث…" oninput="draw()">
+<button onclick="exportJSON()" style="background:#a78bfa;border:0;border-radius:8px;padding:8px 12px;font-weight:800">تصدير المعرّفات</button>
+<button onclick="clearAll()" style="background:#0d1424;color:#e8f6ff;border:1px solid #1e2a44;border-radius:8px;padding:8px 12px">تصفير</button>
+</div></div>
+<div class="card" style="padding:0;overflow:auto;max-height:70vh"><table><thead><tr><th>#</th><th>المنصة</th><th>الأجر</th><th>أدنى سحب</th><th>الدفع</th><th>اليمن</th><th>المعرّف</th><th>حالة</th><th></th></tr></thead><tbody id="tb"></tbody></table></div>
+<pre id="out" style="direction:ltr;text-align:left;background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;max-height:220px;overflow:auto"></pre>
+<p class="l"><a href="/watch.html">شاهد واقبض</a> · <a href="/treasury.html">الخزينة</a> · <a href="/withdraw.html">السحب</a> · <a href="/">الرئيسية</a></p>
+</div><script>
+var D=[],DONE={},CODES={},SHOWN=250;
+function K(k){try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return{}}}
+function S(k,v){localStorage.setItem(k,JSON.stringify(v))}
+Promise.all([fetch('/platforms.json?t='+Date.now()).then(r=>r.json()).catch(()=>({platforms:[]})),
+ fetch('/referrals.json?t='+Date.now()).then(r=>r.json()).catch(()=>({top:[]})),
+ fetch('/owner.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))]).then(a=>{
+ var j=a[0],ref=a[1],own=a[2];D=j.platforms||[];DONE=K('ch_applied');CODES=K('ch_codes');
+ var rate={};(ref.top||[]).forEach(x=>rate[x.id]=x.pct);
+ var order={short:0,cpa:1,ptc:2,gpt:3,ad:4,aff:5,video:6,write:7,micro:8,crypto:9,seo:10};
+ D.sort(function(x,y){return (order[x.c]||99)-(order[y.c]||99)||(rate[y.id]||0)-(rate[x.id]||0)});
+ document.getElementById('fc').innerHTML='<option value="">كل التصنيفات ('+D.length+')</option>'+
+  Object.keys(j.cats||{}).map(c=>'<option value="'+c+'">'+j.cats[c]+'</option>').join('');
+ draw();prog();
+});
+function draw(){var c=document.getElementById('fc').value,q=(document.getElementById('q').value||'').toLowerCase();
+ var rows=D.filter(x=>(!c||x.c===c)&&(!q||(x.n+x.note).toLowerCase().includes(q)));
+ document.getElementById('tb').innerHTML=rows.map(function(x,i){
+  var col=x.ye==='high'?'#22c55e':x.ye==='mid'?'#fbbf24':'#f87171';
+  var tag=col==='#22c55e'?'مباشر':col==='#fbbf24'?'بوسيط':'يحتاج وسيط';
+  return '<tr><td>'+(i+1)+'</td><td><b>'+x.n+'</b><br><span class="l">'+x.note+'</span></td>'+
+   '<td class="big">'+(x.model==='ppc'||x.model==='cpa'?'$':'')+ (x.min||0) + (x.model==='ppc'?'+/1000':x.model==='cpa'?'+':'') +'</td>'+
+   '<td>$'+(x.min||0)+'</td><td class="l">'+(x.p||[]).join(' · ')+'</td>'+
+   '<td><span class="pill" style="color:'+col+';border-color:'+col+'55">'+tag+'</span></td>'+
+   '<td><input style="width:110px" value="'+(CODES[x.id]||'')+'" placeholder="كود/ID" oninput="setc(\''+x.id+'\',this.value)"></td>'+
+   '<td>'+(DONE[x.id]?'<span class="pill" style="color:#22c55e;border-color:#22c55e55">✓ مسجّل</span>':'<span class="l">—</span>')+'</td>'+
+   '<td><a class="b" target="_blank" rel="noopener" href="'+x.u+'">سجّل</a> <button onclick="mark(\''+x.id+'\')" style="background:#0d1424;color:#e8f6ff;border:1px solid #1e2a44;border-radius:8px;padding:4px 8px">✓</button></td></tr>'}).join('')
+  ||'<tr><td colspan=9 class="l">لا نتائج</td></tr>';
+ if(total>SHOWN&&!q)document.getElementById('tb').insertAdjacentHTML('beforeend','<tr><td colspan=9><button id="loadmore" onclick="SHOWN+=250;draw()">تحميل المزيد ('+(total-SHOWN)+' متبقٍ من '+total+')</button></td></tr>');;prog();}
+function mark(id){DONE[id]=DONE[id]?0:1;S('ch_applied',DONE);draw()}
+function setc(id,v){CODES[id]=v;S('ch_codes',CODES)}
+function prog(){var n=Object.keys(DONE).filter(k=>DONE[k]).length;var pc=D.length?(n/D.length*100):0;
+ document.getElementById('pgi').style.width=pc.toFixed(1)+'%';
+ document.getElementById('pg').textContent=n+' من '+D.length+' ('+pc.toFixed(1)+'%)';}
+function exportJSON(){var o={};Object.keys(CODES).forEach(k=>{if(CODES[k])o[k]=CODES[k]});
+ document.getElementById('out').textContent=JSON.stringify(o,null,1);navigator.clipboard.writeText(JSON.stringify(o,null,1));}
+function clearAll(){DONE={};CODES={};S('ch_applied',{});S('ch_codes',{});draw();}
+</script><script src="/ads.js" defer></script><script src="/nav.js" defer></script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

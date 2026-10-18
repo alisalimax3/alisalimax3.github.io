@@ -1,0 +1,27 @@
+name: weekly
+on:
+  schedule:
+    - cron: '41 3 * * 0'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: report
+        run: |
+          mkdir -p reports
+          python3 - <<'PY'
+          import json,datetime
+          try: t=json.load(open('treasury.json'))
+          except Exception: t={'total_30d':0,'by_network':{}}
+          d=datetime.date.today().isoformat()
+          open('reports/%s.md'%d,'w').write('# تقرير %s\n\nإجمالي 30 يوم: $%s\n\n'%(d,t.get('total_30d',0))+''.join('- %s: $%s\n'%(k,v.get('revenue',0)) for k,v in (t.get('by_network') or {}).items()))
+          PY
+          git config user.name cinehub-bot
+          git config user.email bot@users.noreply.github.com
+          git add -A
+          git diff --cached --quiet || git commit -m "weekly $(date -u +%F) [skip ci]"
+          git push

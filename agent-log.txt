@@ -1,0 +1,150 @@
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/home/runner/work/alkazmybwhwr-dot.github.io/alkazmybwhwr-dot.github.io/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 37/37 | غائب: لا شيء
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 53
+status ok
+report ok
+agent-log ok
+balance 0.054000 / min 5.00
+لا عناصر
+nets 269 with_key 0
+counts {'visits': 12, 'impressions': 36, 'clicks': 0}
+confirmed 0.000000 | estimated 0.054000 | impressions 36
+مكافآت الوكيل اليوم: $0.058500 | الإجمالي: $0.058500
+treasury 0.0585
+ledger 46 5772dc9fe4f8
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/home/runner/work/alkazmybwhwr-dot.github.io/alkazmybwhwr-dot.github.io/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 37/37 | غائب: لا شيء
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 54
+status ok
+report ok
+agent-log ok
+balance 0.058500 / min 5.00
+لا عناصر
+nets 269 with_key 0
+counts {'visits': 12, 'impressions': 36, 'clicks': 0}
+confirmed 0.000000 | estimated 0.054000 | impressions 36
+مكافآت الوكيل اليوم: $0.063000 | الإجمالي: $0.063000
+treasury 0.063
+ledger 47 d60ee3e7ecfa
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/home/runner/work/alkazmybwhwr-dot.github.io/alkazmybwhwr-dot.github.io/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 37/37 | غائب: لا شيء
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 55
+status ok
+report ok
+agent-log ok
+balance 0.063000 / min 5.00
+لا عناصر
+nets 269 with_key 0
+counts {'visits': 12, 'impressions': 36, 'clicks': 0}
+confirmed 0.000000 | estimated 0.054000 | impressions 36
+مكافآت الوكيل اليوم: $0.067500 | الإجمالي: $0.067500
+treasury 0.0675
+ledger 48 c38bd4545314
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/home/runner/work/alkazmybwhwr-dot.github.io/alkazmybwhwr-dot.github.io/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 37/37 | غائب: لا شيء
+أفلام 4440 · كبار 0 · طلبات إعلان 0 · دورات 56
+status ok
+report ok
+agent-log ok
+balance 0.067500 / min 5.00
+لا عناصر
+nets 269 with_key 0
+counts {'visits': 13, 'impressions': 36, 'clicks': 0}
+confirmed 0.000000 | estimated 0.054000 | impressions 36
+مكافآت الوكيل اليوم: $0.072000 | الإجمالي: $0.072000
+treasury 0.072
+ledger 50 eb9db6be35b4
+insights ok
+شبكات كبار: 69 | مواقع: 160 | إجمالي: 229 | signup.json: 269
+  Eporner top-weekly: 100
+  Eporner top-monthly: 100
+  Eporner top-all-time: 100
+  Eporner top-rated: 100
+  Eporner latest: 100
+  Eporner longest: 100
+Traceback (most recent call last):
+  File "/home/runner/work/alkazmybwhwr-dot.github.io/alkazmybwhwr-dot.github.io/tools/ingest_adult.py", line 40, in <module>
+    tags=",".join((v.get("tags") or [])[:6])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: sequence item 0: expected str instance, dict found
+صفحات وسوم: 0
+منصات مضافة: 0 | إجمالي قوائم التسجيل: 269 | إجمالي المنصات: 242
+✗ لا مفتاح شبكة — الإيراد المؤكَّد لا يتحرك بلا مفتاح
+✗ الزيارات قليلة — الظهور يحتاج زوارًا حقيقيين
+✓ ظهور حقيقي يُسجَّل — 
+✓ حساب الكريمي محفوظ — 
+حيّ 37/37 | غائب: لا شيء
+أفلام 10000 · كبار 0 · طلبات إعلان 0 · دورات 57
+status ok
+report ok

@@ -1,0 +1,20 @@
+:root{--g1:#4dd0e1;--g2:#a78bfa;--g3:#22c55e}
+body{background:radial-gradient(1100px 520px at 50% -10%,#152a3f,#0a0e1a 62%)!important}
+.hero{position:relative;overflow:hidden;border-radius:18px;padding:26px 18px;margin:14px 0;
+ background:linear-gradient(135deg,#0f1c33,#131b30 60%,#1a1430);border:1px solid #22304d;text-align:center}
+.hero:before{content:"";position:absolute;inset:-40%;background:conic-gradient(from 0deg,#4dd0e155,#a78bfa55,#22c55e55,#4dd0e155);
+ animation:spin 18s linear infinite;filter:blur(38px);opacity:.5}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero>*{position:relative}
+.hero h2{font-size:26px;margin:0 0 6px;background:linear-gradient(90deg,#4dd0e1,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:#9fb6d1;margin:0 0 14px;font-size:13.5px}
+.cta{display:inline-block;background:linear-gradient(135deg,#22c55e,#4dd0e1);color:#04121a;font-weight:900;
+ border-radius:12px;padding:12px 22px;text-decoration:none;margin:4px;box-shadow:0 8px 26px #22c55e33}
+.cta.alt{background:linear-gradient(135deg,#a78bfa,#4dd0e1)}
+.card{backdrop-filter:blur(6px);transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-2px);border-color:#2c3e63}
+.livebar{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:10px 0}
+.livebar span{background:#0d1424;border:1px solid #22304d;border-radius:999px;padding:6px 13px;font-size:12px}
+@keyframes pulse{50%{opacity:.55}}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;margin-inline-end:6px;animation:pulse 1.6s infinite}
+@media(max-width:520px){.hero h2{font-size:21px}}

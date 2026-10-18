@@ -1,0 +1,28 @@
+{
+  "codes": [
+    {
+      "code": "CINEHUB-3099",
+      "kind": "usd",
+      "value": 0.25,
+      "max_uses": 1000,
+      "used": 0,
+      "note": "كود الإطلاق"
+    },
+    {
+      "code": "WELCOME",
+      "kind": "xp",
+      "value": 100,
+      "max_uses": 10000,
+      "used": 0,
+      "note": "ترحيب"
+    },
+    {
+      "code": "VIP30",
+      "kind": "days",
+      "value": 30,
+      "max_uses": 50,
+      "used": 0,
+      "note": "شهر ذهبي"
+    }
+  ]
+}

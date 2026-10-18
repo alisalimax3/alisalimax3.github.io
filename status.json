@@ -1,0 +1,46 @@
+{
+ "engine": "live",
+ "updated": "2026-10-18T18:21:15.619127+00:00",
+ "revenue": {
+  "confirmed_total": 0.0,
+  "sources": [
+   {
+    "net": "Adsterra",
+    "ok": false,
+    "http": "<urlopen error _ssl.c:1064: The handshake operation timed out>",
+    "value": 0
+   },
+   {
+    "net": "Monetag",
+    "ok": false,
+    "http": "لا مفتاح",
+    "value": 0
+   },
+   {
+    "net": "Linkvertise",
+    "ok": false,
+    "http": "لا مفتاح",
+    "value": 0
+   }
+  ],
+  "estimated": {
+   "impressions": 36,
+   "assumed_cpm": 1.5,
+   "value": 0.054,
+   "note": "تقديري = ظهور حقيقي × CPM مفترض معلن"
+  },
+  "updated": "2026-10-18T18:21:13.884313+00:00"
+ },
+ "registry": {
+  "generated": "2026-10-17T00:24:23.264087+00:00",
+  "counts": {
+   "sites": 0,
+   "shards": 0,
+   "money": 0,
+   "other": 0
+  },
+  "categories": {},
+  "shard_size": 1000,
+  "note": "التصنيف بالكلمات المفتاحية في النطاق — وليس ادّعاءً"
+ }
+}

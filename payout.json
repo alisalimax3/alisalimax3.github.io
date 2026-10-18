@@ -1,0 +1,1 @@
+{"bank":{"name":"Al-Kuraimi Islamic Microfinance Bank","swift":"KBMFYESAXXX","city":"Sanaa"},"methods":[{"id":"usdt","label":"USDT TRC20","min":5},{"id":"paxum","label":"Paxum","min":5},{"id":"payoneer","label":"Payoneer","min":20},{"id":"wire","label":"حوالة بنكية - الكريمي","min":500}]}

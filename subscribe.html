@@ -1,0 +1,54 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تفعيل الشبكات — CineHub 3099</title>
+<style>
+body{font-family:system-ui,Tahoma,sans-serif;background:#0b0f14;color:#e8eef6;margin:0;padding:14px}
+h1{font-size:20px}.warn{background:#2a1f0a;border:1px solid #6b4b0f;padding:8px;border-radius:8px;font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+th,td{border-bottom:1px solid #1e2937;padding:6px;text-align:right}
+a{color:#5cc8ff}input{width:100%;background:#0f1720;border:1px solid #24313f;color:#e8eef6;border-radius:6px;padding:5px;font-size:12px}
+button{background:#123a4d;color:#9fe;border:1px solid #2a6;border-radius:8px;padding:8px 12px;margin:4px;font-size:13px}
+#st{font-size:13px;color:#8fd}
+</style></head><body>
+<h1>تفعيل الشبكات والمنصات</h1>
+<div class="warn">افتح الرابط → سجّل (كابتشا) → انسخ المفتاح أو المعرّف → الصقه. يُحفظ فورًا ويُدفع للمستودع، والمحرّك يقرأه خلال 5 دقائق.</div>
+<p><button id="save">حفظ ودفع إلى المستودع</button><button id="copy">نسخ keys.env</button><span id="st"></span></p>
+<table id="t"><thead><tr><th>الشبكة</th><th>النوع</th><th>أدنى سحب</th><th>تسجيل</th><th>المفتاح / المعرّف</th></tr></thead><tbody></tbody></table>
+<script>
+(function(){
+ var keys={},gh={};
+ try{keys=JSON.parse(localStorage.getItem('ch3099_keys')||'{}')}catch(e){}
+ try{gh=JSON.parse(localStorage.getItem('ch3099_gh')||'{}')}catch(e){}
+ function persist(){localStorage.setItem('ch3099_keys',JSON.stringify(keys));}
+ function env(){return Object.keys(keys).filter(function(k){return keys[k]}).map(function(k){return k+'='+keys[k]}).join('\n')+'\n';}
+ fetch('signup.json?_='+Date.now()).then(function(r){return r.json()}).then(function(list){
+  var tb=document.querySelector('#t tbody');
+  list.forEach(function(x){
+   var tr=document.createElement('tr');
+   tr.innerHTML='<td>'+x.name+'</td><td>'+x.cat+'</td><td>'+x.min+'</td><td><a target="_blank" rel="noopener" href="'+x.url+'">فتح</a></td><td></td>';
+   var inp=document.createElement('input'); inp.placeholder=x.var; inp.value=keys[x.var]||'';
+   inp.oninput=function(){keys[x.var]=inp.value.trim();persist();};
+   tr.lastChild.appendChild(inp); tb.appendChild(tr);
+  });
+ });
+ document.getElementById('copy').onclick=function(){navigator.clipboard.writeText(env());document.getElementById('st').textContent='نُسخ';};
+ document.getElementById('save').onclick=function(){
+  if(!gh.token||!gh.repo){document.getElementById('st').textContent='افتح setup.html أولًا لحفظ رمز GitHub';return;}
+  var url='https://api.github.com/repos/'+gh.repo+'/contents/keys.env';
+  var H={'Authorization':'token '+gh.token,'Content-Type':'application/json'};
+  fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+   var body={message:'keys from subscribe.html',content:btoa(unescape(encodeURIComponent(env()))),branch:gh.branch||'main'};
+   if(j&&j.sha)body.sha=j.sha;
+   return fetch(url,{method:'PUT',headers:H,body:JSON.stringify(body)});
+  }).then(function(r){document.getElementById('st').textContent=r&&r.ok?'تم الدفع — المحرّك يعمل خلال 5 دقائق':'فشل الدفع';});
+ };
+})();
+</script>
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

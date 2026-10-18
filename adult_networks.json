@@ -1,0 +1,1840 @@
+{
+ "generated": "2026-10-17T21:32:35.229314+00:00",
+ "networks": 69,
+ "sites": 160,
+ "total": 229,
+ "items": [
+  {
+   "name": "ExoClick",
+   "cat": "إعلانات للكبار",
+   "min": "$20",
+   "url": "https://www.exoclick.com",
+   "var": "EXOCLICK_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "JuicyAds",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.juicyads.com",
+   "var": "JUICYADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "TrafficJunky",
+   "cat": "إعلانات للكبار",
+   "min": "$20",
+   "url": "https://www.trafficjunky.com",
+   "var": "TRAFFICJUNKY_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "TrafficStars",
+   "cat": "إعلانات للكبار",
+   "min": "$25",
+   "url": "https://trafficstars.com",
+   "var": "TRAFFICSTARS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "PlugRush",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://www.plugrush.com",
+   "var": "PLUGRUSH_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Clickadu",
+   "cat": "إعلانات للكبار",
+   "min": "$10",
+   "url": "https://clickadu.com",
+   "var": "CLICKADU_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Adsterra",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://adsterra.com",
+   "var": "ADSTERRA_API_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "PopAds",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://www.popads.net",
+   "var": "POPADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Evadav",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://evadav.com",
+   "var": "EVADAV_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdMaven",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://admaven.com",
+   "var": "ADMAVEN_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "HilltopAds",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://hilltopads.com",
+   "var": "HILLTOP_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Galaksion",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://galaksion.com",
+   "var": "GALAKSION_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "MyBid",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://mybid.io",
+   "var": "MYBID_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "RichAds",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://richads.com",
+   "var": "RICHADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Kadam",
+   "cat": "إعلانات للكبار",
+   "min": "$10",
+   "url": "https://kadam.net",
+   "var": "KADAM_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdCash",
+   "cat": "إعلانات للكبار",
+   "min": "$25",
+   "url": "https://adcash.com",
+   "var": "ADCASH_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "PropellerAds",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://propellerads.com",
+   "var": "PROPELLER_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Monetag",
+   "cat": "إعلانات للكبار",
+   "min": "$5",
+   "url": "https://monetag.com",
+   "var": "MONETAG_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "EroAdvertising",
+   "cat": "إعلانات للكبار",
+   "min": "$25",
+   "url": "https://www.eroadvertising.com",
+   "var": "EROADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "BitterStrawberry",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.bitterstrawberry.com",
+   "var": "BITTER_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdSpyglass",
+   "cat": "إعلانات للكبار",
+   "min": "$25",
+   "url": "https://www.adspyglass.com",
+   "var": "ADSPYGLASS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Adnium",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://adnium.com",
+   "var": "ADNIUM_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "TrafficFactory",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://www.trafficfactory.biz",
+   "var": "TRAFFICFACTORY_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "PinkAds",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://pinkads.io",
+   "var": "PINKADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Traforama",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://traforama.com",
+   "var": "TRAFORAMA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Clickaine",
+   "cat": "إعلانات للكبار",
+   "min": "$20",
+   "url": "https://clickaine.com",
+   "var": "CLICKAINE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Adamo",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://adamo.ad",
+   "var": "ADAMO_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "LosPollos",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://los-pollos.com",
+   "var": "LOSPOLLOS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "CrakRevenue",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.crakrevenue.com",
+   "var": "CRAKREVENUE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Mobidea",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.mobidea.com",
+   "var": "MOBIDEA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Advidi",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://advidi.com",
+   "var": "ADVIDI_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Dr.Cash",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://dr.cash",
+   "var": "DRCASH_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Gotzha",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://gotzha.com",
+   "var": "GOTZHA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdCombo",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://adcombo.com",
+   "var": "ADCOMBO_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "TerraLeads",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://terraleads.com",
+   "var": "TERRALEADS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Zeydoo",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://zeydoo.com",
+   "var": "ZEYDOO_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Leadbit",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://leadbit.com",
+   "var": "LEADBIT_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Kma.biz",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://kma.biz",
+   "var": "KMA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Datify",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://datify.link",
+   "var": "DATIFY_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "ClickDealer",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.clickdealer.com",
+   "var": "CLICKDEALER_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Affise",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://affise.com",
+   "var": "AFFISE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Everflow",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://www.everflow.io",
+   "var": "EVERFLOW_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Chaturbate",
+   "cat": "إعلانات للكبار",
+   "min": "$20",
+   "url": "https://chaturbate.com/affiliates/",
+   "var": "CHATURBATE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Stripchat",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://stripchat.com/affiliates",
+   "var": "STRIPCHAT_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "BongaCams",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://bongacams.com/affiliate",
+   "var": "BONGACAMS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "LiveJasmin",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.livejasmin.com/en/affiliate",
+   "var": "LIVEJASMIN_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Cam4",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.cam4.com/affiliates",
+   "var": "CAM4_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "MyFreeCams",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.myfreecams.com/affiliates",
+   "var": "MFC_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Flirt4Free",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.flirt4free.com/affiliates",
+   "var": "FLIRT4FREE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Streamate",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.streamate.com/affiliates",
+   "var": "STREAMATE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "ImLive",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.imlive.com/affiliates",
+   "var": "IMLIVE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Jerkmate",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://jerkmate.com/affiliates",
+   "var": "JERKMATE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "SkyPrivate",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.skyprivate.com/affiliates",
+   "var": "SKYPRIVATE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "XloveCam",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.xlovecam.com/affiliates",
+   "var": "XLOVECAM_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Camsoda",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.camsoda.com/affiliates",
+   "var": "CAMSODA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdultForce",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.adultforce.com",
+   "var": "ADULTFORCE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "FanCentro",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://fancentro.com/affiliates",
+   "var": "FANCENTRO_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "ManyVids",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.manyvids.com/affiliates",
+   "var": "MANYVIDS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Clips4Sale",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.clips4sale.com/affiliates",
+   "var": "CLIPS4SALE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "IWantClips",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://iwantclips.com/affiliates",
+   "var": "IWANTCLIPS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Sexier",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.sexier.com/affiliates",
+   "var": "SEXIER_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdultModa",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.adultmoda.com",
+   "var": "ADULTMODA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "PornDough",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.porndough.com",
+   "var": "PORNDOUGH_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "TrafficHaus",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://www.traffichaus.com",
+   "var": "TRAFFICHAUS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdultWebmasterEmpire",
+   "cat": "إعلانات للكبار",
+   "min": "$100",
+   "url": "https://www.awempire.com",
+   "var": "AWEMPIRE_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "GammaEntertainment",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.gammae.com/affiliates",
+   "var": "GAMMA_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "WebcamAffiliates",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://wecamy.com/affiliates",
+   "var": "WECAMY_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "AdultCams",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://www.adultcams.com/affiliates",
+   "var": "ADULTCAMS_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Bongacash",
+   "cat": "إعلانات للكبار",
+   "min": "$50",
+   "url": "https://bongacash.com",
+   "var": "BONGACASH_KEY",
+   "pay": "Paxum · Crypto · Wire"
+  },
+  {
+   "name": "Pornhub",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornhub.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XVideos",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xvideos.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XNXX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xnxx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "xHamster",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://xhamster.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "RedTube",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.redtube.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "YouPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.youporn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Tube8",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.tube8.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SpankBang",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://spankbang.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Eporner",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.eporner.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Beeg",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://beeg.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TNAFlix",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.tnaflix.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HQPorner",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://hqporner.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornTrex",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porntrex.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Porn300",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.porn300.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SunPorno",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sunporno.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HClips",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hclips.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TXXX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://txxx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Upornia",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://upornia.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "VXXX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://vxxx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "4tube",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.4tube.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "DrTuber",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.drtuber.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TubeV",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://tubev.sex",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AlohaTube",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.alohatube.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornDoe",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porndoe.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornOne",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornone.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SexVid",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sexvid.xxx",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "VideoZer",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://videozer.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HDporn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hdporn.net",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "IcePorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.iceporn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornHat",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porthat.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "OK.xxx",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://ok.xxx",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "LetsJerk",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://letsjerk.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "YourPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://yourporn.sexy",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornTop",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porntop.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "xCafe",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://xcafe.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Fuq",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fuq.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "GotPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.gotporn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornerBros",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornerbros.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornDig",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porndig.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "MegaPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://megaporn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornID",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornid.xxx",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornRox",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornrox.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "FastPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fastporn.xxx",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "FinePorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fineporn.xxx",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Pornky",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornky.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornKai",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornkai.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Analdin",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.analdin.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BigTits",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.bigtits.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "EmpFlix",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.empflix.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Pornalized",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornalized.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Fapality",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fapality.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornHD",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornhd.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornTube",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.porntube.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "FapVid",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fapvid.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Fux",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://fux.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XVIDEOS",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xvideos.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornLib",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornlib.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornCom",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XXXBunker",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://xxxbunker.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Porn300x",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://porn300.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Chaturbate",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://chaturbate.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Stripchat",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://stripchat.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BongaCams",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://bongacams.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "LiveJasmin",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.livejasmin.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Cam4",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.cam4.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "MyFreeCams",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.myfreecams.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Flirt4Free",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.flirt4free.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Streamate",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.streamate.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "ImLive",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.imlive.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Jerkmate",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://jerkmate.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SkyPrivate",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.skyprivate.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XloveCam",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xlovecam.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Camsoda",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.camsoda.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "CamSoda",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.camsoda.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Sexier",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sexier.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Brazzers",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.brazzers.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "RealityKings",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.realitykings.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Mofos",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.mofos.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "DigitalPlayground",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.digitalplayground.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Twistys",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.twistys.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Babes",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.babes.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Vixen",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.vixen.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Tushy",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.tushy.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Blacked",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.blacked.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "ManyVids",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.manyvids.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Clips4Sale",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.clips4sale.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "IWantClips",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://iwantclips.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Modelhub",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.modelhub.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornhubPremium",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornhubpremium.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "NaughtyAmerica",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.naughtyamerica.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Wicked",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.wicked.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Vivid",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.vivid.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Private",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.private.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "DDFNetwork",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.ddfnetwork.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "21Sextury",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.21sextury.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SexArt",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sexart.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "MetArt",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.metart.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XArt",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xart.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HeGre",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hegre.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Femjoy",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.femjoy.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PlayboyPlus",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.playboyplus.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornDude",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://theporndude.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AdultTime",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.adulttime.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SinsVR",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://sinsvr.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "VRBangers",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://vrbangers.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BaDoinkVR",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://badoinkvr.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "VirtualRealPorn",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://virtualrealporn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "WankzVR",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.wankzvr.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornhubVR",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornhub.com/vr",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AdultEmpire",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.adultempire.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AEBN",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.aebn.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HotMovies",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hotmovies.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "GameLink",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.gamelink.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Nubiles",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://nubiles.net",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TeamSkeet",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://teamskeet.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BANG",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://bang.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornPros",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://pornpros.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "NewSensations",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.newsensations.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SweetheartVideo",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sweetheartvideo.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "GirlfriendsFilms",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://girlfriendsfilms.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "ElegantAngel",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.elegantangel.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "JulesJordan",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.julesjordan.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "EvilAngel",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.evilangel.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BurningAngel",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.burningangel.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Kink",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.kink.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TushyRaw",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.tushyraw.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Deeper",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.deeper.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Slayed",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.slayed.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Milfy",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.milfy.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "LetsDoeIt",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://letsdoeit.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "FakeHub",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.fakehub.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "CzechAV",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.czechav.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PublicAgent",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.publicagent.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Xempire",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xempire.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "HardX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hardx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "EroticaX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.eroticax.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "DarkX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.darkx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AllHerLuv",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.allherluv.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "MissMia",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.missmia.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Girlsway",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.girlsway.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "WebYoung",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.webyoung.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "MommysGirl",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.mommysgirl.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "SweetSinner",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.sweetsinner.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "TransAngels",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.transangels.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Grooby",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://grooby.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "GenderX",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.genderx.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "DevilsFilm",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.devilsfilm.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "ZeroTolerance",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.zerotolerance.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "ThirdDegree",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.thirddegree.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "AdamAndEve",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.adameve.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PinkVisual",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pinkvisual.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Hustler",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.hustler.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Penthouse",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.penthouse.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Scoreland",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.scoreland.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "XLGirls",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.xlgirls.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "BrazzersNetwork",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.brazzersnetwork.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "PornstarNetwork",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.pornstarnetwork.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Bellesa",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://bellesa.co",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "LustCinema",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.lustcinema.com",
+   "var": "",
+   "pay": "-"
+  },
+  {
+   "name": "Dipsea",
+   "cat": "موقع للكبار",
+   "min": "-",
+   "url": "https://www.dipseastories.com",
+   "var": "",
+   "pay": "-"
+  }
+ ]
+}

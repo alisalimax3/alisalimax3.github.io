@@ -1,0 +1,57 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الخزينة الحقيقية · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:16px}.wrap{max-width:900px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:14px;margin:10px 0}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1px solid #1e2a44;padding:7px;text-align:right}
+th{color:#8aa0bd}.ok{color:#22c55e}.bad{color:#f87171}.w{color:#fbbf24}
+.bar{height:8px;background:#0d1424;border-radius:99px;overflow:hidden}.bar>i{display:block;height:100%;background:linear-gradient(90deg,#4dd0e1,#a78bfa)}
+.big{font-size:26px;font-weight:800;color:#4dd0e1}.l{color:#8aa0bd;font-size:12.5px}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="wrap">
+<h1>الخزينة الحقيقية — من واجهات الشبكات لا من تقدير</h1>
+<p class="l">كل رقم هنا مسحوب من API الشبكة عبر GitHub Actions. إن لم يكن هناك مفتاح، الرقم 0 وهذا صحيح.</p>
+<div class="card"><div class="l">إجمالي الإيراد الحقيقي (30 يوم)</div><div class="big" id="tot">$0.0000</div>
+<div class="l" id="hb">…</div></div>
+<div class="card"><h3>الشبكات</h3><table><thead><tr><th>الشبكة</th><th>ظهور</th><th>نقرات</th><th>إيراد</th><th>تقدم السحب</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div class="card"><h3>المسار إلى حسابك في الكريمي</h3>
+<pre style="direction:ltr;text-align:left">Adsterra/Monetag  →  USDT (TRC20)  →  Binance P2P  →  بنك الكريمي (YER)
+SWIFT مباشر: KBMFYESAXXX · Al-Kuraimi Islamic Microfinance Bank</pre>
+<div class="l" id="own"></div></div>
+<p class="l"><a href="/admin2.html">لوحة الإدارة</a> · <a href="/withdraw.html">السحب</a> · <a href="/">الرئيسية</a></p>
+</div><script>
+Promise.all([fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+ fetch('/heartbeat.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+ fetch('/networks.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+ fetch('/owner.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))]).then(a=>{
+ var rev=a[0]||{},hb=a[1]||{},nets=a[2]||{},own=a[3]||{};
+ document.getElementById('tot').textContent='$'+Number(rev.revenue||0).toFixed(4);
+ document.getElementById('hb').innerHTML=hb.t?('آخر سحب من الشبكة: '+hb.t+' · المصدر: '+(rev.source||'—')+(rev.error?' <span class="w">'+rev.error.slice(0,70)+'</span>':'')):'<span class="w">لم يعمل المحرّك السحابي بعد — أضف سر ADSTERRA_API_KEY وشغّل workflow tick</span>';
+ document.getElementById('rows').innerHTML=(nets.networks||[]).map(function(n){
+  var has=false;Object.keys(n.keys||{}).forEach(function(k){if(n.keys[k])has=true});
+  var rev1=n.id===(rev.source||'')?Number(rev.revenue||0):0;
+  var pct=Math.min(100,(rev1/(n.min_payout||5))*100);
+  return '<tr><td><b>'+n.name+'</b><br><span class="l">'+n.id+'</span></td><td>'+(n.id===(rev.source||'')?(rev.impressions||0):0)+'</td><td>'+(n.id===(rev.source||'')?(rev.clicks||0):0)+'</td><td>$'+rev1.toFixed(4)+'</td>'+
+   '<td><div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><span class="l">$'+rev1.toFixed(2)+' / $'+(n.min_payout||5)+' '+(has?'<span class="ok">مفتاح ✓</span>':'<span class="bad">بلا مفتاح</span>')+'</span></td></tr>'}).join('');
+ document.getElementById('own').innerHTML=(own.kuraimi_name?'حسابك: <b>'+own.kuraimi_name+'</b> — '+(own.kuraimi_account||'')+' — '+(own.kuraimi_phone||''):'<span class="w">لم تُضبط بيانات الكريمي — نفّذ bash activate.sh</span>');
+});</script><script src="/ads.js" defer></script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

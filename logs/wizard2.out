@@ -1,0 +1,18 @@
+
+[36m═══ WIZARD2 — التقاط تلقائي بحماية تكرار ═══[0m
+  ثبّت تطبيق Termux:API (APK) وإلا الحافظة لن تعمل.
+  محفوظ: AADS_UNIT
+  محفوظ: EXOCLICK_ZONE
+  محفوظ: JUICYADS_ZONE
+
+[1m▸ 1/6 · A-ADS[0m
+  Sign up → أكّد البريد → Ad Units → Create ad unit → Banner 300x250 → Save → انسخ الكود كاملًا
+  [36mhttps://a-ads.com[0m
+[32m✓[0m AADS_UNIT =   ⏳ مفتوح… بمجرد نسخ الكود سيُلتقط تلقائيًا
+     Enter=اقبل الحافظة · s=تخطي · مهلة 900s
+  · نسخت: ))              doneL="$(git rev-parse HEAD)"; — بلا معرّف، أكمل
+data-aa="123456
+
+[1m▸ 2/6 · ExoClick[0m
+  Sign up as Publisher → أكّد البريد → Zones → Create zone → Website · 300x250 → انسخ الكود
+  [36mhttps://www.exoclick.com[0m

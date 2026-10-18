@@ -1,0 +1,77 @@
+{
+  "note": "بوابات استطلاعات حقيقية · سجّل واحصل على app_id ثم ضع الرابط",
+  "walls": [
+    {
+      "id": "bitlabs",
+      "name": "BitLabs",
+      "rpm": "$1-4",
+      "min": 1,
+      "url": "",
+      "iframe": true,
+      "signup": "https://bitlabs.ai/"
+    },
+    {
+      "id": "cpx",
+      "name": "CPX Research",
+      "rpm": "$1-3",
+      "min": 1,
+      "url": "",
+      "iframe": true,
+      "signup": "https://www.cpx-research.com/"
+    },
+    {
+      "id": "timewall",
+      "name": "Timewall",
+      "rpm": "$0.5-2",
+      "min": 0.5,
+      "url": "",
+      "iframe": true,
+      "signup": "https://timewall.io/"
+    },
+    {
+      "id": "lootably",
+      "name": "Lootably",
+      "rpm": "$0.5-2",
+      "min": 0.5,
+      "url": "",
+      "iframe": true,
+      "signup": "https://lootably.com/"
+    },
+    {
+      "id": "ayet",
+      "name": "Ayet Studios",
+      "rpm": "$1-3",
+      "min": 1,
+      "url": "",
+      "iframe": true,
+      "signup": "https://ayetstudios.com/"
+    },
+    {
+      "id": "offertoro",
+      "name": "OfferToro",
+      "rpm": "$1-5",
+      "min": 1,
+      "url": "",
+      "iframe": true,
+      "signup": "https://www.offertoro.com/"
+    },
+    {
+      "id": "pollfish",
+      "name": "Pollfish",
+      "rpm": "$2-8",
+      "min": 5,
+      "url": "",
+      "iframe": false,
+      "signup": "https://www.pollfish.com/"
+    },
+    {
+      "id": "theorem",
+      "name": "Theorem Reach",
+      "rpm": "$1-4",
+      "min": 1,
+      "url": "",
+      "iframe": true,
+      "signup": "https://theoremreach.com/"
+    }
+  ]
+}

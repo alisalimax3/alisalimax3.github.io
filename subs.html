@@ -1,0 +1,86 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+
+<!--hreflang-->
+<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
+<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
+<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
+<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
+<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
+<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
+<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
+<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
+<!--/hreflang-->
+
+
+
+
+
+
+
+
+
+
+<style id="ch-ads-css">.ch-ad{min-height:62px;display:flex;align-items:center;justify-content:center;margin:14px auto;max-width:100%;overflow:hidden}</style><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>اشتراكات · CineHub 3099</title>
+<style>:root{--bg:#0a0e1a;--p:#111827;--b:#1e2a44;--t:#e8f6ff;--m:#8aa0c0;--a:#4dd0e1;--g:#22c55e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.9 system-ui,Tahoma;padding:16px}
+.wrap{max-width:900px;margin:auto;text-align:center}.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--p);border:1px solid var(--b);border-radius:16px;padding:18px;text-align:right}
+.card.hot{border-color:var(--a)}.price{font-size:30px;font-weight:800;color:var(--a)}
+ul{padding-inline-start:18px;color:#cfe8ff;font-size:13px}
+input{width:100%;background:#0d1424;border:1px solid var(--b);color:var(--t);border-radius:9px;padding:10px;margin-top:8px}
+button{background:var(--a);color:#04121a;border:0;border-radius:9px;padding:11px 18px;font-weight:800;cursor:pointer;margin-top:10px;width:100%}
+.ok{color:var(--g)}.l{color:var(--m);font-size:13px}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"CineHub 3099","url":"https://alkazmybwhwr-dot.github.io/","potentialAction":{"@type":"SearchAction","target":"https://alkazmybwhwr-dot.github.io/movies.html?q={q}"}}</script><meta property="og:type" content="website"><meta property="og:site_name" content="CineHub 3099"><meta property="og:locale" content="ar_YE"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/rss+xml" href="/rss.xml"><link rel="stylesheet" href="/theme.css">
+
+</head><body>
+<div class="ch-ad" data-ad="top"></div><div class="wrap">
+<h1>الاشتراكات والعمولات</h1>
+<div class="grid" id="plans"></div>
+<div class="card" style="margin-top:18px;text-align:center"><h3>عندك كود تفعيل؟</h3>
+<input id="code" placeholder="P12345-A1B2C3"><button onclick="act()">تفعيل</button><p id="msg"></p></div>
+<div class="card" id="paybox"></div>
+</div>
+<script src="/auth.js" defer></script>
+<script>
+document.readyState==='loading'?addEventListener('DOMContentLoaded',go):go();
+async function go(){ var p=await (await fetch('/plans.json')).json();
+  document.getElementById('plans').innerHTML=p.plans.map(function(x){return '<div class="card'+(x.id==='pro'?' hot':'')+'"><h3>'+x.name+'</h3><div class="price">'+(x.price?('$'+x.price):'مجاناً')+'</div><ul>'+x.features.map(function(f){return '<li>'+f+'</li>'}).join('')+'</ul><div class="l">حصة الأرباح '+(x.share*100)+'%</div></div>'}).join('');
+  var k=await (await fetch('/kuraimi.json')).json();
+  document.getElementById('paybox').innerHTML='<h3>طريقة الدفع</h3><p class="l">حوّل المبلغ إلى:</p><p><b>'+k.bank+'</b><br>'+(k.holder||'—')+' — '+(k.account||'—')+'</p><p class="l">أو USDT (TRC20). ثم أرسل الإشعار ويصلك كود التفعيل.</p>'; }
+async function act(){ var r=await CH.verify(document.getElementById('code').value);
+  if(!r.ok){ document.getElementById('msg').textContent='✗ '+r.why; return; }
+  CH.apply(r); document.getElementById('msg').innerHTML='<span class="ok">✓ '+r.plan+' حتى '+r.exp.toISOString().slice(0,10)+'</span>'; }
+</script><div class="ch-ad" data-ad="mid"></div>
+<script src="/captcha.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/ref.js" defer></script>
+<script src="/rev.js" defer></script>
+<script src="/payout.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/engage.js" defer></script>
+<script src="/live-earnings.js" defer></script>
+<script src="/push.js" defer></script>
+<script src="/nav.js" defer></script>
+<script src="/viral.js" defer></script>
+<script src="/share.js" defer></script>
+<script src="/ticker.js" defer></script>
+<script src="/app.js" defer></script>
+<script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/cloud.js" defer></script>
+<script src="/comments.js" defer></script>
+<script src="/owner.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

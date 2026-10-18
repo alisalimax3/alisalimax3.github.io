@@ -1,0 +1,22 @@
+{
+ "t": "2026-10-18T16:58:35Z",
+ "titles": 22998,
+ "matched": 138,
+ "added": 2,
+ "errors": {
+  "List_of_project_management_software": "URLError",
+  "List_of_accounting_software": "URLError",
+  "List_of_email_marketing_software": "URLError",
+  "List_of_web_analytics_software": "URLError",
+  "List_of_graphic_design_software": "URLError",
+  "List_of_password_managers": "ConnectionResetError",
+  "List_of_cloud_storage_services": "URLError",
+  "List_of_virtual_private_network_services": "URLError",
+  "List_of_fast_food_restaurant_chains": "URLError",
+  "List_of_companies_of_Pakistan": "TimeoutError",
+  "List_of_companies_of_Kuwait": "URLError",
+  "List_of_courier_companies": "URLError",
+  "List_of_logistics_companies": "URLError",
+  "List_of_software_companies": "URLError"
+ }
+}

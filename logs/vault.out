@@ -1,0 +1,41 @@
+
+[36m═══ 1 · إشعال الفهرسة — نقاط تعمل فعلًا ═══[0m
+  ✓ pingomatic       200
+  ✓ twingly          200
+  · indexnow         لا ملف مفتاح — شغّل tools/boost.py
+  ✓ wayback:         200
+  · wayback          HTTP Error 523: UNKNOWN
+
+[36m═══ 2 · الخزينة — ربط الأرصدة والمكافآت ═══[0m
+  ✓ wallet.json + wallet.html | إجمالي مرصود: $0.0000
+
+[36m═══ 3 · سجل المنصات — 45 جهة تدفع فعلًا ═══[0m
+  ✓ platforms.json: 45 جهة (طبقة 1: 7)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/cinehub3099/tools/platforms_page.py", line 17, in <module>
+    open("platforms.html", "w", encoding="utf-8").write("""<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8">
+                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ...<7 lines>...
+    <p><a href="./">الرئيسية</a> · <a href="wallet.html">الخزينة</a> · <a href="money.html">الأموال</a></p></div></html>"""
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     % (d["count"], rows))
+     ^~~~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character ';' (0x3b) at index 390
+
+[36m═══ 4 · الوكيل — يحصد ويحدّث الخزينة كل 6 ساعات ═══[0m
+  ✓ agent.yml: +vault +ping
+
+[36m═══ 5 · بيانات السحب ═══[0m
+  رقم حسابك في الكريمي [3193395828] ›   محفظة USDT TRC20 ›   بريد Paxum (لـExoClick/JuicyAds) ›   بريد PayPal      ›   keys.env: 6 قيمة
+  ✓ wallet.json + wallet.html | إجمالي مرصود: $0.0000
+  ✓ رُفع
+  الخزينة  : https://alisalimax3.github.io/wallet.html
+  المنصات  : https://alisalimax3.github.io/platforms.html
+
+[36m═══ الخلاصة ═══[0m
+  المنصات المسجّلة في السجل : 45
+  شبكات لها معرّف           : 0
+  إجمالي الخزينة المرصود    : $0.0
+  BTC/ETH مرجعي             : $81544.0 / $2404.14
+
+  الخطوة القادمة الوحيدة: bash REGISTER.sh 1

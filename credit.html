@@ -1,0 +1,40 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أضف ربحًا حقيقيًا · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:700px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:14px;margin:11px 0}
+input{width:100%;background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:9px;padding:9px;margin-top:6px}
+button{background:#22c55e;color:#04121a;border:0;border-radius:9px;padding:9px 14px;font-weight:800;cursor:pointer;margin-top:8px}
+pre{background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;direction:ltr;text-align:left;overflow:auto;font-size:11.5px}
+.l{color:#8aa0bd;font-size:12.5px}.big{font-size:30px;font-weight:900;color:#22c55e}
+</style>
+</head><body><div class="wrap">
+<h1>أضف ربحًا حقيقيًا سحبته</h1>
+<div class="l">عندما تستلم من أي منصة (USDT، بايونير، كريمي…)، أضف السطر هنا. يُدمج في السجل الموثّق بسلسلة الهاش فورًا ⇒ لا رقم وهمي.</div>
+<div class="card"><div class="l">إجمالي المُضاف حقيقيًا: <span class="big" id="tot">$0.0000</span> من <b id="n">0</b> قيد</div></div>
+<div class="card"><input id="s" placeholder="المصدر (مثال: Linkvertise)"><input id="a" placeholder="المبلغ بالدولار (مثال: 5.40)">
+<input id="d" placeholder="التاريخ YYYY-MM-DD"><input id="nt" placeholder="ملاحظة">
+<button onclick="gen()">ولّد السطر</button><pre id="out">…</pre>
+<div class="l">الصق السطر داخل <code>external-earnings.json</code> ثم <code>bash GO.sh</code>.</div></div>
+</div><script>
+fetch('/external-total.json?t='+Date.now()).then(r=>r.json()).then(j=>{document.getElementById('tot').textContent='$'+Number(j.total||0).toFixed(4);document.getElementById('n').textContent=j.n||0}).catch(()=>{});
+function gen(){var s=document.getElementById('s').value,a=+document.getElementById('a').value||0;
+ var d=document.getElementById('d').value||new Date().toISOString().slice(0,10),nt=document.getElementById('nt').value;
+ document.getElementById('out').textContent='{"src":"'+s+'","usd":'+a+',"date":"'+d+'","note":"'+nt+'"},';
+ navigator.clipboard.writeText(document.getElementById('out').textContent);}
+</script><script src="/owner.js" defer></script><script src="/authtoken.js" defer></script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

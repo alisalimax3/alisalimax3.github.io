@@ -1,0 +1,62 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>خطة الأرباح · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.85 system-ui,Tahoma;padding:16px}.wrap{max-width:860px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:15px;margin:11px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid #1e2a44;padding:7px;text-align:right}
+th{color:#8aa0bd}.ok{color:#22c55e}.w{color:#fbbf24}.l{color:#8aa0bd;font-size:12.5px}
+li{margin:5px 0}input[type=checkbox]{transform:scale(1.2);margin-left:6px}
+h1{font-size:21px}h3{font-size:15px}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="wrap">
+<h1>خطة الأرباح — يومي / أسبوعي / شهري</h1>
+<p class="l">علّم المهام لتُحفظ محليًا. الخطة مبنية على مصدرين: (أ) زياراتك للموقع، (ب) نشاطك على منصات تدفع لك مباشرة.</p>
+<div class="card"><h3>يوميًا — 20 دقيقة</h3><ul id="d"></ul><div class="l">العائد المتوقع اليومي عند 300 زيارة: <b class="ok">$1.6–9</b> من روابط + إعلانات، و<b class="ok">$0.3–1.2</b> مكافآت.</div></div>
+<div class="card"><h3>أسبوعيًا — 45 دقيقة</h3><ul id="w"></ul><div class="l">العائد المتوقع أسبوعيًا عند نمو 20%: <b class="ok">$15–70</b>.</div></div>
+<div class="card"><h3>شهريًا — ساعتان</h3><ul id="m"></ul></div>
+<div class="card"><h3>أرقام صريحة لكل 1000</h3>
+<table><thead><tr><th>المصدر</th><th>الوحدة</th><th>النطاق</th><th>الأولوية</th></tr></thead><tbody>
+<tr><td>روابط مدفوعة (Linkvertise/Work.ink)</td><td>1000 نقرة</td><td class="ok">$5–70</td><td>1 — الأعلى</td></tr>
+<tr><td>CPA / Smartlink</td><td>Lead</td><td class="ok">$0.3–20</td><td>2</td></tr>
+<tr><td>إعلان مكافأة</td><td>1000 مشاهدة</td><td class="ok">$2–12</td><td>3</td></tr>
+<tr><td>إحالة منصات</td><td>ربح المُحال</td><td class="ok">10–50%</td><td>4</td></tr>
+<tr><td>إعلانات عرض</td><td>1000 ظهور</td><td class="w">$0.4–2.0</td><td>5</td></tr>
+<tr><td>اشتراكات التطبيق</td><td>مشترك/شهر</td><td class="ok">$2.99–11.99</td><td>6</td></tr>
+</tbody></table>
+<div class="l">لاحظ: <b>نقرة خروج واحدة ≈ 40 ظهورًا إعلانيًا</b>. لذلك الأولوية للروابط والـCPA لا للبانرات.</div></div>
+<p class="l"><a href="/apply.html">سجّل واقبض</a> · <a href="/watch.html">شاهد</a> · <a href="/treasury.html">الخزينة</a></p>
+</div><script>
+var D=[["انشر 3 روابط أفلام عبر Linkvertise في مجموعات واتساب/تيليجرام (كل نقرة تُدفع لك)"],
+["شاهد 10 إعلانات مكافأة داخل التطبيق"],["أجب استطلاعين من CPX أو BitLabs"],
+["أضف صفحة محتوى واحدة جديدة (المحتوى = زيارات)"],["أكمل تسجيل منصة واحدة في apply.html"],["اجمع حضورك اليومي + عجلة الحظ"]];
+var Wk=[["راجع treasury.html — كم بقي للحد الأدنى في كل شبكة"],["اطلب سحبًا واحدًا عند بلوغ $5"],
+["أضف 10 صفحات محتوى"],["شارك في 5 مجموعات جديدة + أرسل إحالة لـ5 أشخاص"],
+["راجع RPM لكل شبكة: أوقف الأدنى وارفع أولوية الأعلى"],["تحقق من ping.json أن الفهرسة تعمل"]];
+var M=[["أعد تقييم كل الشبكات وفعّل شبكة أعلى CPM"],["راجع الاشتراكات والعروض والأسعار"],
+["راجع admin2.html وطلبات السحب"],["صدّر بياناتك واحتفظ بنسخة"],["افتح منصة CPA جديدة واختبرها"]];
+function draw(id,arr,k){document.getElementById(id).innerHTML=arr.map(function(x,i){
+ var key=k+i,on=localStorage.getItem('ch_plan_'+key)==='1';
+ return '<li><label><input type="checkbox" '+(on?'checked':'')+' onchange="localStorage.setItem(\'ch_plan_'+key+'\',this.checked?1:0)"> '+x[0]+'</label></li>'}).join('')}
+draw('d',D,'d');draw('w',Wk,'w');draw('m',M,'m');
+</script><script src="/ads.js" defer></script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/cloud.js" defer></script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+<script src="/owner.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

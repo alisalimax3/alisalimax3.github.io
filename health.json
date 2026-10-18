@@ -1,0 +1,19 @@
+{
+ "t": "2026-10-17T00:10:59Z",
+ "banner_keys": 1,
+ "nets_enabled": 1,
+ "nets_with_keys": 1,
+ "shorteners_with_uid": 0,
+ "smartlinks": 0,
+ "platforms": 3800,
+ "platforms_live": 940,
+ "entities": 2563,
+ "kuraimi": false,
+ "whatsapp": false,
+ "turnstile": false,
+ "supabase": false,
+ "apps_script": false,
+ "workflows": 13,
+ "catalog": 23812,
+ "ready_score": 2
+}

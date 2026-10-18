@@ -1,0 +1,13 @@
+{
+  "name": "CineHub 3099",
+  "owner": "alkazmy",
+  "url": "https://alkazmybwhwr-dot.github.io",
+  "repo": "https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io",
+  "type": "WebSite",
+  "inLanguage": "ar",
+  "stack": ["GitHub Pages", "PWA", "TMDB", "TVMaze", "AniList", "EPORNER", "RedGifs"],
+  "players": ["VidLink", "VidSrc", "VidSrc.cc", "Embed.su"],
+  "dead": ["api.consumet.org (DMCA)"],
+  "monetization": { "ads": "pending", "premium": "pending" },
+  "verified": "2026-10-15"
+}

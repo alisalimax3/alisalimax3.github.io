@@ -1,0 +1,64 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>السحب إلى الكريمي — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:16px;line-height:1.8}
+.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:15px;margin:12px 0}
+input{width:100%;background:#0f1720;border:1px solid rgba(255,255,255,.12);color:#e9f1f8;border-radius:10px;padding:10px;margin:5px 0;box-sizing:border-box;font-size:15px}
+button{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0;border-radius:11px;padding:12px 20px;font-size:15px;width:100%;margin-top:8px}
+a{color:#4cc2ff}.c{color:#8ea3b8;font-size:13px}.ok{color:#7fd88a}.bad{color:#ff8a8a}</style></head><body>
+<h1>السحب إلى بنك الكريمي</h1>
+<div class="box"><b>الرصيد القابل للسحب</b><div id="bal" style="font-size:26px">$0.000000</div>
+<div class="c" id="brk"></div><div class="c">الحد الأدنى: $5 · يُنشأ الطلب تلقائيًا عند بلوغه</div></div>
+<div class="box"><b>بيانات الحساب</b>
+<input id="n" placeholder="الاسم الكامل كما في البطاقة"><input id="a" placeholder="رقم الحساب في الكريمي">
+<input id="p" placeholder="رقم الهاتف"><input id="w" placeholder="واتساب (اختياري)">
+<button id="save">حفظ البيانات ودفعها للمستودع</button></div>
+<div class="box"><b>الطلبات</b><div id="reqs" class="c">… يُقرأ</div>
+<button id="wa">إرسال الطلب على واتساب</button></div>
+<p class="c">المسار: الشبكة → محفظة USDT (TRC20) أو Wire → الكريمي (SWIFT KBMFYESAXXX). الطلب يُقيَّد في السجل المُسلسل فيظهر في صفحة التدقيق.</p>
+<script>
+(function(){
+"use strict";
+function get(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function money(x){x=Number(x);return "$"+(isFinite(x)?x:0).toFixed(6);}
+get("treasury.json").then(function(t){ if(!t)return;
+ document.getElementById("bal").textContent=money(t.balance||0);
+ var b=t.buckets||{},s=[];for(var k in b) s.push(k+": "+money(b[k]));
+ document.getElementById("brk").textContent=s.join(" · ");});
+get("withdrawal.json").then(function(w){ if(!w||!w.requests||!w.requests.length){document.getElementById("reqs").textContent="لا طلبات بعد";return;}
+ document.getElementById("reqs").innerHTML=w.requests.slice(-5).map(function(r){
+  return "<div>#"+r.id+" · "+money(r.amount)+" · "+r.status+" · "+new Date(r.created).toLocaleString()+"</div>";}).join("");});
+try{var o=JSON.parse(localStorage.getItem("ch3099_owner")||"{}");
+ if(o.kuraimi){document.getElementById("n").value=o.kuraimi.name||"";document.getElementById("a").value=o.kuraimi.account||"";
+  document.getElementById("p").value=o.kuraimi.phone||"";document.getElementById("w").value=o.whatsapp||"";}}catch(e){}
+function put(path,text,msg){
+ var gh=JSON.parse(localStorage.getItem("ch3099_gh")||"{}");
+ if(!gh.token) return Promise.reject("افتح link.html واربط التوكن أولًا");
+ var url="https://api.github.com/repos/"+gh.repo+"/contents/"+path;
+ var H={Authorization:"token "+gh.token,"Content-Type":"application/json"};
+ return fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+  var body={message:msg,content:btoa(unescape(encodeURIComponent(text))),branch:gh.branch||"main"};
+  if(j&&j.sha)body.sha=j.sha;
+  return fetch(url,{method:"PUT",headers:H,body:JSON.stringify(body)});});
+}
+document.getElementById("save").onclick=function(){
+ var o={kuraimi:{name:document.getElementById("n").value.trim(),account:document.getElementById("a").value.trim(),
+  phone:document.getElementById("p").value.trim()},whatsapp:document.getElementById("w").value.trim(),
+  bank:"Al-Kuraimi Islamic Microfinance Bank",swift:"KBMFYESAXXX",updated:new Date().toISOString()};
+ localStorage.setItem("ch3099_owner",JSON.stringify(o));
+ put("owner.json",JSON.stringify(o,null,1),"owner").then(function(){alert("حُفظ في المستودع ✓");})
+  .catch(function(e){alert("محليًا فقط: "+e);});
+};
+document.getElementById("wa").onclick=function(){
+ var o=JSON.parse(localStorage.getItem("ch3099_owner")||"{}");
+ var b=document.getElementById("bal").textContent;
+ var m="طلب سحب CineHub 3099%0Aالمبلغ: "+b+"%0Aالاسم: "+((o.kuraimi||{}).name||"")+"%0Aالحساب: "+((o.kuraimi||{}).account||"")+"%0Aالهاتف: "+((o.kuraimi||{}).phone||"")+"%0Aالبنك: الكريمي KBMFYESAXXX";
+ window.open("https://wa.me/"+(o.whatsapp||"").replace(/\D/g,"")+"?text="+m,"_blank");
+};
+})();
+</script><script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+<script src="authtoken.js?v=3099-1792258391"></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="gate.js"></script>
+</body></html>

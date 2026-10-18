@@ -1,0 +1,29 @@
+
+[36m═══ تسجيل موجّه — 6 خطوات، كل واحدة ~4 دقائق ═══[0m
+  ابدأ بـ A-ADS: حد سحب $0 وبلا هوية — تبدأ من أول زيارة
+  اضغط s ثم Enter لتخطي أي واحدة. Ctrl+C للخروج بأمان (المحفوظ يبقى).
+
+[1m▸ 1/6 · A-ADS — أعلى أولوية[0m
+  Sign up → أكّد البريد → Ad Units → Create ad unit → Banner 300x250 → Save → انسخ الكود كاملًا
+  [36mhttps://a-ads.com[0m
+  انسخ الكود من الموقع ثم اضغط Enter — نقرأ الحافظة تلقائيًا
+  [] › [32m✓[0m AADS_UNIT = 517190
+
+[1m▸ 2/6 · ExoClick — ملك الإباحي[0m
+  Sign up as Publisher → أكّد البريد → Zones → Create zone → Website · 300x250 → انسخ Zone ID
+  [36mhttps://www.exoclick.com[0m
+  انسخ الكود من الموقع ثم اضغط Enter — نقرأ الحافظة تلقائيًا
+  [] ›   ! شكل غير متوقع (alkazmybwhwr@gmail.com) — جرّب نسخ الكود كاملًا
+  [] › [32m✓[0m EXOCLICK_ZONE = 517190
+
+[1m▸ 3/6 · JuicyAds — إباحي[0m
+  Sign up Publisher → أكّد → Ad Zones → Create → انسخ Zone ID
+  [36mhttps://www.juicyads.com[0m
+  انسخ الكود من الموقع ثم اضغط Enter — نقرأ الحافظة تلقائيًا
+  [] › [32m✓[0m JUICYADS_ZONE = 517190
+
+[1m▸ 4/6 · Adsterra — API لقراءة الرصيد آليًا[0m
+  Sign up Publisher → أكّد → Profile → API Key → انسخ المفتاح
+  [36mhttps://adsterra.com[0m
+  انسخ الكود من الموقع ثم اضغط Enter — نقرأ الحافظة تلقائيًا
+  [] › 

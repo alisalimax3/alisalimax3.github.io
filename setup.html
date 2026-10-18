@@ -1,0 +1,143 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تفعيل مباشر · CineHub 3099</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:radial-gradient(1000px 480px at 50% -10%,#122a44,#070b14 60%) fixed;color:#e9f4ff;font:15px/1.8 system-ui,Tahoma;padding:14px;padding-bottom:70px}
+.wrap{max-width:900px;margin:auto}.card{background:#0f1626;border:1px solid #1d2a44;border-radius:14px;padding:14px;margin:11px 0}
+h1{font-size:20px}h3{font-size:15px;margin:0 0 8px}
+input,select{width:100%;background:#0b1220;border:1px solid #1d2a44;color:#e9f4ff;border-radius:9px;padding:9px;margin-top:6px;direction:ltr}
+button{background:linear-gradient(135deg,#22c55e,#22d3ee);color:#04121a;border:0;border-radius:10px;padding:10px 16px;font-weight:800;cursor:pointer;margin-top:8px}
+button.s{background:#0b1220;color:#e9f4ff;border:1px solid #1d2a44;font-weight:600}
+.k{color:#8ba2c0;font-size:12.5px}.ok{color:#22c55e}.w{color:#fbbf24}.bad{color:#f87171}
+.row{display:grid;gap:8px;grid-template-columns:1fr auto;align-items:end}
+.step{border-inline-start:3px solid #22d3ee;padding-inline-start:10px;margin:6px 0}
+code{background:#0b1220;padding:2px 6px;border-radius:6px;direction:ltr;display:inline-block;font-size:11.5px}
+pre{background:#0b1220;border:1px solid #1d2a44;border-radius:9px;padding:10px;direction:ltr;text-align:left;overflow:auto;font-size:11.5px;max-height:180px}
+</style></head><body><div class="wrap">
+<h1>تفعيل مباشر — من هنا فقط</h1>
+<div class="k">اربط حسابك، افتح الروابط المباشرة، الصق المفتاح، أكّد الكابتشا، ثم يُحفظ في مستودعك ويُربط تلقائيًا.</div>
+
+<div class="card"><h3>① ربط حسابك في GitHub</h3>
+<div class="k">أنشئ توكنًا بصلاحية <b>repo + workflow</b> من الرابط:</div>
+<div class="step"><a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=cinehub3099" target="_blank" rel="noopener">فتح صفحة إنشاء التوكن ←</a></div>
+<input id="tk" placeholder="ghp_... / github_pat_...">
+<button onclick="conn()">ربط والتحقق</button>
+<div id="ghm" class="k"></div></div>
+
+<div class="card"><h3>② الكابتشا</h3>
+<div class="k">تُطلب مرة قبل الحفظ — وبدونها لا يُقبل الإرسال.</div>
+<div id="cap" style="display:flex;justify-content:center;margin:8px 0"></div>
+<div id="capm" class="k">…</div>
+<input id="tss" placeholder="Turnstile Site Key (اختياري أولًا)">
+<input id="tsk" placeholder="Turnstile Secret">
+<button class="s" onclick="saveTS()">احفظ مفاتيح الكابتشا</button></div>
+
+<div class="card"><h3>③ الشبكات — افتح الرابط، سجّل، والصق المفتاح</h3>
+<div id="nets"></div>
+<button onclick="saveAll()">حفظ كل المفاتيح</button>
+<div id="sm" class="k"></div></div>
+
+<div class="card"><h3>④ بيانات الاستلام إلى بنك الكريمي</h3>
+<input id="kn" placeholder="الاسم كما في الهوية"><input id="ka" placeholder="رقم الحساب">
+<input id="kp" placeholder="الهاتف 967..." inputmode="tel"><input id="wa" placeholder="واتساب الطلبات">
+<button class="s" onclick="saveKur()">حفظ</button></div>
+
+<div class="card"><h3>⑤ تشغيل المحرّك الآن</h3>
+<button onclick="run()">شغّل التطبيق والتحقق فورًا</button>
+<div id="st" class="k"></div><pre id="log">…</pre></div>
+<p class="k"><a href="/owner.html">لوحة المالك</a> · <a href="/live-dash.html">الأرباح الحيّة</a> · <a href="/">الرئيسية</a></p>
+</div>
+<script src="/setup.js"></script><script src="/authtoken.js"></script>
+<script src="/captcha.js"></script>
+<script>
+var NETS=[
+ {k:'ADSTERRA_API_KEY',n:'Adsterra — API Key',u:'https://publishers.adsterra.com/',d:'Tracking → API → Generate token'},
+ {k:'ADSTERRA_PUB_ID',n:'Adsterra — Publisher ID',u:'https://publishers.adsterra.com/',d:'لـads.txt (أرقام)'},
+ {k:'ADSTERRA_BANNER_MID',n:'Adsterra — Banner 300x250',u:'https://publishers.adsterra.com/',d:'Sites → Add zone'},
+ {k:'ADSTERRA_BANNER_TOP',n:'Adsterra — Banner 728x90',u:'https://publishers.adsterra.com/',d:''},
+ {k:'ADSTERRA_POPUNDER',n:'Adsterra — Popunder',u:'https://publishers.adsterra.com/',d:''},
+ {k:'ADSTERRA_SOCIALBAR',n:'Adsterra — Social Bar',u:'https://publishers.adsterra.com/',d:''},
+ {k:'LINKVERTISE_UID',n:'Linkvertise — UID',u:'https://linkvertise.com/',d:'أعلى مصدر: $5–70/1000 نقرة'},
+ {k:'WORKINK_UID',n:'Work.ink — UID',u:'https://work.ink/',d:'حتى $90/1000'},
+ {k:'MONETAG_MULTITAG',n:'Monetag — MultiTag',u:'https://monetag.com/',d:'Rewarded $2+ CPM'},
+ {k:'CPAGRIP_SMARTLINK',n:'CPAGrip — Smartlink',u:'https://cpagrip.com/',d:'لكل Lead'},
+ {k:'ADSENSE_CLIENT',n:'AdSense — client',u:'https://adsense.google.com/',d:'ca-pub-...'},
+ {k:'SUPABASE_URL',n:'Supabase — URL',u:'https://supabase.com/',d:'حسابات حقيقية'},
+ {k:'SUPABASE_ANON',n:'Supabase — anon key',u:'https://supabase.com/',d:''},
+ {k:'APPS_SCRIPT_URL',n:'Apps Script — Web App',u:'https://script.google.com/',d:'تسجيل الطلبات + إشعار'}
+];
+function m(id,txt,cls){var e=document.getElementById(id);if(e)e.innerHTML='<span class="'+(cls||'k')+'">'+txt+'</span>'}
+function draw(){document.getElementById('nets').innerHTML=NETS.map(function(n){
+ return '<div style="margin:10px 0"><b>'+n.n+'</b> <a target="_blank" rel="noopener" href="'+n.u+'">↗ سجّل/افتح</a>'+
+  (n.d?' <span class="k">— '+n.d+'</span>':'')+'<input data-k="'+n.k+'" placeholder="'+n.k+'"></div>'}).join('')}
+draw();
+function tokOK(){return !!localStorage.getItem('ch_gh_tok')}
+async function conn(){
+ var t=document.getElementById('tk').value.trim(); if(!t)return m('ghm','أدخل التوكن','w');
+ try{var r=await CHSetup.connect(t);
+  if(r.missing.length)m('ghm','✓ '+r.login+' — لكن ينقص صلاحية: '+r.missing.join(', '),'w');
+  else m('ghm','✓ مربوط: '+r.login+' · صلاحيات كافية','ok');
+ }catch(e){m('ghm','✗ '+e.message,'bad')}
+}
+async function saveTS(){
+ if(!tokOK())return m('capm','اربط GitHub أولًا','w');
+ var s=document.getElementById('tss').value.trim(),k=document.getElementById('tsk').value.trim();
+ try{var c=await CHSetup.load('keys.env');var o=CHSetup.readKV(c&&c.txt);
+  if(s)o.TURNSTILE_SITE=s; if(k)o.TURNSTILE_SECRET=k;
+  await CHSetup.save('keys.env',CHSetup.writeKV(o,CHSetup.ORDER),'turnstile keys');
+  m('capm','✓ حُفظت مفاتيح الكابتشا — أعد تحميل الصفحة ليظهر الوِدجت','ok');
+  setTimeout(function(){location.reload()},1200);
+ }catch(e){m('capm','✗ '+e.message,'bad')}
+}
+async function saveAll(){
+ if(!tokOK())return m('sm','اربط GitHub أولًا','w');
+ if(!CHCaptcha||!CHCaptcha.ready())return m('sm','أكمل الكابتشا أولًا','w');
+ try{
+  var c=await CHSetup.load('keys.env');var o=CHSetup.readKV(c&&c.txt);
+  [].forEach.call(document.querySelectorAll('#nets input'),function(i){var v=i.value.trim();if(v)o[i.getAttribute('data-k')]=v});
+  await CHSetup.save('keys.env',CHSetup.writeKV(o,CHSetup.ORDER),'keys from setup page');
+  m('sm','✓ حُفظت '+Object.keys(o).filter(function(x){return o[x]}).length+' قيمة — المحرّك سيربطها تلقائيًا','ok');
+  run();
+ }catch(e){m('sm','✗ '+e.message,'bad')}
+}
+async function saveKur(){
+ if(!tokOK())return m('sm','اربط GitHub أولًا','w');
+ try{
+  var c=await CHSetup.load('keys.env');var o=CHSetup.readKV(c&&c.txt);
+  ['kn:OWNER_NAME','ka:KURAIMI_ACCOUNT','kp:KURAIMI_PHONE','wa:OWNER_WHATSAPP'].forEach(function(x){
+   var id=x.split(':')[0],k=x.split(':')[1],v=document.getElementById(id).value.trim(); if(v)o[k]=v});
+  var nm=document.getElementById('kn').value.trim(); if(nm)o.KURAIMI_NAME=nm;
+  await CHSetup.save('keys.env',CHSetup.writeKV(o,CHSetup.ORDER),'kuraimi data');
+  m('st','✓ حُفظت بيانات الكريمي','ok');
+ }catch(e){m('st','✗ '+e.message,'bad')}
+}
+async function run(){
+ if(!tokOK())return m('st','اربط GitHub أولًا','w');
+ m('st','… أُرسل أمر التشغيل للسحابة','w');
+ try{
+  await CHSetup.run({token:(CHCaptcha?CHCaptcha.token():''),at:new Date().toISOString()});
+  m('st','✓ أُرسل — راقب النتيجة بالأسفل (30–90 ثانية)','ok');
+  poll(0);
+ }catch(e){m('st','✗ '+e.message,'bad')}
+}
+async function poll(n){
+ var j=await CHSetup.poll().catch(function(){return null});
+ var log=document.getElementById('log');
+ if(j)log.textContent=JSON.stringify(j,null,1);
+ if(j&&j.ok){m('st','✓ اكتمل التفعيل — الجاهزية '+(j.health_score||0)+'/9 · افتح /owner.html','ok');return}
+ if(n>20){m('st','… انتهى وقت الانتظار — تحقق من تبويب Actions','w');return}
+ setTimeout(function(){poll(n+1)},6000);
+}
+document.addEventListener('ch:captcha',function(){m('capm','✓ كابتشا مُجتازة','ok')});
+if(tokOK())m('ghm','✓ توكن محفوظ مسبقًا — يمكنك الحفظ','ok');
+</script>
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

@@ -1,0 +1,507 @@
+{
+ "updated": "",
+ "rpm_default": 1.0,
+ "rotation": "waterfall",
+ "viewability": {
+  "min_ratio": 0.5,
+  "min_ms": 1000
+ },
+ "rewarded": {
+  "enabled": true,
+  "provider": "monetag",
+  "per_reward": 0.004,
+  "daily_cap": 25
+ },
+ "networks": [
+  {
+   "id": "adsterra",
+   "name": "Adsterra",
+   "enabled": true,
+   "priority": 1,
+   "rpm": 0.9,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "BTC",
+    "PayPal",
+    "Paxum"
+   ],
+   "signup": "https://publishers.adsterra.com/",
+   "formats": [
+    "banner",
+    "popunder",
+    "socialbar",
+    "inpage",
+    "directlink"
+   ],
+   "keys": {
+    "popunder": "",
+    "socialbar": "",
+    "inpage": "",
+    "directlink": "",
+    "banner_top": "",
+    "banner_mid": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "ADSTERRA_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "monetag",
+   "name": "Monetag",
+   "enabled": false,
+   "priority": 2,
+   "rpm": 1.1,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "PayPal",
+    "Payoneer"
+   ],
+   "signup": "https://monetag.com/",
+   "formats": [
+    "multitag",
+    "vignette",
+    "rewarded",
+    "inpage"
+   ],
+   "keys": {
+    "multitag": "",
+    "rewarded": "",
+    "inpage": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "MONETAG_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "propeller",
+   "name": "PropellerAds",
+   "enabled": false,
+   "priority": 3,
+   "rpm": 0.8,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "PayPal",
+    "Wire"
+   ],
+   "signup": "https://propellerads.com/",
+   "formats": [
+    "onclick",
+    "inpage",
+    "interstitial"
+   ],
+   "keys": {
+    "onclick": "",
+    "inpage": "",
+    "interstitial": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "PROPELLER_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "admaven",
+   "name": "AdMaven",
+   "enabled": false,
+   "priority": 4,
+   "rpm": 0.7,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "PayPal"
+   ],
+   "signup": "https://admaven.com/",
+   "formats": [
+    "popunder",
+    "push"
+   ],
+   "keys": {
+    "popunder": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "ADMAVEN_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "clickadu",
+   "name": "Clickadu",
+   "enabled": false,
+   "priority": 5,
+   "rpm": 0.8,
+   "min_payout": 10,
+   "methods": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "signup": "https://clickadu.com/",
+   "formats": [
+    "popunder",
+    "banner"
+   ],
+   "keys": {
+    "popunder": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "CLICKADU_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "hilltop",
+   "name": "HilltopAds",
+   "enabled": false,
+   "priority": 6,
+   "rpm": 0.7,
+   "min_payout": 20,
+   "methods": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "signup": "https://hilltopads.com/",
+   "formats": [
+    "popunder",
+    "inpage"
+   ],
+   "keys": {
+    "popunder": "",
+    "inpage": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "HILLTOP_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "popads",
+   "name": "PopAds",
+   "enabled": false,
+   "priority": 7,
+   "rpm": 0.6,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "PayPal"
+   ],
+   "signup": "https://www.popads.net/",
+   "formats": [
+    "popunder"
+   ],
+   "keys": {
+    "popunder": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "POPADS_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "popmyads",
+   "name": "PopMyAds",
+   "enabled": false,
+   "priority": 8,
+   "rpm": 0.6,
+   "min_payout": 5,
+   "methods": [
+    "USDT",
+    "PayPal"
+   ],
+   "signup": "https://popmyads.com/",
+   "formats": [
+    "popunder"
+   ],
+   "keys": {
+    "popunder": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "POPMYADS_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "adcash",
+   "name": "Adcash",
+   "enabled": false,
+   "priority": 9,
+   "rpm": 0.7,
+   "min_payout": 25,
+   "methods": [
+    "PayPal",
+    "Payoneer",
+    "Wire"
+   ],
+   "signup": "https://adcash.com/",
+   "formats": [
+    "banner",
+    "pop"
+   ],
+   "keys": {
+    "pop": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "ADCASH_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "exoclick",
+   "name": "ExoClick",
+   "enabled": false,
+   "priority": 10,
+   "rpm": 0.6,
+   "min_payout": 20,
+   "methods": [
+    "USDT",
+    "PayPal",
+    "Paxum"
+   ],
+   "signup": "https://www.exoclick.com/",
+   "formats": [
+    "banner",
+    "outstream"
+   ],
+   "keys": {
+    "outstream": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "EXOCLICK_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "bidvertiser",
+   "name": "Bidvertiser",
+   "enabled": false,
+   "priority": 11,
+   "rpm": 0.5,
+   "min_payout": 10,
+   "methods": [
+    "PayPal",
+    "USDT"
+   ],
+   "signup": "https://www.bidvertiser.com/",
+   "formats": [
+    "banner"
+   ],
+   "keys": {
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "BIDVERTISER_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "mgid",
+   "name": "MGID",
+   "enabled": false,
+   "priority": 12,
+   "rpm": 0.5,
+   "min_payout": 100,
+   "methods": [
+    "Wire",
+    "PayPal"
+   ],
+   "signup": "https://www.mgid.com/",
+   "formats": [
+    "native"
+   ],
+   "keys": {
+    "native": "",
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "MGID_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "adsense",
+   "name": "Google AdSense",
+   "enabled": false,
+   "priority": 13,
+   "rpm": 2.5,
+   "min_payout": 100,
+   "methods": [
+    "Wire"
+   ],
+   "signup": "https://adsense.google.com/",
+   "formats": [
+    "ins",
+    "auto"
+   ],
+   "keys": {
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "ADSENSE_API_KEY",
+   "status": "idle",
+   "error": ""
+  },
+  {
+   "id": "nowpay",
+   "name": "NOWPayments",
+   "enabled": false,
+   "priority": 99,
+   "rpm": 0.0,
+   "min_payout": 0,
+   "methods": [
+    "USDT"
+   ],
+   "signup": "https://nowpayments.io/",
+   "formats": [
+    "gateway"
+   ],
+   "keys": {
+    "banner_top": "",
+    "banner_mid": "",
+    "banner_side": "",
+    "banner_mobile": "",
+    "banner_bottom": "",
+    "banner_inarticle": ""
+   },
+   "api_env": "NOWPAY_API_KEY",
+   "status": "idle",
+   "error": ""
+  }
+ ],
+ "slots": {
+  "top": [
+   [
+    "adsterra",
+    "banner_top"
+   ],
+   [
+    "adcash",
+    "banner_top"
+   ],
+   [
+    "adsense",
+    "ins"
+   ]
+  ],
+  "mid": [
+   [
+    "adsterra",
+    "banner_mid"
+   ],
+   [
+    "bidvertiser",
+    "banner_mid"
+   ],
+   [
+    "adsense",
+    "ins"
+   ]
+  ],
+  "side": [
+   [
+    "adsterra",
+    "banner_side"
+   ],
+   [
+    "exoclick",
+    "banner_side"
+   ]
+  ],
+  "bottom": [
+   [
+    "adsterra",
+    "banner_bottom"
+   ],
+   [
+    "adcash",
+    "banner_bottom"
+   ]
+  ],
+  "mobile": [
+   [
+    "adsterra",
+    "banner_mobile"
+   ]
+  ],
+  "inarticle": [
+   [
+    "adsterra",
+    "banner_inarticle"
+   ],
+   [
+    "mgid",
+    "native"
+   ]
+  ],
+  "sticky": [
+   [
+    "adsterra",
+    "banner_mobile"
+   ]
+  ]
+ }
+}

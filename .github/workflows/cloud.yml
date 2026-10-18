@@ -1,0 +1,25 @@
+name: cloud
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cloud
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ربح ساعي
+        run: python3 cloud_tick.py
+      - name: صيانة (rss + sitemap + فهرسة)
+        run: python3 cloud_daily.py
+      - name: نشر
+        run: |
+          git config user.email "ci@users.noreply.github.com"
+          git config user.name "cinehub-ci"
+          git add -A
+          git diff --cached --quiet || git commit -m "cloud $(date -u +%F_%H:%M)"
+          git push

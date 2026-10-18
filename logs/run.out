@@ -1,0 +1,87 @@
+
+[36m═══ 1 · المصادقة ═══[0m
+  مرشّحون محفوظون: 2
+    ghp_FA7FZLbz… مرفوض
+    github_pat_1… مرفوض
+[33m![0m لا توكن صالح → مصادقة بالمتصفح (مرة واحدة فقط، بلا نسخ)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/cinehub3099/tools/auth_device.py", line 11, in <module>
+    open("/tmp/gh_code", "w").write(code + "\n" + url)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/gh_code'
+[31m✗[0m بلا مصادقة
+✓ NEW.sh مُرقّع
+
+── تشغيل NEW.sh ──
+
+
+[36m═══ 1 · المصادقة ═══[0m
+  مرشّحون محفوظون: 2
+    ghp_FA7FZLbz… مرفوض
+    github_pat_1… مرفوض
+[33m![0m لا توكن صالح → مصادقة بالمتصفح (مرة واحدة فقط، بلا نسخ)
+
+  ┌──────────────────────────────┐
+  │  الرمز:  A537-0143           │
+  └──────────────────────────────┘
+  افتح: https://github.com/login/device  والصق الرمز ثم Approve
+
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+[32m✓[0m تمت المصادقة → [1malisalimax3[0m
+[32m✓[0m التوكن محفوظ — لن يُطلب منك مرة أخرى
+
+[36m═══ 2 · المستودع ═══[0m
+  إنشاء alisalimax3/alisalimax3.github.io …
+[32m✓[0m أُنشئ
+
+[36m═══ 3 · تنظيف ═══[0m
+[32m✓[0m أقفال git
+[32m✓[0m .nojekyll
+[32m✓[0m .gitignore
+  keys.env: نُظّفت 0 قيمة
+[32m✓[0m gh.py مُلحق بالدوال الناقصة
+[32m✓[0m المضيف alkazmybwhwr-dot → alisalimax3
+
+[36m═══ 4 · ضبط git ═══[0m
+[32m✓[0m HTTP/1.1 · buffer 500MB
+
+[36m═══ 5 · المحرّك ═══[0m
+  تشغيل MASTER.sh (حد 900s · stdin مغلق)
+[32m✓[0m MASTER.sh تم
+
+[36m═══ 6 · الرفع ═══[0m
+[32m✓[0m commit البناء
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[32m✓[0m رُفع إلى GitHub
+
+[36m═══ 7 · GitHub Pages ═══[0m
+[32m✓[0m Pages مفعّل (HTTP 409)
+
+[36m═══ 8 · التحقق ═══[0m
+[33m![0m رسالة الريموت: Initial commit
+  محاولة  1 → 200
+[32m✓[0m index.html
+[31m✗[0m app.html → 404
+[31m✗[0m owner.html → 404
+[31m✗[0m marketing.html → 404
+[31m✗[0m publishers.html → 404
+[31m✗[0m subscribe.html → 404
+[31m✗[0m robots.txt → 404
+[31m✗[0m sitemap.xml → 404
+[31m✗[0m feed.xml → 404
+[31m✗[0m .nojekyll → 404
+
+[36m═══ التقرير النهائي ═══[0m
+الحساب   : alisalimax3
+المستودع : https://github.com/alisalimax3/alisalimax3.github.io
+الموقع   : https://alisalimax3.github.io
+الرسالة  : Initial commit
+الملفات  : 1 ناجح / 9 فاشل
+الوقت    : 2026-10-18_0456
+السجل    : /data/data/com.termux/files/home/cinehub3099/logs/NEW.2026-10-18_0456.log
+[33m![0m بناء Pages يستغرق حتى 3 دقائق — أعد: bash NEW.sh --no-engine

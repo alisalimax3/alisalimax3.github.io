@@ -1,0 +1,33 @@
+
+[36m══ 1 · تنظيف keys.env من القيم الوهمية ══[0m
+  حُذفت 3 قيمة وهمية · بقي 12 مفتاحًا حقيقيًا
+    ✗ IA_COLS            feature_films,classic_cartoons,film_noir
+    ✗ KURAIMI_BRANCH     عدن
+    ✗ KURAIMI_NAME_EN    ALI SALEM ABDULLAH
+
+[36m══ 2 · إصلاح دالة التحقق (بلا رفض للحافظة الفارغة) ══[0m
+  ✓ RUN.sh مُرقّع
+[32m✓[0m صيغة RUN.sh سليمة
+
+[36m══ 3 · RUN2.sh — نسخة مُصلّحة بالكامل (استخدمها بدل RUN.sh) ══[0m
+[32m✓[0m صيغة RUN2.sh سليمة
+
+[36m══ 4 · PUSH.sh — رفع صحيح (rebase + صلاحيات + قسري) ══[0m
+[32m✓[0m صيغة PUSH.sh سليمة
+
+[36m══ 5 · رفع فوري ══[0m
+  الحساب: alisalimax3 · الصلاحيات:  read:org, repo, workflow
+  مزامنة مع الريموت (الوكيل السحابي يدفع كل 6 ساعات)…
+  ! محاولة قسرية
+warning: redirecting to https://github.com/alisalimax3/alisalimax3.github.io.git/
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+[36m══ 6 · تحقق حيّ ══[0m
+[31m✗[0m / → 000
+[31m✗[0m /app.html → 000
+[31m✗[0m /money.html → 000
+[31m✗[0m /wallet.html → 000
+[31m✗[0m /platforms.html → 000

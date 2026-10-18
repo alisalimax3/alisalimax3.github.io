@@ -1,0 +1,72 @@
+{
+ "at": "2026-10-17T21:32:42.810661+00:00",
+ "live": {
+  "index.html": 200,
+  "library.html": 200,
+  "adult.html": 200,
+  "play.html": 200,
+  "watch.html": 200,
+  "go.html": 200,
+  "earn.html": 200,
+  "rise.html": 200,
+  "agent.html": 200,
+  "withdraw.html": 200,
+  "keys.html": 200,
+  "share.html": 200,
+  "rails.html": 200,
+  "tower.html": 200,
+  "rewards.html": 200,
+  "cinema.html": 200,
+  "auto.html": 200,
+  "surveys.html": 200,
+  "audit.html": 200,
+  "live-dash.html": 200,
+  "diag.html": 200,
+  "nav.js": 200,
+  "ads.js": 200,
+  "authtoken.js": 200,
+  "catalog.json": 200,
+  "adult.json": 200,
+  "auth.json": 200,
+  "browse.json": 200,
+  "keys-status.json": 200,
+  "tasks.json": 200,
+  "rewards.json": 200,
+  "treasury.json": 200,
+  "revenue.json": 200,
+  "registry.json": 200,
+  "sitemap.xml": 200,
+  "rss.xml": 200,
+  "robots.txt": 200
+ },
+ "ok": 37,
+ "total": 37,
+ "missing": [],
+ "content": {
+  "films": 10000,
+  "adult": 0,
+  "film_pages": 0,
+  "tag_pages": 1
+ },
+ "agent": {
+  "ad_requests": 0,
+  "browse_runs": 0,
+  "cycles": 57,
+  "rewards": 0.072,
+  "valid_keys": 0,
+  "keys_total": 0
+ },
+ "money": {
+  "balance": 0.072,
+  "buckets": {
+   "ads": 0.0,
+   "rewards": 0.072,
+   "commissions": 0.0,
+   "gifts": 0.0,
+   "surveys": 0.0,
+   "links": 0.0,
+   "referral": 0.0
+  },
+  "platforms": 0
+ }
+}

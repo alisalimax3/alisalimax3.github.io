@@ -1,0 +1,41 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>الحسابات والمسارات · CineHub 3099</title>
+<style>body{background:#070b14;color:#e9f4ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:820px;margin:auto}
+.card{background:#0f1626;border:1px solid #1d2a44;border-radius:13px;padding:14px;margin:11px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid #1d2a44;padding:7px;text-align:right}th{color:#8ba2c0}
+.ok{color:#22c55e}.w{color:#fbbf24}.k{color:#8ba2c0;font-size:12.5px}code{background:#0b1220;padding:2px 6px;border-radius:6px;direction:ltr;display:inline-block}</style>
+</head><body><div class="wrap">
+<h1>حساباتك ومسارات السحب</h1>
+<div class="k">هذه الصفحة لك وحدك (owner-only). تُظهر الحسابات التي فُعّلت فيها الاشتراكات، والمسار الذي تعود منه الأرباح إلى بنك الكريمي.</div>
+<div class="card"><b>حساب GitHub المفوَّض</b><div id="gh" class="k">…</div></div>
+<div class="card"><b>حسابات المنصات المرتبطة</b><table><thead><tr><th>المنصة</th><th>الحساب المسجّل</th><th>الحالة</th><th>أدنى سحب</th></tr></thead><tbody id="tb"></tbody></table>
+<div class="k">تُعدَّل من الطرفية: <code>bash SETUP.sh</code> ثم أعد إدخال الحسابات.</div></div>
+<div class="card"><b>مسار وصول الأرباح</b><table><thead><tr><th>المنصة</th><th>طريقة الاستلام</th><th>إلى</th></tr></thead><tbody id="rt"></tbody></table>
+<div class="k" id="kur"></div></div>
+<p class="k"><a href="/owner.html">لوحة المالك</a> · <a href="/treasury.html">الخزينة</a> · <a href="/withdraw.html">السحب</a></p>
+</div><script src="/owner.js"></script>
+<script>
+Promise.all([fetch('/accounts.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+ fetch('/networks.json?t='+Date.now()).then(r=>r.json()).catch(()=>({networks:[]})),
+ fetch('/owner.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))]).then(function(a){
+ var acc=a[0]||{},net=a[1]||{},own=a[2]||{};
+ document.getElementById('gh').innerHTML=acc.github&&acc.github.login?('<span class="ok">✓ '+acc.github.login+'</span> · البريد '+acc.github.login+'@users.noreply.github.com · التوكن مفوَّض للدفع'):'<span class="w">غير مربوط — شغّل bash SETUP.sh</span>';
+ var P=acc.platforms||{};
+ var ids=Object.keys(P);
+ document.getElementById('tb').innerHTML=ids.length?ids.map(function(id){
+  var n=(net.networks||[]).filter(function(x){return x.id===id})[0]||{};
+  return '<tr><td><b>'+(n.name||id)+'</b></td><td>'+(P[id].account||'')+'</td><td class="ok">مربوط</td><td>$'+(n.min_payout||'—')+'</td></tr>'}).join(''):'<tr><td colspan=4 class="w">لا حسابات مرتبطة</td></tr>';
+ document.getElementById('rt').innerHTML=ids.map(function(id){
+  var n=(net.networks||[]).filter(function(x){return x.id===id})[0]||{};
+  return '<tr><td>'+(n.name||id)+'</td><td>'+((n.methods||[]).join(' · ')||'—')+'</td><td>'+(own.kuraimi_name||'—')+'</td></tr>'}).join('')||'<tr><td colspan=3 class="w">—</td></tr>';
+ document.getElementById('kur').innerHTML=own.kuraimi_name?('يُحوَّل نهائيًا إلى: <b>'+own.kuraimi_name+'</b> — '+(own.kuraimi_account||'')+' — '+(own.kuraimi_phone||'')):'<span class="w">⚠ بيانات الكريمي ناقصة</span>';
+});
+</script>
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

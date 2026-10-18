@@ -1,0 +1,30 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>تشخيص — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:11px 0}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}.c{color:#8ea3b8;font-size:13px}</style></head><body>
+<h1>تشخيص حقيقي</h1>
+<p class="c">يفحص ما هو منشور فعلًا — بلا تخمين.</p>
+<div class="box" id="files"><b>الملفات</b><div class="c">…</div></div>
+<div class="box" id="cnt"><b>المحتوى</b><div class="c">…</div></div>
+<div class="box" id="ag"><b>الوكيل</b><div class="c">…</div></div>
+<script>
+(function(){
+"use strict";
+var F=["index.html","library.html","adult.html","play.html","watch.html","go.html","earn.html","rise.html","agent.html","withdraw.html","keys.html","share.html","rails.html","catalog.json","adult.json","auth.json","browse.json","keys-status.json","tasks.json","registry.json","sitemap.xml","rss.xml"];
+function head(u){return fetch(u,{method:"HEAD",cache:"no-store"}).then(function(r){return r.status}).catch(function(){return 0});}
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+var e=document.getElementById("files"),out=[],done=0;
+F.forEach(function(f){head(f).then(function(c){out.push([f,c]);done++;
+ if(done===F.length){out.sort(function(a,b){return a[1]-b[1]});
+  e.innerHTML=out.map(function(x){return "<div class='"+(x[1]===200?"ok":"bad")+"'>"+(x[1]===200?"✓ ":"✗ ")+x[0]+" → "+x[1]+"</div>";}).join("");}});});
+g("catalog.json").then(function(d){g("adult.json").then(function(a){
+ document.getElementById("cnt").innerHTML="<div class='"+(d&&d.count?"ok":"bad")+"'>أفلام: "+((d&&d.count)||0)+"</div>"+
+ "<div class='"+(a&&a.count?"ok":"bad")+"'>مقاطع كبار: "+((a&&a.count)||0)+"</div>";});});
+g("browse.json").then(function(b){g("pulse.json").then(function(p){g("rewards.json").then(function(r){
+ document.getElementById("ag").innerHTML="<div>طلبات إعلان من الوكيل: "+((b&&b.ad_requests)||0)+"</div>"+
+ "<div>دورات: "+((p&&p.cycle)||0)+"</div><div>مكافآت: $"+(((r&&r.total)||0).toFixed?((r&&r.total)||0).toFixed(6):"0")+"</div>";});});});
+})();
+</script>
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

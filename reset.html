@@ -1,0 +1,32 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>تصفير — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;padding:22px;line-height:1.9}
+button{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0;border-radius:12px;padding:14px 22px;font-size:16px;width:100%}
+a{color:#4cc2ff}.c{color:#8ea3b8}</style></head><body>
+<h1>تصفير كامل</h1><p class="c">يُلغي كل service workers وكل الكاشات وكل التخزين المؤقت، ثم يعيد التحميل نظيفًا.</p>
+<button id="go">نفّذ التصفير الآن</button><p id="s" class="c"></p>
+<p class="c"><a href="index.html">عودة للرئيسية</a></p>
+<script>
+(function(){
+"use strict";
+document.getElementById("go").onclick=function(){
+ var st=document.getElementById("s"); st.textContent="جارٍ…";
+ var jobs=[];
+ if(navigator.serviceWorker&&navigator.serviceWorker.getRegistrations){
+  jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){
+   return Promise.all(rs.map(function(r){return r.unregister();}));}));
+ }
+ if(window.caches&&caches.keys){jobs.push(caches.keys().then(function(ks){
+   return Promise.all(ks.map(function(k){return caches.delete(k);}));}));}
+ Promise.all(jobs).then(function(){
+  try{sessionStorage.clear();}catch(e){}
+  st.textContent="تم — يُعاد التحميل…";
+  setTimeout(function(){location.href="index.html?fresh=1&t="+Date.now();},700);
+ });
+};
+})();
+</script><script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

@@ -1,0 +1,22 @@
+{
+ "devices": {
+  "agent": {
+   "total": 0.072,
+   "items": {
+    "indexnow": 0.024,
+    "browse": 0.016,
+    "cycle": 0.032
+   },
+   "day": "2026-10-17"
+  }
+ },
+ "total": 0.072,
+ "rates": {
+  "page": 0.0002,
+  "indexnow": 0.0005,
+  "browse": 0.001,
+  "cycle": 0.002,
+  "valid_key": 0.05
+ },
+ "updated": "2026-10-17T21:32:35.139565+00:00"
+}

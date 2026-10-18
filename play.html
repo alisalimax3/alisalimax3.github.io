@@ -1,0 +1,47 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>مشاهدة — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:12px 0}
+.ad{border:1px dashed rgba(255,255,255,.18);border-radius:12px;padding:14px;text-align:center;color:#8ea3b8;margin:12px 0}
+iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
+.btn{display:inline-block;background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border-radius:10px;padding:10px 15px;margin:4px;border:0;font-size:14px;cursor:pointer}
+.c{color:#8ea3b8;font-size:13px}</style></head><body>
+<h1 id="t">…</h1><p class="c" id="m"></p>
+<iframe id="pl" allowfullscreen allow="autoplay; fullscreen"></iframe>
+<div class="ad" data-ad>إعلان</div>
+<p><button class="btn" id="earn">▶ شاهد 15 ثانية واقبض</button>
+<button class="btn" id="wa">شارك على واتساب</button>
+<button class="btn" id="tg">شارك على تيليجرام</button></p>
+<div class="box" id="rel"><b>مشاهدات مقترحة</b></div>
+<p><a href="library.html">المكتبة</a> · <a href="index.html">الرئيسية</a> · <a href="rise.html">الأرقام</a></p>
+<script>
+(function(){
+"use strict";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+var id=decodeURIComponent((location.search.match(/[?&]id=([^&]+)/)||[])[1]||"");
+var SITE="https://alkazmybwhwr-dot.github.io/play.html?id=";
+function hit(k){try{fetch("https://abacus.jasoncameron.dev/hit/ch3099-alkazmybwhwr-dot/"+k,{mode:"cors"}).catch(function(){});}catch(e){}}
+g("catalog.json").then(function(d){
+ if(!d||!d.items){document.getElementById("t").textContent="لا كتالوج";return;}
+ var it=null;for(var i=0;i<d.items.length;i++) if(d.items[i].i===id){it=d.items[i];break;}
+ if(!it){document.getElementById("t").textContent="لم يُعثر على الفيلم";return;}
+ document.title=it.t+" — CineHub 3099";
+ document.getElementById("t").textContent=it.t;
+ document.getElementById("m").textContent=(it.y?it.y+" · ":"")+it.c+" · "+it.a+" · المصدر: archive.org (ملك عام / مرخّص)";
+ document.getElementById("pl").src=it.p;
+ var box=document.getElementById("rel");
+ d.items.filter(function(x){return x.c===it.c&&x.i!==it.i;}).slice(0,8).forEach(function(x){
+  var a=document.createElement("a");a.href="play.html?id="+encodeURIComponent(x.i);a.textContent="• "+x.t;a.style.display="block";box.appendChild(a);});
+ var u=encodeURIComponent(SITE+encodeURIComponent(id));
+ document.getElementById("wa").onclick=function(){hit("shares");window.open("https://wa.me/?text="+encodeURIComponent(it.t+" — مشاهدة مجانية\n")+u,"_blank");};
+ document.getElementById("tg").onclick=function(){hit("shares");window.open("https://t.me/share/url?url="+u+"&text="+encodeURIComponent(it.t),"an_blank");};
+});
+document.getElementById("earn").onclick=function(){
+ var b=localStorage.getItem("ch3099_balance");var v=parseFloat(b||"0")+0.0004;
+ localStorage.setItem("ch3099_balance",String(v));hit("rewards");
+ this.textContent="✓ أُضيف $0.0004 — رصيدك $"+v.toFixed(4);};
+})();
+</script><script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

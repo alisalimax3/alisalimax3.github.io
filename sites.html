@@ -1,0 +1,45 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>السجل الكامل — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:16px;line-height:1.7}
+a{color:#4cc2ff}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+input,select{background:#0f1720;border:1px solid rgba(255,255,255,.12);color:#e9f1f8;border-radius:10px;padding:9px;font-size:14px}
+input{flex:1;min-width:180px}table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:7px;border-bottom:1px solid rgba(255,255,255,.07);text-align:right}th{color:#8ea3b8}
+.c{color:#8ea3b8;font-size:12px}button{background:rgba(76,194,255,.15);color:#9fe;border:1px solid #2a6;border-radius:10px;padding:9px 14px;font-size:14px}</style>
+</head><body>
+<h1>السجل الكامل — المواقع والمنصات</h1>
+<p class="c" id="sum">…</p>
+<div class="bar"><input id="q" placeholder="ابحث بالاسم أو النطاق"><select id="cat"><option value="">كل التصنيفات</option></select><button id="more">تحميل المزيد</button></div>
+<table><thead><tr><th>الاسم</th><th>النطاق</th><th>التصنيف</th><th>فتح</th></tr></thead><tbody id="tb"></tbody></table>
+<script>
+(function(){
+"use strict";var idx=0,all=[],shown=0;
+function get(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function row(x){var tr=document.createElement("tr");
+ tr.innerHTML="<td>"+x.n+"</td><td class='c'>"+x.d+"</td><td class='c'>"+x.c+"</td><td><a target='_blank' rel='noopener' href='"+x.u+"'>فتح</a></td>";return tr;}
+function draw(){var tb=document.getElementById("tb");tb.innerHTML="";
+ var q=(document.getElementById("q").value||"").toLowerCase(),c=document.getElementById("cat").value;
+ var f=all.filter(function(x){return (!q||(x.n+" "+x.d).toLowerCase().indexOf(q)>-1)&&(!c||x.c===c);});
+ document.getElementById("sum").textContent="معروض "+Math.min(shown,f.length)+" من "+f.length+" (المحمّل "+all.length+")";
+ f.slice(0,shown).forEach(function(x){tb.appendChild(row(x));});}
+get("registry.json").then(function(r){
+ if(!r)return; var s=r.counts||{};
+ document.getElementById("sum").textContent="إجمالي: "+s.sites+" موقع · شرائح: "+s.shards+" · قنوات دخل محتملة: "+s.money;
+ var sel=document.getElementById("cat");
+ Object.keys(r.categories||{}).forEach(function(k){var o=document.createElement("option");o.value=k;o.textContent=k+" ("+r.categories[k]+")";sel.appendChild(o);});
+ return get("sites/s000.json");
+}).then(function(first){ if(first)all=all.concat(first); idx=1; shown=Math.min(200,all.length); draw(); });
+document.getElementById("more").onclick=function(){
+ if(shown<all.length){shown+=200;draw();return;}
+ if(idx>=91){return;}
+ get("sites/s"+String(idx).padStart(3,"0")+".json").then(function(d){
+  if(d&&d.length){all=all.concat(d);shown+=200;draw();} idx++;});
+};
+document.getElementById("q").oninput=function(){shown=200;draw();};
+document.getElementById("cat").onchange=function(){shown=200;draw();};
+})();
+</script><script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

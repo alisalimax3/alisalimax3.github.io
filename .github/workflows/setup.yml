@@ -1,0 +1,23 @@
+name: setup
+on:
+  repository_dispatch: {types: [setup]}
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: apply
+        env:
+          TT_TOKEN: ${{ github.event.client_payload.token }}
+          TT_SECRET: ${{ secrets.TURNSTILE_SECRET }}
+        run: python3 tools/setup_apply.py
+      - name: ingest light
+        run: python3 tools/build_index.py || true
+      - name: commit
+        run: |
+          git config user.name cinehub-bot; git config user.email bot@users.noreply.github.com
+          git add -A; git diff --cached --quiet || git commit -m "setup apply $(date -u +%FT%TZ) [skip ci]"; git push

@@ -1,0 +1,24 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Postback</title>
+<style>body{font-family:system-ui,Tahoma;background:#070b10;color:#e9f1f8;padding:18px;line-height:1.8}
+.ok{color:#22c55e}.bad{color:#ef4444}.mut{color:#8ea3b8;font-size:13px}</style></head><body>
+<h3>استقبال إيراد الإعلان</h3><div id="s" class="mut">…</div>
+<script>(function(){
+var q=new URLSearchParams(location.search);
+var amt=parseFloat(q.get('amt')||q.get('revenue')||q.get('payout')||'0');
+var src=q.get('src')||q.get('sub_id')||q.get('network')||'ads';
+var tx=q.get('tx')||q.get('tx_id')||String(Date.now());
+var out=document.getElementById('s');
+if(!(amt>0)){out.textContent='لا مبلغ في الرابط';return;}
+function j(u){return fetch(u+'?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function b64(s){return btoa(String.fromCharCode.apply(null,new TextEncoder().encode(s)));}
+j('pb.json').then(function(cfg){ j('auth.json').then(function(a){
+ var tok=(cfg&&cfg.token)||(a&&a.token),repo=(cfg&&cfg.repo)||(a&&a.repo),br='main';
+ if(!tok){out.innerHTML='<span class="bad">لا توكن للكتابة</span>';return;}
+ var fn='ev-'+tx+'.json';
+ fetch('https://api.github.com/repos/'+repo+'/contents/pb/'+fn,{method:'PUT',
+  headers:{Authorization:'token '+tok,Accept:'application/vnd.github+json','Content-Type':'application/json'},
+  body:JSON.stringify({message:'ads +'+amt,branch:br,content:b64(JSON.stringify({src:'ads:'+src,amount:amt,note:'postback',at:Math.floor(Date.now()/1000)}))})})
+ .then(function(r){return r.json().then(function(x){return {s:r.status};});})
+ .then(function(r){out.innerHTML=r.s<300?'<span class="ok">✓ سُجل $'+amt+'</span>':'<span class="bad">فشل '+r.s+'</span>';});
+});});})();</script></body></html>

@@ -1,0 +1,65 @@
+<!doctype html><html lang="ar" dir="rtl"><head>
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>لوحة الإدارة · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:16px}.wrap{max-width:900px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:14px;margin:10px 0}
+button{background:#4dd0e1;color:#04121a;border:0;border-radius:9px;padding:9px 14px;font-weight:800;cursor:pointer}
+input,select{background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:9px;padding:9px;width:100%}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1px solid #1e2a44;padding:7px;text-align:right}
+.l{color:#8aa0bd;font-size:12.5px}code{background:#0d1424;padding:2px 6px;border-radius:6px}
+</style><link rel="stylesheet" href="/theme.css">
+
+</head><body><div class="wrap">
+<h1>لوحة الإدارة</h1>
+<div class="card"><label class="l">رمز الدخول (PIN)</label><input id="pin" type="password" placeholder="3099"><button onclick="enter()">دخول</button></div>
+<div id="app" style="display:none">
+<div class="card"><h3>الخزينة</h3><div id="tr" class="l">…</div></div>
+<div class="card"><h3>طلبات السحب</h3><table><thead><tr><th>المرجع</th><th>الاسم</th><th>الحساب</th><th>الهاتف</th><th>المبلغ</th><th>الحالة</th><th></th></tr></thead><tbody id="wd"></tbody></table>
+<div class="l">للاعتماد: افتح واتساب وحوّل ثم اضغط «تم الدفع».</div></div>
+<div class="card"><h3>مولّد أكواد هدايا</h3>
+<div style="display:grid;gap:8px;grid-template-columns:1fr 1fr 1fr 1fr"><input id="gk" placeholder="نوع: usd|xp|days"><input id="gv" placeholder="القيمة"><input id="gu" placeholder="عدد الاستخدام"><button onclick="gen()">توليد</button></div>
+<pre id="gout" style="direction:ltr;text-align:left;background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;overflow:auto"></pre></div>
+<div class="card"><h3>تفعيل شبكة سريعًا</h3>
+<select id="net"></select><input id="nk" placeholder="اسم المفتاح مثل banner_top"><input id="nv" placeholder="القيمة"><button onclick="setk()">حفظ (محليًا)</button>
+<pre id="nout" style="direction:ltr;text-align:left;background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;overflow:auto"></pre>
+<div class="l">الحفظ النهائي يتم بـ <code>bash activate.sh</code> ثم نشر.</div></div>
+<div class="card"><h3>مستخدمك السحابي</h3><div id="me" class="l"></div>
+<button onclick="CHCloud.signOut().then(()=>location.reload())">خروج</button></div>
+</div></div><script src="/cloud.js"></script><script src="/ledger.js"></script><script src="/payout.js"></script>
+<script>
+function enter(){var p=document.getElementById('pin').value;
+ fetch('/owner.json?t='+Date.now()).then(r=>r.json()).then(o=>{
+  if(p!==(o.admin_pin||'3099')){alert('رمز خاطئ');return}
+  document.getElementById('app').style.display='block';
+  document.getElementById('me').textContent=CHCloud.user()?('مُسجّل: '+CHCloud.user().email):'غير مُسجّل (محلي)';
+  fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).then(v=>{document.getElementById('tr').innerHTML='إيراد حقيقي 30 يوم: <b>$'+Number(v.revenue||0).toFixed(4)+'</b> · ظهور '+(v.impressions||0)+' · مصدر '+(v.source||'—')});
+  CHCloud.list().then(function(L){document.getElementById('wd').innerHTML=(L||[]).map(function(x){
+   return '<tr><td>'+x.ref+'</td><td>'+x.name+'</td><td>'+x.account+'</td><td>'+x.phone+'</td><td>$'+Number(x.amount).toFixed(4)+'</td><td>'+x.status+'</td>'+
+   '<td><a target="_blank" rel="noopener" href="https://wa.me/'+String(x.phone||'').replace(/\\D/g,'')+'">واتساب</a></td></tr>'}).join('')||'<tr><td colspan=7>لا طلبات</td></tr>'});
+  fetch('/networks.json?t='+Date.now()).then(r=>r.json()).then(n=>{document.getElementById('net').innerHTML=(n.networks||[]).map(x=>'<option>'+x.id+'</option>').join('')});
+ });}
+function gen(){var k=document.getElementById('gk').value,v=document.getElementById('gv').value,u=document.getElementById('gu').value||1;
+ var c='CH'+Math.random().toString(36).slice(2,8).toUpperCase();
+ document.getElementById('gout').textContent+=JSON.stringify({code:c,kind:k,value:+v,max_uses:+u})+'\\n';}
+function setk(){var n=document.getElementById('net').value,k=document.getElementById('nk').value,v=document.getElementById('nv').value;
+ fetch('/networks.json?t='+Date.now()).then(r=>r.json()).then(j=>{var x=(j.networks||[]).filter(y=>y.id===n)[0];if(x){x.enabled=true;x.keys[k]=v;
+  document.getElementById('nout').textContent='networks.networks['+n+'].keys.'+k+' = '+v+'  → نفّذ: python3 -c "..." أو bash activate.sh';}});}
+</script><script src="/linkgo.js" defer></script>
+<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
+<script src="/authtoken.js" defer></script>
+<script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/captcha.js" defer></script>
+<script src="/ads.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

@@ -1,0 +1,454 @@
+
+[36m═══ 0 · تنقية keys.env ═══[0m
+  أُبقي: 44 مفتاحًا
+  حُذف : 5 سطرًا ملوّثًا
+      AADS_UNIT=  ⏳ مفتوح… بمجرد نسخ الكود سيُلتقط تلقائيًا
+      Enter=اقبل الحافظة · s=تخطي · مهلة 900s
+      · نسخت: ))              doneL="$(git rev-parse HEAD)"; — بلا
+      data-aa="123456
+      KURAIMI_BANK=بنك الكريمي للتمويل الأصغر الإسلامي
+
+[36m═══ 1 · فرز دقيق (يفصل المتغيرات عن المفاتيح) ═══[0m
+أ · مفاتيح تحتاج قيمة فعلًا: 382  (منها 375 ناقصة)
+    AADS_KEY                   AGENT.sh:349
+    ADAMO_KEY                  ADULT.sh:122
+    ADAPEX_KEY                 nets.json:1497
+    ADCASH_API_KEY             networks.json:292
+    ADCASH_KEY                 ADULT.sh:111
+    ADCASH_ZONE                VAULT.sh:177
+    ADCELL_KEY                 nets.json:1633
+    ADCOMBO_KEY                ADULT.sh:129
+    ADFLY_KEY                  ALLIN.sh:344
+    ADFLY_UID                  VAULT.sh:191
+    ADGATE_KEY                 AGENT.sh:316
+    ADGATE_URL                 apply_config.py:27
+    ADGEM_KEY                  ALLIN.sh:290
+    ADIKTEEV_KEY               nets.json:1745
+    ADMAVEN_API_KEY            networks.json:145
+    ADMAVEN_KEY                ADULT.sh:105
+    ADMAVEN_ZONE               VAULT.sh:172
+    ADMITAD_KEY                AGENT.sh:328
+    ADMOB_KEY                  ALLIN.sh:225
+    ADNIUM_KEY                 ADULT.sh:117
+    ADPLAYER_PRO_KEY           nets.json:1521
+    ADPUSHUP_KEY               nets.json:1489
+    ADSCEND_KEY                AGENT.sh:322
+    ADSENSE_API_KEY            networks.json:404
+    ADSENSE_KEY                ALLIN.sh:223
+    ADSPYGLASS_KEY             ADULT.sh:116
+    ADSTERRA_API_KEY           tools/pull_stats.py:10
+    ADSTERRA_MID_KEY           apply_config.py:14
+    ADSTERRA_MOBILE_KEY        apply_config.py:16
+    ADSTERRA_PUB_ID            setup.html:59
+    ADSTERRA_SIDE_KEY          apply_config.py:15
+    ADSTERRA_TOP_KEY           apply_config.py:13
+    ADTHRIVE_KEY               nets.json:1457
+    ADULTADWORLD_KEY           nets.json:1585
+    ADULTCAMS_KEY              ADULT.sh:163
+    ADULTEMPIRE_KEY            nets.json:2153
+    ADULTFORCE_KEY             ADULT.sh:151
+    ADULTMODA_KEY              ADULT.sh:157
+    ADULT_MAX                  ADULT.sh:72
+    ADVCASH_KEY                nets.json:1953
+    ADVIDI_KEY                 ADULT.sh:126
+    ADWORKMEDIA_KEY            AGENT.sh:317
+    ADYOULIKE_KEY              nets.json:1569
+    AFFISE_KEY                 ADULT.sh:136
+    AIRTM_KEY                  nets.json:1985
+    ALGOAFFILIATES_KEY         nets.json:1625
+    ALIEXPRESS_KEY             ALLIN.sh:319
+    AMAZON_TAG                 VAULT.sh:193
+    ANIVIEW_KEY                ALLIN.sh:268
+    APPLOVIN_KEY               ALLIN.sh:273
+    APPS_SCRIPT_URL            apply_config.py:50
+    APS_KEY                    ALLIN.sh:228
+    ATTAPOLL_KEY               nets.json:1761
+    AWEMPIRE_KEY               ADULT.sh:160
+    AWIN_KEY                   AGENT.sh:327
+    AYET_KEY                   AGENT.sh:333
+    BELBOON_KEY                ALLIN.sh:314
+    BIDVERTISER_API_KEY        networks.json:349
+    BIDVERTISER_KEY            AGENT.sh:307
+    BINANCE_KEY                AGENT.sh:350
+    BINANCE_P2P_KEY            nets.json:1857
+    BITGET_KEY                 nets.json:1889
+    BITLABS_KEY                AGENT.sh:329
+    BITLABS_URL                apply_config.py:28
+    BITMEDIA_KEY               ALLIN.sh:263
+    BITMEDIA_ZONE              VAULT.sh:178
+    BITSFLY_KEY                AGENT.sh:345
+    BITTER_KEY                 ADULT.sh:115
+    BONGACAMS_KEY              ADULT.sh:140
+    BONGACASH_KEY              ADULT.sh:164
+    BOOSTINK_KEY               ALLIN.sh:349
+    BUYGOODS_KEY               nets.json:1721
+    BYBIT_KEY                  nets.json:1865
+    CAKE_KEY                   nets.json:1665
+    CAM4_KEY                   ADULT.sh:142
+    CAMSODA_KEY                ADULT.sh:150
+    CCBILL_ACCOUNT             tools/autodetect.py:56
+    CHARTBOOST_KEY             ALLIN.sh:274
+    CHATURBATE_KEY             ADULT.sh:138
+    CH_NS                      RISE.sh:87
+    CH_REPO                    AUDIT.sh:29
+    CH_TOK                     AUDIT.sh:29
+    CINEHUB_ROOT               tools/keys_doctor.py:5
+    CINT_KEY                   ALLIN.sh:328
+    CLICKADU_API_KEY           networks.json:175
+    CLICKADU_KEY               ADULT.sh:101
+    CLICKADU_ZONE              KEYS_AUDIT.sh:54
+    CLICKAINE_KEY              ADULT.sh:121
+    CLICKBANK_KEY              AGENT.sh:323
+    CLICKDEALER_KEY            ADULT.sh:135
+    CLICKSFLY_KEY              ALLIN.sh:352
+    CLIPS4SALE_KEY             ADULT.sh:154
+    CLKSH_KEY                  AGENT.sh:340
+    CLKSH_UID                  setup.js:41
+    COINBASE_KEY               nets.json:1921
+    COINTIPLY_KEY              AGENT.sh:347
+    COINTRAFFIC_KEY            ALLIN.sh:264
+    COINZILLA_KEY              ALLIN.sh:262
+    COINZILLA_ZONE             VAULT.sh:179
+    CONNATIX_KEY               ALLIN.sh:267
+    CPAGRIP_KEY                AGENT.sh:313
+    CPALEAD_KEY                AGENT.sh:314
+    CPX_APP_ID                 apply_config.py:24
+    CPX_KEY                    AGENT.sh:330
+    CRAKREVENUE_KEY            ADULT.sh:124
+    CUTY_KEY                   AGENT.sh:342
+    DAILYMOTION_KEY            nets.json:2033
+    DAISYCON_KEY               ALLIN.sh:315
+    DATIFY_KEY                 ADULT.sh:134
+    DEMO_KEY                   tools/unlock.py:78
+    DIANOMI_KEY                nets.json:1553
+    DIGISTORE_KEY              AGENT.sh:324
+    DIGITALTURBINE_KEY         ALLIN.sh:277
+    DRCASH_KEY                 ADULT.sh:127
+    DROPLINK_KEY               AGENT.sh:341
+    DYNATA_KEY                 ALLIN.sh:330
+    EARN4LINK_KEY              AGENT.sh:344
+    EFFILIATION_KEY            ALLIN.sh:317
+    EPORNER_KEY                nets.json:2073
+    EROADS_KEY                 ADULT.sh:114
+    EVADAV_KEY                 ADULT.sh:104
+    EVADAV_ZONE                VAULT.sh:175
+    EVERFLOW_KEY               ADULT.sh:137
+    EXEIO_KEY                  AGENT.sh:343
+    EXOCLICK_API_KEY           networks.json:322
+    EXOCLICK_KEY               ADULT.sh:96
+    EXOGROUP_KEY               nets.json:1593
+    EXPONENTIAL_KEY            nets.json:1537
+    EZOIC_ID                   VAULT.sh:181
+    EZOIC_KEY                  AGENT.sh:310
+    FANART_API_KEY             KEYS_AUDIT.sh:51
+    FANCENTRO_KEY              ADULT.sh:152
+    FAUCETPAY_KEY              AGENT.sh:348
+    FC_LC_KEY                  nets.json:1841
+    FILM_MAX                   REBUILD.sh:84
+    FILM_ROWS                  REBUILD.sh:37
+    FIREFAUCET_KEY             ALLIN.sh:356
+    FIRSTPROMOTER_KEY          nets.json:1697
+    FLEXOFFERS_KEY             ALLIN.sh:307
+    FLIRT4FREE_KEY             ADULT.sh:144
+    FLYAD_KEY                  ALLIN.sh:350
+    FREESTAR_KEY               nets.json:1481
+    GALAKSION_KEY              ADULT.sh:107
+    GALAKSION_ZONE             VAULT.sh:173
+    GAMMA_KEY                  ADULT.sh:161
+    GAM_KEY                    ALLIN.sh:224
+    GATE_IO_KEY                nets.json:1905
+    GHTMP                      FIX.sh:24
+    GH_CLIENT_ID               FIX.sh:56
+    GH_TOKEN                   FINAL.sh:139
+    GIPHY_KEY                  tools/unlock.py:95
+    GITHUB_TOKEN               publish.py:21
+    GOTZHA_KEY                 ADULT.sh:128
+    GPLINKS_KEY                AGENT.sh:339
+    GPLINKS_UID                setup.js:41
+    GUARDIAN_KEY               tools/unlock.py:67
+    HARVEST_TARGET             tools/harvest.py:7
+    HASOFFERS_KEY              nets.json:1681
+    HILLTOPADS_ZONE            KEYS_AUDIT.sh:52
+    HILLTOP_API_KEY            networks.json:206
+    HILLTOP_KEY                ADULT.sh:106
+    HILLTOP_ZONE               VAULT.sh:170
+    HOST                       ai_server.py:9
+    HQPORNER_KEY               nets.json:2137
+    IMLIVE_KEY                 ADULT.sh:146
+    IMPACT_KEY                 AGENT.sh:325
+    INFOLINKS_KEY              AGENT.sh:308
+    INMOBI_KEY                 ALLIN.sh:271
+    INTERNET_ARCHIVE_KEY       nets.json:2009
+    IRONSOURCE_KEY             ALLIN.sh:276
+    IWANTCLIPS_KEY             ADULT.sh:155
+    JERKMATE_KEY               ADULT.sh:147
+    JUICYADS_KEY               ADULT.sh:97
+    KADAM_KEY                  ADULT.sh:110
+    KADAM_ZONE                 VAULT.sh:176
+    KMA_KEY                    ADULT.sh:133
+    KRAKEN_KEY                 nets.json:1913
+    KURAIMI_BANK               tools/bank.py:29
+    KURAIMI_KEY                ALLIN.sh:359
+    KURAIMI_PHONE              VAULT.sh:116
+    KWANKO_KEY                 ALLIN.sh:316
+    LBRY_KEY                   nets.json:2049
+    LEADBIT_KEY                ADULT.sh:132
+    LIMIT                      tools/accounts_check.py:19
+    LINKSHORTIFY_KEY           nets.json:1793
+    LINKVERTISE_UID            AGENT.sh:336
+    LIVEJASMIN_KEY             ADULT.sh:141
+    LOOTABLY_KEY               AGENT.sh:319
+    LOOTLABS_KEY               ALLIN.sh:347
+    LOOTLINK_KEY               ALLIN.sh:346
+    LOSPOLLOS_KEY              ADULT.sh:123
+    LUCID_KEY                  ALLIN.sh:329
+    M4TRIX_KEY                 nets.json:1617
+    MANYVIDS_KEY               ADULT.sh:153
+    MAXBOUNTY_KEY              AGENT.sh:318
+    MAXWEB_KEY                 nets.json:1737
+    MDISK_SHORTNER_KEY         nets.json:1801
+    MEDIAVINE_KEY              ALLIN.sh:258
+    METAMASK_KEY               nets.json:1969
+    META_AN_KEY                ALLIN.sh:226
+    MEXC_KEY                   nets.json:1881
+    MFC_KEY                    ADULT.sh:143
+    MGID_API_KEY               networks.json:377
+    MGID_KEY                   AGENT.sh:309
+    MINTEGRAL_KEY              ALLIN.sh:275
+    MIN_WITHDRAW               AGENT.sh:150
+    MOBFOX_KEY                 ALLIN.sh:270
+    MOBIDEA_KEY                ADULT.sh:125
+    MONETAG_API_KEY            activate.sh:60
+    MONETAG_KEY                ADULT.sh:113
+    MONETAG_REWARDED_ZONE      setup.js:41
+    MONLIX_KEY                 AGENT.sh:335
+    MONUMETRIC_KEY             nets.json:1473
+    MSADS_KEY                  ALLIN.sh:227
+    MYBID_KEY                  ADULT.sh:108
+    MYBID_ZONE                 VAULT.sh:174
+    NASA_KEY                   tools/unlock.py:75
+    NITROPAY_KEY               AGENT.sh:311
+    NOTIK_KEY                  AGENT.sh:334
+    NOWPAYMENTS_KEY            nets.json:1929
+    NOWPAY_API_KEY             networks.json:430
+    ODYSEE_KEY                 nets.json:2057
+    OFFERTORO_KEY              AGENT.sh:321
+    OGADS_KEY                  AGENT.sh:315
+    OGURY_KEY                  ALLIN.sh:278
+    OKX_KEY                    nets.json:1873
+    OMDB_API_KEY               KEYS_AUDIT.sh:49
+    OMDB_KEY                   tools/unlock.py:99
+    OUO_KEY                    AGENT.sh:346
+    OUTBRAIN_KEY               ALLIN.sh:252
+    OWNER_EMAIL                AUDIT.sh:159
+    OWNER_TELEGRAM             setup.js:41
+    OWNER_WHATSAPP             setup.js:41
+    PAGES_LIMIT                AGENT.sh:41
+    PAGE_LIMIT                 tools/gen_static.py:6
+    PARTNERSTACK_KEY           ALLIN.sh:310
+    PAXUM_EMAIL                VAULT.sh:290
+    PAXUM_KEY                  nets.json:1937
+    PAYEER_KEY                 nets.json:1945
+    PAYOUTS_CLICK_KEY          nets.json:1849
+    PAYPAL_EMAIL               VAULT.sh:290
+    PEERTUBE_KEY               nets.json:2041
+    PERSONALY_KEY              ALLIN.sh:291
+    PEXELS_KEY                 tools/autokeys.py:30
+    PEXELS_SECRET              tools/autokeys.py:30
+    PINKADS_KEY                ADULT.sh:119
+    PIXABAY_KEY                tools/autokeys.py:30
+    PLATFORM_TARGET            ALLIN.sh:220
+    PLAYWIRE_KEY               ALLIN.sh:257
+    PLISTA_KEY                 nets.json:1545
+    PLUGRUSH_KEY               ADULT.sh:100
+    PLUGRUSH_ZONE              VAULT.sh:166
+    POLLFISH_KEY               AGENT.sh:332
+    POLL_PAY_KEY               nets.json:1777
+    POPADS_API_KEY             networks.json:234
+    POPADS_KEY                 ADULT.sh:103
+    POPADS_SITE_ID             KEYS_AUDIT.sh:53
+    POPADS_ZONE                VAULT.sh:168
+    POPCASH_KEY                ALLIN.sh:233
+    POPMYADS_API_KEY           networks.json:262
+    PORNDOUGH_KEY              ADULT.sh:158
+    PORNHUB_KEY                nets.json:2089
+    PORNTREX_KEY               nets.json:2145
+    PORT                       ai_server.py:8
+    POST_AFFILIATE_PRO_KEY     nets.json:1673
+    PRIMIS_KEY                 ALLIN.sh:266
+    PRODEGE_KEY                ALLIN.sh:327
+    PROJ                       deploy.py:8
+    PROJECT_GUTENBERG_KEY      nets.json:2025
+    PROPELLER_API_KEY          activate.sh:60
+    PROPELLER_KEY              ADULT.sh:112
+    PROPELLER_ZONE             VAULT.sh:169
+    PUBLIC_ID_ES_KEY           nets.json:1657
+    PUBLIFT_KEY                ALLIN.sh:260
+    RAKUTEN_KEY                ALLIN.sh:304
+    RAPTIVE_KEY                nets.json:1465
+    RECREATIV_KEY              nets.json:1609
+    REDTUBE_KEY                nets.json:2081
+    REFERSION_KEY              nets.json:1713
+    REKONISE_KEY               ALLIN.sh:348
+    REPO                       gh.py:79
+    REVCONTENT_KEY             ALLIN.sh:253
+    REWARDFUL_KEY              nets.json:1705
+    RICHADS_KEY                ADULT.sh:109
+    SCOPE                      tools/accounts_check.py:19
+    SEGPAY_ACCOUNT             tools/autodetect.py:56
+    SETUPAD_ID                 VAULT.sh:182
+    SETUPAD_KEY                AGENT.sh:312
+    SEXIER_KEY                 ADULT.sh:156
+    SHAREASALE_KEY             ALLIN.sh:305
+    SHORT2URL_KEY              nets.json:1825
+    SHORTEST_KEY               ALLIN.sh:343
+    SHORTZZY_KEY               ALLIN.sh:351
+    SHRINKEARN_KEY             AGENT.sh:338
+    SHRINKERN_UID              setup.js:41
+    SHRINKME_KEY               AGENT.sh:337
+    SHRINKME_UID               setup.js:41
+    SIRDATA_KEY                nets.json:1577
+    SITES_TARGET               MASTER.sh:152
+    SITE_URL                   ADULT.sh:316
+    SKIMLINKS_KEY              ALLIN.sh:308
+    SKRILL_KEY                 nets.json:1961
+    SKYPRIVATE_KEY             ADULT.sh:148
+    SMAATO_KEY                 ALLIN.sh:269
+    SMASH_LOUD_KEY             nets.json:1729
+    SNIGEL_KEY                 ALLIN.sh:259
+    SOVRN_KEY                  ALLIN.sh:309
+    SPANKBANG_KEY              nets.json:2121
+    SPORTSDB_KEY               tools/unlock.py:93
+    STAMP                      ALLIN.sh:107
+    STREAMATE_KEY              ADULT.sh:145
+    STREETBEES_KEY             nets.json:1769
+    STRIPCHAT_KEY              ADULT.sh:139
+    SUB2UNLOCK_KEY             nets.json:1833
+    SULVO_KEY                  nets.json:1505
+    SUPABASE_ANON              setup.html:70
+    SUPABASE_URL               setup.html:69
+    SURVEY_SAMPLING_KEY        nets.json:1753
+    TABOOLA_KEY                ALLIN.sh:251
+    TAPFILIATE_KEY             nets.json:1689
+    TEADS_KEY                  ALLIN.sh:265
+    TENOR_KEY                  tools/unlock.py:97
+    TERRALEADS_KEY             ADULT.sh:130
+    TETHER_TRC20_KEY           nets.json:1977
+    TG_CHAT                    DEV.sh:374
+    TG_REF                     DEV.sh:374
+    TG_TOKEN                   DEV.sh:374
+    THEOREMREACH_KEY           AGENT.sh:331
+    TIMEWALL_KEY               AGENT.sh:320
+    TMDB_API_KEY               KEYS_AUDIT.sh:48
+    TMDB_KEY                   EXEC.sh:201
+    TNAFLIX_KEY                nets.json:2129
+    TNLINK_KEY                 nets.json:1809
+    TOLUNA_KEY                 ALLIN.sh:331
+    TRADEDOUBLER_KEY           ALLIN.sh:311
+    TRADETRACKER_KEY           nets.json:1641
+    TRAFFICFACTORY_KEY         ADULT.sh:118
+    TRAFFICHAUS_KEY            ADULT.sh:159
+    TRAFFICJUNKY_KEY           ADULT.sh:98
+    TRAFFICSHOP_KEY            nets.json:1601
+    TRAFFICSTARS_KEY           ADULT.sh:99
+    TRAFORAMA_KEY              ADULT.sh:120
+    TRAKT_CLIENT_ID            KEYS_AUDIT.sh:50
+    TREMENDOUS_KEY             nets.json:1785
+    TRUST_KEY                  AGENT.sh:351
+    TRY2LINK_KEY               nets.json:1817
+    TT_SECRET                  tools/setup_apply.py:10
+    TT_TOKEN                   tools/setup_apply.py:10
+    TUNE_KEY                   ALLIN.sh:298
+    TURNSTILE_SECRET           apply_config.py:55
+    TURNSTILE_SITE             setup.js:41
+    UMAMI_ID                   VAULT.sh:202
+    UNITYADS_KEY               ALLIN.sh:272
+    UNSPLASH_KEY               tools/autokeys.py:30
+    VIDEOBYTE_KEY              nets.json:1529
+    VIDOOMY_KEY                nets.json:1513
+    VIMEO_KEY                  nets.json:2065
+    WANNADS_KEY                ALLIN.sh:289
+    WEBGAINS_KEY               ALLIN.sh:313
+    WECAMY_KEY                 ADULT.sh:162
+    WESTERN_UNION_KEY          nets.json:2001
+    WHITEBIT_KEY               nets.json:1897
+    WIKIMEDIA_COMMONS_KEY      nets.json:2017
+    WISE_KEY                   nets.json:1993
+    WORKER_URL                 tools/autodetect.py:56
+    WORKINK_KEY                ALLIN.sh:345
+    WORKINK_UID                setup.html:65
+    XHAMSTER_KEY               nets.json:2097
+    XLOVECAM_KEY               ADULT.sh:149
+    XNXX_KEY                   nets.json:2113
+    XVIDEOS_KEY                nets.json:2105
+    ZAGL_KEY                   ALLIN.sh:353
+    ZANOX_KEY                  nets.json:1649
+    ZEMANTA_KEY                nets.json:1561
+    ZEYDOO_KEY                 ADULT.sh:131
+
+ب · متغيرات تشغيل (لها افتراضي، لا تحتاج سرًّا): 34
+    API
+    BASE
+    BASE_RATE
+    BRANCH
+    CINEHUB_TMP
+    CUR
+    DO_KEYS
+    DO_OPEN
+    ETIMEOUT
+    F404
+    FAIL
+    FRESH
+    GH_LOGIN
+    LIVE
+    LOG
+    LOGIN
+    MISS
+    MSG
+    NTOK
+    OWNER
+    PASS
+    PID
+    PREFIX
+    REQ
+
+ج · مضبوط بالفعل: 8
+    AADS_UNIT
+    EXOCLICK_ZONE
+    JUICYADS_ZONE
+    KURAIMI_ACCOUNT
+    KURAIMI_BRANCH
+    KURAIMI_NAME
+    KURAIMI_NAME_EN
+    KURAIMI_SWIFT
+
+[36m═══ 2 · مصادقة GitHub برمز الجهاز ═══[0m
+
+  ┌──────────────────────────────┐
+  │  الرمز:  1BD1-2F7B           │
+  └──────────────────────────────┘
+  افتح: https://github.com/login/device  والصق الرمز ثم Approve
+
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+  … بانتظار الموافقة
+[32m✓[0m GH_TOKEN مضبوط (40 حرفًا)
+
+[36m═══ 3 · التقاط المفاتيح الناقصة بتحقق فوري ═══[0m
+
+[1m▸ TMDB — TMDB_KEY[0m
+  https://www.themoviedb.org/settings/api
+  انسخ المفتاح — يُلتقط ويُختبر فورًا (s=تخطي)
+[33m![0m TMDB_KEY — لم يُضبط
+
+[1m▸ OMDb — OMDB_API_KEY[0m
+  https://www.omdbapi.com/apikey.aspx
+  انسخ المفتاح — يُلتقط ويُختبر فورًا (s=تخطي)

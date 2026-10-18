@@ -1,0 +1,5 @@
+warning: redirecting to https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git/
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date

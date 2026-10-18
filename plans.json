@@ -1,0 +1,11 @@
+{
+  "currency": "USD",
+  "plans": [
+    { "id": "free", "name": "مجاني", "price": 0,     "days": 0,  "share": 0.70, "min_withdraw": 5,
+      "features": ["أرباح من الإعلانات", "سحب من $5", "دفع عبر الكريمي / USDT"] },
+    { "id": "pro",  "name": "Pro",   "price": 2.99,  "days": 30, "share": 0.85, "min_withdraw": 3,
+      "features": ["بدون Popunder", "سحب من $3", "أولوية في المعالجة"] },
+    { "id": "max",  "name": "Max",   "price": 6.99,  "days": 90, "share": 1.00, "min_withdraw": 2,
+      "features": ["تجربة نظيفة تماماً", "سحب من $2", "دفع خلال 48 ساعة", "دعم مباشر"] }
+  ]
+}

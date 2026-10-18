@@ -1,0 +1,252 @@
+{
+ "enabled": true,
+ "network": "adsterra",
+ "banner_host": "www.highperformanceformat.com",
+ "rpm_estimate_usd": 1.2,
+ "popunder_src": "",
+ "socialbar_src": "",
+ "direct_link": "",
+ "banners": {
+  "top": {
+   "size": "728x90",
+   "key": "",
+   "alt_size": "970x90"
+  },
+  "mid": {
+   "size": "300x250",
+   "key": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+   "alt_size": "336x280"
+  },
+  "side": {
+   "size": "160x600",
+   "key": "",
+   "alt_size": "300x600"
+  },
+  "mobile": {
+   "size": "320x50",
+   "key": "",
+   "alt_size": "320x100"
+  },
+  "bottom": {
+   "size": "728x90",
+   "alt_size": "320x50",
+   "key": ""
+  },
+  "inarticle": {
+   "size": "336x280",
+   "key": ""
+  },
+  "native": {
+   "size": "1x1",
+   "key": ""
+  }
+ },
+ "networks": [
+  {
+   "id": "adsterra",
+   "name": "Adsterra",
+   "enabled": true,
+   "min": 5,
+   "rpm": 0.9,
+   "payout": [
+    "USDT",
+    "BTC",
+    "PayPal",
+    "Paxum"
+   ]
+  },
+  {
+   "id": "monetag",
+   "name": "Monetag",
+   "enabled": false,
+   "min": 5,
+   "rpm": 0.9,
+   "payout": [
+    "PayPal",
+    "Payoneer",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "propeller",
+   "name": "PropellerAds",
+   "enabled": false,
+   "min": 5,
+   "rpm": 0.7,
+   "payout": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "admaven",
+   "name": "AdMaven",
+   "enabled": false,
+   "min": 5,
+   "rpm": 0.6,
+   "payout": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "clickadu",
+   "name": "Clickadu",
+   "enabled": false,
+   "min": 10,
+   "rpm": 0.8,
+   "payout": [
+    "PayPal",
+    "Paxum",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "hilltop",
+   "name": "HilltopAds",
+   "enabled": false,
+   "min": 20,
+   "rpm": 0.7,
+   "payout": [
+    "PayPal",
+    "Paxum",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "exoclick",
+   "name": "ExoClick",
+   "enabled": false,
+   "min": 20,
+   "rpm": 0.6,
+   "payout": [
+    "Paxum",
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "adcash",
+   "name": "Adcash",
+   "enabled": false,
+   "min": 25,
+   "rpm": 0.7,
+   "payout": [
+    "PayPal",
+    "Payoneer",
+    "Wire"
+   ]
+  },
+  {
+   "id": "nowpay",
+   "name": "NOWPayments",
+   "enabled": false,
+   "min": 0,
+   "rpm": 0.0,
+   "payout": [
+    ""
+   ]
+  }
+ ],
+ "affiliates": [
+  {
+   "id": "amazon",
+   "name": "Amazon Associates",
+   "commission": 0.04,
+   "tag": ""
+  },
+  {
+   "id": "shahid",
+   "name": "Shahid VIP",
+   "commission": 0.06,
+   "ref": ""
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix",
+   "commission": 0.05,
+   "ref": ""
+  },
+  {
+   "id": "cineverse",
+   "name": "Cineverse",
+   "commission": 0.07,
+   "ref": ""
+  },
+  {
+   "id": "osn",
+   "name": "OSN+",
+   "commission": 0.05,
+   "ref": ""
+  }
+ ],
+ "subscriptions": [
+  {
+   "id": "silver",
+   "name": "فضي",
+   "price": 2.99,
+   "period": "month",
+   "days": 30,
+   "features": [
+    "بلا بانرات",
+    "1080p",
+    "أولوية دعم",
+    "شارة فضية",
+    "مكافأة إحالة 10%"
+   ]
+  },
+  {
+   "id": "gold",
+   "name": "ذهبي",
+   "price": 6.99,
+   "period": "month",
+   "days": 30,
+   "features": [
+    "بلا إعلانات كليًا",
+    "4K HDR",
+    "تحميل مؤجل",
+    "شارة ذهبية",
+    "مكافأة إحالة 20%"
+   ]
+  },
+  {
+   "id": "family",
+   "name": "عائلي",
+   "price": 11.99,
+   "period": "month",
+   "days": 30,
+   "features": [
+    "5 مقاعد",
+    "بلا إعلانات",
+    "4K HDR",
+    "لوحة عائلية",
+    "دعم واتساب مباشر"
+   ]
+  }
+ ],
+ "commission_split": {
+  "owner": 0.7,
+  "platform": 0.3
+ },
+ "payout": {
+  "bank_name": "بنك الكريمي للتمويل الأصغر الإسلامي",
+  "swift": "KBMFYESAXXX",
+  "country": "Yemen",
+  "min_global": 5,
+  "sla_hours": 72
+ },
+ "sticky_mobile": true,
+ "head_html": "",
+ "body_html": "",
+ "inpage_src": "",
+ "monetag_src": "",
+ "adsense_client": "",
+ "adsense_slot": "",
+ "monetag_rewarded_zone": "",
+ "anti_adblock": true,
+ "frequency_cap": {
+  "popunder_min": 30,
+  "interstitial_min": 45
+ }
+}

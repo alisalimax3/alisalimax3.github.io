@@ -1,0 +1,255 @@
+{
+ "enabled": true,
+ "mode": "outbound",
+ "only_external": true,
+ "toast_ms": 1400,
+ "rule": {
+  "allow_domains": [],
+  "block_domains": [
+   "wa.me",
+   "t.me",
+   "github.com",
+   "google.com",
+   "facebook.com",
+   "supabase.co",
+   "cloudflare.com",
+   "api.qrserver.com",
+   "esm.sh"
+  ]
+ },
+ "shorteners": [
+  {
+   "id": "linkvertise",
+   "name": "Linkvertise",
+   "prio": 1,
+   "cpm": "$5–70",
+   "min": 5,
+   "tpl": "https://link-to.net/{uid}/{hash}/dynamic?r={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Wire",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "workink",
+   "name": "Work.ink",
+   "prio": 2,
+   "cpm": "$10–90",
+   "min": 5,
+   "tpl": "https://work.ink/{uid}/{url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "shrinkme",
+   "name": "ShrinkMe",
+   "prio": 3,
+   "cpm": "$2–22",
+   "min": 5,
+   "tpl": "https://shrinkme.io/st?api={uid}&url={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto",
+    "Bank"
+   ]
+  },
+  {
+   "id": "shrinkearn",
+   "name": "ShrinkEarn",
+   "prio": 4,
+   "cpm": "$3–40",
+   "min": 5,
+   "tpl": "https://shrinkearn.com/st?api={uid}&url={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "clksh",
+   "name": "Clk.sh",
+   "prio": 5,
+   "cpm": "$2–20",
+   "min": 5,
+   "tpl": "https://clk.sh/st?api={uid}&url={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "gplinks",
+   "name": "GPLinks",
+   "prio": 6,
+   "cpm": "$1–15",
+   "min": 5,
+   "tpl": "https://gplinks.co/st?api={uid}&url={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto",
+    "UPI"
+   ]
+  },
+  {
+   "id": "ou",
+   "name": "Ou.re",
+   "prio": 7,
+   "cpm": "$1–12",
+   "min": 5,
+   "tpl": "https://ou.re/st?api={uid}&url={url}",
+   "enabled": true,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "exe",
+   "name": "Exe.io",
+   "prio": 8,
+   "cpm": "$1–10",
+   "min": 5,
+   "tpl": "https://exe.io/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  },
+  {
+   "id": "adfly",
+   "name": "AdF.ly",
+   "prio": 9,
+   "cpm": "$1–10",
+   "min": 5,
+   "tpl": "https://adf.ly/{uid}/{url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Payoneer"
+   ]
+  },
+  {
+   "id": "boost",
+   "name": "Boost.ink",
+   "prio": 10,
+   "cpm": "$1–12",
+   "min": 5,
+   "tpl": "https://boost.ink/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  },
+  {
+   "id": "dropgalaxy",
+   "name": "DropGalaxy",
+   "prio": 11,
+   "cpm": "$1–14",
+   "min": 5,
+   "tpl": "https://dropgalaxy.com/ref/{uid}?url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "Crypto"
+   ]
+  },
+  {
+   "id": "pibox",
+   "name": "Pibox",
+   "prio": 12,
+   "cpm": "$1–10",
+   "min": 5,
+   "tpl": "https://pibox.io/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  },
+  {
+   "id": "linkpays",
+   "name": "LinkPays",
+   "prio": 13,
+   "cpm": "$1–9",
+   "min": 5,
+   "tpl": "https://linkpays.in/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal",
+    "UPI"
+   ]
+  },
+  {
+   "id": "shortest",
+   "name": "Shorte.st",
+   "prio": 14,
+   "cpm": "$1–8",
+   "min": 5,
+   "tpl": "https://shorte.st/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  },
+  {
+   "id": "za",
+   "name": "Za.gl",
+   "prio": 15,
+   "cpm": "$1–8",
+   "min": 5,
+   "tpl": "https://za.gl/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  },
+  {
+   "id": "cuty",
+   "name": "Cuty.io",
+   "prio": 16,
+   "cpm": "$1–7",
+   "min": 5,
+   "tpl": "https://cuty.io/st?api={uid}&url={url}",
+   "enabled": false,
+   "uid": "",
+   "methods": [
+    "PayPal"
+   ]
+  }
+ ],
+ "dual": {
+  "enabled": true,
+  "note": "عند تفعيله: الرابط يمر بالـshortener أولًا ثم بصفحة وسيطة تحمل smartlink CPA + بانر",
+  "mid_page": "/go.html",
+  "smartlinks": {
+   "cpagrip": "",
+   "ogads": "",
+   "zeydoo": "",
+   "mylead": ""
+  }
+ },
+ "smartlinks": {}
+}

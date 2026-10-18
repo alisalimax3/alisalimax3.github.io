@@ -1,0 +1,62 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>الأرقام الحقيقية — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:16px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:15px;margin:12px 0}
+.n{font-size:26px;font-weight:800}.c{color:#8ea3b8;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}button{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0;border-radius:11px;padding:12px 18px;font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}td,th{padding:8px;border-bottom:1px solid rgba(255,255,255,.07);text-align:right}
+.live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#39d98a;animation:p 1.6s infinite}
+@keyframes p{70%{box-shadow:0 0 0 10px rgba(57,217,138,0)}}</style></head><body>
+<h1>الأرقام الحقيقية <span class="live"></span></h1>
+<p class="c">كل رقم هنا مقروء من مصدره: العدّاد من الشبكة، والإيراد المؤكَّد من واجهة الشبكة. التقديري معلَن كتقديري.</p>
+<div class="box"><div class="grid">
+<div><div class="c">زيارات حقيقية</div><div class="n" id="v">0</div></div>
+<div><div class="c">ظهور حقيقي</div><div class="n" id="i">0</div></div>
+<div><div class="c">نقرات</div><div class="n" id="c">0</div></div>
+<div><div class="c">قيود موثّقة</div><div class="n" id="l">0</div></div>
+</div></div>
+<div class="box"><div class="grid">
+<div><div class="c">إيراد مؤكَّد من الشبكات</div><div class="n" id="rc">$0.000000</div></div>
+<div><div class="c">تقديري (ظهور × CPM معلن)</div><div class="n" id="re">$0.000000</div></div>
+<div><div class="c">الرصيد القابل للسحب</div><div class="n" id="b">$0.000000</div></div>
+</div><p class="c" id="cpm"></p></div>
+<div class="box"><b>ما الذي يمنع الأرباح الآن</b><div id="g" class="c">…</div>
+<button id="hit">اضغط: سجّل زيارة حقيقية الآن</button><div id="hs" class="c"></div></div>
+<div class="box"><b>مصادر الإيراد وحالتها</b><table><thead><tr><th>الشبكة</th><th>الحالة</th><th>الرد</th><th>القيمة</th></tr></thead><tbody id="tb"></tbody></table></div>
+<p class="c"><a href="index.html">الرئيسية</a> · <a href="subscribe.html">الشبكات</a> · <a href="withdraw.html">السحب</a> · <a href="sites.html">المواقع</a></p>
+<script>
+(function(){
+"use strict";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function set(i,v){var e=document.getElementById(i);if(e)e.textContent=v;}
+function money(x){x=Number(x);return "$"+(isFinite(x)?x:0).toFixed(6);}
+function fmt(x){return String(Math.round(Number(x)||0)).replace(/\B(?=(\d{3})+(?!\d))/g,",");}
+function paint(){
+ g("counts.json").then(function(c){c=c||{};set("v",fmt(c.visits));set("i",fmt(c.impressions));set("c",fmt(c.clicks));});
+ g("ledger.json").then(function(l){set("l",l&&l.entries?fmt(l.entries.length):"0");});
+ g("revenue.json").then(function(r){r=r||{};set("rc",money(r.confirmed_total));
+   var e=r.estimated||{};set("re",money(e.value));
+   set("cpm",e.assumed_cpm?("الافتراض المعلن: CPM $"+e.assumed_cpm+" لكل 1000 ظهور"):"");
+   var tb=document.getElementById("tb");tb.innerHTML="";
+   (r.sources||[]).forEach(function(s){var tr=document.createElement("tr");
+     tr.innerHTML="<td>"+s.net+"</td><td class='"+(s.ok?"ok":"bad")+"'>"+(s.ok?"يعمل":"متوقف")+"</td><td class='c'>"+s.http+"</td><td>"+money(s.value)+"</td>";
+     tb.appendChild(tr);});});
+ g("treasury.json").then(function(t){set("b",money(t&&t.balance));});
+ g("gates.json").then(function(x){var e=document.getElementById("g");if(!x||!x.gates){e.textContent="…";return;}
+   e.innerHTML=x.gates.map(function(q){return "<div class='"+(q.ok?"ok":"bad")+"'>"+(q.ok?"✓ ":"✗ ")+q.t+(q.why?" — "+q.why:"")+(q.fix?" <a href='"+q.fix+"'>"+q.fix_t+"</a>":"")+"</div>";}).join("");});
+}
+document.getElementById("hit").onclick=function(){
+ var s=document.getElementById("hs");s.textContent="جارٍ…";
+ fetch("https://abacus.jasoncameron.dev/hit/ch3099-alkazmybwhwr-dot/visits",{mode:"cors"})
+ .then(function(r){return r.json()}).then(function(j){s.textContent="تمت — العداد الآن: "+j.value+" (سيظهر في اللوحة خلال 5 دقائق)";paint();})
+ .catch(function(){s.textContent="تعذّر الاتصال";});
+};
+paint();setInterval(paint,30000);
+})();
+</script><script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+<script src="authtoken.js?v=3099-1792258391"></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

@@ -1,0 +1,36 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>الوكيل — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:12px 0}
+pre{background:#0b1118;border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:10px;overflow:auto;font-size:11.5px;color:#a8bccd;max-height:300px}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}.c{color:#8ea3b8;font-size:13px}
+.live{display:inline-block;width:8px;height:8px;border-radius:50%;background:#39d98a;animation:p 1.6s infinite}
+@keyframes p{70%{box-shadow:0 0 0 10px rgba(57,217,138,0)}}</style></head><body>
+<h1>الوكيل <span class="live"></span></h1>
+<p class="c">هذا ما ينفّذه الوكيل فعلًا — كل تشغيل يُسجَّل هنا وفي سجل GitHub Actions.</p>
+<div class="box"><b>آخر دورات GitHub Actions</b><div id="runs" class="c">…</div></div>
+<div class="box"><b>بوابات الأرباح</b><div id="g" class="c">…</div></div>
+<div class="box"><b>آخر قيود السجل المُوقّع</b><div id="led" class="c">…</div></div>
+<div class="box"><b>سجل التنفيذ الخام</b><pre id="log">…</pre></div>
+<p><a href="index.html">الرئيسية</a> · <a href="rise.html">الأرقام</a> · <a href="subscribe.html">الشبكات</a> · <a href="withdraw.html">السحب</a></p>
+<script>
+(function(){
+"use strict";
+function g(u,raw){return fetch(u+(raw?"":"?_="+Date.now()),{cache:"no-store"}).then(function(r){return r.ok?(raw?r.text():r.json()):null}).catch(function(){return null});}
+g("https://api.github.com/repos/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io/actions/runs?per_page=12").then(function(d){
+ var e=document.getElementById("runs");if(!d||!d.workflow_runs){e.textContent="تعذّر الجلب";return;}
+ e.innerHTML=d.workflow_runs.map(function(r){
+  var c=r.conclusion||r.status;
+  return "<div class='"+(c==="success"?"ok":(c==="failure"?"bad":""))+"'>"+
+   (c==="success"?"✓ ":"• ")+r.name+" · "+new Date(r.created_at).toLocaleString()+" · "+c+"</div>";}).join("");
+});
+g("gates.json").then(function(x){var e=document.getElementById("g");if(!x||!x.gates){e.textContent="…";return;}
+ e.innerHTML=x.gates.map(function(q){return "<div class='"+(q.ok?"ok":"bad")+"'>"+(q.ok?"✓ ":"✗ ")+q.t+(q.why?" — "+q.why:"")+(q.fix?" <a href='"+q.fix+"'>"+q.fix_t+"</a>":"")+"</div>";}).join("");});
+g("ledger.json").then(function(l){var e=document.getElementById("led");if(!l||!l.entries){e.textContent="…";return;}
+ e.innerHTML=l.entries.slice(-6).reverse().map(function(x){return "<div class='c'>#"+x.i+" · "+x.t+" · <span class='ok'>"+x.h.slice(0,16)+"…</span></div>";}).join("");});
+g("agent-log.txt",true).then(function(t){var e=document.getElementById("log");e.textContent=(t||"لا سجل بعد").split("\n").slice(-40).join("\n");});
+})();
+</script><script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+</body></html>

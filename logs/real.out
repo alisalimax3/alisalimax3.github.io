@@ -1,0 +1,80 @@
+  ! [Errno 2] No such file or directory: '/tmp/.who'
+[31m✗[0m لا مصادقة — شغّل: bash FIX.sh
+✓ REAL.sh مُرقّع (بلا /tmp)
+• أسطر ما زالت تذكر /tmp: 0
+[32m✓[0m المصادقة سليمة — الحساب: alisalimax3
+
+── تشغيل REAL.sh ──
+
+  الحساب: alisalimax3
+
+[36m═══ 1 · مراقبة حقيقية (بلا مفاتيح) ═══[0m
+  ✓ حُقن العدّاد في 14099 صفحة
+
+[36m═══ 2 · وكيل سحابي (يعمل وأنت نائم) ═══[0m
+[32m✓[0m .github/workflows/agent.yml — كل 6 ساعات تلقائيًا
+
+[36m═══ 3 · شبكات الإعلان — إباحي أولًا (أعلى ربح) ═══[0m
+  ┌───────────────────────────────────────────────────────────────────────┐
+  │ سجّل بالترتيب، والصق المعرّف. Enter = تخطي. (الوقت: ~5 د لكل واحدة)   │
+  │ الإباحي/الكبار أعلى RPM — لا تتركها آخر شيء.                          │
+  └───────────────────────────────────────────────────────────────────────┘
+  1) ExoClick    exoclick.com    → Zones → Zone ID      (€20 · ملك الإباحي)
+  2) JuicyAds    juicyads.com    → Zones → Zone ID      ($50 · إباحي)
+  3) Adsterra    adsterra.com    → Profile → API Key    ($5 · يقبل الإباحي)
+  4) Monetag     monetag.com     → Sites → Multitag ID  ($5)
+  5) A-ADS       a-ads.com       → Ad Units → data-aa   ($0 · بلا KYC · فوري)
+  6) USDT TRC20  محفظتك          → عنوان المحفظة
+  ExoClick Zone ID   ›   JuicyAds Zone ID   ›   Adsterra API Key   ›   Monetag Multitag ID ›   A-ADS data-aa      ›   محفظة USDT TRC20   ›   keys.env: 6 مفتاح
+  ads.json: مفعّل 0 من 6 شبكة
+    · ExoClick           €20
+    · JuicyAds           $50
+    · Adsterra           $5
+    · Monetag            $5
+    · A-ADS              $0
+    · Adsterra Banner    $5
+
+[36m═══ 4 · بناء ونشر ═══[0m
+  حقن الإعلانات
+  حقن الإعلانات: 125 صفحة محدّثة من 125
+  توليد الصفحات
+  ✓ صفحات أفلام: 0 | تصنيفات: 66
+  أقسام
+  أقسام: 73 صفحة
+  تسويق
+  ✓ تسويق: 30 منشور | feed-films.xml | opensearch.xml
+  عدّاد حقيقي
+  ✓ عدّاد حقيقي: 0 مشاهدة على 29 صفحة مفحوصة
+  أموال
+  حقيقي: 0 زيارة GitHub | 0 زيارة متتبعة | 0 شبكة مفعّلة | تقديري: $0.0
+  لوحة
+  money.html جاهز
+  ✓ رُفع
+  الموقع : https://alisalimax3.github.io/
+  الأموال: https://alisalimax3.github.io/money.html
+
+[36m═══ 5 · إشعال الفهرسة (بلا مفاتيح) ═══[0m
+[33m![0m Google sitemap → 404
+[33m![0m Bing sitemap → 410
+[32m✓[0m Ping-O-Matic (20+ خدمة)
+[33m![0m Wayback: https://alisalimax3.github.io/
+[33m![0m Wayback: https://alisalimax3.github.io/app.html
+[33m![0m Wayback: https://alisalimax3.github.io/marketing.html
+  إرسال: 96 رابط | IndexNow=422 | Wayback=2
+
+[36m═══ 6 · التقرير ═══[0m
+  ── مقيس فعليًا الآن ──
+  عدّاد الصفحات الحقيقي : 0 مشاهدة (29 صفحة مفحوصة)
+  زيارات GitHub (14ي)   : 0 | فريدون: 0
+  ── الشبكات ──
+  مفعّلة: 0
+  ── تقديري ──  $0.0 (ليس نقدًا)
+
+  الحكم: لا شبكة مفعّلة → الإعلانات مطفأة. أضف A-ADS فقط (سحب $0) وتبدأ فورًا.
+
+[36m═══ روابطك ═══[0m
+  الموقع : https://alisalimax3.github.io/
+  المالك : https://alisalimax3.github.io/owner.html
+  التسويق: https://alisalimax3.github.io/marketing.html
+  الأموال: https://alisalimax3.github.io/money.html
+  السجل  : logs/real.2026-10-18_0507.log

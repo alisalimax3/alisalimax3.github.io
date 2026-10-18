@@ -1,0 +1,11 @@
+{"note":"نموذج صريح: كل رقم = مصدر دخل مستقل · احسب قبل أن تتوقع",
+ "streams":[
+  {"id":"display","name":"إعلانات العرض (Adsterra/Monetag/Propeller)","per":"1000 ظهور","range":"$0.4–2.0","driver":"زيارات"},
+  {"id":"shortlinks","name":"روابط مدفوعة (Linkvertise/Work.ink)","per":"1000 نقرة خروج","range":"$5–70","driver":"نقرات الخروج"},
+  {"id":"rewarded","name":"إعلان مكافأة داخل التطبيق","per":"1000 مشاهدة","range":"$2–12","driver":"تفاعل المستخدم"},
+  {"id":"cpa","name":"CPA / Smartlink","per":"Lead","range":"$0.3–20","driver":"نقرات + GEO"},
+  {"id":"offerwall","name":"استطلاعات (CPX/BitLabs)","per":"إتمام استطلاع","range":"$0.2–3","driver":"مستخدم مؤهل"},
+  {"id":"referral","name":"إحالة المنصات","per":"ربح المُحال","range":"10–50%","driver":"دعوة مستخدمين"},
+  {"id":"subs","name":"اشتراكات التطبيق","per":"مشترك/شهر","range":"$2.99–11.99","driver":"قيمة المحتوى"},
+  {"id":"affiliate","name":"عمولة بيع (شاهد/نون/علي)","per":"بيع","range":"4–7%","driver":"نية شرائية"}],
+ "example":{"visits_month":10000,"display":"$8","shortlinks":"$25 (500 نقرة×$5)","rewarded":"$6","cpa":"$10","referral":"$5","total":"≈$54"}}

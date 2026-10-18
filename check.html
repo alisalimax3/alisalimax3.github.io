@@ -1,0 +1,45 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>تقرير الفحص — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:11px 0}
+.high{border-right:4px solid #ff7a5c}.med{border-right:4px solid #ffd166}.low{border-right:4px solid #4cc2ff}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}.c{color:#8ea3b8;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:9px}
+.big{font-size:22px;font-weight:800}table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:7px;border-bottom:1px solid rgba(255,255,255,.07);text-align:right}th{color:#8ea3b8}</style></head><body>
+<h1>تقرير الفحص الحقيقي</h1>
+<p class="c" id="at">…</p>
+<div class="box"><div class="grid">
+<div><div class="c">ملفات حيّة</div><div class="big" id="live">0</div></div>
+<div><div class="c">أفلام</div><div class="big" id="films">0</div></div>
+<div><div class="c">كبار</div><div class="big" id="adult">0</div></div>
+<div><div class="c">مفاتيح صالحة</div><div class="big" id="keys">0</div></div>
+<div><div class="c">طلبات إعلان</div><div class="big" id="ads">0</div></div>
+<div><div class="c">الرصيد</div><div class="big" id="bal">$0</div></div></div></div>
+<div class="box"><b>الفجوات وما يلزم</b><div id="gaps" class="c">…</div></div>
+<div class="box"><b>الواجهات الخارجية</b><table><thead><tr><th>الواجهة</th><th>الرد</th><th>عناصر</th></tr></thead><tbody id="apis"></tbody></table></div>
+<div class="box"><b>الملفات الغائبة</b><div id="miss" class="c">…</div></div>
+<p><a href="tower.html">برج التحكّم</a> · <a href="keys.html">المفاتيح</a> · <a href="withdraw.html">السحب</a> · <a href="agent.html">الوكيل</a></p>
+<script>
+(function(){
+"use strict";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function set(i,v){var e=document.getElementById(i);if(e)e.textContent=v;}
+function money(x){x=Number(x);return "$"+(isFinite(x)?x:0).toFixed(6);}
+g("audit.json").then(function(a){
+ if(!a){document.getElementById("at").textContent="لا تقرير — شغّل AUDIT.sh";return;}
+ set("at","آخر فحص: "+new Date(a.at).toLocaleString());
+ set("live",(Object.keys(a.live||{}).length-(a.live_missing||[]).length)+"/"+Object.keys(a.live||{}).length);
+ set("films",(a.content||{}).films||0); set("adult",(a.content||{}).adult||0);
+ set("keys",(a.keys||{}).valid||0); set("ads",(a.agent||{}).ad_requests||0);
+ set("bal",money((a.money||{}).balance));
+ var G=document.getElementById("gaps");
+ G.innerHTML=(a.gaps||[]).map(function(x){
+  return "<div class='box "+x.sev+"'><b>"+x.what+"</b><div class='c'>الإصلاح: "+x.fix+"</div>"+
+   (x.how&&x.how.indexOf("http")===0?"<a href='"+x.how+"' target='_blank'>فتح ↗</a>":(x.how?"<span class='c'>"+x.how+"</span>":""))+"</div>";}).join("")||"<span class='ok'>لا فجوات ✓</span>";
+ var T=document.getElementById("apis");
+ T.innerHTML=(a.apis||[]).map(function(x){return "<tr><td>"+x.name+"</td><td class='"+(x.ok?"ok":"bad")+"'>"+x.code+"</td><td>"+(x.items===null?"—":x.items)+"</td></tr>";}).join("");
+ document.getElementById("miss").innerHTML=(a.live_missing||[]).map(function(f){return "<span class='bad'>✗ "+f+" </span>";}).join("")||"<span class='ok'>لا شيء ✓</span>";
+});
+})();
+</script></body></html>

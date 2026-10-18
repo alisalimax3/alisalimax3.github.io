@@ -1,0 +1,55 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>المكتبة — CineHub 3099</title>
+<style>*{box-sizing:border-box}body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.7}
+a{color:#4cc2ff;text-decoration:none}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+input,select{background:#0f1720;border:1px solid rgba(255,255,255,.12);color:#e9f1f8;border-radius:10px;padding:9px;font-size:14px}
+input{flex:1;min-width:160px}.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.chip{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:6px 13px;font-size:13px;cursor:pointer}
+.chip.on{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px}
+.c{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden}
+.c img{width:100%;height:170px;object-fit:cover;display:block;background:#0f1720}
+.c div{padding:7px}.c b{font-size:13px;display:block;line-height:1.4}
+.c small{color:#8ea3b8;font-size:11.5px}.c .tag{color:#7fd88a}
+#more{background:rgba(76,194,255,.15);color:#9fe;border:1px solid #2a6;border-radius:10px;padding:10px 16px;width:100%;margin:14px 0;font-size:14px}</style></head><body>
+<h1>المكتبة <span class="c" id="n" style="color:#8ea3b8;font-size:14px"></span></h1>
+<div class="bar"><input id="q" placeholder="ابحث باسم الفيلم"><select id="y"><option value="">كل السنوات</option></select></div>
+<div class="chips" id="cats"></div><div class="chips" id="ages"></div>
+<div class="grid" id="g"></div><button id="more">تحميل المزيد</button>
+<p style="color:#8ea3b8;font-size:12.5px">المصدر: archive.org (ملك عام / مرخّص) · التصنيف آلي من وسوم المصدر لا ادّعاء</p>
+<p><a href="index.html">الرئيسية</a> · <a href="sites.html">المواقع</a> · <a href="rise.html">الأرقام</a></p>
+<script>
+(function(){
+"use strict";var all=[],shown=60,cat="",age="";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function chip(box,label,val,cur,fn){var d=document.createElement("div");d.className="chip"+(cur===val?" on":"");d.textContent=label;
+ d.onclick=function(){fn(val);};box.appendChild(d);}
+function draw(){
+ var q=(document.getElementById("q").value||"").toLowerCase(),y=document.getElementById("y").value;
+ var f=all.filter(function(x){return (!q||x.t.toLowerCase().indexOf(q)>-1)&&(!cat||x.c===cat)&&(!age||x.a===age)&&(!y||x.y===y);});
+ document.getElementById("n").textContent="· "+f.length+" فيلم";
+ var box=document.getElementById("g");box.innerHTML="";
+ f.slice(0,shown).forEach(function(x){
+  var a=document.createElement("a");a.className="c";a.href="play.html?id="+encodeURIComponent(x.i);
+  a.innerHTML="<img loading='lazy' src='"+x.th+"' alt=''><div><b>"+x.t+"</b><small>"+x.y+" · <span class='tag'>"+x.c+"</span> · "+x.a+"</small></div>";
+  box.appendChild(a);});
+}
+g("catalog.json").then(function(d){ if(!d){document.getElementById("n").textContent="لا كتالوج";return;}
+ all=d.items||[];
+ var ys={};all.forEach(function(x){if(x.y)ys[x.y]=1;});
+ var sel=document.getElementById("y");Object.keys(ys).sort().reverse().forEach(function(y){var o=document.createElement("option");o.value=y;o.textContent=y;sel.appendChild(o);});
+ var cb=document.getElementById("cats");chip(cb,"الكل","",cat,function(v){cat=v;shown=60;redraw();});
+ (d.cats||[]).forEach(function(c){chip(cb,c,c,cat,function(v){cat=v;shown=60;redraw();});});
+ var ab=document.getElementById("ages");chip(ab,"كل الأعمار","",age,function(v){age=v;shown=60;redraw();});
+ (d.ages||[]).forEach(function(c){chip(ab,c,c,age,function(v){age=v;shown=60;redraw();});});
+ draw();});
+function redraw(){draw();}
+document.getElementById("q").oninput=function(){shown=60;draw();};
+document.getElementById("y").onchange=function(){shown=60;draw();};
+document.getElementById("more").onclick=function(){shown+=120;draw();};
+})();
+</script><script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="posters.js"></script>
+</body></html>

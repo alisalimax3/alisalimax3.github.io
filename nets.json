@@ -1,0 +1,2158 @@
+{
+ "count": 269,
+ "with_key": 1,
+ "networks": [
+  {
+   "name": "Google AdSense",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "ADSENSE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Google Ad Manager",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "GAM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Google AdMob",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "ADMOB_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Meta Audience Network",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "META_AN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Microsoft Monetize",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MSADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Amazon Publisher Services",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "APS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adsterra",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADSTERRA_API_KEY",
+   "key": "…IMIT",
+   "has_key": true
+  },
+  {
+   "name": "Monetag",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MONETAG_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PropellerAds",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PROPELLER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PopAds",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "POPADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PopCash",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "POPCASH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdMaven",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADMAVEN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "HilltopAds",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "HILLTOP_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Evadav",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EVADAV_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clickadu",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CLICKADU_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdCash",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "ADCASH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Galaksion",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "GALAKSION_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MyBid",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MYBID_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "RichAds",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "RICHADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Kadam",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "KADAM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ExoClick",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "EXOCLICK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "JuicyAds",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "JUICYADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficJunky",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICJUNKY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficStars",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICSTARS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PlugRush",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PLUGRUSH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bidvertiser",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "BIDVERTISER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Infolinks",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "INFOLINKS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MGID",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "MGID_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Taboola",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TABOOLA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Outbrain",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "OUTBRAIN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "RevContent",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "REVCONTENT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Ezoic",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "EZOIC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "NitroPay",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "NITROPAY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Setupad",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SETUPAD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Playwire",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PLAYWIRE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Mediavine",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "MEDIAVINE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Snigel",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SNIGEL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Publift",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PUBLIFT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "A-ADS",
+   "min": "$1",
+   "pay": "USDT / Wire",
+   "var": "AADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Coinzilla",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "COINZILLA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bitmedia",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "BITMEDIA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cointraffic",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "COINTRAFFIC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Teads",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TEADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Primis",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PRIMIS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Connatix",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CONNATIX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Aniview",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ANIVIEW_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Smaato",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SMAATO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Mobfox",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MOBFOX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "InMobi",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "INMOBI_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Unity Ads",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "UNITYADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AppLovin",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "APPLOVIN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Chartboost",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "CHARTBOOST_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Mintegral",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "MINTEGRAL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ironSource",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "IRONSOURCE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Digital Turbine",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "DIGITALTURBINE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Ogury",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "OGURY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CPAGrip",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CPAGRIP_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CPALead",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CPALEAD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "OGAds",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "OGADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdGate Media",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "ADGATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdWork Media",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "ADWORKMEDIA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MaxBounty",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MAXBOUNTY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Lootably",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LOOTABLY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Timewall",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TIMEWALL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "OfferToro",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "OFFERTORO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adscend Media",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "ADSCEND_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Wannads",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WANNADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdGem",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADGEM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Persona.ly",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PERSONALY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Mobidea",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MOBIDEA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Dr.Cash",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "DRCASH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Advidi",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "ADVIDI_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Gotzha",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "GOTZHA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Affise",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "AFFISE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Everflow",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "EVERFLOW_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TUNE",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TUNE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ClickBank",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "CLICKBANK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Digistore24",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "DIGISTORE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Impact",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "IMPACT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CJ Affiliate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CJ_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Awin",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "AWIN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Rakuten Advertising",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "RAKUTEN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ShareASale",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SHAREASALE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Admitad",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "ADMITAD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FlexOffers",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "FLEXOFFERS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Skimlinks",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "SKIMLINKS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sovrn",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "SOVRN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PartnerStack",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PARTNERSTACK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Tradedoubler",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "TRADEDOUBLER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Webgains",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "WEBGAINS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Belboon",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BELBOON_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Daisycon",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "DAISYCON_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Kwanko",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "KWANKO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Effiliation",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "EFFILIATION_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Amazon Associates",
+   "min": "$10",
+   "pay": "USDT / Wire",
+   "var": "AMAZON_ASSOC",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AliExpress Portals",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ALIEXPRESS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BitLabs",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BITLABS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CPX Research",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CPX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TheoremReach",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "THEOREMREACH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Pollfish",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "POLLFISH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Ayet Studios",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "AYET_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Notik",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "NOTIK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Monlix",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MONLIX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Prodege",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PRODEGE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cint",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CINT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Luc.id",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LUCID_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Dynata",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "DYNATA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Toluna",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TOLUNA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Linkvertise",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LINKVERTISE_UID",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ShrinkMe",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SHRINKME_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ShrinkEarn",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SHRINKEARN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "GPLinks",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "GPLINKS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clk.sh",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CLKSH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "DropLink",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "DROPLINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cuty.io",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CUTY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Exe.io",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EXEIO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Earn4Link",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EARN4LINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bitsfly",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BITSFLY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "OuO.io",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "OUO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Shorte.st",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SHORTEST_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adf.ly",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADFLY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Work.ink",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WORKINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Loot-Link",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LOOTLINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Lootlabs",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LOOTLABS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Rekonise",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "REKONISE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Boost.ink",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BOOSTINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Flyad",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "FLYAD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Shortzzy",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SHORTZZY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clicksfly",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CLICKSFLY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Za.gl",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ZAGL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cointiply",
+   "min": "$3",
+   "pay": "USDT / Wire",
+   "var": "COINTIPLY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FaucetPay",
+   "min": "$1",
+   "pay": "USDT / Wire",
+   "var": "FAUCETPAY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Firefaucet",
+   "min": "$1",
+   "pay": "USDT / Wire",
+   "var": "FIREFAUCET_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Binance",
+   "min": "-",
+   "pay": "USDT / Wire",
+   "var": "BINANCE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Trust Wallet",
+   "min": "-",
+   "pay": "USDT / Wire",
+   "var": "TRUST_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Al-Kuraimi Bank",
+   "min": "-",
+   "pay": "USDT / Wire",
+   "var": "KURAIMI_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "EroAdvertising",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "EROADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BitterStrawberry",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BITTER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdSpyglass",
+   "min": "$25",
+   "pay": "USDT / Wire",
+   "var": "ADSPYGLASS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adnium",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "ADNIUM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficFactory",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICFACTORY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PinkAds",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PINKADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Traforama",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "TRAFORAMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clickaine",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "CLICKAINE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adamo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADAMO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "LosPollos",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LOSPOLLOS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "CrakRevenue",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CRAKREVENUE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdCombo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADCOMBO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TerraLeads",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "TERRALEADS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Zeydoo",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ZEYDOO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Leadbit",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LEADBIT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Kma.biz",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "KMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Datify",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "DATIFY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ClickDealer",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CLICKDEALER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Chaturbate",
+   "min": "$20",
+   "pay": "USDT / Wire",
+   "var": "CHATURBATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Stripchat",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "STRIPCHAT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BongaCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BONGACAMS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "LiveJasmin",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "LIVEJASMIN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cam4",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CAM4_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MyFreeCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MFC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Flirt4Free",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "FLIRT4FREE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Streamate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "STREAMATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ImLive",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "IMLIVE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Jerkmate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "JERKMATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "SkyPrivate",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SKYPRIVATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "XloveCam",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "XLOVECAM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Camsoda",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CAMSODA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultForce",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTFORCE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FanCentro",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "FANCENTRO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ManyVids",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "MANYVIDS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Clips4Sale",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "CLIPS4SALE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "IWantClips",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "IWANTCLIPS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sexier",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "SEXIER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultModa",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTMODA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PornDough",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "PORNDOUGH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficHaus",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICHAUS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultWebmasterEmpire",
+   "min": "$100",
+   "pay": "USDT / Wire",
+   "var": "AWEMPIRE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "GammaEntertainment",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "GAMMA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "WebcamAffiliates",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "WECAMY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultCams",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "ADULTCAMS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bongacash",
+   "min": "$50",
+   "pay": "USDT / Wire",
+   "var": "BONGACASH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdThrive",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADTHRIVE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Raptive",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "RAPTIVE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Monumetric",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MONUMETRIC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Freestar",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "FREESTAR_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdPushup",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADPUSHUP_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adapex",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADAPEX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sulvo",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SULVO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Vidoomy",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "VIDOOMY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdPlayer.Pro",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADPLAYER_PRO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "VideoByte",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "VIDEOBYTE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Exponential",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EXPONENTIAL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Plista",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PLISTA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Dianomi",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "DIANOMI_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Zemanta",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ZEMANTA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adyoulike",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADYOULIKE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sirdata",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SIRDATA_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultAdWorld",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADULTADWORLD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "ExoGroup",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EXOGROUP_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TrafficShop",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TRAFFICSHOP_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Recreativ",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "RECREATIV_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "M4trix",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "M4TRIX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AlgoAffiliates",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ALGOAFFILIATES_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adcell",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADCELL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Tradetracker",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TRADETRACKER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Zanox",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ZANOX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Public-Idées",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PUBLIC_ID_ES_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Cake",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "CAKE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Post Affiliate Pro",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "POST_AFFILIATE_PRO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "HasOffers",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "HASOFFERS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Tapfiliate",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TAPFILIATE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FirstPromoter",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "FIRSTPROMOTER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Rewardful",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "REWARDFUL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Refersion",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "REFERSION_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "BuyGoods",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BUYGOODS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Smash Loud",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SMASH_LOUD_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MaxWeb",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MAXWEB_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Adikteev",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADIKTEEV_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Survey Sampling",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SURVEY_SAMPLING_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Attapoll",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ATTAPOLL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Streetbees",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "STREETBEES_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Poll Pay",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "POLL_PAY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Tremendous",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TREMENDOUS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Linkshortify",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LINKSHORTIFY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Mdisk Shortner",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MDISK_SHORTNER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TnLink",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TNLINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Try2Link",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TRY2LINK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Short2URL",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SHORT2URL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Sub2Unlock",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SUB2UNLOCK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "FC.lc",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "FC_LC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Payouts.click",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PAYOUTS_CLICK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Binance P2P",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BINANCE_P2P_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bybit",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BYBIT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "OKX",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "OKX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MEXC",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "MEXC_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Bitget",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "BITGET_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "WhiteBIT",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WHITEBIT_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Gate.io",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "GATE_IO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Kraken",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "KRAKEN_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Coinbase",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "COINBASE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "NOWPayments",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "NOWPAYMENTS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Paxum",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PAXUM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Payeer",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PAYEER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdvCash",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADVCASH_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Skrill",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SKRILL_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "MetaMask",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "METAMASK_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Tether TRC20",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TETHER_TRC20_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AirTM",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "AIRTM_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Wise",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WISE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Western Union",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WESTERN_UNION_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Internet Archive",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "INTERNET_ARCHIVE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Wikimedia Commons",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "WIKIMEDIA_COMMONS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Project Gutenberg",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PROJECT_GUTENBERG_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Dailymotion",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "DAILYMOTION_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PeerTube",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PEERTUBE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "LBRY",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "LBRY_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Odysee",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ODYSEE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Vimeo",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "VIMEO_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Eporner",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "EPORNER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "RedTube",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "REDTUBE_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "Pornhub",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PORNHUB_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "xHamster",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "XHAMSTER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "XVideos",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "XVIDEOS_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "XNXX",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "XNXX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "SpankBang",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "SPANKBANG_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "TNAFlix",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "TNAFLIX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "HQPorner",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "HQPORNER_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "PornTrex",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "PORNTREX_KEY",
+   "key": "",
+   "has_key": false
+  },
+  {
+   "name": "AdultEmpire",
+   "min": "$5",
+   "pay": "USDT / Wire",
+   "var": "ADULTEMPIRE_KEY",
+   "key": "",
+   "has_key": false
+  }
+ ]
+}
