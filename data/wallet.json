@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 18:55",
+ "updated": "2026-10-20 00:59",
  "sources": [
   {
    "n": "ExoClick",
@@ -83,7 +83,7 @@
   }
  ],
  "total_usd": 0.0,
- "btc_usd": 81928.0,
+ "btc_usd": 81575.0,
  "payout": {
   "bank": "بنك الكريمي للتمويل الأصغر",
   "swift": "KBMFYESAXXX",
