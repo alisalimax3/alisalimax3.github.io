@@ -1,13 +1,13 @@
 {
- "t": "2026-10-19T02:18:28Z",
+ "t": "2026-10-20T02:26:46Z",
  "counts": {
   "dailymotion": 1000,
   "itunes": 0,
   "peertube": 2800,
   "commons": 1187,
   "odysee": 0,
-  "gutendex": 990,
+  "gutendex": 640,
   "piped": 320
  },
- "total": 6297
+ "total": 5947
 }
