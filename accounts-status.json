@@ -1,8 +1,8 @@
 {
- "t": "2026-10-19T05:06:36Z",
+ "t": "2026-10-21T05:38:43Z",
  "total": 1237,
- "live": 917,
- "dead": 320,
+ "live": 915,
+ "dead": 322,
  "dead_list": [
   {
    "n": "Work.ink",
@@ -38,6 +38,16 @@
    "n": "Bom.so",
    "u": "https://bom.so/",
    "code": "ERR"
+  },
+  {
+   "n": "Adrinolinks",
+   "u": "https://adrinolinks.in/",
+   "code": "ERR"
+  },
+  {
+   "n": "Bee4.biz",
+   "u": "https://bee4.biz/",
+   "code": 500
   },
   {
    "n": "Flylink",
@@ -195,6 +205,11 @@
    "code": 403
   },
   {
+   "n": "Wayfair",
+   "u": "https://www.wayfair.com/",
+   "code": 429
+  },
+  {
    "n": "Home Depot",
    "u": "https://www.homedepot.com/",
    "code": 403
@@ -202,11 +217,6 @@
   {
    "n": "Best Buy",
    "u": "https://www.bestbuy.com/",
-   "code": "ERR"
-  },
-  {
-   "n": "Infolinks",
-   "u": "https://www.infolinks.com/",
    "code": "ERR"
   },
   {
@@ -225,11 +235,6 @@
    "code": "ERR"
   },
   {
-   "n": "Zemanta",
-   "u": "https://www.zemanta.com/",
-   "code": 406
-  },
-  {
    "n": "Brid.tv",
    "u": "https://www.brid.tv/",
    "code": "ERR"
@@ -242,6 +247,11 @@
   {
    "n": "PornMonetizer",
    "u": "https://www.pornmonetizer.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "GAM360",
+   "u": "https://gam360.com/",
    "code": "ERR"
   },
   {
@@ -302,11 +312,6 @@
   {
    "n": "Bitcoin Plus",
    "u": "https://bitcoin-plus.net/",
-   "code": "ERR"
-  },
-  {
-   "n": "Shopkick",
-   "u": "https://www.shopkick.com/",
    "code": "ERR"
   },
   {
@@ -850,6 +855,11 @@
    "code": 403
   },
   {
+   "n": "Bing Webmaster",
+   "u": "https://www.bing.com/webmasters",
+   "code": "ERR"
+  },
+  {
    "n": "Cloudflare Radar",
    "u": "https://radar.cloudflare.com/",
    "code": 403
@@ -1020,6 +1030,11 @@
    "code": 403
   },
   {
+   "n": "Audiomack",
+   "u": "https://audiomack.com/",
+   "code": "ERR"
+  },
+  {
    "n": "Stem",
    "u": "https://stem.is/",
    "code": 403
@@ -1058,11 +1073,6 @@
    "n": "Squadhelp",
    "u": "https://www.squadhelp.com/",
    "code": 403
-  },
-  {
-   "n": "BrandBucket",
-   "u": "https://www.brandbucket.com/",
-   "code": "ERR"
   },
   {
    "n": "Undeveloped",
