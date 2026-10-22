@@ -1,17 +1,17 @@
 {
-  "balance": 0.00194,
+  "balance": 0.00196,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-22 19:33:46",
+  "updated": "2026-10-22 20:30:56",
   "human": "2026-10-18 21:21",
   "address": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
-  "pending": 0.00194,
-  "views": 97.0,
-  "earned_total": 0.00194,
+  "pending": 0.00196,
+  "views": 98.0,
+  "earned_total": 0.00196,
   "hourly_rate": 2e-05,
-  "lastTick": 1792697626,
+  "lastTick": 1792701056,
   "history": [
     {
       "t": "2026-10-18 19:23:41",
@@ -399,6 +399,10 @@
     },
     {
       "t": "2026-10-22 19:33:46",
+      "d": 2e-05
+    },
+    {
+      "t": "2026-10-22 20:30:56",
       "d": 2e-05
     }
   ]
