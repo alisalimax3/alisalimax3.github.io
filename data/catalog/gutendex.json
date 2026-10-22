@@ -122,6 +122,16 @@
 "c": "gutendex"
 },
 {
+"id": "49297",
+"t": "The Works of William Shakespeare [Cambridge Edition] [Vol. 5 of 9]",
+"img": "https://www.gutenberg.org/cache/epub/49297/pg49297.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/49297.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
 "id": "1727",
 "t": "The Odyssey: Rendered into English prose for the use of those who cannot read the original",
 "img": "https://www.gutenberg.org/cache/epub/1727/pg1727.cover.medium.jpg",
@@ -312,686 +322,6 @@
 "c": "gutendex"
 },
 {
-"id": "1232",
-"t": "The Prince",
-"img": "https://www.gutenberg.org/cache/epub/1232/pg1232.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/1232.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Machiavelli",
-"c": "gutendex"
-},
-{
-"id": "844",
-"t": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
-"img": "https://www.gutenberg.org/cache/epub/844/pg844.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/844.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Wilde",
-"c": "gutendex"
-},
-{
-"id": "120",
-"t": "Treasure Island",
-"img": "https://www.gutenberg.org/cache/epub/120/pg120.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/120.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Stevenson",
-"c": "gutendex"
-},
-{
-"id": "50285",
-"t": "Dr. Mabuse, der Spieler : $b Roman",
-"img": "https://www.gutenberg.org/cache/epub/50285/pg50285.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50285.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Jacques",
-"c": "gutendex"
-},
-{
-"id": "2852",
-"t": "The Hound of the Baskervilles",
-"img": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/2852.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Doyle",
-"c": "gutendex"
-},
-{
-"id": "45",
-"t": "Anne of Green Gables",
-"img": "https://www.gutenberg.org/cache/epub/45/pg45.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/45.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Montgomery",
-"c": "gutendex"
-},
-{
-"id": "7370",
-"t": "Second Treatise of Government",
-"img": "https://www.gutenberg.org/cache/epub/7370/pg7370.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/7370.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Locke",
-"c": "gutendex"
-},
-{
-"id": "53419",
-"t": "Twenty-Five Ghost Stories",
-"img": "https://www.gutenberg.org/cache/epub/53419/pg53419.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/53419.html.images",
-"kind": "link",
-"dur": 0,
-"by": "",
-"c": "gutendex"
-},
-{
-"id": "2148",
-"t": "The Works of Edgar Allan Poe — Volume 2",
-"img": "https://www.gutenberg.org/cache/epub/2148/pg2148.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/2148.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Poe",
-"c": "gutendex"
-},
-{
-"id": "3268",
-"t": "The Mysteries of Udolpho",
-"img": "https://www.gutenberg.org/cache/epub/3268/pg3268.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/3268.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Radcliffe",
-"c": "gutendex"
-},
-{
-"id": "28054",
-"t": "The Brothers Karamazov",
-"img": "https://www.gutenberg.org/cache/epub/28054/pg28054.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/28054.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Dostoyevsky",
-"c": "gutendex"
-},
-{
-"id": "50290",
-"t": "Space Station 1",
-"img": "https://www.gutenberg.org/cache/epub/50290/pg50290.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50290.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Long",
-"c": "gutendex"
-},
-{
-"id": "69087",
-"t": "The murder of Roger Ackroyd",
-"img": "https://www.gutenberg.org/cache/epub/69087/pg69087.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/69087.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "68283",
-"t": "The call of Cthulhu",
-"img": "https://www.gutenberg.org/cache/epub/68283/pg68283.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/68283.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Lovecraft",
-"c": "gutendex"
-},
-{
-"id": "408",
-"t": "The Souls of Black Folk",
-"img": "https://www.gutenberg.org/cache/epub/408/pg408.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/408.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Du Bois",
-"c": "gutendex"
-},
-{
-"id": "61851",
-"t": "El crimen y el castigo",
-"img": "https://www.gutenberg.org/cache/epub/61851/pg61851.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/61851.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Dostoyevsky",
-"c": "gutendex"
-},
-{
-"id": "61262",
-"t": "Poirot Investigates",
-"img": "https://www.gutenberg.org/cache/epub/61262/pg61262.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/61262.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "20203",
-"t": "Autobiography of Benjamin Franklin",
-"img": "https://www.gutenberg.org/cache/epub/20203/pg20203.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/20203.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Franklin",
-"c": "gutendex"
-},
-{
-"id": "53874",
-"t": "Under the Red Dragon: A Novel",
-"img": "https://www.gutenberg.org/cache/epub/53874/pg53874.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/53874.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Grant",
-"c": "gutendex"
-},
-{
-"id": "58866",
-"t": "The Murder on the Links",
-"img": "https://www.gutenberg.org/cache/epub/58866/pg58866.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/58866.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "209",
-"t": "The Turn of the Screw",
-"img": "https://www.gutenberg.org/cache/epub/209/pg209.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/209.html.images",
-"kind": "link",
-"dur": 0,
-"by": "James",
-"c": "gutendex"
-},
-{
-"id": "61168",
-"t": "The Man in the Brown Suit",
-"img": "https://www.gutenberg.org/cache/epub/61168/pg61168.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/61168.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "50603",
-"t": "Minute Mysteries [Detectograms]",
-"img": "https://www.gutenberg.org/cache/epub/50603/pg50603.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50603.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Ripley",
-"c": "gutendex"
-},
-{
-"id": "46",
-"t": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
-"img": "https://www.gutenberg.org/cache/epub/46/pg46.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/46.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Dickens",
-"c": "gutendex"
-},
-{
-"id": "51649",
-"t": "The Mysteries of London, v. 4/4",
-"img": "https://www.gutenberg.org/cache/epub/51649/pg51649.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/51649.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Reynolds",
-"c": "gutendex"
-},
-{
-"id": "1998",
-"t": "Thus Spake Zarathustra: A Book for All and None",
-"img": "https://www.gutenberg.org/cache/epub/1998/pg1998.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/1998.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Nietzsche",
-"c": "gutendex"
-},
-{
-"id": "57669",
-"t": "The problem of Cell 13",
-"img": "https://www.gutenberg.org/cache/epub/57669/pg57669.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/57669.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Futrelle",
-"c": "gutendex"
-},
-{
-"id": "35",
-"t": "The Time Machine",
-"img": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/35.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Wells",
-"c": "gutendex"
-},
-{
-"id": "2465",
-"t": "Carmen",
-"img": "https://www.gutenberg.org/cache/epub/2465/pg2465.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/2465.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Mérimée",
-"c": "gutendex"
-},
-{
-"id": "58820",
-"t": "Whose Body? A Lord Peter Wimsey Novel",
-"img": "https://www.gutenberg.org/cache/epub/58820/pg58820.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/58820.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Sayers",
-"c": "gutendex"
-},
-{
-"id": "4363",
-"t": "Beyond Good and Evil",
-"img": "https://www.gutenberg.org/cache/epub/4363/pg4363.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/4363.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Nietzsche",
-"c": "gutendex"
-},
-{
-"id": "1497",
-"t": "The Republic",
-"img": "https://www.gutenberg.org/cache/epub/1497/pg1497.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/1497.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Plato",
-"c": "gutendex"
-},
-{
-"id": "15399",
-"t": "The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African: Written By Himself",
-"img": "https://www.gutenberg.org/cache/epub/15399/pg15399.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/15399.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Equiano",
-"c": "gutendex"
-},
-{
-"id": "59892",
-"t": "Changeling, and Other Stories",
-"img": "https://www.gutenberg.org/cache/epub/59892/pg59892.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/59892.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Byrne",
-"c": "gutendex"
-},
-{
-"id": "63469",
-"t": "Washington Confidential",
-"img": "https://www.gutenberg.org/cache/epub/63469/pg63469.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/63469.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Lait",
-"c": "gutendex"
-},
-{
-"id": "1695",
-"t": "The Man Who Was Thursday: A Nightmare",
-"img": "https://www.gutenberg.org/cache/epub/1695/pg1695.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/1695.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Chesterton",
-"c": "gutendex"
-},
-{
-"id": "78102",
-"t": "The wheel of earth",
-"img": "https://www.gutenberg.org/cache/epub/78102/pg78102.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78102.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Sandburg",
-"c": "gutendex"
-},
-{
-"id": "78084",
-"t": "The mysterious Mr. Quin",
-"img": "https://www.gutenberg.org/cache/epub/78084/pg78084.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78084.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "16",
-"t": "Peter Pan : $b [Peter and Wendy]",
-"img": "https://www.gutenberg.org/cache/epub/16/pg16.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/16.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Barrie",
-"c": "gutendex"
-},
-{
-"id": "12342",
-"t": "The Nuttall encyclopædia : $b being a concise and comprehensive dictionary of general knowledge",
-"img": "https://www.gutenberg.org/cache/epub/12342/pg12342.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/12342.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Nuttall",
-"c": "gutendex"
-},
-{
-"id": "78016",
-"t": "Herman Melville",
-"img": "https://www.gutenberg.org/cache/epub/78016/pg78016.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78016.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Mumford",
-"c": "gutendex"
-},
-{
-"id": "204",
-"t": "The innocence of Father Brown",
-"img": "https://www.gutenberg.org/cache/epub/204/pg204.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/204.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Chesterton",
-"c": "gutendex"
-},
-{
-"id": "78009",
-"t": "A guide to the history of physical education",
-"img": "https://www.gutenberg.org/cache/epub/78009/pg78009.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78009.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Leonard",
-"c": "gutendex"
-},
-{
-"id": "34901",
-"t": "On Liberty",
-"img": "https://www.gutenberg.org/cache/epub/34901/pg34901.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/34901.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Mill",
-"c": "gutendex"
-},
-{
-"id": "78068",
-"t": "Los miserables - Tomo 2 (de 2)",
-"img": "https://www.gutenberg.org/cache/epub/78068/pg78068.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78068.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Hugo",
-"c": "gutendex"
-},
-{
-"id": "78017",
-"t": "The Swiss family Robinson",
-"img": "https://www.gutenberg.org/cache/epub/78017/pg78017.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78017.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Wyss",
-"c": "gutendex"
-},
-{
-"id": "78065",
-"t": "The anatomy of revolution",
-"img": "https://www.gutenberg.org/cache/epub/78065/pg78065.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78065.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Brinton",
-"c": "gutendex"
-},
-{
-"id": "78122",
-"t": "The history of the Norman conquest of England, its causes and its results, Volume 3 (of 6)",
-"img": "https://www.gutenberg.org/cache/epub/78122/pg78122.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78122.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Freeman",
-"c": "gutendex"
-},
-{
-"id": "78105",
-"t": "Tales grotesque and curious",
-"img": "https://www.gutenberg.org/cache/epub/78105/pg78105.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78105.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Akutagawa",
-"c": "gutendex"
-},
-{
-"id": "78119",
-"t": "Humanism and America : $b Essays on the outlook of modern civilisation",
-"img": "https://www.gutenberg.org/cache/epub/78119/pg78119.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78119.html.images",
-"kind": "link",
-"dur": 0,
-"by": "",
-"c": "gutendex"
-},
-{
-"id": "78025",
-"t": "Main currents in American thought : $b An interpretation of American literature from the beginnings to 1920",
-"img": "https://www.gutenberg.org/cache/epub/78025/pg78025.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78025.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Parrington",
-"c": "gutendex"
-},
-{
-"id": "863",
-"t": "The Mysterious Affair at Styles",
-"img": "https://www.gutenberg.org/cache/epub/863/pg863.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/863.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Christie",
-"c": "gutendex"
-},
-{
-"id": "78052",
-"t": "Andanzas y visiones españolas",
-"img": "https://www.gutenberg.org/cache/epub/78052/pg78052.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78052.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Unamuno",
-"c": "gutendex"
-},
-{
-"id": "78022",
-"t": "Præraphaelite diaries and letters",
-"img": "https://www.gutenberg.org/cache/epub/78022/pg78022.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78022.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Rossetti",
-"c": "gutendex"
-},
-{
-"id": "78013",
-"t": "Arrian on coursing : $b the Cynegeticus of the younger Xenophon, translated from the Greek, with classical and",
-"img": "https://www.gutenberg.org/cache/epub/78013/pg78013.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78013.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Arrian",
-"c": "gutendex"
-},
-{
-"id": "78124",
-"t": "1066 and all that : $b A memorable history of England, comprising all the parts you can remember, including 10",
-"img": "https://www.gutenberg.org/cache/epub/78124/pg78124.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78124.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Sellar",
-"c": "gutendex"
-},
-{
-"id": "78120",
-"t": "The marvellous land of Snergs",
-"img": "https://www.gutenberg.org/cache/epub/78120/pg78120.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78120.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Wyke-Smith",
-"c": "gutendex"
-},
-{
-"id": "78047",
-"t": "The dogaressas of Venice (the wives of the doges)",
-"img": "https://www.gutenberg.org/cache/epub/78047/pg78047.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78047.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Staley",
-"c": "gutendex"
-},
-{
-"id": "78079",
-"t": "Allgemeine Physiologie",
-"img": "https://www.gutenberg.org/cache/epub/78079/pg78079.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78079.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Verworn",
-"c": "gutendex"
-},
-{
-"id": "78029",
-"t": "The dangerous game",
-"img": "https://www.gutenberg.org/cache/epub/78029/pg78029.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78029.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Le Queux",
-"c": "gutendex"
-},
-{
-"id": "78026",
-"t": "Skizzen einer Fußreise durch Oesterreich, Steiermark, Kärnthen, Salzburg, Berchtesgaden, Tirol und Baiern nach",
-"img": "https://www.gutenberg.org/cache/epub/78026/pg78026.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78026.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Kyselak",
-"c": "gutendex"
-},
-{
-"id": "78041",
-"t": "En pays lointain",
-"img": "https://www.gutenberg.org/cache/epub/78041/pg78041.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78041.html.images",
-"kind": "link",
-"dur": 0,
-"by": "London",
-"c": "gutendex"
-},
-{
-"id": "78011",
-"t": "Three sevens : $b A detective story",
-"img": "https://www.gutenberg.org/cache/epub/78011/pg78011.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78011.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Sheehan",
-"c": "gutendex"
-},
-{
-"id": "78039",
-"t": "Boston : $b a novel",
-"img": "https://www.gutenberg.org/cache/epub/78039/pg78039.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78039.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Sinclair",
-"c": "gutendex"
-},
-{
-"id": "78053",
-"t": "Field Artillery Training. 1914",
-"img": "https://www.gutenberg.org/cache/epub/78053/pg78053.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78053.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Great Britain. War Office",
-"c": "gutendex"
-},
-{
-"id": "10",
-"t": "The King James Version of the Bible",
-"img": "https://www.gutenberg.org/cache/epub/10/pg10.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/10.html.images",
-"kind": "link",
-"dur": 0,
-"by": "",
-"c": "gutendex"
-},
-{
-"id": "78020",
-"t": "The cruise of the Nona : $b The story of a cruise from Holyhead to the Wash, with reflections and judgments on",
-"img": "https://www.gutenberg.org/cache/epub/78020/pg78020.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78020.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Belloc",
-"c": "gutendex"
-},
-{
-"id": "78077",
-"t": "Cartels : $b challenge to a free world",
-"img": "https://www.gutenberg.org/cache/epub/78077/pg78077.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/78077.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Berge",
-"c": "gutendex"
-},
-{
 "id": "78044",
 "t": "Claribel : $b or, Rest at last",
 "img": "https://www.gutenberg.org/cache/epub/78044/pg78044.cover.medium.jpg",
@@ -999,16 +329,6 @@
 "kind": "link",
 "dur": 0,
 "by": "Guernsey",
-"c": "gutendex"
-},
-{
-"id": "49008",
-"t": "The Works of William Shakespeare [Cambridge Edition] [Vol. 8 of 9]",
-"img": "https://www.gutenberg.org/cache/epub/49008/pg49008.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/49008.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Shakespeare",
 "c": "gutendex"
 },
 {
@@ -1962,16 +1282,6 @@
 "c": "gutendex"
 },
 {
-"id": "49987",
-"t": "Forest Days: A Romance of Old Times",
-"img": "https://www.gutenberg.org/cache/epub/49987/pg49987.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/49987.html.images",
-"kind": "link",
-"dur": 0,
-"by": "James",
-"c": "gutendex"
-},
-{
 "id": "1063",
 "t": "The Cask of Amontillado",
 "img": "https://www.gutenberg.org/cache/epub/1063/pg1063.cover.medium.jpg",
@@ -2029,16 +1339,6 @@
 "kind": "link",
 "dur": 0,
 "by": "Lovecraft",
-"c": "gutendex"
-},
-{
-"id": "48296",
-"t": "Linnet: A Romance",
-"img": "https://www.gutenberg.org/cache/epub/48296/pg48296.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/48296.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Allen",
 "c": "gutendex"
 },
 {
@@ -2252,16 +1552,6 @@
 "c": "gutendex"
 },
 {
-"id": "48893",
-"t": "Mademoiselle de Maupin, Volume 1 (of 2)",
-"img": "https://www.gutenberg.org/cache/epub/48893/pg48893.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/48893.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Gautier",
-"c": "gutendex"
-},
-{
 "id": "583",
 "t": "The Woman in White",
 "img": "https://www.gutenberg.org/cache/epub/583/pg583.cover.medium.jpg",
@@ -2372,16 +1662,6 @@
 "c": "gutendex"
 },
 {
-"id": "75201",
-"t": "A farewell to arms",
-"img": "https://www.gutenberg.org/cache/epub/75201/pg75201.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/75201.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Hemingway",
-"c": "gutendex"
-},
-{
 "id": "8800",
 "t": "The divine comedy",
 "img": "https://www.gutenberg.org/cache/epub/8800/pg8800.cover.medium.jpg",
@@ -2389,6 +1669,16 @@
 "kind": "link",
 "dur": 0,
 "by": "Dante Alighieri",
+"c": "gutendex"
+},
+{
+"id": "75201",
+"t": "A farewell to arms",
+"img": "https://www.gutenberg.org/cache/epub/75201/pg75201.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75201.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hemingway",
 "c": "gutendex"
 },
 {
@@ -2562,6 +1852,316 @@
 "c": "gutendex"
 },
 {
+"id": "215",
+"t": "The call of the wild",
+"img": "https://www.gutenberg.org/cache/epub/215/pg215.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/215.html.images",
+"kind": "link",
+"dur": 0,
+"by": "London",
+"c": "gutendex"
+},
+{
+"id": "468",
+"t": "Manon Lescaut",
+"img": "https://www.gutenberg.org/cache/epub/468/pg468.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/468.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Prévost",
+"c": "gutendex"
+},
+{
+"id": "558",
+"t": "The Thirty-Nine Steps",
+"img": "https://www.gutenberg.org/cache/epub/558/pg558.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/558.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Buchan",
+"c": "gutendex"
+},
+{
+"id": "60316",
+"t": "The Bakhtyār Nāma: A Persian Romance",
+"img": "https://www.gutenberg.org/cache/epub/60316/pg60316.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/60316.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "76639",
+"t": "Eloisa : $b or, A series of original letters",
+"img": "https://www.gutenberg.org/cache/epub/76639/pg76639.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76639.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rousseau",
+"c": "gutendex"
+},
+{
+"id": "72679",
+"t": "The lesser Key of Solomon, Goetia, the book of evil spirits : $b contains two hundred diagrams and seals for i",
+"img": "https://www.gutenberg.org/cache/epub/72679/pg72679.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/72679.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "60979",
+"t": "Reminiscences of a Stock Operator",
+"img": "https://www.gutenberg.org/cache/epub/60979/pg60979.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/60979.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lefevre",
+"c": "gutendex"
+},
+{
+"id": "135",
+"t": "Les Misérables",
+"img": "https://www.gutenberg.org/cache/epub/135/pg135.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/135.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hugo",
+"c": "gutendex"
+},
+{
+"id": "26296",
+"t": "Les mille et une nuits, tome premier",
+"img": "https://www.gutenberg.org/cache/epub/26296/pg26296.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26296/26296-index.html",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "3300",
+"t": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+"img": "https://www.gutenberg.org/cache/epub/3300/pg3300.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3300.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Smith",
+"c": "gutendex"
+},
+{
+"id": "389",
+"t": "The Great God Pan",
+"img": "https://www.gutenberg.org/cache/epub/389/pg389.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/389.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Machen",
+"c": "gutendex"
+},
+{
+"id": "113",
+"t": "The Secret Garden",
+"img": "https://www.gutenberg.org/cache/epub/113/pg113.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/113.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burnett",
+"c": "gutendex"
+},
+{
+"id": "75288",
+"t": "The Seven Dials mystery",
+"img": "https://www.gutenberg.org/cache/epub/75288/pg75288.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75288.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Christie",
+"c": "gutendex"
+},
+{
+"id": "1399",
+"t": "Anna Karenina",
+"img": "https://www.gutenberg.org/cache/epub/1399/pg1399.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1399.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Tolstoy",
+"c": "gutendex"
+},
+{
+"id": "829",
+"t": "Gulliver's Travels into Several Remote Nations of the World",
+"img": "https://www.gutenberg.org/cache/epub/829/pg829.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/829.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Swift",
+"c": "gutendex"
+},
+{
+"id": "55201",
+"t": "The Republic of Plato",
+"img": "https://www.gutenberg.org/cache/epub/55201/pg55201.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55201.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plato",
+"c": "gutendex"
+},
+{
+"id": "57763",
+"t": "Daughters of Nijo: A Romance of Japan",
+"img": "https://www.gutenberg.org/cache/epub/57763/pg57763.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/57763.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Watanna",
+"c": "gutendex"
+},
+{
+"id": "974",
+"t": "The Secret Agent: A Simple Tale",
+"img": "https://www.gutenberg.org/cache/epub/974/pg974.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/974.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Conrad",
+"c": "gutendex"
+},
+{
+"id": "45109",
+"t": "The Enchiridion",
+"img": "https://www.gutenberg.org/cache/epub/45109/pg45109.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45109.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Epictetus",
+"c": "gutendex"
+},
+{
+"id": "236",
+"t": "The Jungle Book",
+"img": "https://www.gutenberg.org/cache/epub/236/pg236.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/236.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kipling",
+"c": "gutendex"
+},
+{
+"id": "221",
+"t": "The Return of Sherlock Holmes",
+"img": "https://www.gutenberg.org/cache/epub/221/pg221.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/221.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Doyle",
+"c": "gutendex"
+},
+{
+"id": "48155",
+"t": "History of Ancient Pottery: Greek, Etruscan, and Roman.  Volume 2 (of 2)",
+"img": "https://www.gutenberg.org/cache/epub/48155/pg48155.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/48155.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Walters",
+"c": "gutendex"
+},
+{
+"id": "2527",
+"t": "The Sorrows of Young Werther",
+"img": "https://www.gutenberg.org/cache/epub/2527/pg2527.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2527.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Goethe",
+"c": "gutendex"
+},
+{
+"id": "10636",
+"t": "The Travels of Marco Polo — Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/10636/pg10636.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10636.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Polo",
+"c": "gutendex"
+},
+{
+"id": "69566",
+"t": "The Egyptian Book of the dead",
+"img": "https://www.gutenberg.org/cache/epub/69566/pg69566.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/69566.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "76178",
+"t": "I am a woman",
+"img": "https://www.gutenberg.org/cache/epub/76178/pg76178.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76178.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bannon",
+"c": "gutendex"
+},
+{
+"id": "33283",
+"t": "Calculus Made Easy: Being a very-simplest introduction to those beautiful methods which are generally called b",
+"img": "https://www.gutenberg.org/cache/epub/33283/pg33283.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/33283.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Thompson",
+"c": "gutendex"
+},
+{
+"id": "36",
+"t": "The war of the worlds",
+"img": "https://www.gutenberg.org/cache/epub/36/pg36.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/36.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wells",
+"c": "gutendex"
+},
+{
+"id": "560",
+"t": "Mr. Standfast",
+"img": "https://www.gutenberg.org/cache/epub/560/pg560.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/560.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Buchan",
+"c": "gutendex"
+},
+{
+"id": "30254",
+"t": "The Romance of Lust: A classic Victorian erotic novel",
+"img": "https://www.gutenberg.org/cache/epub/30254/pg30254.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/30254.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Anonymous",
+"c": "gutendex"
+},
+{
+"id": "537",
+"t": "Tales of Terror and Mystery",
+"img": "https://www.gutenberg.org/cache/epub/537/pg537.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/537.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Doyle",
+"c": "gutendex"
+},
+{
 "id": "1656",
 "t": "Apology",
 "img": "https://www.gutenberg.org/cache/epub/1656/pg1656.cover.medium.jpg",
@@ -2669,16 +2269,6 @@
 "kind": "link",
 "dur": 0,
 "by": "Wilde",
-"c": "gutendex"
-},
-{
-"id": "50559",
-"t": "The Works of William Shakespeare [Cambridge Edition] [Vol. 3 of 9]",
-"img": "https://www.gutenberg.org/cache/epub/50559/pg50559.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50559.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Shakespeare",
 "c": "gutendex"
 },
 {
@@ -2872,13 +2462,2483 @@
 "c": "gutendex"
 },
 {
-"id": "50657",
-"t": "The Satires of Juvenal, Persius, Sulpicia, and Lucilius: Literally translated into English prose, with notes, ",
-"img": "https://www.gutenberg.org/cache/epub/50657/pg50657.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50657.html.images",
+"id": "7452",
+"t": "Autobiography of a Yogi",
+"img": "https://www.gutenberg.org/cache/epub/7452/pg7452.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7452.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Persius",
+"by": "Yogananda",
+"c": "gutendex"
+},
+{
+"id": "12",
+"t": "Through the Looking-Glass",
+"img": "https://www.gutenberg.org/cache/epub/12/pg12.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/12.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Carroll",
+"c": "gutendex"
+},
+{
+"id": "55059",
+"t": "Modern English biography, volume 1 (of 6), A-H",
+"img": "https://www.gutenberg.org/cache/epub/55059/pg55059.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55059.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Boase",
+"c": "gutendex"
+},
+{
+"id": "2002",
+"t": "Sonnets from the Portuguese",
+"img": "https://www.gutenberg.org/cache/epub/2002/pg2002.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2002.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Browning",
+"c": "gutendex"
+},
+{
+"id": "2350",
+"t": "His last bow : $b Some later reminiscences of Sherlock Holmes",
+"img": "https://www.gutenberg.org/cache/epub/2350/pg2350.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2350.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Doyle",
+"c": "gutendex"
+},
+{
+"id": "164",
+"t": "Twenty Thousand Leagues under the Sea",
+"img": "https://www.gutenberg.org/cache/epub/164/pg164.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/164.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "600",
+"t": "Notes from the Underground",
+"img": "https://www.gutenberg.org/cache/epub/600/pg600.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/600.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dostoyevsky",
+"c": "gutendex"
+},
+{
+"id": "37134",
+"t": "The Elements of Style",
+"img": "https://www.gutenberg.org/cache/epub/37134/pg37134.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/37134.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Strunk",
+"c": "gutendex"
+},
+{
+"id": "1934",
+"t": "Songs of Innocence and of Experience",
+"img": "https://www.gutenberg.org/cache/epub/1934/pg1934.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1934.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Blake",
+"c": "gutendex"
+},
+{
+"id": "28500",
+"t": "All about coffee",
+"img": "https://www.gutenberg.org/cache/epub/28500/pg28500.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/28500.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ukers",
+"c": "gutendex"
+},
+{
+"id": "1212",
+"t": "Love and Freindship [sic]",
+"img": "https://www.gutenberg.org/cache/epub/1212/pg1212.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1212.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "10007",
+"t": "Carmilla",
+"img": "https://www.gutenberg.org/cache/epub/10007/pg10007.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10007.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Le Fanu",
+"c": "gutendex"
+},
+{
+"id": "28942",
+"t": "The Junior Classics, Volume 1: Fairy and wonder tales",
+"img": "https://www.gutenberg.org/cache/epub/28942/pg28942.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/28942/28942_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Neilson",
+"c": "gutendex"
+},
+{
+"id": "2360",
+"t": "The Riddle of the Sands",
+"img": "https://www.gutenberg.org/cache/epub/2360/pg2360.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2360.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Childers",
+"c": "gutendex"
+},
+{
+"id": "1685",
+"t": "The Mystery of the Yellow Room",
+"img": "https://www.gutenberg.org/cache/epub/1685/pg1685.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1685.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Leroux",
+"c": "gutendex"
+},
+{
+"id": "27509",
+"t": "The 2006 CIA World Factbook",
+"img": "https://www.gutenberg.org/files/27509/cover.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27509.html.images",
+"kind": "link",
+"dur": 0,
+"by": "United States. Central Intelligence Agency",
+"c": "gutendex"
+},
+{
+"id": "1112",
+"t": "Romeo and Juliet",
+"img": "https://www.gutenberg.org/files/1112/cover.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1112.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
+"id": "21765",
+"t": "The Metamorphoses of Ovid, Books I-VII",
+"img": "https://www.gutenberg.org/cache/epub/21765/pg21765.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21765.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ovid",
+"c": "gutendex"
+},
+{
+"id": "8438",
+"t": "The Nicomachean ethics of Aristotle",
+"img": "https://www.gutenberg.org/cache/epub/8438/pg8438.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8438.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Aristotle",
+"c": "gutendex"
+},
+{
+"id": "1600",
+"t": "Symposium",
+"img": "https://www.gutenberg.org/cache/epub/1600/pg1600.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1600.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plato",
+"c": "gutendex"
+},
+{
+"id": "44526",
+"t": "Report on the Radiolaria Collected by H.M.S. Challenger During the Years 1873-1876, Second Part: Subclass Oscu",
+"img": "https://www.gutenberg.org/cache/epub/44526/pg44526.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/44526.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Haeckel",
+"c": "gutendex"
+},
+{
+"id": "147",
+"t": "Common Sense",
+"img": "https://www.gutenberg.org/cache/epub/147/pg147.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/147.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Paine",
+"c": "gutendex"
+},
+{
+"id": "5827",
+"t": "The Problems of Philosophy",
+"img": "https://www.gutenberg.org/cache/epub/5827/pg5827.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5827.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Russell",
+"c": "gutendex"
+},
+{
+"id": "19942",
+"t": "Candide",
+"img": "https://www.gutenberg.org/cache/epub/19942/pg19942.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19942.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Voltaire",
+"c": "gutendex"
+},
+{
+"id": "7889",
+"t": "Erotica Romana",
+"img": "https://www.gutenberg.org/cache/epub/7889/pg7889.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7889.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Goethe",
+"c": "gutendex"
+},
+{
+"id": "1523",
+"t": "As You Like It",
+"img": "https://www.gutenberg.org/cache/epub/1523/pg1523.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1523.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
+"id": "14838",
+"t": "The Tale of Peter Rabbit",
+"img": "https://www.gutenberg.org/cache/epub/14838/pg14838.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14838.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Potter",
+"c": "gutendex"
+},
+{
+"id": "2038",
+"t": "The Lock and Key Library: Classic Mystery and Detective Stories: Modern English",
+"img": "https://www.gutenberg.org/cache/epub/2038/pg2038.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2038.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "66452",
+"t": "Die Liebe: Novelle",
+"img": "https://www.gutenberg.org/cache/epub/66452/pg66452.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/66452.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kaltneker",
+"c": "gutendex"
+},
+{
+"id": "2825",
+"t": "Undine",
+"img": "https://www.gutenberg.org/cache/epub/2825/pg2825.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2825.html.images",
+"kind": "link",
+"dur": 0,
+"by": "La Motte-Fouqué",
+"c": "gutendex"
+},
+{
+"id": "76668",
+"t": "Trial by water",
+"img": "https://www.gutenberg.org/cache/epub/76668/pg76668.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76668.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wright",
+"c": "gutendex"
+},
+{
+"id": "1872",
+"t": "The Red House Mystery",
+"img": "https://www.gutenberg.org/cache/epub/1872/pg1872.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1872.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Milne",
+"c": "gutendex"
+},
+{
+"id": "3070",
+"t": "The Hound of the Baskervilles",
+"img": "https://www.gutenberg.org/cache/epub/3070/pg3070.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3070.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Doyle",
+"c": "gutendex"
+},
+{
+"id": "105",
+"t": "Persuasion",
+"img": "https://www.gutenberg.org/cache/epub/105/pg105.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/105.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "4280",
+"t": "The Critique of Pure Reason",
+"img": "https://www.gutenberg.org/cache/epub/4280/pg4280.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4280.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kant",
+"c": "gutendex"
+},
+{
+"id": "1510",
+"t": "Love's Labour's Lost",
+"img": "https://www.gutenberg.org/cache/epub/1510/pg1510.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1510.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
+"id": "2199",
+"t": "The Iliad",
+"img": "https://www.gutenberg.org/cache/epub/2199/pg2199.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2199.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Homer",
+"c": "gutendex"
+},
+{
+"id": "18857",
+"t": "A Journey to the Centre of the Earth",
+"img": "https://www.gutenberg.org/cache/epub/18857/pg18857.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/18857.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "203",
+"t": "Uncle Tom's Cabin",
+"img": "https://www.gutenberg.org/cache/epub/203/pg203.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/203.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Stowe",
+"c": "gutendex"
+},
+{
+"id": "3600",
+"t": "Essays of Michel de Montaigne — Complete",
+"img": "https://www.gutenberg.org/cache/epub/3600/pg3600.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3600.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Montaigne",
+"c": "gutendex"
+},
+{
+"id": "11339",
+"t": "Aesop's Fables; a new translation",
+"img": "https://www.gutenberg.org/cache/epub/11339/pg11339.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/11339.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Aesop",
+"c": "gutendex"
+},
+{
+"id": "1608",
+"t": "Camille (La Dame aux Camilias)",
+"img": "https://www.gutenberg.org/cache/epub/1608/pg1608.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1608.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dumas",
+"c": "gutendex"
+},
+{
+"id": "1719",
+"t": "The Ballad of the White Horse",
+"img": "https://www.gutenberg.org/cache/epub/1719/pg1719.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1719.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Chesterton",
+"c": "gutendex"
+},
+{
+"id": "21",
+"t": "Three hundred Aesop’s fables: Translated by George Fyler Townsend",
+"img": "https://www.gutenberg.org/cache/epub/21/pg21.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Aesop",
+"c": "gutendex"
+},
+{
+"id": "86",
+"t": "A Connecticut Yankee in King Arthur's Court",
+"img": "https://www.gutenberg.org/cache/epub/86/pg86.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/86.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Twain",
+"c": "gutendex"
+},
+{
+"id": "8486",
+"t": "Ghost Stories of an Antiquary",
+"img": "https://www.gutenberg.org/cache/epub/8486/pg8486.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8486.html.images",
+"kind": "link",
+"dur": 0,
+"by": "James",
+"c": "gutendex"
+},
+{
+"id": "22541",
+"t": "The Misplaced Battleship",
+"img": "https://www.gutenberg.org/cache/epub/22541/pg22541.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22541.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Harrison",
+"c": "gutendex"
+},
+{
+"id": "71865",
+"t": "Mrs. Dalloway",
+"img": "https://www.gutenberg.org/cache/epub/71865/pg71865.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/71865.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Woolf",
+"c": "gutendex"
+},
+{
+"id": "4499",
+"t": "Complete Short Works of George Meredith",
+"img": "https://www.gutenberg.org/cache/epub/4499/pg4499.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4499.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Meredith",
+"c": "gutendex"
+},
+{
+"id": "1636",
+"t": "Phaedrus",
+"img": "https://www.gutenberg.org/cache/epub/1636/pg1636.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1636.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plato",
+"c": "gutendex"
+},
+{
+"id": "20228",
+"t": "Noli Me Tangere",
+"img": "https://www.gutenberg.org/cache/epub/20228/pg20228.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20228.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rizal",
+"c": "gutendex"
+},
+{
+"id": "55317",
+"t": "The Meditations of the Emperor Marcus Aurelius Antoninus: A new rendering based on the Foulis translation of 1",
+"img": "https://www.gutenberg.org/cache/epub/55317/pg55317.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55317.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Marcus Aurelius",
+"c": "gutendex"
+},
+{
+"id": "19476",
+"t": "A Honeymoon in Space",
+"img": "https://www.gutenberg.org/cache/epub/19476/pg19476.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19476.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Griffith",
+"c": "gutendex"
+},
+{
+"id": "22788",
+"t": "The Federalist Papers",
+"img": "https://www.gutenberg.org/cache/epub/22788/pg22788.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/22788/22788-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Hamilton",
+"c": "gutendex"
+},
+{
+"id": "46976",
+"t": "The Anabasis of Alexander : $b or, The history of the wars and conquests of Alexander the Great",
+"img": "https://www.gutenberg.org/cache/epub/46976/pg46976.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/46976.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Arrian",
+"c": "gutendex"
+},
+{
+"id": "1837",
+"t": "The Prince and the Pauper",
+"img": "https://www.gutenberg.org/cache/epub/1837/pg1837.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1837.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Twain",
+"c": "gutendex"
+},
+{
+"id": "6400",
+"t": "The Lives of the Twelve Caesars, Complete",
+"img": "https://www.gutenberg.org/cache/epub/6400/pg6400.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/6400.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Suetonius",
+"c": "gutendex"
+},
+{
+"id": "2397",
+"t": "The Story of My Life: With her letters (1887-1901) and a supplementary account of her education, including pas",
+"img": "https://www.gutenberg.org/cache/epub/2397/pg2397.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2397.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Keller",
+"c": "gutendex"
+},
+{
+"id": "910",
+"t": "White Fang",
+"img": "https://www.gutenberg.org/cache/epub/910/pg910.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/910.html.images",
+"kind": "link",
+"dur": 0,
+"by": "London",
+"c": "gutendex"
+},
+{
+"id": "4507",
+"t": "As a man thinketh",
+"img": "https://www.gutenberg.org/cache/epub/4507/pg4507.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4507.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Allen",
+"c": "gutendex"
+},
+{
+"id": "53635",
+"t": "A Cyclopædia of Canadian Biography: Brief biographies of persons distinguished in the professional, military a",
+"img": "https://www.gutenberg.org/cache/epub/53635/pg53635.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/53635.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "1658",
+"t": "Phaedo",
+"img": "https://www.gutenberg.org/cache/epub/1658/pg1658.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1658.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plato",
+"c": "gutendex"
+},
+{
+"id": "24739",
+"t": "Bidwell's Travels, from Wall Street to London Prison: Fifteen Years in Solitude",
+"img": "https://www.gutenberg.org/cache/epub/24739/pg24739.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/24739.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bidwell",
+"c": "gutendex"
+},
+{
+"id": "18269",
+"t": "Pascal's Pensées",
+"img": "https://www.gutenberg.org/cache/epub/18269/pg18269.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/18269.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pascal",
+"c": "gutendex"
+},
+{
+"id": "20968",
+"t": "Three Hundred Tang Poems, Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/20968/pg20968.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20968/20968-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Various",
+"c": "gutendex"
+},
+{
+"id": "2848",
+"t": "Antiquities of the Jews",
+"img": "https://www.gutenberg.org/cache/epub/2848/pg2848.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2848.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Josephus",
+"c": "gutendex"
+},
+{
+"id": "779",
+"t": "The Tragical History of Doctor Faustus: From the Quarto of 1604",
+"img": "https://www.gutenberg.org/cache/epub/779/pg779.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/779.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Marlowe",
+"c": "gutendex"
+},
+{
+"id": "8419",
+"t": "The Journals of Lewis and Clark, 1804-1806",
+"img": "https://www.gutenberg.org/cache/epub/8419/pg8419.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8419.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lewis",
+"c": "gutendex"
+},
+{
+"id": "1974",
+"t": "The Poetics of Aristotle",
+"img": "https://www.gutenberg.org/cache/epub/1974/pg1974.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1974.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Aristotle",
+"c": "gutendex"
+},
+{
+"id": "524",
+"t": "Ann Veronica: A Modern Love Story",
+"img": "https://www.gutenberg.org/cache/epub/524/pg524.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/524.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wells",
+"c": "gutendex"
+},
+{
+"id": "29433",
+"t": "Nature",
+"img": "https://www.gutenberg.org/cache/epub/29433/pg29433.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/29433.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Emerson",
+"c": "gutendex"
+},
+{
+"id": "3922",
+"t": "The Red Lily — Complete",
+"img": "https://www.gutenberg.org/cache/epub/3922/pg3922.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3922.html.images",
+"kind": "link",
+"dur": 0,
+"by": "France",
+"c": "gutendex"
+},
+{
+"id": "22789",
+"t": "On the Duties of the Clergy",
+"img": "https://www.gutenberg.org/cache/epub/22789/pg22789.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/22789/22789-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Ambrose",
+"c": "gutendex"
+},
+{
+"id": "23962",
+"t": "西遊記",
+"img": "https://www.gutenberg.org/cache/epub/23962/pg23962.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23962.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wu",
+"c": "gutendex"
+},
+{
+"id": "2162",
+"t": "Anarchism and Other Essays",
+"img": "https://www.gutenberg.org/cache/epub/2162/pg2162.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2162.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Goldman",
+"c": "gutendex"
+},
+{
+"id": "27558",
+"t": "The 2003 CIA World Factbook",
+"img": "https://www.gutenberg.org/files/27558/cover.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27558.html.images",
+"kind": "link",
+"dur": 0,
+"by": "United States. Central Intelligence Agency",
+"c": "gutendex"
+},
+{
+"id": "70200",
+"t": "Pen-portraits of literary women : $b by themselves and others, Volume 2 (of 2)",
+"img": "https://www.gutenberg.org/cache/epub/70200/pg70200.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/70200.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "4712",
+"t": "The Landloper: The Romance of a Man on Foot",
+"img": "https://www.gutenberg.org/cache/epub/4712/pg4712.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4712.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Day",
+"c": "gutendex"
+},
+{
+"id": "228",
+"t": "The Aeneid",
+"img": "https://www.gutenberg.org/cache/epub/228/pg228.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/228.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Virgil",
+"c": "gutendex"
+},
+{
+"id": "58031",
+"t": "Report of the President's Commission on the Assassination of President John F. Kennedy",
+"img": "https://www.gutenberg.org/cache/epub/58031/pg58031.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/58031.html.images",
+"kind": "link",
+"dur": 0,
+"by": "United States. Warren Commission",
+"c": "gutendex"
+},
+{
+"id": "815",
+"t": "Democracy in America — Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/815/pg815.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/815.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Tocqueville",
+"c": "gutendex"
+},
+{
+"id": "55514",
+"t": "Cuentos de amor",
+"img": "https://www.gutenberg.org/cache/epub/55514/pg55514.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55514.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pardo Bazán",
+"c": "gutendex"
+},
+{
+"id": "1597",
+"t": "Andersen's Fairy Tales",
+"img": "https://www.gutenberg.org/cache/epub/1597/pg1597.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1597.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Andersen",
+"c": "gutendex"
+},
+{
+"id": "20",
+"t": "Paradise Lost",
+"img": "https://www.gutenberg.org/cache/epub/20/pg20.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Milton",
+"c": "gutendex"
+},
+{
+"id": "7142",
+"t": "The History of the Peloponnesian War",
+"img": "https://www.gutenberg.org/cache/epub/7142/pg7142.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7142.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Thucydides",
+"c": "gutendex"
+},
+{
+"id": "10002",
+"t": "The House on the Borderland",
+"img": "https://www.gutenberg.org/cache/epub/10002/pg10002.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10002.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hodgson",
+"c": "gutendex"
+},
+{
+"id": "1250",
+"t": "Anthem",
+"img": "https://www.gutenberg.org/cache/epub/1250/pg1250.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1250.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rand",
+"c": "gutendex"
+},
+{
+"id": "2638",
+"t": "The Idiot",
+"img": "https://www.gutenberg.org/cache/epub/2638/pg2638.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2638.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dostoyevsky",
+"c": "gutendex"
+},
+{
+"id": "62",
+"t": "A princess of Mars",
+"img": "https://www.gutenberg.org/cache/epub/62/pg62.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/62.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "3044",
+"t": "Desperate Remedies",
+"img": "https://www.gutenberg.org/cache/epub/3044/pg3044.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3044.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hardy",
+"c": "gutendex"
+},
+{
+"id": "37499",
+"t": "Napoleon's Letters to Josephine, 1796-1812: For the First Time Collected and Translated, with Notes Social, Hi",
+"img": "https://www.gutenberg.org/cache/epub/37499/pg37499.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/37499.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Napoleon I",
+"c": "gutendex"
+},
+{
+"id": "6635",
+"t": "A Romance of Billy-Goat Hill",
+"img": "https://www.gutenberg.org/cache/epub/6635/pg6635.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/6635.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rice",
+"c": "gutendex"
+},
+{
+"id": "55987",
+"t": "Letters of Asa Gray; Vol. 2",
+"img": "https://www.gutenberg.org/cache/epub/55987/pg55987.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55987.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Gray",
+"c": "gutendex"
+},
+{
+"id": "7700",
+"t": "Lysistrata",
+"img": "https://www.gutenberg.org/cache/epub/7700/pg7700.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7700.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Aristophanes",
+"c": "gutendex"
+},
+{
+"id": "60688",
+"t": "The Natural History of Pliny, Volume 5 (of 6)",
+"img": "https://www.gutenberg.org/cache/epub/60688/pg60688.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/60688.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pliny",
+"c": "gutendex"
+},
+{
+"id": "8197",
+"t": "India's Love Lyrics",
+"img": "https://www.gutenberg.org/cache/epub/8197/pg8197.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8197.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hope",
+"c": "gutendex"
+},
+{
+"id": "1001",
+"t": "Divine Comedy, Longfellow's Translation, Hell",
+"img": "https://www.gutenberg.org/cache/epub/1001/pg1001.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1001.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dante Alighieri",
+"c": "gutendex"
+},
+{
+"id": "17396",
+"t": "The Secret Garden",
+"img": "https://www.gutenberg.org/cache/epub/17396/pg17396.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/17396.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burnett",
+"c": "gutendex"
+},
+{
+"id": "7524",
+"t": "The Germany and the Agricola of Tacitus",
+"img": "https://www.gutenberg.org/cache/epub/7524/pg7524.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7524.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Tacitus",
+"c": "gutendex"
+},
+{
+"id": "7735",
+"t": "Paul Clifford — Complete",
+"img": "https://www.gutenberg.org/cache/epub/7735/pg7735.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7735.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lytton",
+"c": "gutendex"
+},
+{
+"id": "500",
+"t": "The Adventures of Pinocchio",
+"img": "https://www.gutenberg.org/cache/epub/500/pg500.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/500.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Collodi",
+"c": "gutendex"
+},
+{
+"id": "14244",
+"t": "The Romance of Tristan and Iseult",
+"img": "https://www.gutenberg.org/cache/epub/14244/pg14244.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14244.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bédier",
+"c": "gutendex"
+},
+{
+"id": "26315",
+"t": "Shakespeare's family",
+"img": "https://www.gutenberg.org/cache/epub/26315/pg26315.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/26315.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Stopes",
+"c": "gutendex"
+},
+{
+"id": "52597",
+"t": "Insolación y Morriña (Dos historias amorosas)",
+"img": "https://www.gutenberg.org/cache/epub/52597/pg52597.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/52597.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pardo Bazán",
+"c": "gutendex"
+},
+{
+"id": "22367",
+"t": "Die Verwandlung",
+"img": "https://www.gutenberg.org/cache/epub/22367/pg22367.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22367.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kafka",
+"c": "gutendex"
+},
+{
+"id": "3146",
+"t": "Two on a Tower",
+"img": "https://www.gutenberg.org/cache/epub/3146/pg3146.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3146.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hardy",
+"c": "gutendex"
+},
+{
+"id": "10766",
+"t": "Enquire within upon everything: The great Victorian-era domestic standby",
+"img": "https://www.gutenberg.org/cache/epub/10766/pg10766.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10766.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Philp",
+"c": "gutendex"
+},
+{
+"id": "1874",
+"t": "The Railway Children",
+"img": "https://www.gutenberg.org/cache/epub/1874/pg1874.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1874.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Nesbit",
+"c": "gutendex"
+},
+{
+"id": "58984",
+"t": "Audubon the Naturalist: A History of His Life and Time. Vol. 2 (of 2)",
+"img": "https://www.gutenberg.org/cache/epub/58984/pg58984.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/58984.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Herrick",
+"c": "gutendex"
+},
+{
+"id": "43453",
+"t": "A Pickle for the Knowing Ones",
+"img": "https://www.gutenberg.org/cache/epub/43453/pg43453.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/43453.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dexter",
+"c": "gutendex"
+},
+{
+"id": "674",
+"t": "Plutarch: Lives of the noble Grecians and Romans",
+"img": "https://www.gutenberg.org/cache/epub/674/pg674.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/674.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plutarch",
+"c": "gutendex"
+},
+{
+"id": "4367",
+"t": "Personal Memoirs of U. S. Grant, Complete",
+"img": "https://www.gutenberg.org/cache/epub/4367/pg4367.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4367.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Grant",
+"c": "gutendex"
+},
+{
+"id": "8954",
+"t": "Lady Audley's Secret",
+"img": "https://www.gutenberg.org/cache/epub/8954/pg8954.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8954.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Braddon",
+"c": "gutendex"
+},
+{
+"id": "1170",
+"t": "Anabasis",
+"img": "https://www.gutenberg.org/cache/epub/1170/pg1170.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1170.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Xenophon",
+"c": "gutendex"
+},
+{
+"id": "1946",
+"t": "On War",
+"img": "https://www.gutenberg.org/cache/epub/1946/pg1946.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1946.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Clausewitz",
+"c": "gutendex"
+},
+{
+"id": "52734",
+"t": "The Scourge of God: A Romance of Religious Persecution",
+"img": "https://www.gutenberg.org/cache/epub/52734/pg52734.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/52734.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bloundelle-Burton",
+"c": "gutendex"
+},
+{
+"id": "12030",
+"t": "The Spectator, Volumes 1, 2 and 3: With Translations and Index for the Series",
+"img": "https://www.gutenberg.org/cache/epub/12030/pg12030.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/12030.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Steele",
+"c": "gutendex"
+},
+{
+"id": "63754",
+"t": "All in the Day's Work: An Autobiography",
+"img": "https://www.gutenberg.org/cache/epub/63754/pg63754.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/63754.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Tarbell",
+"c": "gutendex"
+},
+{
+"id": "696",
+"t": "The Castle of Otranto",
+"img": "https://www.gutenberg.org/cache/epub/696/pg696.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/696.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Walpole",
+"c": "gutendex"
+},
+{
+"id": "2130",
+"t": "Utopia",
+"img": "https://www.gutenberg.org/cache/epub/2130/pg2130.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2130.html.images",
+"kind": "link",
+"dur": 0,
+"by": "More",
+"c": "gutendex"
+},
+{
+"id": "289",
+"t": "The Wind in the Willows",
+"img": "https://www.gutenberg.org/cache/epub/289/pg289.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/289.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Grahame",
+"c": "gutendex"
+},
+{
+"id": "26659",
+"t": "The Will to Believe, and Other Essays in Popular Philosophy",
+"img": "https://www.gutenberg.org/cache/epub/26659/pg26659.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/26659.html.images",
+"kind": "link",
+"dur": 0,
+"by": "James",
+"c": "gutendex"
+},
+{
+"id": "1524",
+"t": "Hamlet",
+"img": "https://www.gutenberg.org/cache/epub/1524/pg1524.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1524.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
+"id": "45839",
+"t": "Dracula",
+"img": "https://www.gutenberg.org/cache/epub/45839/pg45839.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45839.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Stoker",
+"c": "gutendex"
+},
+{
+"id": "3800",
+"t": "Ethics",
+"img": "https://www.gutenberg.org/cache/epub/3800/pg3800.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3800.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Spinoza",
+"c": "gutendex"
+},
+{
+"id": "31284",
+"t": "Josefine Mutzenbacher: oder Die Geschichte einer Wienerischen Dirne von ihr selbst erzählt",
+"img": "https://www.gutenberg.org/cache/epub/31284/pg31284.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/31284.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Salten",
+"c": "gutendex"
+},
+{
+"id": "70377",
+"t": "Fifty years in Wall Street",
+"img": "https://www.gutenberg.org/cache/epub/70377/pg70377.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/70377.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Clews",
+"c": "gutendex"
+},
+{
+"id": "35312",
+"t": "Aus dem Leben eines Taugenichts: Novelle",
+"img": "https://www.gutenberg.org/cache/epub/35312/pg35312.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/35312.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Eichendorff",
+"c": "gutendex"
+},
+{
+"id": "22163",
+"t": "The Rover Boys on the Farm; or, Last Days at Putnam Hall",
+"img": "https://www.gutenberg.org/cache/epub/22163/pg22163.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22163.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Stratemeyer",
+"c": "gutendex"
+},
+{
+"id": "23784",
+"t": "The History of Sir Richard Calmady: A Romance",
+"img": "https://www.gutenberg.org/cache/epub/23784/pg23784.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23784.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Malet",
+"c": "gutendex"
+},
+{
+"id": "2739",
+"t": "More Letters of Charles Darwin — Volume 1: A Record of His Work in a Series of Hitherto Unpublished Letters",
+"img": "https://www.gutenberg.org/cache/epub/2739/pg2739.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2739.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Darwin",
+"c": "gutendex"
+},
+{
+"id": "140",
+"t": "The Jungle",
+"img": "https://www.gutenberg.org/cache/epub/140/pg140.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/140.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Sinclair",
+"c": "gutendex"
+},
+{
+"id": "8581",
+"t": "The art of money getting : $b or, golden rules for making money",
+"img": "https://www.gutenberg.org/cache/epub/8581/pg8581.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8581.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Barnum",
+"c": "gutendex"
+},
+{
+"id": "32474",
+"t": "The Memoirs of the Conquistador Bernal Diaz del Castillo, Vol 1 (of 2): Written by Himself Containing a True a",
+"img": "https://www.gutenberg.org/cache/epub/32474/pg32474.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/32474.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Díaz del Castillo",
+"c": "gutendex"
+},
+{
+"id": "17460",
+"t": "Lorna Doone: A Romance of Exmoor",
+"img": "https://www.gutenberg.org/cache/epub/17460/pg17460.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/17460.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Blackmore",
+"c": "gutendex"
+},
+{
+"id": "202",
+"t": "My Bondage and My Freedom",
+"img": "https://www.gutenberg.org/cache/epub/202/pg202.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/202.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Douglass",
+"c": "gutendex"
+},
+{
+"id": "52319",
+"t": "The Genealogy of Morals: The Complete Works, Volume Thirteen, edited by Dr. Oscar Levy.",
+"img": "https://www.gutenberg.org/cache/epub/52319/pg52319.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/52319.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Nietzsche",
+"c": "gutendex"
+},
+{
+"id": "22964",
+"t": "Sense and Sensibility",
+"img": "https://www.gutenberg.org/cache/epub/22964/pg22964.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/22964/22964-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "599",
+"t": "Vanity Fair",
+"img": "https://www.gutenberg.org/cache/epub/599/pg599.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/599.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Thackeray",
+"c": "gutendex"
+},
+{
+"id": "1268",
+"t": "The Mysterious Island",
+"img": "https://www.gutenberg.org/cache/epub/1268/pg1268.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1268.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "28203",
+"t": "Moods",
+"img": "https://www.gutenberg.org/cache/epub/28203/pg28203.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/28203.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Alcott",
+"c": "gutendex"
+},
+{
+"id": "139",
+"t": "The Lost World",
+"img": "https://www.gutenberg.org/cache/epub/139/pg139.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/139.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Doyle",
+"c": "gutendex"
+},
+{
+"id": "67804",
+"t": "The First of the English: A Novel",
+"img": "https://www.gutenberg.org/cache/epub/67804/pg67804.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/67804.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Gunter",
+"c": "gutendex"
+},
+{
+"id": "35899",
+"t": "The Philippines a Century Hence",
+"img": "https://www.gutenberg.org/cache/epub/35899/pg35899.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/35899.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rizal",
+"c": "gutendex"
+},
+{
+"id": "1079",
+"t": "The life and opinions of Tristram Shandy, gentleman",
+"img": "https://www.gutenberg.org/cache/epub/1079/pg1079.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1079.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Sterne",
+"c": "gutendex"
+},
+{
+"id": "20027",
+"t": "Grimms' Fairy Tales",
+"img": "https://www.gutenberg.org/cache/epub/20027/pg20027.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20027/20027-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Grimm",
+"c": "gutendex"
+},
+{
+"id": "2610",
+"t": "Notre-Dame de Paris",
+"img": "https://www.gutenberg.org/cache/epub/2610/pg2610.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2610.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hugo",
+"c": "gutendex"
+},
+{
+"id": "9662",
+"t": "An Enquiry Concerning Human Understanding",
+"img": "https://www.gutenberg.org/cache/epub/9662/pg9662.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/9662.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hume",
+"c": "gutendex"
+},
+{
+"id": "4791",
+"t": "Voyage au Centre de la Terre",
+"img": "https://www.gutenberg.org/cache/epub/4791/pg4791.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4791.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "2707",
+"t": "The History of Herodotus — Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/2707/pg2707.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2707.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Herodotus",
+"c": "gutendex"
+},
+{
+"id": "14471",
+"t": "The Empty House and Other Ghost Stories",
+"img": "https://www.gutenberg.org/cache/epub/14471/pg14471.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14471.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Blackwood",
+"c": "gutendex"
+},
+{
+"id": "14328",
+"t": "The Consolation of Philosophy",
+"img": "https://www.gutenberg.org/cache/epub/14328/pg14328.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14328.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Boethius",
+"c": "gutendex"
+},
+{
+"id": "44525",
+"t": "Report on the Radiolaria Collected by H.M.S. Challenger During the Years 1873-1876, First Part: Porulosa (Spum",
+"img": "https://www.gutenberg.org/cache/epub/44525/pg44525.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/44525.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Haeckel",
+"c": "gutendex"
+},
+{
+"id": "2040",
+"t": "Confessions of an English Opium-Eater",
+"img": "https://www.gutenberg.org/cache/epub/2040/pg2040.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2040.html.images",
+"kind": "link",
+"dur": 0,
+"by": "De Quincey",
+"c": "gutendex"
+},
+{
+"id": "47476",
+"t": "Poems of American History",
+"img": "https://www.gutenberg.org/cache/epub/47476/pg47476.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/47476.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "22981",
+"t": "Letters of Two Brides",
+"img": "https://www.gutenberg.org/cache/epub/22981/pg22981.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/22981/22981-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Balzac",
+"c": "gutendex"
+},
+{
+"id": "23639",
+"t": "Plutarch's Morals",
+"img": "https://www.gutenberg.org/cache/epub/23639/pg23639.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23639.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plutarch",
+"c": "gutendex"
+},
+{
+"id": "34811",
+"t": "Buddenbrooks: Verfall einer Familie",
+"img": "https://www.gutenberg.org/cache/epub/34811/pg34811.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/34811.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Mann",
+"c": "gutendex"
+},
+{
+"id": "25789",
+"t": "Emily Brontë",
+"img": "https://www.gutenberg.org/cache/epub/25789/pg25789.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/25789.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Robinson",
+"c": "gutendex"
+},
+{
+"id": "17450",
+"t": "The Part Borne by the Dutch in the Discovery of Australia 1606-1765",
+"img": "https://www.gutenberg.org/cache/epub/17450/pg17450.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/17450.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Heeres",
+"c": "gutendex"
+},
+{
+"id": "1747",
+"t": "The Red Seal",
+"img": "https://www.gutenberg.org/cache/epub/1747/pg1747.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1747.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lincoln",
+"c": "gutendex"
+},
+{
+"id": "76576",
+"t": "The Belle of Bowling Green",
+"img": "https://www.gutenberg.org/cache/epub/76576/pg76576.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76576.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Barr",
+"c": "gutendex"
+},
+{
+"id": "45315",
+"t": "The Marriage of Heaven and Hell",
+"img": "https://www.gutenberg.org/cache/epub/45315/pg45315.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45315.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Blake",
+"c": "gutendex"
+},
+{
+"id": "12345",
+"t": "Friday, the Thirteenth: A Novel",
+"img": "https://www.gutenberg.org/cache/epub/12345/pg12345.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/12345.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lawson",
+"c": "gutendex"
+},
+{
+"id": "2413",
+"t": "Madame Bovary",
+"img": "https://www.gutenberg.org/cache/epub/2413/pg2413.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2413.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Flaubert",
+"c": "gutendex"
+},
+{
+"id": "38813",
+"t": "The Works of Robert G. Ingersoll, Complete Contents: Dresden Edition—Twelve Volumes",
+"img": "https://www.gutenberg.org/cache/epub/38813/pg38813.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/38813.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ingersoll",
+"c": "gutendex"
+},
+{
+"id": "2488",
+"t": "Twenty Thousand Leagues Under the Seas: An Underwater Tour of the World",
+"img": "https://www.gutenberg.org/cache/epub/2488/pg2488.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2488.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "22515",
+"t": "The Modern Scottish Minstrel, Volumes 1-6.: The Songs of Scotland of the Past Half Century",
+"img": "https://www.gutenberg.org/cache/epub/22515/pg22515.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22515.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "43936",
+"t": "The Wonderful Wizard of Oz",
+"img": "https://www.gutenberg.org/cache/epub/43936/pg43936.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/43936.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Baum",
+"c": "gutendex"
+},
+{
+"id": "141",
+"t": "Mansfield Park",
+"img": "https://www.gutenberg.org/cache/epub/141/pg141.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/141.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "21053",
+"t": "An anthology of German literature",
+"img": "https://www.gutenberg.org/cache/epub/21053/pg21053.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21053.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Thomas",
+"c": "gutendex"
+},
+{
+"id": "9473",
+"t": "The Knights of the Cross, or, Krzyzacy: Historical Romance",
+"img": "https://www.gutenberg.org/cache/epub/9473/pg9473.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/9473.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Sienkiewicz",
+"c": "gutendex"
+},
+{
+"id": "22298",
+"t": "Practical Mechanics for Boys",
+"img": "https://www.gutenberg.org/cache/epub/22298/pg22298.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22298.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Zerbe",
+"c": "gutendex"
+},
+{
+"id": "12410",
+"t": "The Travels of Marco Polo — Volume 2",
+"img": "https://www.gutenberg.org/cache/epub/12410/pg12410.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/12410.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Polo",
+"c": "gutendex"
+},
+{
+"id": "31469",
+"t": "The Shunned House",
+"img": "https://www.gutenberg.org/cache/epub/31469/pg31469.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/31469.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lovecraft",
+"c": "gutendex"
+},
+{
+"id": "23077",
+"t": "Jane Eyre",
+"img": "https://www.gutenberg.org/cache/epub/23077/pg23077.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/23077/23077-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Brontë",
+"c": "gutendex"
+},
+{
+"id": "59844",
+"t": "The Science of Getting Rich",
+"img": "https://www.gutenberg.org/cache/epub/59844/pg59844.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/59844.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wattles",
+"c": "gutendex"
+},
+{
+"id": "12116",
+"t": "Struwwelpeter: Merry Stories and Funny Pictures",
+"img": "https://www.gutenberg.org/cache/epub/12116/pg12116.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/12116.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hoffmann",
+"c": "gutendex"
+},
+{
+"id": "64",
+"t": "The gods of Mars",
+"img": "https://www.gutenberg.org/cache/epub/64/pg64.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/64.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "43671",
+"t": "A History of Epidemics in Britain, Volume 2 (of 2): From the Extinction of Plague to the Present Time",
+"img": "https://www.gutenberg.org/cache/epub/43671/pg43671.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/43671.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Creighton",
+"c": "gutendex"
+},
+{
+"id": "10623",
+"t": "Plays",
+"img": "https://www.gutenberg.org/cache/epub/10623/pg10623.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10623.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Glaspell",
+"c": "gutendex"
+},
+{
+"id": "15877",
+"t": "Thoughts of Marcus Aurelius Antoninus",
+"img": "https://www.gutenberg.org/cache/epub/15877/pg15877.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/15877.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Marcus Aurelius",
+"c": "gutendex"
+},
+{
+"id": "31257",
+"t": "Dainty's Cruel Rivals; Or, The Fatal Birthday",
+"img": "https://www.gutenberg.org/cache/epub/31257/pg31257.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/31257.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Miller",
+"c": "gutendex"
+},
+{
+"id": "27475",
+"t": "That Girl Montana",
+"img": "https://www.gutenberg.org/cache/epub/27475/pg27475.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27475.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ryan",
+"c": "gutendex"
+},
+{
+"id": "6867",
+"t": "Lineage, Life and Labors of José Rizal, Philippine Patriot",
+"img": "https://www.gutenberg.org/cache/epub/6867/pg6867.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/6867.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Craig",
+"c": "gutendex"
+},
+{
+"id": "57336",
+"t": "Ancient Britain and the Invasions of Julius Caesar",
+"img": "https://www.gutenberg.org/cache/epub/57336/pg57336.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/57336.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Holmes",
+"c": "gutendex"
+},
+{
+"id": "2944",
+"t": "Essays — First Series",
+"img": "https://www.gutenberg.org/cache/epub/2944/pg2944.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2944.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Emerson",
+"c": "gutendex"
+},
+{
+"id": "28761",
+"t": "Life in Mexico",
+"img": "https://www.gutenberg.org/cache/epub/28761/pg28761.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/28761/28761_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Calderón de la Barca",
+"c": "gutendex"
+},
+{
+"id": "4517",
+"t": "Ethan Frome",
+"img": "https://www.gutenberg.org/cache/epub/4517/pg4517.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4517.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wharton",
+"c": "gutendex"
+},
+{
+"id": "20628",
+"t": "Torchy and Vee",
+"img": "https://www.gutenberg.org/cache/epub/20628/pg20628.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20628.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ford",
+"c": "gutendex"
+},
+{
+"id": "41360",
+"t": "The Elementary Forms of the Religious Life",
+"img": "https://www.gutenberg.org/cache/epub/41360/pg41360.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/41360.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Durkheim",
+"c": "gutendex"
+},
+{
+"id": "23700",
+"t": "The Decameron of Giovanni Boccaccio",
+"img": "https://www.gutenberg.org/cache/epub/23700/pg23700.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23700.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Boccaccio",
+"c": "gutendex"
+},
+{
+"id": "40533",
+"t": "The Life of John Marshall, Volume 4: The building of the nation, 1815-1835",
+"img": "https://www.gutenberg.org/cache/epub/40533/pg40533.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/40533.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Beveridge",
+"c": "gutendex"
+},
+{
+"id": "33870",
+"t": "Chess Fundamentals",
+"img": "https://www.gutenberg.org/cache/epub/33870/pg33870.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/33870.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Capablanca",
+"c": "gutendex"
+},
+{
+"id": "932",
+"t": "The Fall of the House of Usher",
+"img": "https://www.gutenberg.org/cache/epub/932/pg932.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/932.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Poe",
+"c": "gutendex"
+},
+{
+"id": "146",
+"t": "A Little Princess: Being the whole story of Sara Crewe now told for the first time",
+"img": "https://www.gutenberg.org/cache/epub/146/pg146.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/146.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burnett",
+"c": "gutendex"
+},
+{
+"id": "45304",
+"t": "The City of God, Volume I",
+"img": "https://www.gutenberg.org/cache/epub/45304/pg45304.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45304.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Augustine",
+"c": "gutendex"
+},
+{
+"id": "1200",
+"t": "Gargantua and Pantagruel",
+"img": "https://www.gutenberg.org/cache/epub/1200/pg1200.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1200.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rabelais",
+"c": "gutendex"
+},
+{
+"id": "60976",
+"t": "Rip Van Winkle",
+"img": "https://www.gutenberg.org/cache/epub/60976/pg60976.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/60976.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Irving",
+"c": "gutendex"
+},
+{
+"id": "20593",
+"t": "Anne of Green Gables",
+"img": "https://www.gutenberg.org/cache/epub/20593/pg20593.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20593/20593-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Montgomery",
+"c": "gutendex"
+},
+{
+"id": "26563",
+"t": "The Crack of Doom",
+"img": "https://www.gutenberg.org/cache/epub/26563/pg26563.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/26563.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cromie",
+"c": "gutendex"
+},
+{
+"id": "38311",
+"t": "What Will People Say? A Novel",
+"img": "https://www.gutenberg.org/cache/epub/38311/pg38311.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/38311.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hughes",
+"c": "gutendex"
+},
+{
+"id": "36223",
+"t": "The Boy with Wings",
+"img": "https://www.gutenberg.org/cache/epub/36223/pg36223.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/36223.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ruck",
+"c": "gutendex"
+},
+{
+"id": "20121",
+"t": "Lone Star Planet",
+"img": "https://www.gutenberg.org/cache/epub/20121/pg20121.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20121.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Piper",
+"c": "gutendex"
+},
+{
+"id": "20051",
+"t": "Märchen der Gebrüder Grimm 2",
+"img": "https://www.gutenberg.org/cache/epub/20051/pg20051.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20051/20051-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Grimm",
+"c": "gutendex"
+},
+{
+"id": "19033",
+"t": "Alice's Adventures in Wonderland",
+"img": "https://www.gutenberg.org/cache/epub/19033/pg19033.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19033.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Carroll",
+"c": "gutendex"
+},
+{
+"id": "68",
+"t": "The warlord of Mars",
+"img": "https://www.gutenberg.org/cache/epub/68/pg68.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/68.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "45634",
+"t": "Myths of the Cherokee: Extract from the Nineteenth Annual Report of the Bureau of American Ethnology",
+"img": "https://www.gutenberg.org/cache/epub/45634/pg45634.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45634.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Mooney",
+"c": "gutendex"
+},
+{
+"id": "33823",
+"t": "The Gay Adventure: A Romance",
+"img": "https://www.gutenberg.org/cache/epub/33823/pg33823.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/33823.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bird",
+"c": "gutendex"
+},
+{
+"id": "2833",
+"t": "The Portrait of a Lady — Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/2833/pg2833.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2833.html.images",
+"kind": "link",
+"dur": 0,
+"by": "James",
+"c": "gutendex"
+},
+{
+"id": "51960",
+"t": "The Ancient Stone Implements, Weapons and Ornaments, of Great Britain: Second Edition, Revised",
+"img": "https://www.gutenberg.org/cache/epub/51960/pg51960.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/51960.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Evans",
+"c": "gutendex"
+},
+{
+"id": "75643",
+"t": "The Black Abbot",
+"img": "https://www.gutenberg.org/cache/epub/75643/pg75643.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75643.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wallace",
+"c": "gutendex"
+},
+{
+"id": "51793",
+"t": "A Short History of Freethought Ancient and Modern, Volume 1 of 2: Third edition, Revised and Expanded, in two ",
+"img": "https://www.gutenberg.org/cache/epub/51793/pg51793.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/51793.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Robertson",
+"c": "gutendex"
+},
+{
+"id": "22373",
+"t": "Russian Fairy Tales: A Choice Collection of Muscovite Folk-lore",
+"img": "https://www.gutenberg.org/cache/epub/22373/pg22373.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22373.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "20546",
+"t": "The Hand in the Dark",
+"img": "https://www.gutenberg.org/cache/epub/20546/pg20546.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20546.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rees",
+"c": "gutendex"
+},
+{
+"id": "159",
+"t": "The island of Doctor Moreau",
+"img": "https://www.gutenberg.org/cache/epub/159/pg159.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/159.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wells",
+"c": "gutendex"
+},
+{
+"id": "35548",
+"t": "Doctor Cupid: A Novel",
+"img": "https://www.gutenberg.org/cache/epub/35548/pg35548.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/35548.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Broughton",
+"c": "gutendex"
+},
+{
+"id": "36725",
+"t": "On the Cross: A Romance of the Passion Play at Oberammergau",
+"img": "https://www.gutenberg.org/cache/epub/36725/pg36725.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/36725.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hillern",
+"c": "gutendex"
+},
+{
+"id": "14287",
+"t": "L'île mystérieuse",
+"img": "https://www.gutenberg.org/cache/epub/14287/pg14287.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14287.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "2388",
+"t": "The Song Celestial; Or, Bhagavad-Gîtâ (from the Mahâbhârata): Being a discourse between Arjuna, Prince of Indi",
+"img": "https://www.gutenberg.org/cache/epub/2388/pg2388.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2388.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "27942",
+"t": "A System of Logic, Ratiocinative and Inductive",
+"img": "https://www.gutenberg.org/cache/epub/27942/pg27942.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27942.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Mill",
+"c": "gutendex"
+},
+{
+"id": "28811",
+"t": "Barchester Towers",
+"img": "https://www.gutenberg.org/cache/epub/28811/pg28811.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/28811/28811_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Trollope",
+"c": "gutendex"
+},
+{
+"id": "3420",
+"t": "A Vindication of the Rights of Woman: With Strictures on Political and Moral Subjects",
+"img": "https://www.gutenberg.org/cache/epub/3420/pg3420.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3420.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wollstonecraft",
+"c": "gutendex"
+},
+{
+"id": "3177",
+"t": "Roughing It",
+"img": "https://www.gutenberg.org/cache/epub/3177/pg3177.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3177.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Twain",
+"c": "gutendex"
+},
+{
+"id": "41537",
+"t": "The Divine Comedy of Dante Alighieri: The Inferno",
+"img": "https://www.gutenberg.org/cache/epub/41537/pg41537.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/41537.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dante Alighieri",
+"c": "gutendex"
+},
+{
+"id": "16317",
+"t": "The Art of Public Speaking",
+"img": "https://www.gutenberg.org/cache/epub/16317/pg16317.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/16317.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Esenwein",
+"c": "gutendex"
+},
+{
+"id": "68348",
+"t": "England under the Angevin Kings, Volumes I and II",
+"img": "https://www.gutenberg.org/cache/epub/68348/pg68348.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/68348.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Norgate",
+"c": "gutendex"
+},
+{
+"id": "22962",
+"t": "Mansfield Park",
+"img": "https://www.gutenberg.org/cache/epub/22962/pg22962.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/22962/22962-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "42884",
+"t": "The Philippine Islands, 1493-1898, Volume 33, 1519-1522: Explorations by early navigators, descriptions of the",
+"img": "https://www.gutenberg.org/cache/epub/42884/pg42884.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/42884.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pigafetta",
+"c": "gutendex"
+},
+{
+"id": "38177",
+"t": "The Passionate Elopement",
+"img": "https://www.gutenberg.org/cache/epub/38177/pg38177.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/38177.html.images",
+"kind": "link",
+"dur": 0,
+"by": "MacKenzie",
+"c": "gutendex"
+},
+{
+"id": "50133",
+"t": "The Dunwich horror",
+"img": "https://www.gutenberg.org/cache/epub/50133/pg50133.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50133.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Lovecraft",
+"c": "gutendex"
+},
+{
+"id": "40058",
+"t": "The Life of Florence Nightingale, vol. 2 of 2",
+"img": "https://www.gutenberg.org/cache/epub/40058/pg40058.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/40058.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cook",
+"c": "gutendex"
+},
+{
+"id": "5682",
+"t": "Fundamental Principles of the Metaphysic of Morals",
+"img": "https://www.gutenberg.org/cache/epub/5682/pg5682.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5682.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kant",
+"c": "gutendex"
+},
+{
+"id": "50285",
+"t": "Dr. Mabuse, der Spieler : $b Roman",
+"img": "https://www.gutenberg.org/cache/epub/50285/pg50285.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50285.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Jacques",
+"c": "gutendex"
+},
+{
+"id": "621",
+"t": "The Varieties of Religious Experience: A Study in Human Nature",
+"img": "https://www.gutenberg.org/cache/epub/621/pg621.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/621.html.images",
+"kind": "link",
+"dur": 0,
+"by": "James",
+"c": "gutendex"
+},
+{
+"id": "19322",
+"t": "The Antichrist",
+"img": "https://www.gutenberg.org/cache/epub/19322/pg19322.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19322.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Nietzsche",
+"c": "gutendex"
+},
+{
+"id": "6235",
+"t": "The Battle of the Strong: A Romance of Two Kingdoms — Volume 6",
+"img": "https://www.gutenberg.org/cache/epub/6235/pg6235.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/6235.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Parker",
+"c": "gutendex"
+},
+{
+"id": "375",
+"t": "An Occurrence at Owl Creek Bridge",
+"img": "https://www.gutenberg.org/cache/epub/375/pg375.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/375.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bierce",
+"c": "gutendex"
+},
+{
+"id": "28794",
+"t": "Moby Dick; Or, The Whale",
+"img": "https://www.gutenberg.org/cache/epub/28794/pg28794.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/28794/28794_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Melville",
+"c": "gutendex"
+},
+{
+"id": "33",
+"t": "The Scarlet Letter",
+"img": "https://www.gutenberg.org/cache/epub/33/pg33.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/33.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hawthorne",
+"c": "gutendex"
+},
+{
+"id": "76553",
+"t": "Three millions! : $b or, The way of the world",
+"img": "https://www.gutenberg.org/cache/epub/76553/pg76553.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76553.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Optic",
+"c": "gutendex"
+},
+{
+"id": "16713",
+"t": "Amusements in Mathematics",
+"img": "https://www.gutenberg.org/cache/epub/16713/pg16713.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/16713.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Dudeney",
+"c": "gutendex"
+},
+{
+"id": "24149",
+"t": "The Ambulance Made Two Trips",
+"img": "https://www.gutenberg.org/cache/epub/24149/pg24149.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/24149.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Leinster",
+"c": "gutendex"
+},
+{
+"id": "19640",
+"t": "Adventures of Huckleberry Finn",
+"img": "https://www.gutenberg.org/cache/epub/19640/pg19640.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/19640/19640-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Twain",
+"c": "gutendex"
+},
+{
+"id": "24746",
+"t": "Reise in die Aequinoctial-Gegenden des neuen Continents. Band 2.",
+"img": "https://www.gutenberg.org/cache/epub/24746/pg24746.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/24746.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Humboldt",
+"c": "gutendex"
+},
+{
+"id": "5307",
+"t": "The Letters of Wolfgang Amadeus Mozart — Volume 01",
+"img": "https://www.gutenberg.org/cache/epub/5307/pg5307.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5307.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Mozart",
+"c": "gutendex"
+},
+{
+"id": "2009",
+"t": "The Origin of Species by Means of Natural Selection: Or, the Preservation of Favoured Races in the Struggle fo",
+"img": "https://www.gutenberg.org/cache/epub/2009/pg2009.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2009.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Darwin",
+"c": "gutendex"
+},
+{
+"id": "3875",
+"t": "Memoirs of Louis XIV and His Court and of the Regency — Complete",
+"img": "https://www.gutenberg.org/cache/epub/3875/pg3875.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3875.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Saint-Simon",
 "c": "gutendex"
 },
 {
@@ -3159,16 +5219,6 @@
 "kind": "link",
 "dur": 0,
 "by": "Sunzi",
-"c": "gutendex"
-},
-{
-"id": "79351",
-"t": "Naked holiday",
-"img": "https://www.gutenberg.org/cache/epub/79351/pg79351.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/79351.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Silverberg",
 "c": "gutendex"
 },
 {
@@ -3522,13 +5572,333 @@
 "c": "gutendex"
 },
 {
-"id": "50742",
-"t": "The Story of Beowulf, Translated from Anglo-Saxon into Modern English Prose",
-"img": "https://www.gutenberg.org/cache/epub/50742/pg50742.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/50742.html.images",
+"id": "34323",
+"t": "The Samurai Strategy",
+"img": "https://www.gutenberg.org/cache/epub/34323/pg34323.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/34323.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hoover",
+"c": "gutendex"
+},
+{
+"id": "3748",
+"t": "A Journey into the Interior of the Earth",
+"img": "https://www.gutenberg.org/files/3748/cover.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3748.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "43578",
+"t": "An Introduction to Entomology: Vol. 3: or Elements of the Natural History of the Insects",
+"img": "https://www.gutenberg.org/cache/epub/43578/pg43578.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/43578.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kirby",
+"c": "gutendex"
+},
+{
+"id": "1429",
+"t": "The Garden Party, and Other Stories",
+"img": "https://www.gutenberg.org/cache/epub/1429/pg1429.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1429.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Mansfield",
+"c": "gutendex"
+},
+{
+"id": "1279",
+"t": "Poems and Songs of Robert Burns",
+"img": "https://www.gutenberg.org/cache/epub/1279/pg1279.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1279.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burns",
+"c": "gutendex"
+},
+{
+"id": "7849",
+"t": "The Trial",
+"img": "https://www.gutenberg.org/cache/epub/7849/pg7849.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7849.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kafka",
+"c": "gutendex"
+},
+{
+"id": "67792",
+"t": "A History of Magic and Experimental Science, Volume 1 (of 2): During the First Thirteen Centuries of Our Era",
+"img": "https://www.gutenberg.org/cache/epub/67792/pg67792.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/67792.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Thorndike",
+"c": "gutendex"
+},
+{
+"id": "25946",
+"t": "Gevoel en verstand",
+"img": "https://www.gutenberg.org/cache/epub/25946/pg25946.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/25946.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "3330",
+"t": "The Analects of Confucius (from the Chinese Classics)",
+"img": "https://www.gutenberg.org/cache/epub/3330/pg3330.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/3330.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Confucius",
+"c": "gutendex"
+},
+{
+"id": "57493",
+"t": "The Natural History of Pliny, Volume 1 (of 6)",
+"img": "https://www.gutenberg.org/cache/epub/57493/pg57493.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/57493.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pliny",
+"c": "gutendex"
+},
+{
+"id": "38427",
+"t": "The World as Will and Idea (Vol. 1 of 3)",
+"img": "https://www.gutenberg.org/cache/epub/38427/pg38427.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/38427.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Schopenhauer",
+"c": "gutendex"
+},
+{
+"id": "20686",
+"t": "Pride and Prejudice",
+"img": "https://www.gutenberg.org/cache/epub/20686/pg20686.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20686/20686-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Austen",
+"c": "gutendex"
+},
+{
+"id": "26274",
+"t": "The Swiss Family Robinson",
+"img": "https://www.gutenberg.org/cache/epub/26274/pg26274.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26274/26274-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Wyss",
+"c": "gutendex"
+},
+{
+"id": "59386",
+"t": "The history of human marriage",
+"img": "https://www.gutenberg.org/cache/epub/59386/pg59386.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/59386.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Westermarck",
+"c": "gutendex"
+},
+{
+"id": "30434",
+"t": "Occasion ... for Disaster",
+"img": "https://www.gutenberg.org/cache/epub/30434/pg30434.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/30434.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Garrett",
+"c": "gutendex"
+},
+{
+"id": "27200",
+"t": "Fairy Tales of Hans Christian Andersen",
+"img": "https://www.gutenberg.org/cache/epub/27200/pg27200.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27200.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Andersen",
+"c": "gutendex"
+},
+{
+"id": "8710",
+"t": "The Doré Bible Gallery, Complete: Containing One Hundred Superb Illustrations, and a Page of Explanatory Lette",
+"img": "https://www.gutenberg.org/cache/epub/8710/pg8710.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8710.html.images",
 "kind": "link",
 "dur": 0,
 "by": "",
+"c": "gutendex"
+},
+{
+"id": "76411",
+"t": "The last dragon",
+"img": "https://www.gutenberg.org/cache/epub/76411/pg76411.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76411.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Totheroh",
+"c": "gutendex"
+},
+{
+"id": "34318",
+"t": "Life Blood",
+"img": "https://www.gutenberg.org/cache/epub/34318/pg34318.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/34318.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hoover",
+"c": "gutendex"
+},
+{
+"id": "1680",
+"t": "At the Sign of the Cat and Racket",
+"img": "https://www.gutenberg.org/cache/epub/1680/pg1680.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1680.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Balzac",
+"c": "gutendex"
+},
+{
+"id": "23084",
+"t": "Lady Audley's Secret",
+"img": "https://www.gutenberg.org/cache/epub/23084/pg23084.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/23084/23084-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Braddon",
+"c": "gutendex"
+},
+{
+"id": "149",
+"t": "The Lost Continent",
+"img": "https://www.gutenberg.org/cache/epub/149/pg149.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/149.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "4276",
+"t": "North and South",
+"img": "https://www.gutenberg.org/cache/epub/4276/pg4276.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/4276.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Gaskell",
+"c": "gutendex"
+},
+{
+"id": "75948",
+"t": "The book of wonders : $b gives plain and simple answers to the thousands of everyday questions that are asked ",
+"img": "https://www.gutenberg.org/cache/epub/75948/pg75948.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75948.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "13701",
+"t": "The Philippine Islands, 1493-1898 — Volume 07 of 55: 1588-1591; Explorations by Early Navigators, Descriptions",
+"img": "https://www.gutenberg.org/cache/epub/13701/pg13701.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/13701.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "48296",
+"t": "Linnet: A Romance",
+"img": "https://www.gutenberg.org/cache/epub/48296/pg48296.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/48296.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Allen",
+"c": "gutendex"
+},
+{
+"id": "23042",
+"t": "The Tempest: The Works of William Shakespeare [Cambridge Edition] [9 vols.]",
+"img": "https://www.gutenberg.org/cache/epub/23042/pg23042.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23042.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Shakespeare",
+"c": "gutendex"
+},
+{
+"id": "2850",
+"t": "The Wars of the Jews; Or, The History of the Destruction of Jerusalem",
+"img": "https://www.gutenberg.org/cache/epub/2850/pg2850.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2850.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Josephus",
+"c": "gutendex"
+},
+{
+"id": "65903",
+"t": "Psychology of the Unconscious: A Study of the Transformations and Symbolisms of the Libido. A Contribution to ",
+"img": "https://www.gutenberg.org/cache/epub/65903/pg65903.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/65903.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Jung",
+"c": "gutendex"
+},
+{
+"id": "2781",
+"t": "Just so stories",
+"img": "https://www.gutenberg.org/cache/epub/2781/pg2781.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2781.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kipling",
+"c": "gutendex"
+},
+{
+"id": "30849",
+"t": "The Works of Robert Louis Stevenson - Swanston Edition, Vol. 20",
+"img": "https://www.gutenberg.org/cache/epub/30849/pg30849.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/30849.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Stevenson",
+"c": "gutendex"
+},
+{
+"id": "31543",
+"t": "A Concise Anglo-Saxon Dictionary: For the Use of Students",
+"img": "https://www.gutenberg.org/cache/epub/31543/pg31543.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/31543.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hall",
+"c": "gutendex"
+},
+{
+"id": "32759",
+"t": "Red Nails",
+"img": "https://www.gutenberg.org/cache/epub/32759/pg32759.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/32759.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Howard",
 "c": "gutendex"
 },
 {
@@ -3589,6 +5959,26 @@
 "kind": "link",
 "dur": 0,
 "by": "Epictetus",
+"c": "gutendex"
+},
+{
+"id": "48433",
+"t": "Kant's Critique of Judgement",
+"img": "https://www.gutenberg.org/cache/epub/48433/pg48433.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/48433.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Kant",
+"c": "gutendex"
+},
+{
+"id": "49987",
+"t": "Forest Days: A Romance of Old Times",
+"img": "https://www.gutenberg.org/cache/epub/49987/pg49987.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/49987.html.images",
+"kind": "link",
+"dur": 0,
+"by": "James",
 "c": "gutendex"
 },
 {
@@ -3809,6 +6199,16 @@
 "kind": "link",
 "dur": 0,
 "by": "Schopenhauer",
+"c": "gutendex"
+},
+{
+"id": "49322",
+"t": "The Skirts of the Great City",
+"img": "https://www.gutenberg.org/cache/epub/49322/pg49322.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/49322.html.images",
+"kind": "link",
+"dur": 0,
+"by": "D'Anvers",
 "c": "gutendex"
 },
 {
@@ -4162,6 +6562,326 @@
 "c": "gutendex"
 },
 {
+"id": "27587",
+"t": "A Victor of Salamis",
+"img": "https://www.gutenberg.org/cache/epub/27587/pg27587.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27587.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Davis",
+"c": "gutendex"
+},
+{
+"id": "22400",
+"t": "Fox's Book of Martyrs: Or A History of the Lives, Sufferings, and Triumphant; Deaths of the Primitive Protesta",
+"img": "https://www.gutenberg.org/cache/epub/22400/pg22400.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22400.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Foxe",
+"c": "gutendex"
+},
+{
+"id": "50290",
+"t": "Space Station 1",
+"img": "https://www.gutenberg.org/cache/epub/50290/pg50290.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50290.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Long",
+"c": "gutendex"
+},
+{
+"id": "76503",
+"t": "The man who mastered time",
+"img": "https://www.gutenberg.org/cache/epub/76503/pg76503.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76503.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cummings",
+"c": "gutendex"
+},
+{
+"id": "14264",
+"t": "The Practice and Science of Drawing",
+"img": "https://www.gutenberg.org/cache/epub/14264/pg14264.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14264.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Speed",
+"c": "gutendex"
+},
+{
+"id": "34856",
+"t": "My own story",
+"img": "https://www.gutenberg.org/cache/epub/34856/pg34856.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/34856.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Pankhurst",
+"c": "gutendex"
+},
+{
+"id": "19797",
+"t": "Dracula",
+"img": "https://www.gutenberg.org/cache/epub/19797/pg19797.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/19797/19797-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Stoker",
+"c": "gutendex"
+},
+{
+"id": "75011",
+"t": "All quiet on the Western Front",
+"img": "https://www.gutenberg.org/cache/epub/75011/pg75011.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75011.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Remarque",
+"c": "gutendex"
+},
+{
+"id": "8813",
+"t": "Complete Prose Works: Specimen Days and Collect, November Boughs and Goodbye My Fancy",
+"img": "https://www.gutenberg.org/cache/epub/8813/pg8813.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/8813.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Whitman",
+"c": "gutendex"
+},
+{
+"id": "398",
+"t": "The First Book of Adam and Eve",
+"img": "https://www.gutenberg.org/cache/epub/398/pg398.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/398.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Platt",
+"c": "gutendex"
+},
+{
+"id": "34206",
+"t": "The Thousand and One Nights, Vol. I.: Commonly Called the Arabian Nights' Entertainments",
+"img": "https://www.gutenberg.org/cache/epub/34206/pg34206.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/34206.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "76049",
+"t": "Dancing Devil range",
+"img": "https://www.gutenberg.org/cache/epub/76049/pg76049.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76049.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Tuttle",
+"c": "gutendex"
+},
+{
+"id": "21159",
+"t": "Sky Island",
+"img": "https://www.gutenberg.org/cache/epub/21159/pg21159.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/21159/21159-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Baum",
+"c": "gutendex"
+},
+{
+"id": "553",
+"t": "Out of Time's Abyss",
+"img": "https://www.gutenberg.org/cache/epub/553/pg553.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/553.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "22542",
+"t": "Jesus the Christ: A Study of the Messiah and His Mission According to Holy; Scriptures Both Ancient and Modern",
+"img": "https://www.gutenberg.org/cache/epub/22542/pg22542.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22542.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Talmage",
+"c": "gutendex"
+},
+{
+"id": "5700",
+"t": "Love and Life: An Old Story in Eighteenth Century Costume",
+"img": "https://www.gutenberg.org/cache/epub/5700/pg5700.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5700.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Yonge",
+"c": "gutendex"
+},
+{
+"id": "43855",
+"t": "Franklin's Way to Wealth; or, \"Poor Richard Improved\"",
+"img": "https://www.gutenberg.org/cache/epub/43855/pg43855.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/43855.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Franklin",
+"c": "gutendex"
+},
+{
+"id": "21163",
+"t": "The Emerald City of Oz",
+"img": "https://www.gutenberg.org/cache/epub/21163/pg21163.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/21163/21163-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Baum",
+"c": "gutendex"
+},
+{
+"id": "7205",
+"t": "Also sprach Zarathustra: Ein Buch für Alle und Keinen",
+"img": "https://www.gutenberg.org/cache/epub/7205/pg7205.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7205.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Nietzsche",
+"c": "gutendex"
+},
+{
+"id": "14314",
+"t": "Etiquette",
+"img": "https://www.gutenberg.org/cache/epub/14314/pg14314.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14314.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Post",
+"c": "gutendex"
+},
+{
+"id": "30691",
+"t": "Astounding Stories of Super-Science, December 1930",
+"img": "https://www.gutenberg.org/cache/epub/30691/pg30691.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/30691.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Various",
+"c": "gutendex"
+},
+{
+"id": "27805",
+"t": "The Wind in the Willows",
+"img": "https://www.gutenberg.org/cache/epub/27805/pg27805.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/27805.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Grahame",
+"c": "gutendex"
+},
+{
+"id": "76352",
+"t": "The world below",
+"img": "https://www.gutenberg.org/cache/epub/76352/pg76352.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76352.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wright",
+"c": "gutendex"
+},
+{
+"id": "14988",
+"t": "Cicero's Tusculan Disputations: Also, Treatises On The Nature Of The Gods, And On The Commonwealth",
+"img": "https://www.gutenberg.org/cache/epub/14988/pg14988.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14988.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cicero",
+"c": "gutendex"
+},
+{
+"id": "23079",
+"t": "Sonnets from the Portuguese",
+"img": "https://www.gutenberg.org/cache/epub/23079/pg23079.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/23079/23079-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Browning",
+"c": "gutendex"
+},
+{
+"id": "76360",
+"t": "Die Elixiere des Teufels : $b Nachgelassene Papiere des Bruders Medardus, eines Kapuziners",
+"img": "https://www.gutenberg.org/cache/epub/76360/pg76360.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76360.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hoffmann",
+"c": "gutendex"
+},
+{
+"id": "29391",
+"t": "Blue-grass and Broadway",
+"img": "https://www.gutenberg.org/cache/epub/29391/pg29391.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/29391.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Daviess",
+"c": "gutendex"
+},
+{
+"id": "33118",
+"t": "Just Around the Corner: Romance en casserole",
+"img": "https://www.gutenberg.org/cache/epub/33118/pg33118.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/33118.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Hurst",
+"c": "gutendex"
+},
+{
+"id": "47629",
+"t": "Ang \"Filibusterismo\" (Karugtóng ng Noli Me Tangere)",
+"img": "https://www.gutenberg.org/cache/epub/47629/pg47629.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/47629.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rizal",
+"c": "gutendex"
+},
+{
+"id": "67691",
+"t": "Pharmacographia: A history of the principal drugs of vegetable origin, met with in Great Britain and British I",
+"img": "https://www.gutenberg.org/cache/epub/67691/pg67691.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/67691.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Flückiger",
+"c": "gutendex"
+},
+{
+"id": "47",
+"t": "Anne of Avonlea",
+"img": "https://www.gutenberg.org/cache/epub/47/pg47.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/47.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Montgomery",
+"c": "gutendex"
+},
+{
+"id": "7178",
+"t": "Swann's Way",
+"img": "https://www.gutenberg.org/cache/epub/7178/pg7178.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/7178.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Proust",
+"c": "gutendex"
+},
+{
 "id": "20265",
 "t": "Anne of the Island",
 "img": "https://www.gutenberg.org/cache/epub/20265/pg20265.cover.medium.jpg",
@@ -4432,6 +7152,16 @@
 "c": "gutendex"
 },
 {
+"id": "50742",
+"t": "The Story of Beowulf, Translated from Anglo-Saxon into Modern English Prose",
+"img": "https://www.gutenberg.org/cache/epub/50742/pg50742.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50742.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
 "id": "50922",
 "t": "Perpetual Peace: A Philosophical Essay",
 "img": "https://www.gutenberg.org/cache/epub/50922/pg50922.cover.medium.jpg",
@@ -4479,6 +7209,346 @@
 "kind": "link",
 "dur": 0,
 "by": "Webster",
+"c": "gutendex"
+},
+{
+"id": "17199",
+"t": "Golden Days for Boys and Girls, Vol. XII, Jan. 3, 1891",
+"img": "https://www.gutenberg.org/cache/epub/17199/pg17199.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/17199.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Various",
+"c": "gutendex"
+},
+{
+"id": "24375",
+"t": "Wizard",
+"img": "https://www.gutenberg.org/cache/epub/24375/pg24375.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/24375.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Janifer",
+"c": "gutendex"
+},
+{
+"id": "61963",
+"t": "We",
+"img": "https://www.gutenberg.org/cache/epub/61963/pg61963.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/61963.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Zamiatin",
+"c": "gutendex"
+},
+{
+"id": "21279",
+"t": "2 B R 0 2 B",
+"img": "https://www.gutenberg.org/cache/epub/21279/pg21279.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21279.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Vonnegut",
+"c": "gutendex"
+},
+{
+"id": "77097",
+"t": "The magic ring, Vol. 1 (of 3)",
+"img": "https://www.gutenberg.org/cache/epub/77097/pg77097.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/77097.html.images",
+"kind": "link",
+"dur": 0,
+"by": "La Motte-Fouqué",
+"c": "gutendex"
+},
+{
+"id": "47001",
+"t": "De Officiis",
+"img": "https://www.gutenberg.org/cache/epub/47001/pg47001.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/47001.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cicero",
+"c": "gutendex"
+},
+{
+"id": "76418",
+"t": "The tomb of Ts'in",
+"img": "https://www.gutenberg.org/cache/epub/76418/pg76418.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76418.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Wallace",
+"c": "gutendex"
+},
+{
+"id": "50603",
+"t": "Minute Mysteries [Detectograms]",
+"img": "https://www.gutenberg.org/cache/epub/50603/pg50603.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50603.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ripley",
+"c": "gutendex"
+},
+{
+"id": "49965",
+"t": "Dao De Jing: A Minimalist Translation",
+"img": "https://www.gutenberg.org/cache/epub/49965/pg49965.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/49965.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Laozi",
+"c": "gutendex"
+},
+{
+"id": "54824",
+"t": "The Secret Doctrine, Vol. 1 of 4: The Synthesis of Science, Religion, and Philosophy",
+"img": "https://www.gutenberg.org/cache/epub/54824/pg54824.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/54824.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Blavatsky",
+"c": "gutendex"
+},
+{
+"id": "39423",
+"t": "The Manual of the Botany of the Northern United States: Including the District East of the Mississippi and Nor",
+"img": "https://www.gutenberg.org/cache/epub/39423/pg39423.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/39423.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Gray",
+"c": "gutendex"
+},
+{
+"id": "75790",
+"t": "Cursed be the treasure",
+"img": "https://www.gutenberg.org/cache/epub/75790/pg75790.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75790.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Drake",
+"c": "gutendex"
+},
+{
+"id": "76131",
+"t": "The mark of the monster",
+"img": "https://www.gutenberg.org/cache/epub/76131/pg76131.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76131.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Williamson",
+"c": "gutendex"
+},
+{
+"id": "14033",
+"t": "Plutarch's Lives, Volume 1 (of 4)",
+"img": "https://www.gutenberg.org/cache/epub/14033/pg14033.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14033.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Plutarch",
+"c": "gutendex"
+},
+{
+"id": "23712",
+"t": "Tarzan of the Apes",
+"img": "https://www.gutenberg.org/cache/epub/23712/pg23712.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/23712/23712-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Burroughs",
+"c": "gutendex"
+},
+{
+"id": "76116",
+"t": "The blue scarab",
+"img": "https://www.gutenberg.org/cache/epub/76116/pg76116.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76116.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Freeman",
+"c": "gutendex"
+},
+{
+"id": "76222",
+"t": "The valley of eyes unseen",
+"img": "https://www.gutenberg.org/cache/epub/76222/pg76222.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76222.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Collins",
+"c": "gutendex"
+},
+{
+"id": "20796",
+"t": "The Colors of Space",
+"img": "https://www.gutenberg.org/cache/epub/20796/pg20796.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/20796.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bradley",
+"c": "gutendex"
+},
+{
+"id": "52160",
+"t": "A Short History of Freethought Ancient and Modern, Volume 2 of 2: Third edition, Revised and Expanded, in two ",
+"img": "https://www.gutenberg.org/cache/epub/52160/pg52160.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/52160.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Robertson",
+"c": "gutendex"
+},
+{
+"id": "76059",
+"t": "The thing in the woods",
+"img": "https://www.gutenberg.org/cache/epub/76059/pg76059.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76059.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Williams",
+"c": "gutendex"
+},
+{
+"id": "23950",
+"t": "三國志演義",
+"img": "https://www.gutenberg.org/cache/epub/23950/pg23950.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23950.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Luo",
+"c": "gutendex"
+},
+{
+"id": "45001",
+"t": "Institutes of the Christian Religion (Vol. 1 of 2)",
+"img": "https://www.gutenberg.org/cache/epub/45001/pg45001.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/45001.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Calvin",
+"c": "gutendex"
+},
+{
+"id": "76871",
+"t": "The magnificent possession",
+"img": "https://www.gutenberg.org/cache/epub/76871/pg76871.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76871.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Asimov",
+"c": "gutendex"
+},
+{
+"id": "42243",
+"t": "The Hour of the Dragon",
+"img": "https://www.gutenberg.org/cache/epub/42243/pg42243.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/42243.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Howard",
+"c": "gutendex"
+},
+{
+"id": "14860",
+"t": "The Journal of Sir Walter Scott: From the Original Manuscript at Abbotsford",
+"img": "https://www.gutenberg.org/cache/epub/14860/pg14860.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/14860.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Scott",
+"c": "gutendex"
+},
+{
+"id": "201",
+"t": "Flatland: A Romance of Many Dimensions",
+"img": "https://www.gutenberg.org/cache/epub/201/pg201.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/201.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Abbott",
+"c": "gutendex"
+},
+{
+"id": "59112",
+"t": "R.U.R. (Rossum's Universal Robots): A Fantastic Melodrama in Three Acts and an Epilogue",
+"img": "https://www.gutenberg.org/cache/epub/59112/pg59112.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/59112.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Čapek",
+"c": "gutendex"
+},
+{
+"id": "75967",
+"t": "Dr. Mabuse, master of mystery : $b a novel",
+"img": "https://www.gutenberg.org/cache/epub/75967/pg75967.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/75967.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Jacques",
+"c": "gutendex"
+},
+{
+"id": "18500",
+"t": "The Complete Works of Robert Burns: Containing his Poems, Songs, and Correspondence.: With a New Life of the P",
+"img": "https://www.gutenberg.org/cache/epub/18500/pg18500.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/18500.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Burns",
+"c": "gutendex"
+},
+{
+"id": "76540",
+"t": "Les Mémoires d'un Parapluie",
+"img": "https://www.gutenberg.org/cache/epub/76540/pg76540.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76540.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Houdetot",
+"c": "gutendex"
+},
+{
+"id": "26151",
+"t": "The Tapestry Book",
+"img": "https://www.gutenberg.org/cache/epub/26151/pg26151.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/26151.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Candee",
+"c": "gutendex"
+},
+{
+"id": "26469",
+"t": "Rainbow Valley",
+"img": "https://www.gutenberg.org/cache/epub/26469/pg26469.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26469/26469_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Montgomery",
+"c": "gutendex"
+},
+{
+"id": "26291",
+"t": "The War of the Worlds",
+"img": "https://www.gutenberg.org/cache/epub/26291/pg26291.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26291/26291-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Wells",
+"c": "gutendex"
+},
+{
+"id": "76857",
+"t": "I, Mars",
+"img": "https://www.gutenberg.org/cache/epub/76857/pg76857.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76857.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Bradbury",
 "c": "gutendex"
 },
 {
@@ -4559,6 +7629,16 @@
 "kind": "link",
 "dur": 0,
 "by": "Chaucer",
+"c": "gutendex"
+},
+{
+"id": "48991",
+"t": "Leyte: The Return to the Philippines",
+"img": "https://www.gutenberg.org/cache/epub/48991/pg48991.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/48991.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cannon",
 "c": "gutendex"
 },
 {
@@ -5062,16 +8142,6 @@
 "c": "gutendex"
 },
 {
-"id": "49965",
-"t": "Dao De Jing: A Minimalist Translation",
-"img": "https://www.gutenberg.org/cache/epub/49965/pg49965.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/49965.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Laozi",
-"c": "gutendex"
-},
-{
 "id": "75858",
 "t": "The strange countess",
 "img": "https://www.gutenberg.org/cache/epub/75858/pg75858.cover.medium.jpg",
@@ -5269,16 +8339,6 @@
 "kind": "link",
 "dur": 0,
 "by": "Poe",
-"c": "gutendex"
-},
-{
-"id": "48433",
-"t": "Kant's Critique of Judgement",
-"img": "https://www.gutenberg.org/cache/epub/48433/pg48433.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/48433.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Kant",
 "c": "gutendex"
 },
 {
@@ -5762,6 +8822,16 @@
 "c": "gutendex"
 },
 {
+"id": "50657",
+"t": "The Satires of Juvenal, Persius, Sulpicia, and Lucilius: Literally translated into English prose, with notes, ",
+"img": "https://www.gutenberg.org/cache/epub/50657/pg50657.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/50657.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Juvenal",
+"c": "gutendex"
+},
+{
 "id": "77099",
 "t": "The magic ring, Vol. 3 (of 3)",
 "img": "https://www.gutenberg.org/cache/epub/77099/pg77099.cover.medium.jpg",
@@ -5882,193 +8952,213 @@
 "c": "gutendex"
 },
 {
-"id": "28556",
-"t": "History of Woman Suffrage, Volume III",
-"img": "https://www.gutenberg.org/cache/epub/28556/pg28556.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/28556.html.images",
+"id": "76501",
+"t": "Ruhtinatar Aurore : $b (»Königsmark»)",
+"img": "https://www.gutenberg.org/cache/epub/76501/pg76501.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76501.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Benoît",
+"c": "gutendex"
+},
+{
+"id": "55300",
+"t": "Society as I Have Found It",
+"img": "https://www.gutenberg.org/cache/epub/55300/pg55300.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/55300.html.images",
+"kind": "link",
+"dur": 0,
+"by": "McAllister",
+"c": "gutendex"
+},
+{
+"id": "76140",
+"t": "L'esca del pecat",
+"img": "https://www.gutenberg.org/cache/epub/76140/pg76140.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76140.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Figuerola Aldroféu",
+"c": "gutendex"
+},
+{
+"id": "10732",
+"t": "The Essays of Arthur Schopenhauer; Studies in Pessimism",
+"img": "https://www.gutenberg.org/cache/epub/10732/pg10732.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10732.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Schopenhauer",
+"c": "gutendex"
+},
+{
+"id": "19786",
+"t": "De Koran: Voorafgegaan door het leven van Mahomed, eene inleiding; omtrent de Godsdienstgebruiken der Mahomeda",
+"img": "https://www.gutenberg.org/cache/epub/19786/pg19786.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19786.html.images",
 "kind": "link",
 "dur": 0,
 "by": "",
 "c": "gutendex"
 },
 {
-"id": "2776",
-"t": "The Four Million",
-"img": "https://www.gutenberg.org/cache/epub/2776/pg2776.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/2776.html.images",
+"id": "1726",
+"t": "Theaetetus",
+"img": "https://www.gutenberg.org/cache/epub/1726/pg1726.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/1726.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Henry",
+"by": "Plato",
 "c": "gutendex"
 },
 {
-"id": "25001",
-"t": "An Old Man's Love",
-"img": "https://www.gutenberg.org/cache/epub/25001/pg25001.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/25001.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Trollope",
-"c": "gutendex"
-},
-{
-"id": "25335",
-"t": "Robert Burns. Vol. 1, La Vie",
-"img": "https://www.gutenberg.org/cache/epub/25335/pg25335.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/25335.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Angellier",
-"c": "gutendex"
-},
-{
-"id": "76381",
-"t": "Ei niin salattua, ettei ilmi tulisi : $b Tositapahtumiin perustuva kertomus",
-"img": "https://www.gutenberg.org/cache/epub/76381/pg76381.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76381.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Anonymous",
-"c": "gutendex"
-},
-{
-"id": "76724",
-"t": "La chasse au météore",
-"img": "https://www.gutenberg.org/cache/epub/76724/pg76724.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76724.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Verne",
-"c": "gutendex"
-},
-{
-"id": "76621",
-"t": "Sergeant Dick of the Royal Mounted Police : $b A thrilling story of the Canadian woods",
-"img": "https://www.gutenberg.org/cache/epub/76621/pg76621.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76621.html.images",
-"kind": "link",
-"dur": 0,
-"by": "Rowe",
-"c": "gutendex"
-},
-{
-"id": "76796",
-"t": "A silent witness",
-"img": "https://www.gutenberg.org/cache/epub/76796/pg76796.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76796.html.images",
+"id": "76919",
+"t": "The magic casket",
+"img": "https://www.gutenberg.org/cache/epub/76919/pg76919.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76919.html.images",
 "kind": "link",
 "dur": 0,
 "by": "Freeman",
 "c": "gutendex"
 },
 {
-"id": "42196",
-"t": "Shadows in Zamboula",
-"img": "https://www.gutenberg.org/cache/epub/42196/pg42196.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/42196.html.images",
+"id": "40580",
+"t": "A general history of the pyrates : $b from their first rise and settlement in the island of Providence, to the",
+"img": "https://www.gutenberg.org/cache/epub/40580/pg40580.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/40580.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Howard",
+"by": "Johnson",
 "c": "gutendex"
 },
 {
-"id": "32398",
-"t": "Brood of the Dark Moon: (A Sequel to \"Dark Moon\")",
-"img": "https://www.gutenberg.org/cache/epub/32398/pg32398.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/32398.html.images",
+"id": "19707",
+"t": "One Wonderful Night: A Romance of New York",
+"img": "https://www.gutenberg.org/cache/epub/19707/pg19707.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/19707.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Diffin",
+"by": "Tracy",
 "c": "gutendex"
 },
 {
-"id": "77098",
-"t": "The magic ring, Vol. 2 (of 3)",
-"img": "https://www.gutenberg.org/cache/epub/77098/pg77098.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/77098.html.images",
+"id": "26468",
+"t": "The Middle Temple Murder",
+"img": "https://www.gutenberg.org/cache/epub/26468/pg26468.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26468/26468_index.html",
 "kind": "link",
 "dur": 0,
-"by": "La Motte-Fouqué",
+"by": "Fletcher",
 "c": "gutendex"
 },
 {
-"id": "7895",
-"t": "A Terrible Temptation: A Story of To-Day",
-"img": "https://www.gutenberg.org/cache/epub/7895/pg7895.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/7895.html.images",
+"id": "77056",
+"t": "The dream detective",
+"img": "https://www.gutenberg.org/cache/epub/77056/pg77056.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/77056.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Reade",
+"by": "Rohmer",
 "c": "gutendex"
 },
 {
-"id": "21153",
-"t": "On the Origin of Species by Means of Natural Selection",
-"img": "https://www.gutenberg.org/cache/epub/21153/pg21153.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/files/21153/21153-index.html",
+"id": "21076",
+"t": "The First Six Books of the Elements of Euclid",
+"img": "https://www.gutenberg.org/cache/epub/21076/pg21076.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21076.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Darwin",
+"by": "Euclid",
 "c": "gutendex"
 },
 {
-"id": "76677",
-"t": "The girl from Scotland Yard",
-"img": "https://www.gutenberg.org/cache/epub/76677/pg76677.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76677.html.images",
+"id": "445",
+"t": "The crowd : $b A study of the popular mind",
+"img": "https://www.gutenberg.org/cache/epub/445/pg445.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/445.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Wallace",
+"by": "Le Bon",
 "c": "gutendex"
 },
 {
-"id": "9334",
-"t": "The Spectator, Volume 1: Eighteenth-Century Periodical Essays",
-"img": "https://www.gutenberg.org/cache/epub/9334/pg9334.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/9334.html.images",
+"id": "54488",
+"t": "The Secret Doctrine, Vol. 2 of 4: The Synthesis of Science, Religion, and Philosophy",
+"img": "https://www.gutenberg.org/cache/epub/54488/pg54488.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/54488.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Steele",
+"by": "Blavatsky",
 "c": "gutendex"
 },
 {
-"id": "76764",
-"t": "Landscape with figures",
-"img": "https://www.gutenberg.org/cache/epub/76764/pg76764.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/76764.html.images",
+"id": "76659",
+"t": "The seventh shot : $b A detective story",
+"img": "https://www.gutenberg.org/cache/epub/76659/pg76659.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76659.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Fraser",
+"by": "Landon",
 "c": "gutendex"
 },
 {
-"id": "38674",
-"t": "De la terre à la lune, trajet direct en 97 heures 20 minutes",
-"img": "https://www.gutenberg.org/cache/epub/38674/pg38674.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/38674.html.images",
+"id": "935",
+"t": "Self Help; with Illustrations of Conduct and Perseverance",
+"img": "https://www.gutenberg.org/cache/epub/935/pg935.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/935.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Verne",
+"by": "Smiles",
 "c": "gutendex"
 },
 {
-"id": "23708",
-"t": "The Burgess Animal Book for Children",
-"img": "https://www.gutenberg.org/cache/epub/23708/pg23708.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/files/23708/23708-index.html",
+"id": "550",
+"t": "Silas Marner",
+"img": "https://www.gutenberg.org/cache/epub/550/pg550.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/550.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Burgess",
+"by": "Eliot",
 "c": "gutendex"
 },
 {
-"id": "75789",
-"t": "Markiisittaren rikos",
-"img": "https://www.gutenberg.org/cache/epub/75789/pg75789.cover.medium.jpg",
-"emb": "https://www.gutenberg.org/ebooks/75789.html.images",
+"id": "22049",
+"t": "A Literary History of the English People, from the Origins to the Renaissance",
+"img": "https://www.gutenberg.org/cache/epub/22049/pg22049.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/22049.html.images",
 "kind": "link",
 "dur": 0,
-"by": "Hoffmann",
+"by": "Jusserand",
+"c": "gutendex"
+},
+{
+"id": "10136",
+"t": "The Book of Household Management",
+"img": "https://www.gutenberg.org/cache/epub/10136/pg10136.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/10136.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Beeton",
+"c": "gutendex"
+},
+{
+"id": "46440",
+"t": "A Journal of the First Voyage of  Vasco da Gama 1497-1499",
+"img": "https://www.gutenberg.org/cache/epub/46440/pg46440.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/46440.html.images",
+"kind": "link",
+"dur": 0,
+"by": "",
+"c": "gutendex"
+},
+{
+"id": "76543",
+"t": "Tuhatvuotinen valtakunta : $b Nelinäytöksinen näytelmä Upton Sinclairin romaanin mukaan",
+"img": "https://www.gutenberg.org/cache/epub/76543/pg76543.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/76543.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Sinclair",
 "c": "gutendex"
 },
 {
@@ -6389,6 +9479,116 @@
 "kind": "link",
 "dur": 0,
 "by": "Hyde",
+"c": "gutendex"
+},
+{
+"id": "5946",
+"t": "The History of Don Quixote, Volume 2, Complete",
+"img": "https://www.gutenberg.org/cache/epub/5946/pg5946.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5946.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Cervantes Saavedra",
+"c": "gutendex"
+},
+{
+"id": "20973",
+"t": "Le tour du monde en quatre-vingts jours",
+"img": "https://www.gutenberg.org/cache/epub/20973/pg20973.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/20973/20973-index.html",
+"kind": "link",
+"dur": 0,
+"by": "Verne",
+"c": "gutendex"
+},
+{
+"id": "21415",
+"t": "The Young Visiters or, Mr. Salteena's Plan",
+"img": "https://www.gutenberg.org/cache/epub/21415/pg21415.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/21415.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Ashford",
+"c": "gutendex"
+},
+{
+"id": "23354",
+"t": "Vegetable Teratology: An Account of the Principal Deviations from the Usual Construction of Plants",
+"img": "https://www.gutenberg.org/cache/epub/23354/pg23354.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/23354.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Masters",
+"c": "gutendex"
+},
+{
+"id": "2895",
+"t": "Following the Equator: A Journey Around the World",
+"img": "https://www.gutenberg.org/cache/epub/2895/pg2895.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/2895.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Twain",
+"c": "gutendex"
+},
+{
+"id": "77073",
+"t": "Die Flucht der Beate Hoyermann : $b Roman",
+"img": "https://www.gutenberg.org/cache/epub/77073/pg77073.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/77073.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Harbou",
+"c": "gutendex"
+},
+{
+"id": "47221",
+"t": "Quintus Claudius: A Romance of Imperial Rome. Volume 1",
+"img": "https://www.gutenberg.org/cache/epub/47221/pg47221.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/47221.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Eckstein",
+"c": "gutendex"
+},
+{
+"id": "5427",
+"t": "Emile",
+"img": "https://www.gutenberg.org/cache/epub/5427/pg5427.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/5427.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rousseau",
+"c": "gutendex"
+},
+{
+"id": "41232",
+"t": "Hungry Hearts",
+"img": "https://www.gutenberg.org/cache/epub/41232/pg41232.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/41232.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Yezierska",
+"c": "gutendex"
+},
+{
+"id": "26583",
+"t": "The Fortunes and Misfortunes of the Famous Moll Flanders",
+"img": "https://www.gutenberg.org/cache/epub/26583/pg26583.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/files/26583/26583_index.html",
+"kind": "link",
+"dur": 0,
+"by": "Defoe",
+"c": "gutendex"
+},
+{
+"id": "77001",
+"t": "Moon of madness",
+"img": "https://www.gutenberg.org/cache/epub/77001/pg77001.cover.medium.jpg",
+"emb": "https://www.gutenberg.org/ebooks/77001.html.images",
+"kind": "link",
+"dur": 0,
+"by": "Rohmer",
 "c": "gutendex"
 }
 ]
