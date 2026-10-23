@@ -1,0 +1,38 @@
+nohup: ignoring input
+══ لوحة التحكم جاهزة ══
+http://127.0.0.1:8790/?t=LzPLf8Wmy22kZ7y9oz1ntVGi
+توكن: LzPLf8Wmy22kZ7y9oz1ntVGi
+
+node:internal/process/promises:324
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+[TypeError: fetch failed] {
+  [cause]: InformationalError: HTTP/2: "GOAWAY" frame received with code 0
+      at getGoAwayError (node:internal/deps/undici/undici:8657:67)
+      at ClientHttp2Session.onHttp2SessionGoAway (node:internal/deps/undici/undici:9076:19)
+      at ClientHttp2Session.emit (node:events:514:20)
+      at Http2Session.onGoawayData (node:internal/http2/core:769:11) {
+    code: 'UND_ERR_INFO'
+  }
+}
+
+Node.js v26.12.1
+══ لوحة التحكم جاهزة ══
+http://127.0.0.1:8790/?t=LzPLf8Wmy22kZ7y9oz1ntVGi
+توكن: LzPLf8Wmy22kZ7y9oz1ntVGi
+
+node:internal/process/promises:324
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+[TypeError: fetch failed] {
+  [cause]: ConnectTimeoutError: Connect Timeout Error (attempted address: github.com:443, timeout: 10000ms)
+      at onConnectTimeout (node:internal/deps/undici/undici:2532:23)
+      at Immediate._onImmediate (node:internal/deps/undici/undici:2513:11)
+      at process.processImmediate (node:internal/timers:574:21) {
+    code: 'UND_ERR_CONNECT_TIMEOUT'
+  }
+}
+
+Node.js v26.12.1

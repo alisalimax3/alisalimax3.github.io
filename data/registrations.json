@@ -1,0 +1,128 @@
+{
+  "adsterra": {
+    "name": "Adsterra",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 03:12:47"
+  },
+  "exoclick": {
+    "name": "ExoClick",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 03:14:40"
+  },
+  "juicyads": {
+    "name": "JuicyAds",
+    "status": "error",
+    "key": "",
+    "note": "TypeError: Cannot read properties of undefined (reading 'scan')\n    at <anonymous>:1:13",
+    "at": "2026-10-19 03:24:36"
+  },
+  "crakrevenue": {
+    "name": "CrakRevenue",
+    "status": "error",
+    "key": "",
+    "note": "TypeError: Cannot read properties of undefined (reading 'captcha')\n    at <anonymous>:1:13",
+    "at": "2026-10-19 03:26:49"
+  },
+  "aads": {
+    "name": "A-ADS",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:25:33"
+  },
+  "monetag": {
+    "name": "Monetag",
+    "status": "registered",
+    "key": "2026",
+    "note": "",
+    "at": "2026-10-19 05:13:24"
+  },
+  "popads": {
+    "name": "PopAds",
+    "status": "registered",
+    "key": "2010",
+    "note": "",
+    "at": "2026-10-19 05:21:31"
+  },
+  "clickadu": {
+    "name": "Clickadu",
+    "status": "registered",
+    "key": "https://pub.clickadu.com/auth/login",
+    "note": "",
+    "at": "2026-10-19 05:26:16"
+  },
+  "adultadworld": {
+    "name": "AdultAdWorld",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:21:06"
+  },
+  "trafficshop": {
+    "name": "TrafficShop",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:22:01"
+  },
+  "exogroup": {
+    "name": "ExoGroup",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:22:45"
+  },
+  "clickaine": {
+    "name": "Clickaine",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:23:26"
+  },
+  "eroadvertising": {
+    "name": "EroAdvertising",
+    "status": "registered",
+    "key": "https://www.eroadvertising.com/#content",
+    "note": "",
+    "at": "2026-10-19 05:25:46"
+  },
+  "adspyglass": {
+    "name": "AdSpyglass",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:26:41"
+  },
+  "popcash": {
+    "name": "PopCash",
+    "status": "registered",
+    "key": "https://popcash.net/",
+    "note": "",
+    "at": "2026-10-19 05:26:55"
+  },
+  "admaven": {
+    "name": "AdMaven",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:27:13"
+  },
+  "evadav": {
+    "name": "Evadav",
+    "status": "nav_failed",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:27:35"
+  },
+  "pinkads": {
+    "name": "PinkAds",
+    "status": "pending_key",
+    "key": "",
+    "note": "",
+    "at": "2026-10-19 05:28:04"
+  }
+}

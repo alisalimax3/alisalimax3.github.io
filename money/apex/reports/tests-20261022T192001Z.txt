@@ -1,0 +1,15 @@
+PASS crypto سليم
+PASS keccak متجه
+PASS 2G متجه معروف
+PASS ECDSA توقيع+تحقق
+PASS ECDSA استرجاع
+PASS signTx موقّع صحيح
+FAIL settle موقّع صحيح
+PASS المحفظة مشتقة
+PASS البريد الحقيقي
+PASS قناة الأحداث
+PASS الدفتر سليم
+PASS رصيد الدفتر موجب
+PASS q-db يحمّل
+PASS async سليم
+PASS keys.env 600

@@ -293,16 +293,16 @@ push_all "unblack: kill stale sw + safe network-first sw2 + guard + reset [$V]"
 info "انتظار 80 ثانية..."
 sleep 80
 for f in killsw.js boot.js sw2.js reset.html index.html; do
-  c="$(curl -s -o /tmp/_u -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/$f?v=$V")"
+  c="$(curl -s -o /tmp/_u -w '%{http_code}' "https://alisalimax3.github.io/$f?v=$V")"
   if [ "$c" = "200" ]; then
     if [ "$f" = "killsw.js" ]; then
       grep -q "$V" /tmp/_u && ok "$f → 200 ومحمّل بالإصدار الجديد" || bad "$f → 200 لكن الإصدار قديم"
     else ok "$f → 200"; fi
   else bad "$f → $c"; fi
 done
-curl -s "https://alkazmybwhwr-dot.github.io/index.html?v=$V" | grep -q "killsw.js?v=$V" \
+curl -s "https://alisalimax3.github.io/index.html?v=$V" | grep -q "killsw.js?v=$V" \
   && ok "الصفحة الرئيسية تحمل الكاسر" || bad "الصفحة الرئيسية بلا كاسر"
 echo
 ok "الإصدار: $V"
-info "افتح الآن: https://alkazmybwhwr-dot.github.io/?fresh=1"
-info "وإن بقيت أي سوداء عندك: https://alkazmybwhwr-dot.github.io/reset.html"
+info "افتح الآن: https://alisalimax3.github.io/?fresh=1"
+info "وإن بقيت أي سوداء عندك: https://alisalimax3.github.io/reset.html"

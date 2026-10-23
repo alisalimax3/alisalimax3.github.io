@@ -1,22 +1,38 @@
 #!/usr/bin/env python3
-import json,os,time
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-def rd(p,d):
-    try: return json.load(open(p,encoding="utf-8"))
-    except Exception: return d
-led=rd("ledger.json",[])
-if isinstance(led,dict):
-    for k in ("entries","events","log","items","ledger"):
-        if isinstance(led.get(k),list): led=led[k]; break
-    else: led=[]
-if not isinstance(led,list): led=[]
-led=[e for e in led if isinstance(e,dict)]
-by={}
-for e in led:
-    try: by[e.get("src","?")]=round(by.get(e.get("src","?"),0)+float(e.get("amount",0)),6)
-    except Exception: pass
-bal=round(sum(by.values()),6)
-json.dump({"balance":bal,"points":int(round(bal*100)),"by_source":by,"events":len(led),
- "currency":"USD","updated":int(time.time()),"human":time.strftime("%Y-%m-%d %H:%M")},
- open("wallet.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
-print("المحفظة: $%.4f | %d حدث"%(bal,len(led)))
+# -*- coding: utf-8 -*-
+import sys, os, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core
+from registry import by_id
+L = core.DATA / "ledger.json"
+
+def _d():
+    d = core.load(L, {"entries": []})
+    if not isinstance(d, dict): d = {}
+    d.setdefault("entries", [])
+    if not isinstance(d["entries"], list): d["entries"] = []
+    return d
+
+def add(site, amount, kind="earning", currency="USD", note=""):
+    d = _d()
+    d["entries"].append({"site":site,"amount":float(amount),"kind":kind,
+                         "currency":currency,"note":note,"at":time.strftime("%Y-%m-%d %H:%M:%S")})
+    core.save(L, d); core.log("%s: %s = %s %s" % ("ربح" if kind=="earning" else "سحب", site, amount, currency), "ok")
+
+def balances():
+    b = {}
+    for e in _d()["entries"]:
+        b[e["site"]] = b.get(e["site"], 0.0) + (e["amount"] if e["kind"]=="earning" else -abs(e["amount"]))
+    return b
+
+def total(): return round(sum(balances().values()), 2)
+
+def report():
+    b = balances()
+    if not b: core.log("لا أرباح مسجّلة","warn"); return
+    print("\n%-22s %10s %8s  %s" % ("المصدر","الرصيد","الحد","الحالة")); print("-"*58)
+    for s,v in sorted(b.items(), key=lambda x:-x[1]):
+        try: mn = by_id(s)["payout_min"]
+        except Exception: mn = 0
+        print("%-22s %10s %8s  %s" % (s, "$%.2f"%v, "$%g"%mn, "✓ جاهز" if v>=mn else "ينقص $%.2f"%(mn-v)))
+    print("-"*58); print("%-22s %10s" % ("الإجمالي","$%.2f"%total()))

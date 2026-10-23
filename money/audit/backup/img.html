@@ -1,0 +1,75 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية">
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>رابط صورة يدفع · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.8 system-ui,Tahoma;padding:14px}.wrap{max-width:760px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:14px;margin:11px 0}
+input{width:100%;background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:9px;padding:10px;direction:ltr}
+img{max-width:100%;border-radius:12px;display:block;margin:10px auto}
+button{background:#22c55e;color:#04121a;border:0;border-radius:9px;padding:10px 16px;font-weight:800;cursor:pointer;margin-top:8px}
+.l{color:#8aa0bd;font-size:12.5px}code{background:#0d1424;padding:2px 6px;border-radius:6px;direction:ltr;display:inline-block;font-size:11px}
+</style>
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body><div class="wrap">
+<h1>انشر رابط صورة — وكل مشاهدة ترفع رصيدك</h1>
+<div class="l">الصق رابط أي صورة عندك (أو من موقعك)، وسنولّد لك رابطًا محميًا بإعلانات وعدّاد. شاركه في واتساب/تيليجرام/فيسبوك.</div>
+<div class="card"><input id="u" placeholder="https://..." oninput="build()">
+<input id="t" placeholder="عنوان الصورة" oninput="build()" style="margin-top:8px">
+<div class="l" style="margin-top:8px">رابطك للمشاركة:</div><code id="link">—</code>
+<button onclick="navigator.clipboard.writeText(document.getElementById('link').textContent);this.textContent='✓ نُسخ'">نسخ الرابط</button>
+<button onclick="window.open(document.getElementById('link').textContent,'_blank')" style="background:#4dd0e1">معاينة</button></div>
+<div class="card" id="prev" style="display:none"></div>
+<div class="card"><h3>رصيدك من الصور</h3><div id="mine" class="l">—</div></div>
+</div><script src="/ledger.js"></script>
+<script>
+function p(){return new URLSearchParams(location.search)}
+function build(){
+ var u=document.getElementById('u').value.trim(),t=document.getElementById('t').value.trim();
+ if(!u){document.getElementById('link').textContent='—';return}
+ document.getElementById('link').textContent=location.origin+'/img.html?u='+encodeURIComponent(u)+(t?'&t='+encodeURIComponent(t):'');
+ document.getElementById('prev').style.display='block';
+ document.getElementById('prev').innerHTML='<img src="'+u+'" alt="" onerror="this.style.display=\'none\'">';
+}
+(function(){
+ var q=p(),u=q.get('u');
+ if(u){document.getElementById('u').value=u;document.getElementById('t').value=q.get('t')||'';build();
+  if(window.CHLedger)CHLedger.bonus(0.0005,'img_view');
+  if(window.CHBeacon)CHBeacon.hit('img_views');
+  document.title=(q.get('t')||'صورة')+' · CineHub 3099';
+  var n=+(localStorage.getItem('ch_img_v')||0)+1;localStorage.setItem('ch_img_v',n);
+  document.getElementById('mine').innerHTML='مشاهداتك لهذه الجلسة: <b>'+n+'</b> · رصيدك: <b>$'+(CHLedger?CHLedger.balance().toFixed(4):'0')+'</b>';
+ } else { document.getElementById('mine').innerHTML='شارك أي رابط صورة — كل مشاهدة = $0.0005 لرصيدك.'; }
+})();
+</script><script src="/ads.js" defer></script><script src="/owner.js" defer></script><script src="/authtoken.js" defer></script>
+<script src="/cloud.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

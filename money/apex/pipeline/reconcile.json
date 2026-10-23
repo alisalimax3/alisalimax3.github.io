@@ -1,0 +1,11 @@
+{
+ "ts": "2026-10-22T19:20:40.930Z",
+ "internal_wallet": 72.5,
+ "onchain_stable": 0,
+ "psp_statement": 0,
+ "match": false,
+ "status": "فرق يحتاج مراجعة",
+ "ledger_ok": true,
+ "settle_tx": "0x2b17ef55a8d71cb9691bdd704c70108bff87ae21fc8e5efbab9a8fc279f83ca0",
+ "broadcast": false
+}

@@ -1,0 +1,94 @@
+{"at":"2026-10-22T17:58:42.156Z","event":"registry","data":{"total":9763}}
+{"at":"2026-10-22T17:58:53.740Z","event":"stage","data":{"id":"svc-adsterra","from":"new","to":"resolved","note":"https://adsterra.com/publishers/"}}
+{"at":"2026-10-22T17:58:57.647Z","event":"stage","data":{"id":"svc-monetag","from":"new","to":"resolved","note":"https://monetag.com/publisher-referral-program/"}}
+{"at":"2026-10-22T17:59:01.281Z","event":"human","data":{"id":"svc-exoclick","why":"identity"}}
+{"at":"2026-10-22T17:59:01.649Z","event":"stage","data":{"id":"svc-exoclick","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-22T17:59:09.139Z","event":"stage","data":{"id":"svc-evadav","from":"new","to":"resolved","note":"https://evadav.com/publisher"}}
+{"at":"2026-10-22T17:59:13.303Z","event":"stage","data":{"id":"svc-juicyads","from":"new","to":"resolved","note":"https://www.juicyads.com/publishers/"}}
+{"at":"2026-10-22T17:59:19.258Z","event":"stage","data":{"id":"svc-lospollos","from":"new","to":"resolved","note":"https://www.lospollos.com/signup"}}
+{"at":"2026-10-22T17:59:22.876Z","event":"stage","data":{"id":"svc-trafficjunky","from":"new","to":"resolved","note":"https://webassets.trafficjunky.com/1792681837/css/signUpStep1.min.css"}}
+{"at":"2026-10-22T17:59:27.135Z","event":"stage","data":{"id":"svc-clickadilla","from":"new","to":"resolved","note":"https://publishers.clickadilla.com/?ref=FKQDy9&amp;utm_source=clickadilla_website&amp;utm_medium=footer&amp;utm_campaign=publisher_section&amp;utm_content=pub_advantages&amp;utm_term=publisher_page&amp;_ga=2.150344190.951955363.1652689240-1101557408.1649245129/"}}
+{"at":"2026-10-22T17:59:48.363Z","event":"stage","data":{"id":"svc-propellerads","from":"new","to":"failed","note":"الموقع NaN"}}
+{"at":"2026-10-22T18:00:02.298Z","event":"stage","data":{"id":"svc-pushhouse","from":"new","to":"resolved","note":"https://push.house/auth/register"}}
+{"at":"2026-10-22T18:00:06.307Z","event":"stage","data":{"id":"svc-hilltopads","from":"new","to":"resolved","note":"https://hilltopads.com/publishers"}}
+{"at":"2026-10-22T18:00:08.769Z","event":"stage","data":{"id":"svc-hilltopads","from":"resolved","to":"resolved","note":"https://hilltopads.com/publishers"}}
+{"at":"2026-10-22T18:00:10.043Z","event":"human","data":{"id":"svc-galaksion","why":"identity"}}
+{"at":"2026-10-22T18:00:10.285Z","event":"stage","data":{"id":"svc-galaksion","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-22T18:00:11.330Z","event":"human","data":{"id":"svc-galaksion","why":"identity"}}
+{"at":"2026-10-22T18:00:11.566Z","event":"stage","data":{"id":"svc-galaksion","from":"human","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-22T18:00:14.162Z","event":"stage","data":{"id":"svc-admaven","from":"new","to":"resolved","note":"https://admaven.com/publishers"}}
+{"at":"2026-10-22T18:00:14.232Z","event":"stage","data":{"id":"svc-admaven","from":"new","to":"resolved","note":"https://admaven.com/publishers"}}
+{"at":"2026-10-22T18:00:17.190Z","event":"stage","data":{"id":"svc-cpagrip","from":"new","to":"resolved","note":"https://www.cpagrip.com/signup.php"}}
+{"at":"2026-10-22T18:00:17.629Z","event":"stage","data":{"id":"svc-cpagrip","from":"new","to":"resolved","note":"https://www.cpagrip.com/signup.php"}}
+{"at":"2026-10-22T18:00:20.930Z","event":"stage","data":{"id":"svc-bitlabs","from":"new","to":"resolved","note":"http://dashboard.bitlabs.ai/"}}
+{"at":"2026-10-22T18:00:21.158Z","event":"stage","data":{"id":"svc-bitlabs","from":"new","to":"resolved","note":"http://dashboard.bitlabs.ai/"}}
+{"at":"2026-10-22T18:00:21.806Z","event":"batch","data":{"n":15,"out":["svc-adsterra","svc-monetag","svc-exoclick","svc-evadav","svc-juicyads","svc-lospollos","svc-trafficjunky","svc-clickadilla","svc-propellerads","svc-pushhouse","svc-hilltopads","svc-galaksion","svc-admaven","svc-cpagrip","svc-bitlabs"]}}
+{"at":"2026-10-22T18:00:27.146Z","event":"stage","data":{"id":"svc-offertoro","from":"new","to":"resolved","note":"http://torox.io/register/"}}
+{"at":"2026-10-22T18:00:34.078Z","event":"stage","data":{"id":"svc-mylead","from":"new","to":"resolved","note":"https://mylead.global/en/start/how-to-become-a-publisher"}}
+{"at":"2026-10-22T18:00:37.243Z","event":"stage","data":{"id":"svc-mylead","from":"resolved","to":"resolved","note":"https://mylead.global/en/start/how-to-become-a-publisher"}}
+{"at":"2026-10-22T18:00:38.581Z","event":"stage","data":{"id":"svc-crakrevenue","from":"new","to":"resolved","note":"https://affiliates.crakrevenue.com/signup-choice"}}
+{"at":"2026-10-22T18:00:39.772Z","event":"stage","data":{"id":"svc-surge","from":"new","to":"resolved","note":"https://surge.sh/signup"}}
+{"at":"2026-10-22T18:00:41.223Z","event":"stage","data":{"id":"svc-crakrevenue","from":"resolved","to":"resolved","note":"https://affiliates.crakrevenue.com/signup-choice"}}
+{"at":"2026-10-22T18:00:42.622Z","event":"stage","data":{"id":"svc-surge","from":"new","to":"resolved","note":"https://surge.sh/signup"}}
+{"at":"2026-10-22T18:00:45.025Z","event":"stage","data":{"id":"svc-netlify","from":"new","to":"resolved","note":"https://app.netlify.com/signup"}}
+{"at":"2026-10-22T18:00:48.467Z","event":"stage","data":{"id":"svc-netlify","from":"resolved","to":"resolved","note":"https://app.netlify.com/signup"}}
+{"at":"2026-10-22T18:00:49.416Z","event":"stage","data":{"id":"svc-vercel","from":"new","to":"resolved","note":"https://vercel.com/partners/solution-partners"}}
+{"at":"2026-10-22T18:00:53.843Z","event":"stage","data":{"id":"svc-vercel","from":"resolved","to":"resolved","note":"https://vercel.com/partners/solution-partners"}}
+{"at":"2026-10-22T18:00:55.252Z","event":"stage","data":{"id":"svc-cloudflare","from":"new","to":"resolved","note":"https://www.cloudflare.com/partners/"}}
+{"at":"2026-10-22T18:00:56.309Z","event":"batch","data":{"n":12,"out":["svc-hilltopads","svc-galaksion","svc-admaven","svc-cpagrip","svc-bitlabs","svc-offertoro","svc-mylead","svc-crakrevenue","svc-surge","svc-netlify","svc-vercel","svc-cloudflare"]}}
+{"at":"2026-10-22T18:01:01.469Z","event":"stage","data":{"id":"svc-cloudflare","from":"resolved","to":"resolved","note":"https://www.cloudflare.com/partners/"}}
+{"at":"2026-10-22T18:01:07.126Z","event":"stage","data":{"id":"svc-github","from":"new","to":"resolved","note":"https://github.com/partners"}}
+{"at":"2026-10-22T18:01:13.668Z","event":"stage","data":{"id":"svc-gitlab","from":"new","to":"resolved","note":"https://about.gitlab.com/partners/technology-partners/aws/"}}
+{"at":"2026-10-22T18:01:16.496Z","event":"stage","data":{"id":"svc-neocities","from":"new","to":"resolved","note":"https://neocities.org/signin"}}
+{"at":"2026-10-22T18:01:20.774Z","event":"stage","data":{"id":"svc-render","from":"new","to":"resolved","note":"https://dashboard.render.com/register"}}
+{"at":"2026-10-22T18:01:21.383Z","event":"batch","data":{"n":10,"out":["svc-mylead","svc-crakrevenue","svc-surge","svc-netlify","svc-vercel","svc-cloudflare","svc-github","svc-gitlab","svc-neocities","svc-render"]}}
+{"at":"2026-10-22T18:06:30.664Z","event":"stage","data":{"id":"svc-railway","from":"new","to":"resolved","note":"https://railway.com/partners"}}
+{"at":"2026-10-22T18:06:34.586Z","event":"stage","data":{"id":"svc-fly","from":"new","to":"resolved","note":"https://fly.io/pricing/"}}
+{"at":"2026-10-22T18:06:38.563Z","event":"stage","data":{"id":"svc-deno","from":"new","to":"resolved","note":"https://deno.com/deploy/pricing"}}
+{"at":"2026-10-22T18:06:43.159Z","event":"stage","data":{"id":"svc-supabase","from":"new","to":"resolved","note":"https://supabase.com/partners"}}
+{"at":"2026-10-22T18:06:48.515Z","event":"stage","data":{"id":"svc-neon","from":"new","to":"resolved","note":"https://console.neon.tech/signup"}}
+{"at":"2026-10-22T18:06:53.306Z","event":"stage","data":{"id":"svc-turso","from":"new","to":"resolved","note":"https://turso.tech/blog/turso-is-joining-supabase"}}
+{"at":"2026-10-22T18:06:57.758Z","event":"stage","data":{"id":"svc-upstash","from":"new","to":"resolved","note":"https://upstash.com/pricing/redis"}}
+{"at":"2026-10-22T18:07:12.141Z","event":"stage","data":{"id":"svc-mongodb","from":"new","to":"resolved","note":"https://www.mongodb.com/cloud/atlas/register"}}
+{"at":"2026-10-22T18:07:16.585Z","event":"stage","data":{"id":"svc-appwrite","from":"new","to":"resolved","note":"https://appwrite.io/partners"}}
+{"at":"2026-10-22T18:07:18.806Z","event":"stage","data":{"id":"svc-pocketbase","from":"new","to":"resolved","note":"https://pocketbase.io/docs/"}}
+{"at":"2026-10-22T18:07:19.452Z","event":"batch","data":{"n":10,"out":["svc-railway","svc-fly","svc-deno","svc-supabase","svc-neon","svc-turso","svc-upstash","svc-mongodb","svc-appwrite","svc-pocketbase"]}}
+{"at":"2026-10-22T18:12:30.077Z","event":"stage","data":{"id":"svc-nhost","from":"new","to":"resolved","note":"https://app.nhost.io/signup"}}
+{"at":"2026-10-22T18:12:33.821Z","event":"stage","data":{"id":"svc-cloudflare-d1","from":"new","to":"resolved","note":"https://www.cloudflare.com/partners/"}}
+{"at":"2026-10-22T18:12:53.297Z","event":"stage","data":{"id":"svc-backblaze","from":"new","to":"resolved","note":"https://www.backblaze.com/partners"}}
+{"at":"2026-10-22T18:12:59.120Z","event":"stage","data":{"id":"svc-cloudinary","from":"new","to":"resolved","note":"https://cloudinary.com/partners/extensibility"}}
+{"at":"2026-10-22T18:13:08.623Z","event":"stage","data":{"id":"svc-brevo","from":"new","to":"resolved","note":"https://corp-backend.brevo.com/wp-content/uploads/2025/11/partner_programs.svg"}}
+{"at":"2026-10-22T18:13:15.105Z","event":"stage","data":{"id":"svc-mailgun","from":"new","to":"resolved","note":"https://signup.mailgun.com/new/signup"}}
+{"at":"2026-10-22T18:13:20.810Z","event":"stage","data":{"id":"svc-resend","from":"new","to":"resolved","note":"https://resend.com/signup"}}
+{"at":"2026-10-22T18:13:40.995Z","event":"stage","data":{"id":"svc-sendgrid","from":"new","to":"resolved","note":"https://www.twilio.com/en-us/partners"}}
+{"at":"2026-10-22T18:13:46.857Z","event":"stage","data":{"id":"svc-healthchecks","from":"new","to":"resolved","note":"https://healthchecks.io/pricing/"}}
+{"at":"2026-10-22T18:13:59.923Z","event":"stage","data":{"id":"svc-uptimerobot","from":"new","to":"resolved","note":"https://dashboard.uptimerobot.com/sign-up"}}
+{"at":"2026-10-22T18:14:00.548Z","event":"batch","data":{"n":10,"out":["svc-nhost","svc-cloudflare-d1","svc-backblaze","svc-cloudinary","svc-brevo","svc-mailgun","svc-resend","svc-sendgrid","svc-healthchecks","svc-uptimerobot"]}}
+{"at":"2026-10-22T18:14:00.712Z","event":"verify-all","data":{"ok":0,"fail":0,"checked":0}}
+{"at":"2026-10-23T22:00:03.312Z","event":"stage","data":{"id":"svc-cronjob","from":"new","to":"resolved","note":"https://console.cron-job.org/signup"}}
+{"at":"2026-10-23T22:00:10.165Z","event":"stage","data":{"id":"svc-betterstack","from":"new","to":"resolved","note":"https://betterstack.com/pricing"}}
+{"at":"2026-10-23T22:00:14.765Z","event":"stage","data":{"id":"svc-umami","from":"new","to":"resolved","note":"https://cloud.umami.is/signup?ref=umami-nav-header"}}
+{"at":"2026-10-23T22:00:23.096Z","event":"stage","data":{"id":"svc-goatcounter","from":"new","to":"resolved","note":"https://www.goatcounter.com/signup"}}
+{"at":"2026-10-23T22:00:28.643Z","event":"stage","data":{"id":"svc-plausible","from":"new","to":"resolved","note":"https://plausible.io/register"}}
+{"at":"2026-10-23T22:00:41.912Z","event":"stage","data":{"id":"svc-sentry","from":"new","to":"resolved","note":"https://sentry.io/signup/"}}
+{"at":"2026-10-23T22:00:42.723Z","event":"stage","data":{"id":"svc-indexnow","from":"new","to":"resolved","note":"https://www.indexnow.org/documentation"}}
+{"at":"2026-10-23T22:00:43.557Z","event":"stage","data":{"id":"svc-google-search-console","from":"new","to":"resolved","note":"https://search.google.com/search-console/welcome"}}
+{"at":"2026-10-23T22:00:44.359Z","event":"stage","data":{"id":"svc-bing-webmaster","from":"new","to":"resolved","note":"https://www.bing.com/webmasters/about"}}
+{"at":"2026-10-23T22:00:45.197Z","event":"stage","data":{"id":"svc-cloudflare-pages","from":"new","to":"resolved","note":"https://dash.cloudflare.com/sign-up"}}
+{"at":"2026-10-23T22:00:47.242Z","event":"stage","data":{"id":"svc-nowpayments","from":"new","to":"resolved","note":"https://account.nowpayments.io/create-account"}}
+{"at":"2026-10-23T22:00:54.157Z","event":"stage","data":{"id":"svc-cryptomus","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-23T22:00:54.692Z","event":"batch","data":{"n":12,"out":["svc-cronjob","svc-betterstack","svc-umami","svc-goatcounter","svc-plausible","svc-sentry","svc-indexnow","svc-google-search-console","svc-bing-webmaster","svc-cloudflare-pages","svc-nowpayments","svc-cryptomus"]}}
+{"at":"2026-10-23T22:20:09.915Z","event":"stage","data":{"id":"svc-coingate","from":"new","to":"failed","note":"الموقع 403"}}
+{"at":"2026-10-23T22:20:26.274Z","event":"stage","data":{"id":"svc-alchemy","from":"new","to":"resolved","note":"https://dashboard.alchemy.com/signup?a="}}
+{"at":"2026-10-23T22:20:47.251Z","event":"stage","data":{"id":"svc-infura","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-23T22:20:54.201Z","event":"stage","data":{"id":"svc-quicknode","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-23T22:21:15.097Z","event":"stage","data":{"id":"svc-thegraph","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-23T22:21:34.482Z","event":"human","data":{"id":"svc-groq","why":"identity"}}
+{"at":"2026-10-23T22:21:34.636Z","event":"stage","data":{"id":"svc-groq","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-23T22:21:41.285Z","event":"stage","data":{"id":"svc-openrouter","from":"new","to":"resolved","note":"https://openrouter.ai/pricing"}}
+{"at":"2026-10-23T22:22:02.261Z","event":"stage","data":{"id":"svc-huggingface","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-23T22:22:10.818Z","event":"stage","data":{"id":"svc-replicate","from":"new","to":"resolved","note":"https://replicate.com/pricing"}}
+{"at":"2026-10-23T22:22:14.693Z","event":"stage","data":{"id":"svc-deepgram","from":"new","to":"resolved","note":"https://console.deepgram.com/signup"}}
+{"at":"2026-10-23T22:22:17.852Z","event":"stage","data":{"id":"svc-elevenlabs","from":"new","to":"resolved","note":"https://elevenlabs.io/blog/elevenlabs-partners-with-ibm-to-bring-premium-voice-to-watsonx-orchestrate"}}
+{"at":"2026-10-23T22:22:22.331Z","event":"stage","data":{"id":"svc-formspree","from":"new","to":"resolved","note":"https://formspree.io/register"}}
+{"at":"2026-10-23T22:22:22.848Z","event":"batch","data":{"n":12,"out":["svc-coingate","svc-alchemy","svc-infura","svc-quicknode","svc-thegraph","svc-groq","svc-openrouter","svc-huggingface","svc-replicate","svc-deepgram","svc-elevenlabs","svc-formspree"]}}

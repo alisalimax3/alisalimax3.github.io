@@ -1,4 +1,18 @@
-{"name":"CineHub 3099","short_name":"CineHub","start_url":"/","scope":"/","display":"standalone",
-"background_color":"#0a0e1a","theme_color":"#0a0e1a","lang":"ar","dir":"rtl",
-"description":"CineHub 3099 — أفلام ومسلسلات + أرباح إعلانات حقيقية.",
-"icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+ "name": "CineHub 3099 — أفلام مجانية",
+ "short_name": "CineHub",
+ "description": "مشاهدة أفلام ومسلسلات مجانًا بلا تسجيل",
+ "start_url": "/app.html",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#0b0d12",
+ "theme_color": "#0b0d12",
+ "lang": "ar",
+ "dir": "rtl",
+ "categories": ["entertainment", "video"],
+ "icons": [
+   {"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+   {"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable"}
+ ]
+}

@@ -18,5 +18,5 @@
  }
  function unlink(){localStorage.removeItem('ch_gh');document.dispatchEvent(new Event('ch:gh'))}
  window.CHGH={get:get,link:link,unlink:unlink,
-  gate:function(){return 'https://github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io'}};
+  gate:function(){return 'https://github.com/alkazmybwhwr-dot/alisalimax3.github.io'}};
 })();

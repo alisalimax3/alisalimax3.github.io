@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json,os,html,time
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 try: it=[x for x in json.load(open("catalog.json",encoding="utf-8")).get("items") or [] if x.get("mp")]
 except Exception: print("لا كتالوج"); raise SystemExit
 it=it[:300]; E=html.escape

@@ -1,0 +1,45 @@
+nohup: ignoring input
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 pkill -f 'money/agent.mjs' 2> /dev/null
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+on --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1
+Terminated                 timeout 5400 node money/agent.mjs --daemon --limit=6 --par=2 >> "$LOG" 2>&1

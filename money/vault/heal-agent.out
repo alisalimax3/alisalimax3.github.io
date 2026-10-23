@@ -1,0 +1,187 @@
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1
+file:///data/data/com.termux/files/home/cinehub3099/money/agent.mjs:92
+      .filter(p => allowed(ctl, p.action) && !isPaused(ctl, p.t && p.t.id));
+      ^
+
+SyntaxError: Unexpected token '.'
+    at compileSourceTextModule (node:internal/modules/esm/utils:355:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:94:18)
+    at #translate (node:internal/modules/esm/loader:441:20)
+    at afterLoad (node:internal/modules/esm/loader:509:29)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:514:12)
+    at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:567:36)
+    at afterResolve (node:internal/modules/esm/loader:614:52)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:12)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:639:32)
+    at TracingChannel.tracePromise (node:diagnostics_channel:582:22)
+
+Node.js v26.12.1

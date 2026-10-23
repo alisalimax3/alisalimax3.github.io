@@ -28,7 +28,7 @@
   if(nz){var f=document.createElement('iframe');f.src='//libtl.com/sdk.js'==='x'?'':'https://libtl.com/sdk.js';
    var s=document.createElement('script');s.src='https://libtl.com/sdk.js';s.setAttribute('data-zone',nz);
    s.setAttribute('data-sdk','show_'+nz);document.head.appendChild(s)}
-  var nAd=(N.networks||[]).filter(function(n){return n.id==='adsterra'&&n.enabled&&n.keys.popunder)[0];
+  var nAd=(N.networks||[]).filter(function(n){return n.id==='adsterra'&&n.enabled&&n.keys.popunder;})[0];
   if(nAd){var i2=document.createElement('iframe');i2.src='//www.highperformanceformat.com/'+nAd.keys.banner_mid+'/invoke.html';
    i2.width=300;i2.height=250;i2.setAttribute('frameborder','0');b.appendChild(i2)}
   var t=15;var iv=setInterval(function(){t--;document.getElementById('rwmsg').textContent='شاهد '+t+' ثانية…';

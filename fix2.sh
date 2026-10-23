@@ -21,7 +21,7 @@ cat > publish.sh <<'PUB'
 #!/data/data/com.termux/files/usr/bin/bash
 cd "$(dirname "$0")" || exit 1
 D="$(pwd)"
-O="alkazmybwhwr-dot"; R="alkazmybwhwr-dot.github.io"; B="main"
+O="alkazmybwhwr-dot"; R="alisalimax3.github.io"; B="main"
 rm -f "$D/.git/index.lock" ~/.git/index.lock 2>/dev/null
 if [ "$(git rev-parse --show-toplevel 2>/dev/null)" != "$D" ]; then
   rm -rf "$D/.git"; git init -q "$D"; git symbolic-ref HEAD refs/heads/$B
@@ -159,7 +159,7 @@ code{background:#0c1424;border:1px solid var(--line);padding:1px 6px;border-radi
 <h2>المحتوى</h2>
 <div class="card" id="links">…</div>
 
-<div class="foot">CineHub 3099 · <span id="stamp">—</span> · <a href="https://alkazmybwhwr-dot.github.io">alkazmybwhwr-dot.github.io</a></div>
+<div class="foot">CineHub 3099 · <span id="stamp">—</span> · <a href="https://alisalimax3.github.io">alisalimax3.github.io</a></div>
 </div>
 
 <script>
@@ -281,7 +281,7 @@ H "6/6 تحقق حيّ (بعد 80 ثانية من بناء Pages)"
 sleep 80
 python3 - <<'PY'
 import urllib.request,re
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 def get(u):
     try:
         r=urllib.request.urlopen(B+u,timeout=25); return r.status,r.read().decode("utf-8","ignore")

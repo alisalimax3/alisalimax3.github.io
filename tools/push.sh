@@ -3,7 +3,7 @@ cd "$HOME/cinehub3099" || exit 1
 rm -f .git/index.lock 2>/dev/null
 T=$(python3 -c "import json;print((json.load(open('auth.json')).get('token') or '').strip())" 2>/dev/null)
 [ -z "$T" ] && { echo "FAIL بلا توكن"; exit 1; }
-U="https://x-access-token:$T@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+U="https://x-access-token:$T@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
 git remote set-url origin "$U"
 git config --local credential.helper ""
 git add -A

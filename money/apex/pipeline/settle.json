@@ -1,0 +1,17 @@
+{
+ "ts": "2026-10-22T19:20:37.442Z",
+ "wallet": "0xd89862994f82bAE9a69dfAC251C09881729963Ce",
+ "chain": "base",
+ "built": {
+  "nonce": "0",
+  "gasPrice": "6000000",
+  "txhash": "0x2b17ef55a8d71cb9691bdd704c70108bff87ae21fc8e5efbab9a8fc279f83ca0",
+  "raw": "0xf8aa8083b71b008301d4c094833589fcd6edb6e08f4c7c32d4f71b54bda0291380b844a9059cbb000000000000000000000000d89862994f82bae9a69dfac251c09881729963ce000000000000000000000000000000000000000000000000000000000000000082422da03690b809ca23233e6e6804d51afe3b142c842d523aac9e3b4447a9e26eeebabaa01bc4cb9f3ae44853e2c61ca14beb6570f3ee269cdb323fb14c307bb1b918c5ec"
+ },
+ "broadcast": false,
+ "ledger_due_usd": 72.5,
+ "signer_recovered": "0xF4Dc8b4087380aD8Dd120cbE0209Bbf34CD556Ff",
+ "signer_ok": false,
+ "signed": false,
+ "native_wei": "0"
+}

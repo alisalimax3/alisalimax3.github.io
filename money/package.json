@@ -1,0 +1,1 @@
+{"name":"cinehub-money","private":true,"version":"1.0.0","dependencies":{"ethers":"^6.13.0"},"devDependencies":{"playwright":"^1.64.1"}}

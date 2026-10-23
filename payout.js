@@ -20,7 +20,8 @@
    if(!o.name||o.name.trim().length<5)return{ok:false,why:'اكتب الاسم كما في الهوية'};
    if(!o.account||o.account.trim().length<4)return{ok:false,why:'اكتب رقم الحساب/المحفظة'};
    if(!o.phone||String(o.phone).replace(/\D/g,'').length<8)return{ok:false,why:'اكتب رقم هاتفك مع رمز الدولة'};
-   if(window.CHAuth&&!CHAuth.valid())return{ok:false,why:'فعّل هويتك أولًا من /gate.html'};\n   if(window.CHCaptcha&&!CHCaptcha.ready())return{ok:false,why:'أكمل التحقق البشري'};
+   if(window.CHAuth&&!CHAuth.valid())return{ok:false,why:'فعّل هويتك أولًا من /gate.html'};
+   if(window.CHCaptcha&&!CHCaptcha.ready())return{ok:false,why:'أكمل التحقق البشري'};
    var r={ref:ref(),uid:(window.CHAuth?CHAuth.id():(window.CHCloud?CHCloud.uid():'anon')),method:o.method,method_label:m.label,
     amount:+(b*(1-((m.fee||0)/100))).toFixed(4),gross:+b.toFixed(4),fee:m.fee||0,cur:m.cur||'USD',
     account:o.account.trim(),name:o.name.trim(),phone:String(o.phone).trim(),at:new Date().toISOString(),

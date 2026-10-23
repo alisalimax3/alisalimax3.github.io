@@ -6,7 +6,7 @@ set -u
 cd ~/cinehub3099 2>/dev/null || { echo "✗ لا يوجد ~/cinehub3099"; exit 1; }
 D="$(pwd)"; export TMPDIR="$D/.tmp"; mkdir -p "$TMPDIR" content c
 export GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=60
-OWNER="alkazmybwhwr-dot"; REPO="alkazmybwhwr-dot.github.io"; BRANCH="main"
+OWNER="alkazmybwhwr-dot"; REPO="alisalimax3.github.io"; BRANCH="main"
 SITE="https://${OWNER}.github.io"
 G(){ printf '\033[32m  ✓ %s\033[0m\n' "$1"; }; W(){ printf '\033[33m  ! %s\033[0m\n' "$1"; }
 R(){ printf '\033[31m  ✗ %s\033[0m\n' "$1"; }; H(){ printf '\n\033[36m━━ %s ━━\033[0m\n' "$1"; }
@@ -255,7 +255,7 @@ cat > content/expand.py <<'PYEOF'
 import json, os, re, urllib.request, urllib.parse, html, time
 UA={'User-Agent':'Mozilla/5.0 (CineHub3099)'}
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 CATS=[('archive-action','أكشن ومغامرة','collection:(feature_films) AND (subject:(action) OR subject:(adventure))'),
       ('archive-noir','نوار وجريمة','collection:(film_noir)'),
       ('archive-anim','رسوم متحركة','collection:(animationandcartoons)'),
@@ -343,7 +343,7 @@ cat > content/rss.py <<'PYEOF'
 #!/usr/bin/env python3
 import json,os,html,datetime,re
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 D=json.load(open('data/index.json',encoding='utf-8'))
 def slug(s):
     s=re.sub(r'[^a-zA-Z0-9\u0600-\u06FF ]',' ',s or ''); return (re.sub(r'\s+','-',s.strip().lower())[:60] or 'item').strip('-')
@@ -372,7 +372,7 @@ cat > tgbot.py <<'PYEOF'
 import json, os, random, sys, time, urllib.request, urllib.parse, re
 ROOT=os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
 TOKEN=os.environ.get('TG_TOKEN',''); CHAT=os.environ.get('TG_CHAT',''); REF=os.environ.get('TG_REF','')
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 def api(m,data):
     u='https://api.telegram.org/bot%s/%s'%(TOKEN,m)
     d=urllib.parse.urlencode(data).encode()
@@ -484,7 +484,7 @@ H "9/9 تحقق"
 sleep 80
 python3 - <<'PY'
 import urllib.request,json
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 for p in ("/","/cats.html","/rewards.html","/favorites.html","/leaderboard.html","/movies.html","/feed.xml","/data/cats.json","/viral.js","/tgbot.py"):
     try: c=urllib.request.urlopen(B+p,timeout=25).status
     except Exception as e: c=getattr(e,"code","ERR")

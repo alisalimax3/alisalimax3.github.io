@@ -10,7 +10,7 @@ if not tok and os.path.exists(os.path.expanduser('~/.git-token')):
     tok=open(os.path.expanduser('~/.git-token')).read().strip()
 if not tok: print('  ! لا توكن — الدورات ستعمل بالموعد المجدول'); raise SystemExit
 def post(path,body=None):
-    u='https://api.github.com/repos/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io/'+path
+    u='https://api.github.com/repos/alkazmybwhwr-dot/alisalimax3.github.io/'+path
     rq=urllib.request.Request(u,data=json.dumps(body or {'ref':'main'}).encode(),
       headers={'Authorization':'token '+tok,'Accept':'application/vnd.github+json','Content-Type':'application/json'})
     try:

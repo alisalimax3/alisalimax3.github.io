@@ -32,4 +32,4 @@ print("ads.json محدّث: adsterra=%s monetag=%s adsense=%s"%(a["adsterra"]["e
 PY
 python3 tools/revenue_sync.py 2>&1 | tail -3
 bash PUSH2.sh "ads: 3 networks enabled"
-echo "✓ الإعلانات مفعّلة — الرصيد سيظهر في https://alkazmybwhwr-dot.github.io/admin.html"
+echo "✓ الإعلانات مفعّلة — الرصيد سيظهر في https://alisalimax3.github.io/admin.html"

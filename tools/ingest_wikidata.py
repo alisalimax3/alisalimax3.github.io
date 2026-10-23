@@ -2,7 +2,7 @@
 """Wikidata SPARQL: منظمات وشركات وعلامات وجامعات ومواقع — بمواقعها الرسمية (P856). لا مفتاح."""
 import json,os,re,urllib.request,urllib.parse,datetime,time
 R=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-UA={'User-Agent':'CineHub3099/1.0 (https://alkazmybwhwr-dot.github.io)','Accept':'application/sparql-results+json','Accept-Encoding':'identity'}
+UA={'User-Agent':'CineHub3099/1.0 (https://alisalimax3.github.io)','Accept':'application/sparql-results+json','Accept-Encoding':'identity'}
 EP='https://query.wikidata.org/sparql'
 QS=[('company','Q4830453',45000),('company','Q783794',45000),('organization','Q43229',40000),
     ('brand','Q431289',20000),('university','Q3918',12000),('website','Q35127',12000),

@@ -3,7 +3,7 @@
 import json, os, random, sys, time, urllib.request, urllib.parse, re
 ROOT=os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
 TOKEN=os.environ.get('TG_TOKEN',''); CHAT=os.environ.get('TG_CHAT',''); REF=os.environ.get('TG_REF','')
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 def api(m,data):
     u='https://api.telegram.org/bot%s/%s'%(TOKEN,m)
     d=urllib.parse.urlencode(data).encode()

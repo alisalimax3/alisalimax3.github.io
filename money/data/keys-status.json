@@ -1,0 +1,651 @@
+{
+  "checked_at": "2026-10-22T18:15:44.899688Z",
+  "summary": {
+    "live": 1,
+    "dead": 0,
+    "missing": 79,
+    "set": 0
+  },
+  "keys": [
+    {
+      "id": "adsterra",
+      "env": "ADSTERRA_API_KEY,ADSTERRA_PUB_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "monetag",
+      "env": "MONETAG_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "propellerads",
+      "env": "PROPELLERADS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "ezoic",
+      "env": "EZOIC_API_KEY,EZOIC_SITE_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "adsense",
+      "env": "ADSENSE_CLIENT,ADSENSE_ACCESS_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "medianet",
+      "env": "MEDIANET_CUSTOMER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "adcash",
+      "env": "ADCASH_PUBLISHER_ID,ADCASH_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "hilltopads",
+      "env": "HILLTOPADS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "clickadu",
+      "env": "CLICKADU_PUBLISHER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "infolinks",
+      "env": "INFOLINKS_PUBLISHER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "mgid",
+      "env": "MGID_PUBLISHER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "impact",
+      "env": "IMPACT_ACCOUNT_SID,IMPACT_AUTH_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "awin",
+      "env": "AWIN_API_TOKEN,AWIN_PUBLISHER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "cj",
+      "env": "CJ_PERSONAL_TOKEN,CJ_PUBLISHER_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "rakuten",
+      "env": "RAKUTEN_TOKEN,RAKUTEN_SID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "clickbank",
+      "env": "CLICKBANK_DEV_KEY,CLICKBANK_CLERK_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "digistore24",
+      "env": "DIGISTORE_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "hotmart",
+      "env": "HOTMART_CLIENT_ID,HOTMART_CLIENT_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "amazon",
+      "env": "AMAZON_ACCESS_KEY,AMAZON_SECRET_KEY,AMAZON_TAG",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "aliexpress",
+      "env": "ALIEXPRESS_APP_KEY,ALIEXPRESS_APP_SECRET,ALIEXPRESS_TRACKING_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "cuelinks",
+      "env": "CUELINKS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "involve",
+      "env": "INVOLVE_API_KEY,INVOLVE_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "mylead",
+      "env": "MYLEAD_API_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "cpx",
+      "env": "CPX_APP_ID,CPX_SECURE_HASH",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "bitlabs",
+      "env": "BITLABS_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "ayet",
+      "env": "AYET_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "adgate",
+      "env": "ADGATE_APP_ID,ADGATE_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "binance",
+      "env": "BINANCE_API_KEY,BINANCE_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "coinbase",
+      "env": "COINBASE_API_KEY,COINBASE_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "kraken",
+      "env": "KRAKEN_API_KEY,KRAKEN_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "kucoin",
+      "env": "KUCOIN_API_KEY,KUCOIN_API_SECRET,KUCOIN_PASSPHRASE",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "bybit",
+      "env": "BYBIT_API_KEY,BYBIT_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "okx",
+      "env": "OKX_API_KEY,OKX_API_SECRET,OKX_PASSPHRASE",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "gate",
+      "env": "GATE_API_KEY,GATE_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "mexc",
+      "env": "MEXC_API_KEY,MEXC_API_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "bitget",
+      "env": "BITGET_API_KEY,BITGET_API_SECRET,BITGET_PASSPHRASE",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "faucetpay",
+      "env": "FAUCETPAY_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "nowpayments",
+      "env": "NOWPAYMENTS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "cryptomus",
+      "env": "CRYPTOMUS_MERCHANT_ID,CRYPTOMUS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "coinpayments",
+      "env": "COINPAYMENTS_PUBLIC_KEY,COINPAYMENTS_PRIVATE_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "alchemy",
+      "env": "ALCHEMY_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "infura",
+      "env": "INFURA_PROJECT_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "coingecko",
+      "env": "COINGECKO_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "github",
+      "env": "GITHUB_TOKEN,GITHUB_REPOS",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "cloudflare",
+      "env": "CLOUDFLARE_API_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "supabase",
+      "env": "SUPABASE_URL,SUPABASE_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "telegram",
+      "env": "TELEGRAM_BOT_TOKEN,TG_CHAT_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "vercel",
+      "env": "VERCEL_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "netlify",
+      "env": "NETLIFY_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "openrouter",
+      "env": "OPENROUTER_API_KEY",
+      "status": "LIVE",
+      "http": "200",
+      "ms": "617",
+      "revenue_source": false
+    },
+    {
+      "id": "deepseek",
+      "env": "DEEPSEEK_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "groq",
+      "env": "GROQ_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "stripe",
+      "env": "STRIPE_SECRET_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "gumroad",
+      "env": "GUMROAD_ACCESS_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "lemonsqueezy",
+      "env": "LEMONSQUEEZY_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "payhip",
+      "env": "PAYHIP_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "buymeacoffee",
+      "env": "BUYMEACOFFEE_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "kofi",
+      "env": "KOFI_VERIFICATION_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "brevo",
+      "env": "BREVO_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "captcha",
+      "env": "CAPTCHA_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "exoclick",
+      "env": "EXOCLICK_API_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": true
+    },
+    {
+      "id": "juicyads",
+      "env": "JUICYADS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "trafficjunky",
+      "env": "TRAFFICJUNKY_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "trafficstars",
+      "env": "TRAFFICSTARS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "plugrush",
+      "env": "PLUGRUSH_API_KEY,PLUGRUSH_ZONE",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "eroadvertising",
+      "env": "EROADS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "bitterstrawberry",
+      "env": "BITTER_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "lospollos",
+      "env": "LOSPOLLOS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "crackrevenue",
+      "env": "CRACKREVENUE_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "adnium",
+      "env": "ADNIUM_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "adultforce",
+      "env": "ADULTFORCE_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "vidoomy",
+      "env": "VIDOOMY_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "adspyglass",
+      "env": "ADSPYGLASS_API_KEY",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "chaturbate",
+      "env": "CHATURBATE_USERNAME,CHATURBATE_CAMPAIGN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "tgchannel",
+      "env": "TG_CHANNEL_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "youtube",
+      "env": "YOUTUBE_API_KEY,YOUTUBE_CHANNEL_ID",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "reddit",
+      "env": "REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "pinterest",
+      "env": "PINTEREST_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "fbpage",
+      "env": "FB_PAGE_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    },
+    {
+      "id": "tiktok",
+      "env": "TIKTOK_ACCESS_TOKEN",
+      "status": "MISSING",
+      "http": "0",
+      "ms": "0",
+      "revenue_source": false
+    }
+  ]
+}

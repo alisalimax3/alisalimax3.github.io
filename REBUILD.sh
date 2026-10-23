@@ -172,7 +172,7 @@ iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
 "use strict";
 function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
 var id=decodeURIComponent((location.search.match(/[?&]id=([^&]+)/)||[])[1]||"");
-var SITE="https://alkazmybwhwr-dot.github.io/play.html?id=";
+var SITE="https://alisalimax3.github.io/play.html?id=";
 function hit(k){try{fetch("https://abacus.jasoncameron.dev/hit/ch3099-alkazmybwhwr-dot/"+k,{mode:"cors"}).catch(function(){});}catch(e){}}
 g("catalog.json").then(function(d){
  if(!d||!d.items){document.getElementById("t").textContent="لا كتالوج";return;}
@@ -229,7 +229,7 @@ pre{background:#0b1118;border:1px solid rgba(255,255,255,.07);border-radius:10px
 (function(){
 "use strict";
 function g(u,raw){return fetch(u+(raw?"":"?_="+Date.now()),{cache:"no-store"}).then(function(r){return r.ok?(raw?r.text():r.json()):null}).catch(function(){return null});}
-g("https://api.github.com/repos/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io/actions/runs?per_page=12").then(function(d){
+g("https://api.github.com/repos/alkazmybwhwr-dot/alisalimax3.github.io/actions/runs?per_page=12").then(function(d){
  var e=document.getElementById("runs");if(!d||!d.workflow_runs){e.textContent="تعذّر الجلب";return;}
  e.innerHTML=d.workflow_runs.map(function(r){
   var c=r.conclusion||r.status;
@@ -409,7 +409,7 @@ push_all "rebuild: real film catalog + player + visible agent + ads slots [$V]"
 info "انتظار 80 ثانية…"
 sleep 80
 for f in library.html play.html agent.html catalog.json ads.json; do
-  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/$f?v=$V")"
+  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alisalimax3.github.io/$f?v=$V")"
   [ "$c" = "200" ] && ok "$f → 200" || bad "$f → $c"
 done
 python3 -c "
@@ -419,5 +419,5 @@ try:
 except Exception as e: print('  ',e)
 "
 echo
-ok "افتح: https://alkazmybwhwr-dot.github.io/library.html"
+ok "افتح: https://alisalimax3.github.io/library.html"
 info "الوكيل مرئي في: /agent.html · الأرقام: /rise.html · الشبكات: /subscribe.html"

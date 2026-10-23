@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os,json,random,urllib.request,datetime,html
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io"); host=SITE.replace("https://","")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io"); host=SITE.replace("https://","")
 urls=[SITE+"/"]
 for d in ("p","x"):
     if os.path.isdir(d): urls+=[SITE+"/%s/%s"%(d,f) for f in sorted(os.listdir(d))[:600] if f.endswith(".html")]

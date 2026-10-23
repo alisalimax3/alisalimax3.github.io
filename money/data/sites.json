@@ -1,0 +1,242 @@
+{
+  "adsterra": {
+    "status": "pending"
+  },
+  "monetag": {
+    "status": "pending"
+  },
+  "propellerads": {
+    "status": "pending"
+  },
+  "ezoic": {
+    "status": "pending"
+  },
+  "adsense": {
+    "status": "pending"
+  },
+  "medianet": {
+    "status": "pending"
+  },
+  "adcash": {
+    "status": "pending"
+  },
+  "hilltopads": {
+    "status": "pending"
+  },
+  "clickadu": {
+    "status": "pending"
+  },
+  "infolinks": {
+    "status": "pending"
+  },
+  "mgid": {
+    "status": "pending"
+  },
+  "impact": {
+    "status": "pending"
+  },
+  "awin": {
+    "status": "pending"
+  },
+  "cj": {
+    "status": "pending"
+  },
+  "rakuten": {
+    "status": "pending"
+  },
+  "clickbank": {
+    "status": "pending"
+  },
+  "digistore24": {
+    "status": "pending"
+  },
+  "hotmart": {
+    "status": "pending"
+  },
+  "amazon": {
+    "status": "pending"
+  },
+  "aliexpress": {
+    "status": "pending"
+  },
+  "cuelinks": {
+    "status": "pending"
+  },
+  "involve": {
+    "status": "pending"
+  },
+  "mylead": {
+    "status": "pending"
+  },
+  "cpx": {
+    "status": "pending"
+  },
+  "bitlabs": {
+    "status": "pending"
+  },
+  "ayet": {
+    "status": "pending"
+  },
+  "adgate": {
+    "status": "pending"
+  },
+  "binance": {
+    "status": "pending"
+  },
+  "coinbase": {
+    "status": "pending"
+  },
+  "kraken": {
+    "status": "pending"
+  },
+  "kucoin": {
+    "status": "pending"
+  },
+  "bybit": {
+    "status": "pending"
+  },
+  "okx": {
+    "status": "pending"
+  },
+  "gate": {
+    "status": "pending"
+  },
+  "mexc": {
+    "status": "pending"
+  },
+  "bitget": {
+    "status": "pending"
+  },
+  "faucetpay": {
+    "status": "pending"
+  },
+  "nowpayments": {
+    "status": "pending"
+  },
+  "cryptomus": {
+    "status": "pending"
+  },
+  "coinpayments": {
+    "status": "pending"
+  },
+  "alchemy": {
+    "status": "pending"
+  },
+  "infura": {
+    "status": "pending"
+  },
+  "coingecko": {
+    "status": "pending"
+  },
+  "github": {
+    "status": "pending"
+  },
+  "cloudflare": {
+    "status": "pending"
+  },
+  "supabase": {
+    "status": "pending"
+  },
+  "telegram": {
+    "status": "pending"
+  },
+  "vercel": {
+    "status": "pending"
+  },
+  "netlify": {
+    "status": "pending"
+  },
+  "openrouter": {
+    "status": "live"
+  },
+  "deepseek": {
+    "status": "pending"
+  },
+  "groq": {
+    "status": "pending"
+  },
+  "stripe": {
+    "status": "pending"
+  },
+  "gumroad": {
+    "status": "pending"
+  },
+  "lemonsqueezy": {
+    "status": "pending"
+  },
+  "payhip": {
+    "status": "pending"
+  },
+  "buymeacoffee": {
+    "status": "pending"
+  },
+  "kofi": {
+    "status": "pending"
+  },
+  "brevo": {
+    "status": "pending"
+  },
+  "captcha": {
+    "status": "pending"
+  },
+  "exoclick": {
+    "status": "pending"
+  },
+  "juicyads": {
+    "status": "pending"
+  },
+  "trafficjunky": {
+    "status": "pending"
+  },
+  "trafficstars": {
+    "status": "pending"
+  },
+  "plugrush": {
+    "status": "pending"
+  },
+  "eroadvertising": {
+    "status": "pending"
+  },
+  "bitterstrawberry": {
+    "status": "pending"
+  },
+  "lospollos": {
+    "status": "pending"
+  },
+  "crackrevenue": {
+    "status": "pending"
+  },
+  "adnium": {
+    "status": "pending"
+  },
+  "adultforce": {
+    "status": "pending"
+  },
+  "vidoomy": {
+    "status": "pending"
+  },
+  "adspyglass": {
+    "status": "pending"
+  },
+  "chaturbate": {
+    "status": "pending"
+  },
+  "tgchannel": {
+    "status": "pending"
+  },
+  "youtube": {
+    "status": "pending"
+  },
+  "reddit": {
+    "status": "pending"
+  },
+  "pinterest": {
+    "status": "pending"
+  },
+  "fbpage": {
+    "status": "pending"
+  },
+  "tiktok": {
+    "status": "pending"
+  }
+}

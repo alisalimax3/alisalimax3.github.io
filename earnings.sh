@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-NS=cinehub-alkazmy-3099; B=https://abacus.jasoncameron.dev; S=https://alkazmybwhwr-dot.github.io
+NS=cinehub-alkazmy-3099; B=https://abacus.jasoncameron.dev; S=https://alisalimax3.github.io
 g(){ curl -s -m 10 "$B/get/$NS/$1" | sed -n 's/.*"value":\([0-9]*\).*/\1/p'; }
 V=$(g views); P=$(g plays); V=${V:-0}; P=${P:-0}
 echo "════════ حقيقي من العدّاد ════════"

@@ -1,5 +1,5 @@
 import glob,html,time,os,json,re,urllib.request
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 try: d=json.load(open("earnings-daily.json"))
 except: d={"days":[]}
 try: w=json.load(open("wallet.json"))

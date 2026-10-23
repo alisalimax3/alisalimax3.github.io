@@ -1,0 +1,713 @@
+{
+ "at": "2026-10-22T18:07:21.935Z",
+ "count": 83,
+ "items": [
+  {
+   "at": "2026-10-22T17:58:52.352Z",
+   "id": "svc-adsterra",
+   "kind": "resolve",
+   "data": {
+    "home": "https://adsterra.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:58:53.048Z",
+   "id": "svc-adsterra",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://adsterra.com/publishers/"
+   }
+  },
+  {
+   "at": "2026-10-22T17:58:56.375Z",
+   "id": "svc-monetag",
+   "kind": "resolve",
+   "data": {
+    "home": "https://monetag.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:58:57.006Z",
+   "id": "svc-monetag",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://monetag.com/publisher-referral-program/"
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:01.015Z",
+   "id": "svc-exoclick",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.exoclick.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:07.018Z",
+   "id": "svc-evadav",
+   "kind": "resolve",
+   "data": {
+    "home": "https://evadav.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:08.118Z",
+   "id": "svc-evadav",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://evadav.com/publisher"
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:10.932Z",
+   "id": "svc-juicyads",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.juicyads.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:12.092Z",
+   "id": "svc-juicyads",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.juicyads.com/publishers/"
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:17.925Z",
+   "id": "svc-lospollos",
+   "kind": "resolve",
+   "data": {
+    "home": "https://lospollos.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:18.714Z",
+   "id": "svc-lospollos",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.lospollos.com/signup"
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:21.837Z",
+   "id": "svc-trafficjunky",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.trafficjunky.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:22.356Z",
+   "id": "svc-trafficjunky",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://webassets.trafficjunky.com/1792681837/css/signUpStep1.min.css"
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:25.842Z",
+   "id": "svc-clickadilla",
+   "kind": "resolve",
+   "data": {
+    "home": "https://clickadilla.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T17:59:26.477Z",
+   "id": "svc-clickadilla",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://publishers.clickadilla.com/?ref=FKQDy9&amp;utm_source=clickadilla_website&amp;utm_medium=footer&amp;utm_campaign=publisher_section&amp;utm_content=pub_advantages&amp;utm_term=publisher_page&amp;_ga=2.150344190.951955363.1652689240-1101557408.1649245129/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:01.161Z",
+   "id": "svc-pushhouse",
+   "kind": "resolve",
+   "data": {
+    "home": "https://push.house",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:01.682Z",
+   "id": "svc-pushhouse",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://push.house/auth/register"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:05.309Z",
+   "id": "svc-hilltopads",
+   "kind": "resolve",
+   "data": {
+    "home": "https://hilltopads.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:05.825Z",
+   "id": "svc-hilltopads",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://hilltopads.com/publishers"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:07.427Z",
+   "id": "svc-hilltopads",
+   "kind": "resolve",
+   "data": {
+    "home": "https://hilltopads.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:08.178Z",
+   "id": "svc-hilltopads",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://hilltopads.com/publishers"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:09.705Z",
+   "id": "svc-galaksion",
+   "kind": "resolve",
+   "data": {
+    "home": "https://galaksion.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:11.046Z",
+   "id": "svc-galaksion",
+   "kind": "resolve",
+   "data": {
+    "home": "https://galaksion.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:12.864Z",
+   "id": "svc-admaven",
+   "kind": "resolve",
+   "data": {
+    "home": "https://admaven.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:12.904Z",
+   "id": "svc-admaven",
+   "kind": "resolve",
+   "data": {
+    "home": "https://admaven.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:13.421Z",
+   "id": "svc-admaven",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://admaven.com/publishers"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:13.649Z",
+   "id": "svc-admaven",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://admaven.com/publishers"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:16.101Z",
+   "id": "svc-cpagrip",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.cpagrip.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:16.168Z",
+   "id": "svc-cpagrip",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.cpagrip.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:16.641Z",
+   "id": "svc-cpagrip",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.cpagrip.com/signup.php"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:17.061Z",
+   "id": "svc-cpagrip",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.cpagrip.com/signup.php"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:19.093Z",
+   "id": "svc-bitlabs",
+   "kind": "resolve",
+   "data": {
+    "home": "https://bitlabs.ai",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:19.646Z",
+   "id": "svc-bitlabs",
+   "kind": "resolve",
+   "data": {
+    "home": "https://bitlabs.ai",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:20.140Z",
+   "id": "svc-bitlabs",
+   "kind": "signup-found",
+   "data": {
+    "signup": "http://dashboard.bitlabs.ai/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:20.456Z",
+   "id": "svc-bitlabs",
+   "kind": "signup-found",
+   "data": {
+    "signup": "http://dashboard.bitlabs.ai/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:25.413Z",
+   "id": "svc-offertoro",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.offertoro.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:26.146Z",
+   "id": "svc-offertoro",
+   "kind": "signup-found",
+   "data": {
+    "signup": "http://torox.io/register/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:32.861Z",
+   "id": "svc-mylead",
+   "kind": "resolve",
+   "data": {
+    "home": "https://mylead.global",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:33.521Z",
+   "id": "svc-mylead",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://mylead.global/en/start/how-to-become-a-publisher"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:35.421Z",
+   "id": "svc-mylead",
+   "kind": "resolve",
+   "data": {
+    "home": "https://mylead.global",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:36.665Z",
+   "id": "svc-mylead",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://mylead.global/en/start/how-to-become-a-publisher"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:37.463Z",
+   "id": "svc-crakrevenue",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.crakrevenue.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:38.024Z",
+   "id": "svc-crakrevenue",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://affiliates.crakrevenue.com/signup-choice"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:39.762Z",
+   "id": "svc-crakrevenue",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.crakrevenue.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:40.387Z",
+   "id": "svc-crakrevenue",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://affiliates.crakrevenue.com/signup-choice"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:44.020Z",
+   "id": "svc-netlify",
+   "kind": "resolve",
+   "data": {
+    "home": "https://netlify.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:44.530Z",
+   "id": "svc-netlify",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://app.netlify.com/signup"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:46.775Z",
+   "id": "svc-netlify",
+   "kind": "resolve",
+   "data": {
+    "home": "https://netlify.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:47.414Z",
+   "id": "svc-netlify",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://app.netlify.com/signup"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:47.896Z",
+   "id": "svc-vercel",
+   "kind": "resolve",
+   "data": {
+    "home": "https://vercel.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:48.429Z",
+   "id": "svc-vercel",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://vercel.com/partners/solution-partners"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:51.628Z",
+   "id": "svc-vercel",
+   "kind": "resolve",
+   "data": {
+    "home": "https://vercel.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:52.921Z",
+   "id": "svc-vercel",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://vercel.com/partners/solution-partners"
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:53.985Z",
+   "id": "svc-cloudflare",
+   "kind": "resolve",
+   "data": {
+    "home": "https://cloudflare.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:00:54.720Z",
+   "id": "svc-cloudflare",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.cloudflare.com/partners/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:00.281Z",
+   "id": "svc-cloudflare",
+   "kind": "resolve",
+   "data": {
+    "home": "https://cloudflare.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:00.966Z",
+   "id": "svc-cloudflare",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.cloudflare.com/partners/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:06.146Z",
+   "id": "svc-github",
+   "kind": "resolve",
+   "data": {
+    "home": "https://github.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:06.641Z",
+   "id": "svc-github",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://github.com/partners"
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:12.417Z",
+   "id": "svc-gitlab",
+   "kind": "resolve",
+   "data": {
+    "home": "https://gitlab.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:13.009Z",
+   "id": "svc-gitlab",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://about.gitlab.com/partners/technology-partners/aws/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:15.494Z",
+   "id": "svc-neocities",
+   "kind": "resolve",
+   "data": {
+    "home": "https://neocities.org",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:15.991Z",
+   "id": "svc-neocities",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://neocities.org/signin"
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:19.580Z",
+   "id": "svc-render",
+   "kind": "resolve",
+   "data": {
+    "home": "https://render.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:01:20.190Z",
+   "id": "svc-render",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://dashboard.render.com/register"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:28.387Z",
+   "id": "svc-railway",
+   "kind": "resolve",
+   "data": {
+    "home": "https://railway.app",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:29.638Z",
+   "id": "svc-railway",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://railway.com/partners"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:33.563Z",
+   "id": "svc-fly",
+   "kind": "resolve",
+   "data": {
+    "home": "https://fly.io",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:34.079Z",
+   "id": "svc-fly",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://fly.io/pricing/"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:37.389Z",
+   "id": "svc-deno",
+   "kind": "resolve",
+   "data": {
+    "home": "https://deno.com/deploy",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:37.999Z",
+   "id": "svc-deno",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://deno.com/deploy/pricing"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:41.952Z",
+   "id": "svc-supabase",
+   "kind": "resolve",
+   "data": {
+    "home": "https://supabase.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:42.627Z",
+   "id": "svc-supabase",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://supabase.com/partners"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:46.705Z",
+   "id": "svc-neon",
+   "kind": "resolve",
+   "data": {
+    "home": "https://neon.tech",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:47.743Z",
+   "id": "svc-neon",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://console.neon.tech/signup"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:50.768Z",
+   "id": "svc-turso",
+   "kind": "resolve",
+   "data": {
+    "home": "https://turso.tech",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:52.018Z",
+   "id": "svc-turso",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://turso.tech/blog/turso-is-joining-supabase"
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:56.100Z",
+   "id": "svc-upstash",
+   "kind": "resolve",
+   "data": {
+    "home": "https://upstash.com",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:06:57.048Z",
+   "id": "svc-upstash",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://upstash.com/pricing/redis"
+   }
+  },
+  {
+   "at": "2026-10-22T18:07:10.968Z",
+   "id": "svc-mongodb",
+   "kind": "resolve",
+   "data": {
+    "home": "https://www.mongodb.com/atlas",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:07:11.539Z",
+   "id": "svc-mongodb",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://www.mongodb.com/cloud/atlas/register"
+   }
+  },
+  {
+   "at": "2026-10-22T18:07:14.636Z",
+   "id": "svc-appwrite",
+   "kind": "resolve",
+   "data": {
+    "home": "https://appwrite.io",
+    "status": 200
+   }
+  },
+  {
+   "at": "2026-10-22T18:07:15.294Z",
+   "id": "svc-appwrite",
+   "kind": "signup-found",
+   "data": {
+    "signup": "https://appwrite.io/partners"
+   }
+  }
+ ]
+}

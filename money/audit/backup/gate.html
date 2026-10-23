@@ -1,0 +1,71 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية">
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تفعيل الهوية · CineHub 3099</title><style>
+body{margin:0;background:#0a0e1a;color:#e8f6ff;font:15px/1.9 system-ui,Tahoma;padding:16px}.wrap{max-width:520px;margin:auto}
+.card{background:#111827;border:1px solid #1e2a44;border-radius:14px;padding:16px;margin:12px 0;text-align:center}
+button{background:#4dd0e1;color:#04121a;border:0;border-radius:10px;padding:12px 18px;font-weight:800;cursor:pointer;margin-top:10px}
+.l{color:#8aa0bd;font-size:13px}code{background:#0d1424;padding:3px 8px;border-radius:7px;direction:ltr;display:inline-block}
+.ok{color:#22c55e}
+</style><link rel="stylesheet" href="/theme.css">
+
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body><div class="wrap">
+<h1>فعّل هويتك — بلا بريد ولا كلمة مرور</h1>
+<div class="card"><div class="l">الطريقة: كابتشا بشرية → تُوقّع هوية دائمة على جهازك → تُخزَّن سنة كاملة وتُزامَن مع السحابة.</div>
+<div id="cap" style="margin:12px 0;display:flex;justify-content:center"></div>
+<button onclick="go()">فعّل الآن</button><div id="msg" class="l" style="margin-top:8px"></div>
+<div id="tk" style="margin-top:10px"></div></div>
+<div class="card"><h3>لماذا هذه أفضل من الحساب بكلمة مرور؟</h3>
+<div class="l" style="text-align:right">لا نسيان كلمة مرور · لا انتظار بريد تأكيد · لا OTP · لا تعارض بين الأجهزة لأن الهوية تُبنى على البصمة + الكابتشا. وتُستخدم للمكافآت والسحب والاشتراكات على حد سواء.</div></div>
+<p class="l"><a href="/">الرئيسية</a> · <a href="/apply.html">سجّل واقبض</a> · <a href="/withdraw.html">السحب</a></p>
+</div>
+<script src="/captcha.js"></script><script src="/authtoken.js"></script><script src="/cloud.js"></script>
+<script>
+function paint(){var t=CHAuth.token(),e=document.getElementById('tk');
+ if(!t){e.innerHTML='';return}
+ e.innerHTML='<div class="ok"><b>✓ هويتك مُفعّلة</b></div><code>'+t.id+'</code><div class="l">المستوى '+t.level+' · تنتهي '+new Date(t.exp).toLocaleDateString('ar-EG')+'</div>';}
+paint();
+async function go(){
+ document.getElementById('msg').textContent='… انتظر التحقق';
+ var t=await CHAuth.challenge('#cap');
+ document.getElementById('msg').innerHTML=t?'<span class="ok">✓ تم التفعيل</span>':'✗ لم يكتمل التحقق — أعد المحاولة';
+ paint();
+ if(t&&window.CHCloud)CHCloud.pull();
+}
+document.addEventListener('ch:token',paint);
+</script><script src="/ads.js" defer></script><script src="/upsell.js" defer></script>
+<script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/ledger.js" defer></script>
+<script src="/comments.js" defer></script>
+<script src="/owner.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, html, os
 KEY="8265bd1679663a7ea12ac168da84d2e8"
-SITE="https://alkazmybwhwr-dot.github.io"; IMG="https://image.tmdb.org/t/p/w300"
+SITE="https://alisalimax3.github.io"; IMG="https://image.tmdb.org/t/p/w300"
 L=[("en","en-US","Popular Movies","Popular TV","Watch free, no signup"),
    ("es","es-ES","Películas Populares","Series Populares","Ver gratis, sin registro"),
    ("fr","fr-FR","Films Populaires","Séries Populaires","Regarder gratuitement"),

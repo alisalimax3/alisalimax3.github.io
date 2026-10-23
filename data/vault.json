@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "created": "2026-10-19 00:41",
+ "balance_usd": 0,
+ "reserved_usd": 0.0,
+ "released_usd": 0.0,
+ "withdrawn_usd": 0.0,
+ "entries": {},
+ "withdrawals": [],
+ "policy": {
+  "agent_can_spend": false,
+  "only_owner_withdraw": true,
+  "owner_cut_pct": 20,
+  "reserve_pct": 100,
+  "note": "الرصيد محفوظ. لا يُصرف إلا بإفراج صريح من المالك."
+ },
+ "updated": "2026-10-19 01:00"
+}

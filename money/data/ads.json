@@ -1,0 +1,44 @@
+[
+  {
+    "id": "adsterra-popunder",
+    "name": "Adsterra Popunder",
+    "enabled": false,
+    "snippet": "<script src=\"//pl00000000.profitableratecpm.com/xx/yy/zz/invoke.js\"></script>"
+  },
+  {
+    "id": "monetag-inpage-push",
+    "name": "Monetag In-Page Push",
+    "enabled": false,
+    "snippet": ""
+  },
+  {
+    "id": "pushhouse",
+    "name": "Push.House Push",
+    "enabled": false,
+    "snippet": ""
+  },
+  {
+    "id": "evadav-push",
+    "name": "Evadav Push",
+    "enabled": false,
+    "snippet": ""
+  },
+  {
+    "id": "popads",
+    "name": "PopAds",
+    "enabled": false,
+    "snippet": ""
+  },
+  {
+    "id": "adsense",
+    "name": "Google AdSense",
+    "enabled": false,
+    "snippet": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXX\" crossorigin=\"anonymous\"></script>"
+  },
+  {
+    "id": "analytics",
+    "name": "تحليلات خفيفة",
+    "enabled": false,
+    "snippet": ""
+  }
+]

@@ -1,0 +1,26 @@
+<!doctype html><html dir="rtl"><head><meta charset="utf-8"><title>APEX Dashboard</title>
+<style>body{background:#0b0f14;color:#d7e3ee;font-family:system-ui;margin:0;padding:18px}
+h1{font-size:20px;margin:0 0 14px}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.c{background:#121a24;border:1px solid #1f2c3a;border-radius:10px;padding:12px}
+.k{font-size:12px;color:#7f97ad}.v{font-size:22px;font-weight:700;margin-top:4px}
+.ok{color:#39d98a}.w{color:#f0b429}.b{color:#4aa8ff}table{width:100%;border-collapse:collapse;margin-top:14px;font-size:13px}
+td,th{border-bottom:1px solid #1f2c3a;padding:6px;text-align:right}pre{background:#0e1620;padding:10px;border-radius:8px;overflow:auto;font-size:12px}</style>
+</head><body><h1>APEX — لوحة التنفيذ الحقيقي</h1><div class="g" id="g"></div>
+<h3>تكاملات حية</h3><pre id="i">...</pre><h3>رصيد السلسلة</h3><pre id="c">...</pre>
+<h3>منصات قابلة للربح (اليمن)</h3><pre id="p">...</pre>
+<script>
+const f=(t,x)=>`<div class="c"><div class="k">${t}</div><div class="v ${x.c||'b'}">${x.v}</div></div>`;
+async function t(){try{const s=await (await fetch('/api/state')).json();
+ document.getElementById('g').innerHTML=
+  f('منصات مسجلة',{v:s.registry.platforms_total||0})+
+  f('منصات وصلت فعليًا',{v:s.registry.platforms_reachable||0,c:'ok'})+
+  f('نقاط ربط موثّقة',{v:s.registry.connection_points_verified||0,c:'ok'})+
+  f('تكاملات API حية',{v:s.integrations.working||0,c:'ok'})+
+  f('منصات تدعم اليمن',{v:s.earnings.ye_actionable||s.ledger.ye_actionable_platforms||0,c:'w'})+
+  f('رصيد على السلسلة $',{v:s.earnings.verified_earnings.onchain_total_usd||0,c:'w'});
+ document.getElementById('i').textContent=JSON.stringify((s.integrations.sources||[]).map(x=>x.key+':'+(x.ok?'✔ '+x.ms+'ms':'✘ '+x.code)),null,0);
+ document.getElementById('c').textContent=JSON.stringify(s.chain,null,1);
+ document.getElementById('p').textContent=JSON.stringify((s.ledger.earning_ready||[]).slice(0,60).map(x=>x.domain+' ['+x.method+'] min $'+x.min),null,0);
+}catch(e){document.getElementById('g').innerHTML='<div class="c">انتظر الخادم...</div>'}}
+setInterval(t,10000);t();
+</script></body></html>

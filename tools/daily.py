@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import os,datetime,json
-R=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); base='https://alkazmybwhwr-dot.github.io'
+R=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); base='https://alisalimax3.github.io'
 u=[]
 for root,dirs,files in os.walk(R):
     if '/.git' in root: continue

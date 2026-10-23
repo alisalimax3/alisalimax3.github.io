@@ -2,7 +2,7 @@
 import json, os, re, urllib.request, urllib.parse, html, time
 UA={'User-Agent':'Mozilla/5.0 (CineHub3099)'}
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 CATS=[('archive-action','أكشن ومغامرة','collection:(feature_films) AND (subject:(action) OR subject:(adventure))'),
       ('archive-noir','نوار وجريمة','collection:(film_noir)'),
       ('archive-anim','رسوم متحركة','collection:(animationandcartoons)'),

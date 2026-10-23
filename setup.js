@@ -1,6 +1,6 @@
 /* تفعيل مباشر: اربط GitHub ← املأ من الروابط المباشرة ← كابتشا ← احفظ في مستودعك فورًا */
 (function(){
- var O='alkazmybwhwr-dot', R='alkazmybwhwr-dot.github.io', BR='main';
+ var O='alkazmybwhwr-dot', R='alisalimax3.github.io', BR='main';
  function LSK(){return 'ch_gh_tok'}
  function tok(){return localStorage.getItem(LSK())||''}
  function h(){return tok()?{'Authorization':'token '+tok(),'Accept':'application/vnd.github+json'}:{'Accept':'application/vnd.github+json'}}

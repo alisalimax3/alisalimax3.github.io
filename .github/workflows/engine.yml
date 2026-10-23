@@ -1,0 +1,28 @@
+name: cinehub-engine
+on:
+  schedule: [{cron: "*/5 * * * *"}]
+  workflow_dispatch:
+  push: {paths: ["keys.env", "data/**"]}
+permissions: {contents: write}
+concurrency: {group: engine, cancel-in-progress: true}
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: تحقق من المفاتيح
+        run: python3 tools/verify_keys.py || true
+      - name: الحصاد
+        run: python3 tools/harvest.py --ci || true
+      - name: اللوحة
+        run: python3 tools/dashboard.py || true
+      - name: حفظ النتائج
+        run: |
+          git config user.name "cinehub-engine"
+          git config user.email "engine@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "engine: harvest $(date -u +%H:%M)"
+          git push || true

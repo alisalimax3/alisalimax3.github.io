@@ -1,121 +1,17 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
-<script src="killsw.js?v=3099-1792196423"></script>
+<!--APEX-ADS-v1-->
 
-<!--hreflang-->
-<link rel="alternate" hreflang="en" href="https://alkazmybwhwr-dot.github.io/en/">
-<link rel="alternate" hreflang="es" href="https://alkazmybwhwr-dot.github.io/es/">
-<link rel="alternate" hreflang="fr" href="https://alkazmybwhwr-dot.github.io/fr/">
-<link rel="alternate" hreflang="id" href="https://alkazmybwhwr-dot.github.io/id/">
-<link rel="alternate" hreflang="pt" href="https://alkazmybwhwr-dot.github.io/pt/">
-<link rel="alternate" hreflang="tr" href="https://alkazmybwhwr-dot.github.io/tr/">
-<link rel="alternate" hreflang="ar" href="https://alkazmybwhwr-dot.github.io/ar/">
-<link rel="alternate" hreflang="x-default" href="https://alkazmybwhwr-dot.github.io/">
-<!--/hreflang-->
-
-
-
-
-
-
-
-
-
-
-<style id="ch-ads-css">.ch-ad{min-height:62px;display:flex;align-items:center;justify-content:center;margin:14px auto;max-width:100%;overflow:hidden}</style><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>اربح · CineHub 3099</title>
-<style>:root{--bg:#0a0e1a;--p:#111827;--b:#1e2a44;--t:#e8f6ff;--m:#8aa0c0;--a:#4dd0e1;--g:#22c55e}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:15px/1.9 system-ui,Tahoma;padding:16px}
-.wrap{max-width:760px;margin:auto}.card{background:var(--p);border:1px solid var(--b);border-radius:14px;padding:16px;margin:12px 0}
-h1{font-size:20px}.big{font-size:32px;font-weight:800;color:var(--a)}
-.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(120px,1fr))}
-.k{font-size:20px;font-weight:700;color:var(--a)}.l{color:var(--m);font-size:12px}
-button{background:var(--a);color:#04121a;border:0;border-radius:10px;padding:11px 16px;font-weight:800;cursor:pointer;margin:4px 0}
-button.alt{background:#1b2740;color:var(--t);border:1px solid var(--b)}
-a{color:var(--a)}code{background:#0d1424;padding:3px 8px;border-radius:6px;word-break:break-all}
-.row{display:flex;gap:8px;flex-wrap:wrap}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"CineHub 3099","url":"https://alkazmybwhwr-dot.github.io/","potentialAction":{"@type":"SearchAction","target":"https://alkazmybwhwr-dot.github.io/movies.html?q={q}"}}</script><meta property="og:type" content="website"><meta property="og:site_name" content="CineHub 3099"><meta property="og:locale" content="ar_YE"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" type="application/rss+xml" href="/rss.xml"><link rel="stylesheet" href="/theme.css">
-
-</head><body>
-<div class="ch-ad" data-ad="top"></div><div class="wrap">
-<h1>مركز الأرباح</h1>
-<div class="card"><div class="l">رصيدك الحقيقي القابل للسحب</div><div class="big" id="bal">$0.0000</div>
-  <div class="grid" style="margin-top:10px">
-    <div><div class="k" id="imp">0</div><div class="l">ظهور إعلاني</div></div>
-    <div><div class="k" id="bon">$0</div><div class="l">مكافآت</div></div>
-    <div><div class="k" id="refe">$0</div><div class="l">عمولة إحالة</div></div>
-  </div>
-  <p class="l">حصتك 70% من عائد الإعلانات + 100% من المكافآت.</p></div>
-
-<div class="card"><h3>1) افتح رابط المكافأة (CPA)</h3>
-  <p class="l">تُدفع عمولة عند كل تسجيل/إكمال عبر Smartlink.</p>
-  <button onclick="CHRev.openSmartlink()">افتح الرابط المموّل</button></div>
-
-<div class="card"><h3>2) مشاهدة مموّلة</h3>
-  <p class="l">افتح رابطاً مموّلاً واحصل على مكافأة فورية.</p>
-  <button class="alt" onclick="watch()">شاهد واربح</button> <span id="wm" class="l"></span></div>
-
-<div class="card"><h3>3) استبيانات وعروض (عمولة لكل إكمال)</h3>
-  <div class="row" id="owbtns"></div><div id="ow"></div></div>
-
-<div class="card"><h3>4) عمولات الشركات (لكل تسجيل)</h3>
-  <div class="row" id="affs"></div></div>
-
-<div class="card"><h3>5) الإحالة — 10% من أرباح من تدعوهم</h3>
-  <p>رابطك: <code id="rlink"></code></p>
-  <button class="alt" onclick="copyr()">نسخ الرابط</button>
-  <p class="l">أرباح إحالاتك: <b id="rearn">$0</b></p></div>
-
-<p class="l"><a href="/withdraw.html">السحب إلى بنك الكريمي</a> · <a href="/subs.html">الاشتراكات</a></p>
-</div>
-<script src="/auth.js" defer></script><script src="/ledger.js" defer></script>
-<script src="/ref.js" defer></script><script src="/rev.js" defer></script>
-<script>
-function boot(){
-  tick();
-  CHRev.ready(function(c){
-    document.getElementById('owbtns').innerHTML=(c.offerwalls||[]).map(function(o){
-      return '<button class="alt" onclick="ow(\''+o.id+'\')">'+o.label+'</button>'}).join('')||'<span class="l">لم تُضبط بعد</span>';
-    document.getElementById('affs').innerHTML=(c.affiliates||[]).map(function(a){
-      return a.url?'<a href="'+a.url+'" target="_blank" rel="noopener" onclick="CHRev.click(\''+a.id+'\',this.href)"><button class="alt">'+a.label+' — '+a.note+'</button></a>':'<span class="l">'+a.label+'</span>'}).join('');
-  });
-  document.getElementById('rlink').textContent=CHRef.link();
-  document.getElementById('rearn').textContent='$'+CHRef.earned().toFixed(4);
-}
-document.readyState==='loading'?addEventListener('DOMContentLoaded',boot):boot();
-document.addEventListener('ch:ledger',tick);
-function tick(){ var o=CHLedger.read();
-  document.getElementById('bal').textContent='$'+CHLedger.balance().toFixed(4);
-  document.getElementById('imp').textContent=o.imp||0;
-  document.getElementById('bon').textContent='$'+(o.bonus||0).toFixed(4); }
-function ow(id){ CHRev.offerwall(document.getElementById('ow'),id); }
-function watch(){ CHRev.watch(function(u){ document.getElementById('wm').textContent=u?'✓ مكافأة أُضيفت':'لا روابط'; }); }
-function copyr(){ CHRef.copy(); document.getElementById('wm').textContent='✓ نُسخ'; }
-</script><div class="ch-ad" data-ad="mid"></div>
-<script src="/captcha.js" defer></script>
-<script src="/payout.js" defer></script>
-<script src="/ads.js" defer></script>
-<script src="/engage.js" defer></script>
-<script src="/live-earnings.js" defer></script>
-<script src="/push.js" defer></script>
-<script src="/nav.js" defer></script>
-<script src="/viral.js" defer></script>
-<script src="/share.js" defer></script>
-<script src="/ticker.js" defer></script>
-<script src="/app.js" defer></script>
-<script src="/linkgo.js" defer></script>
-<script>if(!document.querySelector('a[href="/plan.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/start.html">ابدأ</a><a href="/plan.html">الخطة</a>')}</script>
-<script src="/authtoken.js" defer></script>
-<script src="/upsell.js" defer></script>
-<script src="/hero.js" defer></script>
-<script src="/beacon.js" defer></script>
-<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
-<script src="/cloud.js" defer></script>
-<script src="/comments.js" defer></script>
-<script src="/owner.js" defer></script>
-
-
-<script src="boot.js?v=3099-1792196423" defer></script>
-<script src="track.js?v=3099-1792196423" defer></script>
-<script src="ads.js?v=3099-1792197840" defer></script>
-
-<script src="auto.js?v=3099-1792258952" defer></script>
-<script src="hits.js" defer></script></body></html>
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<script src="/config.js"></script>
+<a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a><div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>

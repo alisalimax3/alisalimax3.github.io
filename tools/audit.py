@@ -1,50 +1,56 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""فحص كامل: نحوي + روابط محلية + JSON + إحصاء — ويصلح ما يمكن إصلاحه"""
-import os, re, json, sys, subprocess, shutil, datetime
-sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
-import jsrepair
-ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-os.chdir(ROOT)
-SKIP={".git",".state",".check","node_modules","p","sites",".github"}
-rep={"time":datetime.datetime.now(datetime.timezone.utc).isoformat(),"js":[],"json":[],"links":[],"missing":[],"counts":{}}
-files=[]
-for d,dirs,fs in os.walk("."):
-    dirs[:]=[x for x in dirs if x not in SKIP]
-    for f in fs: files.append(os.path.join(d,f)[2:])
-rep["counts"]["files"]=len(files)
-rep["counts"]["html"]=sum(1 for f in files if f.endswith((".html",".htm")))
-rep["counts"]["json"]=sum(1 for f in files if f.endswith(".json"))
-
-# JSON
-for f in files:
-    if not f.endswith(".json"): continue
-    try: json.load(open(f,encoding="utf-8"))
-    except Exception as e: rep["json"].append({"file":f,"error":str(e)})
-
-# JS نحوي + إصلاح
-for f in files:
-    if f.endswith((".html",".htm")):
-        try: rep["js"]+=jsrepair.fix_file(f)
-        except Exception as e: rep["js"].append({"file":f,"status":"خطأ","log":[str(e)]})
-
-# روابط محلية
-LOCAL=re.compile(r"""(?:href|src)\s*=\s*["']([^"'#?]+)""",re.I)
-present={f for f in files}
-for f in files:
-    if not f.endswith((".html",".htm")): continue
-    h=open(f,encoding="utf-8",errors="replace").read()
-    for m in LOCAL.finditer(h):
-        u=m.group(1).strip()
-        if u.startswith(("http:","https:","//","data:","mailto:","tel:","javascript:")) or u=="": continue
-        if u.startswith("/"): u=u[1:]
-        if u not in present: rep["missing"].append({"page":f,"ref":u})
-
-bad_js=[x for x in rep["js"] if x["status"]!="سليم"]
-rep["counts"]["inline_blocks"]=len(rep["js"])
-rep["counts"]["broken_js"]=len(bad_js)
-json.dump(rep,open("audit-report.json","w"),ensure_ascii=False,indent=1)
-print("ملفات:",rep["counts"]["files"],"| html:",rep["counts"]["html"],"| كتل js:",rep["counts"]["inline_blocks"],"| مكسورة:",rep["counts"]["broken_js"])
-print("json معطوب:",len(rep["json"]),"| روابط محلية مفقودة:",len(rep["missing"]))
-for x in bad_js: print("   ",x["file"],x["status"]," | ".join(x["log"]))
-for x in rep["missing"][:10]: print("    رابط مفقود:",x["ref"],"في",x["page"])
+import importlib.util, os, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core, registry, ledger, mailbox, cdp
+OK=[];BAD=[];WARN=[]
+def h(t): print("\n%s%s══ %s ══%s" % (core.C['b'],core.C['info'],t,core.C['x']))
+def g(m): OK.append(m); core.log(m,"ok")
+def b(m): BAD.append(m); core.log(m,"err")
+def w(m): WARN.append(m); core.log(m,"warn")
+def ck(c,a,z): g(a) if c else b(z)
+def main():
+    print("\n╔══════════════════════════════════════════════╗\n║   🔬 CineHub — فحص شامل                       ║\n╚══════════════════════════════════════════════╝")
+    h("1. الملفات")
+    for f in ("core.py","cdp.py","inject.js","registry.py","autoreg.py","agent.py","ledger.py",
+              "payout.py","mailbox.py","captcha.py","repo.py","addkey.py","watch.py","autoflow.py","verify_keys.py","audit.py","selftest.py"):
+        p = core.BASE/"tools"/f
+        if not p.exists(): b("مفقود: %s" % f); continue
+        if f.endswith(".py"):
+            r = subprocess.run([sys.executable,"-m","py_compile",str(p)],capture_output=True)
+            ck(not r.returncode, "سليم: %s" % f, "مكسور: %s" % f)
+        else: g("موجود: %s" % f)
+    h("2. الاعتماديات")
+    for m,p in {"websocket":"websocket-client","requests":"requests","bs4":"beautifulsoup4"}.items():
+        ck(importlib.util.find_spec(m) is not None, "%s مثبّت" % p, "%s مفقود" % p)
+    h("3. المتصفح")
+    e = core.find_chromium()
+    ck(bool(e), "chromium: %s" % core.chromium_version(), "chromium مفقود")
+    h("4. الشاشة")
+    if core.x11_alive(): g("X يعمل — وضع مرئي متاح")
+    elif core.env("DISPLAY"): w("DISPLAY مضبوط لكن X ميت — headless")
+    else: w("headless (طبيعي ويعمل)")
+    h("5. السجل")
+    s = registry.stats()
+    g("مصادر: %d | بمفاتيح: %d | ناقص: %d" % (s["total"],s["with_key"],s["pending"]))
+    h("6. الهوية والمفاتيح")
+    pr = core.load("data/profile.json")
+    for k in ("first","last","username","email","country","site"): ck(bool(pr.get(k)), "%s=%s"%(k,pr.get(k,"")), "ناقص: %s"%k)
+    mp = (core.env("MAIL_APP_PASS") or "")
+    ck(len(mp)==16, "MAIL_APP_PASS صحيح (16)", "MAIL_APP_PASS طوله %d (الصحيح 16)" % len(mp))
+    h("7. البريد")
+    okm,msg = mailbox.test(); ck(okm, msg, msg)
+    h("8. المستودع")
+    import repo
+    g("remote: %s" % (repo.remote() or "غير مضبوط"))
+    h("9. اختبار متصفح + تعبئة حقيقية")
+    import selftest
+    ok = selftest.browser_and_form()
+    ck(ok, "المتصفح + التعبئة يعملان", "فشل اختبار المتصفح")
+    h("الخلاصة")
+    core.log("ناجح %d | تحذير %d | عطل %d" % (len(OK),len(WARN),len(BAD)), "err" if BAD else ("warn" if WARN else "ok"))
+    if BAD:
+        print("\nيجب إصلاح:"); [print("  %d. %s"%(i,m)) for i,m in enumerate(BAD,1)]
+    if WARN:
+        print("\nاختياري:"); [print("  %d. %s"%(i,m)) for i,m in enumerate(WARN,1)]
+    return 0 if not BAD else 2
+if __name__=="__main__": sys.exit(main())

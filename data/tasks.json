@@ -1,0 +1,520 @@
+{
+ "runs": 26,
+ "log": [
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 3.7,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 4.2,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.7,
+   "msg": "✓ money.json | real views=0 hits=0 live=3 | est $0.0"
+  },
+  {
+   "t": "روابط النشر",
+   "ok": true,
+   "s": 0.8,
+   "msg": "✓ links.html · 80 رابط جاهز"
+  },
+  {
+   "t": "ترويج QR",
+   "ok": true,
+   "s": 0.7,
+   "msg": "✓ promote.html (60)"
+  },
+  {
+   "t": "إشعار ping",
+   "ok": true,
+   "s": 9.5,
+   "msg": "✓ إشعال: pingomatic=200, twingly=HTTP Error 403: Forbidden, indexnow=HTTP Error 400: Bad Request, wayback=HTTP"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 7.7,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 4.6,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ money.json | real views=0 hits=0 live=3 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 2.2,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": false,
+   "s": 0.7,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 6.0,
+   "msg": "✓ أُرسل 500 رابط جديد (كود HTTP Error 400: Bad Request) · المتبقي 14271"
+  },
+  {
+   "t": "محرك إيرادات",
+   "ok": false,
+   "s": 1.0,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 5.1,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.3,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ money.json | real views=0 hits=0 live=3 | est $0.0"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 36.7,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 22.0,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.6,
+   "msg": "✓ money.json | real views=0 hits=0 live=3 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 6.9,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": false,
+   "s": 0.8,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 10.0,
+   "msg": "✓ أُرسل 500 رابط جديد (كود <urlopen error [Errno 7] No ad) · المتبقي 14771"
+  },
+  {
+   "t": "روابط النشر",
+   "ok": true,
+   "s": 2.3,
+   "msg": "✓ links.html · 80 رابط جاهز"
+  },
+  {
+   "t": "ترويج QR",
+   "ok": true,
+   "s": 1.0,
+   "msg": "✓ promote.html (60)"
+  },
+  {
+   "t": "إشعار ping",
+   "ok": true,
+   "s": 32.9,
+   "msg": "✓ إشعال: pingomatic=200, twingly=HTTP Error 403: Forbidden, indexnow=HTTP Error 400: Bad Request, wayback=<url"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 13.2,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.5,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.8,
+   "msg": "✓ money.json | real views=0 hits=0 live=2 | est $0.0"
+  },
+  {
+   "t": "أرشفة",
+   "ok": true,
+   "s": 17.2,
+   "msg": "✓ أُرشف 0 صفحة (المجموع 4)"
+  },
+  {
+   "t": "شبكات إباحية",
+   "ok": true,
+   "s": 0.9,
+   "msg": "✓ ads-adult.json: 26 شبكة (1 مفعّلة) · حُقن في 328 صفحة"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 15.5,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.4,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ money.json | real views=0 hits=0 live=3 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 6.7,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": false,
+   "s": 0.4,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 12.7,
+   "msg": "✓ أُرسل 500 رابط جديد (كود HTTP Error 400: Bad Request) · المتبقي 14266"
+  },
+  {
+   "t": "SEO تدريجي",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ SEO: 0 صفحة (المجموع 0 من 0)"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 3.2,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.7,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.5,
+   "msg": "✓ money.json | real views=0 hits=0 live=2 | est $0.0"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 3.0,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.2,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.7,
+   "msg": "✓ money.json | real views=0 hits=0 live=1 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 1.4,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": false,
+   "s": 0.9,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 3.7,
+   "msg": "✓ أُرسل 500 رابط جديد (كود HTTP Error 400: Bad Request) · المتبقي 14766"
+  },
+  {
+   "t": "روابط النشر",
+   "ok": true,
+   "s": 1.2,
+   "msg": "✓ links.html · 80 رابط جاهز"
+  },
+  {
+   "t": "ترويج QR",
+   "ok": true,
+   "s": 0.8,
+   "msg": "✓ promote.html (60)"
+  },
+  {
+   "t": "إشعار ping",
+   "ok": true,
+   "s": 2.5,
+   "msg": "✓ إشعال: pingomatic=200, twingly=HTTP Error 403: Forbidden, indexnow=HTTP Error 400: Bad Request, wayback=<url"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 8.1,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 5.4,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.4,
+   "msg": "✓ money.json | real views=0 hits=0 live=0 | est $0.0"
+  },
+  {
+   "t": "سجل المنصات",
+   "ok": false,
+   "s": 1.0,
+   "msg": "python3: can't open file '/data/data/com.termux/files/home/cinehub3099/tools/platforms_page.py': [Errno 2] No "
+  },
+  {
+   "t": "hubs",
+   "ok": true,
+   "s": 1.7,
+   "msg": "✓ movies/series/adult + feed.xml"
+  },
+  {
+   "t": "ترويج إباحي",
+   "ok": false,
+   "s": 1.3,
+   "msg": "AttributeError: module 'core' has no attribute 'lock'"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 9.7,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 2.3,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.4,
+   "msg": "✓ money.json | real views=0 hits=0 live=1 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 1.4,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": false,
+   "s": 0.6,
+   "msg": "AttributeError: module 'core' has no attribute 'has'"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 3.2,
+   "msg": "✓ أُرسل 500 رابط جديد (كود 200) · المتبقي 15259"
+  },
+  {
+   "t": "سجل الدخل",
+   "ok": false,
+   "s": 0.4,
+   "msg": "ValueError: unsupported format character ';' (0x3b) at index 377"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 5.3,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 1.4,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ money.json | real views=0 hits=0 live=1 | est $0.0"
+  },
+  {
+   "t": "عدّاد فوري",
+   "ok": true,
+   "s": 5.1,
+   "msg": "✓ عدّاد حقيقي: 0 مشاهدة (3 صفحة)"
+  },
+  {
+   "t": "الخزينة",
+   "ok": true,
+   "s": 9.5,
+   "msg": "✓ wallet.json ($0.0000)"
+  },
+  {
+   "t": "الأموال",
+   "ok": true,
+   "s": 0.4,
+   "msg": "✓ money.json | real views=0 hits=0 live=1 | est $0.0"
+  },
+  {
+   "t": "زيارات حقيقية",
+   "ok": true,
+   "s": 8.3,
+   "msg": ""
+  },
+  {
+   "t": "اللوحة",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ owner.html · مستلم=$0.00 · فجوة=$100.00"
+  },
+  {
+   "t": "فهرسة سريعة",
+   "ok": true,
+   "s": 5.1,
+   "msg": "✓ أُرسل 500 رابط جديد (كود HTTP Error 403: Forbidden) · المتبقي 15758"
+  },
+  {
+   "t": "روابط النشر",
+   "ok": true,
+   "s": 0.8,
+   "msg": "✓ links.html · 80 رابط جاهز"
+  },
+  {
+   "t": "ترويج QR",
+   "ok": true,
+   "s": 0.7,
+   "msg": "✓ promote.html (60)"
+  },
+  {
+   "t": "إشعار ping",
+   "ok": true,
+   "s": 26.1,
+   "msg": "✓ إشعال: pingomatic=200, twingly=<urlopen error [Errno 101] Net, indexnow=200, wayback=200"
+  },
+  {
+   "t": "أرشفة",
+   "ok": true,
+   "s": 62.9,
+   "msg": "✓ أُرشف 4 صفحة (المجموع 4)"
+  },
+  {
+   "t": "شبكات إباحية",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ ads-adult.json: 26 شبكة (0 مفعّلة) · حُقن في 328 صفحة"
+  },
+  {
+   "t": "فحص إعلانات",
+   "ok": true,
+   "s": 0.3,
+   "msg": "✓ يعمل: لا شيء · فُحص: 1"
+  },
+  {
+   "t": "توسيع",
+   "ok": true,
+   "s": 1.3,
+   "msg": "✓ 328 صفحة جديدة · adult 328 · m 3000 · hubs · sitemap-index"
+  },
+  {
+   "t": "وكيل تسجيل",
+   "ok": false,
+   "s": 0.3,
+   "msg": "AttributeError: module 'secrets' has no attribute 'choice' (consider renaming '/data/data/com.termux/files/hom"
+  },
+  {
+   "t": "خزينة",
+   "ok": true,
+   "s": 0.3,
+   "msg": "السياسة: الوكيل لا يصرف=False · المالك وحده=True · حصة المالك من مكافآت المستخدمين=20%"
+  }
+ ],
+ "last": {
+  "زيارات حقيقية": 1792371998.0729132,
+  "عدّاد الصفحات": 1792352016.2788625,
+  "الخزينة": 1792373053.1218336,
+  "الأموال": 1792373053.1218336,
+  "اللوحة": 1792371998.0729132,
+  "روابط النشر": 1792373053.1218336,
+  "سجل الدخل": 1792362928.7212777,
+  "إصلاح الروابط": 1792352016.2788625,
+  "فهرسة وإشعار": 1792352016.2788625,
+  "عدّاد فوري": 1792373053.1218336,
+  "فهرسة سريعة": 1792371998.0729132,
+  "ترويج QR": 1792373053.1218336,
+  "أرشفة": 1792368108.9105587,
+  "سجل المنصات": 1792363926.0930767,
+  "hubs": 1792363926.0930767,
+  "SEO تدريجي": 1792366973.6464913,
+  "إشعار ping": 1792373053.1218336,
+  "إثبات": 1792352334.886591,
+  "تحقق بصمات": 1792352334.886591,
+  "قسم إباحي": 1792352468.8878276,
+  "شبكات إباحية": 1792368108.9105587,
+  "ترويج إباحي": 1792363926.0930767,
+  "سجل إباحي": 1792352468.8878276,
+  "محرك إيرادات": 1792371998.0729132,
+  "اكتشاف مزودين": 1792357331.308891,
+  "نمو": 1792357331.308891,
+  "مكافآت": 1792357331.308891,
+  "تحقق شامل": 1792357331.308891,
+  "فحص إعلانات": 1792359804.3013146,
+  "توسيع": 1792359804.3013146,
+  "وكيل تسجيل": 1792359804.3013146,
+  "خزينة": 1792359804.3013146
+ },
+ "at": "2026-10-19 04:24"
+}

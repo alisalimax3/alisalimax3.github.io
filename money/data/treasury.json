@@ -1,0 +1,10 @@
+{
+  "updated": "2026-10-22T18:15:51.033075Z",
+  "lifetime_usd": 5.15,
+  "paid_out_usd": 0,
+  "available_usd": 5.15,
+  "onchain_usd": 0.0,
+  "threshold_usd": 10.0,
+  "ready_to_payout": false,
+  "entries": 25
+}

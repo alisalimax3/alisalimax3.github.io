@@ -1,0 +1,28 @@
+{
+ "rounds": 0,
+ "sites": {
+  "A-ADS": {
+   "tries": 0,
+   "status": "done",
+   "value": "3099",
+   "last": "2026-10-19 00:42"
+  },
+  "ADSTERRA_ZONE": {
+   "tries": 1,
+   "status": "done",
+   "at": "2026-10-19 01:04",
+   "value": "7369824"
+  },
+  "CRAKREVENUE_REF": {
+   "tries": 1,
+   "status": "done",
+   "at": "2026-10-19 01:18",
+   "value": "https://www.crakrevenue.com/signup"
+  },
+  "EXOCLICK_ZONE": {
+   "tries": 1,
+   "status": "todo",
+   "at": "2026-10-19 01:18"
+  }
+ }
+}

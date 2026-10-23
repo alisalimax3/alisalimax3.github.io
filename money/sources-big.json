@@ -1,0 +1,7435 @@
+[
+ {
+  "id": "tmdb",
+  "cat": "movie",
+  "name": "TMDB",
+  "url": "https://www.themoviedb.org/settings/api",
+  "env": [
+   "TMDB_API_KEY"
+  ],
+  "note": "كتالوج أفلام عالمي — مفتاح فوري",
+  "payout": "-"
+ },
+ {
+  "id": "omdb",
+  "cat": "movie",
+  "name": "OMDb",
+  "url": "https://www.omdbapi.com/apikey.aspx",
+  "env": [
+   "OMDB_API_KEY"
+  ],
+  "note": "تقييمات IMDb/Rotten Tomatoes",
+  "payout": "-"
+ },
+ {
+  "id": "yts",
+  "cat": "movie",
+  "name": "YTS Movies",
+  "url": "-",
+  "env": [
+   "YTS_KEY"
+  ],
+  "note": "77,929 فيلم + تورنت — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "watchmode",
+  "cat": "movie",
+  "name": "Watchmode",
+  "url": "https://api.watchmode.com/requestApiKey",
+  "env": [
+   "WATCHMODE_API_KEY"
+  ],
+  "note": "أين يُشاهد الفيلم عبر 200 منصة",
+  "payout": "-"
+ },
+ {
+  "id": "tvmaze",
+  "cat": "series",
+  "name": "TVmaze",
+  "url": "-",
+  "env": [
+   "TVMAZE_KEY"
+  ],
+  "note": "مسلسلات كاملة — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "trakt",
+  "cat": "series",
+  "name": "Trakt",
+  "url": "https://trakt.tv/oauth/applications",
+  "env": [
+   "TRAKT_CLIENT_ID"
+  ],
+  "note": "ترشيحات وقوائم مشاهدة",
+  "payout": "-"
+ },
+ {
+  "id": "archive",
+  "cat": "movie",
+  "name": "Archive.org",
+  "url": "-",
+  "env": [
+   "ARCHIVE_KEY"
+  ],
+  "note": "أفلام ملك عام كاملة — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "exoclick",
+  "cat": "adult",
+  "name": "ExoClick",
+  "url": "https://www.exoclick.com/signup/",
+  "env": [
+   "EXOCLICK_API_TOKEN",
+   "EXOCLICK_ZONE"
+  ],
+  "note": "اختر Publisher. البالغين",
+  "payout": "USDT $20"
+ },
+ {
+  "id": "juicyads",
+  "cat": "adult",
+  "name": "JuicyAds",
+  "url": "https://www.juicyads.com/register",
+  "env": [
+   "JUICYADS_API_KEY",
+   "JUICYADS_ZONE"
+  ],
+  "note": "بانرات وبوب-أندر للبالغين",
+  "payout": "أسبوعي"
+ },
+ {
+  "id": "trafficstars",
+  "cat": "adult",
+  "name": "TrafficStars",
+  "url": "https://www.trafficstars.com/signup",
+  "env": [
+   "TRAFFICSTARS_API_KEY"
+  ],
+  "note": "CPC/CPM للبالغين",
+  "payout": "USDT/Wire"
+ },
+ {
+  "id": "trafficjunky",
+  "cat": "adult",
+  "name": "TrafficJunky",
+  "url": "https://www.trafficjunky.com/publishers",
+  "env": [
+   "TRAFFICJUNKY_API_KEY"
+  ],
+  "note": "أعلى eCPM للبالغين",
+  "payout": "Wire"
+ },
+ {
+  "id": "eroads",
+  "cat": "adult",
+  "name": "EroAdvertising",
+  "url": "https://www.eroadvertising.com/signup",
+  "env": [
+   "EROADS_API_KEY"
+  ],
+  "note": "بوب-أندر للبالغين",
+  "payout": "Wire"
+ },
+ {
+  "id": "lospollos",
+  "cat": "adult",
+  "name": "LosPollos",
+  "url": "https://lospollos.com/signup",
+  "env": [
+   "LOSPOLLOS_API_KEY"
+  ],
+  "note": "SmartLink CPA عالي",
+  "payout": "$100"
+ },
+ {
+  "id": "chaturbate",
+  "cat": "adult",
+  "name": "Chaturbate",
+  "url": "https://chaturbate.com/affiliates/",
+  "env": [
+   "CHATURBATE_USERNAME",
+   "CHATURBATE_CAMPAIGN"
+  ],
+  "note": "20% مدى الحياة",
+  "payout": "Wire"
+ },
+ {
+  "id": "crakrevenue",
+  "cat": "adult",
+  "name": "CrakRevenue",
+  "url": "https://www.crakrevenue.com",
+  "env": [
+   "CRACKREVENUE_API_KEY"
+  ],
+  "note": "Stripchat حتى $168/بيع",
+  "payout": "USDT"
+ },
+ {
+  "id": "eporner",
+  "cat": "adult",
+  "name": "Eporner API",
+  "url": "-",
+  "env": [
+   "EPORNER_KEY"
+  ],
+  "note": "5,521 فيديو + Embed — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "adsterra",
+  "cat": "ads",
+  "name": "Adsterra",
+  "url": "https://publishers.adsterra.com/signup",
+  "env": [
+   "ADSTERRA_API_KEY",
+   "ADSTERRA_PUB_ID"
+  ],
+  "note": "موافقة فورية، بلا حد زيارات",
+  "payout": "$5"
+ },
+ {
+  "id": "adsense",
+  "cat": "ads",
+  "name": "Google AdSense",
+  "url": "https://www.google.com/adsense/start/",
+  "env": [
+   "ADSENSE_CLIENT"
+  ],
+  "note": "يحتاج موافقة موقع",
+  "payout": "$100"
+ },
+ {
+  "id": "monetag",
+  "cat": "ads",
+  "name": "Monetag",
+  "url": "https://monetag.com",
+  "env": [
+   "MONETAG_API_KEY"
+  ],
+  "note": "Pop-under وفيديو",
+  "payout": "$5"
+ },
+ {
+  "id": "propellerads",
+  "cat": "ads",
+  "name": "PropellerAds",
+  "url": "https://publishers.propellerads.com",
+  "env": [
+   "PROPELLERADS_API_KEY"
+  ],
+  "note": "أداء + تطبيقات",
+  "payout": "$5"
+ },
+ {
+  "id": "hilltopads",
+  "cat": "ads",
+  "name": "HilltopAds",
+  "url": "https://hilltopads.com",
+  "env": [
+   "HILLTOPADS_API_KEY"
+  ],
+  "note": "بوب-أندر رخيص",
+  "payout": "$20"
+ },
+ {
+  "id": "clickadu",
+  "cat": "ads",
+  "name": "Clickadu",
+  "url": "https://www.clickadu.com",
+  "env": [
+   "CLICKADU_PUBLISHER_ID"
+  ],
+  "note": "بالغ + عام",
+  "payout": "$10"
+ },
+ {
+  "id": "telegram",
+  "cat": "channel",
+  "name": "Telegram Bot",
+  "url": "https://t.me/BotFather",
+  "env": [
+   "TELEGRAM_BOT_TOKEN",
+   "TG_CHAT_ID"
+  ],
+  "note": "النشر التلقائي والتنبيهات — فوري",
+  "payout": "-"
+ },
+ {
+  "id": "youtube",
+  "cat": "channel",
+  "name": "YouTube Data",
+  "url": "https://console.cloud.google.com",
+  "env": [
+   "YOUTUBE_API_KEY"
+  ],
+  "note": "إحصاءات القناة",
+  "payout": "AdSense"
+ },
+ {
+  "id": "reddit",
+  "cat": "channel",
+  "name": "Reddit",
+  "url": "https://www.reddit.com/prefs/apps",
+  "env": [
+   "REDDIT_CLIENT_ID",
+   "REDDIT_CLIENT_SECRET"
+  ],
+  "note": "نشر مجاني = زيارات",
+  "payout": "-"
+ },
+ {
+  "id": "pinterest",
+  "cat": "channel",
+  "name": "Pinterest",
+  "url": "https://developers.pinterest.com",
+  "env": [
+   "PINTEREST_TOKEN"
+  ],
+  "note": "زيارات بصرية",
+  "payout": "-"
+ },
+ {
+  "id": "stripe",
+  "cat": "pay",
+  "name": "Stripe",
+  "url": "https://dashboard.stripe.com/apikeys",
+  "env": [
+   "STRIPE_SECRET_KEY"
+  ],
+  "note": "بطاقات عالمية",
+  "payout": "بانك"
+ },
+ {
+  "id": "lemonsqueezy",
+  "cat": "pay",
+  "name": "LemonSqueezy",
+  "url": "https://app.lemonsqueezy.com/settings/api",
+  "env": [
+   "LEMONSQUEEZY_API_KEY"
+  ],
+  "note": "منتجات رقمية فورية",
+  "payout": "أسبوعي"
+ },
+ {
+  "id": "gumroad",
+  "cat": "pay",
+  "name": "Gumroad",
+  "url": "https://gumroad.com/settings/advanced",
+  "env": [
+   "GUMROAD_ACCESS_TOKEN"
+  ],
+  "note": "بيع مباشر",
+  "payout": "PayPal"
+ },
+ {
+  "id": "payhip",
+  "cat": "pay",
+  "name": "Payhip",
+  "url": "https://payhip.com",
+  "env": [
+   "PAYHIP_API_KEY"
+  ],
+  "note": "اشتراكات",
+  "payout": "PayPal"
+ },
+ {
+  "id": "buymeacoffee",
+  "cat": "pay",
+  "name": "BuyMeACoffee",
+  "url": "https://www.buymeacoffee.com",
+  "env": [
+   "BUYMEACOFFEE_TOKEN"
+  ],
+  "note": "تبرعات",
+  "payout": "PayPal"
+ },
+ {
+  "id": "kofi",
+  "cat": "pay",
+  "name": "Ko-fi",
+  "url": "https://ko-fi.com",
+  "env": [
+   "KOFI_VERIFICATION_TOKEN"
+  ],
+  "note": "تبرعات",
+  "payout": "PayPal"
+ },
+ {
+  "id": "faucetpay",
+  "cat": "pay",
+  "name": "FaucetPay",
+  "url": "https://faucetpay.io",
+  "env": [
+   "FAUCETPAY_API_KEY"
+  ],
+  "note": "سحب كريبتو صغير",
+  "payout": "فوري"
+ },
+ {
+  "id": "nowpayments",
+  "cat": "pay",
+  "name": "NOWPayments",
+  "url": "https://account.nowpayments.io",
+  "env": [
+   "NOWPAYMENTS_API_KEY"
+  ],
+  "note": "بوابة كريبتو",
+  "payout": "فوري"
+ },
+ {
+  "id": "github",
+  "cat": "infra",
+  "name": "GitHub",
+  "url": "https://github.com/settings/tokens",
+  "env": [
+   "GITHUB_TOKEN",
+   "GITHUB_REPOS"
+  ],
+  "note": "النشر والنسخ الاحتياطي",
+  "payout": "-"
+ },
+ {
+  "id": "cloudflare",
+  "cat": "infra",
+  "name": "Cloudflare",
+  "url": "https://dash.cloudflare.com/profile/api-tokens",
+  "env": [
+   "CLOUDFLARE_API_TOKEN"
+  ],
+  "note": "النفق العام والدومين",
+  "payout": "-"
+ },
+ {
+  "id": "vercel",
+  "cat": "infra",
+  "name": "Vercel",
+  "url": "https://vercel.com/account/tokens",
+  "env": [
+   "VERCEL_TOKEN"
+  ],
+  "note": "استضافة مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "netlify",
+  "cat": "infra",
+  "name": "Netlify",
+  "url": "https://app.netlify.com/user/applications",
+  "env": [
+   "NETLIFY_TOKEN"
+  ],
+  "note": "استضافة مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "supabase",
+  "cat": "infra",
+  "name": "Supabase",
+  "url": "https://app.supabase.com",
+  "env": [
+   "SUPABASE_URL",
+   "SUPABASE_KEY"
+  ],
+  "note": "قاعدة بيانات",
+  "payout": "-"
+ },
+ {
+  "id": "coingecko",
+  "cat": "crypto",
+  "name": "CoinGecko",
+  "url": "-",
+  "env": [
+   "COINGECKO_KEY"
+  ],
+  "note": "أسعار — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "binance",
+  "cat": "crypto",
+  "name": "Binance",
+  "url": "https://www.binance.com/en/my/settings/api-management",
+  "env": [
+   "BINANCE_API_KEY",
+   "BINANCE_API_SECRET"
+  ],
+  "note": "أسعار ورسوم",
+  "payout": "-"
+ },
+ {
+  "id": "openrouter",
+  "cat": "ai",
+  "name": "OpenRouter",
+  "url": "https://openrouter.ai/keys",
+  "env": [
+   "OPENROUTER_API_KEY"
+  ],
+  "note": "نماذج ذكاء للوكيل",
+  "payout": "-"
+ },
+ {
+  "id": "groq",
+  "cat": "ai",
+  "name": "Groq",
+  "url": "https://console.groq.com/keys",
+  "env": [
+   "GROQ_API_KEY"
+  ],
+  "note": "استدلال سريع مجاني",
+  "payout": "-"
+ },
+ {
+  "id": "deepseek",
+  "cat": "ai",
+  "name": "DeepSeek",
+  "url": "https://platform.deepseek.com/api_keys",
+  "env": [
+   "DEEPSEEK_API_KEY"
+  ],
+  "note": "تحليل المحتوى",
+  "payout": "-"
+ },
+ {
+  "id": "captcha",
+  "cat": "infra",
+  "name": "2Captcha",
+  "url": "https://2captcha.com",
+  "env": [
+   "CAPTCHA_API_KEY"
+  ],
+  "note": "حل الكابتشا آليًا",
+  "payout": "-"
+ },
+ {
+  "id": "erapi",
+  "cat": "fx",
+  "name": "ExchangeRate",
+  "url": "-",
+  "env": [
+   "ERAPI_KEY"
+  ],
+  "note": "163 عملة — بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "stripcash",
+  "cat": "adult",
+  "name": "StripCash (Stripchat)",
+  "url": "https://stripcash.com",
+  "env": [
+   "STRIPCASH_API_KEY"
+  ],
+  "note": "$168 لكل بيع",
+  "payout": "$168 PPS"
+ },
+ {
+  "id": "awempire",
+  "cat": "adult",
+  "name": "AWEmpire / LiveJasmin",
+  "url": "https://www.awempire.com",
+  "env": [
+   "AWEMPIRE_API_KEY"
+  ],
+  "note": "35-45% RevShare مدى الحياة",
+  "payout": "35-45%"
+ },
+ {
+  "id": "xlovecash",
+  "cat": "adult",
+  "name": "XloveCash",
+  "url": "https://www.xlovecash.com",
+  "env": [
+   "XLOVECASH_API_KEY"
+  ],
+  "note": "حتى 50% RevShare",
+  "payout": "50%"
+ },
+ {
+  "id": "flirt4free",
+  "cat": "adult",
+  "name": "Flirt4Free",
+  "url": "https://affiliates.flirt4free.com",
+  "env": [
+   "FLIRT4FREE_API_KEY"
+  ],
+  "note": "30%+ RevShare",
+  "payout": "30%"
+ },
+ {
+  "id": "bongacash",
+  "cat": "adult",
+  "name": "BongaCash",
+  "url": "https://bongacash.com",
+  "env": [
+   "BONGACASH_API_KEY"
+  ],
+  "note": "RevShare كام",
+  "payout": "RevShare"
+ },
+ {
+  "id": "adultforce",
+  "cat": "adult",
+  "name": "AdultForce",
+  "url": "https://www.adultforce.com/publishers",
+  "env": [
+   "ADULTFORCE_API_KEY"
+  ],
+  "note": "ديتينج CPA",
+  "payout": "CPA"
+ },
+ {
+  "id": "popads",
+  "cat": "adult",
+  "name": "PopAds",
+  "url": "https://www.popads.net",
+  "env": [
+   "POPADS_API_KEY"
+  ],
+  "note": "فوري بلا مراجعة",
+  "payout": "$5"
+ },
+ {
+  "id": "admaven",
+  "cat": "adult",
+  "name": "AdMaven",
+  "url": "https://ad-maven.com",
+  "env": [
+   "ADMAVEN_API_KEY"
+  ],
+  "note": "Push وInterstitial — فوري",
+  "payout": "$5"
+ },
+ {
+  "id": "clickadilla",
+  "cat": "adult",
+  "name": "ClickAdilla",
+  "url": "https://clickadilla.com",
+  "env": [
+   "CLICKADILLA_API_KEY"
+  ],
+  "note": "CPM/CPA — فوري",
+  "payout": "$10"
+ },
+ {
+  "id": "twinred",
+  "cat": "adult",
+  "name": "TwinRed",
+  "url": "https://twinred.com",
+  "env": [
+   "TWINRED_API_KEY"
+  ],
+  "note": "بوب-أندر وبانر",
+  "payout": "Wire"
+ },
+ {
+  "id": "adxpansion",
+  "cat": "adult",
+  "name": "AdXpansion",
+  "url": "https://adxpansion.com",
+  "env": [
+   "ADXPANSION_API_KEY"
+  ],
+  "note": "بانر وفيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "vidoomy",
+  "cat": "adult",
+  "name": "Vidoomy",
+  "url": "https://vidoomy.com/publishers",
+  "env": [
+   "VIDOOMY_API_KEY"
+  ],
+  "note": "إعلانات فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "adspyglass",
+  "cat": "adult",
+  "name": "AdsPygGlass",
+  "url": "https://www.adspyglass.com/registration",
+  "env": [
+   "ADSPYGLASS_API_KEY"
+  ],
+  "note": "وسيط يجمع كل الشبكات ويدفع",
+  "payout": "PayPal"
+ },
+ {
+  "id": "streamate",
+  "cat": "adult",
+  "name": "Streamate MoneyTree 🇺🇸",
+  "url": "https://affiliate.streamate.com",
+  "env": [
+   "STREAMATE_API_KEY"
+  ],
+  "note": "أمريكا — RevShare مرتفع",
+  "payout": "RevShare"
+ },
+ {
+  "id": "myfreecams",
+  "cat": "adult",
+  "name": "MyFreeCams 🇺🇸",
+  "url": "https://www.myfreecams.com",
+  "env": [
+   "MYFREECAMS_AFFILIATE"
+  ],
+  "note": "أمريكا — RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "raptive",
+  "cat": "ads",
+  "name": "Raptive (AdThrive) 🇺🇸",
+  "url": "https://raptive.com",
+  "env": [
+   "RAPTIVE_TOKEN"
+  ],
+  "note": "أمريكا — RPM $20-40 (يحتاج 100k زيارة)",
+  "payout": "$20-40 RPM"
+ },
+ {
+  "id": "mediavine",
+  "cat": "ads",
+  "name": "Mediavine 🇺🇸",
+  "url": "https://www.mediavine.com",
+  "env": [
+   "MEDIAVINE_TOKEN"
+  ],
+  "note": "أمريكا — RPM $15-25 (يحتاج 50k)",
+  "payout": "$15-25 RPM"
+ },
+ {
+  "id": "snigel",
+  "cat": "ads",
+  "name": "Snigel 🇬🇧",
+  "url": "https://www.snigel.com",
+  "env": [
+   "SNIGEL_TOKEN"
+  ],
+  "note": "بريطانيا — RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "setupad",
+  "cat": "ads",
+  "name": "Setupad 🇱🇻",
+  "url": "https://setupad.com",
+  "env": [
+   "SETUPAD_TOKEN"
+  ],
+  "note": "لاتفيا — RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "xhamster",
+  "cat": "adult",
+  "name": "xHamster 🇨🇾",
+  "url": "https://xhamster.com/affiliates",
+  "env": [
+   "XHAMSTER_AFFILIATE"
+  ],
+  "note": "قبرص — أفلييت موقع تيوب",
+  "payout": "RevShare"
+ },
+ {
+  "id": "aylo",
+  "cat": "adult",
+  "name": "Aylo / Pornhub 🇨🇦",
+  "url": "https://www.pornhub.com/affiliates",
+  "env": [
+   "PH_AFFILIATE"
+  ],
+  "note": "كندا — أفلييت أكبر موقع",
+  "payout": "RevShare"
+ },
+ {
+  "id": "trafficfactory",
+  "cat": "adult",
+  "name": "TrafficFactory 🇨🇦",
+  "url": "https://www.trafficfactory.biz",
+  "env": [
+   "TRAFFICFACTORY_API_KEY"
+  ],
+  "note": "كندا · CPM عالي",
+  "payout": "Wire"
+ },
+ {
+  "id": "ad4game",
+  "cat": "adult",
+  "name": "Ad4Game 🇪🇺",
+  "url": "https://www.ad4game.com",
+  "env": [
+   "AD4GAME_API_KEY"
+  ],
+  "note": "أوروبا · Popunder",
+  "payout": "$10"
+ },
+ {
+  "id": "mobidea",
+  "cat": "adult",
+  "name": "Mobidea 🇵🇹",
+  "url": "https://www.mobidea.com",
+  "env": [
+   "MOBIDEA_API_KEY"
+  ],
+  "note": "البرتغال · CPA",
+  "payout": "CPA"
+ },
+ {
+  "id": "evadav",
+  "cat": "adult",
+  "name": "Evadav",
+  "url": "https://evadav.com",
+  "env": [
+   "EVADAV_API_KEY"
+  ],
+  "note": "Push وPop · فوري",
+  "payout": "$5"
+ },
+ {
+  "id": "rollerads",
+  "cat": "adult",
+  "name": "RollerAds",
+  "url": "https://rollerads.com",
+  "env": [
+   "ROLLERADS_API_KEY"
+  ],
+  "note": "Pop وPush",
+  "payout": "$10"
+ },
+ {
+  "id": "galaksion",
+  "cat": "adult",
+  "name": "Galaksion",
+  "url": "https://galaksion.com",
+  "env": [
+   "GALAKSION_API_KEY"
+  ],
+  "note": "Pop-under",
+  "payout": "$10"
+ },
+ {
+  "id": "kadam",
+  "cat": "adult",
+  "name": "Kadam",
+  "url": "https://kadam.net",
+  "env": [
+   "KADAM_API_KEY"
+  ],
+  "note": "بانر ونيتف",
+  "payout": "$25"
+ },
+ {
+  "id": "adcash",
+  "cat": "adult",
+  "name": "Adcash 🇵🇹",
+  "url": "https://adcash.com",
+  "env": [
+   "ADCASH_API_KEY"
+  ],
+  "note": "البرتغال · Pop وبانر",
+  "payout": "$25"
+ },
+ {
+  "id": "mylead",
+  "cat": "adult",
+  "name": "MyLead 🇩🇪",
+  "url": "https://mylead.global",
+  "env": [
+   "MYLEAD_API_TOKEN"
+  ],
+  "note": "ألمانيا · CPA",
+  "payout": "CPA"
+ },
+ {
+  "id": "cpx",
+  "cat": "adult",
+  "name": "CPX Research",
+  "url": "https://cpx-research.com",
+  "env": [
+   "CPX_APP_ID",
+   "CPX_SECURE_HASH"
+  ],
+  "note": "استبيانات مأجورة",
+  "payout": "CPA"
+ },
+ {
+  "id": "bitlabs",
+  "cat": "adult",
+  "name": "BitLabs",
+  "url": "https://bitlabs.ai",
+  "env": [
+   "BITLABS_TOKEN"
+  ],
+  "note": "استبيانات",
+  "payout": "CPA"
+ },
+ {
+  "id": "ayet",
+  "cat": "adult",
+  "name": "Ayet Studios",
+  "url": "https://ayetstudios.com",
+  "env": [
+   "AYET_API_KEY"
+  ],
+  "note": "استبيانات وعروض",
+  "payout": "CPA"
+ },
+ {
+  "id": "adgate",
+  "cat": "adult",
+  "name": "AdGate Media",
+  "url": "https://adgatemedia.com",
+  "env": [
+   "ADGATE_APP_ID",
+   "ADGATE_SECRET"
+  ],
+  "note": "عروض واستبيانات",
+  "payout": "CPA"
+ },
+ {
+  "id": "zeydoo",
+  "cat": "adult",
+  "name": "Zeydoo",
+  "url": "https://zeydoo.com",
+  "env": [
+   "ZEYDOO_API_KEY"
+  ],
+  "note": "CPA عروض",
+  "payout": "CPA"
+ },
+ {
+  "id": "cpagrip",
+  "cat": "adult",
+  "name": "CPAGrip",
+  "url": "https://www.cpagrip.com",
+  "env": [
+   "CPAGRIP_API_KEY"
+  ],
+  "note": "CPA عروض",
+  "payout": "CPA"
+ },
+ {
+  "id": "cpalead",
+  "cat": "adult",
+  "name": "CPALead",
+  "url": "https://www.cpalead.com",
+  "env": [
+   "CPALEAD_API_KEY"
+  ],
+  "note": "CPA عروض",
+  "payout": "CPA"
+ },
+ {
+  "id": "ogads",
+  "cat": "adult",
+  "name": "OGAds",
+  "url": "https://ogads.com",
+  "env": [
+   "OGADS_API_KEY"
+  ],
+  "note": "عروض جوال",
+  "payout": "CPA"
+ },
+ {
+  "id": "mobipium",
+  "cat": "adult",
+  "name": "Mobipium",
+  "url": "https://mobipium.com",
+  "env": [
+   "MOBIPIUM_API_KEY"
+  ],
+  "note": "Pop وCPA",
+  "payout": "Wire"
+ },
+ {
+  "id": "adsimilis",
+  "cat": "adult",
+  "name": "Adsimilis",
+  "url": "https://adsimilis.com",
+  "env": [
+   "ADSIMILIS_API_KEY"
+  ],
+  "note": "CPA",
+  "payout": "Wire"
+ },
+ {
+  "id": "camsoda",
+  "cat": "adult",
+  "name": "CamSoda 🇺🇸",
+  "url": "https://www.camsoda.com/affiliates",
+  "env": [
+   "CAMSODA_AFFILIATE"
+  ],
+  "note": "أمريكا · RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "imlive",
+  "cat": "adult",
+  "name": "ImLive 🇺🇸",
+  "url": "https://www.imlive.com/affiliates",
+  "env": [
+   "IMLIVE_AFFILIATE"
+  ],
+  "note": "أمريكا · RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "sexier",
+  "cat": "adult",
+  "name": "Sexier",
+  "url": "https://www.sexier.com/affiliate",
+  "env": [
+   "SEXIER_AFFILIATE"
+  ],
+  "note": "RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "xcams",
+  "cat": "adult",
+  "name": "xCams 🇪🇸",
+  "url": "https://www.xcams.com/affiliates",
+  "env": [
+   "XCAMS_AFFILIATE"
+  ],
+  "note": "إسبانيا · RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "skyprivate",
+  "cat": "adult",
+  "name": "SkyPrivate",
+  "url": "https://www.skyprivate.com/affiliates",
+  "env": [
+   "SKYPRIVATE_AFFILIATE"
+  ],
+  "note": "Skype cams",
+  "payout": "RevShare"
+ },
+ {
+  "id": "adcombo",
+  "cat": "adult",
+  "name": "AdCombo",
+  "url": "https://adcombo.com",
+  "env": [
+   "ADCOMBO_API_KEY"
+  ],
+  "note": "CPA وCOD",
+  "payout": "Wire"
+ },
+ {
+  "id": "everad",
+  "cat": "adult",
+  "name": "Everad",
+  "url": "https://everad.com",
+  "env": [
+   "EVERAD_API_KEY"
+  ],
+  "note": "CPA",
+  "payout": "Wire"
+ },
+ {
+  "id": "datalytics",
+  "cat": "adult",
+  "name": "Datalytics",
+  "url": "https://datalytics.com",
+  "env": [
+   "DATALYTICS_API_KEY"
+  ],
+  "note": "CPA ديتينج",
+  "payout": "Wire"
+ },
+ {
+  "id": "cupid",
+  "cat": "adult",
+  "name": "Cupid plc 🇬🇧",
+  "url": "https://www.cupidplc.com/affiliates",
+  "env": [
+   "CUPID_AFFILIATE"
+  ],
+  "note": "بريطانيا · ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "friendfinder",
+  "cat": "adult",
+  "name": "FriendFinder 🇺🇸",
+  "url": "https://www.friendfinder.com/affiliates",
+  "env": [
+   "FRIENDFINDER_AFFILIATE"
+  ],
+  "note": "أمريكا · ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "datinggold",
+  "cat": "adult",
+  "name": "DatingGold 🇺🇸",
+  "url": "https://www.datinggold.com",
+  "env": [
+   "DATINGGOLD_API_KEY"
+  ],
+  "note": "أمريكا · ديتينج CPA",
+  "payout": "CPA"
+ },
+ {
+  "id": "xvideos",
+  "cat": "adult",
+  "name": "XVideos 🇫🇷",
+  "url": "https://www.xvideos.com/affiliates",
+  "env": [
+   "XVIDEOS_AFFILIATE"
+  ],
+  "note": "فرنسا · أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "redtube",
+  "cat": "adult",
+  "name": "RedTube 🇨🇦",
+  "url": "https://www.redtube.com/affiliates",
+  "env": [
+   "REDTUBE_AFFILIATE"
+  ],
+  "note": "كندا · أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "youporn",
+  "cat": "adult",
+  "name": "YouPorn 🇨🇦",
+  "url": "https://www.youporn.com/affiliates",
+  "env": [
+   "YOUPORN_AFFILIATE"
+  ],
+  "note": "كندا · أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "spankwire",
+  "cat": "adult",
+  "name": "SpankWire 🇨🇦",
+  "url": "https://www.spankwire.com",
+  "env": [
+   "SPANKWIRE_AFFILIATE"
+  ],
+  "note": "كندا · أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "beeg",
+  "cat": "adult",
+  "name": "Beeg",
+  "url": "https://beeg.com",
+  "env": [
+   "BEEG_AFFILIATE"
+  ],
+  "note": "أفلييت تيوب",
+  "payout": "RevShare"
+ },
+ {
+  "id": "txxx",
+  "cat": "adult",
+  "name": "TXXX",
+  "url": "https://txxx.com",
+  "env": [
+   "TXXX_AFFILIATE"
+  ],
+  "note": "أفلييت تيوب",
+  "payout": "RevShare"
+ },
+ {
+  "id": "hqporner",
+  "cat": "adult",
+  "name": "HQPorner",
+  "url": "https://hqporner.com",
+  "env": [
+   "HQPORNER_AFFILIATE"
+  ],
+  "note": "أفلييت تيوب",
+  "payout": "RevShare"
+ },
+ {
+  "id": "movieposterdb",
+  "cat": "movie",
+  "name": "MoviePosterDB",
+  "url": "https://www.movieposterdb.com/api",
+  "env": [
+   "MOVIEPOSTERDB_KEY"
+  ],
+  "note": "بوسترات بدقة عالية",
+  "payout": "-"
+ },
+ {
+  "id": "justwatch",
+  "cat": "movie",
+  "name": "JustWatch (RapidAPI)",
+  "url": "https://rapidapi.com",
+  "env": [
+   "RAPIDAPI_KEY"
+  ],
+  "note": "توفر المنصات لكل بلد",
+  "payout": "-"
+ },
+ {
+  "id": "imdbapi",
+  "cat": "movie",
+  "name": "IMDb (RapidAPI)",
+  "url": "https://rapidapi.com",
+  "env": [
+   "RAPIDAPI_KEY2"
+  ],
+  "note": "بيانات IMDb",
+  "payout": "-"
+ },
+ {
+  "id": "simkl",
+  "cat": "series",
+  "name": "Simkl",
+  "url": "https://simkl.com/developers",
+  "env": [
+   "SIMKL_CLIENT_ID"
+  ],
+  "note": "أنمي ومسلسلات",
+  "payout": "-"
+ },
+ {
+  "id": "thetvdb",
+  "cat": "series",
+  "name": "TheTVDB",
+  "url": "https://thetvdb.com/api-information",
+  "env": [
+   "THETVDB_API_KEY"
+  ],
+  "note": "قاعدة مسلسلات",
+  "payout": "-"
+ },
+ {
+  "id": "fanart",
+  "cat": "series",
+  "name": "Fanart.tv",
+  "url": "https://fanart.tv/get-an-api-key/",
+  "env": [
+   "FANART_API_KEY"
+  ],
+  "note": "صور فنية",
+  "payout": "-"
+ },
+ {
+  "id": "jikan",
+  "cat": "series",
+  "name": "Jikan MyAnimeList",
+  "url": "-",
+  "env": [
+   "JIKAN_KEY"
+  ],
+  "note": "أنمي · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "anilist",
+  "cat": "series",
+  "name": "AniList",
+  "url": "-",
+  "env": [
+   "ANILIST_KEY"
+  ],
+  "note": "أنمي GraphQL · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "kitsu",
+  "cat": "series",
+  "name": "Kitsu",
+  "url": "-",
+  "env": [
+   "KITSU_KEY"
+  ],
+  "note": "أنمي · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "wikipedia",
+  "cat": "series",
+  "name": "Wikipedia API",
+  "url": "-",
+  "env": [
+   "WIKI_KEY"
+  ],
+  "note": "بيانات وملخصات · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "facebook",
+  "cat": "channel",
+  "name": "Facebook Page",
+  "url": "https://developers.facebook.com",
+  "env": [
+   "FB_PAGE_TOKEN"
+  ],
+  "note": "صفحة ونشر",
+  "payout": "-"
+ },
+ {
+  "id": "instagram",
+  "cat": "channel",
+  "name": "Instagram Graph",
+  "url": "https://developers.facebook.com",
+  "env": [
+   "IG_TOKEN"
+  ],
+  "note": "منشورات وستوري",
+  "payout": "-"
+ },
+ {
+  "id": "tiktok",
+  "cat": "channel",
+  "name": "TikTok",
+  "url": "https://developers.tiktok.com",
+  "env": [
+   "TIKTOK_ACCESS_TOKEN"
+  ],
+  "note": "مقاطع قصيرة = زيارات",
+  "payout": "-"
+ },
+ {
+  "id": "twitter",
+  "cat": "channel",
+  "name": "X / Twitter",
+  "url": "https://developer.twitter.com",
+  "env": [
+   "TWITTER_BEARER"
+  ],
+  "note": "نشر آلي",
+  "payout": "-"
+ },
+ {
+  "id": "discord",
+  "cat": "channel",
+  "name": "Discord Webhook",
+  "url": "https://discord.com/developers/applications",
+  "env": [
+   "DISCORD_WEBHOOK"
+  ],
+  "note": "بث التنبيهات",
+  "payout": "-"
+ },
+ {
+  "id": "medium",
+  "cat": "channel",
+  "name": "Medium",
+  "url": "https://medium.com/me/settings",
+  "env": [
+   "MEDIUM_TOKEN"
+  ],
+  "note": "مقالات = زيارات",
+  "payout": "-"
+ },
+ {
+  "id": "devto",
+  "cat": "channel",
+  "name": "Dev.to",
+  "url": "https://dev.to/settings/extensions",
+  "env": [
+   "DEVTO_API_KEY"
+  ],
+  "note": "مقالات تقنية",
+  "payout": "-"
+ },
+ {
+  "id": "hashnode",
+  "cat": "channel",
+  "name": "Hashnode",
+  "url": "https://hashnode.com/settings/developer",
+  "env": [
+   "HASHNODE_TOKEN"
+  ],
+  "note": "مدونة برمجية",
+  "payout": "-"
+ },
+ {
+  "id": "tumblr",
+  "cat": "channel",
+  "name": "Tumblr",
+  "url": "https://www.tumblr.com/oauth/apps",
+  "env": [
+   "TUMBLR_TOKEN"
+  ],
+  "note": "بالغين وفنون",
+  "payout": "-"
+ },
+ {
+  "id": "bluesky",
+  "cat": "channel",
+  "name": "Bluesky",
+  "url": "https://bsky.app",
+  "env": [
+   "BLUESKY_TOKEN"
+  ],
+  "note": "نشر اجتماعي",
+  "payout": "-"
+ },
+ {
+  "id": "vk",
+  "cat": "channel",
+  "name": "VK",
+  "url": "https://vk.com/dev",
+  "env": [
+   "VK_TOKEN"
+  ],
+  "note": "جمهور روسي",
+  "payout": "-"
+ },
+ {
+  "id": "linkedin",
+  "cat": "channel",
+  "name": "LinkedIn",
+  "url": "https://www.linkedin.com/developers",
+  "env": [
+   "LINKEDIN_TOKEN"
+  ],
+  "note": "جمهور مهني",
+  "payout": "-"
+ },
+ {
+  "id": "quora",
+  "cat": "channel",
+  "name": "Quora",
+  "url": "https://www.quora.com",
+  "env": [
+   "QUORA_TOKEN"
+  ],
+  "note": "إجابات = زيارات",
+  "payout": "-"
+ },
+ {
+  "id": "ezoic",
+  "cat": "ads",
+  "name": "Ezoic 🇺🇸",
+  "url": "https://www.ezoic.com",
+  "env": [
+   "EZOIC_API_KEY",
+   "EZOIC_SITE_ID"
+  ],
+  "note": "أمريكا · RPM متغيّر",
+  "payout": "RPM"
+ },
+ {
+  "id": "medianet",
+  "cat": "ads",
+  "name": "Media.net",
+  "url": "https://www.media.net",
+  "env": [
+   "MEDIANET_CUSTOMER_ID"
+  ],
+  "note": "إعلانات نصية",
+  "payout": "$100"
+ },
+ {
+  "id": "infolinks",
+  "cat": "ads",
+  "name": "Infolinks",
+  "url": "https://www.infolinks.com",
+  "env": [
+   "INFOLINKS_PUBLISHER_ID"
+  ],
+  "note": "إعلانات داخل النص",
+  "payout": "$50"
+ },
+ {
+  "id": "mgid",
+  "cat": "ads",
+  "name": "MGID",
+  "url": "https://www.mgid.com",
+  "env": [
+   "MGID_PUBLISHER_ID"
+  ],
+  "note": "Native",
+  "payout": "$100"
+ },
+ {
+  "id": "taboola",
+  "cat": "ads",
+  "name": "Taboola",
+  "url": "https://www.taboola.com",
+  "env": [
+   "TABOOLA_PUBLISHER_ID"
+  ],
+  "note": "Native ضخم",
+  "payout": "$100"
+ },
+ {
+  "id": "outbrain",
+  "cat": "ads",
+  "name": "Outbrain",
+  "url": "https://www.outbrain.com",
+  "env": [
+   "OUTBRAIN_PUBLISHER_ID"
+  ],
+  "note": "Native",
+  "payout": "$100"
+ },
+ {
+  "id": "sovrn",
+  "cat": "ads",
+  "name": "Sovrn",
+  "url": "https://www.sovrn.com",
+  "env": [
+   "SOVRN_API_KEY"
+  ],
+  "note": "شبكة إعلانية",
+  "payout": "$25"
+ },
+ {
+  "id": "pubmatic",
+  "cat": "ads",
+  "name": "PubMatic",
+  "url": "https://pubmatic.com",
+  "env": [
+   "PUBMATIC_PUB_ID"
+  ],
+  "note": "برمجي",
+  "payout": "$100"
+ },
+ {
+  "id": "amazonaps",
+  "cat": "ads",
+  "name": "Amazon APS",
+  "url": "https://aps.amazon.com",
+  "env": [
+   "AMAZON_APS_ID"
+  ],
+  "note": "عروض أمازون",
+  "payout": "$100"
+ },
+ {
+  "id": "newor",
+  "cat": "ads",
+  "name": "Newor Media 🇺🇸",
+  "url": "https://www.newormedia.com",
+  "env": [
+   "NEWOR_TOKEN"
+  ],
+  "note": "أمريكا · RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "shemedia",
+  "cat": "ads",
+  "name": "She Media",
+  "url": "https://www.shemedia.com",
+  "env": [
+   "SHEMEDIA_TOKEN"
+  ],
+  "note": "RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "patreon",
+  "cat": "pay",
+  "name": "Patreon",
+  "url": "https://www.patreon.com",
+  "env": [
+   "PATREON_TOKEN"
+  ],
+  "note": "اشتراك شهري",
+  "payout": "PayPal"
+ },
+ {
+  "id": "paddle",
+  "cat": "pay",
+  "name": "Paddle 🇬🇧",
+  "url": "https://www.paddle.com",
+  "env": [
+   "PADDLE_API_KEY"
+  ],
+  "note": "بريطانيا · MoR",
+  "payout": "Wire"
+ },
+ {
+  "id": "coinbasecommerce",
+  "cat": "pay",
+  "name": "Coinbase Commerce",
+  "url": "https://commerce.coinbase.com",
+  "env": [
+   "COINBASE_COMMERCE_KEY"
+  ],
+  "note": "دفع كريبتو",
+  "payout": "فوري"
+ },
+ {
+  "id": "cryptomus",
+  "cat": "pay",
+  "name": "Cryptomus",
+  "url": "https://cryptomus.com",
+  "env": [
+   "CRYPTOMUS_MERCHANT_ID",
+   "CRYPTOMUS_API_KEY"
+  ],
+  "note": "بوابة كريبتو",
+  "payout": "فوري"
+ },
+ {
+  "id": "coinpayments",
+  "cat": "pay",
+  "name": "CoinPayments",
+  "url": "https://www.coinpayments.net",
+  "env": [
+   "COINPAYMENTS_PUBLIC_KEY",
+   "COINPAYMENTS_PRIVATE_KEY"
+  ],
+  "note": "بوابة كريبتو قديمة",
+  "payout": "فوري"
+ },
+ {
+  "id": "payeer",
+  "cat": "pay",
+  "name": "Payeer",
+  "url": "https://payeer.com",
+  "env": [
+   "PAYEER_API_KEY"
+  ],
+  "note": "محفظة إلكترونية",
+  "payout": "فوري"
+ },
+ {
+  "id": "wise",
+  "cat": "pay",
+  "name": "Wise 🇬🇧",
+  "url": "https://wise.com",
+  "env": [
+   "WISE_API_TOKEN"
+  ],
+  "note": "تحويل بنكي رخيص",
+  "payout": "بانك"
+ },
+ {
+  "id": "paypal",
+  "cat": "pay",
+  "name": "PayPal",
+  "url": "https://developer.paypal.com",
+  "env": [
+   "PAYPAL_CLIENT_ID",
+   "PAYPAL_SECRET"
+  ],
+  "note": "الأشهر عالميًا",
+  "payout": "بانك"
+ },
+ {
+  "id": "coinmarketcap",
+  "cat": "crypto",
+  "name": "CoinMarketCap",
+  "url": "https://pro.coinmarketcap.com",
+  "env": [
+   "CMC_API_KEY"
+  ],
+  "note": "بيانات سوق",
+  "payout": "-"
+ },
+ {
+  "id": "coinbase",
+  "cat": "crypto",
+  "name": "Coinbase",
+  "url": "https://www.coinbase.com/settings/api",
+  "env": [
+   "COINBASE_API_KEY",
+   "COINBASE_API_SECRET"
+  ],
+  "note": "تداول أمريكي",
+  "payout": "-"
+ },
+ {
+  "id": "kraken",
+  "cat": "crypto",
+  "name": "Kraken 🇺🇸",
+  "url": "https://pro.kraken.com",
+  "env": [
+   "KRAKEN_API_KEY",
+   "KRAKEN_API_SECRET"
+  ],
+  "note": "أمريكا · تداول",
+  "payout": "-"
+ },
+ {
+  "id": "kucoin",
+  "cat": "crypto",
+  "name": "KuCoin",
+  "url": "https://www.kucoin.com/account/api",
+  "env": [
+   "KUCOIN_API_KEY",
+   "KUCOIN_API_SECRET",
+   "KUCOIN_PASSPHRASE"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "bybit",
+  "cat": "crypto",
+  "name": "Bybit",
+  "url": "https://www.bybit.com/app/user/api-management",
+  "env": [
+   "BYBIT_API_KEY",
+   "BYBIT_API_SECRET"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "okx",
+  "cat": "crypto",
+  "name": "OKX",
+  "url": "https://www.okx.com/account/my-api",
+  "env": [
+   "OKX_API_KEY",
+   "OKX_API_SECRET",
+   "OKX_PASSPHRASE"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "gate",
+  "cat": "crypto",
+  "name": "Gate.io",
+  "url": "https://www.gate.io/myaccount/apivkeys",
+  "env": [
+   "GATE_API_KEY",
+   "GATE_API_SECRET"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "mexc",
+  "cat": "crypto",
+  "name": "MEXC",
+  "url": "https://www.mexc.com/user/openapi",
+  "env": [
+   "MEXC_API_KEY",
+   "MEXC_API_SECRET"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "bitget",
+  "cat": "crypto",
+  "name": "Bitget",
+  "url": "https://www.bitget.com/account/newapi",
+  "env": [
+   "BITGET_API_KEY",
+   "BITGET_API_SECRET",
+   "BITGET_PASSPHRASE"
+  ],
+  "note": "تداول",
+  "payout": "-"
+ },
+ {
+  "id": "alchemy",
+  "cat": "crypto",
+  "name": "Alchemy",
+  "url": "https://dashboard.alchemy.com",
+  "env": [
+   "ALCHEMY_API_KEY"
+  ],
+  "note": "عُقد Web3",
+  "payout": "-"
+ },
+ {
+  "id": "infura",
+  "cat": "crypto",
+  "name": "Infura",
+  "url": "https://app.infura.io",
+  "env": [
+   "INFURA_PROJECT_ID"
+  ],
+  "note": "عُقد إيثيريوم",
+  "payout": "-"
+ },
+ {
+  "id": "moralis",
+  "cat": "crypto",
+  "name": "Moralis",
+  "url": "https://admin.moralis.io",
+  "env": [
+   "MORALIS_API_KEY"
+  ],
+  "note": "بيانات Web3",
+  "payout": "-"
+ },
+ {
+  "id": "etherscan",
+  "cat": "crypto",
+  "name": "Etherscan",
+  "url": "https://etherscan.io/myapikey",
+  "env": [
+   "ETHERSCAN_API_KEY"
+  ],
+  "note": "مستكشف البلوكشين",
+  "payout": "-"
+ },
+ {
+  "id": "railway",
+  "cat": "infra",
+  "name": "Railway",
+  "url": "https://railway.app/account/tokens",
+  "env": [
+   "RAILWAY_TOKEN"
+  ],
+  "note": "استضافة",
+  "payout": "-"
+ },
+ {
+  "id": "render",
+  "cat": "infra",
+  "name": "Render",
+  "url": "https://dashboard.render.com",
+  "env": [
+   "RENDER_API_KEY"
+  ],
+  "note": "استضافة",
+  "payout": "-"
+ },
+ {
+  "id": "flyio",
+  "cat": "infra",
+  "name": "Fly.io",
+  "url": "https://fly.io/user/personal_access_tokens",
+  "env": [
+   "FLY_TOKEN"
+  ],
+  "note": "استضافة قريبة من المستخدم",
+  "payout": "-"
+ },
+ {
+  "id": "digitalocean",
+  "cat": "infra",
+  "name": "DigitalOcean",
+  "url": "https://cloud.digitalocean.com/account/api/tokens",
+  "env": [
+   "DO_TOKEN"
+  ],
+  "note": "سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "oracle",
+  "cat": "infra",
+  "name": "Oracle Cloud",
+  "url": "https://cloud.oracle.com",
+  "env": [
+   "ORACLE_OCI_KEY"
+  ],
+  "note": "سيرفر مجاني دائم",
+  "payout": "-"
+ },
+ {
+  "id": "upstash",
+  "cat": "infra",
+  "name": "Upstash",
+  "url": "https://console.upstash.com",
+  "env": [
+   "UPSTASH_REDIS_URL",
+   "UPSTASH_REDIS_TOKEN"
+  ],
+  "note": "Redis سحابي",
+  "payout": "-"
+ },
+ {
+  "id": "neon",
+  "cat": "infra",
+  "name": "Neon",
+  "url": "https://console.neon.tech",
+  "env": [
+   "NEON_DATABASE_URL"
+  ],
+  "note": "Postgres سحابي",
+  "payout": "-"
+ },
+ {
+  "id": "mongodb",
+  "cat": "infra",
+  "name": "MongoDB Atlas",
+  "url": "https://cloud.mongodb.com",
+  "env": [
+   "MONGO_URI"
+  ],
+  "note": "قاعدة بيانات",
+  "payout": "-"
+ },
+ {
+  "id": "turso",
+  "cat": "infra",
+  "name": "Turso",
+  "url": "https://turso.tech",
+  "env": [
+   "TURSO_URL",
+   "TURSO_TOKEN"
+  ],
+  "note": "SQLite موزّع",
+  "payout": "-"
+ },
+ {
+  "id": "anticaptcha",
+  "cat": "infra",
+  "name": "Anti-Captcha",
+  "url": "https://anti-captcha.com",
+  "env": [
+   "ANTICAPTCHA_KEY"
+  ],
+  "note": "كابتشا بديل",
+  "payout": "-"
+ },
+ {
+  "id": "capsolver",
+  "cat": "infra",
+  "name": "CapSolver",
+  "url": "https://www.capsolver.com",
+  "env": [
+   "CAPSOLVER_KEY"
+  ],
+  "note": "كابتشا سريع",
+  "payout": "-"
+ },
+ {
+  "id": "scraperapi",
+  "cat": "infra",
+  "name": "ScraperAPI",
+  "url": "https://www.scraperapi.com",
+  "env": [
+   "SCRAPERAPI_KEY"
+  ],
+  "note": "كشط بلا حجب",
+  "payout": "-"
+ },
+ {
+  "id": "brightdata",
+  "cat": "infra",
+  "name": "Bright Data",
+  "url": "https://brightdata.com",
+  "env": [
+   "BRIGHTDATA_TOKEN"
+  ],
+  "note": "بروكسيات",
+  "payout": "-"
+ },
+ {
+  "id": "together",
+  "cat": "ai",
+  "name": "Together AI",
+  "url": "https://api.together.xyz",
+  "env": [
+   "TOGETHER_API_KEY"
+  ],
+  "note": "نماذج مفتوحة",
+  "payout": "-"
+ },
+ {
+  "id": "huggingface",
+  "cat": "ai",
+  "name": "HuggingFace",
+  "url": "https://huggingface.co/settings/tokens",
+  "env": [
+   "HF_TOKEN"
+  ],
+  "note": "نماذج وبيانات",
+  "payout": "-"
+ },
+ {
+  "id": "replicate",
+  "cat": "ai",
+  "name": "Replicate",
+  "url": "https://replicate.com/account/api-tokens",
+  "env": [
+   "REPLICATE_API_TOKEN"
+  ],
+  "note": "صور وفيديو",
+  "payout": "-"
+ },
+ {
+  "id": "stability",
+  "cat": "ai",
+  "name": "Stability AI",
+  "url": "https://platform.stability.ai",
+  "env": [
+   "STABILITY_API_KEY"
+  ],
+  "note": "توليد صور",
+  "payout": "-"
+ },
+ {
+  "id": "elevenlabs",
+  "cat": "ai",
+  "name": "ElevenLabs",
+  "url": "https://elevenlabs.io",
+  "env": [
+   "ELEVENLABS_API_KEY"
+  ],
+  "note": "تعليق صوتي",
+  "payout": "-"
+ },
+ {
+  "id": "openai",
+  "cat": "ai",
+  "name": "OpenAI",
+  "url": "https://platform.openai.com/api-keys",
+  "env": [
+   "OPENAI_API_KEY"
+  ],
+  "note": "نماذج GPT",
+  "payout": "-"
+ },
+ {
+  "id": "mistral",
+  "cat": "ai",
+  "name": "Mistral 🇫🇷",
+  "url": "https://console.mistral.ai",
+  "env": [
+   "MISTRAL_API_KEY"
+  ],
+  "note": "فرنسا · نماذج",
+  "payout": "-"
+ },
+ {
+  "id": "gemini",
+  "cat": "ai",
+  "name": "Google AI Studio",
+  "url": "https://aistudio.google.com",
+  "env": [
+   "GEMINI_API_KEY"
+  ],
+  "note": "طبقة مجانية سخية",
+  "payout": "-"
+ },
+ {
+  "id": "cohere",
+  "cat": "ai",
+  "name": "Cohere",
+  "url": "https://dashboard.cohere.com",
+  "env": [
+   "COHERE_API_KEY"
+  ],
+  "note": "تضمين ونصوص",
+  "payout": "-"
+ },
+ {
+  "id": "frankfurter",
+  "cat": "fx",
+  "name": "Frankfurter",
+  "url": "-",
+  "env": [
+   "FRANKFURTER_KEY"
+  ],
+  "note": "أسعار ECB · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "exchangeratehost",
+  "cat": "fx",
+  "name": "ExchangeRate.host",
+  "url": "https://exchangerate.host",
+  "env": [
+   "EXCHANGERATEHOST_KEY"
+  ],
+  "note": "أسعار وتحويل",
+  "payout": "-"
+ },
+ {
+  "id": "currencyapi",
+  "cat": "fx",
+  "name": "CurrencyAPI",
+  "url": "https://currencyapi.com",
+  "env": [
+   "CURRENCYAPI_KEY"
+  ],
+  "note": "أسعار دقيقة",
+  "payout": "-"
+ },
+ {
+  "id": "openweather",
+  "cat": "fx",
+  "name": "OpenWeather",
+  "url": "https://openweathermap.org/api",
+  "env": [
+   "OPENWEATHER_KEY"
+  ],
+  "note": "طقس",
+  "payout": "-"
+ },
+ {
+  "id": "newsapi",
+  "cat": "fx",
+  "name": "NewsAPI",
+  "url": "https://newsapi.org",
+  "env": [
+   "NEWSAPI_KEY"
+  ],
+  "note": "أخبار للترافيك",
+  "payout": "-"
+ },
+ {
+  "id": "gnews",
+  "cat": "fx",
+  "name": "GNews",
+  "url": "https://gnews.io",
+  "env": [
+   "GNEWS_KEY"
+  ],
+  "note": "أخبار",
+  "payout": "-"
+ },
+ {
+  "id": "serpapi",
+  "cat": "fx",
+  "name": "SerpApi",
+  "url": "https://serpapi.com",
+  "env": [
+   "SERPAPI_KEY"
+  ],
+  "note": "نتائج بحث جوجل",
+  "payout": "-"
+ },
+ {
+  "id": "adnium",
+  "cat": "adult",
+  "name": "Adnium",
+  "url": "https://adnium.com",
+  "env": [
+   "ADNIUM_API_KEY"
+  ],
+  "note": "شبكة بالغين",
+  "payout": "Wire"
+ },
+ {
+  "id": "trafficshop",
+  "cat": "adult",
+  "name": "TrafficShop",
+  "url": "https://trafficshop.com",
+  "env": [
+   "TRAFFICSHOP_API_KEY"
+  ],
+  "note": "بانر وبوب",
+  "payout": "Wire"
+ },
+ {
+  "id": "traffichaus",
+  "cat": "adult",
+  "name": "TrafficHaus",
+  "url": "https://traffichaus.com",
+  "env": [
+   "TRAFFICHAUS_API_KEY"
+  ],
+  "note": "RTB وبانر",
+  "payout": "Wire"
+ },
+ {
+  "id": "popcash",
+  "cat": "adult",
+  "name": "PopCash",
+  "url": "https://popcash.net",
+  "env": [
+   "POPCASH_API_KEY"
+  ],
+  "note": "بوب · فوري",
+  "payout": "$5"
+ },
+ {
+  "id": "popmyads",
+  "cat": "adult",
+  "name": "PopMyAds",
+  "url": "https://popmyads.com",
+  "env": [
+   "POPMYADS_API_KEY"
+  ],
+  "note": "بوب",
+  "payout": "$5"
+ },
+ {
+  "id": "adultmoda",
+  "cat": "adult",
+  "name": "AdultModa",
+  "url": "https://www.adultmoda.com",
+  "env": [
+   "ADULTMODA_API_KEY"
+  ],
+  "note": "موبايل للبالغين",
+  "payout": "$50"
+ },
+ {
+  "id": "adsolut",
+  "cat": "adult",
+  "name": "Adsolut",
+  "url": "https://adsolut.com",
+  "env": [
+   "ADSOLUT_API_KEY"
+  ],
+  "note": "بوب وبانر",
+  "payout": "$10"
+ },
+ {
+  "id": "adnetwork",
+  "cat": "adult",
+  "name": "AdNetwork.net",
+  "url": "https://adnetwork.net",
+  "env": [
+   "ADNETWORK_API_KEY"
+  ],
+  "note": "بانر",
+  "payout": "$25"
+ },
+ {
+  "id": "clickaine",
+  "cat": "adult",
+  "name": "ClickAine",
+  "url": "https://clickaine.com",
+  "env": [
+   "CLICKAINE_API_KEY"
+  ],
+  "note": "بانر وبوب",
+  "payout": "$10"
+ },
+ {
+  "id": "adprofex",
+  "cat": "adult",
+  "name": "AdProfex",
+  "url": "https://adprofex.com",
+  "env": [
+   "ADPROFEX_API_KEY"
+  ],
+  "note": "بوب",
+  "payout": "$10"
+ },
+ {
+  "id": "exdynsrv",
+  "cat": "adult",
+  "name": "ExDynSrv",
+  "url": "https://exdynsrv.com",
+  "env": [
+   "EXDYNSRV_API_KEY"
+  ],
+  "note": "بوب وبانر",
+  "payout": "$10"
+ },
+ {
+  "id": "cam4",
+  "cat": "adult",
+  "name": "Cam4 🇨🇦",
+  "url": "https://www.cam4.com/affiliates",
+  "env": [
+   "CAM4_AFFILIATE"
+  ],
+  "note": "كندا · RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "camcontacts",
+  "cat": "adult",
+  "name": "CamContacts",
+  "url": "https://www.camcontacts.com",
+  "env": [
+   "CAMCONTACTS_AFFILIATE"
+  ],
+  "note": "RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "liveprivates",
+  "cat": "adult",
+  "name": "LivePrivates",
+  "url": "https://www.liveprivates.com",
+  "env": [
+   "LIVEPRIVATES_AFFILIATE"
+  ],
+  "note": "RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "sakuralive",
+  "cat": "adult",
+  "name": "SakuraLive",
+  "url": "https://www.sakuralive.com",
+  "env": [
+   "SAKURALIVE_AFFILIATE"
+  ],
+  "note": "آسيوي · RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "bangbros",
+  "cat": "adult",
+  "name": "BangBros 🇺🇸",
+  "url": "https://bangbros.com/affiliates",
+  "env": [
+   "BANGBROS_AFFILIATE"
+  ],
+  "note": "أمريكا · اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "brazzers",
+  "cat": "adult",
+  "name": "Brazzers (Aylo)",
+  "url": "https://www.brazzers.com/affiliates",
+  "env": [
+   "BRAZZERS_AFFILIATE"
+  ],
+  "note": "اشتراكات بريميوم",
+  "payout": "RevShare"
+ },
+ {
+  "id": "realitykings",
+  "cat": "adult",
+  "name": "RealityKings",
+  "url": "https://www.realitykings.com/affiliates",
+  "env": [
+   "REALITYKINGS_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "vixen",
+  "cat": "adult",
+  "name": "Vixen Media",
+  "url": "https://www.vixen.com/affiliates",
+  "env": [
+   "VIXEN_AFFILIATE"
+  ],
+  "note": "اشتراكات بريميوم",
+  "payout": "RevShare"
+ },
+ {
+  "id": "letsdoeit",
+  "cat": "adult",
+  "name": "LetsDoeIt",
+  "url": "https://letsdoeit.com",
+  "env": [
+   "LETSDOEIT_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "pornone",
+  "cat": "adult",
+  "name": "PornOne",
+  "url": "https://pornone.com",
+  "env": [
+   "PORNONE_AFFILIATE"
+  ],
+  "note": "تيوب أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "porntrex",
+  "cat": "adult",
+  "name": "PornTrex",
+  "url": "https://www.porntrex.com",
+  "env": [
+   "PORNTREX_AFFILIATE"
+  ],
+  "note": "تيوب أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "sunporno",
+  "cat": "adult",
+  "name": "SunPorno",
+  "url": "https://www.sunporno.com",
+  "env": [
+   "SUNPORNO_AFFILIATE"
+  ],
+  "note": "تيوب أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "thumbzilla",
+  "cat": "adult",
+  "name": "Thumbzilla (Aylo)",
+  "url": "https://www.thumbzilla.com/affiliates",
+  "env": [
+   "THUMBZILLA_AFFILIATE"
+  ],
+  "note": "أفلييت",
+  "payout": "RevShare"
+ },
+ {
+  "id": "yandexads",
+  "cat": "adult",
+  "name": "Yandex Ads",
+  "url": "https://yandex.com/ads",
+  "env": [
+   "YANDEX_ADS_TOKEN"
+  ],
+  "note": "جمهور روسي وأوروبي شرقي",
+  "payout": "$50"
+ },
+ {
+  "id": "bidvertiser",
+  "cat": "adult",
+  "name": "Bidvertiser",
+  "url": "https://www.bidvertiser.com",
+  "env": [
+   "BIDVERTISER_ID"
+  ],
+  "note": "بانر ونص",
+  "payout": "$10"
+ },
+ {
+  "id": "clicksor",
+  "cat": "adult",
+  "name": "Clicksor",
+  "url": "https://www.clicksor.com",
+  "env": [
+   "CLICKSOR_ID"
+  ],
+  "note": "بانر ونص",
+  "payout": "$25"
+ },
+ {
+  "id": "yllix",
+  "cat": "adult",
+  "name": "Yllix",
+  "url": "https://www.yllix.com",
+  "env": [
+   "YLLIX_ID"
+  ],
+  "note": "بوب وبانر",
+  "payout": "$5"
+ },
+ {
+  "id": "adbuff",
+  "cat": "adult",
+  "name": "AdBuff",
+  "url": "https://adbuff.com",
+  "env": [
+   "ADBUFF_KEY"
+  ],
+  "note": "بوب",
+  "payout": "$10"
+ },
+ {
+  "id": "adreactor",
+  "cat": "adult",
+  "name": "AdReactor",
+  "url": "https://www.adreactor.com",
+  "env": [
+   "ADREACTOR_ID"
+  ],
+  "note": "بانر وفيديو",
+  "payout": "$50"
+ },
+ {
+  "id": "monumetric",
+  "cat": "ads",
+  "name": "Monumetric 🇺🇸",
+  "url": "https://www.monumetric.com",
+  "env": [
+   "MONUMETRIC_TOKEN"
+  ],
+  "note": "أمريكا · RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "freestar",
+  "cat": "ads",
+  "name": "Freestar 🇺🇸",
+  "url": "https://freestar.com",
+  "env": [
+   "FREESTAR_TOKEN"
+  ],
+  "note": "أمريكا · RPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "nitropay",
+  "cat": "ads",
+  "name": "NitroPay",
+  "url": "https://nitropay.com",
+  "env": [
+   "NITROPAY_TOKEN"
+  ],
+  "note": "مواقع صغيرة وألعاب",
+  "payout": "RPM"
+ },
+ {
+  "id": "playwire",
+  "cat": "ads",
+  "name": "Playwire 🇺🇸",
+  "url": "https://www.playwire.com",
+  "env": [
+   "PLAYWIRE_TOKEN"
+  ],
+  "note": "فيديو وRPM مرتفع",
+  "payout": "RPM"
+ },
+ {
+  "id": "adplus",
+  "cat": "ads",
+  "name": "Ad.Plus",
+  "url": "https://ad.plus",
+  "env": [
+   "ADPLUS_TOKEN"
+  ],
+  "note": "بوب وبانر",
+  "payout": "RPM"
+ },
+ {
+  "id": "adform",
+  "cat": "ads",
+  "name": "Adform",
+  "url": "https://www.adform.com",
+  "env": [
+   "ADFORM_TOKEN"
+  ],
+  "note": "إعلانات أوروبية",
+  "payout": "Wire"
+ },
+ {
+  "id": "criteo",
+  "cat": "ads",
+  "name": "Criteo 🇫🇷",
+  "url": "https://www.criteo.com",
+  "env": [
+   "CRITEO_TOKEN"
+  ],
+  "note": "فرنسا · إعادة استهداف",
+  "payout": "Wire"
+ },
+ {
+  "id": "adroll",
+  "cat": "ads",
+  "name": "AdRoll 🇺🇸",
+  "url": "https://www.adroll.com",
+  "env": [
+   "ADROLL_TOKEN"
+  ],
+  "note": "أمريكا · إعادة استهداف",
+  "payout": "Wire"
+ },
+ {
+  "id": "smartadserver",
+  "cat": "ads",
+  "name": "Equativ Smart",
+  "url": "https://smartadserver.com",
+  "env": [
+   "SMART_TOKEN"
+  ],
+  "note": "SSP أوروبي",
+  "payout": "Wire"
+ },
+ {
+  "id": "adtelligent",
+  "cat": "ads",
+  "name": "Adtelligent",
+  "url": "https://adtelligent.com",
+  "env": [
+   "ADTEL_TOKEN"
+  ],
+  "note": "فيديو ونيتف",
+  "payout": "Wire"
+ },
+ {
+  "id": "revenuehits",
+  "cat": "ads",
+  "name": "RevenueHits",
+  "url": "https://www.revenuehits.com",
+  "env": [
+   "REVENUEHITS_ID"
+  ],
+  "note": "بوب وبانر",
+  "payout": "$20"
+ },
+ {
+  "id": "adcash2",
+  "cat": "ads",
+  "name": "Adcash Interstitial",
+  "url": "https://adcash.com",
+  "env": [
+   "ADCASH_PUBLISHER_ID"
+  ],
+  "note": "بينيين سوشيال",
+  "payout": "$25"
+ },
+ {
+  "id": "threads",
+  "cat": "channel",
+  "name": "Threads",
+  "url": "https://developers.facebook.com",
+  "env": [
+   "THREADS_TOKEN"
+  ],
+  "note": "منشورات نصية",
+  "payout": "-"
+ },
+ {
+  "id": "snapchat",
+  "cat": "channel",
+  "name": "Snapchat",
+  "url": "https://developers.snap.com",
+  "env": [
+   "SNAP_TOKEN"
+  ],
+  "note": "جمهور شاب",
+  "payout": "-"
+ },
+ {
+  "id": "rumble",
+  "cat": "channel",
+  "name": "Rumble 🇨🇦",
+  "url": "https://rumble.com",
+  "env": [
+   "RUMBLE_KEY"
+  ],
+  "note": "كندا · بديل يوتيوب",
+  "payout": "RevShare"
+ },
+ {
+  "id": "odysee",
+  "cat": "channel",
+  "name": "Odysee",
+  "url": "https://odysee.com",
+  "env": [
+   "ODYSEE_TOKEN"
+  ],
+  "note": "لامتعة مركزية",
+  "payout": "LBC"
+ },
+ {
+  "id": "bitchute",
+  "cat": "channel",
+  "name": "BitChute 🇬🇧",
+  "url": "https://www.bitchute.com",
+  "env": [
+   "BITCHUTE_TOKEN"
+  ],
+  "note": "بريطانيا · فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "dailymotion",
+  "cat": "channel",
+  "name": "Dailymotion 🇫🇷",
+  "url": "https://www.dailymotion.com/partner",
+  "env": [
+   "DAILYMOTION_TOKEN"
+  ],
+  "note": "فرنسا · فيديو",
+  "payout": "RevShare"
+ },
+ {
+  "id": "vimeo",
+  "cat": "channel",
+  "name": "Vimeo 🇺🇸",
+  "url": "https://developer.vimeo.com",
+  "env": [
+   "VIMEO_TOKEN"
+  ],
+  "note": "أمريكا · فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "substack",
+  "cat": "channel",
+  "name": "Substack 🇺🇸",
+  "url": "https://substack.com",
+  "env": [
+   "SUBSTACK_TOKEN"
+  ],
+  "note": "اشتراكات مدفوعة",
+  "payout": "اشتراكات"
+ },
+ {
+  "id": "ghost",
+  "cat": "channel",
+  "name": "Ghost",
+  "url": "https://ghost.org",
+  "env": [
+   "GHOST_ADMIN_KEY"
+  ],
+  "note": "مدونة باشتراكات",
+  "payout": "اشتراكات"
+ },
+ {
+  "id": "blogger",
+  "cat": "channel",
+  "name": "Blogger",
+  "url": "https://www.blogger.com",
+  "env": [
+   "BLOGGER_TOKEN"
+  ],
+  "note": "مدونة مجانية + AdSense",
+  "payout": "AdSense"
+ },
+ {
+  "id": "wordpress",
+  "cat": "channel",
+  "name": "WordPress.com",
+  "url": "https://wordpress.com",
+  "env": [
+   "WP_TOKEN"
+  ],
+  "note": "مدونة + WordAds",
+  "payout": "WordAds"
+ },
+ {
+  "id": "producthunt",
+  "cat": "channel",
+  "name": "Product Hunt 🇺🇸",
+  "url": "https://www.producthunt.com",
+  "env": [
+   "PH_TOKEN"
+  ],
+  "note": "زيارات انفجارية",
+  "payout": "-"
+ },
+ {
+  "id": "hackernews",
+  "cat": "channel",
+  "name": "Hacker News 🇺🇸",
+  "url": "https://news.ycombinator.com",
+  "env": [
+   "HN_USER"
+  ],
+  "note": "زيارات تقنية",
+  "payout": "-"
+ },
+ {
+  "id": "stackexchange",
+  "cat": "channel",
+  "name": "Stack Exchange",
+  "url": "https://stackapps.com",
+  "env": [
+   "SE_KEY"
+  ],
+  "note": "إجابات = زيارات",
+  "payout": "-"
+ },
+ {
+  "id": "mastodon",
+  "cat": "channel",
+  "name": "Mastodon",
+  "url": "https://joinmastodon.org",
+  "env": [
+   "MASTODON_TOKEN"
+  ],
+  "note": "شبكة مفتوحة",
+  "payout": "-"
+ },
+ {
+  "id": "gab",
+  "cat": "channel",
+  "name": "Gab",
+  "url": "https://gab.com",
+  "env": [
+   "GAB_TOKEN"
+  ],
+  "note": "جمهور حر",
+  "payout": "-"
+ },
+ {
+  "id": "minds",
+  "cat": "channel",
+  "name": "Minds",
+  "url": "https://www.minds.com",
+  "env": [
+   "MINDS_TOKEN"
+  ],
+  "note": "لامركزي",
+  "payout": "-"
+ },
+ {
+  "id": "klarna",
+  "cat": "pay",
+  "name": "Klarna 🇸🇪",
+  "url": "https://www.klarna.com",
+  "env": [
+   "KLARNA_KEY"
+  ],
+  "note": "السويد · دفع آجل",
+  "payout": "بانك"
+ },
+ {
+  "id": "adyen",
+  "cat": "pay",
+  "name": "Adyen 🇳🇱",
+  "url": "https://www.adyen.com",
+  "env": [
+   "ADYEN_KEY"
+  ],
+  "note": "هولندا · مدفوعات",
+  "payout": "بانك"
+ },
+ {
+  "id": "mollie",
+  "cat": "pay",
+  "name": "Mollie 🇳🇱",
+  "url": "https://www.mollie.com",
+  "env": [
+   "MOLLIE_KEY"
+  ],
+  "note": "هولندا · أوروبي",
+  "payout": "بانك"
+ },
+ {
+  "id": "checkout",
+  "cat": "pay",
+  "name": "Checkout.com 🇬🇧",
+  "url": "https://www.checkout.com",
+  "env": [
+   "CHECKOUT_KEY"
+  ],
+  "note": "بريطانيا",
+  "payout": "بانك"
+ },
+ {
+  "id": "payoneer",
+  "cat": "pay",
+  "name": "Payoneer 🇺🇸",
+  "url": "https://www.payoneer.com",
+  "env": [
+   "PAYONEER_TOKEN"
+  ],
+  "note": "أمريكا · استقبال أرباح",
+  "payout": "بانك"
+ },
+ {
+  "id": "skrill",
+  "cat": "pay",
+  "name": "Skrill 🇬🇧",
+  "url": "https://www.skrill.com",
+  "env": [
+   "SKRILL_KEY"
+  ],
+  "note": "بريطانيا · محفظة",
+  "payout": "محفظة"
+ },
+ {
+  "id": "neteller",
+  "cat": "pay",
+  "name": "Neteller",
+  "url": "https://www.neteller.com",
+  "env": [
+   "NETELLER_KEY"
+  ],
+  "note": "محفظة",
+  "payout": "محفظة"
+ },
+ {
+  "id": "airtm",
+  "cat": "pay",
+  "name": "Airtm",
+  "url": "https://www.airtm.com",
+  "env": [
+   "AIRTM_KEY"
+  ],
+  "note": "محفظة عالمية",
+  "payout": "محفظة"
+ },
+ {
+  "id": "perfectmoney",
+  "cat": "pay",
+  "name": "Perfect Money",
+  "url": "https://perfectmoney.com",
+  "env": [
+   "PERFECTMONEY_KEY"
+  ],
+  "note": "محفظة قديمة مقبولة",
+  "payout": "محفظة"
+ },
+ {
+  "id": "liberapay",
+  "cat": "pay",
+  "name": "Liberapay 🇫🇷",
+  "url": "https://liberapay.com",
+  "env": [
+   "LIBERAPAY_TOKEN"
+  ],
+  "note": "فرنسا · تبرعات",
+  "payout": "تبرعات"
+ },
+ {
+  "id": "opencollective",
+  "cat": "pay",
+  "name": "Open Collective",
+  "url": "https://opencollective.com",
+  "env": [
+   "OC_TOKEN"
+  ],
+  "note": "تبرعات شفافة",
+  "payout": "تبرعات"
+ },
+ {
+  "id": "ghsponsors",
+  "cat": "pay",
+  "name": "GitHub Sponsors",
+  "url": "https://github.com/sponsors",
+  "env": [
+   "GH_SPONSORS_TOKEN"
+  ],
+  "note": "رعاية من GitHub",
+  "payout": "-"
+ },
+ {
+  "id": "bitpay",
+  "cat": "crypto",
+  "name": "BitPay",
+  "url": "https://bitpay.com",
+  "env": [
+   "BITPAY_KEY"
+  ],
+  "note": "بوابة كريبتو أمريكية",
+  "payout": "فوري"
+ },
+ {
+  "id": "coingate",
+  "cat": "crypto",
+  "name": "Coingate 🇱🇹",
+  "url": "https://coingate.com",
+  "env": [
+   "COINGATE_TOKEN"
+  ],
+  "note": "ليتوانيا · بوابة",
+  "payout": "فوري"
+ },
+ {
+  "id": "defillama",
+  "cat": "crypto",
+  "name": "DefiLlama",
+  "url": "-",
+  "env": [
+   "DEFILLAMA_KEY"
+  ],
+  "note": "بيانات DeFi · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "dune",
+  "cat": "crypto",
+  "name": "Dune",
+  "url": "https://dune.com",
+  "env": [
+   "DUNE_API_KEY"
+  ],
+  "note": "تحليلات بلوكشين",
+  "payout": "-"
+ },
+ {
+  "id": "quicknode",
+  "cat": "crypto",
+  "name": "QuickNode",
+  "url": "https://dashboard.quicknode.com",
+  "env": [
+   "QUICKNODE_KEY"
+  ],
+  "note": "عُقد سريعة",
+  "payout": "-"
+ },
+ {
+  "id": "ankr",
+  "cat": "crypto",
+  "name": "Ankr",
+  "url": "https://www.ankr.com",
+  "env": [
+   "ANKR_KEY"
+  ],
+  "note": "عُقد Web3",
+  "payout": "-"
+ },
+ {
+  "id": "thegraph",
+  "cat": "crypto",
+  "name": "The Graph",
+  "url": "https://thegraph.com/studio",
+  "env": [
+   "GRAPH_API_KEY"
+  ],
+  "note": "فهرسة بلوكشين",
+  "payout": "-"
+ },
+ {
+  "id": "covalent",
+  "cat": "crypto",
+  "name": "Covalent",
+  "url": "https://www.covalenthq.com",
+  "env": [
+   "COVALENT_KEY"
+  ],
+  "note": "بيانات Web3",
+  "payout": "-"
+ },
+ {
+  "id": "opensea",
+  "cat": "crypto",
+  "name": "OpenSea",
+  "url": "https://docs.opensea.io",
+  "env": [
+   "OPENSEA_KEY"
+  ],
+  "note": "NFT",
+  "payout": "-"
+ },
+ {
+  "id": "bitquery",
+  "cat": "crypto",
+  "name": "Bitquery",
+  "url": "https://bitquery.io",
+  "env": [
+   "BITQUERY_KEY"
+  ],
+  "note": "بيانات سلسلة",
+  "payout": "-"
+ },
+ {
+  "id": "aws",
+  "cat": "infra",
+  "name": "AWS 🇺🇸",
+  "url": "https://console.aws.amazon.com",
+  "env": [
+   "AWS_ACCESS_KEY",
+   "AWS_SECRET_KEY"
+  ],
+  "note": "أمريكا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "gcp",
+  "cat": "infra",
+  "name": "Google Cloud 🇺🇸",
+  "url": "https://console.cloud.google.com",
+  "env": [
+   "GCP_KEY"
+  ],
+  "note": "أمريكا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "azure",
+  "cat": "infra",
+  "name": "Azure 🇺🇸",
+  "url": "https://portal.azure.com",
+  "env": [
+   "AZURE_KEY"
+  ],
+  "note": "أمريكا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "hetzner",
+  "cat": "infra",
+  "name": "Hetzner 🇩🇪",
+  "url": "https://www.hetzner.com",
+  "env": [
+   "HETZNER_TOKEN"
+  ],
+  "note": "ألمانيا · أرخص سيرفر قوي",
+  "payout": "-"
+ },
+ {
+  "id": "contabo",
+  "cat": "infra",
+  "name": "Contabo 🇩🇪",
+  "url": "https://contabo.com",
+  "env": [
+   "CONTABO_TOKEN"
+  ],
+  "note": "ألمانيا · رخيص جدًا",
+  "payout": "-"
+ },
+ {
+  "id": "ovh",
+  "cat": "infra",
+  "name": "OVH 🇫🇷",
+  "url": "https://www.ovhcloud.com",
+  "env": [
+   "OVH_KEY"
+  ],
+  "note": "فرنسا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "vultr",
+  "cat": "infra",
+  "name": "Vultr 🇺🇸",
+  "url": "https://www.vultr.com",
+  "env": [
+   "VULTR_KEY"
+  ],
+  "note": "أمريكا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "linode",
+  "cat": "infra",
+  "name": "Linode Akamai 🇺🇸",
+  "url": "https://cloud.linode.com",
+  "env": [
+   "LINODE_TOKEN"
+  ],
+  "note": "أمريكا · سيرفرات",
+  "payout": "-"
+ },
+ {
+  "id": "gitlab",
+  "cat": "infra",
+  "name": "GitLab",
+  "url": "https://gitlab.com/-/profile/personal_access_tokens",
+  "env": [
+   "GITLAB_TOKEN"
+  ],
+  "note": "CI/CD",
+  "payout": "-"
+ },
+ {
+  "id": "bitbucket",
+  "cat": "infra",
+  "name": "Bitbucket",
+  "url": "https://bitbucket.org/account/settings/app-passwords/",
+  "env": [
+   "BITBUCKET_TOKEN"
+  ],
+  "note": "مستودعات",
+  "payout": "-"
+ },
+ {
+  "id": "sentry",
+  "cat": "infra",
+  "name": "Sentry",
+  "url": "https://sentry.io/settings/auth-tokens/",
+  "env": [
+   "SENTRY_TOKEN"
+  ],
+  "note": "تتبع الأخطاء",
+  "payout": "-"
+ },
+ {
+  "id": "uptimerobot",
+  "cat": "infra",
+  "name": "UptimeRobot",
+  "url": "https://uptimerobot.com",
+  "env": [
+   "UPTIMEROBOT_KEY"
+  ],
+  "note": "مراقبة التشغيل",
+  "payout": "-"
+ },
+ {
+  "id": "betterstack",
+  "cat": "infra",
+  "name": "Better Stack",
+  "url": "https://betterstack.com",
+  "env": [
+   "BETTERSTACK_TOKEN"
+  ],
+  "note": "مراقبة وسجلات",
+  "payout": "-"
+ },
+ {
+  "id": "grafana",
+  "cat": "infra",
+  "name": "Grafana Cloud",
+  "url": "https://grafana.com",
+  "env": [
+   "GRAFANA_TOKEN"
+  ],
+  "note": "لوحات مراقبة",
+  "payout": "-"
+ },
+ {
+  "id": "ngrok",
+  "cat": "infra",
+  "name": "ngrok",
+  "url": "https://dashboard.ngrok.com",
+  "env": [
+   "NGROK_TOKEN"
+  ],
+  "note": "رابط عام للتطبيق",
+  "payout": "-"
+ },
+ {
+  "id": "tailscale",
+  "cat": "infra",
+  "name": "Tailscale",
+  "url": "https://login.tailscale.com/admin/settings/keys",
+  "env": [
+   "TAILSCALE_KEY"
+  ],
+  "note": "شبكة خاصة",
+  "payout": "-"
+ },
+ {
+  "id": "namecheap",
+  "cat": "infra",
+  "name": "Namecheap 🇺🇸",
+  "url": "https://www.namecheap.com",
+  "env": [
+   "NAMECHEAP_KEY"
+  ],
+  "note": "دومين رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "porkbun",
+  "cat": "infra",
+  "name": "Porkbun 🇺🇸",
+  "url": "https://porkbun.com",
+  "env": [
+   "PORKBUN_KEY"
+  ],
+  "note": "دومين رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "anthropic",
+  "cat": "ai",
+  "name": "Anthropic 🇺🇸",
+  "url": "https://console.anthropic.com",
+  "env": [
+   "ANTHROPIC_API_KEY"
+  ],
+  "note": "أمريكا · Claude",
+  "payout": "-"
+ },
+ {
+  "id": "perplexity",
+  "cat": "ai",
+  "name": "Perplexity 🇺🇸",
+  "url": "https://www.perplexity.ai/settings/api",
+  "env": [
+   "PERPLEXITY_KEY"
+  ],
+  "note": "بحث ذكي",
+  "payout": "-"
+ },
+ {
+  "id": "fireworks",
+  "cat": "ai",
+  "name": "Fireworks AI",
+  "url": "https://fireworks.ai",
+  "env": [
+   "FIREWORKS_KEY"
+  ],
+  "note": "نماذج سريعة",
+  "payout": "-"
+ },
+ {
+  "id": "deepinfra",
+  "cat": "ai",
+  "name": "DeepInfra",
+  "url": "https://deepinfra.com",
+  "env": [
+   "DEEPINFRA_KEY"
+  ],
+  "note": "نماذج مفتوحة",
+  "payout": "-"
+ },
+ {
+  "id": "runway",
+  "cat": "ai",
+  "name": "Runway 🇺🇸",
+  "url": "https://runwayml.com",
+  "env": [
+   "RUNWAY_KEY"
+  ],
+  "note": "أمريكا · فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "luma",
+  "cat": "ai",
+  "name": "Luma AI 🇺🇸",
+  "url": "https://lumalabs.ai",
+  "env": [
+   "LUMA_KEY"
+  ],
+  "note": "أمريكا · فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "suno",
+  "cat": "ai",
+  "name": "Suno",
+  "url": "https://suno.com",
+  "env": [
+   "SUNO_KEY"
+  ],
+  "note": "موسيقى",
+  "payout": "-"
+ },
+ {
+  "id": "assemblyai",
+  "cat": "ai",
+  "name": "AssemblyAI 🇺🇸",
+  "url": "https://www.assemblyai.com",
+  "env": [
+   "ASSEMBLYAI_KEY"
+  ],
+  "note": "تحويل كلام لنص",
+  "payout": "-"
+ },
+ {
+  "id": "deepgram",
+  "cat": "ai",
+  "name": "Deepgram 🇺🇸",
+  "url": "https://deepgram.com",
+  "env": [
+   "DEEPGRAM_KEY"
+  ],
+  "note": "نص وصوت",
+  "payout": "-"
+ },
+ {
+  "id": "pinecone",
+  "cat": "ai",
+  "name": "Pinecone 🇺🇸",
+  "url": "https://app.pinecone.io",
+  "env": [
+   "PINECONE_KEY"
+  ],
+  "note": "قواعد متجهات",
+  "payout": "-"
+ },
+ {
+  "id": "qdrant",
+  "cat": "ai",
+  "name": "Qdrant 🇩🇪",
+  "url": "https://cloud.qdrant.io",
+  "env": [
+   "QDRANT_KEY"
+  ],
+  "note": "ألمانيا · متجهات",
+  "payout": "-"
+ },
+ {
+  "id": "weaviate",
+  "cat": "ai",
+  "name": "Weaviate 🇳🇱",
+  "url": "https://console.weaviate.cloud",
+  "env": [
+   "WEAVIATE_KEY"
+  ],
+  "note": "هولندا · متجهات",
+  "payout": "-"
+ },
+ {
+  "id": "alphavantage",
+  "cat": "fx",
+  "name": "Alpha Vantage 🇺🇸",
+  "url": "https://www.alphavantage.co/support/#api-key",
+  "env": [
+   "ALPHAVANTAGE_KEY"
+  ],
+  "note": "أمريكا · أسهم",
+  "payout": "-"
+ },
+ {
+  "id": "finnhub",
+  "cat": "fx",
+  "name": "Finnhub 🇺🇸",
+  "url": "https://finnhub.io",
+  "env": [
+   "FINNHUB_KEY"
+  ],
+  "note": "أمريكا · أسهم",
+  "payout": "-"
+ },
+ {
+  "id": "polygon",
+  "cat": "fx",
+  "name": "Polygon.io 🇺🇸",
+  "url": "https://polygon.io",
+  "env": [
+   "POLYGON_KEY"
+  ],
+  "note": "أمريكا · بيانات سوق",
+  "payout": "-"
+ },
+ {
+  "id": "twelvedata",
+  "cat": "fx",
+  "name": "Twelve Data",
+  "url": "https://twelvedata.com",
+  "env": [
+   "TWELVEDATA_KEY"
+  ],
+  "note": "أسعار لحظية",
+  "payout": "-"
+ },
+ {
+  "id": "fred",
+  "cat": "fx",
+  "name": "FRED 🇺🇸",
+  "url": "https://fred.stlouisfed.org",
+  "env": [
+   "FRED_KEY"
+  ],
+  "note": "أمريكا · اقتصاد",
+  "payout": "-"
+ },
+ {
+  "id": "unsplash",
+  "cat": "fx",
+  "name": "Unsplash",
+  "url": "https://unsplash.com/developers",
+  "env": [
+   "UNSPLASH_KEY"
+  ],
+  "note": "صور مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "pexels",
+  "cat": "fx",
+  "name": "Pexels",
+  "url": "https://www.pexels.com/api/",
+  "env": [
+   "PEXELS_KEY"
+  ],
+  "note": "صور وفيديو مجاني",
+  "payout": "-"
+ },
+ {
+  "id": "pixabay",
+  "cat": "fx",
+  "name": "Pixabay 🇩🇪",
+  "url": "https://pixabay.com/api/docs/",
+  "env": [
+   "PIXABAY_KEY"
+  ],
+  "note": "ألمانيا · صور",
+  "payout": "-"
+ },
+ {
+  "id": "mapbox",
+  "cat": "fx",
+  "name": "Mapbox 🇺🇸",
+  "url": "https://account.mapbox.com",
+  "env": [
+   "MAPBOX_TOKEN"
+  ],
+  "note": "خرائط",
+  "payout": "-"
+ },
+ {
+  "id": "openstreetmap",
+  "cat": "fx",
+  "name": "OpenStreetMap",
+  "url": "-",
+  "env": [
+   "OSM_KEY"
+  ],
+  "note": "خرائط · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "scrapingbee",
+  "cat": "fx",
+  "name": "ScrapingBee",
+  "url": "https://www.scrapingbee.com",
+  "env": [
+   "SCRAPINGBEE_KEY"
+  ],
+  "note": "كشط بلا حجب",
+  "payout": "-"
+ },
+ {
+  "id": "zenserp",
+  "cat": "fx",
+  "name": "Zenserp",
+  "url": "https://zenserp.com",
+  "env": [
+   "ZENSERP_KEY"
+  ],
+  "note": "نتائج بحث",
+  "payout": "-"
+ },
+ {
+  "id": "pushhouse",
+  "cat": "adult",
+  "name": "Push.House",
+  "url": "https://push.house",
+  "env": [
+   "PUSHHOUSE_TOKEN"
+  ],
+  "note": "Push إعلانات — فوري",
+  "payout": "$10"
+ },
+ {
+  "id": "megapush",
+  "cat": "adult",
+  "name": "MegaPush",
+  "url": "https://megapu.sh",
+  "env": [
+   "MEGAPUSH_TOKEN"
+  ],
+  "note": "Push/Pop — فوري",
+  "payout": "$10"
+ },
+ {
+  "id": "richpush",
+  "cat": "adult",
+  "name": "RichPush",
+  "url": "https://richpush.co",
+  "env": [
+   "RICHPUSH_TOKEN"
+  ],
+  "note": "Push عالي الجودة",
+  "payout": "$10"
+ },
+ {
+  "id": "datspush",
+  "cat": "adult",
+  "name": "DatsPush",
+  "url": "https://datspush.com",
+  "env": [
+   "DATSPUSH_TOKEN"
+  ],
+  "note": "Push/Pop",
+  "payout": "$10"
+ },
+ {
+  "id": "notix",
+  "cat": "adult",
+  "name": "Notix",
+  "url": "https://notix.co",
+  "env": [
+   "NOTIX_TOKEN"
+  ],
+  "note": "Push اشتراكي",
+  "payout": "$20"
+ },
+ {
+  "id": "pushground",
+  "cat": "adult",
+  "name": "Pushground",
+  "url": "https://pushground.com",
+  "env": [
+   "PUSHGROUND_TOKEN"
+  ],
+  "note": "Push/Pop",
+  "payout": "$10"
+ },
+ {
+  "id": "adoperator",
+  "cat": "adult",
+  "name": "AdOperator",
+  "url": "https://adoperator.com",
+  "env": [
+   "ADOPERATOR_TOKEN"
+  ],
+  "note": "Push/Pop/Inpage",
+  "payout": "$10"
+ },
+ {
+  "id": "propush",
+  "cat": "adult",
+  "name": "ProPush",
+  "url": "https://propush.me",
+  "env": [
+   "PROPUSH_TOKEN"
+  ],
+  "note": "Push من PropellerAds",
+  "payout": "$10"
+ },
+ {
+  "id": "gravitec",
+  "cat": "dev",
+  "name": "Gravitec",
+  "url": "https://gravitec.net",
+  "env": [
+   "GRAVITEC_KEY"
+  ],
+  "note": "Push وPWA",
+  "payout": "$20"
+ },
+ {
+  "id": "foxpush",
+  "cat": "dev",
+  "name": "FoxPush",
+  "url": "https://www.foxpush.com",
+  "env": [
+   "FOXPUSH_KEY"
+  ],
+  "note": "Push",
+  "payout": "$20"
+ },
+ {
+  "id": "onesignal",
+  "cat": "dev",
+  "name": "OneSignal",
+  "url": "https://onesignal.com",
+  "env": [
+   "ONESIGNAL_APP_ID",
+   "ONESIGNAL_API_KEY"
+  ],
+  "note": "إشعارات للتطبيق — مجاني",
+  "payout": "-"
+ },
+ {
+  "id": "cleverpush",
+  "cat": "dev",
+  "name": "CleverPush",
+  "url": "https://cleverpush.com",
+  "env": [
+   "CLEVERPUSH_KEY"
+  ],
+  "note": "Push",
+  "payout": "-"
+ },
+ {
+  "id": "wonderpush",
+  "cat": "dev",
+  "name": "WonderPush",
+  "url": "https://wonderpush.com",
+  "env": [
+   "WONDERPUSH_KEY"
+  ],
+  "note": "Push",
+  "payout": "-"
+ },
+ {
+  "id": "izooto",
+  "cat": "dev",
+  "name": "iZooto",
+  "url": "https://www.izooto.com",
+  "env": [
+   "IZOOTO_KEY"
+  ],
+  "note": "Push ناشرين",
+  "payout": "-"
+ },
+ {
+  "id": "stripchat",
+  "cat": "adult",
+  "name": "Stripchat",
+  "url": "https://stripchat.com/affiliates",
+  "env": [
+   "STRIPCHAT_AFFILIATE"
+  ],
+  "note": "كام — RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "bongacams",
+  "cat": "adult",
+  "name": "BongaCams",
+  "url": "https://bongacams.com/affiliates",
+  "env": [
+   "BONGACAMS_AFFILIATE"
+  ],
+  "note": "كام — RevShare",
+  "payout": "RevShare"
+ },
+ {
+  "id": "faphouse",
+  "cat": "adult",
+  "name": "FapHouse",
+  "url": "https://faphouse.com",
+  "env": [
+   "FAPHOUSE_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "jerkmate",
+  "cat": "adult",
+  "name": "Jerkmate",
+  "url": "https://jerkmate.com",
+  "env": [
+   "JERKMATE_AFFILIATE"
+  ],
+  "note": "كام",
+  "payout": "RevShare"
+ },
+ {
+  "id": "fansly",
+  "cat": "adult",
+  "name": "Fansly",
+  "url": "https://fansly.com",
+  "env": [
+   "FANSLY_TOKEN"
+  ],
+  "note": "اشتراكات",
+  "payout": "-"
+ },
+ {
+  "id": "manyvids",
+  "cat": "adult",
+  "name": "ManyVids",
+  "url": "https://www.manyvids.com",
+  "env": [
+   "MANYVIDS_AFFILIATE"
+  ],
+  "note": "متجر ومحتوى",
+  "payout": "RevShare"
+ },
+ {
+  "id": "clips4sale",
+  "cat": "adult",
+  "name": "Clips4Sale",
+  "url": "https://www.clips4sale.com",
+  "env": [
+   "CLIPS4SALE_AFFILIATE"
+  ],
+  "note": "مقاطع",
+  "payout": "RevShare"
+ },
+ {
+  "id": "kink",
+  "cat": "adult",
+  "name": "Kink.com",
+  "url": "https://www.kink.com",
+  "env": [
+   "KINK_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "xempire",
+  "cat": "adult",
+  "name": "XEmpire",
+  "url": "https://www.xempire.com",
+  "env": [
+   "XEMPIRE_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "babes",
+  "cat": "adult",
+  "name": "Babes",
+  "url": "https://www.babes.com",
+  "env": [
+   "BABES_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "digitalplayground",
+  "cat": "adult",
+  "name": "Digital Playground",
+  "url": "https://www.digitalplayground.com",
+  "env": [
+   "DPLAYGROUND_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "elegantangel",
+  "cat": "adult",
+  "name": "Elegant Angel",
+  "url": "https://www.elegantangel.com",
+  "env": [
+   "ELEGANTANGEL_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "puretaboo",
+  "cat": "adult",
+  "name": "PureTaboo",
+  "url": "https://www.puretaboo.com",
+  "env": [
+   "PURETABOO_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "blacked",
+  "cat": "adult",
+  "name": "Blacked",
+  "url": "https://www.blacked.com",
+  "env": [
+   "BLACKED_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "tushy",
+  "cat": "adult",
+  "name": "Tushy",
+  "url": "https://www.tushy.com",
+  "env": [
+   "TUSHY_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "deeper",
+  "cat": "adult",
+  "name": "Deeper",
+  "url": "https://www.deeper.com",
+  "env": [
+   "DEEPER_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "milfed",
+  "cat": "adult",
+  "name": "Milfed",
+  "url": "https://www.milfed.com",
+  "env": [
+   "MILFED_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "naughtyamerica",
+  "cat": "adult",
+  "name": "Naughty America",
+  "url": "https://www.naughtyamerica.com",
+  "env": [
+   "NAUGHTYAMERICA_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "twistys",
+  "cat": "adult",
+  "name": "Twistys",
+  "url": "https://www.twistys.com",
+  "env": [
+   "TWISTYS_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "playboyplus",
+  "cat": "adult",
+  "name": "Playboy Plus",
+  "url": "https://www.playboyplus.com",
+  "env": [
+   "PLAYBOYPLUS_AFFILIATE"
+  ],
+  "note": "اشتراكات",
+  "payout": "RevShare"
+ },
+ {
+  "id": "maxbounty",
+  "cat": "adult",
+  "name": "MaxBounty",
+  "url": "https://www.maxbounty.com",
+  "env": [
+   "MAXBOUNTY_API_KEY"
+  ],
+  "note": "أشهر شبكة CPA",
+  "payout": "$100"
+ },
+ {
+  "id": "drcash",
+  "cat": "adult",
+  "name": "Dr.Cash",
+  "url": "https://drcash.com",
+  "env": [
+   "DRCASH_API_KEY"
+  ],
+  "note": "CPA صحة وبالغين",
+  "payout": "$50"
+ },
+ {
+  "id": "terraleads",
+  "cat": "adult",
+  "name": "TerraLeads",
+  "url": "https://terraleads.com",
+  "env": [
+   "TERRALEADS_API_KEY"
+  ],
+  "note": "CPA",
+  "payout": "$50"
+ },
+ {
+  "id": "cpamatica",
+  "cat": "adult",
+  "name": "Cpamatica",
+  "url": "https://cpamatica.com",
+  "env": [
+   "CPAMATICA_API_KEY"
+  ],
+  "note": "CPA/COD",
+  "payout": "Wire"
+ },
+ {
+  "id": "advidi",
+  "cat": "adult",
+  "name": "Advidi",
+  "url": "https://advidi.com",
+  "env": [
+   "ADVIDI_API_KEY"
+  ],
+  "note": "هولندا · CPA بريميوم",
+  "payout": "Wire"
+ },
+ {
+  "id": "w4",
+  "cat": "adult",
+  "name": "W4",
+  "url": "https://w4.com",
+  "env": [
+   "W4_API_KEY"
+  ],
+  "note": "CPA",
+  "payout": "Wire"
+ },
+ {
+  "id": "yeahmobi",
+  "cat": "adult",
+  "name": "YeahMobi",
+  "url": "https://www.yeahmobi.com",
+  "env": [
+   "YEAHMOBI_API_KEY"
+  ],
+  "note": "CPA موبايل",
+  "payout": "Wire"
+ },
+ {
+  "id": "offertoro",
+  "cat": "adult",
+  "name": "OfferToro",
+  "url": "https://www.offertoro.com",
+  "env": [
+   "OFFERTORO_APP_ID",
+   "OFFERTORO_SECRET"
+  ],
+  "note": "عروض للتطبيقات",
+  "payout": "CPA"
+ },
+ {
+  "id": "adworkmedia",
+  "cat": "adult",
+  "name": "AdWorkMedia",
+  "url": "https://www.adworkmedia.com",
+  "env": [
+   "ADWORKMEDIA_API_KEY"
+  ],
+  "note": "CPA عروض",
+  "payout": "$50"
+ },
+ {
+  "id": "adscendmedia",
+  "cat": "adult",
+  "name": "Adscend Media",
+  "url": "https://adscendmedia.com",
+  "env": [
+   "ADSCEND_API_KEY"
+  ],
+  "note": "CPA",
+  "payout": "$50"
+ },
+ {
+  "id": "adtraction",
+  "cat": "adult",
+  "name": "Adtraction",
+  "url": "https://adtraction.com",
+  "env": [
+   "ADTRACTION_TOKEN"
+  ],
+  "note": "السويد · أفلييت",
+  "payout": "Wire"
+ },
+ {
+  "id": "tradetracker",
+  "cat": "adult",
+  "name": "TradeTracker",
+  "url": "https://www.tradetracker.com",
+  "env": [
+   "TRADETRACKER_TOKEN"
+  ],
+  "note": "هولندا · شبكة أفلييت",
+  "payout": "بانك"
+ },
+ {
+  "id": "awin",
+  "cat": "adult",
+  "name": "Awin",
+  "url": "https://www.awin.com",
+  "env": [
+   "AWIN_API_TOKEN"
+  ],
+  "note": "بريطانيا · أكبر شبكة أفلييت",
+  "payout": "بانك"
+ },
+ {
+  "id": "cj",
+  "cat": "adult",
+  "name": "CJ Affiliate",
+  "url": "https://www.cj.com",
+  "env": [
+   "CJ_API_TOKEN"
+  ],
+  "note": "أمريكا · شبكة كبرى",
+  "payout": "بانك"
+ },
+ {
+  "id": "impact",
+  "cat": "adult",
+  "name": "Impact.com",
+  "url": "https://impact.com",
+  "env": [
+   "IMPACT_ACCOUNT_SID",
+   "IMPACT_AUTH_TOKEN"
+  ],
+  "note": "إدارة شراكات",
+  "payout": "بانك"
+ },
+ {
+  "id": "shareasale",
+  "cat": "adult",
+  "name": "ShareASale",
+  "url": "https://www.shareasale.com",
+  "env": [
+   "SHAREASALE_TOKEN"
+  ],
+  "note": "شبكة أفلييت",
+  "payout": "بانك"
+ },
+ {
+  "id": "rakutenadv",
+  "cat": "adult",
+  "name": "Rakuten Advertising",
+  "url": "https://www.rakutenadvertising.com",
+  "env": [
+   "RAKUTEN_TOKEN"
+  ],
+  "note": "شبكة أفلييت",
+  "payout": "بانك"
+ },
+ {
+  "id": "clickbank",
+  "cat": "adult",
+  "name": "ClickBank",
+  "url": "https://www.clickbank.com",
+  "env": [
+   "CLICKBANK_API_KEY"
+  ],
+  "note": "منتجات رقمية",
+  "payout": "بانك"
+ },
+ {
+  "id": "digistore24",
+  "cat": "adult",
+  "name": "Digistore24",
+  "url": "https://www.digistore24.com",
+  "env": [
+   "DIGISTORE24_API_KEY"
+  ],
+  "note": "ألمانيا · منتجات رقمية",
+  "payout": "بانك"
+ },
+ {
+  "id": "partnerstack",
+  "cat": "pay",
+  "name": "PartnerStack",
+  "url": "https://partnerstack.com",
+  "env": [
+   "PARTNERSTACK_KEY"
+  ],
+  "note": "شراكات SaaS",
+  "payout": "بانك"
+ },
+ {
+  "id": "refersion",
+  "cat": "pay",
+  "name": "Refersion",
+  "url": "https://www.refersion.com",
+  "env": [
+   "REFERSION_KEY"
+  ],
+  "note": "إدارة أفلييت",
+  "payout": "-"
+ },
+ {
+  "id": "tapfiliate",
+  "cat": "pay",
+  "name": "Tapfiliate",
+  "url": "https://tapfiliate.com",
+  "env": [
+   "TAPFILIATE_API_KEY"
+  ],
+  "note": "برنامج أفلييت جاهز",
+  "payout": "-"
+ },
+ {
+  "id": "postaffiliatepro",
+  "cat": "pay",
+  "name": "Post Affiliate Pro",
+  "url": "https://www.postaffiliatepro.com",
+  "env": [
+   "POSTAFFILIATEPRO_KEY"
+  ],
+  "note": "برنامج أفلييت",
+  "payout": "-"
+ },
+ {
+  "id": "affiliatewp",
+  "cat": "pay",
+  "name": "AffiliateWP",
+  "url": "https://affiliatewp.com",
+  "env": [
+   "AFFILIATEWP_KEY"
+  ],
+  "note": "أفلييت ووردبريس",
+  "payout": "-"
+ },
+ {
+  "id": "firstpromoter",
+  "cat": "pay",
+  "name": "FirstPromoter",
+  "url": "https://firstpromoter.com",
+  "env": [
+   "FIRSTPROMOTER_KEY"
+  ],
+  "note": "أفلييت SaaS",
+  "payout": "-"
+ },
+ {
+  "id": "rewardful",
+  "cat": "pay",
+  "name": "Rewardful",
+  "url": "https://www.rewardful.com",
+  "env": [
+   "REWARDFUL_KEY"
+  ],
+  "note": "أفلييت Stripe",
+  "payout": "-"
+ },
+ {
+  "id": "adultfriendfinder",
+  "cat": "adult",
+  "name": "AdultFriendFinder",
+  "url": "https://www.adultfriendfinder.com",
+  "env": [
+   "AFF_AFFILIATE"
+  ],
+  "note": "ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "be2",
+  "cat": "adult",
+  "name": "Be2",
+  "url": "https://www.be2.com",
+  "env": [
+   "BE2_AFFILIATE"
+  ],
+  "note": "ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "parship",
+  "cat": "adult",
+  "name": "Parship",
+  "url": "https://www.parship.com",
+  "env": [
+   "PARSHIP_AFFILIATE"
+  ],
+  "note": "ألمانيا · ديتينج جدي",
+  "payout": "RevShare"
+ },
+ {
+  "id": "elitesingles",
+  "cat": "adult",
+  "name": "EliteSingles",
+  "url": "https://www.elitesingles.com",
+  "env": [
+   "ELITESINGLES_AFFILIATE"
+  ],
+  "note": "ديتينج نخبة",
+  "payout": "RevShare"
+ },
+ {
+  "id": "zoosk",
+  "cat": "adult",
+  "name": "Zoosk",
+  "url": "https://www.zoosk.com",
+  "env": [
+   "ZOOSK_AFFILIATE"
+  ],
+  "note": "ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "okcupid",
+  "cat": "adult",
+  "name": "OkCupid",
+  "url": "https://www.okcupid.com",
+  "env": [
+   "OKCUPID_AFFILIATE"
+  ],
+  "note": "ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "meetville",
+  "cat": "adult",
+  "name": "Meetville",
+  "url": "https://meetville.com",
+  "env": [
+   "MEETVILLE_AFFILIATE"
+  ],
+  "note": "ديتينج",
+  "payout": "RevShare"
+ },
+ {
+  "id": "magnite",
+  "cat": "ads",
+  "name": "Magnite",
+  "url": "https://www.magnite.com",
+  "env": [
+   "MAGNITE_TOKEN"
+  ],
+  "note": "SSP برمجي",
+  "payout": "Wire"
+ },
+ {
+  "id": "openx",
+  "cat": "ads",
+  "name": "OpenX",
+  "url": "https://www.openx.com",
+  "env": [
+   "OPENX_TOKEN"
+  ],
+  "note": "SSP",
+  "payout": "Wire"
+ },
+ {
+  "id": "indexexchange",
+  "cat": "ads",
+  "name": "Index Exchange",
+  "url": "https://www.indexexchange.com",
+  "env": [
+   "IX_TOKEN"
+  ],
+  "note": "SSP",
+  "payout": "Wire"
+ },
+ {
+  "id": "triplelift",
+  "cat": "ads",
+  "name": "TripleLift",
+  "url": "https://triplelift.com",
+  "env": [
+   "TRIPLELIFT_TOKEN"
+  ],
+  "note": "Native/Video",
+  "payout": "Wire"
+ },
+ {
+  "id": "sharethrough",
+  "cat": "ads",
+  "name": "Sharethrough",
+  "url": "https://www.sharethrough.com",
+  "env": [
+   "SHARETHROUGH_TOKEN"
+  ],
+  "note": "Native",
+  "payout": "Wire"
+ },
+ {
+  "id": "gumgum",
+  "cat": "ads",
+  "name": "GumGum",
+  "url": "https://gumgum.com",
+  "env": [
+   "GUMGUM_TOKEN"
+  ],
+  "note": "سياقي",
+  "payout": "Wire"
+ },
+ {
+  "id": "kargo",
+  "cat": "ads",
+  "name": "Kargo",
+  "url": "https://kargo.com",
+  "env": [
+   "KARGO_TOKEN"
+  ],
+  "note": "موبايل",
+  "payout": "Wire"
+ },
+ {
+  "id": "sonobi",
+  "cat": "ads",
+  "name": "Sonobi",
+  "url": "https://sonobi.com",
+  "env": [
+   "SONOBI_TOKEN"
+  ],
+  "note": "Header bidding",
+  "payout": "Wire"
+ },
+ {
+  "id": "beachfront",
+  "cat": "ads",
+  "name": "Beachfront",
+  "url": "https://beachfront.com",
+  "env": [
+   "BEACHFRONT_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "onetag",
+  "cat": "ads",
+  "name": "OneTag",
+  "url": "https://onetag.com",
+  "env": [
+   "ONETAG_TOKEN"
+  ],
+  "note": "برمجي",
+  "payout": "Wire"
+ },
+ {
+  "id": "districtm",
+  "cat": "ads",
+  "name": "District M",
+  "url": "https://districtm.io",
+  "env": [
+   "DISTRICTM_TOKEN"
+  ],
+  "note": "Header bidding",
+  "payout": "Wire"
+ },
+ {
+  "id": "aniview",
+  "cat": "ads",
+  "name": "Aniview",
+  "url": "https://aniview.com",
+  "env": [
+   "ANIVIEW_TOKEN"
+  ],
+  "note": "فيديو outstream",
+  "payout": "Wire"
+ },
+ {
+  "id": "connatix",
+  "cat": "ads",
+  "name": "Connatix",
+  "url": "https://connatix.com",
+  "env": [
+   "CONNATIX_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "primis",
+  "cat": "ads",
+  "name": "Primis",
+  "url": "https://www.primis.tech",
+  "env": [
+   "PRIMIS_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "vidazoo",
+  "cat": "ads",
+  "name": "Vidazoo",
+  "url": "https://vidazoo.com",
+  "env": [
+   "VIDAZOO_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "tremorvideo",
+  "cat": "ads",
+  "name": "Tremor Video",
+  "url": "https://www.tremorvideo.com",
+  "env": [
+   "TREMOR_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "equativ",
+  "cat": "ads",
+  "name": "Equativ",
+  "url": "https://www.equativ.com",
+  "env": [
+   "EQUATIV_TOKEN"
+  ],
+  "note": "SSP أوروبي",
+  "payout": "Wire"
+ },
+ {
+  "id": "beeswax",
+  "cat": "ads",
+  "name": "Beeswax",
+  "url": "https://beeswax.io",
+  "env": [
+   "BEESWAX_TOKEN"
+  ],
+  "note": "RTB",
+  "payout": "Wire"
+ },
+ {
+  "id": "innovid",
+  "cat": "ads",
+  "name": "Innovid",
+  "url": "https://www.innovid.com",
+  "env": [
+   "INNOVID_TOKEN"
+  ],
+  "note": "فيديو متقدم",
+  "payout": "Wire"
+ },
+ {
+  "id": "extremereach",
+  "cat": "ads",
+  "name": "Extreme Reach",
+  "url": "https://extremereach.com",
+  "env": [
+   "EXTREMEREACH_TOKEN"
+  ],
+  "note": "فيديو",
+  "payout": "Wire"
+ },
+ {
+  "id": "applovin",
+  "cat": "ads",
+  "name": "AppLovin",
+  "url": "https://www.applovin.com",
+  "env": [
+   "APPLOVIN_SDK_KEY"
+  ],
+  "note": "إعلانات تطبيقات — الأعلى",
+  "payout": "$100"
+ },
+ {
+  "id": "ironsource",
+  "cat": "ads",
+  "name": "ironSource",
+  "url": "https://www.is.com",
+  "env": [
+   "IRONSOURCE_APP_KEY"
+  ],
+  "note": "إعلانات تطبيقات",
+  "payout": "$100"
+ },
+ {
+  "id": "unityads",
+  "cat": "ads",
+  "name": "Unity Ads",
+  "url": "https://unity.com/solutions/unity-ads",
+  "env": [
+   "UNITY_GAME_ID"
+  ],
+  "note": "إعلانات ألعاب",
+  "payout": "$100"
+ },
+ {
+  "id": "vungle",
+  "cat": "ads",
+  "name": "Vungle",
+  "url": "https://vungle.com",
+  "env": [
+   "VUNGLE_APP_ID"
+  ],
+  "note": "فيديو مكافأة",
+  "payout": "$100"
+ },
+ {
+  "id": "tapjoy",
+  "cat": "ads",
+  "name": "Tapjoy",
+  "url": "https://www.tapjoy.com",
+  "env": [
+   "TAPJOY_SDK_KEY"
+  ],
+  "note": "عروض مكافأة",
+  "payout": "$100"
+ },
+ {
+  "id": "chartboost",
+  "cat": "ads",
+  "name": "Chartboost",
+  "url": "https://www.chartboost.com",
+  "env": [
+   "CHARTBOOST_APP_ID"
+  ],
+  "note": "ألعاب",
+  "payout": "$100"
+ },
+ {
+  "id": "fyber",
+  "cat": "ads",
+  "name": "Fyber",
+  "url": "https://www.fyber.com",
+  "env": [
+   "FYBER_APP_ID"
+  ],
+  "note": "عروض",
+  "payout": "$100"
+ },
+ {
+  "id": "startapp",
+  "cat": "ads",
+  "name": "StartApp",
+  "url": "https://www.startapp.com",
+  "env": [
+   "STARTAPP_APP_ID"
+  ],
+  "note": "إعلانات أندرويد",
+  "payout": "$50"
+ },
+ {
+  "id": "appnext",
+  "cat": "ads",
+  "name": "Appnext",
+  "url": "https://www.appnext.com",
+  "env": [
+   "APPNEXT_PLACEMENT_ID"
+  ],
+  "note": "اكتشاف تطبيقات",
+  "payout": "$100"
+ },
+ {
+  "id": "inmobi",
+  "cat": "ads",
+  "name": "InMobi",
+  "url": "https://www.inmobi.com",
+  "env": [
+   "INMOBI_ACCOUNT_ID"
+  ],
+  "note": "موبايل",
+  "payout": "$100"
+ },
+ {
+  "id": "smaato",
+  "cat": "ads",
+  "name": "Smaato",
+  "url": "https://www.smaato.com",
+  "env": [
+   "SMAATO_PUB_ID"
+  ],
+  "note": "موبايل SSP",
+  "payout": "$100"
+ },
+ {
+  "id": "liftoff",
+  "cat": "ads",
+  "name": "Liftoff",
+  "url": "https://liftoff.io",
+  "env": [
+   "LIFTOFF_TOKEN"
+  ],
+  "note": "فيديو مكافأة",
+  "payout": "$100"
+ },
+ {
+  "id": "mintegral",
+  "cat": "ads",
+  "name": "Mintegral",
+  "url": "https://www.mintegral.com",
+  "env": [
+   "MINTEGRAL_APP_ID"
+  ],
+  "note": "موبايل",
+  "payout": "$100"
+ },
+ {
+  "id": "digitalturbine",
+  "cat": "ads",
+  "name": "Digital Turbine",
+  "url": "https://www.digitalturbine.com",
+  "env": [
+   "DT_APP_ID"
+  ],
+  "note": "تطبيقات مسبقة",
+  "payout": "$100"
+ },
+ {
+  "id": "admob",
+  "cat": "ads",
+  "name": "Google AdMob",
+  "url": "https://admob.google.com",
+  "env": [
+   "ADMOB_APP_ID"
+  ],
+  "note": "إعلانات تطبيقات — الأعلى موثوقية",
+  "payout": "$100"
+ },
+ {
+  "id": "appsflyer",
+  "cat": "dev",
+  "name": "AppsFlyer",
+  "url": "https://www.appsflyer.com",
+  "env": [
+   "APPSFLYER_DEV_KEY"
+  ],
+  "note": "تتبع تحويلات",
+  "payout": "-"
+ },
+ {
+  "id": "adjust",
+  "cat": "dev",
+  "name": "Adjust",
+  "url": "https://www.adjust.com",
+  "env": [
+   "ADJUST_APP_TOKEN"
+  ],
+  "note": "تتبع",
+  "payout": "-"
+ },
+ {
+  "id": "branch",
+  "cat": "dev",
+  "name": "Branch",
+  "url": "https://branch.io",
+  "env": [
+   "BRANCH_KEY"
+  ],
+  "note": "روابط عميقة",
+  "payout": "-"
+ },
+ {
+  "id": "singular",
+  "cat": "dev",
+  "name": "Singular",
+  "url": "https://www.singular.net",
+  "env": [
+   "SINGULAR_API_KEY"
+  ],
+  "note": "تتبع",
+  "payout": "-"
+ },
+ {
+  "id": "kochava",
+  "cat": "dev",
+  "name": "Kochava",
+  "url": "https://www.kochava.com",
+  "env": [
+   "KOCHAVA_APP_GUID"
+  ],
+  "note": "تتبع",
+  "payout": "-"
+ },
+ {
+  "id": "tenjin",
+  "cat": "dev",
+  "name": "Tenjin",
+  "url": "https://www.tenjin.com",
+  "env": [
+   "TENJIN_API_KEY"
+  ],
+  "note": "تتبع",
+  "payout": "-"
+ },
+ {
+  "id": "firebase",
+  "cat": "dev",
+  "name": "Firebase",
+  "url": "https://firebase.google.com",
+  "env": [
+   "FIREBASE_PROJECT_ID",
+   "FIREBASE_SERVER_KEY"
+  ],
+  "note": "تحليلات وإشعارات — مجاني",
+  "payout": "-"
+ },
+ {
+  "id": "amplitude",
+  "cat": "dev",
+  "name": "Amplitude",
+  "url": "https://amplitude.com",
+  "env": [
+   "AMPLITUDE_API_KEY"
+  ],
+  "note": "تحليلات منتج",
+  "payout": "-"
+ },
+ {
+  "id": "mixpanel",
+  "cat": "dev",
+  "name": "Mixpanel",
+  "url": "https://mixpanel.com",
+  "env": [
+   "MIXPANEL_TOKEN"
+  ],
+  "note": "تحليلات",
+  "payout": "-"
+ },
+ {
+  "id": "posthog",
+  "cat": "dev",
+  "name": "PostHog",
+  "url": "https://posthog.com",
+  "env": [
+   "POSTHOG_KEY"
+  ],
+  "note": "تحليلات + تسجيل جلسات",
+  "payout": "-"
+ },
+ {
+  "id": "plausible",
+  "cat": "dev",
+  "name": "Plausible",
+  "url": "https://plausible.io",
+  "env": [
+   "PLAUSIBLE_DOMAIN"
+  ],
+  "note": "تحليلات بلا كوكيز",
+  "payout": "-"
+ },
+ {
+  "id": "umami",
+  "cat": "dev",
+  "name": "Umami",
+  "url": "https://umami.is",
+  "env": [
+   "UMAMI_WEBSITE_ID"
+  ],
+  "note": "تحليلات مفتوحة",
+  "payout": "-"
+ },
+ {
+  "id": "matomo",
+  "cat": "dev",
+  "name": "Matomo",
+  "url": "https://matomo.org",
+  "env": [
+   "MATOMO_SITE_ID"
+  ],
+  "note": "تحليلات مستضافة ذاتيًا",
+  "payout": "-"
+ },
+ {
+  "id": "goatcounter",
+  "cat": "dev",
+  "name": "GoatCounter",
+  "url": "https://www.goatcounter.com",
+  "env": [
+   "GOATCOUNTER_CODE"
+  ],
+  "note": "تحليلات مجانية خفيفة",
+  "payout": "-"
+ },
+ {
+  "id": "simpleanalytics",
+  "cat": "dev",
+  "name": "Simple Analytics",
+  "url": "https://www.simpleanalytics.com",
+  "env": [
+   "SIMPLEANALYTICS_KEY"
+  ],
+  "note": "تحليلات خصوصية",
+  "payout": "-"
+ },
+ {
+  "id": "thesportsdb",
+  "cat": "data",
+  "name": "TheSportsDB",
+  "url": "-",
+  "env": [
+   "SPORTSDB_KEY"
+  ],
+  "note": "رياضة · مفتاح تجريبي مجاني",
+  "payout": "-",
+  "probe": "https://www.thesportsdb.com/api/v1/json/3/all_leagues.php"
+ },
+ {
+  "id": "api-sports",
+  "cat": "data",
+  "name": "API-Sports",
+  "url": "https://api-sports.io",
+  "env": [
+   "APISPORTS_KEY"
+  ],
+  "note": "كرة وNBA وغيرها",
+  "payout": "-"
+ },
+ {
+  "id": "sportmonks",
+  "cat": "data",
+  "name": "Sportmonks",
+  "url": "https://www.sportmonks.com",
+  "env": [
+   "SPORTMONKS_KEY"
+  ],
+  "note": "بيانات كرة تفصيلية",
+  "payout": "-"
+ },
+ {
+  "id": "football-data",
+  "cat": "data",
+  "name": "Football-Data.org",
+  "url": "https://www.football-data.org",
+  "env": [
+   "FOOTBALLDATA_KEY"
+  ],
+  "note": "دوريات — طبقة مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "the-odds-api",
+  "cat": "data",
+  "name": "The Odds API",
+  "url": "https://the-odds-api.com",
+  "env": [
+   "ODDS_API_KEY"
+  ],
+  "note": "احتمالات المراهنات",
+  "payout": "-"
+ },
+ {
+  "id": "balldontlie",
+  "cat": "data",
+  "name": "BALLDONTLIE",
+  "url": "https://www.balldontlie.io",
+  "env": [
+   "BALLDONTLIE_KEY"
+  ],
+  "note": "NBA — يحتاج مفتاحًا الآن",
+  "payout": "-"
+ },
+ {
+  "id": "cricapi",
+  "cat": "data",
+  "name": "CricAPI",
+  "url": "https://www.cricapi.com",
+  "env": [
+   "CRICAPI_KEY"
+  ],
+  "note": "كريكت",
+  "payout": "-"
+ },
+ {
+  "id": "jolpica",
+  "cat": "data",
+  "name": "Jolpica F1",
+  "url": "-",
+  "env": [
+   "JOLPICA_KEY"
+  ],
+  "note": "فورمولا 1 · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.jolpi.ca/ergast/f1/2025/driverstandings.json"
+ },
+ {
+  "id": "openf1",
+  "cat": "data",
+  "name": "OpenF1",
+  "url": "-",
+  "env": [
+   "OPENF1_KEY"
+  ],
+  "note": "بيانات F1 مباشرة · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.openf1.org/v1/sessions?year=2025"
+ },
+ {
+  "id": "openlibrary",
+  "cat": "media",
+  "name": "Open Library",
+  "url": "-",
+  "env": [
+   "OPENLIBRARY_KEY"
+  ],
+  "note": "كتب · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://openlibrary.org/search.json?q=dune&limit=1"
+ },
+ {
+  "id": "gutendex",
+  "cat": "media",
+  "name": "Gutendex",
+  "url": "-",
+  "env": [
+   "GUTENDEX_KEY"
+  ],
+  "note": "60k كتاب ملك عام · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://gutendex.com/books?search=dune"
+ },
+ {
+  "id": "googlebooks",
+  "cat": "media",
+  "name": "Google Books",
+  "url": "-",
+  "env": [
+   "GOOGLEBOOKS_KEY"
+  ],
+  "note": "كتب · بلا مفتاح للبحث",
+  "payout": "-",
+  "probe": "https://www.googleapis.com/books/v1/volumes?q=dune&maxResults=1"
+ },
+ {
+  "id": "comicvine",
+  "cat": "media",
+  "name": "Comic Vine",
+  "url": "https://comicvine.gamespot.com/api",
+  "env": [
+   "COMICVINE_KEY"
+  ],
+  "note": "كوميكس",
+  "payout": "-"
+ },
+ {
+  "id": "mangadex",
+  "cat": "media",
+  "name": "MangaDex",
+  "url": "-",
+  "env": [
+   "MANGADEX_KEY"
+  ],
+  "note": "مانجا · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.mangadex.org/manga?limit=1"
+ },
+ {
+  "id": "shikimori",
+  "cat": "media",
+  "name": "Shikimori",
+  "url": "-",
+  "env": [
+   "SHIKIMORI_KEY"
+  ],
+  "note": "أنمي · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://shikimori.one/api/animes?limit=1"
+ },
+ {
+  "id": "musicbrainz",
+  "cat": "media",
+  "name": "MusicBrainz",
+  "url": "-",
+  "env": [
+   "MUSICBRAINZ_KEY"
+  ],
+  "note": "موسيقى · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://musicbrainz.org/ws/2/artist?query=radiohead&fmt=json"
+ },
+ {
+  "id": "coverartarchive",
+  "cat": "media",
+  "name": "Cover Art Archive",
+  "url": "-",
+  "env": [
+   "CAA_KEY"
+  ],
+  "note": "أغلفة ألبومات · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "lastfm",
+  "cat": "media",
+  "name": "Last.fm",
+  "url": "https://www.last.fm/api",
+  "env": [
+   "LASTFM_KEY"
+  ],
+  "note": "موسيقى وتوصيات",
+  "payout": "-"
+ },
+ {
+  "id": "theaudiodb",
+  "cat": "media",
+  "name": "TheAudioDB",
+  "url": "-",
+  "env": [
+   "AUDIODB_KEY"
+  ],
+  "note": "فنانون · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://www.theaudiodb.com/api/v1/json/2/search.php?s=coldplay"
+ },
+ {
+  "id": "discogs",
+  "cat": "media",
+  "name": "Discogs",
+  "url": "https://www.discogs.com/developers",
+  "env": [
+   "DISCOGS_TOKEN"
+  ],
+  "note": "قاعدة فينيل",
+  "payout": "-"
+ },
+ {
+  "id": "spotify",
+  "cat": "media",
+  "name": "Spotify",
+  "url": "https://developer.spotify.com",
+  "env": [
+   "SPOTIFY_CLIENT_ID",
+   "SPOTIFY_CLIENT_SECRET"
+  ],
+  "note": "موسيقى وpodcast",
+  "payout": "-"
+ },
+ {
+  "id": "deezer",
+  "cat": "media",
+  "name": "Deezer",
+  "url": "https://developers.deezer.com",
+  "env": [
+   "DEEZER_APP_ID"
+  ],
+  "note": "موسيقى",
+  "payout": "-"
+ },
+ {
+  "id": "soundcloud",
+  "cat": "media",
+  "name": "SoundCloud",
+  "url": "https://developers.soundcloud.com",
+  "env": [
+   "SOUNDCLOUD_CLIENT_ID"
+  ],
+  "note": "موسيقى",
+  "payout": "-"
+ },
+ {
+  "id": "jamendo",
+  "cat": "media",
+  "name": "Jamendo",
+  "url": "https://developer.jamendo.com",
+  "env": [
+   "JAMENDO_CLIENT_ID"
+  ],
+  "note": "موسيقى مجانية الترخيص",
+  "payout": "-"
+ },
+ {
+  "id": "freesound",
+  "cat": "media",
+  "name": "Freesound",
+  "url": "https://freesound.org/docs/api",
+  "env": [
+   "FREESOUND_KEY"
+  ],
+  "note": "مؤثرات صوتية",
+  "payout": "-"
+ },
+ {
+  "id": "nasa",
+  "cat": "media",
+  "name": "NASA",
+  "url": "https://api.nasa.gov",
+  "env": [
+   "NASA_API_KEY"
+  ],
+  "note": "صور فضاء — DEMO_KEY متاح",
+  "payout": "-",
+  "probe": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
+ },
+ {
+  "id": "spacex",
+  "cat": "media",
+  "name": "SpaceX API",
+  "url": "-",
+  "env": [
+   "SPACEX_KEY"
+  ],
+  "note": "إطلاقات · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.spacexdata.com/v4/launches/latest"
+ },
+ {
+  "id": "launchlibrary",
+  "cat": "media",
+  "name": "Launch Library 2",
+  "url": "https://thespacedevs.com/llapi",
+  "env": [
+   "LL2_KEY"
+  ],
+  "note": "إطلاقات",
+  "payout": "-",
+  "probe": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=1"
+ },
+ {
+  "id": "arxiv",
+  "cat": "media",
+  "name": "arXiv",
+  "url": "-",
+  "env": [
+   "ARXIV_KEY"
+  ],
+  "note": "أوراق علمية · بلا مفتاح",
+  "payout": "-",
+  "probe": "http://export.arxiv.org/api/query?search_query=all:electron&max_results=1"
+ },
+ {
+  "id": "crossref",
+  "cat": "media",
+  "name": "Crossref",
+  "url": "-",
+  "env": [
+   "CROSSREF_KEY"
+  ],
+  "note": "استشهادات · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.crossref.org/works?rows=1"
+ },
+ {
+  "id": "pubmed",
+  "cat": "media",
+  "name": "PubMed E-utils",
+  "url": "-",
+  "env": [
+   "PUBMED_KEY"
+  ],
+  "note": "طب · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer&retmax=1&retmode=json"
+ },
+ {
+  "id": "openalex",
+  "cat": "media",
+  "name": "OpenAlex",
+  "url": "-",
+  "env": [
+   "OPENALEX_KEY"
+  ],
+  "note": "أبحاث · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.openalex.org/works?per-page=1"
+ },
+ {
+  "id": "semanticscholar",
+  "cat": "media",
+  "name": "Semantic Scholar",
+  "url": "https://api.semanticscholar.org",
+  "env": [
+   "S2_KEY"
+  ],
+  "note": "أبحاث",
+  "payout": "-",
+  "probe": "https://api.semanticscholar.org/graph/v1/paper/search?query=ml&limit=1"
+ },
+ {
+  "id": "core-api",
+  "cat": "media",
+  "name": "CORE",
+  "url": "https://core.ac.uk/services/api",
+  "env": [
+   "CORE_API_KEY"
+  ],
+  "note": "أوراق مفتوحة",
+  "payout": "-"
+ },
+ {
+  "id": "doaj",
+  "cat": "media",
+  "name": "DOAJ",
+  "url": "https://doaj.org/api/docs",
+  "env": [
+   "DOAJ_KEY"
+  ],
+  "note": "دوريات مفتوحة · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://doaj.org/api/search/articles/test?pageSize=1"
+ },
+ {
+  "id": "opennotify",
+  "cat": "media",
+  "name": "Open Notify ISS",
+  "url": "-",
+  "env": [
+   "OPENNOTIFY_KEY"
+  ],
+  "note": "موقع محطة الفضاء · بلا مفتاح",
+  "payout": "-",
+  "probe": "http://api.open-notify.org/iss-now.json"
+ },
+ {
+  "id": "usgs",
+  "cat": "data",
+  "name": "USGS Earthquakes",
+  "url": "-",
+  "env": [
+   "USGS_KEY"
+  ],
+  "note": "زلازل · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=1"
+ },
+ {
+  "id": "open-meteo",
+  "cat": "data",
+  "name": "Open-Meteo",
+  "url": "-",
+  "env": [
+   "OPENMETEO_KEY"
+  ],
+  "note": "طقس · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.open-meteo.com/v1/forecast?latitude=30&longitude=31&current=temperature_2m"
+ },
+ {
+  "id": "weatherapi",
+  "cat": "data",
+  "name": "WeatherAPI",
+  "url": "https://www.weatherapi.com",
+  "env": [
+   "WEATHERAPI_KEY"
+  ],
+  "note": "طقس + تنبؤ",
+  "payout": "-"
+ },
+ {
+  "id": "tomorrowio",
+  "cat": "data",
+  "name": "Tomorrow.io",
+  "url": "https://www.tomorrow.io",
+  "env": [
+   "TOMORROW_KEY"
+  ],
+  "note": "طقس دقيق",
+  "payout": "-"
+ },
+ {
+  "id": "visualcrossing",
+  "cat": "data",
+  "name": "Visual Crossing",
+  "url": "https://www.visualcrossing.com",
+  "env": [
+   "VISUALCROSSING_KEY"
+  ],
+  "note": "طقس تاريخي",
+  "payout": "-"
+ },
+ {
+  "id": "meteostat",
+  "cat": "data",
+  "name": "Meteostat",
+  "url": "https://meteostat.net",
+  "env": [
+   "METEOSTAT_KEY"
+  ],
+  "note": "طقس تاريخي",
+  "payout": "-"
+ },
+ {
+  "id": "geodb",
+  "cat": "data",
+  "name": "GeoDB Cities",
+  "url": "https://wirefreethought.github.io/geodb-cities-api",
+  "env": [
+   "GEODB_KEY"
+  ],
+  "note": "مدن ودول",
+  "payout": "-"
+ },
+ {
+  "id": "restcountries",
+  "cat": "data",
+  "name": "REST Countries",
+  "url": "-",
+  "env": [
+   "RESTCOUNTRIES_KEY"
+  ],
+  "note": "دول · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://restcountries.com/v3.1/name/egypt"
+ },
+ {
+  "id": "ipapi",
+  "cat": "data",
+  "name": "ipapi.co",
+  "url": "-",
+  "env": [
+   "IPAPI_KEY"
+  ],
+  "note": "موقع IP · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://ipapi.co/json/"
+ },
+ {
+  "id": "ipinfo",
+  "cat": "data",
+  "name": "ipinfo.io",
+  "url": "https://ipinfo.io",
+  "env": [
+   "IPINFO_TOKEN"
+  ],
+  "note": "موقع IP",
+  "payout": "-",
+  "probe": "https://ipinfo.io/json"
+ },
+ {
+  "id": "ipstack",
+  "cat": "data",
+  "name": "ipstack",
+  "url": "https://ipstack.com",
+  "env": [
+   "IPSTACK_KEY"
+  ],
+  "note": "موقع IP",
+  "payout": "-"
+ },
+ {
+  "id": "ipgeolocation",
+  "cat": "data",
+  "name": "ipgeolocation.io",
+  "url": "https://ipgeolocation.io",
+  "env": [
+   "IPGEO_KEY"
+  ],
+  "note": "موقع IP",
+  "payout": "-"
+ },
+ {
+  "id": "geonames",
+  "cat": "data",
+  "name": "GeoNames",
+  "url": "https://www.geonames.org/export",
+  "env": [
+   "GEONAMES_USER"
+  ],
+  "note": "أسماء أماكن — مستخدم demo",
+  "payout": "-",
+  "probe": "http://api.geonames.org/searchJSON?q=cairo&maxRows=1&username=demo"
+ },
+ {
+  "id": "opencage",
+  "cat": "data",
+  "name": "OpenCage",
+  "url": "https://opencagedata.com",
+  "env": [
+   "OPENCAGE_KEY"
+  ],
+  "note": "تحويل عناوين",
+  "payout": "-"
+ },
+ {
+  "id": "tomtom",
+  "cat": "data",
+  "name": "TomTom",
+  "url": "https://developer.tomtom.com",
+  "env": [
+   "TOMTOM_KEY"
+  ],
+  "note": "خرائط وملاحة",
+  "payout": "-"
+ },
+ {
+  "id": "radar",
+  "cat": "data",
+  "name": "Radar",
+  "url": "https://radar.com",
+  "env": [
+   "RADAR_KEY"
+  ],
+  "note": "جغرافيا ومواقع",
+  "payout": "-"
+ },
+ {
+  "id": "maptiler",
+  "cat": "data",
+  "name": "MapTiler",
+  "url": "https://www.maptiler.com",
+  "env": [
+   "MAPTILER_KEY"
+  ],
+  "note": "بلاطات خرائط",
+  "payout": "-"
+ },
+ {
+  "id": "libretranslate",
+  "cat": "data",
+  "name": "LibreTranslate",
+  "url": "https://libretranslate.com",
+  "env": [
+   "LIBRETRANSLATE_KEY"
+  ],
+  "note": "ترجمة مفتوحة",
+  "payout": "-",
+  "probe": "https://libretranslate.com/languages"
+ },
+ {
+  "id": "deepl",
+  "cat": "data",
+  "name": "DeepL",
+  "url": "https://www.deepl.com/pro-api",
+  "env": [
+   "DEEPL_KEY"
+  ],
+  "note": "أفضل ترجمة",
+  "payout": "-"
+ },
+ {
+  "id": "ocrspace",
+  "cat": "data",
+  "name": "OCR.space",
+  "url": "https://ocr.space/ocrapi",
+  "env": [
+   "OCRSPACE_KEY"
+  ],
+  "note": "استخراج نص من صور",
+  "payout": "-"
+ },
+ {
+  "id": "timezonedb",
+  "cat": "data",
+  "name": "TimeZoneDB",
+  "url": "https://timezonedb.com",
+  "env": [
+   "TIMEZONEDB_KEY"
+  ],
+  "note": "مناطق زمنية",
+  "payout": "-"
+ },
+ {
+  "id": "worldtimeapi",
+  "cat": "data",
+  "name": "WorldTimeAPI",
+  "url": "-",
+  "env": [
+   "WORLDTIME_KEY"
+  ],
+  "note": "وقت · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://worldtimeapi.org/api/timezone/Africa/Cairo"
+ },
+ {
+  "id": "nagerdate",
+  "cat": "data",
+  "name": "Nager.Date",
+  "url": "-",
+  "env": [
+   "NAGERDATE_KEY"
+  ],
+  "note": "عطل رسمية · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://date.nager.at/api/v3/PublicHolidays/2026/EG"
+ },
+ {
+  "id": "openfoodfacts",
+  "cat": "data",
+  "name": "Open Food Facts",
+  "url": "-",
+  "env": [
+   "OFF_KEY"
+  ],
+  "note": "أغذية · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://world.openfoodfacts.org/api/v2/search?categories_tags=en:snacks&page_size=1"
+ },
+ {
+  "id": "themealdb",
+  "cat": "data",
+  "name": "TheMealDB",
+  "url": "-",
+  "env": [
+   "MEALDB_KEY"
+  ],
+  "note": "وصفات · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata"
+ },
+ {
+  "id": "spoonacular",
+  "cat": "data",
+  "name": "Spoonacular",
+  "url": "https://spoonacular.com/food-api",
+  "env": [
+   "SPOONACULAR_KEY"
+  ],
+  "note": "وصفات",
+  "payout": "-"
+ },
+ {
+  "id": "edamam",
+  "cat": "data",
+  "name": "Edamam",
+  "url": "https://developer.edamam.com",
+  "env": [
+   "EDAMAM_APP_ID",
+   "EDAMAM_APP_KEY"
+  ],
+  "note": "تغذية",
+  "payout": "-"
+ },
+ {
+  "id": "twilio",
+  "cat": "dev",
+  "name": "Twilio",
+  "url": "https://www.twilio.com",
+  "env": [
+   "TWILIO_ACCOUNT_SID",
+   "TWILIO_AUTH_TOKEN"
+  ],
+  "note": "SMS ومكالمات",
+  "payout": "-"
+ },
+ {
+  "id": "vonage",
+  "cat": "dev",
+  "name": "Vonage",
+  "url": "https://developer.vonage.com",
+  "env": [
+   "VONAGE_API_KEY",
+   "VONAGE_API_SECRET"
+  ],
+  "note": "SMS",
+  "payout": "-"
+ },
+ {
+  "id": "plivo",
+  "cat": "dev",
+  "name": "Plivo",
+  "url": "https://www.plivo.com",
+  "env": [
+   "PLIVO_AUTH_ID",
+   "PLIVO_AUTH_TOKEN"
+  ],
+  "note": "SMS",
+  "payout": "-"
+ },
+ {
+  "id": "messagebird",
+  "cat": "dev",
+  "name": "MessageBird",
+  "url": "https://www.messagebird.com",
+  "env": [
+   "MESSAGEBIRD_KEY"
+  ],
+  "note": "SMS وواتساب",
+  "payout": "-"
+ },
+ {
+  "id": "sendgrid",
+  "cat": "dev",
+  "name": "SendGrid",
+  "url": "https://sendgrid.com",
+  "env": [
+   "SENDGRID_API_KEY"
+  ],
+  "note": "بريد — 100/يوم مجانًا",
+  "payout": "-"
+ },
+ {
+  "id": "mailgun",
+  "cat": "dev",
+  "name": "Mailgun",
+  "url": "https://www.mailgun.com",
+  "env": [
+   "MAILGUN_API_KEY"
+  ],
+  "note": "بريد",
+  "payout": "-"
+ },
+ {
+  "id": "postmark",
+  "cat": "dev",
+  "name": "Postmark",
+  "url": "https://postmarkapp.com",
+  "env": [
+   "POSTMARK_TOKEN"
+  ],
+  "note": "بريد تسليم عالي",
+  "payout": "-"
+ },
+ {
+  "id": "resend",
+  "cat": "dev",
+  "name": "Resend",
+  "url": "https://resend.com",
+  "env": [
+   "RESEND_API_KEY"
+  ],
+  "note": "بريد مطوّرين",
+  "payout": "-"
+ },
+ {
+  "id": "brevo",
+  "cat": "dev",
+  "name": "Brevo",
+  "url": "https://www.brevo.com",
+  "env": [
+   "BREVO_API_KEY"
+  ],
+  "note": "بريد وتسويق",
+  "payout": "-"
+ },
+ {
+  "id": "mailjet",
+  "cat": "dev",
+  "name": "Mailjet",
+  "url": "https://www.mailjet.com",
+  "env": [
+   "MAILJET_API_KEY",
+   "MAILJET_SECRET"
+  ],
+  "note": "بريد",
+  "payout": "-"
+ },
+ {
+  "id": "sparkpost",
+  "cat": "dev",
+  "name": "SparkPost",
+  "url": "https://www.sparkpost.com",
+  "env": [
+   "SPARKPOST_KEY"
+  ],
+  "note": "بريد",
+  "payout": "-"
+ },
+ {
+  "id": "mailchimp",
+  "cat": "dev",
+  "name": "Mailchimp",
+  "url": "https://mailchimp.com/developer",
+  "env": [
+   "MAILCHIMP_KEY"
+  ],
+  "note": "قوائم بريدية",
+  "payout": "-"
+ },
+ {
+  "id": "convertkit",
+  "cat": "dev",
+  "name": "Kit (ConvertKit)",
+  "url": "https://developers.convertkit.com",
+  "env": [
+   "CONVERTKIT_KEY"
+  ],
+  "note": "نشرة",
+  "payout": "-"
+ },
+ {
+  "id": "buttondown",
+  "cat": "dev",
+  "name": "Buttondown",
+  "url": "https://buttondown.email/api",
+  "env": [
+   "BUTTONDOWN_KEY"
+  ],
+  "note": "نشرة بسيطة",
+  "payout": "-"
+ },
+ {
+  "id": "slack",
+  "cat": "channel",
+  "name": "Slack API",
+  "url": "https://api.slack.com",
+  "env": [
+   "SLACK_BOT_TOKEN"
+  ],
+  "note": "تنبيهات الفريق",
+  "payout": "-"
+ },
+ {
+  "id": "rocketchat",
+  "cat": "channel",
+  "name": "Rocket.Chat",
+  "url": "https://developer.rocket.chat",
+  "env": [
+   "ROCKETCHAT_TOKEN"
+  ],
+  "note": "دردشة",
+  "payout": "-"
+ },
+ {
+  "id": "mattermost",
+  "cat": "channel",
+  "name": "Mattermost",
+  "url": "https://api.mattermost.com",
+  "env": [
+   "MATTERMOST_TOKEN"
+  ],
+  "note": "دردشة",
+  "payout": "-"
+ },
+ {
+  "id": "matrix",
+  "cat": "channel",
+  "name": "Matrix",
+  "url": "https://spec.matrix.org",
+  "env": [
+   "MATRIX_HOMESERVER",
+   "MATRIX_TOKEN"
+  ],
+  "note": "دردشة لامركزية",
+  "payout": "-"
+ },
+ {
+  "id": "cloudinary",
+  "cat": "dev",
+  "name": "Cloudinary",
+  "url": "https://cloudinary.com",
+  "env": [
+   "CLOUDINARY_URL"
+  ],
+  "note": "صور وفيديو",
+  "payout": "-"
+ },
+ {
+  "id": "uploadcare",
+  "cat": "dev",
+  "name": "Uploadcare",
+  "url": "https://uploadcare.com",
+  "env": [
+   "UPLOADCARE_KEY"
+  ],
+  "note": "رفع ملفات",
+  "payout": "-"
+ },
+ {
+  "id": "imagekit",
+  "cat": "dev",
+  "name": "ImageKit",
+  "url": "https://imagekit.io",
+  "env": [
+   "IMAGEKIT_KEY"
+  ],
+  "note": "تحسين صور",
+  "payout": "-"
+ },
+ {
+  "id": "imgix",
+  "cat": "dev",
+  "name": "imgix",
+  "url": "https://imgix.com",
+  "env": [
+   "IMGIX_KEY"
+  ],
+  "note": "معالجة صور",
+  "payout": "-"
+ },
+ {
+  "id": "bunny",
+  "cat": "dev",
+  "name": "Bunny.net",
+  "url": "https://bunny.net",
+  "env": [
+   "BUNNY_API_KEY"
+  ],
+  "note": "CDN وتخزين رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "backblaze",
+  "cat": "dev",
+  "name": "Backblaze B2",
+  "url": "https://www.backblaze.com/b2",
+  "env": [
+   "B2_KEY_ID",
+   "B2_APP_KEY"
+  ],
+  "note": "تخزين رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "wasabi",
+  "cat": "dev",
+  "name": "Wasabi",
+  "url": "https://wasabi.com",
+  "env": [
+   "WASABI_KEY"
+  ],
+  "note": "تخزين متوافق S3",
+  "payout": "-"
+ },
+ {
+  "id": "storj",
+  "cat": "dev",
+  "name": "Storj",
+  "url": "https://www.storj.io",
+  "env": [
+   "STORJ_KEY"
+  ],
+  "note": "تخزين لامركزي",
+  "payout": "-"
+ },
+ {
+  "id": "pinata",
+  "cat": "dev",
+  "name": "Pinata IPFS",
+  "url": "https://www.pinata.cloud",
+  "env": [
+   "PINATA_JWT"
+  ],
+  "note": "IPFS",
+  "payout": "-"
+ },
+ {
+  "id": "arweave",
+  "cat": "dev",
+  "name": "Arweave",
+  "url": "https://arweave.org",
+  "env": [
+   "ARWEAVE_KEY"
+  ],
+  "note": "تخزين دائم",
+  "payout": "-"
+ },
+ {
+  "id": "mux",
+  "cat": "dev",
+  "name": "Mux",
+  "url": "https://www.mux.com",
+  "env": [
+   "MUX_TOKEN_ID",
+   "MUX_TOKEN_SECRET"
+  ],
+  "note": "فيديو للمطوّرين",
+  "payout": "-"
+ },
+ {
+  "id": "apivideo",
+  "cat": "dev",
+  "name": "api.video",
+  "url": "https://www.api.video",
+  "env": [
+   "APIVIDEO_KEY"
+  ],
+  "note": "استضافة فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "wistia",
+  "cat": "dev",
+  "name": "Wistia",
+  "url": "https://wistia.com",
+  "env": [
+   "WISTIA_KEY"
+  ],
+  "note": "فيديو تسويقي",
+  "payout": "-"
+ },
+ {
+  "id": "jwplayer",
+  "cat": "dev",
+  "name": "JW Player",
+  "url": "https://www.jwplayer.com",
+  "env": [
+   "JWPLAYER_KEY"
+  ],
+  "note": "مشغّل وإعلانات فيديو",
+  "payout": "-"
+ },
+ {
+  "id": "datadog",
+  "cat": "dev",
+  "name": "Datadog",
+  "url": "https://www.datadoghq.com",
+  "env": [
+   "DATADOG_API_KEY"
+  ],
+  "note": "مراقبة",
+  "payout": "-"
+ },
+ {
+  "id": "newrelic",
+  "cat": "dev",
+  "name": "New Relic",
+  "url": "https://newrelic.com",
+  "env": [
+   "NEWRELIC_LICENSE_KEY"
+  ],
+  "note": "مراقبة",
+  "payout": "-"
+ },
+ {
+  "id": "axiom",
+  "cat": "dev",
+  "name": "Axiom",
+  "url": "https://axiom.co",
+  "env": [
+   "AXIOM_TOKEN"
+  ],
+  "note": "سجلات",
+  "payout": "-"
+ },
+ {
+  "id": "rollbar",
+  "cat": "dev",
+  "name": "Rollbar",
+  "url": "https://rollbar.com",
+  "env": [
+   "ROLLBAR_TOKEN"
+  ],
+  "note": "تتبع أخطاء",
+  "payout": "-"
+ },
+ {
+  "id": "honeybadger",
+  "cat": "dev",
+  "name": "Honeybadger",
+  "url": "https://www.honeybadger.io",
+  "env": [
+   "HONEYBADGER_KEY"
+  ],
+  "note": "تتبع أخطاء",
+  "payout": "-"
+ },
+ {
+  "id": "bugsnag",
+  "cat": "dev",
+  "name": "Bugsnag",
+  "url": "https://www.bugsnag.com",
+  "env": [
+   "BUGSNAG_KEY"
+  ],
+  "note": "تتبع أخطاء",
+  "payout": "-"
+ },
+ {
+  "id": "raygun",
+  "cat": "dev",
+  "name": "Raygun",
+  "url": "https://raygun.com",
+  "env": [
+   "RAYGUN_KEY"
+  ],
+  "note": "تتبع أخطاء",
+  "payout": "-"
+ },
+ {
+  "id": "healthchecks",
+  "cat": "dev",
+  "name": "Healthchecks.io",
+  "url": "https://healthchecks.io",
+  "env": [
+   "HEALTHCHECKS_KEY"
+  ],
+  "note": "مراقبة مهام مجدولة",
+  "payout": "-"
+ },
+ {
+  "id": "codecov",
+  "cat": "dev",
+  "name": "Codecov",
+  "url": "https://about.codecov.io",
+  "env": [
+   "CODECOV_TOKEN"
+  ],
+  "note": "تغطية اختبارات",
+  "payout": "-"
+ },
+ {
+  "id": "snyk",
+  "cat": "dev",
+  "name": "Snyk",
+  "url": "https://snyk.io",
+  "env": [
+   "SNYK_TOKEN"
+  ],
+  "note": "أمان الحزم",
+  "payout": "-"
+ },
+ {
+  "id": "sonar",
+  "cat": "dev",
+  "name": "SonarQube",
+  "url": "https://www.sonarsource.com",
+  "env": [
+   "SONAR_TOKEN"
+  ],
+  "note": "جودة كود",
+  "payout": "-"
+ },
+ {
+  "id": "circleci",
+  "cat": "dev",
+  "name": "CircleCI",
+  "url": "https://circleci.com",
+  "env": [
+   "CIRCLECI_TOKEN"
+  ],
+  "note": "CI/CD",
+  "payout": "-"
+ },
+ {
+  "id": "dockerhub",
+  "cat": "dev",
+  "name": "Docker Hub",
+  "url": "https://hub.docker.com",
+  "env": [
+   "DOCKERHUB_TOKEN"
+  ],
+  "note": "صور حاويات",
+  "payout": "-"
+ },
+ {
+  "id": "quay",
+  "cat": "dev",
+  "name": "Quay.io",
+  "url": "https://quay.io",
+  "env": [
+   "QUAY_TOKEN"
+  ],
+  "note": "سجل حاويات",
+  "payout": "-"
+ },
+ {
+  "id": "coincap",
+  "cat": "crypto",
+  "name": "CoinCap",
+  "url": "-",
+  "env": [
+   "COINCAP_KEY"
+  ],
+  "note": "أسعار · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.coincap.io/v2/assets?limit=1"
+ },
+ {
+  "id": "coinpaprika",
+  "cat": "crypto",
+  "name": "CoinPaprika",
+  "url": "-",
+  "env": [
+   "COINPAPRIKA_KEY"
+  ],
+  "note": "أسعار · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.coinpaprika.com/v1/tickers/btc-bitcoin"
+ },
+ {
+  "id": "cryptocompare",
+  "cat": "crypto",
+  "name": "CryptoCompare",
+  "url": "-",
+  "env": [
+   "CRYPTOCOMPARE_KEY"
+  ],
+  "note": "أسعار · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD"
+ },
+ {
+  "id": "messari",
+  "cat": "crypto",
+  "name": "Messari",
+  "url": "https://messari.io/api",
+  "env": [
+   "MESSARI_KEY"
+  ],
+  "note": "بيانات أصول",
+  "payout": "-",
+  "probe": "https://data.messari.io/api/v1/assets/bitcoin/metrics"
+ },
+ {
+  "id": "amberdata",
+  "cat": "crypto",
+  "name": "Amberdata",
+  "url": "https://www.amberdata.io",
+  "env": [
+   "AMBERDATA_KEY"
+  ],
+  "note": "بيانات مؤسسية",
+  "payout": "-"
+ },
+ {
+  "id": "kaiko",
+  "cat": "crypto",
+  "name": "Kaiko",
+  "url": "https://www.kaiko.com",
+  "env": [
+   "KAIKO_KEY"
+  ],
+  "note": "بيانات سوق",
+  "payout": "-"
+ },
+ {
+  "id": "coinapi",
+  "cat": "crypto",
+  "name": "CoinAPI",
+  "url": "https://www.coinapi.io",
+  "env": [
+   "COINAPI_KEY"
+  ],
+  "note": "أسعار",
+  "payout": "-"
+ },
+ {
+  "id": "blockchair",
+  "cat": "crypto",
+  "name": "Blockchair",
+  "url": "-",
+  "env": [
+   "BLOCKCHAIR_KEY"
+  ],
+  "note": "مستكشف · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.blockchair.com/bitcoin/stats"
+ },
+ {
+  "id": "blockchaininfo",
+  "cat": "crypto",
+  "name": "Blockchain.info",
+  "url": "-",
+  "env": [
+   "BLOCKCHAININFO_KEY"
+  ],
+  "note": "بيتكوين · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://blockchain.info/q/getblockcount"
+ },
+ {
+  "id": "blockstream",
+  "cat": "crypto",
+  "name": "Blockstream Esplora",
+  "url": "-",
+  "env": [
+   "BLOCKSTREAM_KEY"
+  ],
+  "note": "بلوكشين · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://blockstream.info/api/blocks/tip/height"
+ },
+ {
+  "id": "mempool",
+  "cat": "crypto",
+  "name": "Mempool.space",
+  "url": "-",
+  "env": [
+   "MEMPOOL_KEY"
+  ],
+  "note": "رسوم بيتكوين · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://mempool.space/api/blocks/tip/height"
+ },
+ {
+  "id": "coinglass",
+  "cat": "crypto",
+  "name": "CoinGlass",
+  "url": "https://www.coinglass.com",
+  "env": [
+   "COINGLASS_KEY"
+  ],
+  "note": "عقود وفوارق",
+  "payout": "-"
+ },
+ {
+  "id": "lunarcrush",
+  "cat": "crypto",
+  "name": "LunarCrush",
+  "url": "https://lunarcrush.com",
+  "env": [
+   "LUNARCRUSH_KEY"
+  ],
+  "note": "مشاعر اجتماعية",
+  "payout": "-"
+ },
+ {
+  "id": "santiment",
+  "cat": "crypto",
+  "name": "Santiment",
+  "url": "https://santiment.net",
+  "env": [
+   "SANTIMENT_KEY"
+  ],
+  "note": "on-chain",
+  "payout": "-"
+ },
+ {
+  "id": "glassnode",
+  "cat": "crypto",
+  "name": "Glassnode",
+  "url": "https://glassnode.com",
+  "env": [
+   "GLASSNODE_KEY"
+  ],
+  "note": "مؤشرات on-chain",
+  "payout": "-"
+ },
+ {
+  "id": "marketstack",
+  "cat": "fx",
+  "name": "Marketstack",
+  "url": "https://marketstack.com",
+  "env": [
+   "MARKETSTACK_KEY"
+  ],
+  "note": "أسهم عالمية",
+  "payout": "-"
+ },
+ {
+  "id": "iexcloud",
+  "cat": "fx",
+  "name": "IEX Cloud",
+  "url": "https://iexcloud.io",
+  "env": [
+   "IEX_KEY"
+  ],
+  "note": "أسهم أمريكية",
+  "payout": "-"
+ },
+ {
+  "id": "tiingo",
+  "cat": "fx",
+  "name": "Tiingo",
+  "url": "https://www.tiingo.com",
+  "env": [
+   "TIINGO_KEY"
+  ],
+  "note": "أسهم",
+  "payout": "-"
+ },
+ {
+  "id": "eodhd",
+  "cat": "fx",
+  "name": "EODHD",
+  "url": "https://eodhd.com",
+  "env": [
+   "EODHD_KEY"
+  ],
+  "note": "بيانات نهاية اليوم",
+  "payout": "-"
+ },
+ {
+  "id": "nasdaqdata",
+  "cat": "fx",
+  "name": "Nasdaq Data Link",
+  "url": "https://data.nasdaq.com",
+  "env": [
+   "NASDAQ_KEY"
+  ],
+  "note": "بيانات اقتصادية",
+  "payout": "-"
+ },
+ {
+  "id": "sec-edgar",
+  "cat": "fx",
+  "name": "SEC EDGAR",
+  "url": "-",
+  "env": [
+   "SEC_USER_AGENT"
+  ],
+  "note": "إفصاحات أمريكية · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://data.sec.gov/submissions/CIK0000320193.json"
+ },
+ {
+  "id": "worldbank",
+  "cat": "fx",
+  "name": "World Bank",
+  "url": "-",
+  "env": [
+   "WORLDBANK_KEY"
+  ],
+  "note": "مؤشرات · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.worldbank.org/v2/country/EG?format=json"
+ },
+ {
+  "id": "imf",
+  "cat": "fx",
+  "name": "IMF DataMapper",
+  "url": "-",
+  "env": [
+   "IMF_KEY"
+  ],
+  "note": "اقتصاد · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://www.imf.org/external/datamapper/api/v1/NGDPD"
+ },
+ {
+  "id": "oecd",
+  "cat": "fx",
+  "name": "OECD",
+  "url": "https://data.oecd.org",
+  "env": [
+   "OECD_KEY"
+  ],
+  "note": "بيانات اقتصادية",
+  "payout": "-"
+ },
+ {
+  "id": "eurostat",
+  "cat": "fx",
+  "name": "Eurostat",
+  "url": "-",
+  "env": [
+   "EUROSTAT_KEY"
+  ],
+  "note": "إحصاءات أوروبا · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "tradingeconomics",
+  "cat": "fx",
+  "name": "Trading Economics",
+  "url": "https://tradingeconomics.com",
+  "env": [
+   "TRADINGECON_KEY"
+  ],
+  "note": "مؤشرات اقتصادية",
+  "payout": "-"
+ },
+ {
+  "id": "surge",
+  "cat": "infra",
+  "name": "Surge.sh",
+  "url": "https://surge.sh",
+  "env": [
+   "SURGE_TOKEN"
+  ],
+  "note": "استضافة ثابتة مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "jsdelivr",
+  "cat": "infra",
+  "name": "jsDelivr",
+  "url": "-",
+  "env": [
+   "JSDELIVR_KEY"
+  ],
+  "note": "CDN مفتوح · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://data.jsdelivr.com/v1/packages/npm/jquery"
+ },
+ {
+  "id": "unpkg",
+  "cat": "infra",
+  "name": "unpkg",
+  "url": "-",
+  "env": [
+   "UNPKG_KEY"
+  ],
+  "note": "CDN npm · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://unpkg.com/jquery/package.json"
+ },
+ {
+  "id": "cdnjs",
+  "cat": "infra",
+  "name": "cdnjs",
+  "url": "-",
+  "env": [
+   "CDNJS_KEY"
+  ],
+  "note": "مكتبات · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.cdnjs.com/libraries?search=jquery&limit=1"
+ },
+ {
+  "id": "statically",
+  "cat": "infra",
+  "name": "Statically",
+  "url": "https://statically.io",
+  "env": [
+   "STATICALLY_KEY"
+  ],
+  "note": "CDN GitHub",
+  "payout": "-"
+ },
+ {
+  "id": "fastly",
+  "cat": "infra",
+  "name": "Fastly",
+  "url": "https://www.fastly.com",
+  "env": [
+   "FASTLY_KEY"
+  ],
+  "note": "CDN",
+  "payout": "-"
+ },
+ {
+  "id": "akamai",
+  "cat": "infra",
+  "name": "Akamai",
+  "url": "https://www.akamai.com",
+  "env": [
+   "AKAMAI_KEY"
+  ],
+  "note": "CDN",
+  "payout": "-"
+ },
+ {
+  "id": "keycdn",
+  "cat": "infra",
+  "name": "KeyCDN",
+  "url": "https://www.keycdn.com",
+  "env": [
+   "KEYCDN_KEY"
+  ],
+  "note": "CDN رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "cdn77",
+  "cat": "infra",
+  "name": "CDN77",
+  "url": "https://www.cdn77.com",
+  "env": [
+   "CDN77_KEY"
+  ],
+  "note": "CDN",
+  "payout": "-"
+ },
+ {
+  "id": "gcore",
+  "cat": "infra",
+  "name": "Gcore",
+  "url": "https://gcore.com",
+  "env": [
+   "GCORE_KEY"
+  ],
+  "note": "CDN وحوسبة",
+  "payout": "-"
+ },
+ {
+  "id": "dnsimple",
+  "cat": "infra",
+  "name": "DNSimple",
+  "url": "https://dnsimple.com",
+  "env": [
+   "DNSIMPLE_TOKEN"
+  ],
+  "note": "DNS",
+  "payout": "-"
+ },
+ {
+  "id": "gandi",
+  "cat": "infra",
+  "name": "Gandi",
+  "url": "https://www.gandi.net",
+  "env": [
+   "GANDI_KEY"
+  ],
+  "note": "دومين وDNS",
+  "payout": "-"
+ },
+ {
+  "id": "hover",
+  "cat": "infra",
+  "name": "Hover",
+  "url": "https://www.hover.com",
+  "env": [
+   "HOVER_KEY"
+  ],
+  "note": "دومين",
+  "payout": "-"
+ },
+ {
+  "id": "spaceship",
+  "cat": "infra",
+  "name": "Spaceship",
+  "url": "https://www.spaceship.com",
+  "env": [
+   "SPACESHIP_KEY"
+  ],
+  "note": "دومين رخيص",
+  "payout": "-"
+ },
+ {
+  "id": "dynadot",
+  "cat": "infra",
+  "name": "Dynadot",
+  "url": "https://www.dynadot.com",
+  "env": [
+   "DYNADOT_KEY"
+  ],
+  "note": "دومين",
+  "payout": "-"
+ },
+ {
+  "id": "sav",
+  "cat": "infra",
+  "name": "Sav",
+  "url": "https://www.sav.com",
+  "env": [
+   "SAV_KEY"
+  ],
+  "note": "دومين",
+  "payout": "-"
+ },
+ {
+  "id": "deno-deploy",
+  "cat": "infra",
+  "name": "Deno Deploy",
+  "url": "https://deno.com/deploy",
+  "env": [
+   "DENO_DEPLOY_TOKEN"
+  ],
+  "note": "استضافة edge",
+  "payout": "-"
+ },
+ {
+  "id": "koyeb",
+  "cat": "infra",
+  "name": "Koyeb",
+  "url": "https://www.koyeb.com",
+  "env": [
+   "KOYEB_TOKEN"
+  ],
+  "note": "استضافة مجانية",
+  "payout": "-"
+ },
+ {
+  "id": "northflank",
+  "cat": "infra",
+  "name": "Northflank",
+  "url": "https://northflank.com",
+  "env": [
+   "NORTHFLANK_TOKEN"
+  ],
+  "note": "استضافة",
+  "payout": "-"
+ },
+ {
+  "id": "zeabur",
+  "cat": "infra",
+  "name": "Zeabur",
+  "url": "https://zeabur.com",
+  "env": [
+   "ZEABUR_TOKEN"
+  ],
+  "note": "استضافة",
+  "payout": "-"
+ },
+ {
+  "id": "glitch",
+  "cat": "infra",
+  "name": "Glitch",
+  "url": "https://glitch.com",
+  "env": [
+   "GLITCH_TOKEN"
+  ],
+  "note": "استضافة فورية",
+  "payout": "-"
+ },
+ {
+  "id": "replit",
+  "cat": "infra",
+  "name": "Replit",
+  "url": "https://replit.com",
+  "env": [
+   "REPLIT_TOKEN"
+  ],
+  "note": "بيئة سحابية",
+  "payout": "-"
+ },
+ {
+  "id": "codesandbox",
+  "cat": "infra",
+  "name": "CodeSandbox",
+  "url": "https://codesandbox.io",
+  "env": [
+   "CODESANDBOX_TOKEN"
+  ],
+  "note": "بيئة سحابية",
+  "payout": "-"
+ },
+ {
+  "id": "stackblitz",
+  "cat": "infra",
+  "name": "StackBlitz",
+  "url": "https://stackblitz.com",
+  "env": [
+   "STACKBLITZ_KEY"
+  ],
+  "note": "بيئة سحابية",
+  "payout": "-"
+ },
+ {
+  "id": "gitpod",
+  "cat": "infra",
+  "name": "Gitpod",
+  "url": "https://gitpod.io",
+  "env": [
+   "GITPOD_TOKEN"
+  ],
+  "note": "بيئة سحابية",
+  "payout": "-"
+ },
+ {
+  "id": "voyageai",
+  "cat": "ai",
+  "name": "Voyage AI",
+  "url": "https://www.voyageai.com",
+  "env": [
+   "VOYAGE_API_KEY"
+  ],
+  "note": "تضمين نصوص",
+  "payout": "-"
+ },
+ {
+  "id": "jina",
+  "cat": "ai",
+  "name": "Jina AI",
+  "url": "https://jina.ai",
+  "env": [
+   "JINA_API_KEY"
+  ],
+  "note": "تضمين وقراءة صفحات",
+  "payout": "-"
+ },
+ {
+  "id": "nomic",
+  "cat": "ai",
+  "name": "Nomic",
+  "url": "https://www.nomic.ai",
+  "env": [
+   "NOMIC_API_KEY"
+  ],
+  "note": "تضمين مفتوح",
+  "payout": "-"
+ },
+ {
+  "id": "ai21",
+  "cat": "ai",
+  "name": "AI21",
+  "url": "https://www.ai21.com",
+  "env": [
+   "AI21_API_KEY"
+  ],
+  "note": "نماذج لغوية",
+  "payout": "-"
+ },
+ {
+  "id": "aleph-alpha",
+  "cat": "ai",
+  "name": "Aleph Alpha",
+  "url": "https://www.aleph-alpha.com",
+  "env": [
+   "ALEPH_API_KEY"
+  ],
+  "note": "ألمانيا · نماذج",
+  "payout": "-"
+ },
+ {
+  "id": "cerebras",
+  "cat": "ai",
+  "name": "Cerebras",
+  "url": "https://www.cerebras.net",
+  "env": [
+   "CEREBRAS_API_KEY"
+  ],
+  "note": "استدلال فائق السرعة",
+  "payout": "-"
+ },
+ {
+  "id": "sambanova",
+  "cat": "ai",
+  "name": "SambaNova",
+  "url": "https://sambanova.ai",
+  "env": [
+   "SAMBANOVA_API_KEY"
+  ],
+  "note": "استدلال سريع",
+  "payout": "-"
+ },
+ {
+  "id": "nvidia-nim",
+  "cat": "ai",
+  "name": "NVIDIA NIM",
+  "url": "https://build.nvidia.com",
+  "env": [
+   "NVIDIA_NIM_KEY"
+  ],
+  "note": "نماذج GPU",
+  "payout": "-"
+ },
+ {
+  "id": "baseten",
+  "cat": "ai",
+  "name": "Baseten",
+  "url": "https://www.baseten.co",
+  "env": [
+   "BASETEN_API_KEY"
+  ],
+  "note": "نشر نماذج",
+  "payout": "-"
+ },
+ {
+  "id": "modal",
+  "cat": "ai",
+  "name": "Modal",
+  "url": "https://modal.com",
+  "env": [
+   "MODAL_TOKEN"
+  ],
+  "note": "حوسبة GPU",
+  "payout": "-"
+ },
+ {
+  "id": "fal",
+  "cat": "ai",
+  "name": "fal.ai",
+  "url": "https://fal.ai",
+  "env": [
+   "FAL_KEY"
+  ],
+  "note": "صور وفيديو سريع",
+  "payout": "-"
+ },
+ {
+  "id": "leonardo",
+  "cat": "ai",
+  "name": "Leonardo AI",
+  "url": "https://leonardo.ai",
+  "env": [
+   "LEONARDO_API_KEY"
+  ],
+  "note": "توليد صور",
+  "payout": "-"
+ },
+ {
+  "id": "ideogram",
+  "cat": "ai",
+  "name": "Ideogram",
+  "url": "https://ideogram.ai",
+  "env": [
+   "IDEOGRAM_API_KEY"
+  ],
+  "note": "صور بنصوص دقيقة",
+  "payout": "-"
+ },
+ {
+  "id": "blackforestlabs",
+  "cat": "ai",
+  "name": "Black Forest Labs",
+  "url": "https://blackforestlabs.ai",
+  "env": [
+   "BFL_API_KEY"
+  ],
+  "note": "FLUX",
+  "payout": "-"
+ },
+ {
+  "id": "clipdrop",
+  "cat": "ai",
+  "name": "Clipdrop",
+  "url": "https://clipdrop.co",
+  "env": [
+   "CLIPDROP_API_KEY"
+  ],
+  "note": "تحرير صور",
+  "payout": "-"
+ },
+ {
+  "id": "udio",
+  "cat": "ai",
+  "name": "Udio",
+  "url": "https://www.udio.com",
+  "env": [
+   "UDIO_KEY"
+  ],
+  "note": "توليد موسيقى",
+  "payout": "-"
+ },
+ {
+  "id": "playht",
+  "cat": "ai",
+  "name": "PlayHT",
+  "url": "https://play.ht",
+  "env": [
+   "PLAYHT_API_KEY"
+  ],
+  "note": "تعليق صوتي",
+  "payout": "-"
+ },
+ {
+  "id": "unstructured",
+  "cat": "ai",
+  "name": "Unstructured",
+  "url": "https://unstructured.io",
+  "env": [
+   "UNSTRUCTURED_KEY"
+  ],
+  "note": "تحويل مستندات",
+  "payout": "-"
+ },
+ {
+  "id": "langchain",
+  "cat": "ai",
+  "name": "LangChain",
+  "url": "https://www.langchain.com",
+  "env": [
+   "LANGCHAIN_API_KEY"
+  ],
+  "note": "تتبع سلاسل LLM",
+  "payout": "-"
+ },
+ {
+  "id": "trychroma",
+  "cat": "ai",
+  "name": "Chroma",
+  "url": "https://www.trychroma.com",
+  "env": [
+   "CHROMA_KEY"
+  ],
+  "note": "قاعدة متجهات",
+  "payout": "-"
+ },
+ {
+  "id": "milvus",
+  "cat": "ai",
+  "name": "Milvus",
+  "url": "https://milvus.io",
+  "env": [
+   "MILVUS_KEY"
+  ],
+  "note": "قاعدة متجهات",
+  "payout": "-"
+ },
+ {
+  "id": "similarweb",
+  "cat": "seo",
+  "name": "Similarweb",
+  "url": "https://www.similarweb.com",
+  "env": [
+   "SIMILARWEB_KEY"
+  ],
+  "note": "زيارات المنافسين",
+  "payout": "-"
+ },
+ {
+  "id": "semrush",
+  "cat": "seo",
+  "name": "Semrush",
+  "url": "https://www.semrush.com",
+  "env": [
+   "SEMRUSH_KEY"
+  ],
+  "note": "SEO",
+  "payout": "-"
+ },
+ {
+  "id": "ahrefs",
+  "cat": "seo",
+  "name": "Ahrefs",
+  "url": "https://ahrefs.com",
+  "env": [
+   "AHREFS_TOKEN"
+  ],
+  "note": "SEO وروابط",
+  "payout": "-"
+ },
+ {
+  "id": "moz",
+  "cat": "seo",
+  "name": "Moz",
+  "url": "https://moz.com",
+  "env": [
+   "MOZ_TOKEN"
+  ],
+  "note": "SEO",
+  "payout": "-"
+ },
+ {
+  "id": "majestic",
+  "cat": "seo",
+  "name": "Majestic",
+  "url": "https://majestic.com",
+  "env": [
+   "MAJESTIC_KEY"
+  ],
+  "note": "روابط خلفية",
+  "payout": "-"
+ },
+ {
+  "id": "seranking",
+  "cat": "seo",
+  "name": "SE Ranking",
+  "url": "https://seranking.com",
+  "env": [
+   "SERANKING_KEY"
+  ],
+  "note": "ترتيب كلمات",
+  "payout": "-"
+ },
+ {
+  "id": "screamingfrog",
+  "cat": "seo",
+  "name": "Screaming Frog",
+  "url": "https://www.screamingfrog.co.uk",
+  "env": [
+   "SCREAMINGFROG_KEY"
+  ],
+  "note": "زحف موقعك",
+  "payout": "-"
+ },
+ {
+  "id": "sitebulb",
+  "cat": "seo",
+  "name": "Sitebulb",
+  "url": "https://sitebulb.com",
+  "env": [
+   "SITEBULB_KEY"
+  ],
+  "note": "تدقيق SEO",
+  "payout": "-"
+ },
+ {
+  "id": "pagespeed",
+  "cat": "seo",
+  "name": "PageSpeed Insights",
+  "url": "-",
+  "env": [
+   "PAGESPEED_KEY"
+  ],
+  "note": "سرعة · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://example.com"
+ },
+ {
+  "id": "gtmetrix",
+  "cat": "seo",
+  "name": "GTmetrix",
+  "url": "https://gtmetrix.com",
+  "env": [
+   "GTMETRIX_KEY"
+  ],
+  "note": "سرعة الموقع",
+  "payout": "-"
+ },
+ {
+  "id": "webpagetest",
+  "cat": "seo",
+  "name": "WebPageTest",
+  "url": "https://www.webpagetest.org",
+  "env": [
+   "WPT_KEY"
+  ],
+  "note": "قياس أداء",
+  "payout": "-"
+ },
+ {
+  "id": "ssllabs",
+  "cat": "seo",
+  "name": "SSL Labs",
+  "url": "-",
+  "env": [
+   "SSLLABS_KEY"
+  ],
+  "note": "فحص شهادة · بلا مفتاح",
+  "payout": "-"
+ },
+ {
+  "id": "securityheaders",
+  "cat": "seo",
+  "name": "Security Headers",
+  "url": "https://securityheaders.com",
+  "env": [
+   "SECHEADERS_KEY"
+  ],
+  "note": "رؤوس أمان",
+  "payout": "-"
+ },
+ {
+  "id": "mxtoolbox",
+  "cat": "seo",
+  "name": "MXToolbox",
+  "url": "https://mxtoolbox.com",
+  "env": [
+   "MXTOOLBOX_KEY"
+  ],
+  "note": "فحص DNS وبريد",
+  "payout": "-"
+ },
+ {
+  "id": "mailtester",
+  "cat": "seo",
+  "name": "Mail Tester",
+  "url": "https://www.mail-tester.com",
+  "env": [
+   "MAILTESTER_KEY"
+  ],
+  "note": "اختبار قابلية التسليم",
+  "payout": "-"
+ },
+ {
+  "id": "alquran-cloud",
+  "cat": "media",
+  "name": "AlQuran Cloud",
+  "url": "-",
+  "env": [
+   "ALQURAN_KEY"
+  ],
+  "note": "قرآن · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.alquran.cloud/v1/surah/1"
+ },
+ {
+  "id": "quran-api",
+  "cat": "media",
+  "name": "Quran.com API",
+  "url": "-",
+  "env": [
+   "QURANAPI_KEY"
+  ],
+  "note": "قرآن وتفسير · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.quran.com/api/v4/chapters"
+ },
+ {
+  "id": "hadith-gading",
+  "cat": "media",
+  "name": "Hadith API",
+  "url": "-",
+  "env": [
+   "HADITH_KEY"
+  ],
+  "note": "حديث · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.hadith.gading.dev/books"
+ },
+ {
+  "id": "aladhan",
+  "cat": "data",
+  "name": "AlAdhan",
+  "url": "-",
+  "env": [
+   "ALADHAN_KEY"
+  ],
+  "note": "مواقيت صلاة وتقويم هجري · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt"
+ },
+ {
+  "id": "camel-tools",
+  "cat": "ai",
+  "name": "CAMeL Tools",
+  "url": "https://camel-tools.readthedocs.io",
+  "env": [
+   "CAMELTOOLS_KEY"
+  ],
+  "note": "معالجة لغة عربية",
+  "payout": "-"
+ },
+ {
+  "id": "farasa",
+  "cat": "ai",
+  "name": "Farasa",
+  "url": "https://farasa.qcri.org",
+  "env": [
+   "FARASA_KEY"
+  ],
+  "note": "تقطيع وإعراب عربي",
+  "payout": "-"
+ },
+ {
+  "id": "sunnah-com",
+  "cat": "media",
+  "name": "Sunnah.com API",
+  "url": "https://api.sunnah.com",
+  "env": [
+   "SUNNAH_KEY"
+  ],
+  "note": "حديث",
+  "payout": "-"
+ },
+ {
+  "id": "goqr",
+  "cat": "dev",
+  "name": "QR Server",
+  "url": "-",
+  "env": [
+   "GOQR_KEY"
+  ],
+  "note": "توليد QR · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.qrserver.com/v1/create-qr-code/?size=50x50&data=test"
+ },
+ {
+  "id": "isgd",
+  "cat": "dev",
+  "name": "is.gd",
+  "url": "-",
+  "env": [
+   "ISGD_KEY"
+  ],
+  "note": "اختصار روابط · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://is.gd/create.php?format=json&url=https://example.com"
+ },
+ {
+  "id": "tinyurl",
+  "cat": "dev",
+  "name": "TinyURL",
+  "url": "-",
+  "env": [
+   "TINYURL_KEY"
+  ],
+  "note": "اختصار روابط · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://tinyurl.com/api-create.php?url=https://example.com"
+ },
+ {
+  "id": "bitly",
+  "cat": "dev",
+  "name": "Bitly",
+  "url": "https://dev.bitly.com",
+  "env": [
+   "BITLY_TOKEN"
+  ],
+  "note": "اختصار + تحليلات",
+  "payout": "-"
+ },
+ {
+  "id": "urlscan",
+  "cat": "dev",
+  "name": "urlscan.io",
+  "url": "-",
+  "env": [
+   "URLSCAN_KEY"
+  ],
+  "note": "فحص روابط · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://urlscan.io/api/v1/search/?q=domain:example.com"
+ },
+ {
+  "id": "virustotal",
+  "cat": "dev",
+  "name": "VirusTotal",
+  "url": "https://developers.virustotal.com",
+  "env": [
+   "VT_API_KEY"
+  ],
+  "note": "فحص ملفات وروابط",
+  "payout": "-"
+ },
+ {
+  "id": "shodan",
+  "cat": "dev",
+  "name": "Shodan",
+  "url": "https://developer.shodan.io",
+  "env": [
+   "SHODAN_KEY"
+  ],
+  "note": "أجهزة مكشوفة",
+  "payout": "-"
+ },
+ {
+  "id": "censys",
+  "cat": "dev",
+  "name": "Censys",
+  "url": "https://search.censys.io",
+  "env": [
+   "CENSYS_API_ID",
+   "CENSYS_API_SECRET"
+  ],
+  "note": "مسح إنترنت",
+  "payout": "-"
+ },
+ {
+  "id": "abuseipdb",
+  "cat": "dev",
+  "name": "AbuseIPDB",
+  "url": "https://www.abuseipdb.com",
+  "env": [
+   "ABUSEIPDB_KEY"
+  ],
+  "note": "سمعة IP",
+  "payout": "-"
+ },
+ {
+  "id": "haveibeenpwned",
+  "cat": "dev",
+  "name": "Have I Been Pwned",
+  "url": "-",
+  "env": [
+   "HIBP_KEY"
+  ],
+  "note": "تسريبات · بلا مفتاح لـPwned Passwords",
+  "payout": "-",
+  "probe": "https://api.pwnedpasswords.com/range/ABCDE"
+ },
+ {
+  "id": "gravatar",
+  "cat": "dev",
+  "name": "Gravatar",
+  "url": "-",
+  "env": [
+   "GRAVATAR_KEY"
+  ],
+  "note": "صور رمزية · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp"
+ },
+ {
+  "id": "dicebear",
+  "cat": "dev",
+  "name": "DiceBear",
+  "url": "-",
+  "env": [
+   "DICEBEAR_KEY"
+  ],
+  "note": "أفاتار · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://api.dicebear.com/9.x/pixel-art/svg"
+ },
+ {
+  "id": "placehold",
+  "cat": "dev",
+  "name": "placehold.co",
+  "url": "-",
+  "env": [
+   "PLACEHOLD_KEY"
+  ],
+  "note": "صور مؤقتة · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://placehold.co/100"
+ },
+ {
+  "id": "fakerapi",
+  "cat": "dev",
+  "name": "FakerAPI",
+  "url": "-",
+  "env": [
+   "FAKERAPI_KEY"
+  ],
+  "note": "بيانات وهمية · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://fakerapi.it/api/v1/persons?_quantity=1"
+ },
+ {
+  "id": "randomuser",
+  "cat": "dev",
+  "name": "Random User",
+  "url": "-",
+  "env": [
+   "RANDOMUSER_KEY"
+  ],
+  "note": "مستخدمون وهميون · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://randomuser.me/api/"
+ },
+ {
+  "id": "jsonplaceholder",
+  "cat": "dev",
+  "name": "JSONPlaceholder",
+  "url": "-",
+  "env": [
+   "JSONPLACEHOLDER_KEY"
+  ],
+  "note": "API تجريبي · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://jsonplaceholder.typicode.com/todos/1"
+ },
+ {
+  "id": "httpbin",
+  "cat": "dev",
+  "name": "httpbin",
+  "url": "-",
+  "env": [
+   "HTTPBIN_KEY"
+  ],
+  "note": "اختبار HTTP · بلا مفتاح",
+  "payout": "-",
+  "probe": "https://httpbin.org/get"
+ },
+ {
+  "id": "n8n",
+  "cat": "dev",
+  "name": "n8n",
+  "url": "https://n8n.io",
+  "env": [
+   "N8N_API_KEY"
+  ],
+  "note": "أتمتة مفتوحة — استضفها محليًا",
+  "payout": "-"
+ },
+ {
+  "id": "make",
+  "cat": "dev",
+  "name": "Make",
+  "url": "https://www.make.com",
+  "env": [
+   "MAKE_API_KEY"
+  ],
+  "note": "أتمتة",
+  "payout": "-"
+ },
+ {
+  "id": "zapier",
+  "cat": "dev",
+  "name": "Zapier",
+  "url": "https://zapier.com",
+  "env": [
+   "ZAPIER_KEY"
+  ],
+  "note": "أتمتة",
+  "payout": "-"
+ },
+ {
+  "id": "paysera",
+  "cat": "pay",
+  "name": "Paysera",
+  "url": "https://www.paysera.com",
+  "env": [
+   "PAYSERA_KEY"
+  ],
+  "note": "بوابة أوروبية",
+  "payout": "بانك"
+ },
+ {
+  "id": "paytabs",
+  "cat": "pay",
+  "name": "PayTabs",
+  "url": "https://www.paytabs.com",
+  "env": [
+   "PAYTABS_KEY"
+  ],
+  "note": "الخليج · بوابة دفع",
+  "payout": "بانك"
+ },
+ {
+  "id": "tap-company",
+  "cat": "pay",
+  "name": "Tap Payments",
+  "url": "https://www.tap.company",
+  "env": [
+   "TAP_SECRET_KEY"
+  ],
+  "note": "الخليج · بوابة دفع",
+  "payout": "بانك"
+ },
+ {
+  "id": "hyperpay",
+  "cat": "pay",
+  "name": "HyperPay",
+  "url": "https://www.hyperpay.com",
+  "env": [
+   "HYPERPAY_TOKEN"
+  ],
+  "note": "الخليج",
+  "payout": "بانك"
+ },
+ {
+  "id": "moyasar",
+  "cat": "pay",
+  "name": "Moyasar",
+  "url": "https://moyasar.com",
+  "env": [
+   "MOYASAR_KEY"
+  ],
+  "note": "السعودية — مدى وآبل باي",
+  "payout": "بانك"
+ },
+ {
+  "id": "paymob",
+  "cat": "pay",
+  "name": "Paymob",
+  "url": "https://www.paymob.com",
+  "env": [
+   "PAYMOB_API_KEY"
+  ],
+  "note": "مصر — فوري ومحافظ",
+  "payout": "بانك"
+ },
+ {
+  "id": "fawry",
+  "cat": "pay",
+  "name": "Fawry",
+  "url": "https://www.fawry.com",
+  "env": [
+   "FAWRY_KEY"
+  ],
+  "note": "مصر — دفع كاش",
+  "payout": "بانك"
+ },
+ {
+  "id": "myfatoorah",
+  "cat": "pay",
+  "name": "MyFatoorah",
+  "url": "https://www.myfatoorah.com",
+  "env": [
+   "MYFATOORAH_KEY"
+  ],
+  "note": "الخليج",
+  "payout": "بانك"
+ },
+ {
+  "id": "telr",
+  "cat": "pay",
+  "name": "Telr",
+  "url": "https://telr.com",
+  "env": [
+   "TELR_KEY"
+  ],
+  "note": "الشرق الأوسط",
+  "payout": "بانك"
+ },
+ {
+  "id": "razorpay",
+  "cat": "pay",
+  "name": "Razorpay",
+  "url": "https://razorpay.com",
+  "env": [
+   "RAZORPAY_KEY_ID",
+   "RAZORPAY_KEY_SECRET"
+  ],
+  "note": "الهند · UPI",
+  "payout": "بانك"
+ },
+ {
+  "id": "cashfree",
+  "cat": "pay",
+  "name": "Cashfree",
+  "url": "https://www.cashfree.com",
+  "env": [
+   "CASHFREE_KEY"
+  ],
+  "note": "الهند",
+  "payout": "بانك"
+ },
+ {
+  "id": "fastspring",
+  "cat": "pay",
+  "name": "FastSpring",
+  "url": "https://fastspring.com",
+  "env": [
+   "FASTSPRING_KEY"
+  ],
+  "note": "MoR برمجيات",
+  "payout": "بانك"
+ },
+ {
+  "id": "chargebee",
+  "cat": "pay",
+  "name": "Chargebee",
+  "url": "https://www.chargebee.com",
+  "env": [
+   "CHARGEBEE_KEY"
+  ],
+  "note": "اشتراكات",
+  "payout": "بانك"
+ },
+ {
+  "id": "recurly",
+  "cat": "pay",
+  "name": "Recurly",
+  "url": "https://recurly.com",
+  "env": [
+   "RECURLY_KEY"
+  ],
+  "note": "اشتراكات",
+  "payout": "بانك"
+ },
+ {
+  "id": "verifone-2co",
+  "cat": "pay",
+  "name": "Verifone 2Checkout",
+  "url": "https://www.2checkout.com",
+  "env": [
+   "TWOCO_ACCOUNT",
+   "TWOCO_SECRET"
+  ],
+  "note": "MoR عالمي",
+  "payout": "بانك"
+ }
+]

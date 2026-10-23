@@ -1,0 +1,15 @@
+id|name|cat|signup|env|mode|url|headers|rev|payout|note
+exoclick|ExoClick|adult|https://www.exoclick.com/signup/|EXOCLICK_API_TOKEN,EXOCLICK_ZONE|api|https://api.exoclick.com/v2/statistics/publisher/sites|Authorization: Bearer {KEY}|1|USDT/Paxum/Wire|API v2 — يدفع أسبوعيًا حد 20$
+juicyads|JuicyAds|adult|https://www.juicyads.com/register|JUICYADS_API_KEY,JUICYADS_ZONE|dash|-||0|USDT/PayPal|يدفع أسبوعيًا
+trafficjunky|TrafficJunky|adult|https://www.trafficjunky.com/publishers|TRAFFICJUNKY_API_KEY|dash|-||0|Wire|
+trafficstars|TrafficStars|adult|https://www.trafficstars.com/signup|TRAFFICSTARS_API_KEY|dash|-||0|USDT/Wire|
+plugrush|PlugRush|adult|https://www.plugrush.com/register|PLUGRUSH_API_KEY,PLUGRUSH_ZONE|dash|-||0|BTC/USDT|
+eroadvertising|EroAdvertising|adult|https://www.eroadvertising.com/signup|EROADS_API_KEY|dash|-||0|Wire|
+bitterstrawberry|BitterStrawberry|adult|https://www.bitterstrawberry.com/publishers|BITTER_API_KEY|dash|-||0|Wire|
+lospollos|LosPollos|adult|https://lospollos.com/signup|LOSPOLLOS_API_KEY|dash|-||0|USDT/Paxum|smartlink CPA عالي الدفع
+crackrevenue|CrackRevenue|adult|https://crackrevenue.com/signup|CRACKREVENUE_API_KEY|dash|-||0|USDT/Wire|CPA
+adnium|Adnium|adult|https://adnium.com/|ADNIUM_API_KEY|dash|-||0|Wire|
+adultforce|AdultForce|adult|https://www.adultforce.com/publishers|ADULTFORCE_API_KEY|dash|-||0|Wire|
+vidoomy|Vidoomy|adult|https://vidoomy.com/publishers|VIDOOMY_API_KEY|dash|-||0|Wire|فيديو
+adspyglass|AdsPygGlass|adult|https://www.adspyglass.com/registration|ADSPYGLASS_API_KEY|dash|-||0|USDT/PayPal|وسيط يدفع
+chaturbate|Chaturbate RevShare|adult|https://chaturbate.com/affiliates/|CHATURBATE_USERNAME,CHATURBATE_CAMPAIGN|dash|-||0|Wire|20% مدى الحياة

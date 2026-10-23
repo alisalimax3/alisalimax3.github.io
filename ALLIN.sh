@@ -646,10 +646,10 @@ push_all "allin: precise js repair + 1000 platforms + token auth + treasury [bui
 
 info "انتظار 80 ثانية..."
 sleep 80
-CODE="$(curl -s -o .live.html -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/index.html?b=$STAMP")"
+CODE="$(curl -s -o .live.html -w '%{http_code}' "https://alisalimax3.github.io/index.html?b=$STAMP")"
 [ "$CODE" = "200" ] && ok "الموقع الحي 200" || bad "الموقع الحي: $CODE"
 for f in link.html platforms.html signup.json platforms_active.json sitemap.xml; do
-  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/$f")"
+  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alisalimax3.github.io/$f")"
   [ "$c" = "200" ] && ok "$f → 200" || bad "$f → $c"
 done
 python3 -c "
@@ -663,5 +663,5 @@ if command -v termux-wake-lock >/dev/null 2>&1; then
   pkill -f agentd.sh 2>/dev/null; nohup bash agentd.sh >/dev/null 2>&1 & ok "الخلفية المحلية تعمل"
 fi
 echo
-ok "افتح مرة واحدة: https://alkazmybwhwr-dot.github.io/link.html"
+ok "افتح مرة واحدة: https://alisalimax3.github.io/link.html"
 info "ثم: /subscribe.html لملء المفاتيح · /platforms.html للسجل الكامل · /live-dash.html للمتابعة"

@@ -6,7 +6,7 @@ set -u
 cd ~/cinehub3099 2>/dev/null || { echo "✗ لا يوجد ~/cinehub3099"; exit 1; }
 D="$(pwd)"; export TMPDIR="$D/.tmp"; mkdir -p "$TMPDIR" content data m a
 export GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=60
-OWNER="alkazmybwhwr-dot"; REPO="alkazmybwhwr-dot.github.io"; BRANCH="main"
+OWNER="alkazmybwhwr-dot"; REPO="alisalimax3.github.io"; BRANCH="main"
 SITE="https://${OWNER}.github.io"
 G(){ printf '\033[32m  ✓ %s\033[0m\n' "$1"; }
 W(){ printf '\033[33m  ! %s\033[0m\n' "$1"; }
@@ -109,7 +109,7 @@ cat > content/build.py <<'PYEOF'
 #!/usr/bin/env python3
 # CineHub 3099 · محرك المحتوى — Archive.org · Ophim · Eporner · YouTube · TMDB
 import json, os, re, sys, time, urllib.request, urllib.parse
-UA = {'User-Agent': 'Mozilla/5.0 (CineHub3099; +https://alkazmybwhwr-dot.github.io)'}
+UA = {'User-Agent': 'Mozilla/5.0 (CineHub3099; +https://alisalimax3.github.io)'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 def get(url, t=35):
@@ -236,7 +236,7 @@ cat > content/render.py <<'PYEOF'
 #!/usr/bin/env python3
 import json, os, re, html, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B = "https://alkazmybwhwr-dot.github.io"
+B = "https://alisalimax3.github.io"
 if not os.path.exists('data/index.json'): raise SystemExit('شغّل build.py أولاً')
 D = json.load(open('data/index.json', encoding='utf-8'))
 def esc(s): return html.escape(str(s or ''), quote=True)
@@ -339,7 +339,7 @@ cat > spread.py <<'PYEOF'
 #!/usr/bin/env python3
 import json, os, re, glob, urllib.request, datetime
 ROOT = os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
-B = "https://alkazmybwhwr-dot.github.io"
+B = "https://alisalimax3.github.io"
 def urls():
     U = []
     for r, d, f in os.walk('.'):
@@ -357,7 +357,7 @@ open('robots.txt', 'w').write('User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\
 print('  sitemap: %d رابط' % len(U))
 k = [f[:-4] for f in glob.glob('*.txt') if re.fullmatch(r'[0-9a-f]{32}\.txt', f)]
 if k:
-    d = json.dumps({"host": "alkazmybwhwr-dot.github.io", "key": k[0], "keyLocation": B + "/" + k[0] + ".txt", "urlList": U[:900]}).encode()
+    d = json.dumps({"host": "alisalimax3.github.io", "key": k[0], "keyLocation": B + "/" + k[0] + ".txt", "urlList": U[:900]}).encode()
     for ep in ('https://api.indexnow.org/indexnow', 'https://www.bing.com/indexnow'):
         try:
             r = urllib.request.Request(ep, data=d, headers={'Content-Type': 'application/json; charset=utf-8'})
@@ -414,8 +414,8 @@ for p in F:
 PY
   python3 spread.py 2>&1 | tail -6
   T="$(tr -d '\n\r ' < .gh-token)"
-  git remote set-url origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git" 2>/dev/null || \
-  git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+  git remote set-url origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git" 2>/dev/null || \
+  git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
   git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
   git diff --cached --quiet || git commit -q -m "auto: content refresh $(date -u +%FT%TZ)"
   bash deploy.sh main "auto $(date -u +%FT%TZ)"&& echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }
@@ -459,7 +459,7 @@ H "8/8 تحقق"
 sleep 80
 python3 - <<'PY'
 import urllib.request,json
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 for p in ("/","/movies.html","/adult.html","/channels.html","/wallet.html","/earn.html","/withdraw.html","/data/all.json","/sitemap.xml"):
     try: c=urllib.request.urlopen(B+p,timeout=25).status
     except Exception as e: c=getattr(e,"code","ERR")

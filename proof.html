@@ -1,0 +1,32 @@
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<script src="/config.js"></script>
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>إثبات</title>
+<meta name="robots" content="noindex"><meta name="verify" content="793e5cdf2ecb7635b98579b9">
+<style>body{margin:0;background:#0b0d12;color:#e8ecf3;font:15px/1.8 system-ui,Tahoma}.w{max-width:760px;margin:0 auto;padding:20px}
+.c{background:#131a25;border:1px solid #1e2635;border-radius:12px;padding:13px;margin:9px 0;font-size:13.5px}
+code{background:#0b0f17;padding:2px 7px;border-radius:6px;font-size:12px;word-break:break-all}
+b{color:#8ec5ff}</style><div class="w"><h1>🧾 إثبات تنفيذ موقّع</h1>
+<div class="c"><b>الحساب</b><br>alisalimax3</div>
+<div class="c"><b>المستودع</b><br><a href="https://github.com/alisalimax3/alisalimax3.github.io">https://github.com/alisalimax3/alisalimax3.github.io</a></div>
+<div class="c"><b>الموقع</b><br><a href="https://alisalimax3.github.io">https://alisalimax3.github.io</a></div>
+<div class="c"><b>التاريخ (UTC)</b><br>2026-10-18T19:27:28Z</div>
+<div class="c"><b>بصمة الملفات SHA256</b><br><code>62d59c2f466156099d98a73fc63318d6</code></div>
+<div class="c"><b>التوقيع</b><br><code>793e5cdf2ecb7635b98579b9</code></div>
+<div class="c"><b>القياسات</b><br>صفحات: 12747 · مفاتيح: 22 · شبكات مفعّلة: 1</div>
+<div class="c"><b>نتيجة الفحص</b><br>ناجح: 23 · فاشل: 1</div>
+<p><a href="owner.html">لوحة المالك</a></p></div></html><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a><div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>

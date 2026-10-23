@@ -1,0 +1,53 @@
+----- lib/async.js -----
+19 سطر
+  LOG:18:  console.log(ok?("  ✔ رُفع إلى https://github.com/"+user+"/"+repo):("  ○ "+out.slice(0,100)));
+  SPW:1:#!/usr/bin/env node
+  SPW:3:const fs=require("fs"),path=require("path"),{execFileSync}=require("child_process");
+  SPW:6:const run=a=>{try{return execFileSync("git",a,{cwd:ROOT,stdio:"pipe",timeout:180000}).toString();}catch(e){return String(e.stdout||"")+String(e.stderr||"");}};
+  SPW:11:  if(!fs.existsSync(gi))fs.writeFileSync(gi,"node_modules/\n_backup/\nlogs/*.log\nkeys.env\n__pycache__/\n*.pid\n_deploy/\n");
+----- lib/q-sec.js -----
+36 سطر
+  SEC:6:function audit(inv){const D=[];const add=(sev,rule,file,msg,fix)=>D.push({sev,rule,file,msg,fixable:!!fix});
+  SEC:9:  for(const f of ["logs/codes.log","logs/vault.json","money/data/vault.enc","money/data/secrets.json","money/db/creds.json"])
+  SEC:14:  const secrets=[];
+  SEC:16:    if(v&&v.length>=16&&!/^(true|false|\d+)$/.test(v)&&!/^https?:/.test(v))if(!/_(NAME|EMAIL|USER|DOMAIN|URL|HOST|ID|CHAT_ID|HANDLE|ADDRESS|BRANCH|NUMBER)$/.test(k))secrets.push({k,v});}});
+  SEC:18:    const hit=secrets.filter(x=>s.includes(x.v));
+  SPW:1:#!/usr/bin/env node
+  SPW:12:  for(const x of ["keys.env","node_modules","logs","*.pid","_backup","_deploy"])
+----- lib/q-lint.js -----
+46 سطر
+  SEC:5:function lint(inv){const D=[];const add=(sev,rule,file,msg,fix)=>D.push({sev,rule,file,msg,fixable:!!fix});
+  SPW:1:#!/usr/bin/env node
+  SPW:3:const fs=require("fs"),path=require("path"),{execFileSync}=require("child_process"),U=require("./q-util.js");
+  SPW:6:  for(const f of inv.scripts){try{execFileSync(process.execPath,["--check",path.join(U.ROOT,f)],{stdio:"pipe"});}
+----- lib/q-fix.js -----
+63 سطر
+  SEC:7:function rec(rule,file,ok,evidence){items.push({rule,file,ok,evidence:evidence||"",at:new Date().toISOString()});
+  SEC:43:  for(const f of ["keys.env","logs/codes.log","logs/vault.json","money/data/vault.enc","money/data/secrets.json","money/db/creds.json"]){
+  SPW:1:#!/usr/bin/env node
+  SPW:3:const fs=require("fs"),path=require("path"),{execFileSync}=require("child_process"),U=require("./q-util.js"),QDB=require("./q-db.js");
+  SPW:13:  if(/\.js$/.test(file)){try{execFileSync(process.execPath,["--check",p],{stdio:"pipe"});}
+  SPW:14:    catch(e){U.restore(p);rec(rule,file,false,"فشل node --check — استُرجع");return false;}}
+  SPW:48:  const gi=path.join(U.ROOT,".gitignore");const need=["node_modules","keys.env","logs","*.pid","_backup","_deploy",".cache","__pycache__"];
+----- q-test.js -----
+  ✔ اختبار وظيفي: 94/98 ناجح
+   ✗ صفحة .live.html [403] حجم 14
+   ✗ مسار مُطبَّع [403] 
+   ✗ حمولة كبيرة [0] 
+   ✗ تشغيل المتصفح [0] Failed to launch the browser process!
+[14551:14551:1022/215333.746554:ERROR:./..
+----- مفاتيح موجودة -----
+ WALLET_MNEMONIC WALLET_ADDRESS WALLET_PRIVATE_KEY ----- مرشحو الخدمات -----
+/data/data/com.termux/files/home/cinehub3099/money/AUTH-CENTER.js
+/data/data/com.termux/files/home/cinehub3099/money/HUB.js
+/data/data/com.termux/files/home/cinehub3099/money/agent-core.js
+/data/data/com.termux/files/home/cinehub3099/money/gateway.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/adash.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/agent-auth.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/q-load.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/q-sectest.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/q-static.js
+/data/data/com.termux/files/home/cinehub3099/money/lib/q-test.js
+listen(PORT
+----- تكاملات فاشلة -----
+archive:502 blockchain:0 catapi:0 datamuse:0 dogceo:0 dummyjson:0 fakestore:0 freeip:0 jikan:0 jsonph:0 mempool:0 rickmorty:0 spacex:525 swapi:0 trongrid:0 yts:0 zippo:0

@@ -1,0 +1,34 @@
+### حجم الملفات الحرجة
+lib/async.js           19 سطر
+lib/q-sec.js           36 سطر
+lib/q-lint.js          46 سطر
+lib/q-fix.js           63 سطر
+lib/q-db.js            30 سطر
+lib/q-load.js          19 سطر
+lib/q-test.js          73 سطر
+
+### q-sec: موضع الدفع
+  6:function audit(inv){const D=[];const add=(sev,rule,file,msg,fix)=>{const _s=({sev,rule,file,msg,fixable:!!fix});if(!/_(NAME|EMAIL|USER|DOMAIN|URL|HOST|ID|CHAT_ID|HANDLE|ADDRESS|BRANCH|NUMBER|PORT|CURRENCY)$/i.test(String(_s)))D.push(_s);}
+  16:    if(v&&v.length>=16&&!/^(true|false|\d+)$/.test(v)&&!/^https?:/.test(v))if(!/_(NAME|EMAIL|USER|DOMAIN|URL|HOST|ID|CHAT_ID|HANDLE|ADDRESS|BRANCH|NUMBER)$/.test(k))secrets.push({k,v});}});
+
+### q-lint/q-fix: مواضع node
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-lint.js:1:#!/usr/bin/env node
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-lint.js:3:const fs=require("fs"),path=require("path"),{execFileSync}=require("child_process"),U=require("./q-util.js");
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-lint.js:6:  for(const f of inv.scripts){try{execFileSync(process.execPath,["--check",path.join(U.ROOT,f)],{stdio:"pipe"});}
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-fix.js:1:#!/usr/bin/env node
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-fix.js:3:const fs=require("fs"),path=require("path"),{execFileSync}=require("child_process"),U=require("./q-util.js"),QDB=require("./q-db.js");
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-fix.js:13:  if(/\.js$/.test(file)){try{execFileSync(process.execPath,["--check",p],{stdio:"pipe"});}
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-fix.js:14:    catch(e){U.restore(p);rec(rule,file,false,"فشل node --check — استُرجع");return false;}}
+  /data/data/com.termux/files/home/cinehub3099/money/lib/q-fix.js:48:  const gi=path.join(U.ROOT,".gitignore");const need=["node_modules","keys.env","logs","*.pid","_backup","_deploy",".cache","__pycache__"];
+
+### قائمة المفاتيح في keys.env
+WALLET_MNEMONIC WALLET_ADDRESS WALLET_PRIVATE_KEY 
+### حالة git
+  branch=main
+  remote=https://x-access-token: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@github.com/alisalimax3/alisalimax3.github.io.git
+  HEAD=65f5f10e3
+  ملفات كبيرة>40M: 8
+
+### ملفات HTML
+  إجمالي: 65468
+  مُعلَّمة: 65449

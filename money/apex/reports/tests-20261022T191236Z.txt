@@ -1,0 +1,14 @@
+PASS async.js سليم
+PASS q-sec.js سليم
+PASS q-db يحمّل
+PASS crypto.js سليم
+PASS keccak متجه
+FAIL ECDSA توقيع+تحقق
+FAIL ECDSA استرجاع العنوان
+FAIL signTx موقّع صحيحًا
+PASS المحفظة مشتقة
+PASS البريد الحقيقي
+PASS قناة الأحداث
+PASS الدفتر سليم
+PASS رصيد الدفتر موجب
+PASS keys.env 600

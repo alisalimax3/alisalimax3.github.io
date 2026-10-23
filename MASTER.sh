@@ -299,7 +299,7 @@ cat > tools/pages_gen.py <<'PYEOF'
 """صفحات long-tail لكل عنصر + sitemap + robots + IndexNow"""
 import os,re,json,random,urllib.request,urllib.parse,html as H
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-OUT="p"; SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+OUT="p"; SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 LIMIT=int(os.environ.get("PAGES_LIMIT","200"))
 KIND=["فيلم كلاسيكي","فيلم قصير","وثائقي","رسوم متحركة","فيلم نوار","تحفة صامتة","مغامرات","دراما","كوميديا","خيال علمي"]
 def slug(s):
@@ -428,7 +428,7 @@ cat > index.html <<'HTMLEOF'
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>CineHub 3099 — أفلام مجانية · أرباح حقيقية · سحب للكريمي</title>
 <meta name="description" content="أفلام قانونية تُشاهد داخل التطبيق، أرباح حقيقية من الإعلانات والاستطلاعات والروابط، وسحب مباشر إلى بنك الكريمي في اليمن من 5 دولار.">
-<link rel="canonical" href="https://alkazmybwhwr-dot.github.io/">
+<link rel="canonical" href="https://alisalimax3.github.io/">
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;background:#070b10;color:#e9f1f8;line-height:1.75}
@@ -513,7 +513,7 @@ footer{border-top:1px solid rgba(255,255,255,.07);margin-top:34px;padding:20px 0
   <div id="films" class="strip"><span style="color:#8ea3b8">… يُقرأ</span></div>
 </main>
 <footer><div class="wrap">
-  CineHub 3099 · <span id="st-upd">—</span> · alkazmybwhwr-dot.github.io
+  CineHub 3099 · <span id="st-upd">—</span> · alisalimax3.github.io
   <div style="margin-top:6px"><a href="audit.html">السجل الموثّق</a> · <a href="live-dash.html">لوحة المتابعة</a> · <a href="link.html">ربط الحساب</a></div>
 </div></footer>
 <div id="toast"></div>
@@ -840,7 +840,7 @@ push_all "master: audit + 90k wiring + modern ui + kuraimi withdrawal [build $ST
 info "انتظار 80 ثانية لنشر Pages..."
 sleep 80
 for f in index.html sites.html withdraw.html link.html registry.json sitemap.xml; do
-  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/$f")"
+  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alisalimax3.github.io/$f")"
   [ "$c" = "200" ] && ok "$f → 200" || bad "$f → $c"
 done
 python3 -c "
@@ -849,6 +849,6 @@ r=json.load(open('registry.json'));print('  مواقع مربوطة:',r['counts'
 a=json.load(open('audit-report.json'));print('  كتل js مكسورة:',a['counts']['broken_js'],'| روابط مفقودة:',len(a['missing']))
 "
 echo
-ok "منفَّذ. افتح: https://alkazmybwhwr-dot.github.io/link.html"
+ok "منفَّذ. افتح: https://alisalimax3.github.io/link.html"
 info "ثم /subscribe.html لثلاث شبكات · /withdraw.html لبيانات الكريمي · /sites.html للسجل"
 info "الخلفية على الهاتف معطّلة افتراضيًا (السحابة تكفي) — لتشغيلها: nohup bash agentd.sh &"

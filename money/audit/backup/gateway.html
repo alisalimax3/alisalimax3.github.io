@@ -1,0 +1,93 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية">
+<script src="killsw.js?v=3099-1792196423"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>بوابة العبور · CineHub 3099</title><style>
+body{margin:0;background:radial-gradient(1000px 480px at 50% -10%,#152a3f,#0a0e1a 60%);color:#e8f6ff;font:15px/1.85 system-ui,Tahoma;padding:14px}
+.wrap{max-width:880px;margin:auto}.card{background:#111827cc;border:1px solid #1e2a44;border-radius:14px;padding:15px;margin:11px 0}
+h1{font-size:22px}.big{font-size:30px;font-weight:800;color:#4dd0e1}.l{color:#8aa0bd;font-size:12.5px}
+input,button{background:#0d1424;border:1px solid #1e2a44;color:#e8f6ff;border-radius:9px;padding:10px}
+button{background:#22c55e;color:#04121a;font-weight:800;cursor:pointer;border:0}
+.flow{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));text-align:center}
+.node{background:#0d1424;border:1px solid #1e2a44;border-radius:11px;padding:12px}
+.arw{color:#4dd0e1;font-size:20px}.ok{color:#22c55e}.w{color:#fbbf24}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{border-bottom:1px solid #1e2a44;padding:6px;text-align:right}th{color:#8aa0bd}
+</style><link rel="stylesheet" href="/theme.css">
+
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body><div class="wrap">
+<h1>بوابة العبور — من الشبكة إلى الكريمي</h1>
+<p class="l">هذه الصفحة تُثبت المسار وتتحقق منه خطوة بخطوة. لا رقم فيها مكتوب يدويًا: كل شيء يُقرأ من ملفات المستودع أو من واجهات عامة.</p>
+<div class="card"><div class="flow">
+<div class="node">١<br>الشبكات<br><span class="l" id="n1">…</span></div><div class="node arw">←</div>
+<div class="node">٢<br>سحب API<br><span class="l" id="n2">…</span></div><div class="node arw">←</div>
+<div class="node">٣<br>GitHub كخزينة محايدة<br><span class="l" id="n3">…</span></div><div class="node arw">←</div>
+<div class="node">٤<br>محفظة التطبيق<br><span class="l" id="n4">…</span></div><div class="node arw">←</div>
+<div class="node">٥<br>بنك الكريمي<br><span class="l" id="n5">…</span></div>
+</div></div>
+<div class="card"><h3>اربط حسابك في GitHub (بوابة العبور)</h3>
+<div class="l">يُتحقق من وجود الحساب فعليًا عبر GitHub API، ويُربط بالهوية لإثبات ملكية السجل والالتزامات.</div>
+<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><input id="gu" placeholder="اسمك في GitHub" style="flex:1"><button onclick="go()">ربط</button></div>
+<div id="gm" class="l" style="margin-top:8px"></div></div>
+<div class="card"><h3>حالة المسار</h3><table><tbody id="rows"></tbody></table></div>
+<p class="l"><a href="/audit.html">تدقيق السجل</a> · <a href="/treasury.html">الخزينة</a> · <a href="/withdraw.html">اسحب</a> · <a href="/">الرئيسية</a></p>
+</div>
+<script src="/linkgh.js"></script><script src="/authtoken.js"></script><script src="/cloud.js"></script>
+<script>
+function paint(){var g=CHGH.get();
+ document.getElementById('gm').innerHTML=g?'<span class="ok">✓ مربوط: <b>'+g.login+'</b> (id '+g.id+') · بريد الالتزام '+g.email+'</span> <button onclick="CHGH.unlink()" style="padding:4px 9px">فصل</button>':'غير مربوط';}
+paint();document.addEventListener('ch:gh',paint);
+async function go(){var r=await CHGH.link(document.getElementById('gu').value);
+ document.getElementById('gm').innerHTML=r.ok?'<span class="ok">✓ تم الربط والتحقق</span>':'✗ '+r.why; paint();}
+(async function(){
+ var rev=await fetch('/revenue.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}));
+ var hb=await fetch('/heartbeat.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}));
+ var li=await fetch('/ledger-index.json?t='+Date.now()).then(r=>r.json()).catch(()=>({entries:0,broken:0}));
+ var net=await fetch('/networks.json?t='+Date.now()).then(r=>r.json()).catch(()=>({networks:[]}));
+ var own=await fetch('/owner.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}));
+ var mk=(net.networks||[]).filter(n=>Object.keys(n.keys||{}).some(k=>n.keys[k])).length;
+ document.getElementById('n1').textContent=(net.networks||[]).filter(n=>n.enabled).length+' مُفعّلة · '+mk+' لها مفاتيح';
+ document.getElementById('n2').textContent=rev.ok?'يعمل ✓':(rev.error?'خطأ':'بانتظار مفتاح');
+ document.getElementById('n3').textContent=li.entries+' قيد · '+(li.broken?'مكسور':'سليمة ✓');
+ document.getElementById('n4').textContent='$'+(window.CHLedger?CHLedger.balance():0).toFixed(4);
+ document.getElementById('n5').textContent=own.kuraimi_name?'مضبوط ✓':'غير مضبوط';
+ var rows=[['إجمالي إيراد حقيقي (30 يوم)','$'+Number(rev.revenue||0).toFixed(4),rev.ok?'ok':'w'],
+  ['ظهور حقيقي',''+(rev.impressions||0),''],
+  ['آخر سحب من الشبكة',hb.t||'—',hb.t?'ok':'w'],
+  ['سلسلة السجل',li.broken?li.broken+' مكسور':'سليمة',li.broken?'bad':'ok'],
+  ['هوية الكابتشا',CHAuth.token()?CHAuth.token().id:'غير مُفعّلة',CHAuth.token()?'ok':'w']];
+ document.getElementById('rows').innerHTML=rows.map(r=>'<tr><td>'+r[0]+'</td><td class="'+(r[2]||'')+'"><b>'+r[1]+'</b></td></tr>').join('');
+})();
+</script><script src="/ads.js" defer></script><script src="/hero.js" defer></script>
+<script src="/beacon.js" defer></script>
+<script>if(!document.querySelector('a[href="/live-dash.html"]')){var n=document.querySelector("nav");if(n)n.insertAdjacentHTML("beforeend",'<a href="/live-dash.html">حيّ</a>')}</script>
+<script src="/ledger.js" defer></script>
+<script src="/captcha.js" defer></script>
+<script src="/comments.js" defer></script>
+
+
+<script src="boot.js?v=3099-1792196423" defer></script>
+<script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

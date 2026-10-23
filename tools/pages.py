@@ -2,7 +2,7 @@
 import json,os,re,html,traceback
 from collections import Counter
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 def S(v):
     if v is None: return ""
     if isinstance(v,list): return ",".join(S(x) for x in v)

@@ -1,0 +1,12 @@
+{
+  "address": "",
+  "rpc": "https://mainnet.base.org",
+  "balances": {},
+  "prices": {
+    "ETH": 2375.28,
+    "VVV": 0,
+    "USDC": 1.0,
+    "USDT": 1.0
+  },
+  "usd_total": 0
+}

@@ -286,7 +286,7 @@ cat > tools/ping.py <<'PYEOF'
 """يُبلّغ محركات البحث: IndexNow + Sitemap"""
 import os, json, random, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE = os.environ.get("SITE_URL", "https://alkazmybwhwr-dot.github.io")
+SITE = os.environ.get("SITE_URL", "https://alisalimax3.github.io")
 host = SITE.replace("https://", "")
 kp = "indexnow-key.txt"
 key = open(kp).read().strip() if os.path.exists(kp) else "".join(random.choice("0123456789abcdef") for _ in range(32))
@@ -434,9 +434,9 @@ push_all "rise: real counters + workers + gates + dashboard [$V]"
 info "انتظار 80 ثانية…"
 sleep 80
 for f in rise.html track.js counts.json gates.json revenue.json; do
-  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alkazmybwhwr-dot.github.io/$f?v=$V")"
+  c="$(curl -s -o /dev/null -w '%{http_code}' "https://alisalimax3.github.io/$f?v=$V")"
   [ "$c" = "200" ] && ok "$f → 200" || bad "$f → $c"
 done
 echo
-ok "افتح: https://alkazmybwhwr-dot.github.io/rise.html"
-info "ثم: https://alkazmybwhwr-dot.github.io/subscribe.html (ثلاث شبكات فقط)"
+ok "افتح: https://alisalimax3.github.io/rise.html"
+info "ثم: https://alisalimax3.github.io/subscribe.html (ثلاث شبكات فقط)"

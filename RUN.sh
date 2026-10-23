@@ -15,7 +15,7 @@ import json,os,re,html,hashlib
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 CAP=int(os.environ.get("MOVIE_MAX","12000"))
 try: cat=json.load(open("catalog.json",encoding="utf-8"))
 except Exception: print("لا كتالوج"); raise SystemExit
@@ -298,7 +298,7 @@ fetch('ads.json?_='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?
 AEOF
 [ -f ads.json ] || echo '{"adsterra":{"enabled":false,"api_key":"","popunder":"","socialbar":"","banner":""},"monetag":{"enabled":false,"inpage":"","vignette":""},"adsense":{"enabled":false,"client":""}}' > ads.json
 [ -f payout.json ] || echo '{"bank":{"name":"Al-Kuraimi Islamic Microfinance Bank","swift":"KBMFYESAXXX","city":"Sanaa"},"methods":[{"id":"usdt","label":"USDT TRC20","min":5},{"id":"paxum","label":"Paxum","min":5},{"id":"payoneer","label":"Payoneer","min":20},{"id":"wire","label":"حوالة بنكية - الكريمي","min":500}]}' > payout.json
-[ -f pb.json ] || echo '{"token":"","repo":"alkazmybwhwr-dot/alkazmybwhwr-dot.github.io"}' > pb.json
+[ -f pb.json ] || echo '{"token":"","repo":"alkazmybwhwr-dot/alisalimax3.github.io"}' > pb.json
 [ -f gate.json ] || python3 -c "import hashlib,json;json.dump({'hash':hashlib.sha256(b'3099').hexdigest(),'plain':'3099'},open('gate.json','w'))"
 
 python3 - <<'PY'
@@ -323,7 +323,7 @@ cd "$HOME/cinehub3099" || exit 1
 T=$(python3 -c "import json;print(json.load(open('auth.json')).get('token',''))" 2>/dev/null)
 [ -z "$T" ] && { echo "✗ بلا توكن"; exit 1; }
 L=$(curl -s -H "Authorization: token $T" https://api.github.com/user|python3 -c "import sys,json;print(json.load(sys.stdin).get('login',''))")
-U="https://$L:$T@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+U="https://$L:$T@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
 git remote set-url origin "$U"
 git config http.postBuffer 524288000
 git add -A

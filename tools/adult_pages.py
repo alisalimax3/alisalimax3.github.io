@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json,os,re,html as H
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 if not os.path.exists("adult.json"): print("لا adult.json"); raise SystemExit
 d=json.load(open("adult.json",encoding="utf-8"))
 os.makedirs("x",exist_ok=True)

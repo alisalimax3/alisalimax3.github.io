@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json,os,html,datetime,re
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 D=json.load(open('data/index.json',encoding='utf-8'))
 def slug(s):
     s=re.sub(r'[^a-zA-Z0-9\u0600-\u06FF ]',' ',s or ''); return (re.sub(r'\s+','-',s.strip().lower())[:60] or 'item').strip('-')

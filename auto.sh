@@ -25,8 +25,8 @@ for p in F:
 PY
   python3 spread.py 2>&1 | tail -6
   T="$(tr -d '\n\r ' < .gh-token)"
-  git remote set-url origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git" 2>/dev/null || \
-  git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+  git remote set-url origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git" 2>/dev/null || \
+  git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
   git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
   git diff --cached --quiet || git commit -q -m "auto: content refresh $(date -u +%FT%TZ)"
   bash deploy.sh main "auto $(date -u +%FT%TZ)"&& echo "  ✓ نُشر" || { echo "  ✗"; cat "$D/.gp.err"; }

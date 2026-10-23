@@ -1,0 +1,128 @@
+{
+ "updated": "2026-10-19 01:00",
+ "count": 10,
+ "enabled": 1,
+ "note": "المفتاح يُنشأ من لوحة المزود. لا مفتاح يعمل بلا حساب.",
+ "networks": [
+  {
+   "id": "exoclick",
+   "n": "ExoClick",
+   "kind": "banner",
+   "zone_key": "EXOCLICK_ZONE",
+   "zone": "",
+   "embed_key": "EXOCLICK_EMBED",
+   "has_embed": false,
+   "tier": 1,
+   "section": "adult",
+   "on": false
+  },
+  {
+   "id": "juicyads",
+   "n": "JuicyAds",
+   "kind": "banner",
+   "zone_key": "JUICYADS_ZONE",
+   "zone": "",
+   "embed_key": "JUICYADS_EMBED",
+   "has_embed": false,
+   "tier": 1,
+   "section": "adult",
+   "on": false
+  },
+  {
+   "id": "aads",
+   "n": "A-ADS",
+   "kind": "banner",
+   "zone_key": "AADS_UNIT",
+   "zone": "20250",
+   "embed_key": "AADS_EMBED",
+   "has_embed": false,
+   "tier": 1,
+   "section": "both",
+   "on": true
+  },
+  {
+   "id": "adsterra",
+   "n": "Adsterra",
+   "kind": "banner",
+   "zone_key": "ADSTERRA_ZONE",
+   "zone": "",
+   "embed_key": "ADSTERRA_EMBED",
+   "has_embed": false,
+   "tier": 2,
+   "section": "both",
+   "on": false
+  },
+  {
+   "id": "hilltopads",
+   "n": "HilltopAds",
+   "kind": "banner",
+   "zone_key": "HILLTOPADS_ZONE",
+   "zone": "",
+   "embed_key": "HILLTOPADS_EMBED",
+   "has_embed": false,
+   "tier": 2,
+   "section": "both",
+   "on": false
+  },
+  {
+   "id": "trafficstars",
+   "n": "TrafficStars",
+   "kind": "banner",
+   "zone_key": "TRAFFICSTARS_ZONE",
+   "zone": "",
+   "embed_key": "TRAFFICSTARS_EMBED",
+   "has_embed": false,
+   "tier": 2,
+   "section": "adult",
+   "on": false
+  },
+  {
+   "id": "clickadu",
+   "n": "Clickadu",
+   "kind": "banner",
+   "zone_key": "CLICKADU_ZONE",
+   "zone": "",
+   "embed_key": "CLICKADU_EMBED",
+   "has_embed": false,
+   "tier": 2,
+   "section": "both",
+   "on": false
+  },
+  {
+   "id": "popads",
+   "n": "PopAds",
+   "kind": "popunder",
+   "zone_key": "POPADS_SITE",
+   "zone": "",
+   "embed_key": "POPADS_EMBED",
+   "has_embed": false,
+   "tier": 3,
+   "section": "both",
+   "on": false
+  },
+  {
+   "id": "popcash",
+   "n": "PopCash",
+   "kind": "popunder",
+   "zone_key": "POPCASH_SITE",
+   "zone": "",
+   "embed_key": "POPCASH_EMBED",
+   "has_embed": false,
+   "tier": 3,
+   "section": "both",
+   "on": false
+  },
+  {
+   "id": "evadav",
+   "n": "EvaDav",
+   "kind": "push",
+   "zone_key": "EVADAV_ZONE",
+   "zone": "",
+   "embed_key": "EVADAV_EMBED",
+   "has_embed": false,
+   "tier": 3,
+   "section": "both",
+   "on": false
+  }
+ ]
+}

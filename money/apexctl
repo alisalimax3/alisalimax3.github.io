@@ -1,0 +1,12 @@
+#!/data/data/com.termux/files/usr/bin/bash
+AX="$HOME/cinehub3099/money/apex"
+case "${1:-status}" in
+ status) node "$AX/exec/agg.js" "$AX"; echo "---"; cat "$AX/reports/APEX-REPORT.md" 2>/dev/null | head -60 ;;
+ verify) node "$AX/exec/probe.js" "$AX/registry/probe.tsv" "$AX/registry/verified.jsonl" && node "$AX/exec/agg.js" "$AX" ;;
+ earn)   node "$AX/exec/keysources.js" "$AX"; node "$AX/exec/onchain.js" "$AX" "$HOME/cinehub3099/money"; node "$AX/exec/ledger.js" "$AX" ;;
+ mail)   node "$AX/exec/mail.js" "$AX"; cat "$AX/state/mailbox.json" ;;
+ chain)  node "$AX/exec/onchain.js" "$AX" "$HOME/cinehub3099/money"; cat "$AX/state/chain.json" ;;
+ dash)   nohup node "$AX/exec/apexdash.js" "$AX" 8791 >/dev/null 2>&1 & sleep 2; termux-open-url http://127.0.0.1:8791 2>/dev/null || echo http://127.0.0.1:8791 ;;
+ report) node "$AX/exec/report.js" "$AX"; cat "$AX/reports/APEX-REPORT.md" ;;
+ *) echo "apexctl status|verify|earn|mail|chain|dash|report" ;;
+esac

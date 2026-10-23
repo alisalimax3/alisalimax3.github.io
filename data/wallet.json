@@ -1,13 +1,21 @@
 {
- "updated": "2026-10-23 18:53",
+ "updated": "2026-10-19 04:24",
  "sources": [
+  {
+   "n": "Adsterra",
+   "usd": 0,
+   "live": false,
+   "note": "<urlopen error [Errno 7] No address asso",
+   "min": 5,
+   "pay": "USDT/PayPal"
+  },
   {
    "n": "ExoClick",
    "usd": 0,
    "live": false,
    "min": 20,
    "pay": "Paxum/Wire",
-   "note": "ينتظر المعرّف"
+   "note": "المعرّف مضبوط"
   },
   {
    "n": "JuicyAds",
@@ -15,7 +23,7 @@
    "live": false,
    "min": 50,
    "pay": "Paxum/BTC",
-   "note": "ينتظر المعرّف"
+   "note": "المعرّف مضبوط"
   },
   {
    "n": "Monetag",
@@ -31,7 +39,7 @@
    "live": false,
    "min": 0,
    "pay": "BTC تلقائي",
-   "note": "المعرّف مضبوط"
+   "note": "ينتظر المعرّف"
   },
   {
    "n": "TrafficJunky",
@@ -83,11 +91,11 @@
   }
  ],
  "total_usd": 0.0,
- "btc_usd": 81398.0,
+ "btc_usd": 82425.0,
  "payout": {
   "bank": "بنك الكريمي للتمويل الأصغر",
   "swift": "KBMFYESAXXX",
-  "name": "علي سالم عبدالله احمد",
+  "name": "",
   "account": "",
   "usdt": ""
  },

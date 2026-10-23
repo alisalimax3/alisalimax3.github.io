@@ -1,0 +1,544 @@
+{
+ "ts": "2026-10-22T18:47:39.999Z",
+ "rails": [
+  {
+   "name": "Binance P2P / USDT",
+   "method": "crypto",
+   "ye": true,
+   "min": 1,
+   "how": "بيع USDT عبر P2P إلى ريال/بنك يمني"
+  },
+  {
+   "name": "Payeer",
+   "method": "payeer",
+   "ye": true,
+   "min": 1,
+   "how": "سحب إلى بطاقة/صراف عبر Payeer"
+  },
+  {
+   "name": "AirTM",
+   "method": "airtm",
+   "ye": true,
+   "min": 1,
+   "how": "تحويل إلى محفظة/بنك محلي"
+  },
+  {
+   "name": "Payoneer",
+   "method": "payoneer",
+   "ye": true,
+   "min": 50,
+   "how": "استلام لحساب Payoneer ثم سحب بنكي"
+  },
+  {
+   "name": "Western Union",
+   "method": "westernunion",
+   "ye": true,
+   "min": 1,
+   "how": "استلام نقدي من فرع الصراف"
+  },
+  {
+   "name": "MoneyGram",
+   "method": "moneygram",
+   "ye": true,
+   "min": 1,
+   "how": "استلام نقدي"
+  },
+  {
+   "name": "Ria",
+   "method": "ria",
+   "ye": true,
+   "min": 1,
+   "how": "استلام نقدي"
+  },
+  {
+   "name": "Al-Kuraimi / بنك محلي",
+   "method": "bank",
+   "ye": true,
+   "min": 10,
+   "how": "حوالة SWIFT KRIBYEBA (يتطلب تأكيد)"
+  },
+  {
+   "name": "PayPal",
+   "method": "paypal",
+   "ye": false,
+   "min": 100,
+   "how": "يحتاج وسيط/حساب مرتبط"
+  },
+  {
+   "name": "Wise",
+   "method": "wise",
+   "ye": false,
+   "min": 50,
+   "how": "دعم اليمن محدود"
+  }
+ ],
+ "ye_actionable_platforms": 46,
+ "total_platforms": 665,
+ "reachable": 427,
+ "points": 4523,
+ "by_method": {
+  "crypto": 46
+ },
+ "earning_ready": [
+  {
+   "id": "adbtc.top",
+   "domain": "adbtc.top",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "coinpayu.com",
+   "domain": "coinpayu.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "cointiply.com",
+   "domain": "cointiply.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "ysense.com",
+   "domain": "ysense.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "timebucks.com",
+   "domain": "timebucks.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "adzseven.com",
+   "domain": "adzseven.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "scarlet_clicks.com",
+   "domain": "scarlet-clicks.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "buxvertise.com",
+   "domain": "buxvertise.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "paidverts.com",
+   "domain": "paidverts.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "clixblue.com",
+   "domain": "clixblue.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "ojooo.com",
+   "domain": "ojooo.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "familyclicks.com",
+   "domain": "familyclicks.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "donkeymails.com",
+   "domain": "donkeymails.com",
+   "cat": "ptc",
+   "method": "crypto",
+   "min": 1,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "faucetcrypto.com",
+   "domain": "faucetcrypto.com",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "freedoge.co.in",
+   "domain": "freedoge.co.in",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "faucetpay.io",
+   "domain": "faucetpay.io",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "firefaucet.win",
+   "domain": "firefaucet.win",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "cryptowin.io",
+   "domain": "cryptowin.io",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "earnado.com",
+   "domain": "earnado.com",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "betfury.io",
+   "domain": "betfury.io",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "dutchycorp.space",
+   "domain": "dutchycorp.space",
+   "cat": "faucet",
+   "method": "crypto",
+   "min": 0.01,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "honeygain.com",
+   "domain": "honeygain.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "packetstream.io",
+   "domain": "packetstream.io",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "peer2profit.com",
+   "domain": "peer2profit.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "getgrass.io",
+   "domain": "getgrass.io",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "earnapp.com",
+   "domain": "earnapp.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "traffmonetizer.com",
+   "domain": "traffmonetizer.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "repocket.com",
+   "domain": "repocket.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "pawns.app",
+   "domain": "pawns.app",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "iproyal.com",
+   "domain": "iproyal.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "mysterium.network",
+   "domain": "mysterium.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "proxyrack.com",
+   "domain": "proxyrack.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "storj.io",
+   "domain": "storj.io",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "filecoin.io",
+   "domain": "filecoin.io",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "sia.tech",
+   "domain": "sia.tech",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "crust.network",
+   "domain": "crust.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "akash.network",
+   "domain": "akash.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "golem.network",
+   "domain": "golem.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "iex.ec",
+   "domain": "iex.ec",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "rendernetwork.com",
+   "domain": "rendernetwork.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "helium.com",
+   "domain": "helium.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "hivemapper.com",
+   "domain": "hivemapper.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "weatherxm.com",
+   "domain": "weatherxm.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "natix.network",
+   "domain": "natix.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "silencio.network",
+   "domain": "silencio.network",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  },
+  {
+   "id": "geodnet.com",
+   "domain": "geodnet.com",
+   "cat": "passive",
+   "method": "crypto",
+   "min": 5,
+   "state": "reachable",
+   "earned": 0,
+   "verified_earning": false
+  }
+ ]
+}

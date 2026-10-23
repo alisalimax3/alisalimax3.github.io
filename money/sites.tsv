@@ -1,0 +1,81 @@
+id|name|cat|signup|env|mode|url|headers|rev|payout|note
+adsterra|Adsterra|ads|https://publishers.adsterra.com/signup|ADSTERRA_API_KEY,ADSTERRA_PUB_ID|api|https://api3.adsterratools.com/publisher/stats.json?start_date={D}&finish_date={D}&group_by=date|X-API-Key: {KEY}|1|USDT/BTC/Paxum|API v3 موثّق
+monetag|Monetag|ads|https://monetag.com/signup|MONETAG_API_KEY|api|https://api.monetag.com/v1/statistics?api_key={KEY}&from={D}&to={D}||1|USDT|best-effort
+propellerads|PropellerAds|ads|https://publishers.propellerads.com/#/signup|PROPELLERADS_API_KEY|api|https://api.propellerads.com/v5/statistics?token={KEY}&from={D}&to={D}||1|USDT/Payoneer|v5
+ezoic|Ezoic|ads|https://www.ezoic.com/signup/|EZOIC_API_KEY,EZOIC_SITE_ID|api|https://api.ezoic.com/v1/earnings?api_key={KEY}&from={D}&to={D}||1|PayPal/ACH|best-effort
+adsense|Google AdSense|ads|https://www.google.com/adsense/start/|ADSENSE_CLIENT,ADSENSE_ACCESS_TOKEN|api|https://adsense.googleapis.com/v2/accounts|Authorization: Bearer {KEY2}|1|Bank/Wire|يحتاج OAuth token
+medianet|Media.net|ads|https://www.media.net/publishers|MEDIANET_CUSTOMER_ID|dash|-||0|Wire|لوحة فقط
+adcash|Adcash|ads|https://adcash.com/signup|ADCASH_PUBLISHER_ID,ADCASH_API_KEY|dash|-||0|Wire/Payoneer|
+hilltopads|HilltopAds|ads|https://hilltopads.com/publishers/|HILLTOPADS_API_KEY|dash|-||0|USDT/Wire|
+clickadu|Clickadu|ads|https://www.clickadu.com/publishers|CLICKADU_PUBLISHER_ID|dash|-||0|Wire/PayPal|
+infolinks|Infolinks|ads|https://www.infolinks.com/registration|INFOLINKS_PUBLISHER_ID|dash|-||0|PayPal|
+mgid|MGID|ads|https://www.mgid.com/publishers|MGID_PUBLISHER_ID|dash|-||0|Wire|
+impact|Impact|affiliate|https://impact.com/signup/|IMPACT_ACCOUNT_SID,IMPACT_AUTH_TOKEN|basic|https://api.impact.com/Mediapartners/{KEY}/Campaigns||0|Bank/PayPal|Basic auth موثّق
+awin|Awin|affiliate|https://www.awin.com/gb/register|AWIN_API_TOKEN,AWIN_PUBLISHER_ID|api|https://api.awin.com/publishers?accessToken={KEY}||0|Bank|oauth token
+cj|CJ Affiliate|affiliate|https://www.cj.com/signup|CJ_PERSONAL_TOKEN,CJ_PUBLISHER_ID|api|https://commission-detail.api.cj.com/v3/commissions|Authorization: Bearer {KEY}|0|Bank/PayPal|
+rakuten|Rakuten Advertising|affiliate|https://rakutenadvertising.com/|RAKUTEN_TOKEN,RAKUTEN_SID|dash|-||0|Bank|
+clickbank|ClickBank|affiliate|https://www.clickbank.com/|CLICKBANK_DEV_KEY,CLICKBANK_CLERK_KEY|dash|-||0|Bank/Payoneer|
+digistore24|Digistore24|affiliate|https://www.digistore24.com/register|DIGISTORE_API_KEY|dash|-||0|Bank|
+hotmart|Hotmart|affiliate|https://signup.hotmart.com/|HOTMART_CLIENT_ID,HOTMART_CLIENT_SECRET|dash|-||0|Bank|
+amazon|Amazon Associates|affiliate|https://affiliate-program.amazon.com/|AMAZON_ACCESS_KEY,AMAZON_SECRET_KEY,AMAZON_TAG|dash|-||0|Bank|PA-API توقيع
+aliexpress|AliExpress Portals|affiliate|https://portals.aliexpress.com/|ALIEXPRESS_APP_KEY,ALIEXPRESS_APP_SECRET,ALIEXPRESS_TRACKING_ID|dash|-||0|Bank|
+cuelinks|Cuelinks|affiliate|https://www.cuelinks.com/register|CUELINKS_API_KEY|dash|-||0|Bank|
+involve|Involve Asia|affiliate|https://involve.asia/register|INVOLVE_API_KEY,INVOLVE_SECRET|dash|-||0|Bank|
+mylead|MyLead|affiliate|https://mylead.global/register|MYLEAD_API_TOKEN|api|https://mylead.global/api/v1/account|Authorization: Bearer {KEY}|1|Bank/PayPal|best-effort
+cpx|CPX Research|surveys|https://www.cpx-research.com/|CPX_APP_ID,CPX_SECURE_HASH|dash|-||0|postback|
+bitlabs|BitLabs|surveys|https://bitlabs.ai/|BITLABS_TOKEN|dash|-||0|postback|
+ayet|AyetStudios|offerwall|https://ayetstudios.com/|AYET_API_KEY|dash|-||0|postback|
+adgate|AdGate Media|offerwall|https://adgatemedia.com/|ADGATE_APP_ID,ADGATE_SECRET|dash|-||0|postback|
+binance|Binance|crypto|https://accounts.binance.com/register|BINANCE_API_KEY,BINANCE_API_SECRET|sign|https://api.binance.com/api/v3/account|X-MBX-APIKEY: {KEY}|0|Withdraw|
+coinbase|Coinbase Advanced|crypto|https://www.coinbase.com/signup|COINBASE_API_KEY,COINBASE_API_SECRET|dash|-||0|Withdraw|
+kraken|Kraken|crypto|https://pro.kraken.com/|KRAKEN_API_KEY,KRAKEN_API_SECRET|dash|-||0|Withdraw|
+kucoin|KuCoin|crypto|https://www.kucoin.com/ucenter/signup|KUCOIN_API_KEY,KUCOIN_API_SECRET,KUCOIN_PASSPHRASE|dash|-||0|Withdraw|
+bybit|Bybit|crypto|https://www.bybit.com/register|BYBIT_API_KEY,BYBIT_API_SECRET|api|https://api.bybit.com/v5/account/wallet-balance?accountType=UNIFIED|X-BAPI-API-KEY: {KEY}|0|Withdraw|v5 موثّق
+okx|OKX|crypto|https://www.okx.com/account/register|OKX_API_KEY,OKX_API_SECRET,OKX_PASSPHRASE|dash|-||0|Withdraw|
+gate|Gate.io|crypto|https://www.gate.io/signup|GATE_API_KEY,GATE_API_SECRET|dash|-||0|Withdraw|
+mexc|MEXC|crypto|https://www.mexc.com/register|MEXC_API_KEY,MEXC_API_SECRET|sign|https://api.mexc.com/api/v3/account|X-MEXC-APIKEY: {KEY}|0|Withdraw|
+bitget|Bitget|crypto|https://www.bitget.com/register|BITGET_API_KEY,BITGET_API_SECRET,BITGET_PASSPHRASE|dash|-||0|Withdraw|
+faucetpay|FaucetPay|crypto|https://faucetpay.io/register|FAUCETPAY_API_KEY|post|https://faucetpay.io/api/v1/balance|api_key={KEY}&currency=USDT|1|Micro-withdraw|POST موثّق
+nowpayments|NOWPayments|crypto|https://account.nowpayments.io/create-account|NOWPAYMENTS_API_KEY|api|https://api.nowpayments.io/v1/status|x-api-key: {KEY}|0|Crypto|
+cryptomus|Cryptomus|crypto|https://cryptomus.com/|CRYPTOMUS_MERCHANT_ID,CRYPTOMUS_API_KEY|dash|-||0|Crypto|
+coinpayments|CoinPayments|crypto|https://www.coinpayments.net/register|COINPAYMENTS_PUBLIC_KEY,COINPAYMENTS_PRIVATE_KEY|dash|-||0|Crypto|
+alchemy|Alchemy Base RPC|infra|https://www.alchemy.com/|ALCHEMY_API_KEY|api|https://base-mainnet.g.alchemy.com/v2/{KEY}||0|-|RPC قاعدة
+infura|Infura|infra|https://www.infura.io/|INFURA_PROJECT_ID|api|https://base-mainnet.infura.io/v3/{KEY}||0|-|RPC قاعدة
+coingecko|CoinGecko Pro|data|https://www.coingecko.com/en/developers/dashboard|COINGECKO_API_KEY|api|https://pro-api.coingecko.com/api/v3/ping?x_cg_pro_api_key={KEY}||0|-|أسعار
+github|GitHub|dev|https://github.com/signup|GITHUB_TOKEN,GITHUB_REPOS|api|https://api.github.com/user|Authorization: Bearer {KEY}|0|-|النشر
+cloudflare|Cloudflare|dev|https://dash.cloudflare.com/sign-up|CLOUDFLARE_API_TOKEN|api|https://api.cloudflare.com/client/v4/user/tokens/verify|Authorization: Bearer {KEY}|0|-|
+supabase|Supabase|dev|https://supabase.com/dashboard/sign-up|SUPABASE_URL,SUPABASE_KEY|api|{KEY}/rest/v1/|apikey: {KEY2}|0|-|
+telegram|Telegram Bot|dev|https://telegram.org/|TELEGRAM_BOT_TOKEN,TG_CHAT_ID|api|https://api.telegram.org/bot{KEY}/getMe||0|-|الرمز والتنبيهات
+vercel|Vercel|dev|https://vercel.com/signup|VERCEL_TOKEN|api|https://api.vercel.com/v2/user|Authorization: Bearer {KEY}|0|-|
+netlify|Netlify|dev|https://app.netlify.com/signup|NETLIFY_TOKEN|api|https://api.netlify.com/api/v1/user|Authorization: Bearer {KEY}|0|-|
+openrouter|OpenRouter|ai|https://openrouter.ai/|OPENROUTER_API_KEY|api|https://openrouter.ai/api/v1/key|Authorization: Bearer {KEY}|0|-|
+deepseek|DeepSeek|ai|https://platform.deepseek.com/sign_up|DEEPSEEK_API_KEY|api|https://api.deepseek.com/user/balance|Authorization: Bearer {KEY}|0|-|
+groq|Groq|ai|https://console.groq.com/|GROQ_API_KEY|api|https://api.groq.com/openai/v1/models|Authorization: Bearer {KEY}|0|-|
+stripe|Stripe|payments|https://dashboard.stripe.com/register|STRIPE_SECRET_KEY|api|https://api.stripe.com/v1/balance|Authorization: Bearer {KEY}|1|Bank|
+gumroad|Gumroad|commerce|https://gumroad.com/signup|GUMROAD_ACCESS_TOKEN|api|https://api.gumroad.com/v2/user|Authorization: Bearer {KEY}|1|PayPal|
+lemonsqueezy|Lemon Squeezy|commerce|https://app.lemonsqueezy.com/register|LEMONSQUEEZY_API_KEY|api|https://api.lemonsqueezy.com/v1/users/me|Authorization: Bearer {KEY}|1|PayPal|
+payhip|Payhip|commerce|https://payhip.com/signup|PAYHIP_API_KEY|dash|-||0|PayPal|
+buymeacoffee|Buy Me a Coffee|commerce|https://www.buymeacoffee.com/signup|BUYMEACOFFEE_TOKEN|dash|-||0|Bank|
+kofi|Ko-fi|commerce|https://ko-fi.com/|KOFI_VERIFICATION_TOKEN|dash|-||0|PayPal|
+brevo|Brevo|marketing|https://onboarding.brevo.com/account/register|BREVO_API_KEY|api|https://api.brevo.com/v3/account|api-key: {KEY}|0|-|
+captcha|2Captcha|tool|https://2captcha.com/auth/register|CAPTCHA_API_KEY|api|https://2captcha.com/res.php?key={KEY}&action=getbalance&json=1||0|USDT/PayPal|حل الكابتشا
+exoclick|ExoClick|adult|https://www.exoclick.com/signup/|EXOCLICK_API_TOKEN|api|https://api.exoclick.com/v2/statistics/publisher/sites|Authorization: Bearer {KEY}|1|USDT/Wire|best-effort
+juicyads|JuicyAds|adult|https://www.juicyads.com/|JUICYADS_API_KEY|dash|-||0|USDT/PayPal|لوحة فقط
+trafficjunky|TrafficJunky|adult|https://www.trafficjunky.com/|TRAFFICJUNKY_API_KEY|dash|-||0|Wire|لوحة فقط
+trafficstars|TrafficStars|adult|https://www.trafficstars.com/signup|TRAFFICSTARS_API_KEY|dash|-||0|USDT/Wire|
+plugrush|PlugRush|adult|https://www.plugrush.com/register|PLUGRUSH_API_KEY,PLUGRUSH_ZONE|dash|-||0|BTC/USDT|
+eroadvertising|EroAdvertising|adult|https://www.eroadvertising.com/signup|EROADS_API_KEY|dash|-||0|Wire|
+bitterstrawberry|BitterStrawberry|adult|https://www.bitterstrawberry.com/publishers|BITTER_API_KEY|dash|-||0|Wire|
+lospollos|LosPollos|adult|https://lospollos.com/signup|LOSPOLLOS_API_KEY|dash|-||0|USDT/Paxum|smartlink CPA عالي الدفع
+crackrevenue|CrackRevenue|adult|https://crackrevenue.com/signup|CRACKREVENUE_API_KEY|dash|-||0|USDT/Wire|CPA
+adnium|Adnium|adult|https://adnium.com/|ADNIUM_API_KEY|dash|-||0|Wire|
+adultforce|AdultForce|adult|https://www.adultforce.com/publishers|ADULTFORCE_API_KEY|dash|-||0|Wire|
+vidoomy|Vidoomy|adult|https://vidoomy.com/publishers|VIDOOMY_API_KEY|dash|-||0|Wire|فيديو
+adspyglass|AdsPygGlass|adult|https://www.adspyglass.com/registration|ADSPYGLASS_API_KEY|dash|-||0|USDT/PayPal|وسيط يدفع
+chaturbate|Chaturbate RevShare|adult|https://chaturbate.com/affiliates/|CHATURBATE_USERNAME,CHATURBATE_CAMPAIGN|dash|-||0|Wire|20% مدى الحياة
+tgchannel|Telegram Channel|channel|https://t.me/|TG_CHANNEL_ID|dash|-||0|-|قناة مجانية تدفع بالزيارات
+youtube|YouTube|channel|https://studio.youtube.com/|YOUTUBE_API_KEY,YOUTUBE_CHANNEL_ID|api|https://www.googleapis.com/youtube/v3/channels?part=statistics&id={KEY2}&key={KEY}||0|AdSense|
+reddit|Reddit|channel|https://www.reddit.com/register|REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET|dash|-||0|-|
+pinterest|Pinterest|channel|https://www.pinterest.com/business/create/|PINTEREST_TOKEN|dash|-||0|-|
+fbpage|Facebook Page|channel|https://www.facebook.com/pages/create|FB_PAGE_TOKEN|dash|-||0|-|
+tiktok|TikTok|channel|https://www.tiktok.com/signup|TIKTOK_ACCESS_TOKEN|dash|-||0|-|

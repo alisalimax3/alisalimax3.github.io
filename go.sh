@@ -3,7 +3,7 @@ set -u
 cd ~/cinehub3099 || exit 1
 D="$(pwd)"; export TMPDIR="$D/.tmp"; mkdir -p "$TMPDIR" assets
 G(){ printf '\033[32m✓ %s\033[0m\n' "$1"; }
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 
 [ -f .license-secret ] || python3 -c "import secrets;print(secrets.token_hex(16))" > .license-secret
 G "سر الترخيص"
@@ -471,7 +471,7 @@ PY
 
 python3 - <<'PY'
 import os,datetime
-B="https://alkazmybwhwr-dot.github.io";U=[]
+B="https://alisalimax3.github.io";U=[]
 for r,d,f in os.walk("."):
     d[:]=[x for x in d if x not in (".git","node_modules","backups",".tmp")]
     for x in f:
@@ -488,7 +488,7 @@ PY
 export GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=60
 T="$(tr -d '\n\r ' < .gh-token)"
 git remote remove origin 2>/dev/null
-git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
 git add -A; git rm --cached -q --ignore-unmatch .gh-token .license-secret 2>/dev/null
 git diff --cached --quiet || git commit -q -m "feat: ads+subs+captcha+kuraimi+admin $(date -u +%FT%TZ)"
 bash deploy.sh main "auto $(date -u +%FT%TZ)"&& G "نُشر" || { echo "✗"; cat "$D/.gp.err"; }

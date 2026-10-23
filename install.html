@@ -1,0 +1,44 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>تثبيت التطبيق</title>
+<link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0b0d12">
+<style>body{margin:0;background:#0b0d12;color:#e9eef6;font:16px/1.9 system-ui,Tahoma}
+.w{max-width:680px;margin:0 auto;padding:22px}.c{background:#131a25;border:1px solid #1e2635;border-radius:13px;padding:14px;margin:10px 0}
+button{width:100%;padding:14px;border-radius:12px;border:0;background:#1d4ed8;color:#fff;font-size:16px;cursor:pointer}
+ol{padding-inline-start:22px}a{color:#5ca9ff}b{color:#8ec5ff}</style><script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
+</head><body>
+<div class="w"><h1>📲 ثبّت التطبيق</h1>
+<div class="c"><b>أندرويد · Chrome</b><ol><li>افتح القائمة (⋮) أعلى اليمين</li><li>«إضافة إلى الشاشة الرئيسية»</li></ol></div>
+<div class="c"><b>آيفون · Safari</b><ol><li>زر المشاركة ⬆️</li><li>«إضافة إلى الشاشة الرئيسية»</li></ol></div>
+<button type="button" id="b">تثبيت الآن</button>
+<div class="c" style="color:#8b96a8;font-size:13.5px">بعد التثبيت يعمل التطبيق بلا شريط متصفح، ويفتح أسرع، ويعمل جزئيًا بلا إنترنت.</div>
+<p><a href="app.html">← فتح التطبيق</a></p></div>
+<script>
+let p=null;
+addEventListener('beforeinstallprompt',e=>{e.preventDefault();p=e;document.getElementById('b').style.display='block'});
+document.getElementById('b').onclick=async()=>{if(p){p.prompt();await p.userChoice;p=null}else location.href='app.html'};
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script><script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,552 +1,876 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # ══════════════════════════════════════════════════════════════════════
-#  FINAL.sh — التنفيذ الشامل: تفويض · شفاء · ربط · تشغيل · نشر · إثبات
-#  bash FINAL.sh
+#  FINAL.sh — إصلاح الجذر + وكيل تسجيل وحصاد + حفظ المال + واجهتان + نشر
+#  bash FINAL.sh            فحص وإصلاح كامل + نشر
+#  bash FINAL.sh register   وكيل التسجيل التفاعلي (يفتح ويتابع ويحاول)
+#  bash FINAL.sh agent      دورة الوكيل الكاملة
 # ══════════════════════════════════════════════════════════════════════
 set -uo pipefail
-cd "$HOME/cinehub3099" || exit 1
-export TMPDIR="${TMPDIR:-$PWD/.tmp}"; mkdir -p "$TMPDIR" logs tools data .github/workflows
-export GHTMP="$TMPDIR" GIT_HTTP_LOW_SPEED_LIMIT=0 GIT_HTTP_LOW_SPEED_TIME=999999
-LOG="logs/final.$(date +%F_%H%M).log"; : > "$LOG"
+cd "$HOME/cinehub3099" 2>/dev/null || exit 1
+export TMPDIR="$PWD/.tmp"; mkdir -p "$TMPDIR" logs tools data assets .github/workflows
+export GIT_HTTP_LOW_SPEED_LIMIT=0 GIT_HTTP_LOW_SPEED_TIME=999999
+LOG="logs/final.$(date +%F_%H%M%S).log"; : > "$LOG"
 G=$'\033[32m';Y=$'\033[33m';R=$'\033[31m';C=$'\033[36m';B=$'\033[1m';D=$'\033[2m';N=$'\033[0m'
 ok(){ printf '%s✓%s %s\n' "$G" "$N" "$*" | tee -a "$LOG"; }
 bad(){ printf '%s✗%s %s\n' "$R" "$N" "$*" | tee -a "$LOG"; }
 wrn(){ printf '%s!%s %s\n' "$Y" "$N" "$*" | tee -a "$LOG"; }
 hd(){ printf '\n%s══ %s ══%s\n' "$C" "$*" "$N" | tee -a "$LOG"; }
-openurl(){ termux-open-url "$1" >/dev/null 2>&1 || am start -a android.intent.action.VIEW -d "$1" >/dev/null 2>&1 || true; }
+MODE="${1:-all}"
 
-# ═══════ 1 · مصادقة بتفويض ═══════
-hd "1 · التفويض"
-[ -f tools/auth_device.py ] || cat > tools/auth_device.py <<'PYEOF'
+# ─────────────── حفظ المال: نسخ الحالة الحسّاسة فقط (لا تُلمس أبدًا)
+hd "0 · حماية الرصيد"
+for f in data/vault.json data/ledger.json data/revenue.json data/rewards.json; do
+  [ -f "$f" ] && cp "$f" "$TMPDIR/keep.$(basename "$f")" && printf '  محفوظ: %s\n' "$f"
+done
+V0="$(python3 -c "import json;print(json.load(open('data/vault.json')).get('balance_usd',0))" 2>/dev/null || echo 0)"
+printf '  الرصيد الحالي: $%s\n' "$V0"
+
+# ─────────────── 1 · core.py — curl أولًا (الإصلاح الجذري لـ code 0)
+hd "1 · core.py — HTTP عبر curl (يصلح code 0)"
+cat > tools/core.py <<'PYEOF'
 #!/usr/bin/env python3
-import json, os, sys, time, urllib.request, urllib.parse
-T = os.environ.get("GHTMP") or os.path.expanduser("~/.cinehub-tmp"); os.makedirs(T, exist_ok=True)
-CID = os.environ.get("GH_CLIENT_ID", "178c6fc778ccc68e1d6a")
-def post(u, d):
-    r = urllib.request.Request(u, data=urllib.parse.urlencode(d).encode(),
-        headers={"Accept": "application/json", "User-Agent": "CineHub"})
-    return json.load(urllib.request.urlopen(r, timeout=30))
-d = post("https://github.com/login/device/code", {"client_id": CID, "scope": "repo workflow read:org"})
-code, url = d["user_code"], d["verification_uri"]
-print("\n  ┌──────────────────────────────┐\n  │  الرمز:  %-20s│\n  └──────────────────────────────┘" % code)
-print("  افتح: %s  والصق الرمز ثم Approve\n" % url, flush=True)
-iv = d.get("interval", 5); end = time.time() + d.get("expires_in", 900)
-while time.time() < end:
-    time.sleep(iv)
-    t = post("https://github.com/login/oauth/access_token",
-             {"client_id": CID, "device_code": d["device_code"],
-              "grant_type": "urn:ietf:params:oauth:grant-type:device_code"})
-    if t.get("access_token"): open(T + "/gh_tok", "w").write(t["access_token"]); sys.exit(0)
-    e = t.get("error", "")
-    if e == "slow_down": iv += 5
-    elif e == "authorization_pending": print("  … بانتظار الموافقة", flush=True)
-    elif e in ("expired_token", "access_denied"): sys.exit(2)
-sys.exit(4)
-PYEOF
+# -*- coding: utf-8 -*-
+"""CineHub 3099 — النواة. HTTP: curl أولًا لأن urllib يفشل SSL في Termux."""
+import json, os, re, time, html as _html, hashlib, contextlib, subprocess
+import urllib.request, urllib.error
 
-T="$(cat .secrets.gh_token 2>/dev/null || true)"
-U="$(T="$T" python3 - <<'PY' 2>/dev/null
-import json,os,urllib.request
-t=os.environ.get("T") or ""
-r=urllib.request.Request("https://api.github.com/user",headers={"Authorization":"Bearer "+t,"Accept":"application/vnd.github+json"})
-print(json.load(urllib.request.urlopen(r,timeout=25))["login"])
-PY
-)"
-if [ -z "$U" ]; then
-  wrn "لا تفويض — افتح الرابط والصق الرمز"
-  python3 tools/auth_device.py || true
-  T="$(cat "$GHTMP/gh_tok" 2>/dev/null || true)"
-  [ -n "$T" ] && { printf '%s' "$T" > .secrets.gh_token; chmod 600 .secrets.gh_token
-    U="$(T="$T" python3 -c "
-import json,os,urllib.request
-r=urllib.request.Request('https://api.github.com/user',headers={'Authorization':'Bearer '+os.environ['T'],'Accept':'application/vnd.github+json'})
-print(json.load(urllib.request.urlopen(r,timeout=25))['login'])" 2>/dev/null || true)"; }
-fi
-[ -n "$U" ] || { bad "لا تفويض"; exit 1; }
-ok "مفوَّض: $U"
-R="$U.github.io"; SITE="https://$U.github.io"
-URL="https://x-access-token:$T@github.com/$U/$R.git"
-export GH_TOKEN="$T"
-python3 - <<'PY' >/dev/null 2>&1
-import json,os,urllib.request
-t=os.environ["GH_TOKEN"]
-def api(p,m="GET",d=None):
-    r=urllib.request.Request("https://api.github.com"+p,method=m,
-      data=json.dumps(d).encode() if d else None,
-      headers={"Authorization":"Bearer "+t,"Accept":"application/vnd.github+json","Content-Type":"application/json"})
-    return json.load(urllib.request.urlopen(r,timeout=30))
-me=api("/user")["login"]; repo=me+".github.io"
-try: api("/repos/%s/%s"%(me,repo))
-except Exception: api("/user/repos","POST",{"name":repo,"private":False,"auto_init":True,"default_branch":"main"})
-try: api("/repos/%s/%s/pages"%(me,repo),"POST",{"source":{"branch":"main","path":"/"}})
-except Exception: pass
-PY
-ok "المستودع و Pages جاهزان"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(ROOT)
+TMP = os.path.join(ROOT, ".tmp"); os.makedirs(TMP, exist_ok=True)
+DATA = os.path.join(ROOT, "data"); os.makedirs(DATA, exist_ok=True)
+UA = "Mozilla/5.0 (Linux; Android 13) CineHub3099/1.0"
 
-# ═══════ 2 · شفاء الأدوات ═══════
-hd "2 · شفاء الأدوات"
-
-cat > gh.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, subprocess, urllib.request, urllib.error
-def token():
-    t = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
-    if not t:
-        for f in (".secrets.gh_token", ".secrets/gh_token", ".gh_token"):
-            if os.path.exists(f):
-                t = open(f).read().strip()
-                if t: break
-    return t
-def api(path, method="GET", data=None, tok=None):
-    tok = tok or token()
-    url = path if path.startswith("http") else "https://api.github.com" + path
-    body = json.dumps(data).encode() if data is not None else None
-    r = urllib.request.Request(url, data=body, method=method, headers={
-        "Authorization": "Bearer " + tok, "Accept": "application/vnd.github+json",
-        "User-Agent": "CineHub", "Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(r, timeout=40) as x:
-            raw = (x.read().decode() or "{}").strip()
-            return json.loads(raw) if raw[:1] in "{[(" else {"raw": raw}
-    except urllib.error.HTTPError as e:
-        try: return json.loads(e.read().decode() or "{}")
-        except Exception: return {}
-    except Exception: return {}
-def login(t=None): return (api("/user", tok=t or token()) or {}).get("login", "")
-def repo_name(u=None): return (u or login()) + ".github.io"
-def ensure_repo(u=None, r=None, t=None):
-    t = t or token(); u = u or login(t); r = r or (u + ".github.io")
-    if (api("/repos/%s/%s" % (u, r), tok=t) or {}).get("full_name"): return True
-    return bool((api("/user/repos", "POST", {"name": r, "private": False, "auto_init": True}, t) or {}).get("full_name"))
-def enable_pages(u=None, r=None, t=None):
-    t = t or token(); u = u or login(t); r = r or (u + ".github.io")
-    api("/repos/%s/%s/pages" % (u, r), "POST", {"source": {"branch": "main", "path": "/"}}, t)
-    api("/repos/%s/%s/pages" % (u, r), "PUT", {"source": {"branch": "main", "path": "/"}}, t)
-    return "https://%s.github.io/" % u
-def push(u=None, r=None, t=None):
-    t = t or token(); u = u or login(t); r = r or (u + ".github.io")
-    url = "https://x-access-token:%s@github.com/%s/%s.git" % (t, u, r)
-    subprocess.run("git add -A", shell=True, capture_output=True)
-    subprocess.run("git -c user.email=a@c.local -c user.name=Agent commit -m update", shell=True, capture_output=True)
-    p = subprocess.run("git push --force %s main" % url, shell=True, capture_output=True, text=True)
-    return p.returncode == 0, (p.stdout + p.stderr)
-PYEOF
-
-cat > tools/vault.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, time, urllib.request
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-E = {}
-if os.path.exists("keys.env"):
-    for ln in open("keys.env", encoding="utf-8"):
-        s = ln.strip()
-        if "=" in s and not s.startswith("#"):
-            k, v = s.split("=", 1); E[k.strip()] = v.strip()
-def get(u, h=None):
-    r = urllib.request.Request(u, headers=h or {"User-Agent": "CineHub"})
-    with urllib.request.urlopen(r, timeout=25) as x: return json.loads(x.read().decode() or "{}")
-src, total = [], 0.0
-if E.get("ADSTERRA_API_KEY"):
-    for h in ({"X-API-Key": E["ADSTERRA_API_KEY"]}, {"Authorization": "Bearer " + E["ADSTERRA_API_KEY"]}):
-        try:
-            d = get("https://api3.adsterra.com/api/v1/publisher/balance", h)
-            b = float(d.get("balance") or d.get("amount") or 0)
-            src.append({"n": "Adsterra", "usd": b, "live": True, "min": 5, "pay": "USDT/PayPal"}); total += b; break
-        except Exception as e:
-            src.append({"n": "Adsterra", "usd": 0, "live": False, "note": str(e)[:40], "min": 5, "pay": "USDT/PayPal"}); break
-for n, k, mn, pay in (("ExoClick","EXOCLICK_ZONE",20,"Paxum/Wire"),("JuicyAds","JUICYADS_ZONE",50,"Paxum/BTC"),
-                      ("Monetag","MONETAG_MULTITAG",5,"PayPal/Skrill"),("A-ADS","AADS_UNIT",0,"BTC تلقائي"),
-                      ("TrafficJunky","TRAFFICJUNKY_ZONE",100,"Wire"),("PlugRush","PLUGRUSH_ZONE",25,"PayPal/BTC"),
-                      ("Clickadu","CLICKADU_ZONE",5,"PayPal/Paxum"),("HilltopAds","HILLTOPADS_ZONE",50,"PayPal"),
-                      ("CPAGrip","CPAGRIP_SMARTLINK",50,"PayPal"),("Stripchat","STRIPCHAT_AFF",50,"Wire")):
-    src.append({"n": n, "usd": 0, "live": False, "min": mn, "pay": pay,
-                "note": "المعرّف مضبوط" if E.get(k) else "ينتظر المعرّف"})
-btc = 0.0
-try: btc = float(get("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")["bitcoin"]["usd"])
-except Exception: pass
-os.makedirs("data", exist_ok=True)
-json.dump({"updated": time.strftime("%F %H:%M"), "sources": src, "total_usd": round(total, 4), "btc_usd": btc,
-  "payout": {"bank": "بنك الكريمي للتمويل الأصغر", "swift": E.get("KURAIMI_SWIFT", "KBMFYESAXXX"),
-             "name": E.get("KURAIMI_NAME", ""), "account": E.get("KURAIMI_ACCOUNT", ""), "usdt": E.get("USDT_TRC20", "")},
-  "ladder": ["الشبكة → USDT(TRC20) / Paxum / PayPal / BTC", "Binance P2P: USDT → نقد", "صرافة محلية", "إيداع الكريمي"]},
-  open("data/wallet.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ wallet.json ($%.4f)" % total)
-PYEOF
-
-cat > tools/revenue_sync.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, sys, time, urllib.request
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, "tools"); import gh
-T = gh.token()
-def api(p):
-    r = urllib.request.Request("https://api.github.com" + p,
-        headers={"Authorization": "Bearer " + T, "Accept": "application/vnd.github+json", "User-Agent": "CineHub"})
-    with urllib.request.urlopen(r, timeout=30) as x: return json.loads(x.read().decode() or "{}")
-try: me = api("/user")["login"]
-except Exception: sys.exit(0)
-repo = me + ".github.io"
-out = {"updated": time.strftime("%F %H:%M"), "pages_url": "https://%s.github.io/" % me,
-       "views_14d": 0, "uniques_14d": 0, "clones_14d": 0, "stars": 0, "top_paths": []}
-for key, p in (("views", "/traffic/views"), ("clones", "/traffic/clones")):
-    try:
-        d = api("/repos/%s/%s%s" % (me, repo, p)); out[key + "_14d"] = d.get("count", 0)
-        if key == "views": out["uniques_14d"] = d.get("uniques", 0)
-    except Exception: pass
-try: out["stars"] = api("/repos/%s/%s" % (me, repo)).get("stargazers_count", 0)
-except Exception: pass
-try: out["top_paths"] = api("/repos/%s/%s/traffic/popular/paths" % (me, repo))[:20]
-except Exception: pass
-os.makedirs("data", exist_ok=True)
-json.dump(out, open("data/revenue.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ زيارات GitHub: %d | فريدون: %d" % (out["views_14d"], out["uniques_14d"]))
-PYEOF
-
-cat > tools/hits_report.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, re, time, urllib.request
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-def rd(p, d):
-    try: return json.load(open(p, encoding="utf-8"))
-    except Exception: return d
-def slug(p): return re.sub(r"[^\w.\-]", "_", p.strip("/").replace("/", "__")) or "home"
-def get(u):
-    try:
-        r = urllib.request.Request(u, headers={"User-Agent": "CineHub"})
-        with urllib.request.urlopen(r, timeout=15) as x: return json.loads(x.read().decode() or "{}")
-    except Exception: return {}
-pages = ["/", "/app.html", "/library.html"]
-for x in (rd("data/revenue.json", {}).get("top_paths") or [])[:25]:
-    if x.get("path"): pages.append(x["path"])
-seen, top, total = set(), [], 0
-for p in pages:
-    k = slug(p)
-    if k in seen: continue
-    seen.add(k)
-    d = get("https://api.counterapi.dev/v1/cinehub3099/%s" % k)
-    c = int(d.get("count") or 0)
-    total += c
-    if c: top.append({"p": p, "n": c})
-top.sort(key=lambda x: -x["n"])
-os.makedirs("data", exist_ok=True)
-json.dump({"updated": time.strftime("%F %H:%M"), "total": total, "checked": len(seen), "top": top[:40]},
-          open("data/hits.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ عدّاد حقيقي: %d مشاهدة (%d صفحة)" % (total, len(seen)))
-PYEOF
-
-cat > tools/money.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, time
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-def rd(p, d):
-    try: return json.load(open(p, encoding="utf-8"))
-    except Exception: return d
-rev = rd("data/revenue.json", {}); hit = rd("data/hits.json", {}); ads = rd("ads.json", {})
-live = [n for n in (ads.get("networks") or []) if n.get("id")]
-off = [n for n in (ads.get("networks") or []) if not n.get("id")]
-views = rev.get("views_14d", 0); hv = hit.get("total", 0)
-impr = int(views * 1.7 + hv * 1.0); ecpm = 1.35 if live else 0.65
-m = {"updated": time.strftime("%F %H:%M"),
-     "real": {"github_views_14d": views, "github_uniques_14d": rev.get("uniques_14d", 0),
-              "hits_total": hv, "live_ad_networks": len(live)},
-     "estimated": {"impressions": impr, "ecpm_used": ecpm, "usd": round(impr / 1000.0 * ecpm, 4)},
-     "networks_live": [{"n": n.get("n"), "pay": n.get("pay")} for n in live],
-     "networks_off": [{"n": n.get("n"), "k": n.get("k")} for n in off],
-     "live_url": rev.get("pages_url", "")}
-os.makedirs("data", exist_ok=True)
-json.dump(m, open("data/money.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ money.json | real views=%d hits=%d live=%d | est $%s" % (views, hv, len(live), m["estimated"]["usd"]))
-PYEOF
-
-cat > tools/dashboard.py <<'PYEOF'
-#!/usr/bin/env python3
-import os
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-open("money.html", "w", encoding="utf-8").write("""<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>الأموال — CineHub</title>
-<style>body{margin:0;background:#0b0d12;color:#e8ecf3;font:15px/1.7 system-ui,Tahoma}.w{max-width:960px;margin:0 auto;padding:18px}
-h1{font-size:20px}h2{font-size:14px;color:#aab6c8;margin:20px 0 8px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.c{background:#141924;border:1px solid #1e2635;border-radius:13px;padding:13px}.k{color:#8b96a8;font-size:12px}
-.v{font-size:23px;font-weight:700}.g{color:#39d98a}.y{color:#ffcf5c}.tag{font-size:11px;padding:2px 8px;border-radius:999px}
-.on{background:#12301f;color:#39d98a}.off{background:#2a1c1c;color:#ff9b9b}table{width:100%;border-collapse:collapse;font-size:13px}
-td,th{padding:7px;border-bottom:1px solid #1e2635;text-align:right}a{color:#5ca9ff}</style>
-<div class="w"><h1>💰 لوحة الأموال</h1><div class="k" id="up">…</div>
-<div class="grid" id="r"></div><h2>تقديري (ليس نقدًا)</h2><div class="grid" id="e"></div>
-<h2>الشبكات</h2><div class="c"><table id="n"></table></div>
-<p><a href="./">الرئيسية</a> · <a href="wallet.html">الخزينة</a> · <a href="app.html">التطبيق</a></p></div>
-<script>fetch('data/money.json?_='+Date.now()).then(r=>r.json()).then(m=>{
-document.getElementById('up').textContent='آخر تحديث: '+m.updated;const R=m.real||{};
-document.getElementById('r').innerHTML=[['زيارات GitHub',R.github_views_14d,'g'],['زوار فريدون',R.github_uniques_14d,'y'],
-['عدّاد الصفحات',R.hits_total,'b'],['شبكات مفعّلة',R.live_ad_networks,'g']]
-.map(x=>'<div class="c"><div class="k">'+x[0]+'</div><div class="v '+x[2]+'">'+(x[1]??0)+'</div></div>').join('');
-const E=m.estimated||{};document.getElementById('e').innerHTML=[['عروض',E.impressions,''],['eCPM',E.ecpm_used,'b'],['$',E.usd,'g']]
-.map(x=>'<div class="c"><div class="k">'+x[0]+'</div><div class="v '+x[2]+'">'+(x[1]??0)+'</div></div>').join('');
-let h='<tr><th>الشبكة</th><th>الدفع</th><th>الحالة</th></tr>';
-(m.networks_live||[]).forEach(x=>h+='<tr><td>'+x.n+'</td><td>'+x.pay+'</td><td><span class="tag on">مفعّلة</span></td></tr>');
-(m.networks_off||[]).forEach(x=>h+='<tr><td>'+x.n+'</td><td>—</td><td><span class="tag off">تنتظر '+x.k+'</span></td></tr>');
-document.getElementById('n').innerHTML=h;});</script></html>""")
-print("  ✓ money.html")
-PYEOF
-
-cat > tools/ping.py <<'PYEOF'
-#!/usr/bin/env python3
-import json, os, sys, time, urllib.request
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.insert(0, "tools"); import gh
-U = gh.login(); S = "https://%s.github.io" % U
-def req(u, d=None, h=None, t=45):
-    r = urllib.request.Request(u, data=d, headers=h or {"User-Agent": "CineHub"})
-    with urllib.request.urlopen(r, timeout=t) as x: return x.status
-def xrpc(host):
-    b = ('<?xml version="1.0"?><methodCall><methodName>weblogUpdates.ping</methodName><params>'
-         '<param><value>CineHub</value></param><param><value>%s</value></param></params></methodCall>' % S).encode()
-    return req(host, b, {"Content-Type": "text/xml"})
-res = {}
-for nm, host in (("pingomatic", "http://rpc.pingomatic.com/"), ("twingly", "https://rpc.twingly.com/")):
-    try: res[nm] = xrpc(host)
-    except Exception as e: res[nm] = str(e)[:30]
-key = next((f[:-4] for f in os.listdir(".") if f.endswith(".txt") and f[:-4].isalnum() and len(f[:-4]) in (8, 32)), None)
-if key:
-    try:
-        b = json.dumps({"host": "%s.github.io" % U, "key": key,
-                        "keyLocation": "%s/%s.txt" % (S, key),
-                        "urlList": [S + "/", S + "/app.html", S + "/library.html"]}).encode()
-        res["indexnow"] = req("https://api.indexnow.org/indexnow", b, {"Content-Type": "application/json"})
-    except Exception as e: res["indexnow"] = str(e)[:30]
-try: res["wayback"] = req("https://web.archive.org/save/" + S + "/", t=90)
-except Exception as e: res["wayback"] = str(e)[:30]
-os.makedirs("data", exist_ok=True)
-json.dump({"updated": time.strftime("%F %H:%M"), "site": S, "results": res},
-          open("data/ping.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ إشعال: " + ", ".join("%s=%s" % (k, v) for k, v in res.items()))
-PYEOF
-
-cat > tools/inject_hits.py <<'PYEOF'
-#!/usr/bin/env python3
-import os
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-n = 0
-for dp, dn, fn in os.walk("."):
-    if any(x in dp for x in (".git", "node_modules", ".tmp")): continue
-    for f in fn:
-        if not f.endswith(".html"): continue
-        p = os.path.join(dp, f); d = max(dp.count(os.sep) - 1, 0)
-        try: s = open(p, encoding="utf-8").read()
+_ENVC = None
+def _read_env():
+    E = {}
+    for p in ("keys.env", ".env", "data/keys.env"):
+        if not os.path.exists(p): continue
+        try: lines = open(p, encoding="utf-8", errors="ignore").read().splitlines()
         except Exception: continue
-        if "hits.js" in s or "</body>" not in s: continue
-        s = s.replace("</body>", '<script src="%shits.js" defer></script></body>' % ("../" * d if d else ""), 1)
-        try: open(p, "w", encoding="utf-8").write(s); n += 1
+        for ln in lines:
+            s = ln.strip()
+            if not s or s.startswith("#") or "=" not in s: continue
+            k, v = s.split("=", 1); k = k.strip()
+            if k.startswith("export "): k = k[7:].strip()
+            v = v.strip()
+            if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'": v = v[1:-1]
+            if k and re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", k): E[k] = v
+    return E
+def env():
+    global _ENVC
+    if _ENVC is None: _ENVC = _read_env()
+    return _ENVC
+def reload_env():
+    global _ENVC; _ENVC = None; return env()
+def get(k, d=""): return env().get(k, d) or d
+def has(k): return bool(env().get(k, "").strip())
+def fp(v, n=8): return hashlib.sha256(str(v or "").encode()).hexdigest()[:n]
+def mask(v, keep=4):
+    v = str(v or ""); return "" if not v else (v if len(v) <= keep else v[:keep] + "…" + v[-2:])
+
+def load(p, default=None):
+    try:
+        with open(p, encoding="utf-8") as f: return json.load(f)
+    except Exception: return default
+def save(p, obj):
+    d = os.path.dirname(p)
+    if d: os.makedirs(d, exist_ok=True)
+    t = p + ".tmp"
+    with open(t, "w", encoding="utf-8") as f: json.dump(obj, f, ensure_ascii=False, indent=1)
+    os.replace(t, p)
+def write_if_changed(p, text):
+    try:
+        if open(p, encoding="utf-8").read() == text: return False
+    except Exception: pass
+    d = os.path.dirname(p)
+    if d: os.makedirs(d, exist_ok=True)
+    open(p, "w", encoding="utf-8").write(text)
+    return True
+
+@contextlib.contextmanager
+def lock(name, ttl=3600):
+    p = os.path.join(TMP, "lk." + re.sub(r"\W+", "_", name)); got = False
+    try: os.mkdir(p); got = True
+    except FileExistsError:
+        try:
+            if time.time() - os.path.getmtime(p) > ttl:
+                os.rmdir(p); os.mkdir(p); got = True
         except Exception: pass
-print("  ✓ العدّاد في %d صفحة" % n)
+    try: yield got
+    finally:
+        if got:
+            try: os.rmdir(p)
+            except Exception: pass
+
+def slug(s, n=70):
+    s = re.sub(r"\s+", "-", str(s or "").strip())
+    s = re.sub(r"[^\w\u0600-\u06FF.\-]+", "-", s)
+    s = re.sub(r"-{2,}", "-", s).strip("-._")
+    return (s[:n] or "item")
+def esc(x): return _html.escape(str(x or ""), quote=True)
+
+# ── HTTP: curl أولًا (موثوق في Termux) ثم urllib
+def _curl(url, timeout=10, body=False, limit=120000):
+    exe = "curl"
+    args = [exe, "-sS", "-L", "--max-time", str(timeout), "-A", UA,
+            "-H", "Accept: */*"]
+    px = get("PROXY")
+    if px: args += ["-x", px]
+    if body: args += ["--compressed"]
+    args += ["-o", "-" if body else "/dev/null", "-w", "\n%{http_code}", url]
+    try:
+        r = subprocess.run(args, capture_output=True, text=True, timeout=timeout + 6)
+        out = r.stdout or ""
+        code = 0
+        if body:
+            parts = out.rsplit("\n", 1)
+            code = int(parts[-1].strip() or 0) if parts[-1].strip().isdigit() else 0
+            txt = parts[0] if len(parts) > 1 else ""
+            return {"ok": 200 <= code < 400, "code": code, "final": url, "via": "curl",
+                    "text": txt[:limit]}
+        code = int(out.strip().splitlines()[-1]) if out.strip() else 0
+        return {"ok": 200 <= code < 400, "code": code, "final": url, "via": "curl"}
+    except Exception as e:
+        return {"ok": False, "code": 0, "final": url, "via": "curl", "err": type(e).__name__}
+
+def _urllib(url, timeout=10, body=False, limit=120000):
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            txt = r.read(limit).decode("utf-8", "replace") if body else ""
+            return {"ok": True, "code": r.status, "final": r.geturl(), "via": "urllib", "text": txt}
+    except urllib.error.HTTPError as e:
+        return {"ok": False, "code": e.code, "final": url, "via": "urllib", "err": "HTTP %s" % e.code}
+    except Exception as e:
+        return {"ok": False, "code": 0, "final": url, "via": "urllib", "err": type(e).__name__}
+
+def http(url, timeout=10):
+    r = _curl(url, timeout)
+    if r.get("code"): return r
+    r2 = _urllib(url, timeout)
+    if r2.get("code"): return r2
+    return r
+
+def body(url, timeout=12, limit=120000):
+    r = _curl(url, timeout, body=True, limit=limit)
+    if not r.get("ok"): r = _urllib(url, timeout, body=True, limit=limit)
+    return r.get("text", "") or ""
+
+FIELD_MAP = {
+  "t":  ("t","title","name","ar","ar_title","title_ar","original_title","en","label","nm"),
+  "i":  ("i","id","slug","key","code","uid","imdb","imdb_id","tmdb","tmdb_id","_id","ref"),
+  "th": ("th","poster","image","img","cover","thumbnail","pic","photo","poster_url","image_url","banner"),
+  "c":  ("c","cat","category","genre","genres","section","type","kind","collection","tags","list"),
+  "s":  ("s","src","source","provider","origin","site","from","host","server"),
+  "y":  ("y","year","date","release","release_date","released","air_date","premiere"),
+  "u":  ("u","url","link","href","watch","watch_url","embed","player","stream","file"),
+  "d":  ("d","desc","description","overview","plot","summary","synopsis","about","note"),
+}
+LIST_KEYS = ("items","data","results","rows","entries","catalog","list","films","titles","movies","all")
+
+def pick(d, key, default=""):
+    for k in FIELD_MAP.get(key, (key,)):
+        if k in d:
+            v = d[k]
+            if v in (None, "", [], {}): continue
+            if isinstance(v, (list, tuple)): v = ", ".join(str(x) for x in v if x)
+            return v
+    return default
+def as_list(d):
+    if d is None: return []
+    if isinstance(d, list): return [x for x in d if isinstance(x, dict)]
+    if isinstance(d, dict):
+        for k in LIST_KEYS:
+            v = d.get(k)
+            if isinstance(v, list): return [x for x in v if isinstance(x, dict)]
+        if d and all(isinstance(v, dict) for v in d.values()):
+            out = []
+            for k, v in d.items():
+                v = dict(v); v.setdefault("id", k); out.append(v)
+            return out
+    return []
+
+CATALOG_FILES = ("catalog.json","films.json","titles.json","data/catalog.json","data/films.json","data/items.json","data/titles.json")
+def catalog():
+    out, seen, srcs = [], set(), []
+    for f in CATALOG_FILES:
+        d = load(f)
+        if not d: continue
+        rows = as_list(d)
+        if not rows: continue
+        srcs.append("%s:%d" % (f, len(rows)))
+        for x in rows:
+            t = str(pick(x, "t")).strip(); i = str(pick(x, "i")).strip() or t
+            if not t and not i: continue
+            sl = slug(i or t)
+            if sl in seen: continue
+            seen.add(sl)
+            out.append({"t": t or sl, "i": sl, "th": str(pick(x, "th")), "c": str(pick(x, "c")),
+                        "s": str(pick(x, "s")), "y": str(pick(x, "y"))[:4],
+                        "u": str(pick(x, "u")), "d": str(pick(x, "d"))[:300]})
+    return out, " · ".join(srcs)
+
+STRONG = ("adult","18+","xxx","erotic","nsfw","porn","hentai","rule34","redgifs","brazzers","milf","onlyfans")
+WEAK   = ("adult","18+","xxx","erotic","nsfw","porn","hentai","rule34","sexy","lingerie","cam")
+def is_adult(row):
+    strong = (row.get("c","") + " " + row.get("s","")).lower()
+    if any(k in strong for k in STRONG): return True
+    weak = (row.get("t","") + " " + row.get("d","")).lower()
+    return any(k in weak for k in WEAK)
+
+def _owner():
+    u = get("GH_USER").strip()
+    if not u:
+        m = re.match(r"https?://([^.]+)\.github\.io", get("SITE_URL"))
+        if m: u = m.group(1)
+    if not u:
+        try:
+            r = subprocess.run(["git", "remote", "get-url", "origin"],
+                               capture_output=True, text=True, timeout=8).stdout
+            m = re.search(r"github\.com[:/]([^/]+)/", r or "")
+            if m: u = m.group(1)
+        except Exception: pass
+    return u
+def site():
+    s = get("SITE_URL").rstrip("/")
+    if s: return s
+    o = _owner(); return ("https://%s.github.io" % o) if o else ""
+def ns():
+    o = _owner()
+    return "cinehub3099-" + re.sub(r"[^a-z0-9]", "", (o or "anon").lower())[:16]
+
+def fx():
+    d = load("data/fx.json", {}) or {}
+    return d.get("rates", []) if isinstance(d, dict) else []
+def convert(amount, frm, to="USD", date=""):
+    frm, to = (frm or "USD").upper(), (to or "USD").upper()
+    if frm == to: return float(amount), {"rate": 1.0, "date": date or time.strftime("%F"), "source": "identity"}
+    best = None
+    for r in fx():
+        if (r.get("from","").upper(), r.get("to","").upper()) != (frm, to): continue
+        if date and r.get("date","") > date: continue
+        if best is None or r.get("date","") > best.get("date",""): best = r
+    if not best: return None, {"rate": None, "date": "", "source": "missing"}
+    return round(float(amount) * float(best["rate"]), 4), best
+
+def clipboard():
+    try:
+        return subprocess.run(["termux-clipboard-get"], capture_output=True, text=True, timeout=6).stdout.strip()
+    except Exception: return ""
+def clipset(v):
+    try: subprocess.run(["termux-clipboard-set", str(v)], timeout=6)
+    except Exception: pass
+def openurl(u):
+    try: subprocess.run(["termux-open-url", u], timeout=8)
+    except Exception: pass
 PYEOF
-chmod +x tools/*.py
-
-# ═══════ 3 · شفاء الصفحات ═══════
-hd "3 · شفاء الصفحات"
-[ -f .nojekyll ] || { : > .nojekyll; ok ".nojekyll"; }
-[ -f hits.js ] || { cat > hits.js <<'JEOF'
-(function(){var k=(location.pathname.replace(/^\/|\/$/g,"")||"home").replace(/\//g,"__").replace(/[^\w.\-]/g,"_");
-function f(u){try{fetch(u,{cache:"no-store"}).catch(function(){})}catch(e){}}
-f("https://api.counterapi.dev/v1/cinehub3099/"+k+"/up");f("https://abacus.jasoncameron.dev/hit/cinehub3099/"+k);})();
-JEOF
-ok "hits.js"; }
-[ -f 404.html ] || { cat > 404.html <<'HEOF'
-<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>غير موجود</title><style>body{margin:0;background:#0b0d12;color:#e9eef6;font:16px/1.8 system-ui,Tahoma;display:grid;place-items:center;height:100vh;text-align:center}a{color:#5ca9ff}</style>
-<div><b style="font-size:22px">الصفحة غير موجودة</b><p><a href="/">الرئيسية</a> · <a href="/app.html">التطبيق</a></p></div></html>
-HEOF
-ok "404.html"; }
-
-if [ ! -f app.html ]; then
-cat > app.html <<'AEOF'
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>CineHub 3099</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#0b0d12;color:#e9eef6;font:15px/1.7 system-ui,Tahoma}
-header{position:sticky;top:0;background:#0e1219ee;backdrop-filter:blur(8px);border-bottom:1px solid #1b2331;padding:10px;z-index:9}
-.w{max-width:1100px;margin:0 auto;padding:0 12px}input{width:100%;padding:11px 14px;border-radius:11px;border:1px solid #232c3c;background:#131a25;color:#e9eef6}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:9px 0}.chip{white-space:nowrap;padding:5px 12px;border-radius:999px;background:#161e2b;border:1px solid #232c3c;color:#a9b6c9;font-size:12.5px;cursor:pointer}
-.chip.on{background:#17324d;color:#8ec5ff}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px;padding:12px 0}
-.c{background:#131a25;border:1px solid #1e2635;border-radius:12px;overflow:hidden;text-decoration:none;color:#e9eef6}
-.c img{width:100%;aspect-ratio:2/3;object-fit:cover;background:#0f1520;display:block}.c b{display:block;font-size:12.5px;padding:6px;height:52px;overflow:hidden;font-weight:500}
-.ad{margin:10px 0;min-height:60px;display:flex;justify-content:center}.more{width:100%;padding:12px;margin:10px 0 30px;border-radius:11px;background:#16233a;color:#a9ccff;border:1px solid #24354f}
-nav a{color:#8fa4bf;font-size:12.5px;margin-inline-end:12px;text-decoration:none}.k{color:#7d8899;font-size:12px;text-align:center;padding:10px}</style></head><body>
-<header><div class="w"><nav><a href="./">الرئيسية</a><a href="library.html">المكتبة</a><a href="money.html">الأموال</a><a href="wallet.html">الخزينة</a></nav>
-<input id="q" placeholder="ابحث…" autocomplete="off"></div></header>
-<div class="w"><div class="chips" id="chips"></div><div class="ad" id="ad1"></div>
-<div class="grid" id="g"></div><button class="more" id="more">المزيد</button><div class="k" id="st">…</div></div>
-<script src="hits.js" defer></script><script>
-let ALL=[],F=[],N=120,CAT=null;
-async function load(){for(const f of['catalog.json','films.json','titles.json']){try{const r=await fetch(f);if(!r.ok)continue;
-const d=await r.json();const a=Array.isArray(d)?d:(d.items||Object.values(d));if(a&&a.length)
-return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.poster||x.image||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){}}return[]}
-function draw(){const q=(document.getElementById('q').value||'').toLowerCase();
-F=ALL.filter(x=>(!q||x.t.toLowerCase().includes(q))&&(!CAT||x.c===CAT));
-document.getElementById('g').innerHTML=F.slice(0,N).map(x=>'<a class="c" href="'+(x.i?'f/'+encodeURIComponent(x.i)+'.html':'#')+'"><img loading="lazy" src="'+(x.th||'')+'"><b>'+x.t+(x.y?' ('+x.y+')':'')+'</b></a>').join('');
-document.getElementById('more').style.display=F.length>N?'block':'none';
-document.getElementById('st').textContent=ALL.length?F.length+' من '+ALL.length:'لا كتالوج';}
-document.getElementById('q').oninput=()=>{N=120;draw()};document.getElementById('more').onclick=()=>{N+=120;draw()};
-(async()=>{ALL=await load();const gs=[...new Set(ALL.map(x=>x.c).filter(Boolean))].slice(0,24);
-document.getElementById('chips').innerHTML=gs.map(g=>'<div class="chip">'+g+'</div>').join('');
-document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(z=>z.classList.remove('on'));
-CAT=(CAT===c.textContent)?null:c.textContent;if(CAT)c.classList.add('on');N=120;draw()});draw();
-try{const a=await(await fetch('ads.json')).json();const on=(a.networks||[]).filter(n=>n.id);
-document.getElementById('ad1').innerHTML=on.slice(0,2).map(n=>
-n.k==='AADS_UNIT'?'<iframe src="https://a-ads.com/banner?aa='+n.id+'&size=300x250" width="300" height="250" frameborder="0"></iframe>':
-n.k==='EXOCLICK_ZONE'?'<iframe src="https://s.exoclick.com/ads.php?type=300x250&zone='+n.id+'" width="300" height="250" frameborder="0"></iframe>':'').join('')
-||('<span class="k">'+on.length+' شبكة مفعّلة</span>');}catch(e){}})();</script></body></html>
-AEOF
-ok "app.html"; fi
-[ -f library.html ] || cp app.html library.html
-[ -f ads.json ] || printf '{"networks":[]}\n' > ads.json
-[ -f robots.txt ] || printf 'User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n' "$SITE" > robots.txt
-[ -f sitemap.xml ] || printf '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>%s/</loc></url></urlset>\n' "$SITE" > sitemap.xml
-
-# ═══════ 4 · تطهير وربط ═══════
-hd "4 · تطهير وربط"
+python3 -m py_compile tools/core.py && ok "core.py" || bad "core.py"
 python3 - <<'PY' 2>&1 | tee -a "$LOG"
-import os, re, json
-JUNK = re.compile(r'^[A-Z][A-Z_]{6,}$'); DOM = re.compile(r'^[a-z0-9\-]+(\.[a-z0-9\-]+)+$', re.I)
-PAT = {"AADS_UNIT":r'^\d{4,8}$', "ADSTERRA_API_KEY":r'^[A-Za-z0-9_-]{20,48}$',
-       "EXOCLICK_ZONE":r'^\d{5,9}$', "JUICYADS_ZONE":r'^\d{4,9}$', "MONETAG_MULTITAG":r'^\d{5,9}$',
-       "MAIL_USER":r'^[^@\s]+@[^@\s]+\.[A-Za-z]{2,}$', "MAIL_APP_PASS":r'^[A-Za-z0-9]{12,20}$',
-       "USDT_TRC20":r'^T[1-9A-HJ-NP-Za-km-z]{33}$'}
-E, drop = {}, []
-if os.path.exists("keys.env"):
-    for ln in open("keys.env", encoding="utf-8"):
-        s = ln.rstrip("\n")
-        if "=" not in s or s.lstrip().startswith("#"): continue
-        k, v = s.split("=", 1); k, v = k.strip(), v.strip()
-        if not v: continue
-        why = None
-        if JUNK.match(v) or DOM.match(v) and "@" not in v: why = "قيمة وهمية"
-        elif any(c in v for c in "…⏳·«»؟✓✗"): why = "نص توضيحي"
-        elif k in PAT and not re.match(PAT[k], v): why = "شكل خاطئ"
-        if why: drop.append((k, v)); continue
-        E[k] = v
-open("keys.env", "w", encoding="utf-8").write("# CineHub 3099\n" + "\n".join("%s=%s" % (k, E[k]) for k in sorted(E)) + "\n")
-print("  حُذف %d وهمي · بقي %d مفتاحًا" % (len(drop), len(E)))
-CAT = {"AADS_UNIT":("A-ADS","$0","adult-ok"),"EXOCLICK_ZONE":("ExoClick","€20","adult"),
- "JUICYADS_ZONE":("JuicyAds","$50","adult"),"TRAFFICJUNKY_ZONE":("TrafficJunky","$100","adult"),
- "PLUGRUSH_ZONE":("PlugRush","$25","adult"),"CLICKADU_ZONE":("Clickadu","$5","adult"),
- "HILLTOPADS_ZONE":("HilltopAds","$50","adult"),"ADMAVEN_ZONE":("AdMaven","$5","adult"),
- "GALAKSION_ZONE":("Galaksion","$10","adult"),"MYBID_ZONE":("MyBid","$25","adult"),
- "EVADAV_ZONE":("Evadav","$5","adult"),"STRIPCHAT_AFF":("Stripchat","$50","adult-aff"),
- "JASMIN_AFF":("LiveJasmin","$50","adult-aff"),"BONGA_AFF":("BongaCams","$50","adult-aff"),
- "ADSTERRA_API_KEY":("Adsterra","$5","general"),"MONETAG_MULTITAG":("Monetag","$5","general"),
- "PROPELLER_ZONE":("PropellerAds","$5","general"),"POPADS_SITE_ID":("PopAds","$5","general"),
- "ADCASH_ZONE":("Adcash","$5","general"),"ADSENSE_CLIENT":("AdSense","$100","general"),
- "CPAGRIP_SMARTLINK":("CPAGrip","$50","cpa"),"OGADS_SMARTLINK":("OGAds","$20","cpa"),
- "LINKVERTISE_UID":("Linkvertise","$5","short")}
-try: a = json.load(open("ads.json", encoding="utf-8"))
-except Exception: a = {}
-nets = {n.get("k"): n for n in (a.get("networks") or []) if n.get("k")}
-for k, (nm, pay, kind) in CAT.items():
-    nets.setdefault(k, {"n": nm, "k": k, "pay": pay, "kind": kind})
-on = 0
-for k, n in nets.items():
-    v = E.get(k) or ""; n["id"] = v; n["enabled"] = bool(v); on += bool(v)
-a["networks"] = list(nets.values())
-json.dump(a, open("ads.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("  ✓ شبكات: %d مفعّلة من %d" % (on, len(nets)))
+import sys; sys.path.insert(0,"tools"); import core
+r = core.http("https://alisalimax3.github.io/", timeout=15)
+print("  اختبار HTTP → code=%s via=%s" % (r.get("code"), r.get("via")))
+print("  " + ("✓ curl يعمل — code 0 سيزول" if r.get("code") else "✗ فشل أيضًا"))
 PY
 
-# ═══════ 5 · تشغيل الوكيل ═══════
-hd "5 · الوكيل"
-cat > .github/workflows/agent.yml <<'YEOF'
-name: agent
-on:
-  schedule: [{cron: "15 */6 * * *"}]
-  workflow_dispatch:
-permissions: {contents: write}
-concurrency: {group: agent, cancel-in-progress: false}
-jobs:
-  cycle:
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
-    steps:
-      - uses: actions/checkout@v4
-        with: {fetch-depth: 0}
-      - env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
-        run: |
-          for s in revenue_sync hits_report vault money dashboard ping; do
-            [ -f "tools/$s.py" ] && python3 "tools/$s.py" || true
-          done
-          git config user.email a@c.local; git config user.name agent
-          git add -A; git commit -m "cycle $(date -u +%FT%TZ)" || true; git push || true
-YEOF
-ok "workflow الوكيل"
+# ─────────────── 2 · إصلاحات ميكانيكية
+hd "2 · robots.txt · ledger.json · tasks.py · gh.py"
+cat > robots.txt <<'RBEOF'
+User-agent: *
+Allow: /
+Disallow: /owner.html
+Disallow: /income.html
+Disallow: /networks.html
+Disallow: /promote-adult.html
+Disallow: /go/
+Disallow: /.tmp/
+Crawl-delay: 1
 
-cat > agentd.sh <<'AEOF'
-#!/data/data/com.termux/files/usr/bin/bash
-cd "$HOME/cinehub3099" || exit 1
-while :; do
-  for s in revenue_sync hits_report money dashboard vault; do
-    [ -f "tools/$s.py" ] && python3 "tools/$s.py" >> logs/agentd.log 2>&1
-  done
-  git add -A >/dev/null 2>&1; git -c user.email=a@c.local -c user.name=agent commit -m "daemon" >/dev/null 2>&1
-  git push --force origin main >/dev/null 2>&1
-  sleep 1800
+Sitemap: __SITE__/sitemap-index.xml
+Sitemap: __SITE__/sitemap-adult.xml
+Sitemap: __SITE__/sitemap.xml
+RBEOF
+SITEU="$(python3 -c "import sys;sys.path.insert(0,'tools');import core;print(core.site())")"
+sed -i "s|__SITE__|$SITEU|g" robots.txt && ok "robots.txt ($(wc -c < robots.txt) بايت)"
+
+python3 - <<'PY' 2>&1 | tee -a "$LOG"
+import ast, json, os, re, shutil
+def fix(p):
+    if not os.path.exists(p): return None
+    raw = open(p, encoding="utf-8", errors="replace").read()
+    if not raw.strip(): return "فارغ"
+    try: json.loads(raw); return None
+    except Exception: pass
+    for fn in (ast.literal_eval,):
+        try:
+            obj = fn(raw.strip()); shutil.copy(p, p + ".bak")
+            json.dump(obj, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=str)
+            return "أُصلح (كان %s Python)" % type(obj).__name__
+        except Exception: pass
+    try:
+        objs = [json.loads(l) for l in raw.splitlines() if l.strip()]
+        shutil.copy(p, p + ".bak")
+        json.dump(objs, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return "NDJSON→%d" % len(objs)
+    except Exception: pass
+    t = re.sub(r",(\s*[}\]])", r"\1", raw.lstrip("\ufeff"))
+    try:
+        json.loads(t); shutil.copy(p, p + ".bak")
+        open(p, "w", encoding="utf-8").write(t); return "نُظّف"
+    except Exception as e: return "فشل: %s" % str(e)[:40]
+for d in (".", "data"):
+    if not os.path.isdir(d): continue
+    for f in sorted(os.listdir(d)):
+        if f.endswith(".json"):
+            r = fix(os.path.join(d, f))
+            if r: print("  %-30s %s" % (os.path.join(d, f), r))
+PY
+
+python3 - <<'PY' 2>&1 | tee -a "$LOG"
+import re, shutil, subprocess, sys, os
+p = "tools/tasks.py"
+if not os.path.exists(p): print("  ! tasks.py مفقود"); raise SystemExit
+src = open(p, encoding="utf-8").read(); shutil.copy(p, ".tmp/tasks.pre")
+m = re.search(r"^([A-Za-z_]\w*)\s*=\s*\[", src, re.M)
+if not m: print("  ! لا قائمة"); raise SystemExit
+name = m.group(1); i = m.end() - 1; depth = 0; j = i
+while j < len(src):
+    if src[j] == "[": depth += 1
+    elif src[j] == "]":
+        depth -= 1
+        if depth == 0: break
+    j += 1
+rows = re.findall(r'\(\s*"([^"]*)"\s*,\s*"([^"]*)"\s*,\s*([^()]+?)\s*\)', src[i+1:j])
+seen, clean = set(), []
+for n, f, iv in rows:
+    if f in seen: continue
+    seen.add(f); clean.append((n, f, iv.strip()))
+ADD = [("نمو","tools/growth.py","360*M"),("مكافآت","tools/rewards.py","720*M"),
+       ("سجل مزودين","tools/adult_registry.py","720*M"),("لوحة","tools/dashboard.py","240*M"),
+       ("فحص إعلانات","tools/adcheck.py","720*M"),("توسيع","tools/expand_pages.py","1440*M"),
+       ("وكيل تسجيل","tools/agent_register.py","1440*M"),("خزينة","tools/custody.py","360*M"),
+       ("تحقق","tools/selftest.py","360*M")]
+for n, f, iv in ADD:
+    if f not in seen: clean.append((n, f, iv))
+open(p, "w", encoding="utf-8").write(src[:i+1] + "\n" + "".join('    ("%s", "%s", %s),\n' % r for r in clean) + src[j:])
+r = subprocess.run([sys.executable, "-m", "py_compile", p], capture_output=True)
+if r.returncode:
+    shutil.copy(".tmp/tasks.pre", p); print("  ✗ استُعيد:", r.stderr.decode()[-100:])
+else: print("  ✓ tasks.py: %d مهمة" % len(clean))
+PY
+
+[ ! -f tools/gh.py ] && cat > tools/gh.py <<'PYEOF'
+#!/usr/bin/env python3
+import json, os, re, subprocess, sys, urllib.request
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core
+def token():
+    for k in ("GH_TOKEN","GITHUB_TOKEN","GITHUB_PAT"):
+        if core.get(k): return core.get(k)
+    return ""
+def login():
+    r = subprocess.run(["git","remote","get-url","origin"],capture_output=True,text=True).stdout
+    m = re.search(r"github\.com[:/]([^/]+)/", r or "")
+    return m.group(1) if m else core.get("GH_USER")
+def api(path, method="GET", body=None):
+    req = urllib.request.Request("https://api.github.com"+path,
+        data=json.dumps(body).encode() if body else None,
+        headers={"Authorization":"Bearer "+token(),"Accept":"application/vnd.github+json",
+                 "User-Agent":"CineHub3099"}, method=method)
+    with urllib.request.urlopen(req, timeout=30) as r: return json.loads(r.read() or b"{}")
+def enable_pages():
+    u = login()
+    try: api("/repos/%s/%s.github.io/pages"%(u,u)); return "موجود"
+    except Exception:
+        try: api("/repos/%s/%s.github.io/pages"%(u,u),"POST",{"source":{"branch":"main","path":"/"}}); return "فُعّل"
+        except Exception as e: return str(e)[:50]
+if __name__ == "__main__": print("login:",login(),"token:",len(token()))
+PYEOF
+python3 -m py_compile tools/gh.py && ok "gh.py"
+
+# ─────────────── 3 · خزينة: الوكيل لا يصرف · المالك وحده
+hd "3 · tools/custody.py — حجز المال"
+cat > tools/custody.py <<'PYEOF'
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""خزينة: الوارد يُحجز. الوكيل لا يصرف. المالك وحده يُفرج. قيد فريد."""
+import json, os, sys, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core, revenue_engine as RE
+
+V = "data/vault.json"
+POLICY = {"agent_can_spend": False, "only_owner_withdraw": True,
+          "owner_cut_pct": 20, "reserve_pct": 100,
+          "note": "الرصيد محفوظ. لا يُصرف إلا بإفراج صريح من المالك."}
+
+def _v():
+    d = core.load(V, None)
+    if not isinstance(d, dict):
+        d = {"schema": 1, "created": time.strftime("%F %H:%M"), "balance_usd": 0.0,
+             "reserved_usd": 0.0, "released_usd": 0.0, "withdrawn_usd": 0.0,
+             "entries": {}, "withdrawals": [], "policy": POLICY}
+    d.setdefault("entries", {}); d.setdefault("withdrawals", [])
+    d["policy"] = POLICY
+    return d
+
+def sync():
+    """يسحب المؤكد والمدفوع من الدفتر إلى الخزينة بقيد فريد — لا تكرار."""
+    d = _v(); r = RE.apply_ledger(); led = RE._led()
+    added = 0.0
+    for k, t in led.get("tx", {}).items():
+        if t.get("state") not in ("approved", "paid"): continue
+        ek = "tx::" + k
+        if ek in d["entries"]: continue
+        usd = t.get("amount_usd") or 0.0
+        d["entries"][ek] = {"src": t.get("provider"), "amount_usd": usd,
+                            "state": t.get("state"), "at": time.strftime("%F %H:%M")}
+        added += usd
+    bal = round(sum(e["amount_usd"] for e in d["entries"].values()), 4)
+    d["balance_usd"] = bal
+    d["reserved_usd"] = round(bal * POLICY["reserve_pct"] / 100.0, 4)
+    d["released_usd"] = round(max(0.0, bal - d["reserved_usd"]), 4)
+    d["updated"] = time.strftime("%F %H:%M")
+    core.save(V, d)
+    return d, added
+
+def owner_cut(user_reward_usd):
+    return round(float(user_reward_usd) * POLICY["owner_cut_pct"] / 100.0, 6)
+
+def release(amount, note=""):
+    d = _v()
+    a = float(amount)
+    if a > d["released_usd"] + 1e-9:
+        return False, "المتاح للإفراج $%.4f فقط" % d["released_usd"]
+    d["released_usd"] = round(d["released_usd"] - a, 4)
+    d["withdrawals"].append({"key": "rel::%s::%.4f" % (time.strftime("%F"), a),
+                             "amount_usd": a, "note": note, "at": time.strftime("%F %H:%M"),
+                             "by": "owner"})
+    core.save(V, d); return True, "أُفرج $%.4f" % a
+
+def withdraw(amount, method="", ref=""):
+    d = _v()
+    a = float(amount)
+    paid = round(sum(w["amount_usd"] for w in d["withdrawals"]), 4)
+    if a + paid > d["balance_usd"] + 1e-9:
+        return False, "المستلم الكلي سيتجاوز الرصيد"
+    d["withdrawals"].append({"key": "wd::%s::%s::%.4f" % (time.strftime("%F"), ref or method, a),
+                             "amount_usd": a, "method": method, "ref": ref,
+                             "at": time.strftime("%F %H:%M"), "by": "owner"})
+    d["withdrawn_usd"] = round(paid + a, 4)
+    core.save(V, d); return True, "سُجّل سحب $%.4f" % a
+
+def cli():
+    a = sys.argv[1:]
+    if not a:
+        d, _ = sync()
+        print("الرصيد $%.4f · محجوز $%.4f · متاح للإفراج $%.4f · مسحوب $%.4f"
+              % (d["balance_usd"], d["reserved_usd"], d["released_usd"], d["withdrawn_usd"]))
+        print("السياسة: الوكيل لا يصرف=%s · المالك وحده=%s · حصة المالك من مكافآت المستخدمين=%d%%"
+              % (POLICY["agent_can_spend"], POLICY["only_owner_withdraw"], POLICY["owner_cut_pct"]))
+    elif a[0] == "sync": d, add = sync(); print("أُضيف $%.4f · الرصيد $%.4f" % (add, d["balance_usd"]))
+    elif a[0] == "release" and len(a) > 1: print(release(a[1], a[2] if len(a) > 2 else "")[1])
+    elif a[0] == "withdraw" and len(a) > 1: print(withdraw(a[1], a[2] if len(a) > 2 else "")[1])
+    elif a[0] == "cut" and len(a) > 1: print("حصة المالك: $%.6f" % owner_cut(a[1]))
+    else: print("sync|release <amt>|withdraw <amt> <method>|cut <amt>")
+
+if __name__ == "__main__": cli()
+PYEOF
+python3 -m py_compile tools/custody.py && python3 tools/custody.py 2>&1 | tee -a "$LOG"
+
+# ─────────────── 4 · وكيل التسجيل (محاولات · تحقق · تأكيد بريد · استئناف)
+hd "4 · tools/agent_register.py — وكيل التسجيل والمحاولة"
+cat > tools/agent_register.py <<'PYEOF'
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""وكيل تسجيل: يفتح · يجهّز بريدًا وكلمة مرور · يتابع الحافظة · يتحقق شبكيًا ·
+يعيد المحاولة · يؤكّد البريد · يسجّل المفتاح. قابل للاستئناف."""
+import json, os, re, subprocess, sys, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core
+
+S = "data/agent_state.json"
+# name, key, signup, dashboard, validate_url, expect, hint, prio
+SITES = [
+ ("A-ADS","AADS_UNIT","https://a-ads.com/","https://a-ads.com/ad_units",
+  "https://acceptable.a-ads.com/{v}?size=300x250","a-ads",'انسخ data-aa="..." — الأرقام',1),
+ ("Adsterra","ADSTERRA_ZONE","https://publishers.adsterra.com/","https://publishers.adsterra.com/websites",
+  "https://adsterra.com/","",'انسخ Zone ID من Ad Units',1),
+ ("ExoClick","EXOCLICK_ZONE","https://admin.exoclick.com/signup","https://admin.exoclick.com/sites",
+  "https://s.exoclick.com/ads.php?type=300x250&zone={v}","","Zone ID رقمي",2),
+ ("JuicyAds","JUICYADS_ZONE","https://www.juicyads.com/signup","https://www.juicyads.com/adzones",
+  "https://adserver.juicyads.com/adshow.php?adzone={v}","","Ad Zone رقمي",2),
+ ("PopAds","POPADS_SITE","https://www.popads.net/","https://www.popads.net/users",
+  "https://www.popads.net/","",'Site ID رقمي',3),
+ ("PopCash","POPCASH_SITE","https://popcash.net/register","https://popcash.net/websites",
+  "https://popcash.net/","",'Website ID',3),
+ ("Stripchat","STRIPCHAT_REF","https://affiliates.stripchat.com/","https://affiliates.stripchat.com/",
+  "https://affiliates.stripchat.com/","",'رابط الإحالة الكامل',1),
+ ("CrakRevenue","CRAKREVENUE_REF","https://www.crakrevenue.com/signup","https://www.crakrevenue.com/",
+  "https://www.crakrevenue.com/","",'رابط الإحالة',2),
+ ("Chaturbate","CHATURBATE_REF","https://chaturbate.com/affiliates/","https://chaturbate.com/affiliates/",
+  "https://chaturbate.com/","",'رابط الإحالة',3),
+]
+RE_PAT = {"AADS_UNIT": r"^\d{4,8}$", "EXOCLICK_ZONE": r"^\d{3,9}$", "JUICYADS_ZONE": r"^\d{3,9}$",
+          "ADSTERRA_ZONE": r"^\d{4,9}$", "POPADS_SITE": r"^\d{3,9}$", "POPCASH_SITE": r"^\d{3,9}$"}
+
+def state():
+    d = core.load(S, {"rounds": 0, "sites": {}})
+    d.setdefault("sites", {}); return d
+def put(name, **kw):
+    d = state(); e = d["sites"].setdefault(name, {"tries": 0, "status": "todo"})
+    e.update(kw); e["last"] = time.strftime("%F %H:%M"); core.save(S, d)
+def newpass(n=14):
+    import secrets, string
+    return "".join(secrets.choice(string.ascii_letters + string.digits) for _ in range(n))
+
+def valid(name, val):
+    val = (val or "").strip().rstrip("/")
+    if not val: return False, "فارغ"
+    if "@" in val: return False, "بريد لا مفتاح"
+    if val.lower() in ("cinehub3099","github","http:","https:"): return False, "نص عام"
+    rp = RE_PAT.get(name)
+    if rp and not re.fullmatch(rp, val): return False, "الشكل غير مطابق %s" % rp
+    if val.isdigit() and len(val) > 9: return False, "طويل جدًا"
+    if not name.endswith("_REF") and not val.isdigit():
+        if name.endswith("_ZONE") or name.endswith("_UNIT") or name.endswith("_SITE"):
+            return False, "يجب أن يكون رقمًا"
+    url = [s for s in SITES if s[0] == name or s[1] == name]
+    if not url: return False, "غير معروف"
+    tmpl = url[0][4]
+    if "{v}" in tmpl:
+        r = core.http(tmpl.replace("{v}", val), timeout=12)
+        if not r.get("ok"):
+            b = core.body(tmpl.replace("{v}", val), timeout=12, limit=4000)
+            if len(b) < 300: return False, "HTTP %s" % r.get("code")
+    return True, "تحقق"
+
+def watch(name, key, hint, seconds=600):
+    print("  انسخ: %s" % hint)
+    prev = core.clipboard(); t0 = time.time(); tries = 0
+    while time.time() - t0 < seconds:
+        time.sleep(1.5)
+        now = core.clipboard()
+        if not now or now == prev: 
+            sys.stdout.write("\r    بانتظار %ds…" % int(time.time() - t0)); sys.stdout.flush()
+            continue
+        prev = now
+        for c in re.findall(r"[A-Za-z0-9._~:/\-]{4,}", now) + re.findall(r"\d{3,9}", now):
+            tries += 1
+            okk, why = valid(key, c)
+            if okk:
+                setkv(key, c)
+                print("\r    ✓ %s = %s" % (key, c)); return c
+            else:
+                sys.stdout.write("\r    ✗ %-22s (%s)" % (c[:22], why)); sys.stdout.flush()
+    print(); return None
+
+def setkv(k, v):
+    lines, found = [], False
+    if os.path.exists("keys.env"):
+        for l in open("keys.env", encoding="utf-8"):
+            if l.strip().startswith(k + "="): lines.append("%s=%s\n" % (k, v)); found = True
+            else: lines.append(l)
+    if not found: lines.append("%s=%s\n" % (k, v))
+    open("keys.env", "w", encoding="utf-8").writelines(lines)
+    core.reload_env()
+
+def confirm_mail(seconds=120):
+    if not os.path.exists("tools/mail.py"): return
+    try: subprocess.run([sys.executable, "tools/mail.py", "--wait", str(seconds)],
+                        timeout=seconds + 30)
+    except Exception: pass
+
+def run(only=None, rounds=3):
+    st = state()
+    todo = [s for s in SITES if (not only or s[0] == only or s[1] == only)]
+    for rnd in range(1, rounds + 1):
+        pend = [s for s in todo if st["sites"].get(s[0], {}).get("status") not in ("done", "skip")]
+        if not pend: break
+        print("\n── دورة %d · متبقٍ %d ──" % (rnd, len(pend)))
+        for name, key, signup, dash, vurl, exp, hint, prio in sorted(pend, key=lambda x: x[7]):
+            e = st["sites"].get(name, {})
+            print("\n▸ %s  [%s]  محاولة %d" % (name, key, e.get("tries", 0) + 1))
+            cur = core.get(key)
+            if cur:
+                okk, why = valid(key, cur)
+                if okk: put(name, status="done", value=cur); print("  ✓ محفوظ ومتحقق: %s" % cur); continue
+                print("  ! محفوظ لكن مرفوض (%s): %s" % (why, cur))
+            pw = newpass()
+            mu = core.get("MAIL_USER")
+            print("  سجّل: %s" % signup)
+            if mu: core.clipset(mu); print("  البريد في الحافظة: %s" % mu)
+            print("  كلمة المرور: %s" % pw)
+            core.openurl(signup)
+            print("  [Enter بعد إتمام التسجيل · m بريد التأكيد · s تخطي]")
+            try: a = input("  › ").strip()
+            except EOFError: a = ""
+            if a == "s": put(name, status="skip"); continue
+            if a == "m": confirm_mail()
+            core.openurl(dash)
+            v = watch(name, key, hint, 600)
+            if v:
+                put(name, status="done", value=v, tries=e.get("tries", 0) + 1)
+            else:
+                put(name, status="rejected", tries=e.get("tries", 0) + 1)
+                print("  ! لم يُلتقط — سيُعاد في الدورة التالية")
+        st = state()
+    d = state()
+    done = [k for k, v in d["sites"].items() if v.get("status") == "done"]
+    print("\n✓ منجز: %d — %s" % (len(done), ", ".join(done)))
+
+def main():
+    a = sys.argv[1:]
+    if a and a[0] == "list":
+        for name, key, *_ in SITES:
+            print("  %-12s %-18s %s" % (name, key, core.get(key) or "—"))
+        return
+    run(a[0] if a else None)
+
+if __name__ == "__main__": main()
+PYEOF
+python3 -m py_compile tools/agent_register.py && ok "agent_register.py"
+python3 tools/agent_register.py list 2>&1 | tee -a "$LOG"
+
+# ─────────────── 5 · التوسعة: آلاف الصفحات + hubs
+hd "5 · tools/expand_pages.py — توسعة الصفحات"
+cat > tools/expand_pages.py <<'PYEOF'
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""يوسّع الصفحات من الكتالوج (افتراضي 3000) + hubs + sitemap مقسّم."""
+import os, sys, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core, ads
+
+LIMIT = int(core.get("PAGE_LIMIT") or 3000)
+TPL = """<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>%(t)s — CineHub 3099</title>
+<meta name="description" content="%(t)s — مشاهدة مجانية %(y)s">
+<meta property="og:title" content="%(t)s"><meta property="og:image" content="%(th)s">
+<meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="%(site)s/%(dir)s/%(slug)s.html">
+<link rel="manifest" href="../manifest.json">
+<style>
+body{margin:0;background:#0b0d12;color:#e9eef6;font:15px/1.8 system-ui,Tahoma}
+.w{max-width:860px;margin:0 auto;padding:18px}h1{font-size:21px}
+img{max-width:260px;border-radius:12px;background:#0f1520}.k{color:#8b96a8;font-size:13px}
+a{color:#5ca9ff}.ads{display:flex;justify-content:center;margin:14px 0;min-height:60px;align-items:center}
+.adsnote{color:#6b7787;font-size:12px}
+</style></head><body><div class="w">
+<p class="k"><a href="../">الرئيسية</a> · <a href="../adult.html">🔞</a> · <a href="../new.html">جديد</a> · <a href="../best.html">الأفضل</a></p>
+<img loading="lazy" src="%(th)s" alt="%(t)s" onerror="this.style.display='none'">
+<h1>%(t)s <span class="k">%(y)s</span></h1>
+<p class="k">%(c)s</p>
+%(ads)s
+<p><a href="../rewards.html">🎁 مكافأة يومية</a> · <a href="../share.html">🔗 شارك</a></p>
+</div><script src="../hits.js" defer></script></body></html>"""
+
+def main():
+    with core.lock("expand", 3600) as got:
+        if not got: print("  · مقفول"); return
+        rows, src = core.catalog()
+        if not rows: print("  ✗ لا كتالوج"); return
+        ad = [r for r in rows if core.is_adult(r)]
+        gen = [r for r in rows if not core.is_adult(r)]
+        S = core.site()
+        blk_a = ads.block("adult", 2); blk_g = ads.block("both", 2)
+        made = 0
+        plan = [(ad, "adult", blk_a), (gen, "m", blk_g)]
+        for group, d, blk in plan:
+            os.makedirs(d, exist_ok=True)
+            for r in group[:LIMIT]:
+                p = "%s/%s.html" % (d, r["i"])
+                h = TPL % {"t": core.esc(r["t"]), "th": core.esc(r["th"]), "y": core.esc(r["y"]),
+                           "slug": r["i"], "site": S, "ads": blk, "dir": d, "c": core.esc(r["c"][:80])}
+                if core.write_if_changed(p, h): made += 1
+        # hubs
+        def hub(fn, title, items, d="."):
+            cards = "".join('<a class="c" href="%s/%s.html"><img loading="lazy" src="%s" alt="%s"'
+                            ' onerror="this.style.display=\'none\'"><b>%s</b></a>'
+                            % (d, r["i"], core.esc(r["th"]), core.esc(r["t"]), core.esc(r["t"]))
+                            for r in items)
+            core.write_if_changed(fn, """<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>%s — CineHub 3099</title>
+<style>body{margin:0;background:#0b0d12;color:#e9eef6;font:15px/1.7 system-ui,Tahoma}
+.w{max-width:1100px;margin:0 auto;padding:16px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:10px}
+.c{background:#131a25;border:1px solid #1e2635;border-radius:12px;overflow:hidden;text-decoration:none;color:#e9eef6}
+.c img{width:100%%;aspect-ratio:2/3;object-fit:cover;display:block}.c b{display:block;font-size:12.5px;padding:6px;height:50px;overflow:hidden}
+a{color:#5ca9ff}</style></head><body><div class="w"><h1>%s</h1><div class="grid">%s</div></div>
+<script src="hits.js" defer></script></body></html>""" % (title, title, cards))
+        hub("new.html", "🆕 أحدث المضاف", ad[:200] + gen[:200], ".")
+        hub("best.html", "⭐ الأفضل", ad[200:500] + gen[200:500], ".")
+        core.write_if_changed("sitemap-adult.xml", sitemap(S, ["/adult/%s.html" % r["i"] for r in ad[:LIMIT]]))
+        core.write_if_changed("sitemap.xml", sitemap(S, ["/m/%s.html" % r["i"] for r in gen[:LIMIT]]
+                              + ["/new.html", "/best.html", "/rewards.html", "/rewards-earn.html", "/share.html"]))
+        core.write_if_changed("sitemap-index.xml",
+          '<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+          + "".join("<sitemap><loc>%s/%s</loc><lastmod>%s</lastmod></sitemap>" % (S, f, time.strftime("%F"))
+                    for f in ("sitemap.xml","sitemap-adult.xml")) + "</sitemapindex>")
+        core.save("data/expand.json", {"at": time.strftime("%F %H:%M"), "limit": LIMIT,
+                  "adult": min(len(ad), LIMIT), "general": min(len(gen), LIMIT), "new": made})
+        print("  ✓ %d صفحة جديدة · adult %d · m %d · hubs · sitemap-index"
+              % (made, min(len(ad), LIMIT), min(len(gen), LIMIT)))
+
+def sitemap(S, paths):
+    return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+            + "".join("<url><loc>%s%s</loc><lastmod>%s</lastmod></url>" % (S, p, time.strftime("%F"))
+                      for p in paths) + "</urlset>")
+
+if __name__ == "__main__": main()
+PYEOF
+python3 -m py_compile tools/expand_pages.py && ok "expand_pages.py"
+
+# ─────────────── 6 · واجهة موحّدة احترافية
+hd "6 · assets/app.css + واجهة المستخدم me.html"
+cat > assets/app.css <<'CSSEOF'
+:root{--bg:#0a0c11;--card:#131a25;--line:#1e2635;--fg:#e9eef6;--dim:#8b96a8;--acc:#3b82f6;--ok:#39d98a;--warn:#e8c76a;--bad:#ff7b7b}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#0a0c11,#0d1219 60%);color:var(--fg);font:15px/1.75 system-ui,Tahoma;min-height:100vh}
+a{color:#7db4ff;text-decoration:none}a:hover{opacity:.85}
+.wrap{max-width:1080px;margin:0 auto;padding:16px}
+.top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:14px}
+.top a{font-size:13px;color:var(--dim);padding:5px 9px;border-radius:8px}
+.top a:hover,.top a.on{background:var(--card);color:var(--fg)}
+.brand{font-weight:700;font-size:17px;color:var(--fg);margin-inline-end:auto}
+h1{font-size:23px;margin:.4em 0}h2{font-size:17px;color:#a8b8cc;margin:1.4em 0 .5em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:11px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tile img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;background:#0f1520}
+.tile b{display:block;font-size:12.5px;padding:6px;height:50px;overflow:hidden;font-weight:500}
+.k{color:var(--dim);font-size:13px}
+.btn{display:inline-block;padding:11px 16px;border:0;border-radius:11px;background:var(--acc);color:#fff;font-weight:600;cursor:pointer;font-size:15px}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--fg)}
+.btn[disabled]{background:#26303f;color:#7d8896}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.stat .v{font-size:22px;font-weight:700}.stat .l{font-size:12px;color:var(--dim)}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.ads{display:flex;justify-content:center;margin:14px 0;min-height:60px;align-items:center}
+.adsnote{color:#6b7787;font-size:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:7px;border-bottom:1px solid var(--line);text-align:right}
+th{color:var(--dim);font-weight:500}
+input,textarea{width:100%;background:#0b0f17;border:1px solid var(--line);border-radius:9px;color:#cfe0f5;padding:9px;font-size:14px;font-family:inherit}
+.foot{color:var(--dim);font-size:12.5px;padding:22px 0;text-align:center}
+CSSEOF
+ok "assets/app.css"
+
+cat > tools/userwallet.py <<'PYEOF'
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""واجهة المستخدم: مشاهدة · مشاركة · إحالة · أرباح. عمولة المالك 20% تُضاف للخزينة."""
+import os, sys, time
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import core, revenue_engine as RE, custody
+
+CUT = custody.POLICY["owner_cut_pct"]
+
+def main():
+    with core.lock("userwallet", 900) as got:
+        if not got: print("  · مقفول"); return
+        r = RE.apply_ledger(); conf = r["totals"]["approved"] + r["totals"]["paid"]
+        pool = round(conf * 50 / 100.0, 4)
+        core.write_if_changed("me.html", """<!doctype html><html lang="ar" dir="rtl"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>محفظتي — CineHub 3099</title><meta name="description" content="شاهد · شارك · اربح">
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="assets/app.css">
+</head><body><div class="wrap">
+<div class="top"><span class="brand">CineHub 3099</span>
+<a href="./">الرئيسية</a><a href="app.html">التطبيق</a><a href="rewards.html">🎁 المكافأة</a>
+<a href="share.html">🔗 شارك</a><a href="me.html" class="on">محفظتي</a></div>
+<h1>محفظتي</h1>
+<div class="card"><p class="k">أدخل كودك — يظهر لك ما كسبته من الإحالات.</p>
+<input id="code" placeholder="كودك (مثال: alisalimax3)" oninput="save()">
+<p class="k">رابط إحالتك:</p><input id="link" readonly onclick="this.select()"></div>
+<div class="stats">
+<div class="stat"><div class="l">مطالباتك</div><div class="v" id="mine">—</div></div>
+<div class="stat"><div class="l">إحالاتك (مطالبات)</div><div class="v" id="refs">—</div></div>
+<div class="stat"><div class="l">نقاطك التقديرية</div><div class="v ok" id="pts">—</div></div>
+<div class="stat"><div class="l">صندوق المكافآت</div><div class="v">$%(pool).4f</div></div>
+</div>
+<div class="card"><b>كيف تُحسب</b>
+<table><tr><td>عائد الموقع المؤكد</td><td>$%(conf).2f</td></tr>
+<tr><td>حصة المستخدمين (50%%)</td><td>$%(pool).4f</td></tr>
+<tr><td>عمولة المالك من أرباح المستخدمين</td><td>%d%%</td></tr>
+<tr><td>حصتك</td><td>مطالباتك ÷ إجمالي المطالبات × الحصة</td></tr></table>
+<p class="k">النقاط ليست دولارًا قابلاً للسحب بعد — تصبح كذلك عند بلوغ العائد المؤكد 20$.</p></div>
+<div class="card"><b>شارك واربح</b><p class="k">كل من يأتي عبر رابطك ويطالب يوميًا يزيد إحالاتك.</p>
+<button class="btn" onclick="cp()">انسخ رابطي</button>
+<a class="btn ghost" href="share.html">روابط جاهزة</a></div>
+<div class="card"><b>القواعد</b><p class="k">مطالبة واحدة يوميًا لكل جهاز · المنع من السيرفر ·
+لا سقف يومي · لا رصيد وهمي · عمولة المالك %d%% تُضاف لخزينته مباشرة.</p></div>
+<div class="foot"><a href="owner.html">لوحة المالك</a> · <a href="income.html">المصادر</a></div>
+</div><script src="hits.js" defer></script>
+<script>
+var NS="%(ns)s",S="%(site)s";
+function g(k,d){try{return localStorage.getItem(k)||d}catch(e){return d}}
+function s(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+function save(){var c=(document.getElementById("code").value||"").trim();s("ch_code",c);
+document.getElementById("link").value=S+"/?ref="+encodeURIComponent(c);load(c);}
+function cp(){var l=document.getElementById("link");l.select();document.execCommand("copy");}
+function load(c){if(!c)return;
+fetch("https://abacus.jasoncameron.dev/get/"+NS+"/ref-"+c.replace(/[^A-Za-z0-9._-]/g,"-"))
+.then(function(r){return r.json()}).then(function(j){document.getElementById("refs").textContent=(j&&j.value)||0;})
+.catch(function(){document.getElementById("refs").textContent="0";});}
+var c0=g("ch_code","");if(c0){document.getElementById("code").value=c0;
+document.getElementById("link").value=S+"/?ref="+encodeURIComponent(c0);load(c0);}
+document.getElementById("mine").textContent=parseInt(g("ch_claims","0"),10);
+document.getElementById("pts").textContent=parseInt(g("ch_claims","0"),10)*5;
+</script></body></html>""" % {"pool": pool, "conf": conf, "ns": core.ns(),
+                           "site": core.site(), "cut": CUT})
+        # robots: منع فهرسة صفحات المستخدم/المالك
+        print("  ✓ me.html · عمولة المالك %d%%" % CUT)
+
+if __name__ == "__main__": main()
+PYEOF
+python3 -m py_compile tools/userwallet.py && ok "userwallet.py"
+
+# ─────────────── 7 · تشغيل
+hd "7 · تشغيل"
+if pgrep -f agentd.sh >/dev/null 2>&1; then printf '  إيقاف الوكيل مؤقتًا\n'; pkill -f agentd.sh; sleep 1; fi
+NSV="$(python3 -c "import sys;sys.path.insert(0,'tools');import core;print(core.ns())")"
+[ -f .tmp/hits.tpl ] && sed "s/__NS__/$NSV/" .tmp/hits.tpl > hits.js
+grep -q "$NSV" hits.js 2>/dev/null && ok "hits.js ← $NSV" || wrn "hits.js"
+
+for s in ads adult_build adult_promote adult_registry fix_pages growth rewards dashboard audit_full adcheck userwallet custody; do
+  printf '  · %-18s ' "$s"; python3 "tools/$s.py" >>"$LOG" 2>&1 && printf '%s✓%s\n' "$G" "$N" || printf '%s✗%s\n' "$R" "$N"
 done
-AEOF
-chmod +x agentd.sh
-pkill -f agentd.sh 2>/dev/null || true
-setsid bash agentd.sh >> logs/agentd.log 2>&1 &
-ok "الوكيل المحلي يعمل (كل 30 دقيقة)"
+printf '  · %-18s ' "expand_pages"; timeout 900 python3 tools/expand_pages.py 2>&1 | tail -1 | tee -a "$LOG"
+python3 tools/aads_verify.py 2>&1 | tail -4 | tee -a "$LOG"
+python3 tools/live_verify.py 2>&1 | tail -4 | tee -a "$LOG"
 
-# ═══════ 6 · بناء ونشر ═══════
-hd "6 · بناء ونشر"
-python3 tools/inject_hits.py 2>&1 | tee -a "$LOG"
-for f in revenue_sync hits_report money dashboard vault; do python3 "tools/$f.py" >>"$LOG" 2>&1 || true; done
-ok "الأدوات نُفّذت"
+hd "8 · اختبار"
+python3 tools/selftest.py 2>&1 | tail -22 | tee -a "$LOG"
+ST="${PIPESTATUS[0]}"
 
-git config --local credential.helper ""; git config pull.rebase true
-git remote remove origin 2>/dev/null || true; git remote add origin "$URL"
-git add -A
-git -c user.email=a@c.local -c user.name=Agent commit -m "final build $(date +%F_%H%M)" >/dev/null 2>&1 || true
-git pull --rebase --autostash origin main >/dev/null 2>&1 || git rebase --abort >/dev/null 2>&1 || true
-SIG="$(python3 -c "import hashlib,time;print(hashlib.sha256(('$U|$R|%s'%time.time()).encode()).hexdigest()[:16])")"
-NK="$(grep -c '=' keys.env 2>/dev/null || true)"
-VMSG="delegate: $U $SIG keys=$NK"
-cat > verify.txt <<VEOF
-CineHub 3099 — وثيقة تفويض
-الحساب: $U
-المستودع: https://github.com/$U/$R
-الموقع: $SITE
-التاريخ: $(date -u +%Y-%m-%dT%H:%M:%SZ)
-رمز التفويض: $SIG
-مفاتيح: $NK
-VEOF
-git add -A
-git -c user.email=a@c.local -c user.name=Agent commit -m "$VMSG" >/dev/null 2>&1 || true
-P=0
-for i in 1 2 3 4; do
-  case "$i" in
-    1) timeout 1800 git push origin main 2>"$GHTMP/e" && P=1 ;;
-    2) timeout 1800 git push --force origin main 2>"$GHTMP/e" && P=1 ;;
-    3) timeout 1800 git push --force --no-thin origin main 2>"$GHTMP/e" && P=1 ;;
-    4) git checkout -f --orphan snap >/dev/null 2>&1; git add -A
-       git -c user.email=a@c.local -c user.name=Agent commit -m "$VMSG" >/dev/null 2>&1
-       git branch -M main; timeout 1800 git push --force origin main 2>"$GHTMP/e" && P=1 ;;
-  esac
-  [ "$P" = 1 ] && { ok "رُفع (محاولة $i)"; break; }
-done
-[ "$P" = 1 ] || bad "الدفع فشل: $(tail -1 "$GHTMP/e" | cut -c1-70)"
+hd "9 · نشر (بلا --force)"
+if [ "$ST" = "0" ]; then
+  U="$(python3 -c "import sys;sys.path.insert(0,'tools');import gh;print(gh.login())" 2>/dev/null)"
+  T="$(python3 -c "import sys;sys.path.insert(0,'tools');import gh;print(gh.token())" 2>/dev/null)"
+  if [ -n "$U" ] && [ -n "$T" ]; then
+    git remote remove origin 2>/dev/null
+    git remote add origin "https://x-access-token:$T@github.com/$U/$U.github.io.git"
+    rm -f .git/index.lock; git add -A; git add -f .github/workflows/agent.yml 2>/dev/null
+    git -c user.email=a@c.local -c user.name=Agent commit -m "final: curl http + custody vault + register agent + expansion + user wallet" >/dev/null 2>&1
+    git fetch origin main 2>/dev/null && git -c user.email=a@c.local -c user.name=Agent pull --rebase --autostash origin main >/dev/null 2>&1 || git rebase --abort >/dev/null 2>&1
+    if timeout 2400 git push origin main 2>"$TMPDIR/e"; then ok "رُفع"; sleep 60; python3 tools/live_verify.py 2>&1 | tail -3 | tee -a "$LOG"
+    else bad "فشل: $(tail -2 "$TMPDIR/e" | head -1)"; fi
+    python3 -c "import sys;sys.path.insert(0,'tools');import gh;gh.enable_pages()" >/dev/null 2>&1
+  else wrn "لا توكن"; fi
+else wrn "الاختبارات فشلت"; fi
 
-# ═══════ 7 · إثبات وتحقق ═══════
-hd "7 · إثبات وتحقق"
-sleep 4
-RM="$(curl -s -m 30 -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" \
-  "https://api.github.com/repos/$U/$R/commits/main" \
-  | python3 -c "import sys,json;print(json.load(sys.stdin)['commit']['message'].splitlines()[0])" 2>/dev/null || true)"
-[ "$RM" = "$VMSG" ] && ok "التفويض مُثبت على GitHub: $RM" || wrn "رسالة الريموت: ${RM:-?}"
-python3 -c "import gh;gh.enable_pages()" >/dev/null 2>&1
-for f in "" app.html library.html money.html wallet.html verify.txt; do
-  c=000; for k in 1 2 3 4 5; do c="$(curl -s -o /dev/null -w '%{http_code}' -m 25 "$SITE/$f")"; [ "$c" = "200" ] && break; sleep 12; done
-  [ "$c" = "200" ] && ok "/$f" || wrn "/$f → $c"
-done
+hd "10 · الرصيد"
+python3 tools/custody.py 2>&1 | tee -a "$LOG"
+V1="$(python3 -c "import json;print(json.load(open('data/vault.json')).get('balance_usd',0))" 2>/dev/null || echo 0)"
+printf '  قبل $%s → بعد $%s %s\n' "$V0" "$V1" "$([ "$V0" = "$V1" ] && echo '✓ محفوظ' || echo '! تغيّر')"
 
-printf '\n%s╔═══════════════════════════════════════════════╗\n' "$G"
-printf '║  تم التنفيذ — مفوَّض · مربوط · منشور · يعمل    ║\n'
-printf '╚═══════════════════════════════════════════════╝%s\n' "$N"
-printf '  الحساب      : %s\n  رمز التفويض : %s%s%s\n  التطبيق     : %s/app.html\n  الأموال     : %s/money.html\n  الخزينة     : %s/wallet.html\n  السجل       : %s\n' \
-  "$U" "$B" "$SIG" "$N" "$SITE" "$SITE" "$SITE" "$LOG" | tee -a "$LOG"
+if [ "$MODE" = "register" ] || [ "$MODE" = "all" ]; then
+  hd "11 · وكيل التسجيل"
+  python3 tools/agent_register.py 2>&1 | tee -a "$LOG"
+fi
+
+rm -f .git/index.lock; setsid bash agentd.sh >> logs/agentd.log 2>&1 & sleep 2
+pgrep -f agentd.sh >/dev/null && ok "الوكيل يعمل" || wrn "لم يبدأ"
+printf '\n%s╔══════════════════════════════════════════════╗\n' "$G"
+printf '║  FINAL — اكتمل                             ║\n'
+printf '╚══════════════════════════════════════════════╝%s\n' "$N"
+printf 'للمستخدم: %s/me.html · للمالك: %s/owner.html\n' "$SITEU" "$SITEU"

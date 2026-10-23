@@ -1,0 +1,9 @@
+{
+"adsterra":{"kind":"header","login":"https://api3.adsterratools.com/publisher/stats.json?start_date={FROM}&finish_date={TO}&group_by=date","headers":{"X-API-Key":"{KEY}"},"keyEnv":"ADSTERRA_API_KEY","sum":"revenue","verified":true},
+"exoclick":{"kind":"exoclick","login":"https://api.exoclick.com/v2/login","stats":"https://api.exoclick.com/v2/statistics/a/global","keyEnv":"EXOCLICK_API_TOKEN","verified":true},
+"monetag":{"kind":"header","login":"https://api.monetag.com/v1/statistics?date_from={FROM}&date_to={TO}","headers":{"Authorization":"Bearer {KEY}"},"keyEnv":"MONETAG_API_KEY","sum":"revenue","verified":false},
+"evadav":{"kind":"header","login":"https://api.evadav.com/v1/statistics?from={FROM}&to={TO}","headers":{"Authorization":"Bearer {KEY}"},"keyEnv":"EVADAV_API_KEY","sum":"revenue","verified":false},
+"lospollos":{"kind":"header","login":"https://api.lospollos.com/v1/stats?from={FROM}&to={TO}","headers":{"Authorization":"Bearer {KEY}"},"keyEnv":"LOSPOLLOS_API_KEY","sum":"revenue","verified":false},
+"juicyads":{"kind":"header","login":"https://api.juicyads.com/api/v1/stats?from={FROM}&to={TO}","headers":{"Authorization":"Bearer {KEY}"},"keyEnv":"JUICYADS_API_KEY","sum":"revenue","verified":false},
+"trafficjunky":{"kind":"header","login":"https://api.trafficjunky.com/v1/stats?from={FROM}&to={TO}","headers":{"Authorization":"Bearer {KEY}"},"keyEnv":"TRAFFICJUNKY_API_KEY","sum":"revenue","verified":false}
+}

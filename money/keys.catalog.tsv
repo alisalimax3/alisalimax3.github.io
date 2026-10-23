@@ -1,0 +1,16 @@
+telegram	TELEGRAM_BOT_TOKEN	GET	https://api.telegram.org/bot{KEY}/getMe		^2	1
+adsterra	ADSTERRA_API_KEY	GET	https://api3.adsterratools.com/publisher/stats.json?start_date={D}&finish_date={D}&group_by=date&api_key={KEY}	^2	1
+stripe	STRIPE_SECRET_KEY	GET	https://api.stripe.com/v1/balance	Authorization: Bearer {KEY}	^2	0
+gumroad	GUMROAD_ACCESS_TOKEN	GET	https://api.gumroad.com/v2/user	Authorization: Bearer {KEY}	^2	0
+openrouter	OPENROUTER_API_KEY	GET	https://openrouter.ai/api/v1/key	Authorization: Bearer {KEY}	^2	0
+deepseek	DEEPSEEK_API_KEY	GET	https://api.deepseek.com/user/balance	Authorization: Bearer {KEY}	^2	0
+groq	GROQ_API_KEY	GET	https://api.groq.com/openai/v1/models	Authorization: Bearer {KEY}	^2	0
+openai	OPENAI_API_KEY	GET	https://api.openai.com/v1/models	Authorization: Bearer {KEY}	^2	0
+anthropic	ANTHROPIC_API_KEY	GET	https://api.anthropic.com/v1/models	x-api-key: {KEY};;anthropic-version: 2023-06-01	^2	0
+cloudflare	CLOUDFLARE_API_TOKEN	GET	https://api.cloudflare.com/client/v4/user/tokens/verify	Authorization: Bearer {KEY}	^2	0
+supabase	SUPABASE_URL,SUPABASE_KEY	GET	{KEY}/rest/v1/	apikey: {KEY2}	^2	0
+propellerads	PROPELLERADS_API_KEY	GET	https://api.propellerads.com/v5/statistics?token={KEY}&from={D}&to={D}	^2	0
+monetag	MONETAG_API_KEY	GET	https://api.monetag.com/v1/statistics?api_key={KEY}&from={D}&to={D}	^2	0
+ezoic	EZOIC_API_KEY	GET	https://api.ezoic.com/v1/earnings?api_key={KEY}&from={D}&to={D}	^2	0
+adsense	ADSENSE_ACCESS_TOKEN	GET	https://adsense.googleapis.com/v2/accounts	Authorization: Bearer {KEY}	^2	0
+binance	BINANCE_API_KEY,BINANCE_API_SECRET	GETSIGN	https://api.binance.com/api/v3/account	X-MBX-APIKEY: {KEY}	^2	0

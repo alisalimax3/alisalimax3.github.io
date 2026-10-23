@@ -1,0 +1,10 @@
+{
+ "updated": "2026-10-19 04:24",
+ "site": "https://.github.io",
+ "results": {
+  "pingomatic": 200,
+  "twingly": "HTTP Error 403: Forbidden",
+  "indexnow": "HTTP Error 400: Bad Request",
+  "wayback": "HTTP Error 523: UNKNOWN"
+ }
+}

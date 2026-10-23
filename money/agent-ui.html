@@ -1,0 +1,68 @@
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<!doctype html><html lang=ar dir=rtl data-apex-circle="general"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>الوكيل — CineHub</title><style>
+body{margin:0;font:14px/1.6 system-ui,Tahoma;background:#0b0e14;color:#e8eef7;padding:14px}
+h1{font-size:18px;margin:0 0 6px}.card{background:#141a24;border:1px solid #223;border-radius:12px;padding:12px;margin-bottom:10px}
+.bar{display:flex;gap:8px;flex-wrap:wrap}.st{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:#8fa2b8}
+.st b{color:#7dd3fc}button{background:#1e3a8a;color:#dbeafe;border:0;padding:8px 12px;border-radius:8px;cursor:pointer;font-size:12px}
+button.g{background:#166534;color:#dcfce7}button.r{background:#7f1d1d;color:#fecaca}button.k{background:#334155;color:#e2e8f0}
+table{width:100%;border-collapse:collapse;font-size:12px}td,th{padding:5px;border-bottom:1px solid #1e2a3a;text-align:right}
+.ok{color:#4ade80}.no{color:#f87171}.warn{color:#facc15}
+#log{height:280px;overflow:auto;background:#070a0f;border:1px solid #1e2a3a;border-radius:8px;padding:8px;font:11px/1.5 monospace;white-space:pre-wrap}
+.lg{color:#94a3b8}.lg.e{color:#f87171}.lg.s{color:#4ade80}
+.steps{background:#0b0e14;border:1px dashed #3b82f6;border-radius:8px;padding:8px;margin:6px 0;font-size:12px}
+</style>
+<div class=card><h1>🤖 الوكيل المحلي</h1><div class=st id=st>…</div></div>
+<div class=card><div class=bar>
+<button class=g onclick="task('link')">🔗 ربط المفاتيح</button>
+<button onclick="task('probe')">🔍 فحص</button>
+<button onclick="task('probeAll')">🔍 فحص الكل</button>
+<button class=g onclick="task('harvest')">🌾 حصد</button>
+<button onclick="task('payout')">💸 سحب</button>
+<button onclick="task('publish')">📣 نشر</button>
+<button onclick="task('sync')">☁ مزامنة</button>
+<button onclick="task('report')">📊 تقرير</button>
+<button class=k onclick="task('full')">⚡ دورة كاملة</button>
+<button class=r onclick="ctl('pause')">⏸ إيقاف مؤقت</button>
+<button class=g onclick="ctl('resume')">▶ استئناف</button>
+</div><div class=bar style="margin-top:8px">
+<span style="font-size:12px;color:#8fa2b8">كل كم ثانية يشتغل تلقائيًا؟</span>
+<input id=iv style="width:70px;background:#0b0e14;border:1px solid #24303f;border-radius:6px;color:#fff;padding:5px">
+<button onclick="setIv()">تثبيت</button></div></div>
+<div class=card><b style="font-size:13px">📡 السجل المباشر</b><div id=log></div></div>
+<div class=card><b style="font-size:13px">📋 المصادر — اضغط فحص لتنفيذ مهمة الموقع</b><div id=list></div></div>
+<script>
+const B="";
+const F=(u,o)=>fetch(B+u,o).then(r=>r.json()).catch(()=>({}));
+async function task(t){await F("/api/agent/task",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({type:t})});tick();}
+async function ctl(a){await F("/api/agent/control",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({action:a})});tick();}
+async function setIv(){await F("/api/agent/control",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({interval:document.getElementById("iv").value})});tick();}
+async function probe(id){const r=await F("/api/agent/probe?id="+id);tick();alert(r.ok?"✔ الموقع يستجيب ("+r.code+")":"✗ لا يستجيب ("+(r.code||"-")+")");}
+async function save(id,env){const v=prompt("الصق القيمة للمفتاح: "+env);if(!v)return;await F("/api/agent/setkey",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({k:env,v:v})});tick();}
+function steps(id){const s=document.querySelector("#s_"+id);if(s)s.hidden=!s.hidden;}
+async function tick(){
+ const s=await F("/api/agent/status");
+ document.getElementById("st").innerHTML="<span>الحالة: <b class="+(s.running&&!s.paused?"ok":"no")+">"+(s.running?(s.paused?"موقوف مؤقتًا":"يعمل"):"متوقف")+"</b></span><span>حيّ: <b>"+s.live+"/"+s.total+"</b></span><span>مهام: <b>"+s.done+"</b></span><span>أخطاء: <b class=no>"+s.errors+"</b></span><span>دفتر: <b>$"+s.ledger+"</b></span><span>قابل للسحب: <b>$"+s.available+"</b></span><span>تيليجرام: <b class="+(s.bot?"ok":"no")+">"+(s.bot?"مربوط":"غير مربوط")+"</b></span>";
+ if(!document.getElementById("iv").value)document.getElementById("iv").value=s.interval;
+ const lg=await F("/api/agent/log");
+ const el=document.getElementById("log");el.innerHTML=lg.map(l=>'<div class="lg '+((l.m.includes("✗")||l.m.includes("⚠"))?"e":l.m.includes("✔")?"s":"")+'">'+l.t+"  "+l.m.replace(/</g,"&lt;")+"</div>").join("");el.scrollTop=el.scrollHeight;
+ const L=await F("/api/agent/sources");
+ document.getElementById("list").innerHTML=L.map(x=>'<div style="padding:6px 0;border-bottom:1px solid #1e2a3a"><div style="display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;align-items:center"><span>'+(x.live?"🟢":x.has?"🟡":"⚪")+" <b>"+x.name+"</b> <small style=color:#64748b>"+(x.note||"")+"</small></span><span><button class=k onclick="steps(\''+x.id+'\')">❓</button> '+(x.url!=="-"?('<a href="'+x.url+'" target=_blank><button class=k>↗</button></a>'):"")+'<button onclick="probe(\''+x.id+'\')">فحص</button></span></div>'+(x.steps&&x.steps.length?'<div class=steps id=s_'+x.id+' hidden><ol>'+x.steps.map(t=>"<li>"+t+"</li>").join("")+'</ol>'+x.env.map(e=>'<div style="margin:3px 0"><code style="font-size:10px;color:#94a3b8">'+e+'</code> <button class=k onclick="save(\''+x.id+'\',\''+e+'\')">الصق المفتاح</button></div>').join("")+'</div>':'')+'</div>').join("");
+}
+setInterval(tick,2500);tick();
+</script></html>
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>

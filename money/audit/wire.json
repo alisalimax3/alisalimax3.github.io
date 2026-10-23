@@ -1,0 +1,94 @@
+{
+ "at": "2026-10-22T18:05:49.334Z",
+ "apply": true,
+ "items": [
+  {
+   "id": "adsense",
+   "configured": false,
+   "needed": [
+    "ADSENSE_CLIENT"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "ga4",
+   "configured": false,
+   "needed": [
+    "GA_ID"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "gtm",
+   "configured": false,
+   "needed": [
+    "GTM_ID"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "plausible",
+   "configured": false,
+   "needed": [
+    "PLAUSIBLE_DOMAIN"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "goatcounter",
+   "configured": false,
+   "needed": [
+    "GOATCOUNTER_CODE"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "cloudflare-analytics",
+   "configured": false,
+   "needed": [
+    "CF_BEACON_TOKEN"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  },
+  {
+   "id": "sentry",
+   "configured": false,
+   "needed": [
+    "SENTRY_DSN"
+   ],
+   "missingPages": 18073,
+   "totalPages": 18073,
+   "applied": 0,
+   "probe": 0,
+   "verified": false
+  }
+ ],
+ "adsTxt": {
+  "would": 0,
+  "existing": 7
+ }
+}

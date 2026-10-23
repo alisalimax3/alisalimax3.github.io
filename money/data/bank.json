@@ -1,0 +1,17 @@
+{
+ "bank": "بنك الكريمي (Al-Kuraimi Islamic Microfinance Bank)",
+ "country": "اليمن",
+ "receive": [
+  "حوالة دولية USD عبر SWIFT",
+  "مراسل بنكي",
+  "Payoneer ثم تحويل محلي",
+  "USDT ثم صرافة محلية"
+ ],
+ "fields": [
+  "BANK_ACCOUNT_NAME",
+  "BANK_ACCOUNT_NUMBER",
+  "BANK_BRANCH",
+  "BENEFICIARY_PHONE"
+ ],
+ "flow": "حصد → apex-ledger → تجاوز PAYOUT_THRESHOLD → USDC على Base إلى PAYOUT_ADDRESS → تحويل إلى الكريمي"
+}

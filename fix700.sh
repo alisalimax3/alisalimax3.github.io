@@ -238,7 +238,7 @@ cat > daily.sh <<'SH'
 cd "$HOME/cinehub3099" || exit 1
 mkdir -p "$HOME/tmp3099"
 LOG="$HOME/tmp3099/daily.log"
-S="https://alkazmybwhwr-dot.github.io"
+S="https://alisalimax3.github.io"
 log(){ echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 log "── مهمة يومية ──"
 python3 - <<'PY'
@@ -258,19 +258,19 @@ import glob,html,time,os
 urls=[]
 for f in sorted(glob.glob("*.html")+glob.glob("b/*.html")):
     if os.path.basename(f)=="404.html": continue
-    urls.append("https://alkazmybwhwr-dot.github.io/"+f.replace(os.sep,"/"))
+    urls.append("https://alisalimax3.github.io/"+f.replace(os.sep,"/"))
 items="".join("<item><title>%s</title><link>%s</link><guid>%s</guid></item>"%(html.escape(u.split('/')[-1]),u,u) for u in urls)
-open("rss.xml","w").write('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>CineHub 3099</title><link>https://alkazmybwhwr-dot.github.io/</link><description>أفلام وأرباح</description>'+items+'</channel></rss>')
+open("rss.xml","w").write('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>CineHub 3099</title><link>https://alisalimax3.github.io/</link><description>أفلام وأرباح</description>'+items+'</channel></rss>')
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+"".join("<url><loc>%s</loc><lastmod>%s</lastmod></url>"%(u,time.strftime('%Y-%m-%d')) for u in urls)+"</urlset>")
 print("  sitemap+rss:",len(urls))
 PY
 python3 - <<'PY'
 import glob,re,json,urllib.request,os
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 k=[os.path.basename(f)[:-4] for f in glob.glob("*.txt") if re.fullmatch(r"[0-9a-f]{32}\.txt",os.path.basename(f))]
 U=re.findall(r"<loc>(.*?)</loc>",open("sitemap.xml").read())[:900]
 if k and U:
-    d=json.dumps({"host":"alkazmybwhwr-dot.github.io","key":k[0],"keyLocation":B+"/"+k[0]+".txt","urlList":U}).encode()
+    d=json.dumps({"host":"alisalimax3.github.io","key":k[0],"keyLocation":B+"/"+k[0]+".txt","urlList":U}).encode()
     for ep in ["https://api.indexnow.org/indexnow","https://yandex.com/indexnow"]:
         try:
             r=urllib.request.Request(ep,data=d,headers={"Content-Type":"application/json; charset=utf-8"})
@@ -291,7 +291,7 @@ bash restart.sh || N "  ✗ restart.sh فشل"
 G "⑦ التحقق الحيّ"
 python3 - <<'PY'
 import urllib.request
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 L=["/","/platforms.html","/platforms.json","/signup.html","/withdraw.html","/wallet.json","/sitemap.xml","/robots.txt","/rss.xml","/earnings.js","/manifest.json","/sw.js"]
 bad=0
 for u in L:

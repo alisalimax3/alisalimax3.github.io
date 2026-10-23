@@ -3,7 +3,7 @@ import json,os,re,html,hashlib
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 CAP=int(os.environ.get("MOVIE_MAX","12000"))
 try: cat=json.load(open("catalog.json",encoding="utf-8"))
 except Exception: print("لا كتالوج"); raise SystemExit

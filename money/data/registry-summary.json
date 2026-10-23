@@ -1,0 +1,11 @@
+{
+ "at": "2026-10-22T17:58:42.065Z",
+ "services": 272,
+ "directories": 539,
+ "platforms": 7152,
+ "searches": 1800,
+ "total": 9763,
+ "byStage": {
+  "new": 9763
+ }
+}

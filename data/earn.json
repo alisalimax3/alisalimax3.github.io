@@ -1,0 +1,420 @@
+{
+ "updated": "2026-10-19 01:35",
+ "models": {
+  "view": "لكل مشاهدة/ظهور (CPM)",
+  "click": "لكل نقرة (CPC)",
+  "action": "لكل إجراء/تسجيل (CPA)",
+  "publish": "لكل نشر/مقال",
+  "share": "لكل فتح رابط",
+  "donate": "تبرعات",
+  "watch": "مقابل الانتباه (BAT)"
+ },
+ "count": 45,
+ "items": [
+  {
+   "n": "A-ADS",
+   "url": "https://a-ads.com/",
+   "model": "view",
+   "key": "AADS_UNIT",
+   "min": "$0",
+   "pay": "BTC تلقائي",
+   "note": "بلا KYC — يبدأ من أول ظهور"
+  },
+  {
+   "n": "Adsterra",
+   "url": "https://publishers.adsterra.com/signup",
+   "model": "view",
+   "key": "ADSTERRA_API_KEY",
+   "min": "$5",
+   "pay": "USDT/PayPal",
+   "note": "API لقراءة الرصيد آليًا"
+  },
+  {
+   "n": "Monetag",
+   "url": "https://monetag.com/",
+   "model": "view",
+   "key": "MONETAG_MULTITAG",
+   "min": "$5",
+   "pay": "PayPal/Skrill",
+   "note": "Multitag يغطي 4 صيغ"
+  },
+  {
+   "n": "ExoClick",
+   "url": "https://www.exoclick.com/signup/",
+   "model": "view",
+   "key": "EXOCLICK_ZONE",
+   "min": "€20",
+   "pay": "Paxum/Wire",
+   "note": "أعلى RPM للإباحي"
+  },
+  {
+   "n": "JuicyAds",
+   "url": "https://www.juicyads.com/signup",
+   "model": "view",
+   "key": "JUICYADS_ZONE",
+   "min": "$50",
+   "pay": "Paxum/BTC",
+   "note": "إباحي"
+  },
+  {
+   "n": "TrafficJunky",
+   "url": "https://www.trafficjunky.com/",
+   "model": "view",
+   "key": "TRAFFICJUNKY_ZONE",
+   "min": "$100",
+   "pay": "Wire",
+   "note": "إباحي — حجم عالٍ"
+  },
+  {
+   "n": "PlugRush",
+   "url": "https://www.plugrush.com/",
+   "model": "view",
+   "key": "PLUGRUSH_ZONE",
+   "min": "$25",
+   "pay": "PayPal/BTC",
+   "note": "إباحي"
+  },
+  {
+   "n": "Clickadu",
+   "url": "https://www.clickadu.com/",
+   "model": "view",
+   "key": "CLICKADU_ZONE",
+   "min": "$5",
+   "pay": "PayPal/Paxum",
+   "note": "إباحي — حد منخفض"
+  },
+  {
+   "n": "HilltopAds",
+   "url": "https://hilltopads.net/",
+   "model": "view",
+   "key": "HILLTOPADS_ZONE",
+   "min": "$50",
+   "pay": "PayPal",
+   "note": "إباحي/عام"
+  },
+  {
+   "n": "AdMaven",
+   "url": "https://ad-maven.com/",
+   "model": "view",
+   "key": "ADMAVEN_ZONE",
+   "min": "$5",
+   "pay": "PayPal",
+   "note": "Popunder قوي"
+  },
+  {
+   "n": "Evadav",
+   "url": "https://evadav.com/",
+   "model": "view",
+   "key": "EVADAV_ZONE",
+   "min": "$5",
+   "pay": "PayPal",
+   "note": "إباحي"
+  },
+  {
+   "n": "Galaksion",
+   "url": "https://galaksion.com/",
+   "model": "view",
+   "key": "GALAKSION_ZONE",
+   "min": "$10",
+   "pay": "PayPal",
+   "note": "إباحي"
+  },
+  {
+   "n": "MyBid",
+   "url": "https://mybid.io/",
+   "model": "view",
+   "key": "MYBID_ZONE",
+   "min": "$25",
+   "pay": "PayPal",
+   "note": "إباحي"
+  },
+  {
+   "n": "PropellerAds",
+   "url": "https://publishers.propellerads.com/",
+   "model": "view",
+   "key": "PROPELLER_ZONE",
+   "min": "$5",
+   "pay": "PayPal/Paxum",
+   "note": "عام"
+  },
+  {
+   "n": "PopAds",
+   "url": "https://www.popads.net/users/signup",
+   "model": "view",
+   "key": "POPADS_SITE_ID",
+   "min": "$5",
+   "pay": "PayPal/BTC",
+   "note": "عام"
+  },
+  {
+   "n": "Adcash",
+   "url": "https://adcash.com/",
+   "model": "view",
+   "key": "ADCASH_ZONE",
+   "min": "$5",
+   "pay": "PayPal/Wire",
+   "note": "عام"
+  },
+  {
+   "n": "AdSense",
+   "url": "https://adsense.google.com",
+   "model": "view",
+   "key": "ADSENSE_CLIENT",
+   "min": "$100",
+   "pay": "Wire/Payoneer",
+   "note": "أعلى ثقة — قبول أصعب"
+  },
+  {
+   "n": "Brave Creators",
+   "url": "https://creators.brave.com/",
+   "model": "watch",
+   "key": "—",
+   "min": "$1",
+   "pay": "BAT→Binance",
+   "note": "يُدفع مقابل انتباه مستخدمي Brave — لا يحتاج جمهورًا كبيرًا"
+  },
+  {
+   "n": "CPAGrip",
+   "url": "https://www.cpagrip.com/",
+   "model": "action",
+   "key": "CPAGRIP_SMARTLINK",
+   "min": "$50",
+   "pay": "PayPal/Payoneer",
+   "note": "CPA — أعلى عائد للزيارة"
+  },
+  {
+   "n": "OGAds",
+   "url": "https://ogads.com/",
+   "model": "action",
+   "key": "OGADS_SMARTLINK",
+   "min": "$20",
+   "pay": "PayPal",
+   "note": "CPA للجوال"
+  },
+  {
+   "n": "AdBlueMedia",
+   "url": "https://adbluemedia.com/",
+   "model": "action",
+   "key": "ADBLUE_SMARTLINK",
+   "min": "$10",
+   "pay": "PayPal",
+   "note": "CPA"
+  },
+  {
+   "n": "CPALead",
+   "url": "https://www.cpalead.com/",
+   "model": "action",
+   "key": "CPALEAD_SMARTLINK",
+   "min": "$50",
+   "pay": "PayPal/Payoneer",
+   "note": "CPA"
+  },
+  {
+   "n": "Zeydoo",
+   "url": "https://zeydoo.com/",
+   "model": "action",
+   "key": "ZEYDOO_SMARTLINK",
+   "min": "$50",
+   "pay": "Paxum",
+   "note": "CPA"
+  },
+  {
+   "n": "Stripchat",
+   "url": "https://affiliates.stripchat.com/",
+   "model": "action",
+   "key": "STRIPCHAT_AFF",
+   "min": "$50",
+   "pay": "Wire/Paxum",
+   "note": "إباحي — revshare لكل تسجيل"
+  },
+  {
+   "n": "LiveJasmin",
+   "url": "https://www.livejasmin.com/en/affiliate",
+   "model": "action",
+   "key": "JASMIN_AFF",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "إباحي — revshare"
+  },
+  {
+   "n": "BongaCams",
+   "url": "https://bongacams.com/affiliate",
+   "model": "action",
+   "key": "BONGA_AFF",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "إباحي — revshare"
+  },
+  {
+   "n": "Chaturbate",
+   "url": "https://chaturbate.com/affiliates/",
+   "model": "action",
+   "key": "CHATURBATE_AFF",
+   "min": "$50",
+   "pay": "Wire/Paxum",
+   "note": "إباحي — revshare 20%"
+  },
+  {
+   "n": "Binance",
+   "url": "https://www.binance.com/en/activity/referral",
+   "model": "action",
+   "key": "BINANCE_REF",
+   "min": "—",
+   "pay": "—",
+   "note": "عمولة على كل متداول يسجّل"
+  },
+  {
+   "n": "Amazon",
+   "url": "https://affiliate-program.amazon.com/",
+   "model": "action",
+   "key": "AMAZON_TAG",
+   "min": "$10",
+   "pay": "Wire",
+   "note": "عمولة على أي شراء"
+  },
+  {
+   "n": "Publish0x",
+   "url": "https://www.publish0x.com/",
+   "model": "publish",
+   "key": "—",
+   "min": "$1",
+   "pay": "Crypto",
+   "note": "اكتب مقالًا → تُدفع من تجمع المكافآت"
+  },
+  {
+   "n": "Read.cash",
+   "url": "https://read.cash/",
+   "model": "publish",
+   "key": "—",
+   "min": "$0.1",
+   "pay": "BCH",
+   "note": "منشورات قصيرة → تُدفع"
+  },
+  {
+   "n": "Hive / PeakD",
+   "url": "https://peakd.com/",
+   "model": "publish",
+   "key": "—",
+   "min": "$0",
+   "pay": "HIVE",
+   "note": "نشر → مكافآت من التصويت"
+  },
+  {
+   "n": "Steemit",
+   "url": "https://steemit.com/",
+   "model": "publish",
+   "key": "—",
+   "min": "$0",
+   "pay": "STEEM",
+   "note": "نشر → مكافآت"
+  },
+  {
+   "n": "Medium",
+   "url": "https://medium.com/creators",
+   "model": "publish",
+   "key": "—",
+   "min": "$5",
+   "pay": "Stripe",
+   "note": "برنامج الشركاء"
+  },
+  {
+   "n": "Substack",
+   "url": "https://substack.com/",
+   "model": "publish",
+   "key": "—",
+   "min": "$0",
+   "pay": "Stripe",
+   "note": "نشرة باشتراك"
+  },
+  {
+   "n": "Vocal Media",
+   "url": "https://vocal.media/",
+   "model": "publish",
+   "key": "—",
+   "min": "$10",
+   "pay": "PayPal",
+   "note": "لكل 1000 قراءة"
+  },
+  {
+   "n": "Linkvertise",
+   "url": "https://publisher.linkvertise.com/",
+   "model": "share",
+   "key": "LINKVERTISE_UID",
+   "min": "$5",
+   "pay": "PayPal",
+   "note": "لكل فتح رابط"
+  },
+  {
+   "n": "ShrinkMe",
+   "url": "https://shrinkme.io/",
+   "model": "share",
+   "key": "SHRINKME_KEY",
+   "min": "$5",
+   "pay": "PayPal/BTC",
+   "note": "اختصار روابط → دخل لكل فتح"
+  },
+  {
+   "n": "ShrinkEarn",
+   "url": "https://shrinkearn.com/",
+   "model": "share",
+   "key": "SHRINKEARN_KEY",
+   "min": "$5",
+   "pay": "PayPal/BTC",
+   "note": "اختصار روابط"
+  },
+  {
+   "n": "Adf.ly",
+   "url": "https://adf.ly/",
+   "model": "share",
+   "key": "ADFLY_UID",
+   "min": "$5",
+   "pay": "PayPal/Payoneer",
+   "note": "اختصار روابط"
+  },
+  {
+   "n": "Ko-fi",
+   "url": "https://ko-fi.com/",
+   "model": "donate",
+   "key": "—",
+   "min": "$0",
+   "pay": "PayPal",
+   "note": "تبرع مباشر — 0% عمولة"
+  },
+  {
+   "n": "Buy Me a Coffee",
+   "url": "https://buymeacoffee.com/",
+   "model": "donate",
+   "key": "—",
+   "min": "$0",
+   "pay": "Stripe/PayPal",
+   "note": "تبرع"
+  },
+  {
+   "n": "Patreon",
+   "url": "https://www.patreon.com/",
+   "model": "donate",
+   "key": "—",
+   "min": "$0",
+   "pay": "Stripe",
+   "note": "اشتراك شهري"
+  },
+  {
+   "n": "GitHub Sponsors",
+   "url": "https://github.com/sponsors",
+   "model": "donate",
+   "key": "—",
+   "min": "$0",
+   "pay": "Stripe",
+   "note": "تبرع من مطوّرين"
+  },
+  {
+   "n": "Liberapay",
+   "url": "https://liberapay.com/",
+   "model": "donate",
+   "key": "—",
+   "min": "$0",
+   "pay": "PayPal",
+   "note": "تبرع دوري"
+  }
+ ]
+}

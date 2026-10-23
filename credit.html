@@ -1,4 +1,4 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية">
 <script src="killsw.js?v=3099-1792196423"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>أضف ربحًا حقيقيًا · CineHub 3099</title><style>
@@ -9,13 +9,33 @@ button{background:#22c55e;color:#04121a;border:0;border-radius:9px;padding:9px 1
 pre{background:#0d1424;border:1px solid #1e2a44;border-radius:9px;padding:10px;direction:ltr;text-align:left;overflow:auto;font-size:11.5px}
 .l{color:#8aa0bd;font-size:12.5px}.big{font-size:30px;font-weight:900;color:#22c55e}
 </style>
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
 </head><body><div class="wrap">
 <h1>أضف ربحًا حقيقيًا سحبته</h1>
 <div class="l">عندما تستلم من أي منصة (USDT، بايونير، كريمي…)، أضف السطر هنا. يُدمج في السجل الموثّق بسلسلة الهاش فورًا ⇒ لا رقم وهمي.</div>
 <div class="card"><div class="l">إجمالي المُضاف حقيقيًا: <span class="big" id="tot">$0.0000</span> من <b id="n">0</b> قيد</div></div>
 <div class="card"><input id="s" placeholder="المصدر (مثال: Linkvertise)"><input id="a" placeholder="المبلغ بالدولار (مثال: 5.40)">
 <input id="d" placeholder="التاريخ YYYY-MM-DD"><input id="nt" placeholder="ملاحظة">
-<button onclick="gen()">ولّد السطر</button><pre id="out">…</pre>
+<button type="button" onclick="gen()">ولّد السطر</button><pre id="out">…</pre>
 <div class="l">الصق السطر داخل <code>external-earnings.json</code> ثم <code>bash GO.sh</code>.</div></div>
 </div><script>
 fetch('/external-total.json?t='+Date.now()).then(r=>r.json()).then(j=>{document.getElementById('tot').textContent='$'+Number(j.total||0).toFixed(4);document.getElementById('n').textContent=j.n||0}).catch(()=>{});
@@ -37,4 +57,9 @@ function gen(){var s=document.getElementById('s').value,a=+document.getElementBy
 <script src="ads.js?v=3099-1792197840" defer></script>
 
 <script src="auto.js?v=3099-1792258952" defer></script>
-<script src="hits.js" defer></script></body></html>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

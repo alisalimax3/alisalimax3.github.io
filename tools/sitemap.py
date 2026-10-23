@@ -1,5 +1,5 @@
 import os,datetime
-B="https://alkazmybwhwr-dot.github.io";U=[]
+B="https://alisalimax3.github.io";U=[]
 for r,d,f in os.walk("."):
     d[:]=[x for x in d if x not in ("node_modules","backups",".git")]
     for x in f:

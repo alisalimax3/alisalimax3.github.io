@@ -1,40 +1,18 @@
-/* CineHub 3099 — SW آمن: شبكة أولًا لـHTML/JSON، كاش للأصول، ولا يخزّن ملفات التحكم */
-var V = "__VER__";
-self.addEventListener("install", function(){ self.skipWaiting(); });
-self.addEventListener("activate", function(e){
-  e.waitUntil(
-    caches.keys().then(function(ks){
-      return Promise.all(ks.map(function(k){ return (k === V) ? null : caches.delete(k); }));
-    }).then(function(){ return self.clients.claim(); })
-  );
-});
-self.addEventListener("fetch", function(e){
-  var req = e.request;
-  if (req.method !== "GET") return;
-  var u = new URL(req.url);
+const C = 'cinehub-3099-v1';
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
+self.addEventListener('fetch', e => {
+  const r = e.request;
+  if (r.method !== 'GET') return;
+  let u; try { u = new URL(r.url); } catch (x) { return; }
   if (u.origin !== location.origin) return;
-  var p = u.pathname;
-  if (/sw2?\.js$|killsw\.js$|boot\.js$|reset\.html$/.test(p)) {
-    e.respondWith(fetch(req).catch(function(){ return caches.match(req); }));
-    return;
+  const dyn = /\.(json|xml)$/.test(u.pathname);
+  if (dyn) {
+    e.respondWith(fetch(r).then(x => { const c = x.clone(); caches.open(C).then(k => k.put(r, c)); return x; })
+      .catch(() => caches.match(r)));
+  } else {
+    e.respondWith(caches.match(r).then(c => c || fetch(r).then(x => {
+      const cl = x.clone(); caches.open(C).then(k => k.put(r, cl)); return x;
+    })));
   }
-  if (/\.html?$/.test(p) || p === "/" || /\.json$/.test(p)) {
-    e.respondWith(
-      fetch(req).then(function(r){
-        var c = r.clone();
-        caches.open(V).then(function(ca){ ca.put(req, c); });
-        return r;
-      }).catch(function(){ return caches.match(req); })
-    );
-    return;
-  }
-  e.respondWith(caches.match(req).then(function(hit){
-    return hit || fetch(req).then(function(r){
-      if (r && r.status === 200 && r.type === "basic") {
-        var c = r.clone();
-        caches.open(V).then(function(ca){ ca.put(req, c); });
-      }
-      return r;
-    });
-  }));
 });

@@ -1,8 +1,8 @@
 {
- "t": "2026-10-21T05:38:43Z",
+ "t": "2026-10-17T00:10:58Z",
  "total": 1237,
- "live": 915,
- "dead": 322,
+ "live": 940,
+ "dead": 297,
  "dead_list": [
   {
    "n": "Work.ink",
@@ -20,11 +20,6 @@
    "code": 402
   },
   {
-   "n": "Shorte.st",
-   "u": "https://shorte.st/",
-   "code": "ERR"
-  },
-  {
    "n": "Link1s",
    "u": "https://link1s.com/",
    "code": "ERR"
@@ -40,21 +35,6 @@
    "code": "ERR"
   },
   {
-   "n": "Adrinolinks",
-   "u": "https://adrinolinks.in/",
-   "code": "ERR"
-  },
-  {
-   "n": "Bee4.biz",
-   "u": "https://bee4.biz/",
-   "code": 500
-  },
-  {
-   "n": "Flylink",
-   "u": "https://flylink.io/",
-   "code": "ERR"
-  },
-  {
    "n": "Short2url",
    "u": "https://short2url.in/",
    "code": "ERR"
@@ -65,18 +45,8 @@
    "code": 404
   },
   {
-   "n": "Earn4link",
-   "u": "https://earn4link.com/",
-   "code": "ERR"
-  },
-  {
    "n": "Filesfly",
    "u": "https://filesfly.io/",
-   "code": "ERR"
-  },
-  {
-   "n": "Tnlink",
-   "u": "https://tnlink.in/",
    "code": "ERR"
   },
   {
@@ -130,9 +100,14 @@
    "code": "ERR"
   },
   {
+   "n": "Refersion",
+   "u": "https://www.refersion.com/",
+   "code": 403
+  },
+  {
    "n": "Noon Affiliate",
    "u": "https://www.noon.com/",
-   "code": "ERR"
+   "code": 403
   },
   {
    "n": "Jumia Affiliate",
@@ -142,17 +117,12 @@
   {
    "n": "Namshi",
    "u": "https://www.namshi.com/",
-   "code": "ERR"
-  },
-  {
-   "n": "6thStreet",
-   "u": "https://en-ae.6thstreet.com/",
    "code": 403
   },
   {
    "n": "SIVVI",
    "u": "https://www.sivvi.com/",
-   "code": "ERR"
+   "code": 403
   },
   {
    "n": "SharafDG",
@@ -165,9 +135,9 @@
    "code": 403
   },
   {
-   "n": "Banggood",
-   "u": "https://www.banggood.com/",
-   "code": 403
+   "n": "Temu",
+   "u": "https://www.temu.com/",
+   "code": 400
   },
   {
    "n": "Gearbest",
@@ -185,6 +155,11 @@
    "code": 403
   },
   {
+   "n": "Myntra",
+   "u": "https://www.myntra.com/",
+   "code": "ERR"
+  },
+  {
    "n": "Ajio",
    "u": "https://www.ajio.com/",
    "code": 403
@@ -193,6 +168,11 @@
    "n": "Meesho",
    "u": "https://www.meesho.com/",
    "code": 403
+  },
+  {
+   "n": "ASOS",
+   "u": "https://www.asos.com/",
+   "code": "ERR"
   },
   {
    "n": "Farfetch",
@@ -215,8 +195,23 @@
    "code": 403
   },
   {
+   "n": "Target",
+   "u": "https://www.target.com/",
+   "code": 429
+  },
+  {
    "n": "Best Buy",
    "u": "https://www.bestbuy.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "BuySellAds",
+   "u": "https://www.buysellads.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "Infolinks",
+   "u": "https://www.infolinks.com/",
    "code": "ERR"
   },
   {
@@ -235,9 +230,29 @@
    "code": "ERR"
   },
   {
+   "n": "Zemanta",
+   "u": "https://www.zemanta.com/",
+   "code": 406
+  },
+  {
    "n": "Brid.tv",
    "u": "https://www.brid.tv/",
    "code": "ERR"
+  },
+  {
+   "n": "SpotX",
+   "u": "https://www.spotx.tv/",
+   "code": "ERR"
+  },
+  {
+   "n": "LoopMe",
+   "u": "https://loopme.com/",
+   "code": 403
+  },
+  {
+   "n": "Chartboost",
+   "u": "https://www.chartboost.com/",
+   "code": 403
   },
   {
    "n": "BitterStrawberry",
@@ -250,19 +265,9 @@
    "code": "ERR"
   },
   {
-   "n": "GAM360",
-   "u": "https://gam360.com/",
-   "code": "ERR"
-  },
-  {
    "n": "Bidstack",
    "u": "https://www.bidstack.com/",
    "code": 404
-  },
-  {
-   "n": "Landvault",
-   "u": "https://landvault.io/",
-   "code": "ERR"
   },
   {
    "n": "AerServ",
@@ -280,11 +285,6 @@
    "code": "ERR"
   },
   {
-   "n": "TimeBucks",
-   "u": "https://timebucks.com/",
-   "code": 403
-  },
-  {
    "n": "FreeBitco.in",
    "u": "https://freebitco.in/",
    "code": 502
@@ -295,14 +295,14 @@
    "code": 403
   },
   {
+   "n": "RewardXP",
+   "u": "https://rewardxp.com/",
+   "code": 403
+  },
+  {
    "n": "Peer2Profit",
    "u": "https://p2pr.io/",
    "code": "ERR"
-  },
-  {
-   "n": "Mysterium",
-   "u": "https://mysterium.network/",
-   "code": 429
   },
   {
    "n": "Presearch",
@@ -315,8 +315,33 @@
    "code": "ERR"
   },
   {
+   "n": "TopCashback",
+   "u": "https://www.topcashback.com/",
+   "code": 403
+  },
+  {
+   "n": "Ibotta",
+   "u": "https://ibotta.com/",
+   "code": 403
+  },
+  {
+   "n": "ReceiptPal",
+   "u": "https://receiptpalapp.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "CoinOut",
+   "u": "https://coinout.com/",
+   "code": 403
+  },
+  {
    "n": "Angi",
    "u": "https://www.angi.com/",
+   "code": 403
+  },
+  {
+   "n": "Toloka Tasks",
+   "u": "https://toloka.ai/",
    "code": 403
   },
   {
@@ -330,13 +355,33 @@
    "code": "ERR"
   },
   {
-   "n": "TimeWall",
-   "u": "https://timewall.io/",
+   "n": "Swagbucks",
+   "u": "https://www.swagbucks.com/",
+   "code": 403
+  },
+  {
+   "n": "Survey Junkie",
+   "u": "https://www.surveyjunkie.com/",
+   "code": 403
+  },
+  {
+   "n": "Clickworker",
+   "u": "https://www.clickworker.com/",
    "code": 403
   },
   {
    "n": "Picoworkers",
    "u": "https://picoworkers.com/",
+   "code": 403
+  },
+  {
+   "n": "Remotasks",
+   "u": "https://www.remotasks.com/",
+   "code": 403
+  },
+  {
+   "n": "Toloka",
+   "u": "https://toloka.ai/",
    "code": 403
   },
   {
@@ -368,11 +413,6 @@
    "n": "MySurvey",
    "u": "https://www.mysurvey.com/",
    "code": "ERR"
-  },
-  {
-   "n": "Ipsos iSay",
-   "u": "https://www.ipsosisay.com/",
-   "code": 403
   },
   {
    "n": "Lucid",
@@ -412,6 +452,11 @@
   {
    "n": "Test IO",
    "u": "https://test.io/",
+   "code": 403
+  },
+  {
+   "n": "Tremendous",
+   "u": "https://www.tremendous.com/",
    "code": 403
   },
   {
@@ -457,22 +502,12 @@
   {
    "n": "Ivacy",
    "u": "https://www.ivacy.com/affiliate",
-   "code": 403
+   "code": 404
   },
   {
    "n": "ProtonVPN",
    "u": "https://protonvpn.com/affiliate",
    "code": 404
-  },
-  {
-   "n": "Bluehost",
-   "u": "https://www.bluehost.com/affiliate",
-   "code": 403
-  },
-  {
-   "n": "Namecheap",
-   "u": "https://www.namecheap.com/affiliates/",
-   "code": 403
   },
   {
    "n": "GoDaddy",
@@ -487,11 +522,6 @@
   {
    "n": "Linode",
    "u": "https://www.linode.com/affiliates/",
-   "code": 403
-  },
-  {
-   "n": "Contabo",
-   "u": "https://contabo.com/",
    "code": 403
   },
   {
@@ -515,11 +545,6 @@
    "code": 404
   },
   {
-   "n": "Canva",
-   "u": "https://www.canva.com/affiliates/",
-   "code": 403
-  },
-  {
    "n": "Astra",
    "u": "https://wpastra.com/affiliates/",
    "code": 404
@@ -533,6 +558,11 @@
    "n": "WP Rocket",
    "u": "https://wp-rocket.me/affiliates/",
    "code": 404
+  },
+  {
+   "n": "Rank Math",
+   "u": "https://rankmath.com/affiliates/",
+   "code": 403
   },
   {
    "n": "Semrush",
@@ -563,11 +593,6 @@
    "n": "Writesonic",
    "u": "https://writesonic.com/affiliates",
    "code": 404
-  },
-  {
-   "n": "QuillBot",
-   "u": "https://quillbot.com/affiliates",
-   "code": 403
   },
   {
    "n": "ClickUp",
@@ -618,11 +643,6 @@
    "n": "Figma",
    "u": "https://www.figma.com/affiliates",
    "code": 404
-  },
-  {
-   "n": "ConvertKit",
-   "u": "https://convertkit.com/affiliates",
-   "code": 403
   },
   {
    "n": "Beehiiv",
@@ -678,11 +698,6 @@
    "n": "LiveChat",
    "u": "https://www.livechat.com/affiliates/",
    "code": 404
-  },
-  {
-   "n": "ManyChat",
-   "u": "https://manychat.com/affiliate",
-   "code": 403
   },
   {
    "n": "Chatfuel",
@@ -747,22 +762,12 @@
   {
    "n": "Trovo",
    "u": "https://trovo.live/",
-   "code": "ERR"
-  },
-  {
-   "n": "Clapper",
-   "u": "https://clapperapp.com/",
    "code": 403
   },
   {
-   "n": "Patreon",
-   "u": "https://www.patreon.com/",
-   "code": 403
-  },
-  {
-   "n": "Medium Partner",
-   "u": "https://medium.com/partner-program",
-   "code": 403
+   "n": "Ko-fi",
+   "u": "https://ko-fi.com/",
+   "code": 400
   },
   {
    "n": "HubPages",
@@ -770,39 +775,14 @@
    "code": 403
   },
   {
-   "n": "Substack",
-   "u": "https://substack.com/",
-   "code": 403
-  },
-  {
-   "n": "Wix",
-   "u": "https://www.wix.com/",
-   "code": 429
-  },
-  {
-   "n": "Quora Partner",
-   "u": "https://www.quora.com/",
-   "code": 403
-  },
-  {
-   "n": "Mostaql",
-   "u": "https://mostaql.com/",
-   "code": 403
-  },
-  {
-   "n": "Khamsat",
-   "u": "https://khamsat.com/",
-   "code": 403
-  },
-  {
-   "n": "Upwork",
-   "u": "https://www.upwork.com/",
-   "code": 403
-  },
-  {
    "n": "Truelancer",
    "u": "https://www.truelancer.com/",
    "code": 429
+  },
+  {
+   "n": "Mercor",
+   "u": "https://mercor.com/",
+   "code": 403
   },
   {
    "n": "ProZ",
@@ -812,6 +792,11 @@
   {
    "n": "Gate.io",
    "u": "https://www.gate.io/",
+   "code": 403
+  },
+  {
+   "n": "Crypto.com",
+   "u": "https://crypto.com/",
    "code": 403
   },
   {
@@ -825,9 +810,19 @@
    "code": 403
   },
   {
+   "n": "HodlHodl",
+   "u": "https://hodlhodl.com/",
+   "code": 403
+  },
+  {
    "n": "CoinsPaid",
    "u": "https://coins Paid.io/",
    "code": "ERR"
+  },
+  {
+   "n": "Coingate",
+   "u": "https://coingate.com/",
+   "code": 403
   },
   {
    "n": "Coinbase Commerce",
@@ -837,6 +832,11 @@
   {
    "n": "AirTM",
    "u": "https://airtm.com/",
+   "code": 403
+  },
+  {
+   "n": "Wise",
+   "u": "https://wise.com/",
    "code": 403
   },
   {
@@ -852,16 +852,6 @@
   {
    "n": "Papara",
    "u": "https://www.papara.com/",
-   "code": 403
-  },
-  {
-   "n": "Bing Webmaster",
-   "u": "https://www.bing.com/webmasters",
-   "code": "ERR"
-  },
-  {
-   "n": "Cloudflare Radar",
-   "u": "https://radar.cloudflare.com/",
    "code": 403
   },
   {
@@ -885,33 +875,8 @@
    "code": 404
   },
   {
-   "n": "Bigstock",
-   "u": "https://www.bigstockphoto.com/",
-   "code": 403
-  },
-  {
-   "n": "Canva Contributors",
-   "u": "https://www.canva.com/contributors/",
-   "code": 403
-  },
-  {
-   "n": "Motion Array",
-   "u": "https://motionarray.com/",
-   "code": 403
-  },
-  {
-   "n": "Artgrid",
-   "u": "https://artgrid.io/",
-   "code": 403
-  },
-  {
-   "n": "Artlist",
-   "u": "https://artlist.io/",
-   "code": 403
-  },
-  {
-   "n": "Pixels",
-   "u": "https://www.pexels.com/",
+   "n": "Storyblocks",
+   "u": "https://www.storyblocks.com/",
    "code": 403
   },
   {
@@ -930,21 +895,6 @@
    "code": 403
   },
   {
-   "n": "Envato Elements",
-   "u": "https://elements.envato.com/",
-   "code": 403
-  },
-  {
-   "n": "Creative Market",
-   "u": "https://creativemarket.com/",
-   "code": 403
-  },
-  {
-   "n": "UI8",
-   "u": "https://ui8.net/",
-   "code": 403
-  },
-  {
    "n": "Iconscout",
    "u": "https://iconscout.com/contributors",
    "code": 403
@@ -960,11 +910,6 @@
    "code": 403
   },
   {
-   "n": "Codepen Challenges",
-   "u": "https://codepen.io/",
-   "code": 403
-  },
-  {
    "n": "TemplateMonster",
    "u": "https://www.templatemonster.com/",
    "code": 403
@@ -972,21 +917,11 @@
   {
    "n": "WrapBootstrap",
    "u": "https://wrapbootstrap.com/",
-   "code": 403
+   "code": "ERR"
   },
   {
-   "n": "Sell My App",
-   "u": "https://sellmyapp.com/",
-   "code": 403
-  },
-  {
-   "n": "GraphicRiver",
-   "u": "https://graphicriver.net/",
-   "code": 403
-  },
-  {
-   "n": "CafePress",
-   "u": "https://www.cafepress.com/",
+   "n": "Displate",
+   "u": "https://displate.com/",
    "code": 403
   },
   {
@@ -995,18 +930,8 @@
    "code": 403
   },
   {
-   "n": "Gelato",
-   "u": "https://www.gelato.com/",
-   "code": 403
-  },
-  {
    "n": "CustomCat",
    "u": "https://customcat.com/",
-   "code": 403
-  },
-  {
-   "n": "Canva Print",
-   "u": "https://www.canva.com/print/",
    "code": 403
   },
   {
@@ -1015,33 +940,13 @@
    "code": 403
   },
   {
+   "n": "BookBaby",
+   "u": "https://www.bookbaby.com/",
+   "code": 403
+  },
+  {
    "n": "Kobo Writing Life",
    "u": "https://www.kobo.com/writinglife",
-   "code": 403
-  },
-  {
-   "n": "Payhip",
-   "u": "https://payhip.com/",
-   "code": 403
-  },
-  {
-   "n": "DistroKid",
-   "u": "https://distrokid.com/",
-   "code": 403
-  },
-  {
-   "n": "Audiomack",
-   "u": "https://audiomack.com/",
-   "code": "ERR"
-  },
-  {
-   "n": "Stem",
-   "u": "https://stem.is/",
-   "code": 403
-  },
-  {
-   "n": "Angahmi",
-   "u": "https://anghami.com/",
    "code": 403
   },
   {
@@ -1055,11 +960,6 @@
    "code": 403
   },
   {
-   "n": "Namecheap Market",
-   "u": "https://www.namecheap.com/market/",
-   "code": 403
-  },
-  {
    "n": "Bodis",
    "u": "https://www.bodis.com/",
    "code": "ERR"
@@ -1068,11 +968,6 @@
    "n": "ParkingCrew",
    "u": "https://parkingcrew.net/",
    "code": "ERR"
-  },
-  {
-   "n": "Squadhelp",
-   "u": "https://www.squadhelp.com/",
-   "code": 403
   },
   {
    "n": "Undeveloped",
@@ -1095,6 +990,11 @@
    "code": "ERR"
   },
   {
+   "n": "Wellfound",
+   "u": "https://wellfound.com/",
+   "code": 403
+  },
+  {
    "n": "Stack Overflow Jobs",
    "u": "https://stackoverflow.com/jobs",
    "code": 404
@@ -1102,11 +1002,6 @@
   {
    "n": "Indeed",
    "u": "https://www.indeed.com/",
-   "code": 403
-  },
-  {
-   "n": "Glassdoor",
-   "u": "https://www.glassdoor.com/",
    "code": 403
   },
   {
@@ -1120,23 +1015,33 @@
    "code": "ERR"
   },
   {
-   "n": "GulfTalent",
-   "u": "https://www.gulftalent.com/",
-   "code": 403
-  },
-  {
-   "n": "Tanqeeb",
-   "u": "https://www.tanqeeb.com/",
-   "code": 403
-  },
-  {
    "n": "Wuzzuf",
    "u": "https://wuzzuf.net/",
-   "code": 403
+   "code": "ERR"
   },
   {
    "n": "Forasna",
    "u": "https://forasna.com/",
+   "code": 403
+  },
+  {
+   "n": "TopCashback US",
+   "u": "https://www.topcashback.com/",
+   "code": 403
+  },
+  {
+   "n": "TopCashback UK",
+   "u": "https://www.topcashback.co.uk/",
+   "code": 403
+  },
+  {
+   "n": "Swagbucks Shop",
+   "u": "https://www.swagbucks.com/",
+   "code": 403
+  },
+  {
+   "n": "Checkout 51",
+   "u": "https://www.checkout51.com/",
    "code": 403
   },
   {
@@ -1150,8 +1055,13 @@
    "code": "ERR"
   },
   {
-   "n": "Coupert",
-   "u": "https://www.coupert.com/",
+   "n": "Capital One Shopping",
+   "u": "https://capitaloneshopping.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "ShopBack",
+   "u": "https://www.shopback.com/",
    "code": 403
   },
   {
@@ -1162,12 +1072,17 @@
   {
    "n": "Noon Cashback",
    "u": "https://www.noon.com/",
-   "code": "ERR"
+   "code": 403
   },
   {
    "n": "Namshi Cashback",
    "u": "https://www.namshi.com/",
-   "code": "ERR"
+   "code": 403
+  },
+  {
+   "n": "Wikibuy",
+   "u": "https://capitaloneshopping.com/",
+   "code": 403
   },
   {
    "n": "Chime",
@@ -1175,8 +1090,13 @@
    "code": 403
   },
   {
-   "n": "Revolut",
-   "u": "https://www.revolut.com/",
+   "n": "Varo",
+   "u": "https://www.varomoney.com/",
+   "code": 403
+  },
+  {
+   "n": "Wise Cashback",
+   "u": "https://wise.com/",
    "code": 403
   },
   {
@@ -1210,8 +1130,8 @@
    "code": 429
   },
   {
-   "n": "Omio",
-   "u": "https://www.omio.com/",
+   "n": "CheapOair",
+   "u": "https://www.cheapoair.com/",
    "code": 403
   },
   {
@@ -1250,11 +1170,6 @@
    "code": 403
   },
   {
-   "n": "Hilton",
-   "u": "https://www.hilton.com/",
-   "code": 403
-  },
-  {
    "n": "IHG",
    "u": "https://www.ihg.com/",
    "code": 403
@@ -1263,11 +1178,6 @@
    "n": "Radisson",
    "u": "https://www.radissonhotels.com/",
    "code": 403
-  },
-  {
-   "n": "Flyin",
-   "u": "https://www.flyin.com/",
-   "code": 471
   },
   {
    "n": "Rehlat",
@@ -1280,6 +1190,11 @@
    "code": "ERR"
   },
   {
+   "n": "LendingTree",
+   "u": "https://www.lendingtree.com/",
+   "code": 403
+  },
+  {
    "n": "SoFi",
    "u": "https://www.sofi.com/",
    "code": 403
@@ -1287,6 +1202,21 @@
   {
    "n": "Trading212",
    "u": "https://www.trading212.com/",
+   "code": 403
+  },
+  {
+   "n": "Degiro",
+   "u": "https://www.degiro.com/",
+   "code": 503
+  },
+  {
+   "n": "XTB",
+   "u": "https://www.xtb.com/",
+   "code": 403
+  },
+  {
+   "n": "Plus500",
+   "u": "https://www.plus500.com/",
    "code": 403
   },
   {
@@ -1302,17 +1232,7 @@
   {
    "n": "OctaFX",
    "u": "https://www.octafx.com/",
-   "code": 403
-  },
-  {
-   "n": "HFM",
-   "u": "https://www.hfm.com/",
-   "code": 403
-  },
-  {
-   "n": "HotForex",
-   "u": "https://www.hfm.com/",
-   "code": 403
+   "code": 410
   },
   {
    "n": "Forex.com",
@@ -1330,14 +1250,14 @@
    "code": 403
   },
   {
+   "n": "Bitpanda",
+   "u": "https://www.bitpanda.com/",
+   "code": 403
+  },
+  {
    "n": "G2A",
    "u": "https://www.g2a.com/",
    "code": "ERR"
-  },
-  {
-   "n": "Kinguin",
-   "u": "https://www.kinguin.net/",
-   "code": 403
   },
   {
    "n": "Gamivo",
@@ -1360,8 +1280,18 @@
    "code": 403
   },
   {
-   "n": "Match",
-   "u": "https://www.match.com/",
+   "n": "eHarmony",
+   "u": "https://www.eharmony.com/",
+   "code": 403
+  },
+  {
+   "n": "Jdate",
+   "u": "https://www.jdate.com/",
+   "code": 451
+  },
+  {
+   "n": "Christian Mingle",
+   "u": "https://www.christianmingle.com/",
    "code": 403
   },
   {
@@ -1370,18 +1300,28 @@
    "code": "ERR"
   },
   {
-   "n": "Bet365",
-   "u": "https://www.bet365.com/",
+   "n": "1xBet",
+   "u": "https://1xbet.com/",
+   "code": "ERR"
+  },
+  {
+   "n": "Betway",
+   "u": "https://betway.com/",
    "code": 403
   },
   {
-   "n": "Unibet",
-   "u": "https://www.unibet.com/",
-   "code": 503
+   "n": "William Hill",
+   "u": "https://www.williamhill.com/",
+   "code": 403
   },
   {
-   "n": "Bwin",
-   "u": "https://www.bwin.com/",
+   "n": "DraftKings",
+   "u": "https://www.draftkings.com/",
+   "code": 403
+  },
+  {
+   "n": "FanDuel",
+   "u": "https://www.fanduel.com/",
    "code": 403
   },
   {
@@ -1395,29 +1335,9 @@
    "code": 403
   },
   {
-   "n": "Sportingbet",
-   "u": "https://www.sportingbet.com/",
-   "code": 403
-  },
-  {
-   "n": "Marathonbet",
-   "u": "https://www.marathonbet.com/",
-   "code": 403
-  },
-  {
    "n": "Yobetit",
    "u": "https://yobetit.com/",
    "code": "ERR"
-  },
-  {
-   "n": "Rabona",
-   "u": "https://rabona.com/",
-   "code": 403
-  },
-  {
-   "n": "Udemy",
-   "u": "https://www.udemy.com/affiliate/",
-   "code": 403
   },
   {
    "n": "Coursera",
@@ -1435,19 +1355,14 @@
    "code": 403
   },
   {
-   "n": "DataCamp",
-   "u": "https://www.datacamp.com/",
+   "n": "Pluralsight",
+   "u": "https://www.pluralsight.com/",
    "code": 403
   },
   {
    "n": "Nafham",
    "u": "https://www.nafham.com/",
    "code": "ERR"
-  },
-  {
-   "n": "Hsoub Academy",
-   "u": "https://academy.hsoub.com/",
-   "code": 403
   },
   {
    "n": "Skillsoft",
@@ -1480,6 +1395,11 @@
    "code": 403
   },
   {
+   "n": "Roman",
+   "u": "https://www.getroman.com/",
+   "code": 403
+  },
+  {
    "n": "Nutrisystem",
    "u": "https://www.nutrisystem.com/",
    "code": 403
@@ -1487,6 +1407,11 @@
   {
    "n": "Behance",
    "u": "https://www.behance.net/",
+   "code": 403
+  },
+  {
+   "n": "Designhill",
+   "u": "https://www.designhill.com/",
    "code": 403
   },
   {
@@ -1505,63 +1430,13 @@
    "code": 429
   },
   {
-   "n": "Lapa Ninja",
-   "u": "https://www.lapa.ninja/",
-   "code": 403
-  },
-  {
-   "n": "Screenlane",
-   "u": "https://screenlane.com/",
-   "code": 403
-  },
-  {
-   "n": "Kickstarter",
-   "u": "https://www.kickstarter.com/",
-   "code": 403
-  },
-  {
    "n": "Indiegogo",
    "u": "https://www.indiegogo.com/",
    "code": 403
   },
   {
-   "n": "LaunchGood",
-   "u": "https://www.launchgood.com/",
-   "code": 403
-  },
-  {
-   "n": "SeedInvest",
-   "u": "https://www.seedinvest.com/",
-   "code": "ERR"
-  },
-  {
-   "n": "Republic",
-   "u": "https://republic.com/",
-   "code": 403
-  },
-  {
    "n": "Wefunder",
    "u": "https://wefunder.com/",
-   "code": 403
-  },
-  {
-   "n": "Hsoub",
-   "u": "https://hsoub.com/",
-   "code": 403
-  },
-  {
-   "n": "Nabbesh",
-   "u": "https://www.nabbesh.com/",
-   "code": "ERR"
-  },
-  {
-   "n": "OSN+",
-   "u": "https://www.osn.com/",
-   "code": 403
-  },
-  {
-   "n": "Anghami",
-   "u": "https://anghami.com/",
    "code": 403
   },
   {
@@ -1572,12 +1447,17 @@
   {
    "n": "Noon",
    "u": "https://www.noon.com/",
-   "code": "ERR"
+   "code": 403
+  },
+  {
+   "n": "Boutiqaat",
+   "u": "https://www.boutiqaat.com/",
+   "code": 403
   },
   {
    "n": "Namshi Beauty",
    "u": "https://www.namshi.com/",
-   "code": "ERR"
+   "code": 403
   },
   {
    "n": "Jamalon",
@@ -1590,14 +1470,9 @@
    "code": "ERR"
   },
   {
-   "n": "Arab News",
-   "u": "https://www.arabnews.com/",
-   "code": 403
-  },
-  {
-   "n": "Al Arabiya",
-   "u": "https://www.alarabiya.net/",
-   "code": 403
+   "n": "Yemen Mobile",
+   "u": "https://yemenmobile.com.ye/",
+   "code": "ERR"
   },
   {
    "n": "MTN Yemen",

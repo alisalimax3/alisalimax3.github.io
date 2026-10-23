@@ -1,5 +1,7 @@
 {
  "found": [],
- "tested": {},
+ "tested": {
+  "ADSTERRA": "stats 0"
+ },
  "wired": []
 }

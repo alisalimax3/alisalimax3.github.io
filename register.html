@@ -1,0 +1,437 @@
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<script src="/config.js"></script>
+<!doctype html><html lang=ar dir=rtl data-apex-circle="general"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>سجل 60 موقع — CineHub</title><style>
+body{margin:0;font:15px/1.6 system-ui,Segoe UI,Tahoma;background:#0b0e14;color:#e8eef7}
+header{padding:20px 24px;border-bottom:1px solid #1e2733;display:flex;gap:14px;align-items:center;flex-wrap:wrap;position:sticky;top:0;background:#0b0e14ee;backdrop-filter:blur(6px)}
+h1{margin:0;font-size:19px}.pill{background:#1e2733;border-radius:99px;padding:1px 9px;font-size:12px;color:#8fa2b8}
+main{padding:18px 24px 60px;max-width:1200px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:26px}
+.card{background:#141a24;border:1px solid #1e2733;border-radius:12px;padding:12px}
+.head{display:flex;justify-content:space-between;gap:8px;align-items:center}.b{font-size:11px;padding:2px 8px;border-radius:99px;background:#222;color:#aaa}
+.env code{font-size:11px;color:#7dd3fc;word-break:break-all}.meta{font-size:11px;color:#8fa2b8;display:flex;gap:8px;flex-wrap:wrap;margin:7px 0}
+.rev{color:#4ade80}.acts{display:flex;gap:6px;flex-wrap:wrap}a,button{font:12px inherit;padding:5px 10px;border-radius:8px;border:1px solid #24303f;background:#0b0e14;color:#cfe1f5;cursor:pointer;text-decoration:none}
+a:hover,button:hover{background:#1b2431}code{background:#0b0e14;padding:1px 5px;border-radius:5px}</style>
+<header><h1>سجل المواقع — 80 موقع</h1><span class=pill id=prog>0 / 80</span>
+<button onclick="location.href='/api/status'">حالة المفاتيح</button><button onclick="localStorage.clear();location.reload()">تصفير</button></header>
+<main><h2>ads <span class=pill>11</span></h2><div class=grid><div class=card data-id="adsterra">
+<div class=head><b>Adsterra</b><span class=b id="b_adsterra">…</span></div>
+<div class=env><code>ADSTERRA_API_KEY,ADSTERRA_PUB_ID</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>API v3 موثّق</span><span>سحب: USDT/BTC/Paxum</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://publishers.adsterra.com/signup" target="_blank" rel="noopener" onclick="mark('adsterra','opened')">تسجيل ↗</a>
+<button onclick="mark('adsterra','registered')">تم</button><button onclick="mark('adsterra','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="monetag">
+<div class=head><b>Monetag</b><span class=b id="b_monetag">…</span></div>
+<div class=env><code>MONETAG_API_KEY</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>best-effort</span><span>سحب: USDT</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://monetag.com/signup" target="_blank" rel="noopener" onclick="mark('monetag','opened')">تسجيل ↗</a>
+<button onclick="mark('monetag','registered')">تم</button><button onclick="mark('monetag','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="propellerads">
+<div class=head><b>PropellerAds</b><span class=b id="b_propellerads">…</span></div>
+<div class=env><code>PROPELLERADS_API_KEY</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>v5</span><span>سحب: USDT/Payoneer</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://publishers.propellerads.com/#/signup" target="_blank" rel="noopener" onclick="mark('propellerads','opened')">تسجيل ↗</a>
+<button onclick="mark('propellerads','registered')">تم</button><button onclick="mark('propellerads','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="ezoic">
+<div class=head><b>Ezoic</b><span class=b id="b_ezoic">…</span></div>
+<div class=env><code>EZOIC_API_KEY,EZOIC_SITE_ID</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>best-effort</span><span>سحب: PayPal/ACH</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.ezoic.com/signup/" target="_blank" rel="noopener" onclick="mark('ezoic','opened')">تسجيل ↗</a>
+<button onclick="mark('ezoic','registered')">تم</button><button onclick="mark('ezoic','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adsense">
+<div class=head><b>Google AdSense</b><span class=b id="b_adsense">…</span></div>
+<div class=env><code>ADSENSE_CLIENT,ADSENSE_ACCESS_TOKEN</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>يحتاج OAuth token</span><span>سحب: Bank/Wire</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.google.com/adsense/start/" target="_blank" rel="noopener" onclick="mark('adsense','opened')">تسجيل ↗</a>
+<button onclick="mark('adsense','registered')">تم</button><button onclick="mark('adsense','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="medianet">
+<div class=head><b>Media.net</b><span class=b id="b_medianet">…</span></div>
+<div class=env><code>MEDIANET_CUSTOMER_ID</code></div>
+<div class=meta><span>لوحة فقط</span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.media.net/publishers" target="_blank" rel="noopener" onclick="mark('medianet','opened')">تسجيل ↗</a>
+<button onclick="mark('medianet','registered')">تم</button><button onclick="mark('medianet','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adcash">
+<div class=head><b>Adcash</b><span class=b id="b_adcash">…</span></div>
+<div class=env><code>ADCASH_PUBLISHER_ID,ADCASH_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Wire/Payoneer</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://adcash.com/signup" target="_blank" rel="noopener" onclick="mark('adcash','opened')">تسجيل ↗</a>
+<button onclick="mark('adcash','registered')">تم</button><button onclick="mark('adcash','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="hilltopads">
+<div class=head><b>HilltopAds</b><span class=b id="b_hilltopads">…</span></div>
+<div class=env><code>HILLTOPADS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: USDT/Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://hilltopads.com/publishers/" target="_blank" rel="noopener" onclick="mark('hilltopads','opened')">تسجيل ↗</a>
+<button onclick="mark('hilltopads','registered')">تم</button><button onclick="mark('hilltopads','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="clickadu">
+<div class=head><b>Clickadu</b><span class=b id="b_clickadu">…</span></div>
+<div class=env><code>CLICKADU_PUBLISHER_ID</code></div>
+<div class=meta><span></span><span>سحب: Wire/PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.clickadu.com/publishers" target="_blank" rel="noopener" onclick="mark('clickadu','opened')">تسجيل ↗</a>
+<button onclick="mark('clickadu','registered')">تم</button><button onclick="mark('clickadu','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="infolinks">
+<div class=head><b>Infolinks</b><span class=b id="b_infolinks">…</span></div>
+<div class=env><code>INFOLINKS_PUBLISHER_ID</code></div>
+<div class=meta><span></span><span>سحب: PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.infolinks.com/registration" target="_blank" rel="noopener" onclick="mark('infolinks','opened')">تسجيل ↗</a>
+<button onclick="mark('infolinks','registered')">تم</button><button onclick="mark('infolinks','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="mgid">
+<div class=head><b>MGID</b><span class=b id="b_mgid">…</span></div>
+<div class=env><code>MGID_PUBLISHER_ID</code></div>
+<div class=meta><span></span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.mgid.com/publishers" target="_blank" rel="noopener" onclick="mark('mgid','opened')">تسجيل ↗</a>
+<button onclick="mark('mgid','registered')">تم</button><button onclick="mark('mgid','key_set')">المفتاح أُضيف</button></div></div></div><h2>affiliate <span class=pill>12</span></h2><div class=grid><div class=card data-id="impact">
+<div class=head><b>Impact</b><span class=b id="b_impact">…</span></div>
+<div class=env><code>IMPACT_ACCOUNT_SID,IMPACT_AUTH_TOKEN</code></div>
+<div class=meta><span>Basic auth موثّق</span><span>سحب: Bank/PayPal</span><span>تحقق: basic</span></div>
+<div class=acts><a href="https://impact.com/signup/" target="_blank" rel="noopener" onclick="mark('impact','opened')">تسجيل ↗</a>
+<button onclick="mark('impact','registered')">تم</button><button onclick="mark('impact','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="awin">
+<div class=head><b>Awin</b><span class=b id="b_awin">…</span></div>
+<div class=env><code>AWIN_API_TOKEN,AWIN_PUBLISHER_ID</code></div>
+<div class=meta><span>oauth token</span><span>سحب: Bank</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.awin.com/gb/register" target="_blank" rel="noopener" onclick="mark('awin','opened')">تسجيل ↗</a>
+<button onclick="mark('awin','registered')">تم</button><button onclick="mark('awin','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="cj">
+<div class=head><b>CJ Affiliate</b><span class=b id="b_cj">…</span></div>
+<div class=env><code>CJ_PERSONAL_TOKEN,CJ_PUBLISHER_ID</code></div>
+<div class=meta><span></span><span>سحب: Bank/PayPal</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.cj.com/signup" target="_blank" rel="noopener" onclick="mark('cj','opened')">تسجيل ↗</a>
+<button onclick="mark('cj','registered')">تم</button><button onclick="mark('cj','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="rakuten">
+<div class=head><b>Rakuten Advertising</b><span class=b id="b_rakuten">…</span></div>
+<div class=env><code>RAKUTEN_TOKEN,RAKUTEN_SID</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://rakutenadvertising.com/" target="_blank" rel="noopener" onclick="mark('rakuten','opened')">تسجيل ↗</a>
+<button onclick="mark('rakuten','registered')">تم</button><button onclick="mark('rakuten','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="clickbank">
+<div class=head><b>ClickBank</b><span class=b id="b_clickbank">…</span></div>
+<div class=env><code>CLICKBANK_DEV_KEY,CLICKBANK_CLERK_KEY</code></div>
+<div class=meta><span></span><span>سحب: Bank/Payoneer</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.clickbank.com/" target="_blank" rel="noopener" onclick="mark('clickbank','opened')">تسجيل ↗</a>
+<button onclick="mark('clickbank','registered')">تم</button><button onclick="mark('clickbank','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="digistore24">
+<div class=head><b>Digistore24</b><span class=b id="b_digistore24">…</span></div>
+<div class=env><code>DIGISTORE_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.digistore24.com/register" target="_blank" rel="noopener" onclick="mark('digistore24','opened')">تسجيل ↗</a>
+<button onclick="mark('digistore24','registered')">تم</button><button onclick="mark('digistore24','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="hotmart">
+<div class=head><b>Hotmart</b><span class=b id="b_hotmart">…</span></div>
+<div class=env><code>HOTMART_CLIENT_ID,HOTMART_CLIENT_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://signup.hotmart.com/" target="_blank" rel="noopener" onclick="mark('hotmart','opened')">تسجيل ↗</a>
+<button onclick="mark('hotmart','registered')">تم</button><button onclick="mark('hotmart','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="amazon">
+<div class=head><b>Amazon Associates</b><span class=b id="b_amazon">…</span></div>
+<div class=env><code>AMAZON_ACCESS_KEY,AMAZON_SECRET_KEY,AMAZON_TAG</code></div>
+<div class=meta><span>PA-API توقيع</span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://affiliate-program.amazon.com/" target="_blank" rel="noopener" onclick="mark('amazon','opened')">تسجيل ↗</a>
+<button onclick="mark('amazon','registered')">تم</button><button onclick="mark('amazon','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="aliexpress">
+<div class=head><b>AliExpress Portals</b><span class=b id="b_aliexpress">…</span></div>
+<div class=env><code>ALIEXPRESS_APP_KEY,ALIEXPRESS_APP_SECRET,ALIEXPRESS_TRACKING_ID</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://portals.aliexpress.com/" target="_blank" rel="noopener" onclick="mark('aliexpress','opened')">تسجيل ↗</a>
+<button onclick="mark('aliexpress','registered')">تم</button><button onclick="mark('aliexpress','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="cuelinks">
+<div class=head><b>Cuelinks</b><span class=b id="b_cuelinks">…</span></div>
+<div class=env><code>CUELINKS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.cuelinks.com/register" target="_blank" rel="noopener" onclick="mark('cuelinks','opened')">تسجيل ↗</a>
+<button onclick="mark('cuelinks','registered')">تم</button><button onclick="mark('cuelinks','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="involve">
+<div class=head><b>Involve Asia</b><span class=b id="b_involve">…</span></div>
+<div class=env><code>INVOLVE_API_KEY,INVOLVE_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://involve.asia/register" target="_blank" rel="noopener" onclick="mark('involve','opened')">تسجيل ↗</a>
+<button onclick="mark('involve','registered')">تم</button><button onclick="mark('involve','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="mylead">
+<div class=head><b>MyLead</b><span class=b id="b_mylead">…</span></div>
+<div class=env><code>MYLEAD_API_TOKEN</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>best-effort</span><span>سحب: Bank/PayPal</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://mylead.global/register" target="_blank" rel="noopener" onclick="mark('mylead','opened')">تسجيل ↗</a>
+<button onclick="mark('mylead','registered')">تم</button><button onclick="mark('mylead','key_set')">المفتاح أُضيف</button></div></div></div><h2>surveys <span class=pill>2</span></h2><div class=grid><div class=card data-id="cpx">
+<div class=head><b>CPX Research</b><span class=b id="b_cpx">…</span></div>
+<div class=env><code>CPX_APP_ID,CPX_SECURE_HASH</code></div>
+<div class=meta><span></span><span>سحب: postback</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.cpx-research.com/" target="_blank" rel="noopener" onclick="mark('cpx','opened')">تسجيل ↗</a>
+<button onclick="mark('cpx','registered')">تم</button><button onclick="mark('cpx','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="bitlabs">
+<div class=head><b>BitLabs</b><span class=b id="b_bitlabs">…</span></div>
+<div class=env><code>BITLABS_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: postback</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://bitlabs.ai/" target="_blank" rel="noopener" onclick="mark('bitlabs','opened')">تسجيل ↗</a>
+<button onclick="mark('bitlabs','registered')">تم</button><button onclick="mark('bitlabs','key_set')">المفتاح أُضيف</button></div></div></div><h2>offerwall <span class=pill>2</span></h2><div class=grid><div class=card data-id="ayet">
+<div class=head><b>AyetStudios</b><span class=b id="b_ayet">…</span></div>
+<div class=env><code>AYET_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: postback</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://ayetstudios.com/" target="_blank" rel="noopener" onclick="mark('ayet','opened')">تسجيل ↗</a>
+<button onclick="mark('ayet','registered')">تم</button><button onclick="mark('ayet','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adgate">
+<div class=head><b>AdGate Media</b><span class=b id="b_adgate">…</span></div>
+<div class=env><code>ADGATE_APP_ID,ADGATE_SECRET</code></div>
+<div class=meta><span></span><span>سحب: postback</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://adgatemedia.com/" target="_blank" rel="noopener" onclick="mark('adgate','opened')">تسجيل ↗</a>
+<button onclick="mark('adgate','registered')">تم</button><button onclick="mark('adgate','key_set')">المفتاح أُضيف</button></div></div></div><h2>crypto <span class=pill>13</span></h2><div class=grid><div class=card data-id="binance">
+<div class=head><b>Binance</b><span class=b id="b_binance">…</span></div>
+<div class=env><code>BINANCE_API_KEY,BINANCE_API_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: sign</span></div>
+<div class=acts><a href="https://accounts.binance.com/register" target="_blank" rel="noopener" onclick="mark('binance','opened')">تسجيل ↗</a>
+<button onclick="mark('binance','registered')">تم</button><button onclick="mark('binance','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="coinbase">
+<div class=head><b>Coinbase Advanced</b><span class=b id="b_coinbase">…</span></div>
+<div class=env><code>COINBASE_API_KEY,COINBASE_API_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.coinbase.com/signup" target="_blank" rel="noopener" onclick="mark('coinbase','opened')">تسجيل ↗</a>
+<button onclick="mark('coinbase','registered')">تم</button><button onclick="mark('coinbase','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="kraken">
+<div class=head><b>Kraken</b><span class=b id="b_kraken">…</span></div>
+<div class=env><code>KRAKEN_API_KEY,KRAKEN_API_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://pro.kraken.com/" target="_blank" rel="noopener" onclick="mark('kraken','opened')">تسجيل ↗</a>
+<button onclick="mark('kraken','registered')">تم</button><button onclick="mark('kraken','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="kucoin">
+<div class=head><b>KuCoin</b><span class=b id="b_kucoin">…</span></div>
+<div class=env><code>KUCOIN_API_KEY,KUCOIN_API_SECRET,KUCOIN_PASSPHRASE</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.kucoin.com/ucenter/signup" target="_blank" rel="noopener" onclick="mark('kucoin','opened')">تسجيل ↗</a>
+<button onclick="mark('kucoin','registered')">تم</button><button onclick="mark('kucoin','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="bybit">
+<div class=head><b>Bybit</b><span class=b id="b_bybit">…</span></div>
+<div class=env><code>BYBIT_API_KEY,BYBIT_API_SECRET</code></div>
+<div class=meta><span>v5 موثّق</span><span>سحب: Withdraw</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.bybit.com/register" target="_blank" rel="noopener" onclick="mark('bybit','opened')">تسجيل ↗</a>
+<button onclick="mark('bybit','registered')">تم</button><button onclick="mark('bybit','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="okx">
+<div class=head><b>OKX</b><span class=b id="b_okx">…</span></div>
+<div class=env><code>OKX_API_KEY,OKX_API_SECRET,OKX_PASSPHRASE</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.okx.com/account/register" target="_blank" rel="noopener" onclick="mark('okx','opened')">تسجيل ↗</a>
+<button onclick="mark('okx','registered')">تم</button><button onclick="mark('okx','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="gate">
+<div class=head><b>Gate.io</b><span class=b id="b_gate">…</span></div>
+<div class=env><code>GATE_API_KEY,GATE_API_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.gate.io/signup" target="_blank" rel="noopener" onclick="mark('gate','opened')">تسجيل ↗</a>
+<button onclick="mark('gate','registered')">تم</button><button onclick="mark('gate','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="mexc">
+<div class=head><b>MEXC</b><span class=b id="b_mexc">…</span></div>
+<div class=env><code>MEXC_API_KEY,MEXC_API_SECRET</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: sign</span></div>
+<div class=acts><a href="https://www.mexc.com/register" target="_blank" rel="noopener" onclick="mark('mexc','opened')">تسجيل ↗</a>
+<button onclick="mark('mexc','registered')">تم</button><button onclick="mark('mexc','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="bitget">
+<div class=head><b>Bitget</b><span class=b id="b_bitget">…</span></div>
+<div class=env><code>BITGET_API_KEY,BITGET_API_SECRET,BITGET_PASSPHRASE</code></div>
+<div class=meta><span></span><span>سحب: Withdraw</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.bitget.com/register" target="_blank" rel="noopener" onclick="mark('bitget','opened')">تسجيل ↗</a>
+<button onclick="mark('bitget','registered')">تم</button><button onclick="mark('bitget','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="faucetpay">
+<div class=head><b>FaucetPay</b><span class=b id="b_faucetpay">…</span></div>
+<div class=env><code>FAUCETPAY_API_KEY</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>POST موثّق</span><span>سحب: Micro-withdraw</span><span>تحقق: post</span></div>
+<div class=acts><a href="https://faucetpay.io/register" target="_blank" rel="noopener" onclick="mark('faucetpay','opened')">تسجيل ↗</a>
+<button onclick="mark('faucetpay','registered')">تم</button><button onclick="mark('faucetpay','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="nowpayments">
+<div class=head><b>NOWPayments</b><span class=b id="b_nowpayments">…</span></div>
+<div class=env><code>NOWPAYMENTS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Crypto</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://account.nowpayments.io/create-account" target="_blank" rel="noopener" onclick="mark('nowpayments','opened')">تسجيل ↗</a>
+<button onclick="mark('nowpayments','registered')">تم</button><button onclick="mark('nowpayments','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="cryptomus">
+<div class=head><b>Cryptomus</b><span class=b id="b_cryptomus">…</span></div>
+<div class=env><code>CRYPTOMUS_MERCHANT_ID,CRYPTOMUS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Crypto</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://cryptomus.com/" target="_blank" rel="noopener" onclick="mark('cryptomus','opened')">تسجيل ↗</a>
+<button onclick="mark('cryptomus','registered')">تم</button><button onclick="mark('cryptomus','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="coinpayments">
+<div class=head><b>CoinPayments</b><span class=b id="b_coinpayments">…</span></div>
+<div class=env><code>COINPAYMENTS_PUBLIC_KEY,COINPAYMENTS_PRIVATE_KEY</code></div>
+<div class=meta><span></span><span>سحب: Crypto</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.coinpayments.net/register" target="_blank" rel="noopener" onclick="mark('coinpayments','opened')">تسجيل ↗</a>
+<button onclick="mark('coinpayments','registered')">تم</button><button onclick="mark('coinpayments','key_set')">المفتاح أُضيف</button></div></div></div><h2>infra <span class=pill>2</span></h2><div class=grid><div class=card data-id="alchemy">
+<div class=head><b>Alchemy Base RPC</b><span class=b id="b_alchemy">…</span></div>
+<div class=env><code>ALCHEMY_API_KEY</code></div>
+<div class=meta><span>RPC قاعدة</span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.alchemy.com/" target="_blank" rel="noopener" onclick="mark('alchemy','opened')">تسجيل ↗</a>
+<button onclick="mark('alchemy','registered')">تم</button><button onclick="mark('alchemy','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="infura">
+<div class=head><b>Infura</b><span class=b id="b_infura">…</span></div>
+<div class=env><code>INFURA_PROJECT_ID</code></div>
+<div class=meta><span>RPC قاعدة</span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.infura.io/" target="_blank" rel="noopener" onclick="mark('infura','opened')">تسجيل ↗</a>
+<button onclick="mark('infura','registered')">تم</button><button onclick="mark('infura','key_set')">المفتاح أُضيف</button></div></div></div><h2>data <span class=pill>1</span></h2><div class=grid><div class=card data-id="coingecko">
+<div class=head><b>CoinGecko Pro</b><span class=b id="b_coingecko">…</span></div>
+<div class=env><code>COINGECKO_API_KEY</code></div>
+<div class=meta><span>أسعار</span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.coingecko.com/en/developers/dashboard" target="_blank" rel="noopener" onclick="mark('coingecko','opened')">تسجيل ↗</a>
+<button onclick="mark('coingecko','registered')">تم</button><button onclick="mark('coingecko','key_set')">المفتاح أُضيف</button></div></div></div><h2>dev <span class=pill>6</span></h2><div class=grid><div class=card data-id="github">
+<div class=head><b>GitHub</b><span class=b id="b_github">…</span></div>
+<div class=env><code>GITHUB_TOKEN,GITHUB_REPOS</code></div>
+<div class=meta><span>النشر</span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://github.com/signup" target="_blank" rel="noopener" onclick="mark('github','opened')">تسجيل ↗</a>
+<button onclick="mark('github','registered')">تم</button><button onclick="mark('github','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="cloudflare">
+<div class=head><b>Cloudflare</b><span class=b id="b_cloudflare">…</span></div>
+<div class=env><code>CLOUDFLARE_API_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener" onclick="mark('cloudflare','opened')">تسجيل ↗</a>
+<button onclick="mark('cloudflare','registered')">تم</button><button onclick="mark('cloudflare','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="supabase">
+<div class=head><b>Supabase</b><span class=b id="b_supabase">…</span></div>
+<div class=env><code>SUPABASE_URL,SUPABASE_KEY</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://supabase.com/dashboard/sign-up" target="_blank" rel="noopener" onclick="mark('supabase','opened')">تسجيل ↗</a>
+<button onclick="mark('supabase','registered')">تم</button><button onclick="mark('supabase','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="telegram">
+<div class=head><b>Telegram Bot</b><span class=b id="b_telegram">…</span></div>
+<div class=env><code>TELEGRAM_BOT_TOKEN,TG_CHAT_ID</code></div>
+<div class=meta><span>الرمز والتنبيهات</span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://telegram.org/" target="_blank" rel="noopener" onclick="mark('telegram','opened')">تسجيل ↗</a>
+<button onclick="mark('telegram','registered')">تم</button><button onclick="mark('telegram','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="vercel">
+<div class=head><b>Vercel</b><span class=b id="b_vercel">…</span></div>
+<div class=env><code>VERCEL_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://vercel.com/signup" target="_blank" rel="noopener" onclick="mark('vercel','opened')">تسجيل ↗</a>
+<button onclick="mark('vercel','registered')">تم</button><button onclick="mark('vercel','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="netlify">
+<div class=head><b>Netlify</b><span class=b id="b_netlify">…</span></div>
+<div class=env><code>NETLIFY_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://app.netlify.com/signup" target="_blank" rel="noopener" onclick="mark('netlify','opened')">تسجيل ↗</a>
+<button onclick="mark('netlify','registered')">تم</button><button onclick="mark('netlify','key_set')">المفتاح أُضيف</button></div></div></div><h2>ai <span class=pill>3</span></h2><div class=grid><div class=card data-id="openrouter">
+<div class=head><b>OpenRouter</b><span class=b id="b_openrouter">…</span></div>
+<div class=env><code>OPENROUTER_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://openrouter.ai/" target="_blank" rel="noopener" onclick="mark('openrouter','opened')">تسجيل ↗</a>
+<button onclick="mark('openrouter','registered')">تم</button><button onclick="mark('openrouter','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="deepseek">
+<div class=head><b>DeepSeek</b><span class=b id="b_deepseek">…</span></div>
+<div class=env><code>DEEPSEEK_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://platform.deepseek.com/sign_up" target="_blank" rel="noopener" onclick="mark('deepseek','opened')">تسجيل ↗</a>
+<button onclick="mark('deepseek','registered')">تم</button><button onclick="mark('deepseek','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="groq">
+<div class=head><b>Groq</b><span class=b id="b_groq">…</span></div>
+<div class=env><code>GROQ_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://console.groq.com/" target="_blank" rel="noopener" onclick="mark('groq','opened')">تسجيل ↗</a>
+<button onclick="mark('groq','registered')">تم</button><button onclick="mark('groq','key_set')">المفتاح أُضيف</button></div></div></div><h2>payments <span class=pill>1</span></h2><div class=grid><div class=card data-id="stripe">
+<div class=head><b>Stripe</b><span class=b id="b_stripe">…</span></div>
+<div class=env><code>STRIPE_SECRET_KEY</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span></span><span>سحب: Bank</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://dashboard.stripe.com/register" target="_blank" rel="noopener" onclick="mark('stripe','opened')">تسجيل ↗</a>
+<button onclick="mark('stripe','registered')">تم</button><button onclick="mark('stripe','key_set')">المفتاح أُضيف</button></div></div></div><h2>commerce <span class=pill>5</span></h2><div class=grid><div class=card data-id="gumroad">
+<div class=head><b>Gumroad</b><span class=b id="b_gumroad">…</span></div>
+<div class=env><code>GUMROAD_ACCESS_TOKEN</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span></span><span>سحب: PayPal</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://gumroad.com/signup" target="_blank" rel="noopener" onclick="mark('gumroad','opened')">تسجيل ↗</a>
+<button onclick="mark('gumroad','registered')">تم</button><button onclick="mark('gumroad','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="lemonsqueezy">
+<div class=head><b>Lemon Squeezy</b><span class=b id="b_lemonsqueezy">…</span></div>
+<div class=env><code>LEMONSQUEEZY_API_KEY</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span></span><span>سحب: PayPal</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://app.lemonsqueezy.com/register" target="_blank" rel="noopener" onclick="mark('lemonsqueezy','opened')">تسجيل ↗</a>
+<button onclick="mark('lemonsqueezy','registered')">تم</button><button onclick="mark('lemonsqueezy','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="payhip">
+<div class=head><b>Payhip</b><span class=b id="b_payhip">…</span></div>
+<div class=env><code>PAYHIP_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://payhip.com/signup" target="_blank" rel="noopener" onclick="mark('payhip','opened')">تسجيل ↗</a>
+<button onclick="mark('payhip','registered')">تم</button><button onclick="mark('payhip','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="buymeacoffee">
+<div class=head><b>Buy Me a Coffee</b><span class=b id="b_buymeacoffee">…</span></div>
+<div class=env><code>BUYMEACOFFEE_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: Bank</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.buymeacoffee.com/signup" target="_blank" rel="noopener" onclick="mark('buymeacoffee','opened')">تسجيل ↗</a>
+<button onclick="mark('buymeacoffee','registered')">تم</button><button onclick="mark('buymeacoffee','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="kofi">
+<div class=head><b>Ko-fi</b><span class=b id="b_kofi">…</span></div>
+<div class=env><code>KOFI_VERIFICATION_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://ko-fi.com/" target="_blank" rel="noopener" onclick="mark('kofi','opened')">تسجيل ↗</a>
+<button onclick="mark('kofi','registered')">تم</button><button onclick="mark('kofi','key_set')">المفتاح أُضيف</button></div></div></div><h2>marketing <span class=pill>1</span></h2><div class=grid><div class=card data-id="brevo">
+<div class=head><b>Brevo</b><span class=b id="b_brevo">…</span></div>
+<div class=env><code>BREVO_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://onboarding.brevo.com/account/register" target="_blank" rel="noopener" onclick="mark('brevo','opened')">تسجيل ↗</a>
+<button onclick="mark('brevo','registered')">تم</button><button onclick="mark('brevo','key_set')">المفتاح أُضيف</button></div></div></div><h2>tool <span class=pill>1</span></h2><div class=grid><div class=card data-id="captcha">
+<div class=head><b>2Captcha</b><span class=b id="b_captcha">…</span></div>
+<div class=env><code>CAPTCHA_API_KEY</code></div>
+<div class=meta><span>حل الكابتشا</span><span>سحب: USDT/PayPal</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://2captcha.com/auth/register" target="_blank" rel="noopener" onclick="mark('captcha','opened')">تسجيل ↗</a>
+<button onclick="mark('captcha','registered')">تم</button><button onclick="mark('captcha','key_set')">المفتاح أُضيف</button></div></div></div><h2>adult <span class=pill>14</span></h2><div class=grid><div class=card data-id="exoclick">
+<div class=head><b>ExoClick</b><span class=b id="b_exoclick">…</span></div>
+<div class=env><code>EXOCLICK_API_TOKEN</code></div>
+<div class=meta><span class=rev>مصدر ربح</span><span>best-effort</span><span>سحب: USDT/Wire</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://www.exoclick.com/signup/" target="_blank" rel="noopener" onclick="mark('exoclick','opened')">تسجيل ↗</a>
+<button onclick="mark('exoclick','registered')">تم</button><button onclick="mark('exoclick','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="juicyads">
+<div class=head><b>JuicyAds</b><span class=b id="b_juicyads">…</span></div>
+<div class=env><code>JUICYADS_API_KEY</code></div>
+<div class=meta><span>لوحة فقط</span><span>سحب: USDT/PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.juicyads.com/" target="_blank" rel="noopener" onclick="mark('juicyads','opened')">تسجيل ↗</a>
+<button onclick="mark('juicyads','registered')">تم</button><button onclick="mark('juicyads','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="trafficjunky">
+<div class=head><b>TrafficJunky</b><span class=b id="b_trafficjunky">…</span></div>
+<div class=env><code>TRAFFICJUNKY_API_KEY</code></div>
+<div class=meta><span>لوحة فقط</span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.trafficjunky.com/" target="_blank" rel="noopener" onclick="mark('trafficjunky','opened')">تسجيل ↗</a>
+<button onclick="mark('trafficjunky','registered')">تم</button><button onclick="mark('trafficjunky','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="trafficstars">
+<div class=head><b>TrafficStars</b><span class=b id="b_trafficstars">…</span></div>
+<div class=env><code>TRAFFICSTARS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: USDT/Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.trafficstars.com/signup" target="_blank" rel="noopener" onclick="mark('trafficstars','opened')">تسجيل ↗</a>
+<button onclick="mark('trafficstars','registered')">تم</button><button onclick="mark('trafficstars','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="plugrush">
+<div class=head><b>PlugRush</b><span class=b id="b_plugrush">…</span></div>
+<div class=env><code>PLUGRUSH_API_KEY,PLUGRUSH_ZONE</code></div>
+<div class=meta><span></span><span>سحب: BTC/USDT</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.plugrush.com/register" target="_blank" rel="noopener" onclick="mark('plugrush','opened')">تسجيل ↗</a>
+<button onclick="mark('plugrush','registered')">تم</button><button onclick="mark('plugrush','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="eroadvertising">
+<div class=head><b>EroAdvertising</b><span class=b id="b_eroadvertising">…</span></div>
+<div class=env><code>EROADS_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.eroadvertising.com/signup" target="_blank" rel="noopener" onclick="mark('eroadvertising','opened')">تسجيل ↗</a>
+<button onclick="mark('eroadvertising','registered')">تم</button><button onclick="mark('eroadvertising','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="bitterstrawberry">
+<div class=head><b>BitterStrawberry</b><span class=b id="b_bitterstrawberry">…</span></div>
+<div class=env><code>BITTER_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.bitterstrawberry.com/publishers" target="_blank" rel="noopener" onclick="mark('bitterstrawberry','opened')">تسجيل ↗</a>
+<button onclick="mark('bitterstrawberry','registered')">تم</button><button onclick="mark('bitterstrawberry','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="lospollos">
+<div class=head><b>LosPollos</b><span class=b id="b_lospollos">…</span></div>
+<div class=env><code>LOSPOLLOS_API_KEY</code></div>
+<div class=meta><span>smartlink CPA عالي الدفع</span><span>سحب: USDT/Paxum</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://lospollos.com/signup" target="_blank" rel="noopener" onclick="mark('lospollos','opened')">تسجيل ↗</a>
+<button onclick="mark('lospollos','registered')">تم</button><button onclick="mark('lospollos','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="crackrevenue">
+<div class=head><b>CrackRevenue</b><span class=b id="b_crackrevenue">…</span></div>
+<div class=env><code>CRACKREVENUE_API_KEY</code></div>
+<div class=meta><span>CPA</span><span>سحب: USDT/Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://crackrevenue.com/signup" target="_blank" rel="noopener" onclick="mark('crackrevenue','opened')">تسجيل ↗</a>
+<button onclick="mark('crackrevenue','registered')">تم</button><button onclick="mark('crackrevenue','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adnium">
+<div class=head><b>Adnium</b><span class=b id="b_adnium">…</span></div>
+<div class=env><code>ADNIUM_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://adnium.com/" target="_blank" rel="noopener" onclick="mark('adnium','opened')">تسجيل ↗</a>
+<button onclick="mark('adnium','registered')">تم</button><button onclick="mark('adnium','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adultforce">
+<div class=head><b>AdultForce</b><span class=b id="b_adultforce">…</span></div>
+<div class=env><code>ADULTFORCE_API_KEY</code></div>
+<div class=meta><span></span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.adultforce.com/publishers" target="_blank" rel="noopener" onclick="mark('adultforce','opened')">تسجيل ↗</a>
+<button onclick="mark('adultforce','registered')">تم</button><button onclick="mark('adultforce','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="vidoomy">
+<div class=head><b>Vidoomy</b><span class=b id="b_vidoomy">…</span></div>
+<div class=env><code>VIDOOMY_API_KEY</code></div>
+<div class=meta><span>فيديو</span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://vidoomy.com/publishers" target="_blank" rel="noopener" onclick="mark('vidoomy','opened')">تسجيل ↗</a>
+<button onclick="mark('vidoomy','registered')">تم</button><button onclick="mark('vidoomy','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="adspyglass">
+<div class=head><b>AdsPygGlass</b><span class=b id="b_adspyglass">…</span></div>
+<div class=env><code>ADSPYGLASS_API_KEY</code></div>
+<div class=meta><span>وسيط يدفع</span><span>سحب: USDT/PayPal</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.adspyglass.com/registration" target="_blank" rel="noopener" onclick="mark('adspyglass','opened')">تسجيل ↗</a>
+<button onclick="mark('adspyglass','registered')">تم</button><button onclick="mark('adspyglass','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="chaturbate">
+<div class=head><b>Chaturbate RevShare</b><span class=b id="b_chaturbate">…</span></div>
+<div class=env><code>CHATURBATE_USERNAME,CHATURBATE_CAMPAIGN</code></div>
+<div class=meta><span>20% مدى الحياة</span><span>سحب: Wire</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://chaturbate.com/affiliates/" target="_blank" rel="noopener" onclick="mark('chaturbate','opened')">تسجيل ↗</a>
+<button onclick="mark('chaturbate','registered')">تم</button><button onclick="mark('chaturbate','key_set')">المفتاح أُضيف</button></div></div></div><h2>channel <span class=pill>6</span></h2><div class=grid><div class=card data-id="tgchannel">
+<div class=head><b>Telegram Channel</b><span class=b id="b_tgchannel">…</span></div>
+<div class=env><code>TG_CHANNEL_ID</code></div>
+<div class=meta><span>قناة مجانية تدفع بالزيارات</span><span>سحب: -</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://t.me/" target="_blank" rel="noopener" onclick="mark('tgchannel','opened')">تسجيل ↗</a>
+<button onclick="mark('tgchannel','registered')">تم</button><button onclick="mark('tgchannel','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="youtube">
+<div class=head><b>YouTube</b><span class=b id="b_youtube">…</span></div>
+<div class=env><code>YOUTUBE_API_KEY,YOUTUBE_CHANNEL_ID</code></div>
+<div class=meta><span></span><span>سحب: AdSense</span><span>تحقق: api</span></div>
+<div class=acts><a href="https://studio.youtube.com/" target="_blank" rel="noopener" onclick="mark('youtube','opened')">تسجيل ↗</a>
+<button onclick="mark('youtube','registered')">تم</button><button onclick="mark('youtube','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="reddit">
+<div class=head><b>Reddit</b><span class=b id="b_reddit">…</span></div>
+<div class=env><code>REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.reddit.com/register" target="_blank" rel="noopener" onclick="mark('reddit','opened')">تسجيل ↗</a>
+<button onclick="mark('reddit','registered')">تم</button><button onclick="mark('reddit','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="pinterest">
+<div class=head><b>Pinterest</b><span class=b id="b_pinterest">…</span></div>
+<div class=env><code>PINTEREST_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.pinterest.com/business/create/" target="_blank" rel="noopener" onclick="mark('pinterest','opened')">تسجيل ↗</a>
+<button onclick="mark('pinterest','registered')">تم</button><button onclick="mark('pinterest','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="fbpage">
+<div class=head><b>Facebook Page</b><span class=b id="b_fbpage">…</span></div>
+<div class=env><code>FB_PAGE_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.facebook.com/pages/create" target="_blank" rel="noopener" onclick="mark('fbpage','opened')">تسجيل ↗</a>
+<button onclick="mark('fbpage','registered')">تم</button><button onclick="mark('fbpage','key_set')">المفتاح أُضيف</button></div></div><div class=card data-id="tiktok">
+<div class=head><b>TikTok</b><span class=b id="b_tiktok">…</span></div>
+<div class=env><code>TIKTOK_ACCESS_TOKEN</code></div>
+<div class=meta><span></span><span>سحب: -</span><span>تحقق: dash</span></div>
+<div class=acts><a href="https://www.tiktok.com/signup" target="_blank" rel="noopener" onclick="mark('tiktok','opened')">تسجيل ↗</a>
+<button onclick="mark('tiktok','registered')">تم</button><button onclick="mark('tiktok','key_set')">المفتاح أُضيف</button></div></div></div></main><script>
+const N=80,BADGE={"pending": "بانتظار التسجيل", "opened": "فُتح", "registered": "تم التسجيل", "key_set": "المفتاح مضاف", "live": "يعمل وحي"},COL={"pending": "#3b3b3b", "opened": "#8a6d00", "registered": "#1d4ed8", "key_set": "#7c3aed", "live": "#15803d"};
+function st(id){return JSON.parse(localStorage.ch||'{}')[id]||'pending'}
+function mark(id,s){const m=JSON.parse(localStorage.ch||'{}');m[id]=s;localStorage.setItem('ch',JSON.stringify(m));draw()}
+function draw(){let n=0;document.querySelectorAll('.card').forEach(c=>{const s=st(c.dataset.id);if(s!=='pending'&&s!=='opened')n++;
+const b=document.getElementById('b_'+c.dataset.id);b.textContent=BADGE[s];b.style.background=COL[s];b.style.color='#fff';
+c.style.borderColor=s==='live'?'#15803d':s==='key_set'?'#7c3aed':'#1e2733'});document.getElementById('prog').textContent=n+' / '+N}
+draw();</script></html><div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>

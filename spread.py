@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, os, re, glob, urllib.request, datetime
 ROOT = os.path.dirname(os.path.abspath(__file__)); os.chdir(ROOT)
-B = "https://alkazmybwhwr-dot.github.io"
+B = "https://alisalimax3.github.io"
 def urls():
     U = []
     for r, d, f in os.walk('.'):
@@ -19,7 +19,7 @@ open('robots.txt', 'w').write('User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\
 print('  sitemap: %d رابط' % len(U))
 k = [f[:-4] for f in glob.glob('*.txt') if re.fullmatch(r'[0-9a-f]{32}\.txt', f)]
 if k:
-    d = json.dumps({"host": "alkazmybwhwr-dot.github.io", "key": k[0], "keyLocation": B + "/" + k[0] + ".txt", "urlList": U[:900]}).encode()
+    d = json.dumps({"host": "alisalimax3.github.io", "key": k[0], "keyLocation": B + "/" + k[0] + ".txt", "urlList": U[:900]}).encode()
     for ep in ('https://api.indexnow.org/indexnow', 'https://www.bing.com/indexnow'):
         try:
             r = urllib.request.Request(ep, data=d, headers={'Content-Type': 'application/json; charset=utf-8'})

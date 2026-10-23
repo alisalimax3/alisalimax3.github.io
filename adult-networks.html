@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-apex-circle="adult">
+<head><link rel="icon" href="/assets/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شبكات الكبار — CineHub</title>
+    <meta name="description" content="أفضل شبكات الإعلانات والتسويق بالعمولة">
+    <!--CH:adult-networks-->
+<script src="/config.js"></script>
+<script src="/adult-ads.js" defer></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>شبكات الكبار</h1>
+        <p>شبكات إعلانية و affiliat مخصصة للمحتوى البالغ</p>
+    </header>
+    
+    <main>
+        <section class="networks-list">
+            <h2>الشبكات المدعومة</h2>
+            
+            <article class="network">
+                <h3>Stripchat</h3>
+                <p>عمولة: $1.50 لكل تسجيل | 20-25% revshare</p>
+                <a href="https://affiliates.stripchat.com/">التسجيل</a>
+            </article>
+            
+            <article class="network">
+                <h3>CrakRevenue</h3>
+                <p>عمولة: حتى $168 لكل تحويل</p>
+                <a href="https://www.crakrevenue.com/">التسجيل</a>
+            </article>
+            
+            <article class="network">
+                <h3>Chaturbate</h3>
+                <p>عمولة: 20% مدى الحياة</p>
+                <a href="https://chaturbate.com/affiliates/">التسجيل</a>
+            </article>
+            
+            <article class="network">
+                <h3>JuicyAds</h3>
+                <p>إعلانات بالبنر والبوب</p>
+                <a href="https://www.juicyads.com/">التسجيل</a>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>CineHub 3099 — جميع الحقوق محفوظة</p>
+    </footer>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="adult-footer" style="min-height:100px;margin:12px 0"></div>
+</body>
+</html>

@@ -1,0 +1,363 @@
+{
+ "at": "2026-10-22T18:05:42.584Z",
+ "count": 51,
+ "items": [
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/AUTH-CENTER.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/AUTH-CENTER.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/AUTH-CENTER.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/AUTH-CENTER.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/HUB.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/HUB.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/HUB.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/HUB.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/HUB.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "med",
+   "rule": "cors",
+   "file": "money/agent-core.js",
+   "msg": "CORS مفتوح للجميع",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/agent-core.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/agent-core.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/agent-core.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/agent-core.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/agent-core.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "med",
+   "rule": "cors",
+   "file": "money/gateway.js",
+   "msg": "CORS مفتوح للجميع",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/gateway.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/gateway.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/gateway.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/gateway.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/gateway.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/adash.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/adash.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/adash.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/adash.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/adash.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/agent-auth.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/agent-auth.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/agent-auth.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/agent-auth.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/agent-auth.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-load.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-load.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-load.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-load.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/q-load.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-scan.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-scan.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-scan.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-scan.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/q-scan.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-sectest.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/q-sectest.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "med",
+   "rule": "traversal",
+   "file": "money/lib/q-sectest.js",
+   "msg": "مسارات غير مُطبَّعة",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-static.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/q-static.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-test.js",
+   "msg": "لا X-Content-Type-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-test.js",
+   "msg": "لا X-Frame-Options",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-test.js",
+   "msg": "لا Referrer-Policy",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "header",
+   "file": "money/lib/q-test.js",
+   "msg": "لا CSP",
+   "fixable": false
+  },
+  {
+   "sev": "low",
+   "rule": "ratelimit",
+   "file": "money/lib/q-test.js",
+   "msg": "لا حدّ معدّل ظاهر",
+   "fixable": false
+  }
+ ]
+}

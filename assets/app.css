@@ -1,0 +1,29 @@
+:root{--bg:#0a0c11;--card:#131a25;--line:#1e2635;--fg:#e9eef6;--dim:#8b96a8;--acc:#3b82f6;--ok:#39d98a;--warn:#e8c76a;--bad:#ff7b7b}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#0a0c11,#0d1219 60%);color:var(--fg);font:15px/1.75 system-ui,Tahoma;min-height:100vh}
+a{color:#7db4ff;text-decoration:none}a:hover{opacity:.85}
+.wrap{max-width:1080px;margin:0 auto;padding:16px}
+.top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:14px}
+.top a{font-size:13px;color:var(--dim);padding:5px 9px;border-radius:8px}
+.top a:hover,.top a.on{background:var(--card);color:var(--fg)}
+.brand{font-weight:700;font-size:17px;color:var(--fg);margin-inline-end:auto}
+h1{font-size:23px;margin:.4em 0}h2{font-size:17px;color:#a8b8cc;margin:1.4em 0 .5em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:11px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tile img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;background:#0f1520}
+.tile b{display:block;font-size:12.5px;padding:6px;height:50px;overflow:hidden;font-weight:500}
+.k{color:var(--dim);font-size:13px}
+.btn{display:inline-block;padding:11px 16px;border:0;border-radius:11px;background:var(--acc);color:#fff;font-weight:600;cursor:pointer;font-size:15px}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--fg)}
+.btn[disabled]{background:#26303f;color:#7d8896}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.stat .v{font-size:22px;font-weight:700}.stat .l{font-size:12px;color:var(--dim)}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.ads{display:flex;justify-content:center;margin:14px 0;min-height:60px;align-items:center}
+.adsnote{color:#6b7787;font-size:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{padding:7px;border-bottom:1px solid var(--line);text-align:right}
+th{color:var(--dim);font-weight:500}
+input,textarea{width:100%;background:#0b0f17;border:1px solid var(--line);border-radius:9px;color:#cfe0f5;padding:9px;font-size:14px;font-family:inherit}
+.foot{color:var(--dim);font-size:12.5px;padding:22px 0;text-align:center}

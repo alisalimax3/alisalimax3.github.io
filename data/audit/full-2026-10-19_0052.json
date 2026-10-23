@@ -1,0 +1,27 @@
+{
+ "at": "2026-10-19 00:52:38",
+ "root": "/data/data/com.termux/files/home/cinehub3099",
+ "files": {
+  ".": 337,
+  "tools": 110,
+  "data": 34,
+  "adult": 500,
+  "go": 0
+ },
+ "branch": "main",
+ "dirty": 353,
+ "secrets": {
+  "defined": 67,
+  "filled": 17
+ },
+ "bad_json": [],
+ "catalog": {
+  "total": 15398,
+  "source": "catalog.json:15381 · titles.json:18",
+  "adult": 328
+ },
+ "pages": {
+  "root": 72,
+  "adult": 500
+ }
+}

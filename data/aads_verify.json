@@ -1,0 +1,25 @@
+{
+ "at": "2026-10-19 00:52",
+ "current": "3099",
+ "results": [
+  {
+   "id": "3099",
+   "ok": true,
+   "score": 7,
+   "size": 20000,
+   "res": [
+    {
+     "host": "acceptable.a-ads.com",
+     "size": 20000,
+     "score": 6
+    },
+    {
+     "host": "ad.a-ads.com",
+     "size": 16770,
+     "score": 7
+    }
+   ]
+  }
+ ],
+ "best": "3099"
+}

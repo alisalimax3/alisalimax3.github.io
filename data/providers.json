@@ -1,0 +1,230 @@
+{
+ "updated": "2026-10-19 00:17",
+ "ranked": [
+  {
+   "id": "crakrevenue",
+   "name": "CrakRevenue",
+   "fit": 82,
+   "reachable": true,
+   "min_payout": "$50",
+   "type": "affiliate_sale",
+   "url": "https://www.crakrevenue.com/"
+  },
+  {
+   "id": "adsterra",
+   "name": "Adsterra",
+   "fit": 78,
+   "reachable": true,
+   "min_payout": "$5 Paxum/WebMoney · $25 PayPal",
+   "type": "advertising",
+   "url": "https://adsterra.com/publishers/"
+  },
+  {
+   "id": "trafficstars",
+   "name": "TrafficStars",
+   "fit": 78,
+   "reachable": true,
+   "min_payout": "$10 USDT · $100 محافظ",
+   "type": "advertising",
+   "url": "https://trafficstars.com/"
+  },
+  {
+   "id": "hilltopads",
+   "name": "HilltopAds",
+   "fit": 71,
+   "reachable": true,
+   "min_payout": "$20",
+   "type": "advertising",
+   "url": "https://hilltopads.com/publishers/"
+  },
+  {
+   "id": "popads",
+   "name": "PopAds",
+   "fit": 70,
+   "reachable": true,
+   "min_payout": "$5",
+   "type": "advertising",
+   "url": "https://www.popads.net/"
+  },
+  {
+   "id": "clickadu",
+   "name": "Clickadu",
+   "fit": 55,
+   "reachable": true,
+   "min_payout": "$50",
+   "type": "advertising",
+   "url": "https://www.clickadu.com/"
+  },
+  {
+   "id": "mobidea",
+   "name": "Mobidea",
+   "fit": 55,
+   "reachable": true,
+   "min_payout": "$50",
+   "type": "cpa",
+   "url": "https://www.mobidea.com/"
+  },
+  {
+   "id": "zeydoo",
+   "name": "Zeydoo",
+   "fit": 55,
+   "reachable": true,
+   "min_payout": "$50",
+   "type": "cpa",
+   "url": "https://zeydoo.com/"
+  },
+  {
+   "id": "aads",
+   "name": "A-ADS",
+   "fit": 53,
+   "reachable": true,
+   "min_payout": "رصيد→BTC تلقائي",
+   "type": "advertising",
+   "url": "https://aads.com/earn/"
+  },
+  {
+   "id": "evadav",
+   "name": "EvaDav",
+   "fit": 48,
+   "reachable": true,
+   "min_payout": "$100",
+   "type": "advertising",
+   "url": "https://evadav.com/"
+  },
+  {
+   "id": "stripchat",
+   "name": "Stripchat (StripCash)",
+   "fit": 47,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_lead",
+   "url": "https://affiliates.stripchat.com/"
+  },
+  {
+   "id": "chaturbate",
+   "name": "Chaturbate",
+   "fit": 47,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://chaturbate.com/affiliates/"
+  },
+  {
+   "id": "exoclick",
+   "name": "ExoClick",
+   "fit": 43,
+   "reachable": false,
+   "min_payout": "$20 Paxum · $50 كريبتو · $200 حوالة",
+   "type": "advertising",
+   "url": "https://www.exoclick.com/publishers/"
+  },
+  {
+   "id": "popcash",
+   "name": "PopCash",
+   "fit": 43,
+   "reachable": false,
+   "min_payout": "$10",
+   "type": "advertising",
+   "url": "https://popcash.net/"
+  },
+  {
+   "id": "bonga",
+   "name": "BongaCams",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://bongacash.com/"
+  },
+  {
+   "id": "jasmin",
+   "name": "LiveJasmin",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://www.livejasmin.com/en/affiliate"
+  },
+  {
+   "id": "streamate",
+   "name": "Streamate",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://affiliate.streamate.com/"
+  },
+  {
+   "id": "jerkmate",
+   "name": "Jerkmate",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://jerkmate.com/"
+  },
+  {
+   "id": "flirt4free",
+   "name": "Flirt4Free",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://www.flirt4free.com/affiliates/"
+  },
+  {
+   "id": "imlive",
+   "name": "ImLive",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://www.imlive.com/affiliate/"
+  },
+  {
+   "id": "camsoda",
+   "name": "CamSoda",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://www.camsoda.com/affiliates"
+  },
+  {
+   "id": "xhlive",
+   "name": "xHamsterLive",
+   "fit": 32,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "affiliate_revshare",
+   "url": "https://xhamsterlive.com/"
+  },
+  {
+   "id": "juicyads",
+   "name": "JuicyAds",
+   "fit": 28,
+   "reachable": false,
+   "min_payout": "$25",
+   "type": "advertising",
+   "url": "https://www.juicyads.com/signup"
+  },
+  {
+   "id": "fancentro",
+   "name": "FanCentro",
+   "fit": 20,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "subscription",
+   "url": "https://fancentro.com/"
+  },
+  {
+   "id": "lospollos",
+   "name": "LosPollos",
+   "fit": 20,
+   "reachable": false,
+   "min_payout": "$50",
+   "type": "cpa",
+   "url": "https://lopollos.com/"
+  }
+ ]
+}

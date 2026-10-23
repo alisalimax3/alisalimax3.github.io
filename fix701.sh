@@ -2,7 +2,7 @@
 # fix701 · الإصلاح النهائي · كل شيء سحابياً · آمن للتكرار
 set -uo pipefail
 cd "$HOME/cinehub3099" 2>/dev/null || { printf '\033[31m✗ لا يوجد ~/cinehub3099\033[0m\n'; exit 1; }
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 T="$HOME/tmp3099"; mkdir -p "$T"
 G(){ printf '\033[32m%s\033[0m\n' "$1"; }
 Y(){ printf '\033[33m%s\033[0m\n' "$1"; }
@@ -187,7 +187,7 @@ print(w["updated"],"+%.8f"%rate,"=>","%.8f"%w["balance"])
 PY
 cat > cloud_daily.py <<'PY'
 import glob,html,time,os,json,re,urllib.request
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 try: d=json.load(open("earnings-daily.json"))
 except: d={"days":[]}
 try: w=json.load(open("wallet.json"))
@@ -259,7 +259,7 @@ git tag -f final-1 >/dev/null 2>&1; bash deploy.sh main "auto $(date -u +%FT%TZ)
 G "⑦ التحقق الحيّ (ينتظر انتشار GitHub Pages)"
 python3 - <<'PY'
 import urllib.request,time
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 L=["/","/platforms.html","/platforms.json","/signup.html","/withdraw.html","/wallet.json","/sitemap.xml","/robots.txt","/rss.xml","/earnings.js","/manifest.json","/sw.js"]
 def chk():
     bad=0

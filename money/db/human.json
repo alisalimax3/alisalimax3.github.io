@@ -1,0 +1,38 @@
+{
+ "svc-exoclick": {
+  "id": "svc-exoclick",
+  "at": "2026-10-22T17:59:01.280Z",
+  "why": "identity",
+  "url": "https://www.exoclick.com/signup/",
+  "steps": [
+   "افتح https://www.exoclick.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
+ },
+ "svc-galaksion": {
+  "id": "svc-galaksion",
+  "at": "2026-10-22T18:00:10.042Z",
+  "why": "identity",
+  "url": "https://galaksion.com/register",
+  "steps": [
+   "افتح https://galaksion.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
+ },
+ "svc-groq": {
+  "id": "svc-groq",
+  "at": "2026-10-23T22:21:34.478Z",
+  "why": "identity",
+  "url": "https://console.groq.com/signup",
+  "steps": [
+   "افتح https://groq.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
+ }
+}

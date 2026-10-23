@@ -1,0 +1,66 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>تقرير الفحص — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:11px 0}
+.high{border-right:4px solid #ff7a5c}.med{border-right:4px solid #ffd166}.low{border-right:4px solid #4cc2ff}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}.c{color:#8ea3b8;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:9px}
+.big{font-size:22px;font-weight:800}table{width:100%;border-collapse:collapse;font-size:13px}
+td,th{padding:7px;border-bottom:1px solid rgba(255,255,255,.07);text-align:right}th{color:#8ea3b8}</style><script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body>
+<h1>تقرير الفحص الحقيقي</h1>
+<p class="c" id="at">…</p>
+<div class="box"><div class="grid">
+<div><div class="c">ملفات حيّة</div><div class="big" id="live">0</div></div>
+<div><div class="c">أفلام</div><div class="big" id="films">0</div></div>
+<div><div class="c">كبار</div><div class="big" id="adult">0</div></div>
+<div><div class="c">مفاتيح صالحة</div><div class="big" id="keys">0</div></div>
+<div><div class="c">طلبات إعلان</div><div class="big" id="ads">0</div></div>
+<div><div class="c">الرصيد</div><div class="big" id="bal">$0</div></div></div></div>
+<div class="box"><b>الفجوات وما يلزم</b><div id="gaps" class="c">…</div></div>
+<div class="box"><b>الواجهات الخارجية</b><table><thead><tr><th>الواجهة</th><th>الرد</th><th>عناصر</th></tr></thead><tbody id="apis"></tbody></table></div>
+<div class="box"><b>الملفات الغائبة</b><div id="miss" class="c">…</div></div>
+<p><a href="tower.html">برج التحكّم</a> · <a href="keys.html">المفاتيح</a> · <a href="withdraw.html">السحب</a> · <a href="agent.html">الوكيل</a></p>
+<script>
+(function(){
+"use strict";
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+function set(i,v){var e=document.getElementById(i);if(e)e.textContent=v;}
+function money(x){x=Number(x);return "$"+(isFinite(x)?x:0).toFixed(6);}
+g("audit.json").then(function(a){
+ if(!a){document.getElementById("at").textContent="لا تقرير — شغّل AUDIT.sh";return;}
+ set("at","آخر فحص: "+new Date(a.at).toLocaleString());
+ set("live",(Object.keys(a.live||{}).length-(a.live_missing||[]).length)+"/"+Object.keys(a.live||{}).length);
+ set("films",(a.content||{}).films||0); set("adult",(a.content||{}).adult||0);
+ set("keys",(a.keys||{}).valid||0); set("ads",(a.agent||{}).ad_requests||0);
+ set("bal",money((a.money||{}).balance));
+ var G=document.getElementById("gaps");
+ G.innerHTML=(a.gaps||[]).map(function(x){
+  return "<div class='box "+x.sev+"'><b>"+x.what+"</b><div class='c'>الإصلاح: "+x.fix+"</div>"+
+   (x.how&&x.how.indexOf("http")===0?"<a href='"+x.how+"' target='_blank'>فتح ↗</a>":(x.how?"<span class='c'>"+x.how+"</span>":""))+"</div>";}).join("")||"<span class='ok'>لا فجوات ✓</span>";
+ var T=document.getElementById("apis");
+ T.innerHTML=(a.apis||[]).map(function(x){return "<tr><td>"+x.name+"</td><td class='"+(x.ok?"ok":"bad")+"'>"+x.code+"</td><td>"+(x.items===null?"—":x.items)+"</td></tr>";}).join("");
+ document.getElementById("miss").innerHTML=(a.live_missing||[]).map(function(f){return "<span class='bad'>✗ "+f+" </span>";}).join("")||"<span class='ok'>لا شيء ✓</span>";
+});
+})();
+</script><script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

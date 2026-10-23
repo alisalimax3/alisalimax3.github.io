@@ -46,7 +46,7 @@ cat > tools/diag.py <<'PYEOF'
 """يفحص ما هو منشور فعلًا على الموقع الحي ويكتب diag.json — بلا تخمين"""
 import json,os,urllib.request,datetime
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-LIVE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+LIVE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 FILES=["index.html","library.html","adult.html","play.html","watch.html","go.html","earn.html",
        "rise.html","agent.html","withdraw.html","keys.html","share.html","rails.html","tower.html",
        "rewards.html","cinema.html","auto.html","surveys.html","audit.html","live-dash.html","diag.html",

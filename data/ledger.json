@@ -1,0 +1,13 @@
+{
+  "schema": 3,
+  "entries": [
+    {
+      "site": "aads",
+      "amount": 1.2,
+      "kind": "earning",
+      "currency": "USD",
+      "note": "مُرحّل من schema قديم",
+      "at": "2026-10-19 00:00:00"
+    }
+  ]
+}

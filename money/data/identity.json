@@ -1,0 +1,65 @@
+{
+  "brand": "CineHub",
+  "slug": "cinehub",
+  "handle": "cinehub231",
+  "handleHQ": "CineHubHQ",
+  "handleOfficial": "CineHubOfficial",
+  "tagline_ar": "CineHub — أفلام ومسلسلات بجودة عالية، بلا إعلانات مزعجة.",
+  "tagline_en": "CineHub — Movies & series in HD, zero annoying ads.",
+  "desc_short_ar": "مشاهدة أفلام ومسلسلات مترجمة أونلاين بجودة عالية وسيرفرات سريعة.",
+  "desc_short_en": "Watch HD movies and subtitled series online, fast servers, daily updates.",
+  "desc_long_ar": "CineHub منصة لمشاهدة الأفلام والمسلسلات المترجمة أونلاين بجودة 1080p و4K.\nسيرفرات سريعة، تحديث يومي، ترجمة احترافية، واجهة خفيفة تعمل على أي جهاز.\nيشمل: أفلام أجنبية وعربية، مسلسلات تركية، أنمي، ومسلسلات رمضان.\nبلا تسجيل إجباري — افتح واعرض.",
+  "desc_long_en": "CineHub is a streaming index for HD movies and subtitled series.\nFast servers, daily updates, clean UI, works on any device.\nGenres: action, horror, sci-fi, animation, K-drama, anime, Arabic classics.\nNo forced signup.",
+  "keywords_ar": [
+    "افلام اون لاين",
+    "مسلسلات مترجمة",
+    "افلام 2026",
+    "انمي مترجم",
+    "افلام عربية",
+    "مسلسلات تركية",
+    "مشاهدة مباشرة",
+    "افلام 4k"
+  ],
+  "keywords_en": [
+    "watch movies online",
+    "hd movies",
+    "subtitled series",
+    "anime",
+    "korean drama",
+    "free streaming"
+  ],
+  "colors": {
+    "primary": "#2563eb",
+    "accent": "#7dd3fc",
+    "bg": "#0b0e14",
+    "text": "#e8eef7"
+  },
+  "email": {
+    "primary": "cinehub231@gmail.com",
+    "support": "support.cinehub231@gmail.com",
+    "legal": "legal.cinehub231@gmail.com",
+    "abuse": "abuse.cinehub231@gmail.com"
+  },
+  "password": "PzrQEc9OkgOx!Aa9",
+  "totp_secret": "O3LWXIWG56G6LXXYZZ7UG4ULVLQKRMDQ",
+  "totp_url": "otpauth://totp/CineHub:CineHub%3Acinehub231?secret=O3LWXIWG56G6LXXYZZ7UG4ULVLQKRMDQ&issuer=CineHub&algorithm=SHA1&digits=6&period=30",
+  "security": {
+    "pet": "Nile",
+    "city": "Cairo",
+    "school": "AlNoor",
+    "color": "Blue",
+    "car": "Toyota"
+  },
+  "usernames": [
+    "cinehub231",
+    "CineHubHQ",
+    "CineHubTV",
+    "CineHubOfficial",
+    "cinehub.app"
+  ],
+  "assets": {
+    "logo": "money/assets/logo.png",
+    "banner": "money/assets/banner.png"
+  },
+  "created": "2026-10-22T12:27:47.739Z"
+}

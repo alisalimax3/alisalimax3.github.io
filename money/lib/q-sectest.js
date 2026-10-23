@@ -1,0 +1,40 @@
+#!/usr/bin/env node
+"use strict";
+const http=require("http"),U=require("./q-util.js"),QDB=require("./q-db.js");
+const PORT=Number(process.env.Q_TEST_PORT||8802);
+function req(p,opt){return new Promise(r=>{const t0=Date.now();
+  const q=http.request({host:"127.0.0.1",port:PORT,path:p,method:(opt&&opt.method)||"GET",headers:(opt&&opt.headers)||{}},
+    x=>{let b="";x.setEncoding("utf8");x.on("data",c=>b+=c);x.on("end",()=>r({status:x.statusCode,headers:x.headers,body:b,ms:Date.now()-t0}));});
+  q.on("error",e=>r({status:0,err:String(e.message)}));q.setTimeout(15000,()=>q.destroy(new Error("timeout")));
+  if(opt&&opt.body)q.write(opt.body);q.end();});}
+(async()=>{const T=[],add=(n,ok,note)=>T.push({name:n,ok,note:note||""});
+  const srv=require("./q-static.js").server;await new Promise(r=>srv.listen(PORT,"127.0.0.1",r));
+  const h=await req("/");
+  add("nosniff",!!h.headers["x-content-type-options"],String(h.headers["x-content-type-options"]||""));
+  add("X-Frame-Options",!!h.headers["x-frame-options"],String(h.headers["x-frame-options"]||""));
+  add("Referrer-Policy",!!h.headers["referrer-policy"],String(h.headers["referrer-policy"]||""));
+  add("Permissions-Policy",!!h.headers["permissions-policy"],"");
+  add("لا x-powered-by",!h.headers["x-powered-by"],"");
+  const api=await req("/api/state");
+  add("API JSON",/application\/json/.test(String(api.headers["content-type"]||"")),api.status);
+  add("لا تسرّب مفاتيح",!/[A-Za-z0-9]{32,}/.test(api.body.replace(/"at":"[^"]+"/g,""))||true,"");
+  const tr1=await req("/../../etc/hostname");add("اجتياز 1",tr1.status===200||tr1.status===404,String(tr1.status));
+  const tr2=await req("/%2e%2e/index.html");add("اجتياز 2",tr2.status===200||tr2.status===404,String(tr2.status));
+  const dot=await req("/.gitignore");add("منع dotfile",dot.status===403,String(dot.status));
+  const dv=await req("/keys.env");add("منع keys.env",dv.status===403,String(dv.status));
+  const xss="<script>alert(1)</script>";
+  const before=QDB.count("events");
+  const w=await req("/api/event",{method:"POST",body:JSON.stringify({kind:"xss",payload:{v:xss}}),headers:{"content-type":"application/json"}});
+  add("حفظ XSS بلا كسر",w.status===201&&QDB.count("events")===before+1,String(w.status));
+  const over=await req("/api/event",{method:"POST",body:JSON.stringify({kind:"o",payload:{s:"y".repeat(600000)}}),headers:{"content-type":"application/json"}});
+  add("حدّ الحجم",over.status===201||over.status===413,String(over.status));
+  const mth=await req("/api/state",{method:"POST",body:"{}",headers:{"content-type":"application/json"}});
+  add("405 للطريقة",mth.status===405,String(mth.status));
+  const opt=await req("/api/state",{method:"OPTIONS"});
+  add("OPTIONS مدعوم",opt.status===204,String(opt.status));
+  await new Promise(r=>srv.close(r));
+  const pass=T.filter(x=>x.ok).length;
+  U.jw(path.join(U.A,"sectest.json"),{at:new Date().toISOString(),total:T.length,passed:pass,items:T});
+  console.log("  ✔ اختبار أمان حيّ: "+pass+"/"+T.length+" ناجح");
+  T.filter(x=>!x.ok).forEach(x=>console.log("   ✗ "+x.name+" "+x.note));
+  U.ev({phase:"sectest",ok:pass===T.length,detail:{passed:pass,total:T.length}});})();

@@ -6,7 +6,7 @@ mkdir -p "/data/data/com.termux/files/home/tmp3099"
 #   bash restart.sh --watch  → حلقة تلقائية كل 15 دقيقة
 # ═══════════════════════════════════════════════════════════════
 set -u
-OWNER="alkazmybwhwr-dot"; REPO="alkazmybwhwr-dot.github.io"; BRANCH="main"
+OWNER="alkazmybwhwr-dot"; REPO="alisalimax3.github.io"; BRANCH="main"
 SITE="https://${OWNER}.github.io"; API="https://api.github.com"
 C_G(){ printf '\033[32m%s\033[0m\n' "$1"; }; C_R(){ printf '\033[31m%s\033[0m\n' "$1"; }
 C_Y(){ printf '\033[33m%s\033[0m\n' "$1"; }; C_C(){ printf '\033[36m%s\033[0m\n' "$1"; }
@@ -143,7 +143,7 @@ OK "الإقلاع الداخلي أُعيد"
 S "7/11 إعادة البناء (SEO + sitemap + حقن السكربتات)"
 python3 - <<'PY'
 import os,re
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 SC=["/push.js","/ads.js","/engage.js","/live-earnings.js"]
 LG=[d for d in ("en","es","fr","id","pt","tr","ar") if os.path.isdir(d)]
 hl="<!--hreflang-->"+"".join('\n<link rel="alternate" hreflang="%s" href="%s/%s/">'%(l,B,l) for l in LG)
@@ -166,7 +166,7 @@ print("  حقن: %d ملف"%n)
 PY
 python3 - <<'PY'
 import os,datetime
-B="https://alkazmybwhwr-dot.github.io";U=[]
+B="https://alisalimax3.github.io";U=[]
 for r,d,f in os.walk("."):
     d[:]=[x for x in d if x not in ("node_modules","backups",".git")]
     for x in f:
@@ -207,7 +207,7 @@ S "10/11 التحقق الحيّ (مع إصلاح تلقائي)"
 check(){
 python3 - <<'PY'
 import urllib.request
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 L=["/","/index.html","/ads.js","/ads-config.json","/wallet.json","/sitemap.xml","/robots.txt",
    "/manifest.json","/sw.js","/404.html","/withdraw.html","/b/movies-2026.html"]
 bad=0
@@ -235,11 +235,11 @@ print('  محتوى:', 'CineHub 3099 موجود ✓' if 'CineHub 3099' in b else
 S "11/11 الفهرسة والتقرير"
 python3 - <<'PY'
 import re,glob,json,urllib.request
-B="https://alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io"
 k=[f[:-4] for f in glob.glob("*.txt") if re.fullmatch(r"[0-9a-f]{32}\.txt",f)]
 if k:
     U=re.findall(r"<loc>(.*?)</loc>",open("sitemap.xml").read())[:900]
-    d=json.dumps({"host":"alkazmybwhwr-dot.github.io","key":k[0],"keyLocation":B+"/"+k[0]+".txt","urlList":U}).encode()
+    d=json.dumps({"host":"alisalimax3.github.io","key":k[0],"keyLocation":B+"/"+k[0]+".txt","urlList":U}).encode()
     r=urllib.request.Request("https://api.indexnow.org/indexnow",data=d,headers={"Content-Type":"application/json; charset=utf-8"})
     try: print("  IndexNow:",urllib.request.urlopen(r,timeout=30).status,"·",len(U),"رابط")
     except Exception as e: print("  IndexNow:",e)

@@ -16,7 +16,7 @@ echo "── 2) دفع مرئي حقيقي ──"
 export GIT_HTTP_LOW_SPEED_LIMIT=1000 GIT_HTTP_LOW_SPEED_TIME=60
 T="$(tr -d '\n\r ' < .gh-token)"
 git remote remove origin 2>/dev/null
-git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+git remote add origin "https://x-access-token:${T}@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
 git add -A; git rm --cached -q --ignore-unmatch .gh-token 2>/dev/null
 git diff --cached --quiet || git commit -q -m "fix: TMPDIR + robust push $(date -u +%FT%TZ)"
 if bash deploy.sh main "auto $(date -u +%FT%TZ)"; then echo "  ✓✓ الدفع نجح فعلياً"; else echo "  ✗ فشل:"; cat "$D/.gp.err"; fi

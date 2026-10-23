@@ -1,11 +1,31 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>مشاهدة — CineHub 3099</title>
 <style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.8}
 a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:13px;margin:12px 0}
 .ad{border:1px dashed rgba(255,255,255,.18);border-radius:12px;padding:14px;text-align:center;color:#8ea3b8;margin:12px 0}
 iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
 .btn{display:inline-block;background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border-radius:10px;padding:10px 15px;margin:4px;border:0;font-size:14px;cursor:pointer}
-.c{color:#8ea3b8;font-size:13px}</style></head><body>
+.c{color:#8ea3b8;font-size:13px}</style><script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
+</head><body>
 <h1 id="t">…</h1><p class="c" id="m"></p>
 <iframe id="pl" allowfullscreen allow="autoplay; fullscreen"></iframe>
 <div class="ad" data-ad>إعلان</div>
@@ -19,7 +39,7 @@ iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;background:#000}
 "use strict";
 function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
 var id=decodeURIComponent((location.search.match(/[?&]id=([^&]+)/)||[])[1]||"");
-var SITE="https://alkazmybwhwr-dot.github.io/play.html?id=";
+var SITE="https://alisalimax3.github.io/play.html?id=";
 function hit(k){try{fetch("https://abacus.jasoncameron.dev/hit/ch3099-alkazmybwhwr-dot/"+k,{mode:"cors"}).catch(function(){});}catch(e){}}
 g("catalog.json").then(function(d){
  if(!d||!d.items){document.getElementById("t").textContent="لا كتالوج";return;}
@@ -44,4 +64,9 @@ document.getElementById("earn").onclick=function(){
 </script><script src="ads.js?v=3099-1792197840" defer></script>
 
 <script src="auto.js?v=3099-1792258952" defer></script>
-<script src="hits.js" defer></script></body></html>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 cd "$(dirname "$0")" || exit 1
 D="$(pwd)"
-O="alkazmybwhwr-dot"; R="alkazmybwhwr-dot.github.io"; B="main"
+O="alkazmybwhwr-dot"; R="alisalimax3.github.io"; B="main"
 rm -f "$D/.git/index.lock" ~/.git/index.lock 2>/dev/null
 if [ "$(git rev-parse --show-toplevel 2>/dev/null)" != "$D" ]; then
   rm -rf "$D/.git"; git init -q "$D"; git symbolic-ref HEAD refs/heads/$B

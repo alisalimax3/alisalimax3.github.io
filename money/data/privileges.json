@@ -1,0 +1,15 @@
+{
+ "at": "2026-10-22T18:12:22.186Z",
+ "root": false,
+ "chroot": true,
+ "tsu": true,
+ "storage": true,
+ "wakelock": true,
+ "boot": false,
+ "jobs": false,
+ "cron": true,
+ "services": true,
+ "steps": [
+  "منع نوم الجهاز"
+ ]
+}

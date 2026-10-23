@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+"use strict";
+const fs=require("fs"),path=require("path");
+const H=path.resolve(__dirname,".."),D=path.join(H,"data");
+const P=JSON.parse(fs.readFileSync(path.join(H,"sources-big.json"),"utf8"));
+const KW=(()=>{try{return JSON.parse(fs.readFileSync(path.join(D,"targets.json"),"utf8")).keywords;}catch(e){return["افلام اون لاين","مسلسلات مترجمة","انمي مترجم"];}})();
+const sp=s=>s.trim().split(/\s+/).filter(Boolean);
+const DIR=sp(`producthunt betalist alternativeto capterra g2 crunchbase startupbase.io f6s saashub toolify.ai theresanaiforthat futurepedia aitools.fyi topai.tools openfuture.ai aitoolhunt insidr.ai aitoolnet aixploria startuplist.io land-book godly website designnominees awwwards cssdesignawards thefwa dribbble behance onepagelove httpster minimal.gallery siteinspire webdesignclip pinterest tumblr medium substack hashnode dev.to hackernoon freecodecamp sitepoint smashingmagazine css-tricks alexa similarweb semrush ahrefs moz majestic statshow siteworthtraffic worthofweb urlscan virustotal shodan censys abuseipdb securityheaders ssllabs mxtoolbox dnschecker intodns whatsmydns pingdom gtmetrix webpagetest pagespeed.web.dev validator.w3.org jigsaw.w3.org jsonformatter beautifier minifier tinyjpg squoosh tinypng cloudconvert zamzar convertio ilovepdf smallpdf remove.bg photopea canva figma unsplash pexels pixabay freepik vecteezy flaticon iconfinder fontawesome googlefonts fonts.google dafont coolors colorhunt adobe-color fontpair typewolf dribbble-shots layers.to uplabs cssauthor codepen jsfiddle jsbin codesandbox stackblitz replit glitch codepen.io gitlab bitbucket sourceforge savannah gnu.org apache.org mozilla.org w3.org ietf.org rfc-editor w3c.github openstreetmap wikimedia wikipedia wikidata wiktionary archive.org gutenberg openlibrary gutendex standardebooks libgen annas-archive zlib libgen.is sci-hub arxiv crossref pubmed openalex doaj core.ac.uk semanticscholar researchgate academia.edu jstor.org springer nature sciencedirect ieee acm arxiv.org biorxiv medrxiv ssrn papers.ssrn nepsy philsci-archive osf.io figshare zenodo dryad dataverse harvard-dataverse imdb rottentomatoes metacritic letterboxd trakt tvmaze thetvdb simkl anilist myanimelist kitsu ann anime-planet mangaupdates mydramalist justwatch reelgood moviefone filmweb allmovie tmdb omdb fandango cinematerial movieposterdb kinopoisk the-numbers boxofficemojo imdb-charts goldderby awardsdatabase sundance cannes berlinale bfi afi criterion mubi indiewire variety deadline hollywoodreporter collider slashfilm firstshowing screenrant cinemablend denofgeek ign gamespot polygon kotaku eurogamer pcgamer rockpapershotgun vg247 destructoid giantbomb metacritic-games opencritic howlongtobeat backloggd steamgifts isthereanydeal cheapshark gg.deals humblebundle fanatical greenmangaming gog epicgames steam playstation xbox nintendo`);
+const ENGINE={"google":"https://www.google.com/search?q=","bing":"https://www.bing.com/search?q=","ddg":"https://duckduckgo.com/?q=",
+ "yandex":"https://yandex.com/search/?text=","brave":"https://search.brave.com/search?q=","startpage":"https://www.startpage.com/sp/search?query=",
+ "youtube":"https://www.youtube.com/results?search_query=","tiktok":"https://www.tiktok.com/search?q=","pinterest":"https://www.pinterest.com/search/pins/?q=",
+ "reddit":"https://www.reddit.com/search/?q=","quora":"https://www.quora.com/search?q=","medium":"https://medium.com/search?q="};
+const sites=[];
+for(const x of P){if(x.url&&x.url!=="-")sites.push({t:"platform",cat:x.cat,url:x.url});}
+for(const d of DIR)sites.push({t:"directory",url:"https://"+d});
+for(const[k,u]of Object.entries(ENGINE))for(const k2 of KW)sites.push({t:"search",engine:k,url:u+encodeURIComponent(k2)});
+for(const k2 of KW)sites.push({t:"hashtag",url:"https://www.instagram.com/explore/tags/"+k2.replace(/\s+/g,"")});
+const seen=new Set(),out=sites.filter(s=>{const k=s.url.replace(/\/$/,"");if(seen.has(k))return false;seen.add(k);return true;});
+const by={};out.forEach(s=>by[s.t]=(by[s.t]||0)+1);
+fs.writeFileSync(path.join(D,"sites3000.json"),JSON.stringify({at:new Date().toISOString(),total:out.length,counts:by,sites:out},null,1));
+console.log("  ✔ "+out.length+" موقع حقيقي — "+Object.entries(by).map(([k,v])=>k+"="+v).join(" · "));

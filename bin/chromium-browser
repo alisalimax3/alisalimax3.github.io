@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/bash
+REAL=/data/data/com.termux/files/usr/bin/chromium-browser
+args=(); hl=0
+for a in "$@"; do
+  case "$a" in
+    --headless|--headless=old*) hl=1 ;;
+    *) args+=("$a") ;;
+  esac
+done
+[ "$hl" = 1 ] && args+=("--headless=new")
+exec "$REAL" \
+  --disable-blink-features=AutomationControlled \
+  --disable-features=IsolateOrigins,site-per-process \
+  --disable-gpu --window-size=1366,900 --lang=en-US \
+  --no-first-run --no-default-browser-check --no-sandbox \
+  "${args[@]}" \
+  --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"

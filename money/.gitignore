@@ -1,0 +1,14 @@
+
+*.pid
+_backup/
+_deploy/
+money/apex/
+.check/
+*.log
+.tmp/
+data/profiles/
+money/apex/state/
+money/apex/dlq/
+money/logs/
+node_modules/
+*.bak

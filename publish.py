@@ -7,7 +7,7 @@ import urllib.error
 # ناشر GitHub حقيقي عبر Git Data API — يرفع دفعة واحدة ويمسح node_modules
 import os, sys, json, base64, re, glob, urllib.request, urllib.error
 
-OWNER, REPO, BRANCH = "alkazmybwhwr-dot", "alkazmybwhwr-dot.github.io", "main"
+OWNER, REPO, BRANCH = "alkazmybwhwr-dot", "alisalimax3.github.io", "main"
 SRC = os.path.expanduser("~/cinehub3099")
 KEEP = sorted(glob.glob(os.path.join(SRC,"b","*.html")))
 KEEP = ["index.html","live.js","sw.js","manifest.json","icon.svg","og.png",

@@ -1,5 +1,5 @@
 import os,re,glob,json,urllib.request
-B="https://alkazmybwhwr-dot.github.io";H="alkazmybwhwr-dot.github.io"
+B="https://alisalimax3.github.io";H="alisalimax3.github.io"
 k=[os.path.basename(f)[:-4] for f in glob.glob("*.txt") if re.fullmatch(r"[0-9a-f]{32}\.txt",os.path.basename(f))]
 if not k: print("! لا ملف مفتاح IndexNow"); raise SystemExit
 U=re.findall(r"<loc>(.*?)</loc>",open("sitemap.xml").read())[:900]

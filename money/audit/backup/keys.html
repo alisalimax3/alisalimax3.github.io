@@ -1,0 +1,76 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>ربط المفاتيح — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:14px 14px 70px;line-height:1.8}
+a{color:#4cc2ff}.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px;margin:11px 0}
+input,button{font-family:inherit;font-size:15px;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:#0f1720;color:#e9f1f8;width:100%;box-sizing:border-box;margin:5px 0}
+button{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0}
+.ok{color:#7fd88a}.bad{color:#ff9a6b}.c{color:#8ea3b8;font-size:13px}.step{background:rgba(76,194,255,.06);border:1px solid rgba(76,194,255,.2);border-radius:10px;padding:10px;margin:8px 0;font-size:13.5px}</style><script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body>
+<h1>ربط المفاتيح</h1>
+<p class="c">اربط واحدة فقط ليبدأ كل شيء. التحقق يتم على السيرفر مقابل واجهة الشبكة الحقيقية.</p>
+<div class="box"><b>الحالة الفعلية</b><div id="st" class="c">…</div></div>
+<div class="box"><b>1) Adsterra — ابدأ هنا</b>
+<div class="step">Sign Up → لوحة التحكم → <b>Account → API</b> → انسخ API Key.</div>
+<a href="https://adsterra.com" target="_blank" rel="noopener">فتح ↗</a>
+<input id="ADSTERRA_API_KEY" placeholder="ADSTERRA_API_KEY"><button class="sv">حفظ</button></div>
+<div class="box"><b>2) ExoClick — للكبار</b><a href="https://www.exoclick.com" target="_blank" rel="noopener">فتح ↗</a>
+<input id="EXOCLICK_KEY" placeholder="EXOCLICK_KEY"><button class="sv">حفظ</button></div>
+<div class="box"><b>3) Linkvertise</b><a href="https://linkvertise.com" target="_blank" rel="noopener">فتح ↗</a>
+<input id="LINKVERTISE_UID" placeholder="LINKVERTISE_UID"><button class="sv">حفظ</button></div>
+<div class="box"><b>4) BitLabs — استطلاعات</b><a href="https://bitlabs.ai" target="_blank" rel="noopener">فتح ↗</a>
+<input id="BITLABS_KEY" placeholder="BITLABS_KEY"><button class="sv">حفظ</button></div>
+<div class="box"><b>5) رابط إعلان مباشر (يعمل فورًا)</b>
+<input id="DIRECT_LINK" placeholder="https://..."><button class="sv">حفظ</button></div>
+<div class="box"><button id="push">دفع + دورة فورية</button><div id="r" class="c"></div></div>
+<script>
+(function(){
+"use strict";var K={};
+try{K=JSON.parse(localStorage.getItem("ch3099_keys")||"{}")}catch(e){}
+function g(u){return fetch(u+"?_="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null});}
+g("keys-status.json").then(function(s){var e=document.getElementById("st");
+ if(!s||!s.items||!s.items.length){e.innerHTML="لا مفاتيح مربوطة — ابدأ بـ Adsterra";return;}
+ e.innerHTML="مربوط: "+s.items.length+" · صالح: "+s.valid+"<br>"+s.items.map(function(x){
+  return "<div class='"+(x.verdict.indexOf("✓")>-1?"ok":(x.verdict.indexOf("✗")>-1?"bad":"c"))+"'>"+
+   (x.verdict.indexOf("✓")>-1?"✓ ":(x.verdict.indexOf("✗")>-1?"✗ ":"• "))+x.key+" — "+x.verdict+"</div>";}).join("");});
+document.querySelectorAll("input[id]").forEach(function(i){i.value=K[i.id]||"";i.oninput=function(){K[i.id]=i.value.trim();localStorage.setItem("ch3099_keys",JSON.stringify(K));};});
+document.querySelectorAll(".sv").forEach(function(b){b.onclick=function(){localStorage.setItem("ch3099_keys",JSON.stringify(K));b.textContent="محفوظ ✓";};});
+document.getElementById("push").onclick=function(){
+ var gh=JSON.parse(localStorage.getItem("ch3099_gh")||"{}");
+ if(!gh.token){document.getElementById("r").textContent="افتح go.html أولًا";return;}
+ var env=Object.keys(K).filter(function(k){return K[k]}).map(function(k){return k+"="+K[k]}).join("\n")+"\n";
+ var url="https://api.github.com/repos/"+gh.repo+"/contents/keys.env";
+ var H={Authorization:"token "+gh.token,"Content-Type":"application/json"};
+ document.getElementById("r").textContent="جارٍ الدفع…";
+ fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+  var b={message:"keys",content:btoa(unescape(encodeURIComponent(env))),branch:gh.branch||"main"};
+  if(j&&j.sha)b.sha=j.sha;
+  return fetch(url,{method:"PUT",headers:H,body:JSON.stringify(b)});})
+ .then(function(){return fetch("https://api.github.com/repos/"+gh.repo+"/dispatches",
+  {method:"POST",headers:{Authorization:"token "+gh.token,"Content-Type":"application/json"},
+   body:JSON.stringify({event_type:"agent-cycle"})});})
+ .then(function(){document.getElementById("r").innerHTML="<span class='ok'>تم ✓ — التحقق يظهر بعد دقيقة</span>";})
+ .catch(function(e){document.getElementById("r").textContent="فشل: "+e;});};
+})();
+</script>
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, os, re, html, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-B = "https://alkazmybwhwr-dot.github.io"
+B = "https://alisalimax3.github.io"
 if not os.path.exists('data/index.json'): raise SystemExit('شغّل build.py أولاً')
 D = json.load(open('data/index.json', encoding='utf-8'))
 def esc(s): return html.escape(str(s or ''), quote=True)

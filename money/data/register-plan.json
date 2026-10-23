@@ -1,0 +1,6607 @@
+{
+ "at": "2026-10-22T17:57:04.554Z",
+ "total": 596,
+ "plan": [
+  {
+   "id": "exoclick",
+   "name": "ExoClick",
+   "cat": "adult",
+   "url": "https://www.exoclick.com/signup/",
+   "env": [
+    "EXOCLICK_API_TOKEN",
+    "EXOCLICK_ZONE"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "juicyads",
+   "name": "JuicyAds",
+   "cat": "adult",
+   "url": "https://www.juicyads.com/register",
+   "env": [
+    "JUICYADS_API_KEY",
+    "JUICYADS_ZONE"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "trafficstars",
+   "name": "TrafficStars",
+   "cat": "adult",
+   "url": "https://www.trafficstars.com/signup",
+   "env": [
+    "TRAFFICSTARS_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "trafficjunky",
+   "name": "TrafficJunky",
+   "cat": "adult",
+   "url": "https://www.trafficjunky.com/publishers",
+   "env": [
+    "TRAFFICJUNKY_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "eroads",
+   "name": "EroAdvertising",
+   "cat": "adult",
+   "url": "https://www.eroadvertising.com/signup",
+   "env": [
+    "EROADS_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "lospollos",
+   "name": "LosPollos",
+   "cat": "adult",
+   "url": "https://lospollos.com/signup",
+   "env": [
+    "LOSPOLLOS_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "crakrevenue",
+   "name": "CrakRevenue",
+   "cat": "adult",
+   "url": "https://www.crakrevenue.com",
+   "env": [
+    "CRACKREVENUE_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "admaven",
+   "name": "AdMaven",
+   "cat": "adult",
+   "url": "https://ad-maven.com",
+   "env": [
+    "ADMAVEN_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "clickadilla",
+   "name": "ClickAdilla",
+   "cat": "adult",
+   "url": "https://clickadilla.com",
+   "env": [
+    "CLICKADILLA_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "evadav",
+   "name": "Evadav",
+   "cat": "adult",
+   "url": "https://evadav.com",
+   "env": [
+    "EVADAV_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "galaksion",
+   "name": "Galaksion",
+   "cat": "adult",
+   "url": "https://galaksion.com",
+   "env": [
+    "GALAKSION_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "mylead",
+   "name": "MyLead 🇩🇪",
+   "cat": "adult",
+   "url": "https://mylead.global",
+   "env": [
+    "MYLEAD_API_TOKEN"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "cpagrip",
+   "name": "CPAGrip",
+   "cat": "adult",
+   "url": "https://www.cpagrip.com",
+   "env": [
+    "CPAGRIP_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "pushhouse",
+   "name": "Push.House",
+   "cat": "adult",
+   "url": "https://push.house",
+   "env": [
+    "PUSHHOUSE_TOKEN"
+   ],
+   "tier": "A",
+   "pri": 0
+  },
+  {
+   "id": "chaturbate",
+   "name": "Chaturbate",
+   "cat": "adult",
+   "url": "https://chaturbate.com/affiliates/",
+   "env": [
+    "CHATURBATE_USERNAME",
+    "CHATURBATE_CAMPAIGN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "stripcash",
+   "name": "StripCash (Stripchat)",
+   "cat": "adult",
+   "url": "https://stripcash.com",
+   "env": [
+    "STRIPCASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "awempire",
+   "name": "AWEmpire / LiveJasmin",
+   "cat": "adult",
+   "url": "https://www.awempire.com",
+   "env": [
+    "AWEMPIRE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "xlovecash",
+   "name": "XloveCash",
+   "cat": "adult",
+   "url": "https://www.xlovecash.com",
+   "env": [
+    "XLOVECASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "flirt4free",
+   "name": "Flirt4Free",
+   "cat": "adult",
+   "url": "https://affiliates.flirt4free.com",
+   "env": [
+    "FLIRT4FREE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "bongacash",
+   "name": "BongaCash",
+   "cat": "adult",
+   "url": "https://bongacash.com",
+   "env": [
+    "BONGACASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adultforce",
+   "name": "AdultForce",
+   "cat": "adult",
+   "url": "https://www.adultforce.com/publishers",
+   "env": [
+    "ADULTFORCE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "popads",
+   "name": "PopAds",
+   "cat": "adult",
+   "url": "https://www.popads.net",
+   "env": [
+    "POPADS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "twinred",
+   "name": "TwinRed",
+   "cat": "adult",
+   "url": "https://twinred.com",
+   "env": [
+    "TWINRED_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adxpansion",
+   "name": "AdXpansion",
+   "cat": "adult",
+   "url": "https://adxpansion.com",
+   "env": [
+    "ADXPANSION_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "vidoomy",
+   "name": "Vidoomy",
+   "cat": "adult",
+   "url": "https://vidoomy.com/publishers",
+   "env": [
+    "VIDOOMY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adspyglass",
+   "name": "AdsPygGlass",
+   "cat": "adult",
+   "url": "https://www.adspyglass.com/registration",
+   "env": [
+    "ADSPYGLASS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "streamate",
+   "name": "Streamate MoneyTree 🇺🇸",
+   "cat": "adult",
+   "url": "https://affiliate.streamate.com",
+   "env": [
+    "STREAMATE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "myfreecams",
+   "name": "MyFreeCams 🇺🇸",
+   "cat": "adult",
+   "url": "https://www.myfreecams.com",
+   "env": [
+    "MYFREECAMS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "xhamster",
+   "name": "xHamster 🇨🇾",
+   "cat": "adult",
+   "url": "https://xhamster.com/affiliates",
+   "env": [
+    "XHAMSTER_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "aylo",
+   "name": "Aylo / Pornhub 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.pornhub.com/affiliates",
+   "env": [
+    "PH_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "trafficfactory",
+   "name": "TrafficFactory 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.trafficfactory.biz",
+   "env": [
+    "TRAFFICFACTORY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "ad4game",
+   "name": "Ad4Game 🇪🇺",
+   "cat": "adult",
+   "url": "https://www.ad4game.com",
+   "env": [
+    "AD4GAME_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "mobidea",
+   "name": "Mobidea 🇵🇹",
+   "cat": "adult",
+   "url": "https://www.mobidea.com",
+   "env": [
+    "MOBIDEA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "rollerads",
+   "name": "RollerAds",
+   "cat": "adult",
+   "url": "https://rollerads.com",
+   "env": [
+    "ROLLERADS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "kadam",
+   "name": "Kadam",
+   "cat": "adult",
+   "url": "https://kadam.net",
+   "env": [
+    "KADAM_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adcash",
+   "name": "Adcash 🇵🇹",
+   "cat": "adult",
+   "url": "https://adcash.com",
+   "env": [
+    "ADCASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cpx",
+   "name": "CPX Research",
+   "cat": "adult",
+   "url": "https://cpx-research.com",
+   "env": [
+    "CPX_APP_ID",
+    "CPX_SECURE_HASH"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "bitlabs",
+   "name": "BitLabs",
+   "cat": "adult",
+   "url": "https://bitlabs.ai",
+   "env": [
+    "BITLABS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "ayet",
+   "name": "Ayet Studios",
+   "cat": "adult",
+   "url": "https://ayetstudios.com",
+   "env": [
+    "AYET_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adgate",
+   "name": "AdGate Media",
+   "cat": "adult",
+   "url": "https://adgatemedia.com",
+   "env": [
+    "ADGATE_APP_ID",
+    "ADGATE_SECRET"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "zeydoo",
+   "name": "Zeydoo",
+   "cat": "adult",
+   "url": "https://zeydoo.com",
+   "env": [
+    "ZEYDOO_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cpalead",
+   "name": "CPALead",
+   "cat": "adult",
+   "url": "https://www.cpalead.com",
+   "env": [
+    "CPALEAD_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "ogads",
+   "name": "OGAds",
+   "cat": "adult",
+   "url": "https://ogads.com",
+   "env": [
+    "OGADS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "mobipium",
+   "name": "Mobipium",
+   "cat": "adult",
+   "url": "https://mobipium.com",
+   "env": [
+    "MOBIPIUM_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adsimilis",
+   "name": "Adsimilis",
+   "cat": "adult",
+   "url": "https://adsimilis.com",
+   "env": [
+    "ADSIMILIS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "camsoda",
+   "name": "CamSoda 🇺🇸",
+   "cat": "adult",
+   "url": "https://www.camsoda.com/affiliates",
+   "env": [
+    "CAMSODA_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "imlive",
+   "name": "ImLive 🇺🇸",
+   "cat": "adult",
+   "url": "https://www.imlive.com/affiliates",
+   "env": [
+    "IMLIVE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "sexier",
+   "name": "Sexier",
+   "cat": "adult",
+   "url": "https://www.sexier.com/affiliate",
+   "env": [
+    "SEXIER_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "xcams",
+   "name": "xCams 🇪🇸",
+   "cat": "adult",
+   "url": "https://www.xcams.com/affiliates",
+   "env": [
+    "XCAMS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "skyprivate",
+   "name": "SkyPrivate",
+   "cat": "adult",
+   "url": "https://www.skyprivate.com/affiliates",
+   "env": [
+    "SKYPRIVATE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adcombo",
+   "name": "AdCombo",
+   "cat": "adult",
+   "url": "https://adcombo.com",
+   "env": [
+    "ADCOMBO_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "everad",
+   "name": "Everad",
+   "cat": "adult",
+   "url": "https://everad.com",
+   "env": [
+    "EVERAD_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "datalytics",
+   "name": "Datalytics",
+   "cat": "adult",
+   "url": "https://datalytics.com",
+   "env": [
+    "DATALYTICS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cupid",
+   "name": "Cupid plc 🇬🇧",
+   "cat": "adult",
+   "url": "https://www.cupidplc.com/affiliates",
+   "env": [
+    "CUPID_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "friendfinder",
+   "name": "FriendFinder 🇺🇸",
+   "cat": "adult",
+   "url": "https://www.friendfinder.com/affiliates",
+   "env": [
+    "FRIENDFINDER_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "datinggold",
+   "name": "DatingGold 🇺🇸",
+   "cat": "adult",
+   "url": "https://www.datinggold.com",
+   "env": [
+    "DATINGGOLD_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "xvideos",
+   "name": "XVideos 🇫🇷",
+   "cat": "adult",
+   "url": "https://www.xvideos.com/affiliates",
+   "env": [
+    "XVIDEOS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "redtube",
+   "name": "RedTube 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.redtube.com/affiliates",
+   "env": [
+    "REDTUBE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "youporn",
+   "name": "YouPorn 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.youporn.com/affiliates",
+   "env": [
+    "YOUPORN_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "spankwire",
+   "name": "SpankWire 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.spankwire.com",
+   "env": [
+    "SPANKWIRE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "beeg",
+   "name": "Beeg",
+   "cat": "adult",
+   "url": "https://beeg.com",
+   "env": [
+    "BEEG_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "txxx",
+   "name": "TXXX",
+   "cat": "adult",
+   "url": "https://txxx.com",
+   "env": [
+    "TXXX_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "hqporner",
+   "name": "HQPorner",
+   "cat": "adult",
+   "url": "https://hqporner.com",
+   "env": [
+    "HQPORNER_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adnium",
+   "name": "Adnium",
+   "cat": "adult",
+   "url": "https://adnium.com",
+   "env": [
+    "ADNIUM_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "trafficshop",
+   "name": "TrafficShop",
+   "cat": "adult",
+   "url": "https://trafficshop.com",
+   "env": [
+    "TRAFFICSHOP_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "traffichaus",
+   "name": "TrafficHaus",
+   "cat": "adult",
+   "url": "https://traffichaus.com",
+   "env": [
+    "TRAFFICHAUS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "popcash",
+   "name": "PopCash",
+   "cat": "adult",
+   "url": "https://popcash.net",
+   "env": [
+    "POPCASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "popmyads",
+   "name": "PopMyAds",
+   "cat": "adult",
+   "url": "https://popmyads.com",
+   "env": [
+    "POPMYADS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adultmoda",
+   "name": "AdultModa",
+   "cat": "adult",
+   "url": "https://www.adultmoda.com",
+   "env": [
+    "ADULTMODA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adsolut",
+   "name": "Adsolut",
+   "cat": "adult",
+   "url": "https://adsolut.com",
+   "env": [
+    "ADSOLUT_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adnetwork",
+   "name": "AdNetwork.net",
+   "cat": "adult",
+   "url": "https://adnetwork.net",
+   "env": [
+    "ADNETWORK_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "clickaine",
+   "name": "ClickAine",
+   "cat": "adult",
+   "url": "https://clickaine.com",
+   "env": [
+    "CLICKAINE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adprofex",
+   "name": "AdProfex",
+   "cat": "adult",
+   "url": "https://adprofex.com",
+   "env": [
+    "ADPROFEX_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "exdynsrv",
+   "name": "ExDynSrv",
+   "cat": "adult",
+   "url": "https://exdynsrv.com",
+   "env": [
+    "EXDYNSRV_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cam4",
+   "name": "Cam4 🇨🇦",
+   "cat": "adult",
+   "url": "https://www.cam4.com/affiliates",
+   "env": [
+    "CAM4_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "camcontacts",
+   "name": "CamContacts",
+   "cat": "adult",
+   "url": "https://www.camcontacts.com",
+   "env": [
+    "CAMCONTACTS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "liveprivates",
+   "name": "LivePrivates",
+   "cat": "adult",
+   "url": "https://www.liveprivates.com",
+   "env": [
+    "LIVEPRIVATES_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "sakuralive",
+   "name": "SakuraLive",
+   "cat": "adult",
+   "url": "https://www.sakuralive.com",
+   "env": [
+    "SAKURALIVE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "bangbros",
+   "name": "BangBros 🇺🇸",
+   "cat": "adult",
+   "url": "https://bangbros.com/affiliates",
+   "env": [
+    "BANGBROS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "brazzers",
+   "name": "Brazzers (Aylo)",
+   "cat": "adult",
+   "url": "https://www.brazzers.com/affiliates",
+   "env": [
+    "BRAZZERS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "realitykings",
+   "name": "RealityKings",
+   "cat": "adult",
+   "url": "https://www.realitykings.com/affiliates",
+   "env": [
+    "REALITYKINGS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "vixen",
+   "name": "Vixen Media",
+   "cat": "adult",
+   "url": "https://www.vixen.com/affiliates",
+   "env": [
+    "VIXEN_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "letsdoeit",
+   "name": "LetsDoeIt",
+   "cat": "adult",
+   "url": "https://letsdoeit.com",
+   "env": [
+    "LETSDOEIT_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "pornone",
+   "name": "PornOne",
+   "cat": "adult",
+   "url": "https://pornone.com",
+   "env": [
+    "PORNONE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "porntrex",
+   "name": "PornTrex",
+   "cat": "adult",
+   "url": "https://www.porntrex.com",
+   "env": [
+    "PORNTREX_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "sunporno",
+   "name": "SunPorno",
+   "cat": "adult",
+   "url": "https://www.sunporno.com",
+   "env": [
+    "SUNPORNO_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "thumbzilla",
+   "name": "Thumbzilla (Aylo)",
+   "cat": "adult",
+   "url": "https://www.thumbzilla.com/affiliates",
+   "env": [
+    "THUMBZILLA_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "yandexads",
+   "name": "Yandex Ads",
+   "cat": "adult",
+   "url": "https://yandex.com/ads",
+   "env": [
+    "YANDEX_ADS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "bidvertiser",
+   "name": "Bidvertiser",
+   "cat": "adult",
+   "url": "https://www.bidvertiser.com",
+   "env": [
+    "BIDVERTISER_ID"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "clicksor",
+   "name": "Clicksor",
+   "cat": "adult",
+   "url": "https://www.clicksor.com",
+   "env": [
+    "CLICKSOR_ID"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "yllix",
+   "name": "Yllix",
+   "cat": "adult",
+   "url": "https://www.yllix.com",
+   "env": [
+    "YLLIX_ID"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adbuff",
+   "name": "AdBuff",
+   "cat": "adult",
+   "url": "https://adbuff.com",
+   "env": [
+    "ADBUFF_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adreactor",
+   "name": "AdReactor",
+   "cat": "adult",
+   "url": "https://www.adreactor.com",
+   "env": [
+    "ADREACTOR_ID"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "megapush",
+   "name": "MegaPush",
+   "cat": "adult",
+   "url": "https://megapu.sh",
+   "env": [
+    "MEGAPUSH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "richpush",
+   "name": "RichPush",
+   "cat": "adult",
+   "url": "https://richpush.co",
+   "env": [
+    "RICHPUSH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "datspush",
+   "name": "DatsPush",
+   "cat": "adult",
+   "url": "https://datspush.com",
+   "env": [
+    "DATSPUSH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "notix",
+   "name": "Notix",
+   "cat": "adult",
+   "url": "https://notix.co",
+   "env": [
+    "NOTIX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "pushground",
+   "name": "Pushground",
+   "cat": "adult",
+   "url": "https://pushground.com",
+   "env": [
+    "PUSHGROUND_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adoperator",
+   "name": "AdOperator",
+   "cat": "adult",
+   "url": "https://adoperator.com",
+   "env": [
+    "ADOPERATOR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "propush",
+   "name": "ProPush",
+   "cat": "adult",
+   "url": "https://propush.me",
+   "env": [
+    "PROPUSH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "stripchat",
+   "name": "Stripchat",
+   "cat": "adult",
+   "url": "https://stripchat.com/affiliates",
+   "env": [
+    "STRIPCHAT_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "bongacams",
+   "name": "BongaCams",
+   "cat": "adult",
+   "url": "https://bongacams.com/affiliates",
+   "env": [
+    "BONGACAMS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "faphouse",
+   "name": "FapHouse",
+   "cat": "adult",
+   "url": "https://faphouse.com",
+   "env": [
+    "FAPHOUSE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "jerkmate",
+   "name": "Jerkmate",
+   "cat": "adult",
+   "url": "https://jerkmate.com",
+   "env": [
+    "JERKMATE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "fansly",
+   "name": "Fansly",
+   "cat": "adult",
+   "url": "https://fansly.com",
+   "env": [
+    "FANSLY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "manyvids",
+   "name": "ManyVids",
+   "cat": "adult",
+   "url": "https://www.manyvids.com",
+   "env": [
+    "MANYVIDS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "clips4sale",
+   "name": "Clips4Sale",
+   "cat": "adult",
+   "url": "https://www.clips4sale.com",
+   "env": [
+    "CLIPS4SALE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "kink",
+   "name": "Kink.com",
+   "cat": "adult",
+   "url": "https://www.kink.com",
+   "env": [
+    "KINK_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "xempire",
+   "name": "XEmpire",
+   "cat": "adult",
+   "url": "https://www.xempire.com",
+   "env": [
+    "XEMPIRE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "babes",
+   "name": "Babes",
+   "cat": "adult",
+   "url": "https://www.babes.com",
+   "env": [
+    "BABES_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "digitalplayground",
+   "name": "Digital Playground",
+   "cat": "adult",
+   "url": "https://www.digitalplayground.com",
+   "env": [
+    "DPLAYGROUND_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "elegantangel",
+   "name": "Elegant Angel",
+   "cat": "adult",
+   "url": "https://www.elegantangel.com",
+   "env": [
+    "ELEGANTANGEL_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "puretaboo",
+   "name": "PureTaboo",
+   "cat": "adult",
+   "url": "https://www.puretaboo.com",
+   "env": [
+    "PURETABOO_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "blacked",
+   "name": "Blacked",
+   "cat": "adult",
+   "url": "https://www.blacked.com",
+   "env": [
+    "BLACKED_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "tushy",
+   "name": "Tushy",
+   "cat": "adult",
+   "url": "https://www.tushy.com",
+   "env": [
+    "TUSHY_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "deeper",
+   "name": "Deeper",
+   "cat": "adult",
+   "url": "https://www.deeper.com",
+   "env": [
+    "DEEPER_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "milfed",
+   "name": "Milfed",
+   "cat": "adult",
+   "url": "https://www.milfed.com",
+   "env": [
+    "MILFED_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "naughtyamerica",
+   "name": "Naughty America",
+   "cat": "adult",
+   "url": "https://www.naughtyamerica.com",
+   "env": [
+    "NAUGHTYAMERICA_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "twistys",
+   "name": "Twistys",
+   "cat": "adult",
+   "url": "https://www.twistys.com",
+   "env": [
+    "TWISTYS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "playboyplus",
+   "name": "Playboy Plus",
+   "cat": "adult",
+   "url": "https://www.playboyplus.com",
+   "env": [
+    "PLAYBOYPLUS_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "maxbounty",
+   "name": "MaxBounty",
+   "cat": "adult",
+   "url": "https://www.maxbounty.com",
+   "env": [
+    "MAXBOUNTY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "drcash",
+   "name": "Dr.Cash",
+   "cat": "adult",
+   "url": "https://drcash.com",
+   "env": [
+    "DRCASH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "terraleads",
+   "name": "TerraLeads",
+   "cat": "adult",
+   "url": "https://terraleads.com",
+   "env": [
+    "TERRALEADS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cpamatica",
+   "name": "Cpamatica",
+   "cat": "adult",
+   "url": "https://cpamatica.com",
+   "env": [
+    "CPAMATICA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "advidi",
+   "name": "Advidi",
+   "cat": "adult",
+   "url": "https://advidi.com",
+   "env": [
+    "ADVIDI_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "w4",
+   "name": "W4",
+   "cat": "adult",
+   "url": "https://w4.com",
+   "env": [
+    "W4_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "yeahmobi",
+   "name": "YeahMobi",
+   "cat": "adult",
+   "url": "https://www.yeahmobi.com",
+   "env": [
+    "YEAHMOBI_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "offertoro",
+   "name": "OfferToro",
+   "cat": "adult",
+   "url": "https://www.offertoro.com",
+   "env": [
+    "OFFERTORO_APP_ID",
+    "OFFERTORO_SECRET"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adworkmedia",
+   "name": "AdWorkMedia",
+   "cat": "adult",
+   "url": "https://www.adworkmedia.com",
+   "env": [
+    "ADWORKMEDIA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adscendmedia",
+   "name": "Adscend Media",
+   "cat": "adult",
+   "url": "https://adscendmedia.com",
+   "env": [
+    "ADSCEND_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adtraction",
+   "name": "Adtraction",
+   "cat": "adult",
+   "url": "https://adtraction.com",
+   "env": [
+    "ADTRACTION_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "tradetracker",
+   "name": "TradeTracker",
+   "cat": "adult",
+   "url": "https://www.tradetracker.com",
+   "env": [
+    "TRADETRACKER_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "awin",
+   "name": "Awin",
+   "cat": "adult",
+   "url": "https://www.awin.com",
+   "env": [
+    "AWIN_API_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "cj",
+   "name": "CJ Affiliate",
+   "cat": "adult",
+   "url": "https://www.cj.com",
+   "env": [
+    "CJ_API_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "impact",
+   "name": "Impact.com",
+   "cat": "adult",
+   "url": "https://impact.com",
+   "env": [
+    "IMPACT_ACCOUNT_SID",
+    "IMPACT_AUTH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "shareasale",
+   "name": "ShareASale",
+   "cat": "adult",
+   "url": "https://www.shareasale.com",
+   "env": [
+    "SHAREASALE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "rakutenadv",
+   "name": "Rakuten Advertising",
+   "cat": "adult",
+   "url": "https://www.rakutenadvertising.com",
+   "env": [
+    "RAKUTEN_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "clickbank",
+   "name": "ClickBank",
+   "cat": "adult",
+   "url": "https://www.clickbank.com",
+   "env": [
+    "CLICKBANK_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "digistore24",
+   "name": "Digistore24",
+   "cat": "adult",
+   "url": "https://www.digistore24.com",
+   "env": [
+    "DIGISTORE24_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adultfriendfinder",
+   "name": "AdultFriendFinder",
+   "cat": "adult",
+   "url": "https://www.adultfriendfinder.com",
+   "env": [
+    "AFF_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "be2",
+   "name": "Be2",
+   "cat": "adult",
+   "url": "https://www.be2.com",
+   "env": [
+    "BE2_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "parship",
+   "name": "Parship",
+   "cat": "adult",
+   "url": "https://www.parship.com",
+   "env": [
+    "PARSHIP_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "elitesingles",
+   "name": "EliteSingles",
+   "cat": "adult",
+   "url": "https://www.elitesingles.com",
+   "env": [
+    "ELITESINGLES_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "zoosk",
+   "name": "Zoosk",
+   "cat": "adult",
+   "url": "https://www.zoosk.com",
+   "env": [
+    "ZOOSK_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "okcupid",
+   "name": "OkCupid",
+   "cat": "adult",
+   "url": "https://www.okcupid.com",
+   "env": [
+    "OKCUPID_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "meetville",
+   "name": "Meetville",
+   "cat": "adult",
+   "url": "https://meetville.com",
+   "env": [
+    "MEETVILLE_AFFILIATE"
+   ],
+   "tier": "B",
+   "pri": 0
+  },
+  {
+   "id": "adsterra",
+   "name": "Adsterra",
+   "cat": "ads",
+   "url": "https://publishers.adsterra.com/signup",
+   "env": [
+    "ADSTERRA_API_KEY",
+    "ADSTERRA_PUB_ID"
+   ],
+   "tier": "A",
+   "pri": 1
+  },
+  {
+   "id": "monetag",
+   "name": "Monetag",
+   "cat": "ads",
+   "url": "https://monetag.com",
+   "env": [
+    "MONETAG_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 1
+  },
+  {
+   "id": "propellerads",
+   "name": "PropellerAds",
+   "cat": "ads",
+   "url": "https://publishers.propellerads.com",
+   "env": [
+    "PROPELLERADS_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 1
+  },
+  {
+   "id": "hilltopads",
+   "name": "HilltopAds",
+   "cat": "ads",
+   "url": "https://hilltopads.com",
+   "env": [
+    "HILLTOPADS_API_KEY"
+   ],
+   "tier": "A",
+   "pri": 1
+  },
+  {
+   "id": "adsense",
+   "name": "Google AdSense",
+   "cat": "ads",
+   "url": "https://www.google.com/adsense/start/",
+   "env": [
+    "ADSENSE_CLIENT"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "clickadu",
+   "name": "Clickadu",
+   "cat": "ads",
+   "url": "https://www.clickadu.com",
+   "env": [
+    "CLICKADU_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "raptive",
+   "name": "Raptive (AdThrive) 🇺🇸",
+   "cat": "ads",
+   "url": "https://raptive.com",
+   "env": [
+    "RAPTIVE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "mediavine",
+   "name": "Mediavine 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.mediavine.com",
+   "env": [
+    "MEDIAVINE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "snigel",
+   "name": "Snigel 🇬🇧",
+   "cat": "ads",
+   "url": "https://www.snigel.com",
+   "env": [
+    "SNIGEL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "setupad",
+   "name": "Setupad 🇱🇻",
+   "cat": "ads",
+   "url": "https://setupad.com",
+   "env": [
+    "SETUPAD_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "ezoic",
+   "name": "Ezoic 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.ezoic.com",
+   "env": [
+    "EZOIC_API_KEY",
+    "EZOIC_SITE_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "medianet",
+   "name": "Media.net",
+   "cat": "ads",
+   "url": "https://www.media.net",
+   "env": [
+    "MEDIANET_CUSTOMER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "infolinks",
+   "name": "Infolinks",
+   "cat": "ads",
+   "url": "https://www.infolinks.com",
+   "env": [
+    "INFOLINKS_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "mgid",
+   "name": "MGID",
+   "cat": "ads",
+   "url": "https://www.mgid.com",
+   "env": [
+    "MGID_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "taboola",
+   "name": "Taboola",
+   "cat": "ads",
+   "url": "https://www.taboola.com",
+   "env": [
+    "TABOOLA_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "outbrain",
+   "name": "Outbrain",
+   "cat": "ads",
+   "url": "https://www.outbrain.com",
+   "env": [
+    "OUTBRAIN_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "sovrn",
+   "name": "Sovrn",
+   "cat": "ads",
+   "url": "https://www.sovrn.com",
+   "env": [
+    "SOVRN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "pubmatic",
+   "name": "PubMatic",
+   "cat": "ads",
+   "url": "https://pubmatic.com",
+   "env": [
+    "PUBMATIC_PUB_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "amazonaps",
+   "name": "Amazon APS",
+   "cat": "ads",
+   "url": "https://aps.amazon.com",
+   "env": [
+    "AMAZON_APS_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "newor",
+   "name": "Newor Media 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.newormedia.com",
+   "env": [
+    "NEWOR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "shemedia",
+   "name": "She Media",
+   "cat": "ads",
+   "url": "https://www.shemedia.com",
+   "env": [
+    "SHEMEDIA_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "monumetric",
+   "name": "Monumetric 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.monumetric.com",
+   "env": [
+    "MONUMETRIC_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "freestar",
+   "name": "Freestar 🇺🇸",
+   "cat": "ads",
+   "url": "https://freestar.com",
+   "env": [
+    "FREESTAR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "nitropay",
+   "name": "NitroPay",
+   "cat": "ads",
+   "url": "https://nitropay.com",
+   "env": [
+    "NITROPAY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "playwire",
+   "name": "Playwire 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.playwire.com",
+   "env": [
+    "PLAYWIRE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "adplus",
+   "name": "Ad.Plus",
+   "cat": "ads",
+   "url": "https://ad.plus",
+   "env": [
+    "ADPLUS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "adform",
+   "name": "Adform",
+   "cat": "ads",
+   "url": "https://www.adform.com",
+   "env": [
+    "ADFORM_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "criteo",
+   "name": "Criteo 🇫🇷",
+   "cat": "ads",
+   "url": "https://www.criteo.com",
+   "env": [
+    "CRITEO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "adroll",
+   "name": "AdRoll 🇺🇸",
+   "cat": "ads",
+   "url": "https://www.adroll.com",
+   "env": [
+    "ADROLL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "smartadserver",
+   "name": "Equativ Smart",
+   "cat": "ads",
+   "url": "https://smartadserver.com",
+   "env": [
+    "SMART_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "adtelligent",
+   "name": "Adtelligent",
+   "cat": "ads",
+   "url": "https://adtelligent.com",
+   "env": [
+    "ADTEL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "revenuehits",
+   "name": "RevenueHits",
+   "cat": "ads",
+   "url": "https://www.revenuehits.com",
+   "env": [
+    "REVENUEHITS_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "adcash2",
+   "name": "Adcash Interstitial",
+   "cat": "ads",
+   "url": "https://adcash.com",
+   "env": [
+    "ADCASH_PUBLISHER_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "magnite",
+   "name": "Magnite",
+   "cat": "ads",
+   "url": "https://www.magnite.com",
+   "env": [
+    "MAGNITE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "openx",
+   "name": "OpenX",
+   "cat": "ads",
+   "url": "https://www.openx.com",
+   "env": [
+    "OPENX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "indexexchange",
+   "name": "Index Exchange",
+   "cat": "ads",
+   "url": "https://www.indexexchange.com",
+   "env": [
+    "IX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "triplelift",
+   "name": "TripleLift",
+   "cat": "ads",
+   "url": "https://triplelift.com",
+   "env": [
+    "TRIPLELIFT_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "sharethrough",
+   "name": "Sharethrough",
+   "cat": "ads",
+   "url": "https://www.sharethrough.com",
+   "env": [
+    "SHARETHROUGH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "gumgum",
+   "name": "GumGum",
+   "cat": "ads",
+   "url": "https://gumgum.com",
+   "env": [
+    "GUMGUM_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "kargo",
+   "name": "Kargo",
+   "cat": "ads",
+   "url": "https://kargo.com",
+   "env": [
+    "KARGO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "sonobi",
+   "name": "Sonobi",
+   "cat": "ads",
+   "url": "https://sonobi.com",
+   "env": [
+    "SONOBI_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "beachfront",
+   "name": "Beachfront",
+   "cat": "ads",
+   "url": "https://beachfront.com",
+   "env": [
+    "BEACHFRONT_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "onetag",
+   "name": "OneTag",
+   "cat": "ads",
+   "url": "https://onetag.com",
+   "env": [
+    "ONETAG_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "districtm",
+   "name": "District M",
+   "cat": "ads",
+   "url": "https://districtm.io",
+   "env": [
+    "DISTRICTM_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "aniview",
+   "name": "Aniview",
+   "cat": "ads",
+   "url": "https://aniview.com",
+   "env": [
+    "ANIVIEW_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "connatix",
+   "name": "Connatix",
+   "cat": "ads",
+   "url": "https://connatix.com",
+   "env": [
+    "CONNATIX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "primis",
+   "name": "Primis",
+   "cat": "ads",
+   "url": "https://www.primis.tech",
+   "env": [
+    "PRIMIS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "vidazoo",
+   "name": "Vidazoo",
+   "cat": "ads",
+   "url": "https://vidazoo.com",
+   "env": [
+    "VIDAZOO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "tremorvideo",
+   "name": "Tremor Video",
+   "cat": "ads",
+   "url": "https://www.tremorvideo.com",
+   "env": [
+    "TREMOR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "equativ",
+   "name": "Equativ",
+   "cat": "ads",
+   "url": "https://www.equativ.com",
+   "env": [
+    "EQUATIV_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "beeswax",
+   "name": "Beeswax",
+   "cat": "ads",
+   "url": "https://beeswax.io",
+   "env": [
+    "BEESWAX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "innovid",
+   "name": "Innovid",
+   "cat": "ads",
+   "url": "https://www.innovid.com",
+   "env": [
+    "INNOVID_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "extremereach",
+   "name": "Extreme Reach",
+   "cat": "ads",
+   "url": "https://extremereach.com",
+   "env": [
+    "EXTREMEREACH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "applovin",
+   "name": "AppLovin",
+   "cat": "ads",
+   "url": "https://www.applovin.com",
+   "env": [
+    "APPLOVIN_SDK_KEY"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "ironsource",
+   "name": "ironSource",
+   "cat": "ads",
+   "url": "https://www.is.com",
+   "env": [
+    "IRONSOURCE_APP_KEY"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "unityads",
+   "name": "Unity Ads",
+   "cat": "ads",
+   "url": "https://unity.com/solutions/unity-ads",
+   "env": [
+    "UNITY_GAME_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "vungle",
+   "name": "Vungle",
+   "cat": "ads",
+   "url": "https://vungle.com",
+   "env": [
+    "VUNGLE_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "tapjoy",
+   "name": "Tapjoy",
+   "cat": "ads",
+   "url": "https://www.tapjoy.com",
+   "env": [
+    "TAPJOY_SDK_KEY"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "chartboost",
+   "name": "Chartboost",
+   "cat": "ads",
+   "url": "https://www.chartboost.com",
+   "env": [
+    "CHARTBOOST_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "fyber",
+   "name": "Fyber",
+   "cat": "ads",
+   "url": "https://www.fyber.com",
+   "env": [
+    "FYBER_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "startapp",
+   "name": "StartApp",
+   "cat": "ads",
+   "url": "https://www.startapp.com",
+   "env": [
+    "STARTAPP_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "appnext",
+   "name": "Appnext",
+   "cat": "ads",
+   "url": "https://www.appnext.com",
+   "env": [
+    "APPNEXT_PLACEMENT_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "inmobi",
+   "name": "InMobi",
+   "cat": "ads",
+   "url": "https://www.inmobi.com",
+   "env": [
+    "INMOBI_ACCOUNT_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "smaato",
+   "name": "Smaato",
+   "cat": "ads",
+   "url": "https://www.smaato.com",
+   "env": [
+    "SMAATO_PUB_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "liftoff",
+   "name": "Liftoff",
+   "cat": "ads",
+   "url": "https://liftoff.io",
+   "env": [
+    "LIFTOFF_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "mintegral",
+   "name": "Mintegral",
+   "cat": "ads",
+   "url": "https://www.mintegral.com",
+   "env": [
+    "MINTEGRAL_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "digitalturbine",
+   "name": "Digital Turbine",
+   "cat": "ads",
+   "url": "https://www.digitalturbine.com",
+   "env": [
+    "DT_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "admob",
+   "name": "Google AdMob",
+   "cat": "ads",
+   "url": "https://admob.google.com",
+   "env": [
+    "ADMOB_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 1
+  },
+  {
+   "id": "stripe",
+   "name": "Stripe",
+   "cat": "pay",
+   "url": "https://dashboard.stripe.com/apikeys",
+   "env": [
+    "STRIPE_SECRET_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "lemonsqueezy",
+   "name": "LemonSqueezy",
+   "cat": "pay",
+   "url": "https://app.lemonsqueezy.com/settings/api",
+   "env": [
+    "LEMONSQUEEZY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "gumroad",
+   "name": "Gumroad",
+   "cat": "pay",
+   "url": "https://gumroad.com/settings/advanced",
+   "env": [
+    "GUMROAD_ACCESS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "payhip",
+   "name": "Payhip",
+   "cat": "pay",
+   "url": "https://payhip.com",
+   "env": [
+    "PAYHIP_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "buymeacoffee",
+   "name": "BuyMeACoffee",
+   "cat": "pay",
+   "url": "https://www.buymeacoffee.com",
+   "env": [
+    "BUYMEACOFFEE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "kofi",
+   "name": "Ko-fi",
+   "cat": "pay",
+   "url": "https://ko-fi.com",
+   "env": [
+    "KOFI_VERIFICATION_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "faucetpay",
+   "name": "FaucetPay",
+   "cat": "pay",
+   "url": "https://faucetpay.io",
+   "env": [
+    "FAUCETPAY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "nowpayments",
+   "name": "NOWPayments",
+   "cat": "pay",
+   "url": "https://account.nowpayments.io",
+   "env": [
+    "NOWPAYMENTS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "patreon",
+   "name": "Patreon",
+   "cat": "pay",
+   "url": "https://www.patreon.com",
+   "env": [
+    "PATREON_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "paddle",
+   "name": "Paddle 🇬🇧",
+   "cat": "pay",
+   "url": "https://www.paddle.com",
+   "env": [
+    "PADDLE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "coinbasecommerce",
+   "name": "Coinbase Commerce",
+   "cat": "pay",
+   "url": "https://commerce.coinbase.com",
+   "env": [
+    "COINBASE_COMMERCE_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "cryptomus",
+   "name": "Cryptomus",
+   "cat": "pay",
+   "url": "https://cryptomus.com",
+   "env": [
+    "CRYPTOMUS_MERCHANT_ID",
+    "CRYPTOMUS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "coinpayments",
+   "name": "CoinPayments",
+   "cat": "pay",
+   "url": "https://www.coinpayments.net",
+   "env": [
+    "COINPAYMENTS_PUBLIC_KEY",
+    "COINPAYMENTS_PRIVATE_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "payeer",
+   "name": "Payeer",
+   "cat": "pay",
+   "url": "https://payeer.com",
+   "env": [
+    "PAYEER_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "wise",
+   "name": "Wise 🇬🇧",
+   "cat": "pay",
+   "url": "https://wise.com",
+   "env": [
+    "WISE_API_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "paypal",
+   "name": "PayPal",
+   "cat": "pay",
+   "url": "https://developer.paypal.com",
+   "env": [
+    "PAYPAL_CLIENT_ID",
+    "PAYPAL_SECRET"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "klarna",
+   "name": "Klarna 🇸🇪",
+   "cat": "pay",
+   "url": "https://www.klarna.com",
+   "env": [
+    "KLARNA_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "adyen",
+   "name": "Adyen 🇳🇱",
+   "cat": "pay",
+   "url": "https://www.adyen.com",
+   "env": [
+    "ADYEN_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "mollie",
+   "name": "Mollie 🇳🇱",
+   "cat": "pay",
+   "url": "https://www.mollie.com",
+   "env": [
+    "MOLLIE_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "checkout",
+   "name": "Checkout.com 🇬🇧",
+   "cat": "pay",
+   "url": "https://www.checkout.com",
+   "env": [
+    "CHECKOUT_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "payoneer",
+   "name": "Payoneer 🇺🇸",
+   "cat": "pay",
+   "url": "https://www.payoneer.com",
+   "env": [
+    "PAYONEER_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "skrill",
+   "name": "Skrill 🇬🇧",
+   "cat": "pay",
+   "url": "https://www.skrill.com",
+   "env": [
+    "SKRILL_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "neteller",
+   "name": "Neteller",
+   "cat": "pay",
+   "url": "https://www.neteller.com",
+   "env": [
+    "NETELLER_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "airtm",
+   "name": "Airtm",
+   "cat": "pay",
+   "url": "https://www.airtm.com",
+   "env": [
+    "AIRTM_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "perfectmoney",
+   "name": "Perfect Money",
+   "cat": "pay",
+   "url": "https://perfectmoney.com",
+   "env": [
+    "PERFECTMONEY_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "liberapay",
+   "name": "Liberapay 🇫🇷",
+   "cat": "pay",
+   "url": "https://liberapay.com",
+   "env": [
+    "LIBERAPAY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "opencollective",
+   "name": "Open Collective",
+   "cat": "pay",
+   "url": "https://opencollective.com",
+   "env": [
+    "OC_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "ghsponsors",
+   "name": "GitHub Sponsors",
+   "cat": "pay",
+   "url": "https://github.com/sponsors",
+   "env": [
+    "GH_SPONSORS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "partnerstack",
+   "name": "PartnerStack",
+   "cat": "pay",
+   "url": "https://partnerstack.com",
+   "env": [
+    "PARTNERSTACK_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "refersion",
+   "name": "Refersion",
+   "cat": "pay",
+   "url": "https://www.refersion.com",
+   "env": [
+    "REFERSION_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "tapfiliate",
+   "name": "Tapfiliate",
+   "cat": "pay",
+   "url": "https://tapfiliate.com",
+   "env": [
+    "TAPFILIATE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "postaffiliatepro",
+   "name": "Post Affiliate Pro",
+   "cat": "pay",
+   "url": "https://www.postaffiliatepro.com",
+   "env": [
+    "POSTAFFILIATEPRO_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "affiliatewp",
+   "name": "AffiliateWP",
+   "cat": "pay",
+   "url": "https://affiliatewp.com",
+   "env": [
+    "AFFILIATEWP_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "firstpromoter",
+   "name": "FirstPromoter",
+   "cat": "pay",
+   "url": "https://firstpromoter.com",
+   "env": [
+    "FIRSTPROMOTER_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "rewardful",
+   "name": "Rewardful",
+   "cat": "pay",
+   "url": "https://www.rewardful.com",
+   "env": [
+    "REWARDFUL_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "paysera",
+   "name": "Paysera",
+   "cat": "pay",
+   "url": "https://www.paysera.com",
+   "env": [
+    "PAYSERA_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "paytabs",
+   "name": "PayTabs",
+   "cat": "pay",
+   "url": "https://www.paytabs.com",
+   "env": [
+    "PAYTABS_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "tap-company",
+   "name": "Tap Payments",
+   "cat": "pay",
+   "url": "https://www.tap.company",
+   "env": [
+    "TAP_SECRET_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "hyperpay",
+   "name": "HyperPay",
+   "cat": "pay",
+   "url": "https://www.hyperpay.com",
+   "env": [
+    "HYPERPAY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "moyasar",
+   "name": "Moyasar",
+   "cat": "pay",
+   "url": "https://moyasar.com",
+   "env": [
+    "MOYASAR_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "paymob",
+   "name": "Paymob",
+   "cat": "pay",
+   "url": "https://www.paymob.com",
+   "env": [
+    "PAYMOB_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "fawry",
+   "name": "Fawry",
+   "cat": "pay",
+   "url": "https://www.fawry.com",
+   "env": [
+    "FAWRY_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "myfatoorah",
+   "name": "MyFatoorah",
+   "cat": "pay",
+   "url": "https://www.myfatoorah.com",
+   "env": [
+    "MYFATOORAH_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "telr",
+   "name": "Telr",
+   "cat": "pay",
+   "url": "https://telr.com",
+   "env": [
+    "TELR_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "razorpay",
+   "name": "Razorpay",
+   "cat": "pay",
+   "url": "https://razorpay.com",
+   "env": [
+    "RAZORPAY_KEY_ID",
+    "RAZORPAY_KEY_SECRET"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "cashfree",
+   "name": "Cashfree",
+   "cat": "pay",
+   "url": "https://www.cashfree.com",
+   "env": [
+    "CASHFREE_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "fastspring",
+   "name": "FastSpring",
+   "cat": "pay",
+   "url": "https://fastspring.com",
+   "env": [
+    "FASTSPRING_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "chargebee",
+   "name": "Chargebee",
+   "cat": "pay",
+   "url": "https://www.chargebee.com",
+   "env": [
+    "CHARGEBEE_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "recurly",
+   "name": "Recurly",
+   "cat": "pay",
+   "url": "https://recurly.com",
+   "env": [
+    "RECURLY_KEY"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "verifone-2co",
+   "name": "Verifone 2Checkout",
+   "cat": "pay",
+   "url": "https://www.2checkout.com",
+   "env": [
+    "TWOCO_ACCOUNT",
+    "TWOCO_SECRET"
+   ],
+   "tier": "B",
+   "pri": 2
+  },
+  {
+   "id": "mastodon",
+   "name": "Mastodon",
+   "cat": "channel",
+   "url": "https://joinmastodon.org",
+   "env": [
+    "MASTODON_TOKEN"
+   ],
+   "tier": "A",
+   "pri": 3
+  },
+  {
+   "id": "telegram",
+   "name": "Telegram Bot",
+   "cat": "channel",
+   "url": "https://t.me/BotFather",
+   "env": [
+    "TELEGRAM_BOT_TOKEN",
+    "TG_CHAT_ID"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "youtube",
+   "name": "YouTube Data",
+   "cat": "channel",
+   "url": "https://console.cloud.google.com",
+   "env": [
+    "YOUTUBE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "reddit",
+   "name": "Reddit",
+   "cat": "channel",
+   "url": "https://www.reddit.com/prefs/apps",
+   "env": [
+    "REDDIT_CLIENT_ID",
+    "REDDIT_CLIENT_SECRET"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "pinterest",
+   "name": "Pinterest",
+   "cat": "channel",
+   "url": "https://developers.pinterest.com",
+   "env": [
+    "PINTEREST_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "facebook",
+   "name": "Facebook Page",
+   "cat": "channel",
+   "url": "https://developers.facebook.com",
+   "env": [
+    "FB_PAGE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram Graph",
+   "cat": "channel",
+   "url": "https://developers.facebook.com",
+   "env": [
+    "IG_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "cat": "channel",
+   "url": "https://developers.tiktok.com",
+   "env": [
+    "TIKTOK_ACCESS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "twitter",
+   "name": "X / Twitter",
+   "cat": "channel",
+   "url": "https://developer.twitter.com",
+   "env": [
+    "TWITTER_BEARER"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "discord",
+   "name": "Discord Webhook",
+   "cat": "channel",
+   "url": "https://discord.com/developers/applications",
+   "env": [
+    "DISCORD_WEBHOOK"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "medium",
+   "name": "Medium",
+   "cat": "channel",
+   "url": "https://medium.com/me/settings",
+   "env": [
+    "MEDIUM_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "devto",
+   "name": "Dev.to",
+   "cat": "channel",
+   "url": "https://dev.to/settings/extensions",
+   "env": [
+    "DEVTO_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "hashnode",
+   "name": "Hashnode",
+   "cat": "channel",
+   "url": "https://hashnode.com/settings/developer",
+   "env": [
+    "HASHNODE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "tumblr",
+   "name": "Tumblr",
+   "cat": "channel",
+   "url": "https://www.tumblr.com/oauth/apps",
+   "env": [
+    "TUMBLR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "bluesky",
+   "name": "Bluesky",
+   "cat": "channel",
+   "url": "https://bsky.app",
+   "env": [
+    "BLUESKY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "vk",
+   "name": "VK",
+   "cat": "channel",
+   "url": "https://vk.com/dev",
+   "env": [
+    "VK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn",
+   "cat": "channel",
+   "url": "https://www.linkedin.com/developers",
+   "env": [
+    "LINKEDIN_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "quora",
+   "name": "Quora",
+   "cat": "channel",
+   "url": "https://www.quora.com",
+   "env": [
+    "QUORA_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "threads",
+   "name": "Threads",
+   "cat": "channel",
+   "url": "https://developers.facebook.com",
+   "env": [
+    "THREADS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "snapchat",
+   "name": "Snapchat",
+   "cat": "channel",
+   "url": "https://developers.snap.com",
+   "env": [
+    "SNAP_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "rumble",
+   "name": "Rumble 🇨🇦",
+   "cat": "channel",
+   "url": "https://rumble.com",
+   "env": [
+    "RUMBLE_KEY"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "odysee",
+   "name": "Odysee",
+   "cat": "channel",
+   "url": "https://odysee.com",
+   "env": [
+    "ODYSEE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "bitchute",
+   "name": "BitChute 🇬🇧",
+   "cat": "channel",
+   "url": "https://www.bitchute.com",
+   "env": [
+    "BITCHUTE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "dailymotion",
+   "name": "Dailymotion 🇫🇷",
+   "cat": "channel",
+   "url": "https://www.dailymotion.com/partner",
+   "env": [
+    "DAILYMOTION_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "vimeo",
+   "name": "Vimeo 🇺🇸",
+   "cat": "channel",
+   "url": "https://developer.vimeo.com",
+   "env": [
+    "VIMEO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "substack",
+   "name": "Substack 🇺🇸",
+   "cat": "channel",
+   "url": "https://substack.com",
+   "env": [
+    "SUBSTACK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "ghost",
+   "name": "Ghost",
+   "cat": "channel",
+   "url": "https://ghost.org",
+   "env": [
+    "GHOST_ADMIN_KEY"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "blogger",
+   "name": "Blogger",
+   "cat": "channel",
+   "url": "https://www.blogger.com",
+   "env": [
+    "BLOGGER_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "wordpress",
+   "name": "WordPress.com",
+   "cat": "channel",
+   "url": "https://wordpress.com",
+   "env": [
+    "WP_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "producthunt",
+   "name": "Product Hunt 🇺🇸",
+   "cat": "channel",
+   "url": "https://www.producthunt.com",
+   "env": [
+    "PH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "hackernews",
+   "name": "Hacker News 🇺🇸",
+   "cat": "channel",
+   "url": "https://news.ycombinator.com",
+   "env": [
+    "HN_USER"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "stackexchange",
+   "name": "Stack Exchange",
+   "cat": "channel",
+   "url": "https://stackapps.com",
+   "env": [
+    "SE_KEY"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "gab",
+   "name": "Gab",
+   "cat": "channel",
+   "url": "https://gab.com",
+   "env": [
+    "GAB_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "minds",
+   "name": "Minds",
+   "cat": "channel",
+   "url": "https://www.minds.com",
+   "env": [
+    "MINDS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "slack",
+   "name": "Slack API",
+   "cat": "channel",
+   "url": "https://api.slack.com",
+   "env": [
+    "SLACK_BOT_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "rocketchat",
+   "name": "Rocket.Chat",
+   "cat": "channel",
+   "url": "https://developer.rocket.chat",
+   "env": [
+    "ROCKETCHAT_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "mattermost",
+   "name": "Mattermost",
+   "cat": "channel",
+   "url": "https://api.mattermost.com",
+   "env": [
+    "MATTERMOST_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "matrix",
+   "name": "Matrix",
+   "cat": "channel",
+   "url": "https://spec.matrix.org",
+   "env": [
+    "MATRIX_HOMESERVER",
+    "MATRIX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 3
+  },
+  {
+   "id": "gravitec",
+   "name": "Gravitec",
+   "cat": "dev",
+   "url": "https://gravitec.net",
+   "env": [
+    "GRAVITEC_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "foxpush",
+   "name": "FoxPush",
+   "cat": "dev",
+   "url": "https://www.foxpush.com",
+   "env": [
+    "FOXPUSH_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "onesignal",
+   "name": "OneSignal",
+   "cat": "dev",
+   "url": "https://onesignal.com",
+   "env": [
+    "ONESIGNAL_APP_ID",
+    "ONESIGNAL_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "cleverpush",
+   "name": "CleverPush",
+   "cat": "dev",
+   "url": "https://cleverpush.com",
+   "env": [
+    "CLEVERPUSH_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "wonderpush",
+   "name": "WonderPush",
+   "cat": "dev",
+   "url": "https://wonderpush.com",
+   "env": [
+    "WONDERPUSH_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "izooto",
+   "name": "iZooto",
+   "cat": "dev",
+   "url": "https://www.izooto.com",
+   "env": [
+    "IZOOTO_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "appsflyer",
+   "name": "AppsFlyer",
+   "cat": "dev",
+   "url": "https://www.appsflyer.com",
+   "env": [
+    "APPSFLYER_DEV_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "adjust",
+   "name": "Adjust",
+   "cat": "dev",
+   "url": "https://www.adjust.com",
+   "env": [
+    "ADJUST_APP_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "branch",
+   "name": "Branch",
+   "cat": "dev",
+   "url": "https://branch.io",
+   "env": [
+    "BRANCH_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "singular",
+   "name": "Singular",
+   "cat": "dev",
+   "url": "https://www.singular.net",
+   "env": [
+    "SINGULAR_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "kochava",
+   "name": "Kochava",
+   "cat": "dev",
+   "url": "https://www.kochava.com",
+   "env": [
+    "KOCHAVA_APP_GUID"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "tenjin",
+   "name": "Tenjin",
+   "cat": "dev",
+   "url": "https://www.tenjin.com",
+   "env": [
+    "TENJIN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "firebase",
+   "name": "Firebase",
+   "cat": "dev",
+   "url": "https://firebase.google.com",
+   "env": [
+    "FIREBASE_PROJECT_ID",
+    "FIREBASE_SERVER_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "amplitude",
+   "name": "Amplitude",
+   "cat": "dev",
+   "url": "https://amplitude.com",
+   "env": [
+    "AMPLITUDE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "mixpanel",
+   "name": "Mixpanel",
+   "cat": "dev",
+   "url": "https://mixpanel.com",
+   "env": [
+    "MIXPANEL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "posthog",
+   "name": "PostHog",
+   "cat": "dev",
+   "url": "https://posthog.com",
+   "env": [
+    "POSTHOG_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "plausible",
+   "name": "Plausible",
+   "cat": "dev",
+   "url": "https://plausible.io",
+   "env": [
+    "PLAUSIBLE_DOMAIN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "umami",
+   "name": "Umami",
+   "cat": "dev",
+   "url": "https://umami.is",
+   "env": [
+    "UMAMI_WEBSITE_ID"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "matomo",
+   "name": "Matomo",
+   "cat": "dev",
+   "url": "https://matomo.org",
+   "env": [
+    "MATOMO_SITE_ID"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "goatcounter",
+   "name": "GoatCounter",
+   "cat": "dev",
+   "url": "https://www.goatcounter.com",
+   "env": [
+    "GOATCOUNTER_CODE"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "simpleanalytics",
+   "name": "Simple Analytics",
+   "cat": "dev",
+   "url": "https://www.simpleanalytics.com",
+   "env": [
+    "SIMPLEANALYTICS_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "twilio",
+   "name": "Twilio",
+   "cat": "dev",
+   "url": "https://www.twilio.com",
+   "env": [
+    "TWILIO_ACCOUNT_SID",
+    "TWILIO_AUTH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "vonage",
+   "name": "Vonage",
+   "cat": "dev",
+   "url": "https://developer.vonage.com",
+   "env": [
+    "VONAGE_API_KEY",
+    "VONAGE_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "plivo",
+   "name": "Plivo",
+   "cat": "dev",
+   "url": "https://www.plivo.com",
+   "env": [
+    "PLIVO_AUTH_ID",
+    "PLIVO_AUTH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "messagebird",
+   "name": "MessageBird",
+   "cat": "dev",
+   "url": "https://www.messagebird.com",
+   "env": [
+    "MESSAGEBIRD_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "sendgrid",
+   "name": "SendGrid",
+   "cat": "dev",
+   "url": "https://sendgrid.com",
+   "env": [
+    "SENDGRID_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "mailgun",
+   "name": "Mailgun",
+   "cat": "dev",
+   "url": "https://www.mailgun.com",
+   "env": [
+    "MAILGUN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "postmark",
+   "name": "Postmark",
+   "cat": "dev",
+   "url": "https://postmarkapp.com",
+   "env": [
+    "POSTMARK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "resend",
+   "name": "Resend",
+   "cat": "dev",
+   "url": "https://resend.com",
+   "env": [
+    "RESEND_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "brevo",
+   "name": "Brevo",
+   "cat": "dev",
+   "url": "https://www.brevo.com",
+   "env": [
+    "BREVO_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "mailjet",
+   "name": "Mailjet",
+   "cat": "dev",
+   "url": "https://www.mailjet.com",
+   "env": [
+    "MAILJET_API_KEY",
+    "MAILJET_SECRET"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "sparkpost",
+   "name": "SparkPost",
+   "cat": "dev",
+   "url": "https://www.sparkpost.com",
+   "env": [
+    "SPARKPOST_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "mailchimp",
+   "name": "Mailchimp",
+   "cat": "dev",
+   "url": "https://mailchimp.com/developer",
+   "env": [
+    "MAILCHIMP_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "convertkit",
+   "name": "Kit (ConvertKit)",
+   "cat": "dev",
+   "url": "https://developers.convertkit.com",
+   "env": [
+    "CONVERTKIT_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "buttondown",
+   "name": "Buttondown",
+   "cat": "dev",
+   "url": "https://buttondown.email/api",
+   "env": [
+    "BUTTONDOWN_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "cloudinary",
+   "name": "Cloudinary",
+   "cat": "dev",
+   "url": "https://cloudinary.com",
+   "env": [
+    "CLOUDINARY_URL"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "uploadcare",
+   "name": "Uploadcare",
+   "cat": "dev",
+   "url": "https://uploadcare.com",
+   "env": [
+    "UPLOADCARE_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "imagekit",
+   "name": "ImageKit",
+   "cat": "dev",
+   "url": "https://imagekit.io",
+   "env": [
+    "IMAGEKIT_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "imgix",
+   "name": "imgix",
+   "cat": "dev",
+   "url": "https://imgix.com",
+   "env": [
+    "IMGIX_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "bunny",
+   "name": "Bunny.net",
+   "cat": "dev",
+   "url": "https://bunny.net",
+   "env": [
+    "BUNNY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "backblaze",
+   "name": "Backblaze B2",
+   "cat": "dev",
+   "url": "https://www.backblaze.com/b2",
+   "env": [
+    "B2_KEY_ID",
+    "B2_APP_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "wasabi",
+   "name": "Wasabi",
+   "cat": "dev",
+   "url": "https://wasabi.com",
+   "env": [
+    "WASABI_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "storj",
+   "name": "Storj",
+   "cat": "dev",
+   "url": "https://www.storj.io",
+   "env": [
+    "STORJ_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "pinata",
+   "name": "Pinata IPFS",
+   "cat": "dev",
+   "url": "https://www.pinata.cloud",
+   "env": [
+    "PINATA_JWT"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "arweave",
+   "name": "Arweave",
+   "cat": "dev",
+   "url": "https://arweave.org",
+   "env": [
+    "ARWEAVE_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "mux",
+   "name": "Mux",
+   "cat": "dev",
+   "url": "https://www.mux.com",
+   "env": [
+    "MUX_TOKEN_ID",
+    "MUX_TOKEN_SECRET"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "apivideo",
+   "name": "api.video",
+   "cat": "dev",
+   "url": "https://www.api.video",
+   "env": [
+    "APIVIDEO_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "wistia",
+   "name": "Wistia",
+   "cat": "dev",
+   "url": "https://wistia.com",
+   "env": [
+    "WISTIA_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "jwplayer",
+   "name": "JW Player",
+   "cat": "dev",
+   "url": "https://www.jwplayer.com",
+   "env": [
+    "JWPLAYER_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "datadog",
+   "name": "Datadog",
+   "cat": "dev",
+   "url": "https://www.datadoghq.com",
+   "env": [
+    "DATADOG_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "newrelic",
+   "name": "New Relic",
+   "cat": "dev",
+   "url": "https://newrelic.com",
+   "env": [
+    "NEWRELIC_LICENSE_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "axiom",
+   "name": "Axiom",
+   "cat": "dev",
+   "url": "https://axiom.co",
+   "env": [
+    "AXIOM_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "rollbar",
+   "name": "Rollbar",
+   "cat": "dev",
+   "url": "https://rollbar.com",
+   "env": [
+    "ROLLBAR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "honeybadger",
+   "name": "Honeybadger",
+   "cat": "dev",
+   "url": "https://www.honeybadger.io",
+   "env": [
+    "HONEYBADGER_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "bugsnag",
+   "name": "Bugsnag",
+   "cat": "dev",
+   "url": "https://www.bugsnag.com",
+   "env": [
+    "BUGSNAG_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "raygun",
+   "name": "Raygun",
+   "cat": "dev",
+   "url": "https://raygun.com",
+   "env": [
+    "RAYGUN_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "healthchecks",
+   "name": "Healthchecks.io",
+   "cat": "dev",
+   "url": "https://healthchecks.io",
+   "env": [
+    "HEALTHCHECKS_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "codecov",
+   "name": "Codecov",
+   "cat": "dev",
+   "url": "https://about.codecov.io",
+   "env": [
+    "CODECOV_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "snyk",
+   "name": "Snyk",
+   "cat": "dev",
+   "url": "https://snyk.io",
+   "env": [
+    "SNYK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "sonar",
+   "name": "SonarQube",
+   "cat": "dev",
+   "url": "https://www.sonarsource.com",
+   "env": [
+    "SONAR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "circleci",
+   "name": "CircleCI",
+   "cat": "dev",
+   "url": "https://circleci.com",
+   "env": [
+    "CIRCLECI_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "dockerhub",
+   "name": "Docker Hub",
+   "cat": "dev",
+   "url": "https://hub.docker.com",
+   "env": [
+    "DOCKERHUB_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "quay",
+   "name": "Quay.io",
+   "cat": "dev",
+   "url": "https://quay.io",
+   "env": [
+    "QUAY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "bitly",
+   "name": "Bitly",
+   "cat": "dev",
+   "url": "https://dev.bitly.com",
+   "env": [
+    "BITLY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "virustotal",
+   "name": "VirusTotal",
+   "cat": "dev",
+   "url": "https://developers.virustotal.com",
+   "env": [
+    "VT_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "shodan",
+   "name": "Shodan",
+   "cat": "dev",
+   "url": "https://developer.shodan.io",
+   "env": [
+    "SHODAN_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "censys",
+   "name": "Censys",
+   "cat": "dev",
+   "url": "https://search.censys.io",
+   "env": [
+    "CENSYS_API_ID",
+    "CENSYS_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "abuseipdb",
+   "name": "AbuseIPDB",
+   "cat": "dev",
+   "url": "https://www.abuseipdb.com",
+   "env": [
+    "ABUSEIPDB_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "n8n",
+   "name": "n8n",
+   "cat": "dev",
+   "url": "https://n8n.io",
+   "env": [
+    "N8N_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "make",
+   "name": "Make",
+   "cat": "dev",
+   "url": "https://www.make.com",
+   "env": [
+    "MAKE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "zapier",
+   "name": "Zapier",
+   "cat": "dev",
+   "url": "https://zapier.com",
+   "env": [
+    "ZAPIER_KEY"
+   ],
+   "tier": "B",
+   "pri": 4
+  },
+  {
+   "id": "github",
+   "name": "GitHub",
+   "cat": "infra",
+   "url": "https://github.com/settings/tokens",
+   "env": [
+    "GITHUB_TOKEN",
+    "GITHUB_REPOS"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "cloudflare",
+   "name": "Cloudflare",
+   "cat": "infra",
+   "url": "https://dash.cloudflare.com/profile/api-tokens",
+   "env": [
+    "CLOUDFLARE_API_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "vercel",
+   "name": "Vercel",
+   "cat": "infra",
+   "url": "https://vercel.com/account/tokens",
+   "env": [
+    "VERCEL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "netlify",
+   "name": "Netlify",
+   "cat": "infra",
+   "url": "https://app.netlify.com/user/applications",
+   "env": [
+    "NETLIFY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "supabase",
+   "name": "Supabase",
+   "cat": "infra",
+   "url": "https://app.supabase.com",
+   "env": [
+    "SUPABASE_URL",
+    "SUPABASE_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "captcha",
+   "name": "2Captcha",
+   "cat": "infra",
+   "url": "https://2captcha.com",
+   "env": [
+    "CAPTCHA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "railway",
+   "name": "Railway",
+   "cat": "infra",
+   "url": "https://railway.app/account/tokens",
+   "env": [
+    "RAILWAY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "render",
+   "name": "Render",
+   "cat": "infra",
+   "url": "https://dashboard.render.com",
+   "env": [
+    "RENDER_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "flyio",
+   "name": "Fly.io",
+   "cat": "infra",
+   "url": "https://fly.io/user/personal_access_tokens",
+   "env": [
+    "FLY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "digitalocean",
+   "name": "DigitalOcean",
+   "cat": "infra",
+   "url": "https://cloud.digitalocean.com/account/api/tokens",
+   "env": [
+    "DO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle Cloud",
+   "cat": "infra",
+   "url": "https://cloud.oracle.com",
+   "env": [
+    "ORACLE_OCI_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "upstash",
+   "name": "Upstash",
+   "cat": "infra",
+   "url": "https://console.upstash.com",
+   "env": [
+    "UPSTASH_REDIS_URL",
+    "UPSTASH_REDIS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "neon",
+   "name": "Neon",
+   "cat": "infra",
+   "url": "https://console.neon.tech",
+   "env": [
+    "NEON_DATABASE_URL"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "mongodb",
+   "name": "MongoDB Atlas",
+   "cat": "infra",
+   "url": "https://cloud.mongodb.com",
+   "env": [
+    "MONGO_URI"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "turso",
+   "name": "Turso",
+   "cat": "infra",
+   "url": "https://turso.tech",
+   "env": [
+    "TURSO_URL",
+    "TURSO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "anticaptcha",
+   "name": "Anti-Captcha",
+   "cat": "infra",
+   "url": "https://anti-captcha.com",
+   "env": [
+    "ANTICAPTCHA_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "capsolver",
+   "name": "CapSolver",
+   "cat": "infra",
+   "url": "https://www.capsolver.com",
+   "env": [
+    "CAPSOLVER_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "scraperapi",
+   "name": "ScraperAPI",
+   "cat": "infra",
+   "url": "https://www.scraperapi.com",
+   "env": [
+    "SCRAPERAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "brightdata",
+   "name": "Bright Data",
+   "cat": "infra",
+   "url": "https://brightdata.com",
+   "env": [
+    "BRIGHTDATA_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "aws",
+   "name": "AWS 🇺🇸",
+   "cat": "infra",
+   "url": "https://console.aws.amazon.com",
+   "env": [
+    "AWS_ACCESS_KEY",
+    "AWS_SECRET_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "gcp",
+   "name": "Google Cloud 🇺🇸",
+   "cat": "infra",
+   "url": "https://console.cloud.google.com",
+   "env": [
+    "GCP_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "azure",
+   "name": "Azure 🇺🇸",
+   "cat": "infra",
+   "url": "https://portal.azure.com",
+   "env": [
+    "AZURE_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "hetzner",
+   "name": "Hetzner 🇩🇪",
+   "cat": "infra",
+   "url": "https://www.hetzner.com",
+   "env": [
+    "HETZNER_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "contabo",
+   "name": "Contabo 🇩🇪",
+   "cat": "infra",
+   "url": "https://contabo.com",
+   "env": [
+    "CONTABO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "ovh",
+   "name": "OVH 🇫🇷",
+   "cat": "infra",
+   "url": "https://www.ovhcloud.com",
+   "env": [
+    "OVH_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "vultr",
+   "name": "Vultr 🇺🇸",
+   "cat": "infra",
+   "url": "https://www.vultr.com",
+   "env": [
+    "VULTR_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "linode",
+   "name": "Linode Akamai 🇺🇸",
+   "cat": "infra",
+   "url": "https://cloud.linode.com",
+   "env": [
+    "LINODE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "gitlab",
+   "name": "GitLab",
+   "cat": "infra",
+   "url": "https://gitlab.com/-/profile/personal_access_tokens",
+   "env": [
+    "GITLAB_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "bitbucket",
+   "name": "Bitbucket",
+   "cat": "infra",
+   "url": "https://bitbucket.org/account/settings/app-passwords/",
+   "env": [
+    "BITBUCKET_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "sentry",
+   "name": "Sentry",
+   "cat": "infra",
+   "url": "https://sentry.io/settings/auth-tokens/",
+   "env": [
+    "SENTRY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "uptimerobot",
+   "name": "UptimeRobot",
+   "cat": "infra",
+   "url": "https://uptimerobot.com",
+   "env": [
+    "UPTIMEROBOT_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "betterstack",
+   "name": "Better Stack",
+   "cat": "infra",
+   "url": "https://betterstack.com",
+   "env": [
+    "BETTERSTACK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "grafana",
+   "name": "Grafana Cloud",
+   "cat": "infra",
+   "url": "https://grafana.com",
+   "env": [
+    "GRAFANA_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "ngrok",
+   "name": "ngrok",
+   "cat": "infra",
+   "url": "https://dashboard.ngrok.com",
+   "env": [
+    "NGROK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "tailscale",
+   "name": "Tailscale",
+   "cat": "infra",
+   "url": "https://login.tailscale.com/admin/settings/keys",
+   "env": [
+    "TAILSCALE_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "namecheap",
+   "name": "Namecheap 🇺🇸",
+   "cat": "infra",
+   "url": "https://www.namecheap.com",
+   "env": [
+    "NAMECHEAP_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "porkbun",
+   "name": "Porkbun 🇺🇸",
+   "cat": "infra",
+   "url": "https://porkbun.com",
+   "env": [
+    "PORKBUN_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "surge",
+   "name": "Surge.sh",
+   "cat": "infra",
+   "url": "https://surge.sh",
+   "env": [
+    "SURGE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "statically",
+   "name": "Statically",
+   "cat": "infra",
+   "url": "https://statically.io",
+   "env": [
+    "STATICALLY_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "fastly",
+   "name": "Fastly",
+   "cat": "infra",
+   "url": "https://www.fastly.com",
+   "env": [
+    "FASTLY_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "akamai",
+   "name": "Akamai",
+   "cat": "infra",
+   "url": "https://www.akamai.com",
+   "env": [
+    "AKAMAI_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "keycdn",
+   "name": "KeyCDN",
+   "cat": "infra",
+   "url": "https://www.keycdn.com",
+   "env": [
+    "KEYCDN_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "cdn77",
+   "name": "CDN77",
+   "cat": "infra",
+   "url": "https://www.cdn77.com",
+   "env": [
+    "CDN77_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "gcore",
+   "name": "Gcore",
+   "cat": "infra",
+   "url": "https://gcore.com",
+   "env": [
+    "GCORE_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "dnsimple",
+   "name": "DNSimple",
+   "cat": "infra",
+   "url": "https://dnsimple.com",
+   "env": [
+    "DNSIMPLE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "gandi",
+   "name": "Gandi",
+   "cat": "infra",
+   "url": "https://www.gandi.net",
+   "env": [
+    "GANDI_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "hover",
+   "name": "Hover",
+   "cat": "infra",
+   "url": "https://www.hover.com",
+   "env": [
+    "HOVER_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "spaceship",
+   "name": "Spaceship",
+   "cat": "infra",
+   "url": "https://www.spaceship.com",
+   "env": [
+    "SPACESHIP_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "dynadot",
+   "name": "Dynadot",
+   "cat": "infra",
+   "url": "https://www.dynadot.com",
+   "env": [
+    "DYNADOT_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "sav",
+   "name": "Sav",
+   "cat": "infra",
+   "url": "https://www.sav.com",
+   "env": [
+    "SAV_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "deno-deploy",
+   "name": "Deno Deploy",
+   "cat": "infra",
+   "url": "https://deno.com/deploy",
+   "env": [
+    "DENO_DEPLOY_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "koyeb",
+   "name": "Koyeb",
+   "cat": "infra",
+   "url": "https://www.koyeb.com",
+   "env": [
+    "KOYEB_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "northflank",
+   "name": "Northflank",
+   "cat": "infra",
+   "url": "https://northflank.com",
+   "env": [
+    "NORTHFLANK_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "zeabur",
+   "name": "Zeabur",
+   "cat": "infra",
+   "url": "https://zeabur.com",
+   "env": [
+    "ZEABUR_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "glitch",
+   "name": "Glitch",
+   "cat": "infra",
+   "url": "https://glitch.com",
+   "env": [
+    "GLITCH_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "replit",
+   "name": "Replit",
+   "cat": "infra",
+   "url": "https://replit.com",
+   "env": [
+    "REPLIT_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "codesandbox",
+   "name": "CodeSandbox",
+   "cat": "infra",
+   "url": "https://codesandbox.io",
+   "env": [
+    "CODESANDBOX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "stackblitz",
+   "name": "StackBlitz",
+   "cat": "infra",
+   "url": "https://stackblitz.com",
+   "env": [
+    "STACKBLITZ_KEY"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "gitpod",
+   "name": "Gitpod",
+   "cat": "infra",
+   "url": "https://gitpod.io",
+   "env": [
+    "GITPOD_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 5
+  },
+  {
+   "id": "binance",
+   "name": "Binance",
+   "cat": "crypto",
+   "url": "https://www.binance.com/en/my/settings/api-management",
+   "env": [
+    "BINANCE_API_KEY",
+    "BINANCE_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "coinmarketcap",
+   "name": "CoinMarketCap",
+   "cat": "crypto",
+   "url": "https://pro.coinmarketcap.com",
+   "env": [
+    "CMC_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "coinbase",
+   "name": "Coinbase",
+   "cat": "crypto",
+   "url": "https://www.coinbase.com/settings/api",
+   "env": [
+    "COINBASE_API_KEY",
+    "COINBASE_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "kraken",
+   "name": "Kraken 🇺🇸",
+   "cat": "crypto",
+   "url": "https://pro.kraken.com",
+   "env": [
+    "KRAKEN_API_KEY",
+    "KRAKEN_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "kucoin",
+   "name": "KuCoin",
+   "cat": "crypto",
+   "url": "https://www.kucoin.com/account/api",
+   "env": [
+    "KUCOIN_API_KEY",
+    "KUCOIN_API_SECRET",
+    "KUCOIN_PASSPHRASE"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "bybit",
+   "name": "Bybit",
+   "cat": "crypto",
+   "url": "https://www.bybit.com/app/user/api-management",
+   "env": [
+    "BYBIT_API_KEY",
+    "BYBIT_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "okx",
+   "name": "OKX",
+   "cat": "crypto",
+   "url": "https://www.okx.com/account/my-api",
+   "env": [
+    "OKX_API_KEY",
+    "OKX_API_SECRET",
+    "OKX_PASSPHRASE"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "gate",
+   "name": "Gate.io",
+   "cat": "crypto",
+   "url": "https://www.gate.io/myaccount/apivkeys",
+   "env": [
+    "GATE_API_KEY",
+    "GATE_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "mexc",
+   "name": "MEXC",
+   "cat": "crypto",
+   "url": "https://www.mexc.com/user/openapi",
+   "env": [
+    "MEXC_API_KEY",
+    "MEXC_API_SECRET"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "bitget",
+   "name": "Bitget",
+   "cat": "crypto",
+   "url": "https://www.bitget.com/account/newapi",
+   "env": [
+    "BITGET_API_KEY",
+    "BITGET_API_SECRET",
+    "BITGET_PASSPHRASE"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "alchemy",
+   "name": "Alchemy",
+   "cat": "crypto",
+   "url": "https://dashboard.alchemy.com",
+   "env": [
+    "ALCHEMY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "infura",
+   "name": "Infura",
+   "cat": "crypto",
+   "url": "https://app.infura.io",
+   "env": [
+    "INFURA_PROJECT_ID"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "moralis",
+   "name": "Moralis",
+   "cat": "crypto",
+   "url": "https://admin.moralis.io",
+   "env": [
+    "MORALIS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "etherscan",
+   "name": "Etherscan",
+   "cat": "crypto",
+   "url": "https://etherscan.io/myapikey",
+   "env": [
+    "ETHERSCAN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "bitpay",
+   "name": "BitPay",
+   "cat": "crypto",
+   "url": "https://bitpay.com",
+   "env": [
+    "BITPAY_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "coingate",
+   "name": "Coingate 🇱🇹",
+   "cat": "crypto",
+   "url": "https://coingate.com",
+   "env": [
+    "COINGATE_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "dune",
+   "name": "Dune",
+   "cat": "crypto",
+   "url": "https://dune.com",
+   "env": [
+    "DUNE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "quicknode",
+   "name": "QuickNode",
+   "cat": "crypto",
+   "url": "https://dashboard.quicknode.com",
+   "env": [
+    "QUICKNODE_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "ankr",
+   "name": "Ankr",
+   "cat": "crypto",
+   "url": "https://www.ankr.com",
+   "env": [
+    "ANKR_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "thegraph",
+   "name": "The Graph",
+   "cat": "crypto",
+   "url": "https://thegraph.com/studio",
+   "env": [
+    "GRAPH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "covalent",
+   "name": "Covalent",
+   "cat": "crypto",
+   "url": "https://www.covalenthq.com",
+   "env": [
+    "COVALENT_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "opensea",
+   "name": "OpenSea",
+   "cat": "crypto",
+   "url": "https://docs.opensea.io",
+   "env": [
+    "OPENSEA_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "bitquery",
+   "name": "Bitquery",
+   "cat": "crypto",
+   "url": "https://bitquery.io",
+   "env": [
+    "BITQUERY_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "messari",
+   "name": "Messari",
+   "cat": "crypto",
+   "url": "https://messari.io/api",
+   "env": [
+    "MESSARI_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "amberdata",
+   "name": "Amberdata",
+   "cat": "crypto",
+   "url": "https://www.amberdata.io",
+   "env": [
+    "AMBERDATA_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "kaiko",
+   "name": "Kaiko",
+   "cat": "crypto",
+   "url": "https://www.kaiko.com",
+   "env": [
+    "KAIKO_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "coinapi",
+   "name": "CoinAPI",
+   "cat": "crypto",
+   "url": "https://www.coinapi.io",
+   "env": [
+    "COINAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "coinglass",
+   "name": "CoinGlass",
+   "cat": "crypto",
+   "url": "https://www.coinglass.com",
+   "env": [
+    "COINGLASS_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "lunarcrush",
+   "name": "LunarCrush",
+   "cat": "crypto",
+   "url": "https://lunarcrush.com",
+   "env": [
+    "LUNARCRUSH_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "santiment",
+   "name": "Santiment",
+   "cat": "crypto",
+   "url": "https://santiment.net",
+   "env": [
+    "SANTIMENT_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "glassnode",
+   "name": "Glassnode",
+   "cat": "crypto",
+   "url": "https://glassnode.com",
+   "env": [
+    "GLASSNODE_KEY"
+   ],
+   "tier": "B",
+   "pri": 6
+  },
+  {
+   "id": "openrouter",
+   "name": "OpenRouter",
+   "cat": "ai",
+   "url": "https://openrouter.ai/keys",
+   "env": [
+    "OPENROUTER_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "groq",
+   "name": "Groq",
+   "cat": "ai",
+   "url": "https://console.groq.com/keys",
+   "env": [
+    "GROQ_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "deepseek",
+   "name": "DeepSeek",
+   "cat": "ai",
+   "url": "https://platform.deepseek.com/api_keys",
+   "env": [
+    "DEEPSEEK_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "together",
+   "name": "Together AI",
+   "cat": "ai",
+   "url": "https://api.together.xyz",
+   "env": [
+    "TOGETHER_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "huggingface",
+   "name": "HuggingFace",
+   "cat": "ai",
+   "url": "https://huggingface.co/settings/tokens",
+   "env": [
+    "HF_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "replicate",
+   "name": "Replicate",
+   "cat": "ai",
+   "url": "https://replicate.com/account/api-tokens",
+   "env": [
+    "REPLICATE_API_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "stability",
+   "name": "Stability AI",
+   "cat": "ai",
+   "url": "https://platform.stability.ai",
+   "env": [
+    "STABILITY_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "elevenlabs",
+   "name": "ElevenLabs",
+   "cat": "ai",
+   "url": "https://elevenlabs.io",
+   "env": [
+    "ELEVENLABS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "cat": "ai",
+   "url": "https://platform.openai.com/api-keys",
+   "env": [
+    "OPENAI_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral 🇫🇷",
+   "cat": "ai",
+   "url": "https://console.mistral.ai",
+   "env": [
+    "MISTRAL_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "gemini",
+   "name": "Google AI Studio",
+   "cat": "ai",
+   "url": "https://aistudio.google.com",
+   "env": [
+    "GEMINI_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "cohere",
+   "name": "Cohere",
+   "cat": "ai",
+   "url": "https://dashboard.cohere.com",
+   "env": [
+    "COHERE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic 🇺🇸",
+   "cat": "ai",
+   "url": "https://console.anthropic.com",
+   "env": [
+    "ANTHROPIC_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "perplexity",
+   "name": "Perplexity 🇺🇸",
+   "cat": "ai",
+   "url": "https://www.perplexity.ai/settings/api",
+   "env": [
+    "PERPLEXITY_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "fireworks",
+   "name": "Fireworks AI",
+   "cat": "ai",
+   "url": "https://fireworks.ai",
+   "env": [
+    "FIREWORKS_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "deepinfra",
+   "name": "DeepInfra",
+   "cat": "ai",
+   "url": "https://deepinfra.com",
+   "env": [
+    "DEEPINFRA_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "runway",
+   "name": "Runway 🇺🇸",
+   "cat": "ai",
+   "url": "https://runwayml.com",
+   "env": [
+    "RUNWAY_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "luma",
+   "name": "Luma AI 🇺🇸",
+   "cat": "ai",
+   "url": "https://lumalabs.ai",
+   "env": [
+    "LUMA_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "suno",
+   "name": "Suno",
+   "cat": "ai",
+   "url": "https://suno.com",
+   "env": [
+    "SUNO_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "assemblyai",
+   "name": "AssemblyAI 🇺🇸",
+   "cat": "ai",
+   "url": "https://www.assemblyai.com",
+   "env": [
+    "ASSEMBLYAI_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "deepgram",
+   "name": "Deepgram 🇺🇸",
+   "cat": "ai",
+   "url": "https://deepgram.com",
+   "env": [
+    "DEEPGRAM_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "pinecone",
+   "name": "Pinecone 🇺🇸",
+   "cat": "ai",
+   "url": "https://app.pinecone.io",
+   "env": [
+    "PINECONE_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "qdrant",
+   "name": "Qdrant 🇩🇪",
+   "cat": "ai",
+   "url": "https://cloud.qdrant.io",
+   "env": [
+    "QDRANT_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "weaviate",
+   "name": "Weaviate 🇳🇱",
+   "cat": "ai",
+   "url": "https://console.weaviate.cloud",
+   "env": [
+    "WEAVIATE_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "voyageai",
+   "name": "Voyage AI",
+   "cat": "ai",
+   "url": "https://www.voyageai.com",
+   "env": [
+    "VOYAGE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "jina",
+   "name": "Jina AI",
+   "cat": "ai",
+   "url": "https://jina.ai",
+   "env": [
+    "JINA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "nomic",
+   "name": "Nomic",
+   "cat": "ai",
+   "url": "https://www.nomic.ai",
+   "env": [
+    "NOMIC_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "ai21",
+   "name": "AI21",
+   "cat": "ai",
+   "url": "https://www.ai21.com",
+   "env": [
+    "AI21_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "aleph-alpha",
+   "name": "Aleph Alpha",
+   "cat": "ai",
+   "url": "https://www.aleph-alpha.com",
+   "env": [
+    "ALEPH_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "cerebras",
+   "name": "Cerebras",
+   "cat": "ai",
+   "url": "https://www.cerebras.net",
+   "env": [
+    "CEREBRAS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "sambanova",
+   "name": "SambaNova",
+   "cat": "ai",
+   "url": "https://sambanova.ai",
+   "env": [
+    "SAMBANOVA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "nvidia-nim",
+   "name": "NVIDIA NIM",
+   "cat": "ai",
+   "url": "https://build.nvidia.com",
+   "env": [
+    "NVIDIA_NIM_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "baseten",
+   "name": "Baseten",
+   "cat": "ai",
+   "url": "https://www.baseten.co",
+   "env": [
+    "BASETEN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "modal",
+   "name": "Modal",
+   "cat": "ai",
+   "url": "https://modal.com",
+   "env": [
+    "MODAL_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "fal",
+   "name": "fal.ai",
+   "cat": "ai",
+   "url": "https://fal.ai",
+   "env": [
+    "FAL_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "leonardo",
+   "name": "Leonardo AI",
+   "cat": "ai",
+   "url": "https://leonardo.ai",
+   "env": [
+    "LEONARDO_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "ideogram",
+   "name": "Ideogram",
+   "cat": "ai",
+   "url": "https://ideogram.ai",
+   "env": [
+    "IDEOGRAM_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "blackforestlabs",
+   "name": "Black Forest Labs",
+   "cat": "ai",
+   "url": "https://blackforestlabs.ai",
+   "env": [
+    "BFL_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "clipdrop",
+   "name": "Clipdrop",
+   "cat": "ai",
+   "url": "https://clipdrop.co",
+   "env": [
+    "CLIPDROP_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "udio",
+   "name": "Udio",
+   "cat": "ai",
+   "url": "https://www.udio.com",
+   "env": [
+    "UDIO_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "playht",
+   "name": "PlayHT",
+   "cat": "ai",
+   "url": "https://play.ht",
+   "env": [
+    "PLAYHT_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "unstructured",
+   "name": "Unstructured",
+   "cat": "ai",
+   "url": "https://unstructured.io",
+   "env": [
+    "UNSTRUCTURED_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "langchain",
+   "name": "LangChain",
+   "cat": "ai",
+   "url": "https://www.langchain.com",
+   "env": [
+    "LANGCHAIN_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "trychroma",
+   "name": "Chroma",
+   "cat": "ai",
+   "url": "https://www.trychroma.com",
+   "env": [
+    "CHROMA_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "milvus",
+   "name": "Milvus",
+   "cat": "ai",
+   "url": "https://milvus.io",
+   "env": [
+    "MILVUS_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "camel-tools",
+   "name": "CAMeL Tools",
+   "cat": "ai",
+   "url": "https://camel-tools.readthedocs.io",
+   "env": [
+    "CAMELTOOLS_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "farasa",
+   "name": "Farasa",
+   "cat": "ai",
+   "url": "https://farasa.qcri.org",
+   "env": [
+    "FARASA_KEY"
+   ],
+   "tier": "B",
+   "pri": 7
+  },
+  {
+   "id": "api-sports",
+   "name": "API-Sports",
+   "cat": "data",
+   "url": "https://api-sports.io",
+   "env": [
+    "APISPORTS_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "sportmonks",
+   "name": "Sportmonks",
+   "cat": "data",
+   "url": "https://www.sportmonks.com",
+   "env": [
+    "SPORTMONKS_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "football-data",
+   "name": "Football-Data.org",
+   "cat": "data",
+   "url": "https://www.football-data.org",
+   "env": [
+    "FOOTBALLDATA_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "the-odds-api",
+   "name": "The Odds API",
+   "cat": "data",
+   "url": "https://the-odds-api.com",
+   "env": [
+    "ODDS_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "balldontlie",
+   "name": "BALLDONTLIE",
+   "cat": "data",
+   "url": "https://www.balldontlie.io",
+   "env": [
+    "BALLDONTLIE_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "cricapi",
+   "name": "CricAPI",
+   "cat": "data",
+   "url": "https://www.cricapi.com",
+   "env": [
+    "CRICAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "weatherapi",
+   "name": "WeatherAPI",
+   "cat": "data",
+   "url": "https://www.weatherapi.com",
+   "env": [
+    "WEATHERAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "tomorrowio",
+   "name": "Tomorrow.io",
+   "cat": "data",
+   "url": "https://www.tomorrow.io",
+   "env": [
+    "TOMORROW_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "visualcrossing",
+   "name": "Visual Crossing",
+   "cat": "data",
+   "url": "https://www.visualcrossing.com",
+   "env": [
+    "VISUALCROSSING_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "meteostat",
+   "name": "Meteostat",
+   "cat": "data",
+   "url": "https://meteostat.net",
+   "env": [
+    "METEOSTAT_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "geodb",
+   "name": "GeoDB Cities",
+   "cat": "data",
+   "url": "https://wirefreethought.github.io/geodb-cities-api",
+   "env": [
+    "GEODB_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "ipinfo",
+   "name": "ipinfo.io",
+   "cat": "data",
+   "url": "https://ipinfo.io",
+   "env": [
+    "IPINFO_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "ipstack",
+   "name": "ipstack",
+   "cat": "data",
+   "url": "https://ipstack.com",
+   "env": [
+    "IPSTACK_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "ipgeolocation",
+   "name": "ipgeolocation.io",
+   "cat": "data",
+   "url": "https://ipgeolocation.io",
+   "env": [
+    "IPGEO_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "geonames",
+   "name": "GeoNames",
+   "cat": "data",
+   "url": "https://www.geonames.org/export",
+   "env": [
+    "GEONAMES_USER"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "opencage",
+   "name": "OpenCage",
+   "cat": "data",
+   "url": "https://opencagedata.com",
+   "env": [
+    "OPENCAGE_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "tomtom",
+   "name": "TomTom",
+   "cat": "data",
+   "url": "https://developer.tomtom.com",
+   "env": [
+    "TOMTOM_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "radar",
+   "name": "Radar",
+   "cat": "data",
+   "url": "https://radar.com",
+   "env": [
+    "RADAR_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "maptiler",
+   "name": "MapTiler",
+   "cat": "data",
+   "url": "https://www.maptiler.com",
+   "env": [
+    "MAPTILER_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "libretranslate",
+   "name": "LibreTranslate",
+   "cat": "data",
+   "url": "https://libretranslate.com",
+   "env": [
+    "LIBRETRANSLATE_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "deepl",
+   "name": "DeepL",
+   "cat": "data",
+   "url": "https://www.deepl.com/pro-api",
+   "env": [
+    "DEEPL_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "ocrspace",
+   "name": "OCR.space",
+   "cat": "data",
+   "url": "https://ocr.space/ocrapi",
+   "env": [
+    "OCRSPACE_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "timezonedb",
+   "name": "TimeZoneDB",
+   "cat": "data",
+   "url": "https://timezonedb.com",
+   "env": [
+    "TIMEZONEDB_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "spoonacular",
+   "name": "Spoonacular",
+   "cat": "data",
+   "url": "https://spoonacular.com/food-api",
+   "env": [
+    "SPOONACULAR_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "edamam",
+   "name": "Edamam",
+   "cat": "data",
+   "url": "https://developer.edamam.com",
+   "env": [
+    "EDAMAM_APP_ID",
+    "EDAMAM_APP_KEY"
+   ],
+   "tier": "B",
+   "pri": 8
+  },
+  {
+   "id": "comicvine",
+   "name": "Comic Vine",
+   "cat": "media",
+   "url": "https://comicvine.gamespot.com/api",
+   "env": [
+    "COMICVINE_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "lastfm",
+   "name": "Last.fm",
+   "cat": "media",
+   "url": "https://www.last.fm/api",
+   "env": [
+    "LASTFM_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "discogs",
+   "name": "Discogs",
+   "cat": "media",
+   "url": "https://www.discogs.com/developers",
+   "env": [
+    "DISCOGS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "cat": "media",
+   "url": "https://developer.spotify.com",
+   "env": [
+    "SPOTIFY_CLIENT_ID",
+    "SPOTIFY_CLIENT_SECRET"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "deezer",
+   "name": "Deezer",
+   "cat": "media",
+   "url": "https://developers.deezer.com",
+   "env": [
+    "DEEZER_APP_ID"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "soundcloud",
+   "name": "SoundCloud",
+   "cat": "media",
+   "url": "https://developers.soundcloud.com",
+   "env": [
+    "SOUNDCLOUD_CLIENT_ID"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "jamendo",
+   "name": "Jamendo",
+   "cat": "media",
+   "url": "https://developer.jamendo.com",
+   "env": [
+    "JAMENDO_CLIENT_ID"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "freesound",
+   "name": "Freesound",
+   "cat": "media",
+   "url": "https://freesound.org/docs/api",
+   "env": [
+    "FREESOUND_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "nasa",
+   "name": "NASA",
+   "cat": "media",
+   "url": "https://api.nasa.gov",
+   "env": [
+    "NASA_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "launchlibrary",
+   "name": "Launch Library 2",
+   "cat": "media",
+   "url": "https://thespacedevs.com/llapi",
+   "env": [
+    "LL2_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "semanticscholar",
+   "name": "Semantic Scholar",
+   "cat": "media",
+   "url": "https://api.semanticscholar.org",
+   "env": [
+    "S2_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "core-api",
+   "name": "CORE",
+   "cat": "media",
+   "url": "https://core.ac.uk/services/api",
+   "env": [
+    "CORE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "doaj",
+   "name": "DOAJ",
+   "cat": "media",
+   "url": "https://doaj.org/api/docs",
+   "env": [
+    "DOAJ_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "sunnah-com",
+   "name": "Sunnah.com API",
+   "cat": "media",
+   "url": "https://api.sunnah.com",
+   "env": [
+    "SUNNAH_KEY"
+   ],
+   "tier": "B",
+   "pri": 9
+  },
+  {
+   "id": "exchangeratehost",
+   "name": "ExchangeRate.host",
+   "cat": "fx",
+   "url": "https://exchangerate.host",
+   "env": [
+    "EXCHANGERATEHOST_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "currencyapi",
+   "name": "CurrencyAPI",
+   "cat": "fx",
+   "url": "https://currencyapi.com",
+   "env": [
+    "CURRENCYAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "openweather",
+   "name": "OpenWeather",
+   "cat": "fx",
+   "url": "https://openweathermap.org/api",
+   "env": [
+    "OPENWEATHER_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "newsapi",
+   "name": "NewsAPI",
+   "cat": "fx",
+   "url": "https://newsapi.org",
+   "env": [
+    "NEWSAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "gnews",
+   "name": "GNews",
+   "cat": "fx",
+   "url": "https://gnews.io",
+   "env": [
+    "GNEWS_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "serpapi",
+   "name": "SerpApi",
+   "cat": "fx",
+   "url": "https://serpapi.com",
+   "env": [
+    "SERPAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "alphavantage",
+   "name": "Alpha Vantage 🇺🇸",
+   "cat": "fx",
+   "url": "https://www.alphavantage.co/support/#api-key",
+   "env": [
+    "ALPHAVANTAGE_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "finnhub",
+   "name": "Finnhub 🇺🇸",
+   "cat": "fx",
+   "url": "https://finnhub.io",
+   "env": [
+    "FINNHUB_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "polygon",
+   "name": "Polygon.io 🇺🇸",
+   "cat": "fx",
+   "url": "https://polygon.io",
+   "env": [
+    "POLYGON_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "twelvedata",
+   "name": "Twelve Data",
+   "cat": "fx",
+   "url": "https://twelvedata.com",
+   "env": [
+    "TWELVEDATA_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "fred",
+   "name": "FRED 🇺🇸",
+   "cat": "fx",
+   "url": "https://fred.stlouisfed.org",
+   "env": [
+    "FRED_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "unsplash",
+   "name": "Unsplash",
+   "cat": "fx",
+   "url": "https://unsplash.com/developers",
+   "env": [
+    "UNSPLASH_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "pexels",
+   "name": "Pexels",
+   "cat": "fx",
+   "url": "https://www.pexels.com/api/",
+   "env": [
+    "PEXELS_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "pixabay",
+   "name": "Pixabay 🇩🇪",
+   "cat": "fx",
+   "url": "https://pixabay.com/api/docs/",
+   "env": [
+    "PIXABAY_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "mapbox",
+   "name": "Mapbox 🇺🇸",
+   "cat": "fx",
+   "url": "https://account.mapbox.com",
+   "env": [
+    "MAPBOX_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "scrapingbee",
+   "name": "ScrapingBee",
+   "cat": "fx",
+   "url": "https://www.scrapingbee.com",
+   "env": [
+    "SCRAPINGBEE_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "zenserp",
+   "name": "Zenserp",
+   "cat": "fx",
+   "url": "https://zenserp.com",
+   "env": [
+    "ZENSERP_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "marketstack",
+   "name": "Marketstack",
+   "cat": "fx",
+   "url": "https://marketstack.com",
+   "env": [
+    "MARKETSTACK_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "iexcloud",
+   "name": "IEX Cloud",
+   "cat": "fx",
+   "url": "https://iexcloud.io",
+   "env": [
+    "IEX_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "tiingo",
+   "name": "Tiingo",
+   "cat": "fx",
+   "url": "https://www.tiingo.com",
+   "env": [
+    "TIINGO_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "eodhd",
+   "name": "EODHD",
+   "cat": "fx",
+   "url": "https://eodhd.com",
+   "env": [
+    "EODHD_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "nasdaqdata",
+   "name": "Nasdaq Data Link",
+   "cat": "fx",
+   "url": "https://data.nasdaq.com",
+   "env": [
+    "NASDAQ_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "oecd",
+   "name": "OECD",
+   "cat": "fx",
+   "url": "https://data.oecd.org",
+   "env": [
+    "OECD_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "tradingeconomics",
+   "name": "Trading Economics",
+   "cat": "fx",
+   "url": "https://tradingeconomics.com",
+   "env": [
+    "TRADINGECON_KEY"
+   ],
+   "tier": "B",
+   "pri": 10
+  },
+  {
+   "id": "tmdb",
+   "name": "TMDB",
+   "cat": "movie",
+   "url": "https://www.themoviedb.org/settings/api",
+   "env": [
+    "TMDB_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "omdb",
+   "name": "OMDb",
+   "cat": "movie",
+   "url": "https://www.omdbapi.com/apikey.aspx",
+   "env": [
+    "OMDB_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "watchmode",
+   "name": "Watchmode",
+   "cat": "movie",
+   "url": "https://api.watchmode.com/requestApiKey",
+   "env": [
+    "WATCHMODE_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "movieposterdb",
+   "name": "MoviePosterDB",
+   "cat": "movie",
+   "url": "https://www.movieposterdb.com/api",
+   "env": [
+    "MOVIEPOSTERDB_KEY"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "justwatch",
+   "name": "JustWatch (RapidAPI)",
+   "cat": "movie",
+   "url": "https://rapidapi.com",
+   "env": [
+    "RAPIDAPI_KEY"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "imdbapi",
+   "name": "IMDb (RapidAPI)",
+   "cat": "movie",
+   "url": "https://rapidapi.com",
+   "env": [
+    "RAPIDAPI_KEY2"
+   ],
+   "tier": "B",
+   "pri": 11
+  },
+  {
+   "id": "trakt",
+   "name": "Trakt",
+   "cat": "series",
+   "url": "https://trakt.tv/oauth/applications",
+   "env": [
+    "TRAKT_CLIENT_ID"
+   ],
+   "tier": "B",
+   "pri": 12
+  },
+  {
+   "id": "simkl",
+   "name": "Simkl",
+   "cat": "series",
+   "url": "https://simkl.com/developers",
+   "env": [
+    "SIMKL_CLIENT_ID"
+   ],
+   "tier": "B",
+   "pri": 12
+  },
+  {
+   "id": "thetvdb",
+   "name": "TheTVDB",
+   "cat": "series",
+   "url": "https://thetvdb.com/api-information",
+   "env": [
+    "THETVDB_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 12
+  },
+  {
+   "id": "fanart",
+   "name": "Fanart.tv",
+   "cat": "series",
+   "url": "https://fanart.tv/get-an-api-key/",
+   "env": [
+    "FANART_API_KEY"
+   ],
+   "tier": "B",
+   "pri": 12
+  },
+  {
+   "id": "similarweb",
+   "name": "Similarweb",
+   "cat": "seo",
+   "url": "https://www.similarweb.com",
+   "env": [
+    "SIMILARWEB_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "semrush",
+   "name": "Semrush",
+   "cat": "seo",
+   "url": "https://www.semrush.com",
+   "env": [
+    "SEMRUSH_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "ahrefs",
+   "name": "Ahrefs",
+   "cat": "seo",
+   "url": "https://ahrefs.com",
+   "env": [
+    "AHREFS_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "moz",
+   "name": "Moz",
+   "cat": "seo",
+   "url": "https://moz.com",
+   "env": [
+    "MOZ_TOKEN"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "majestic",
+   "name": "Majestic",
+   "cat": "seo",
+   "url": "https://majestic.com",
+   "env": [
+    "MAJESTIC_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "seranking",
+   "name": "SE Ranking",
+   "cat": "seo",
+   "url": "https://seranking.com",
+   "env": [
+    "SERANKING_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "screamingfrog",
+   "name": "Screaming Frog",
+   "cat": "seo",
+   "url": "https://www.screamingfrog.co.uk",
+   "env": [
+    "SCREAMINGFROG_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "sitebulb",
+   "name": "Sitebulb",
+   "cat": "seo",
+   "url": "https://sitebulb.com",
+   "env": [
+    "SITEBULB_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "gtmetrix",
+   "name": "GTmetrix",
+   "cat": "seo",
+   "url": "https://gtmetrix.com",
+   "env": [
+    "GTMETRIX_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "webpagetest",
+   "name": "WebPageTest",
+   "cat": "seo",
+   "url": "https://www.webpagetest.org",
+   "env": [
+    "WPT_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "securityheaders",
+   "name": "Security Headers",
+   "cat": "seo",
+   "url": "https://securityheaders.com",
+   "env": [
+    "SECHEADERS_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "mxtoolbox",
+   "name": "MXToolbox",
+   "cat": "seo",
+   "url": "https://mxtoolbox.com",
+   "env": [
+    "MXTOOLBOX_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  },
+  {
+   "id": "mailtester",
+   "name": "Mail Tester",
+   "cat": "seo",
+   "url": "https://www.mail-tester.com",
+   "env": [
+    "MAILTESTER_KEY"
+   ],
+   "tier": "B",
+   "pri": 13
+  }
+ ]
+}

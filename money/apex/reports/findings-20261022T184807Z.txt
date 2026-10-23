@@ -1,0 +1,11 @@
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/money/audit/backup-fix-20261022-210336/q-db.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/money/audit/backup-fix-20261022-210336/async.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/money/audit/backup-fix-20261022-210336/payout.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/money/audit/backup-fix-20261022-210336/rewarded.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/_deploy/money/lib/async.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/_deploy/payout.js
+JS_SYNTAX /data/data/com.termux/files/home/cinehub3099/_deploy/rewarded.js
+  SECRET_IN_REPO /data/data/com.termux/files/home/cinehub3099/node_modules/@tootallnate/quickjs-emscripten/dist/generated/emscripten-module.WASM_RELEASE_SYNC.js
+  SECRET_IN_REPO /data/data/com.termux/files/home/cinehub3099/node_modules/@tootallnate/quickjs-emscripten/dist/generated/emscripten-module.WASM_RELEASE_SYNC.js.map
+  SECRET_IN_REPO /data/data/com.termux/files/home/cinehub3099/pb.json
+  SECRET_IN_REPO /data/data/com.termux/files/home/cinehub3099/_deploy/pb.json

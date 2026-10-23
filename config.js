@@ -1,0 +1,1 @@
+window.CINEHUB=Object.assign(window.CINEHUB||{},{"built": "2026-10-22T17:21:36.444456+00:00", "adsense_client": "", "ga_id": "", "adsterra_pub": "", "postback": "/api/postback", "gate": true, "features": {"adsense": false, "analytics": false, "adsterra": false, "telegram": false}});

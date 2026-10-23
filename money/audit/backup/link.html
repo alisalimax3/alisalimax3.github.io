@@ -1,0 +1,96 @@
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>ربط الحساب — CineHub 3099</title>
+<style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:16px;line-height:1.8}
+.box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:15px;margin:12px 0}
+input,button{font-family:inherit;font-size:15px;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);background:#0f1720;color:#e9f1f8;width:100%;box-sizing:border-box;margin:5px 0}
+button{background:linear-gradient(135deg,#4cc2ff,#7b6bff);color:#06121c;font-weight:700;border:0}
+a{color:#4cc2ff}code{color:#8fd;word-break:break-all;font-size:11px}.ok{color:#7fd88a}.bad{color:#ff8a8a}.c{color:#8ea3b8;font-size:13px}</style><script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+</head><body>
+<h1>ربط حقيقي: توكن + كابتشا + مفاتيح + حساب</h1>
+<div class="box"><b>1) هوية الجهاز</b><div id="q">…</div><input id="a" placeholder="الجواب"><button type="button" id="cb">تحقّق وولّد الهوية</button><div id="io" class="c"></div></div>
+<div class="box"><b>2) توكن GitHub (repo + workflow)</b><input id="t" placeholder="ghp_… أو github_pat_…">
+<button type="button" id="tb">تحقّق من التوكن وصلاحياته</button><div id="to" class="c"></div>
+<p class="c"><a href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=CineHub3099" target="_blank">إنشاء توكن بالصلاحيات الصحيحة</a></p></div>
+<div class="box"><b>3) حساب الكريمي</b><input id="kn" placeholder="الاسم الكامل"><input id="ka" placeholder="رقم الحساب">
+<input id="kp" placeholder="رقم الهاتف"><input id="kw" placeholder="واتساب (اختياري)"><button type="button" id="ob">حفظ الحساب</button></div>
+<div class="box"><b>4) التفعيل</b><button type="button" id="go">دفع كل شيء + تشغيل دورة فورية</button><div id="st" class="c"></div></div>
+<script>
+(function(){
+"use strict";
+function S(m,c){var e=document.getElementById("st");e.className=c||"c";e.textContent=m;}
+var a=Math.floor(Math.random()*9)+2,b=Math.floor(Math.random()*9)+2;
+document.getElementById("q").textContent="كم يساوي "+a+" + "+b+" ؟";
+document.getElementById("cb").onclick=function(){
+ if(parseInt(document.getElementById("a").value,10)!==a+b){S("جواب الكابتشا خطأ","bad");return;}
+ crypto.subtle.digest("SHA-256",new TextEncoder().encode("ch3099|"+(a+b)+"|"+navigator.userAgent+"|"+screen.width))
+ .then(function(buf){var h=Array.prototype.map.call(new Uint8Array(buf),function(x){return ("0"+x.toString(16)).slice(-2)}).join("");
+  localStorage.setItem("ch3099_identity",h);
+  document.getElementById("io").innerHTML="الهوية: <code>"+h.slice(0,40)+"…</code> صالحة سنة";
+  S("تم التحقق من الكابتشا ✓","ok");});
+};
+document.getElementById("tb").onclick=function(){
+ var t=document.getElementById("t").value.trim();
+ fetch("https://api.github.com/user",{headers:{Authorization:"token "+t}})
+ .then(function(r){if(!r.ok)throw 0;return r.json().then(function(j){return {j:j,r:r};});})
+ .then(function(o){
+  var sc=o.r.headers.get("x-oauth-scopes")||"";
+  var has=sc.indexOf("repo")>-1&&sc.indexOf("workflow")>-1;
+  localStorage.setItem("ch3099_gh",JSON.stringify({token:t,repo:o.j.login+"/"+o.j.login+".github.io",branch:"main"}));
+  document.getElementById("to").innerHTML="المستخدم: <b>"+o.j.login+"</b><br>الصلاحيات: <code>"+sc+"</code><br>"+
+   (has?'<span class="ok">repo+workflow ✓</span>':'<span class="bad">ناقص repo أو workflow</span>');
+ }).catch(function(){S("التوكن غير صالح","bad");});
+};
+document.getElementById("ob").onclick=function(){
+ var o={kuraimi:{name:document.getElementById("kn").value.trim(),account:document.getElementById("ka").value.trim(),
+  phone:document.getElementById("kp").value.trim()},whatsapp:document.getElementById("kw").value.trim(),
+  identity:localStorage.getItem("ch3099_identity")||"",bank:"Al-Kuraimi Islamic Microfinance Bank",
+  swift:"KBMFYESAXXX",updated:new Date().toISOString()};
+ localStorage.setItem("ch3099_owner",JSON.stringify(o)); S("حُفظ الحساب ✓","ok");};
+function put(path,text,msg){var gh=JSON.parse(localStorage.getItem("ch3099_gh")||"{}");
+ if(!gh.token)return Promise.reject("no token");
+ var url="https://api.github.com/repos/"+gh.repo+"/contents/"+path;
+ var H={Authorization:"token "+gh.token,"Content-Type":"application/json"};
+ return fetch(url,{headers:H}).then(function(r){return r.ok?r.json():null}).then(function(j){
+  var body={message:msg,content:btoa(unescape(encodeURIComponent(text))),branch:gh.branch};
+  if(j&&j.sha)body.sha=j.sha;
+  return fetch(url,{method:"PUT",headers:H,body:JSON.stringify(body)});});}
+document.getElementById("go").onclick=function(){
+ var gh=JSON.parse(localStorage.getItem("ch3099_gh")||"{}");
+ var own=JSON.parse(localStorage.getItem("ch3099_owner")||"{}");
+ var keys=JSON.parse(localStorage.getItem("ch3099_keys")||"{}");
+ var env=Object.keys(keys).filter(function(k){return keys[k]}).map(function(k){return k+"="+keys[k]}).join("\n")+"\n";
+ env+="CH3099_IDENTITY="+(localStorage.getItem("ch3099_identity")||"")+"\n";
+ if(!gh.token){S("أدخل التوكن أولًا","bad");return;}
+ S("جارٍ الدفع…");
+ put("keys.env",env,"keys via link").then(function(){return put("owner.json",JSON.stringify(own,null,1),"owner via link");})
+ .then(function(){return fetch("https://api.github.com/repos/"+gh.repo+"/dispatches",
+   {method:"POST",headers:{Authorization:"token "+gh.token,"Content-Type":"application/json"},
+    body:JSON.stringify({event_type:"agent-cycle"})});})
+ .then(function(){S("تم الدفع وتشغيل دورة فورية ✓ — الأرقام تتحرك خلال 5 دقائق","ok");})
+ .catch(function(e){S("فشل: "+e,"bad");});};
+})();
+</script><script src="track.js?v=3099-1792196423" defer></script>
+<script src="ads.js?v=3099-1792197840" defer></script>
+
+<script src="auto.js?v=3099-1792258952" defer></script>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

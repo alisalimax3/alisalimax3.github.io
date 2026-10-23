@@ -3,7 +3,7 @@
 """صفحات long-tail لكل عنصر + sitemap + robots + IndexNow"""
 import os,re,json,random,urllib.request,urllib.parse,html as H
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT)
-OUT="p"; SITE=os.environ.get("SITE_URL","https://alkazmybwhwr-dot.github.io")
+OUT="p"; SITE=os.environ.get("SITE_URL","https://alisalimax3.github.io")
 LIMIT=int(os.environ.get("PAGES_LIMIT","200"))
 KIND=["فيلم كلاسيكي","فيلم قصير","وثائقي","رسوم متحركة","فيلم نوار","تحفة صامتة","مغامرات","دراما","كوميديا","خيال علمي"]
 def slug(s):

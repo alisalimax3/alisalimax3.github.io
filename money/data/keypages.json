@@ -1,0 +1,18 @@
+{
+"adsterra":{"signup":"https://publishers.adsterra.com/signup","login":"https://publishers.adsterra.com/login","keysUrl":"https://publishers.adsterra.com/api","env":["ADSTERRA_API_KEY"],"regex":"[A-Za-z0-9]{24,64}","note":"Settings ← API ← Generate token"},
+"monetag":{"signup":"https://monetag.com/signup/","login":"https://monetag.com/login/","keysUrl":"https://monetag.com/dashboard/settings/api","env":["MONETAG_API_KEY"],"regex":"[A-Za-z0-9]{24,80}"},
+"evadav":{"signup":"https://evadav.com/signup","login":"https://evadav.com/login","keysUrl":"https://evadav.com/settings","env":["EVADAV_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"pushhouse":{"signup":"https://push.house/signup","login":"https://push.house/login","keysUrl":"https://push.house/profile","env":["PUSHHOUSE_TOKEN"],"regex":"[A-Za-z0-9]{20,64}"},
+"clickadilla":{"signup":"https://clickadilla.com/register","login":"https://clickadilla.com/login","keysUrl":"https://clickadilla.com/profile/api","env":["CLICKADILLA_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"propellerads":{"signup":"https://publishers.propellerads.com/#/signup","login":"https://publishers.propellerads.com/#/login","keysUrl":"https://publishers.propellerads.com/#/account/api","env":["PROPELLERADS_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"admaven":{"signup":"https://ad-maven.com/signup","login":"https://ad-maven.com/login","keysUrl":"https://ad-maven.com/panel/settings","env":["ADMAVEN_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"hilltopads":{"signup":"https://hilltopads.com/signup","login":"https://hilltopads.com/login","keysUrl":"https://hilltopads.com/publisher/api","env":["HILLTOPADS_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"galaksion":{"signup":"https://galaksion.com/signup","login":"https://galaksion.com/login","keysUrl":"https://galaksion.com/publisher/settings","env":["GALAKSION_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"cpagrip":{"signup":"https://www.cpagrip.com/signup.php","login":"https://www.cpagrip.com/login.php","keysUrl":"https://www.cpagrip.com/api.php","env":["CPAGRIP_API_KEY"],"regex":"[A-Za-z0-9]{20,64}"},
+"lospollos":{"signup":"https://lospollos.com/signup","login":"https://lospollos.com/login","keysUrl":"https://lospollos.com/settings","env":["LOSPOLLOS_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"exoclick":{"signup":"https://www.exoclick.com/signup/","login":"https://admin.exoclick.com/","keysUrl":"https://admin.exoclick.com/my-profile","env":["EXOCLICK_API_TOKEN"],"regex":"[A-Za-z0-9]{32,80}"},
+"juicyads":{"signup":"https://www.juicyads.com/register","login":"https://www.juicyads.com/login","keysUrl":"https://www.juicyads.com/api","env":["JUICYADS_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"trafficjunky":{"signup":"https://www.trafficjunky.com/publishers","login":"https://admin.trafficjunky.com/","keysUrl":"https://admin.trafficjunky.com/account/api","env":["TRAFFICJUNKY_API_KEY"],"regex":"[A-Za-z0-9]{24,64}"},
+"mylead":{"signup":"https://mylead.global/register","login":"https://mylead.global/login","keysUrl":"https://mylead.global/settings/api","env":["MYLEAD_API_TOKEN"],"regex":"[A-Za-z0-9]{24,80}"},
+"crakrevenue":{"signup":"https://www.crakrevenue.com/signup","login":"https://www.crakrevenue.com/login","keysUrl":"https://www.crakrevenue.com/account/api","env":["CRACKREVENUE_API_KEY"],"regex":"[A-Za-z0-9]{24,80}"}
+}

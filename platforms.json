@@ -31,7 +31,7 @@
   "arabic": "منصات عربية",
   "entity": "شركات ومؤسسات (مرجع عام)"
  },
- "total": 1237,
+ "total": 3802,
  "platforms": [
   {
    "id": "linkvertise",
@@ -51,7 +51,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 222
+   "ms": 660
   },
   {
    "id": "work-ink",
@@ -91,7 +91,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 715
+   "ms": 945
   },
   {
    "id": "shrinkearn",
@@ -111,7 +111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 646
+   "ms": 886
   },
   {
    "id": "clk-sh",
@@ -131,7 +131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 661
+   "ms": 1712
   },
   {
    "id": "gplinks",
@@ -151,7 +151,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 947
+   "ms": 3267
   },
   {
    "id": "ou-re",
@@ -191,7 +191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 592
+   "ms": 1552
   },
   {
    "id": "adf-ly",
@@ -211,7 +211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 416
+   "ms": 1402
   },
   {
    "id": "boost-ink",
@@ -231,7 +231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 563
+   "ms": 1027
   },
   {
    "id": "dropgalaxy",
@@ -251,7 +251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 803
+   "ms": 1544
   },
   {
    "id": "pibox",
@@ -291,7 +291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 931
+   "ms": 1670
   },
   {
    "id": "shorte-st",
@@ -309,9 +309,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3296
   },
   {
    "id": "za-gl",
@@ -331,7 +331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1083
+   "ms": 1967
   },
   {
    "id": "cuty-io",
@@ -351,7 +351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 470
+   "ms": 1553
   },
   {
    "id": "link1s",
@@ -391,7 +391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 691
+   "ms": 1591
   },
   {
    "id": "shrink-pe",
@@ -411,7 +411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 542
+   "ms": 1435
   },
   {
    "id": "arolinks",
@@ -431,7 +431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1036
+   "ms": 1194
   },
   {
    "id": "linkshortify",
@@ -451,7 +451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 965
+   "ms": 1296
   },
   {
    "id": "mdisk",
@@ -471,7 +471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1866
+   "ms": 2323
   },
   {
    "id": "zagl",
@@ -531,7 +531,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 444
+   "ms": 4699
   },
   {
    "id": "cutlink",
@@ -551,7 +551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2478
+   "ms": 6206
   },
   {
    "id": "adrinolinks",
@@ -569,9 +569,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 15210
   },
   {
    "id": "bee4-biz",
@@ -589,9 +589,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 500,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2184
   },
   {
    "id": "tii-ai",
@@ -611,7 +611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 425
+   "ms": 1337
   },
   {
    "id": "linkvip",
@@ -631,7 +631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 373
+   "ms": 3261
   },
   {
    "id": "flylink",
@@ -649,9 +649,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5968
   },
   {
    "id": "short2url",
@@ -691,7 +691,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 506
+   "ms": 1027
   },
   {
    "id": "ylink",
@@ -729,9 +729,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1464
   },
   {
    "id": "ez4short",
@@ -751,7 +751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 481
+   "ms": 1287
   },
   {
    "id": "omg10",
@@ -771,7 +771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 247
+   "ms": 460
   },
   {
    "id": "katfile",
@@ -791,7 +791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1212
+   "ms": 1494
   },
   {
    "id": "rapidgator",
@@ -811,7 +811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1971
+   "ms": 970
   },
   {
    "id": "filefox",
@@ -831,7 +831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 886
+   "ms": 1118
   },
   {
    "id": "turbobit",
@@ -851,7 +851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 837
+   "ms": 1090
   },
   {
    "id": "ddownload",
@@ -871,7 +871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 317
+   "ms": 728
   },
   {
    "id": "tezfiles",
@@ -891,7 +891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 263
+   "ms": 691
   },
   {
    "id": "keep2share",
@@ -911,7 +911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 563
+   "ms": 958
   },
   {
    "id": "upfiles",
@@ -931,7 +931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 460
+   "ms": 1354
   },
   {
    "id": "nitroflare",
@@ -951,7 +951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 503
+   "ms": 633
   },
   {
    "id": "filesfly",
@@ -989,9 +989,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3180
   },
   {
    "id": "tnshort",
@@ -1011,7 +1011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1092
+   "ms": 4062
   },
   {
    "id": "bc-vc",
@@ -1031,7 +1031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 323
+   "ms": 1945
   },
   {
    "id": "adfoc-us",
@@ -1051,7 +1051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 169
+   "ms": 1313
   },
   {
    "id": "sh-st",
@@ -1111,7 +1111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 829
+   "ms": 1033
   },
   {
    "id": "urlshortener",
@@ -1131,7 +1131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 348
+   "ms": 3588
   },
   {
    "id": "ogads",
@@ -1151,7 +1151,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 566
+   "ms": 1382
   },
   {
    "id": "cpagrip",
@@ -1171,7 +1171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 336
+   "ms": 1482
   },
   {
    "id": "cpalead",
@@ -1191,7 +1191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 768
+   "ms": 3193
   },
   {
    "id": "adworkmedia",
@@ -1211,7 +1211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 210
+   "ms": 1161
   },
   {
    "id": "mylead",
@@ -1231,7 +1231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1295
+   "ms": 2326
   },
   {
    "id": "zeydoo",
@@ -1251,7 +1251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 532
+   "ms": 993
   },
   {
    "id": "mobidea",
@@ -1271,7 +1271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 573
+   "ms": 908
   },
   {
    "id": "lospollos",
@@ -1291,7 +1291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1748
+   "ms": 1994
   },
   {
    "id": "imonetizeit",
@@ -1311,7 +1311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1706
+   "ms": 2422
   },
   {
    "id": "maxbounty",
@@ -1331,7 +1331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 153
+   "ms": 1430
   },
   {
    "id": "advidi",
@@ -1351,7 +1351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 457
+   "ms": 1064
   },
   {
    "id": "crakrevenue",
@@ -1371,7 +1371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 100
+   "ms": 1766
   },
   {
    "id": "toro-advertising",
@@ -1411,7 +1411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 285
+   "ms": 1348
   },
   {
    "id": "adcombo",
@@ -1471,7 +1471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 540
+   "ms": 996
   },
   {
    "id": "traffcore",
@@ -1491,7 +1491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 195
+   "ms": 1616
   },
   {
    "id": "shakes-pro",
@@ -1511,7 +1511,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 790
+   "ms": 1856
   },
   {
    "id": "m4trix",
@@ -1551,7 +1551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 510
+   "ms": 937
   },
   {
    "id": "monetizus",
@@ -1571,7 +1571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 707
+   "ms": 1460
   },
   {
    "id": "everad",
@@ -1591,7 +1591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1407
+   "ms": 1618
   },
   {
    "id": "expertmobi",
@@ -1611,7 +1611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 168
+   "ms": 1517
   },
   {
    "id": "algoaffiliates",
@@ -1631,7 +1631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 700
+   "ms": 1439
   },
   {
    "id": "terraleads",
@@ -1651,7 +1651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 771
+   "ms": 1330
   },
   {
    "id": "kma-biz",
@@ -1671,7 +1671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1142
+   "ms": 2134
   },
   {
    "id": "cpakitchen",
@@ -1731,7 +1731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 424
+   "ms": 953
   },
   {
    "id": "affmy",
@@ -1751,7 +1751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 824
+   "ms": 1380
   },
   {
    "id": "convert2media",
@@ -1811,7 +1811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 561
+   "ms": 885
   },
   {
    "id": "buygoods",
@@ -1831,7 +1831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 416
+   "ms": 1456
   },
   {
    "id": "smash-loud",
@@ -1851,7 +1851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1667
+   "ms": 11445
   },
   {
    "id": "admitad",
@@ -1871,7 +1871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 353
+   "ms": 1036
   },
   {
    "id": "arabclicks",
@@ -1891,7 +1891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 125
+   "ms": 1281
   },
   {
    "id": "letyshops",
@@ -1911,7 +1911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 440
+   "ms": 1051
   },
   {
    "id": "picodi",
@@ -1931,7 +1931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 716
+   "ms": 589
   },
   {
    "id": "flexoffers",
@@ -1951,7 +1951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 345
+   "ms": 1041
   },
   {
    "id": "skimlinks",
@@ -1971,7 +1971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 668
+   "ms": 1335
   },
   {
    "id": "sovrn-commerce",
@@ -1991,7 +1991,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 383
+   "ms": 1668
   },
   {
    "id": "partnerize",
@@ -2011,7 +2011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 280
+   "ms": 1078
   },
   {
    "id": "tradedoubler",
@@ -2031,7 +2031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 102
+   "ms": 794
   },
   {
    "id": "webgains",
@@ -2051,7 +2051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 659
+   "ms": 2523
   },
   {
    "id": "pepperjam",
@@ -2071,7 +2071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 277
+   "ms": 4585
   },
   {
    "id": "avantlink",
@@ -2091,7 +2091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 118
+   "ms": 810
   },
   {
    "id": "refersion",
@@ -2109,9 +2109,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 74
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "tapfiliate",
@@ -2131,7 +2131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 478
+   "ms": 826
   },
   {
    "id": "post-affiliate-pro",
@@ -2151,7 +2151,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 111
+   "ms": 785
   },
   {
    "id": "uppromote",
@@ -2171,7 +2171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 374
+   "ms": 1645
   },
   {
    "id": "leaddyno",
@@ -2191,7 +2191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 157
+   "ms": 673
   },
   {
    "id": "ambassador",
@@ -2211,7 +2211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 179
+   "ms": 879
   },
   {
    "id": "firstpromoter",
@@ -2231,7 +2231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 142
+   "ms": 6383
   },
   {
    "id": "rewardful",
@@ -2251,7 +2251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 232
+   "ms": 785
   },
   {
    "id": "affiliatewp",
@@ -2271,7 +2271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 192
+   "ms": 1419
   },
   {
    "id": "mention-me",
@@ -2291,7 +2291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 172
+   "ms": 935
   },
   {
    "id": "geniuslink",
@@ -2311,7 +2311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 517
+   "ms": 2087
   },
   {
    "id": "clickbank",
@@ -2331,7 +2331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 62
+   "ms": 563
   },
   {
    "id": "digistore24",
@@ -2351,7 +2351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 197
+   "ms": 2037
   },
   {
    "id": "shareasale",
@@ -2371,7 +2371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 363
+   "ms": 1332
   },
   {
    "id": "cj-affiliate",
@@ -2391,7 +2391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 352
+   "ms": 1132
   },
   {
    "id": "impact",
@@ -2411,7 +2411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 124
+   "ms": 1789
   },
   {
    "id": "rakuten-advertising",
@@ -2431,7 +2431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 78
+   "ms": 560
   },
   {
    "id": "awin",
@@ -2451,7 +2451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 270
+   "ms": 1172
   },
   {
    "id": "amazon-associates",
@@ -2471,7 +2471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 406
+   "ms": 2643
   },
   {
    "id": "aliexpress-portals",
@@ -2491,7 +2491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1968
+   "ms": 9234
   },
   {
    "id": "noon-affiliate",
@@ -2509,7 +2509,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -2549,7 +2549,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -2569,9 +2569,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2010
   },
   {
    "id": "ounass",
@@ -2591,7 +2591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 146
+   "ms": 1056
   },
   {
    "id": "sivvi",
@@ -2609,7 +2609,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -2631,7 +2631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1723
+   "ms": 5440
   },
   {
    "id": "mumzworld",
@@ -2651,7 +2651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2190
+   "ms": 6600
   },
   {
    "id": "sharafdg",
@@ -2691,7 +2691,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2977
+   "ms": 5578
   },
   {
    "id": "jarir",
@@ -2711,7 +2711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 112
+   "ms": 878
   },
   {
    "id": "xcite",
@@ -2731,7 +2731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 554
+   "ms": 1233
   },
   {
    "id": "sephora-me",
@@ -2771,7 +2771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 145
+   "ms": 1076
   },
   {
    "id": "temu",
@@ -2789,9 +2789,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 267
+   "status": 400,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "shein",
@@ -2811,7 +2811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 399
+   "ms": 2337
   },
   {
    "id": "wish",
@@ -2831,7 +2831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1439
+   "ms": 4436
   },
   {
    "id": "banggood",
@@ -2849,9 +2849,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5255
   },
   {
    "id": "gearbest",
@@ -2931,7 +2931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 244
+   "ms": 3788
   },
   {
    "id": "lazada",
@@ -2951,7 +2951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2569
+   "ms": 7511
   },
   {
    "id": "shopee",
@@ -2971,7 +2971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 159
+   "ms": 3950
   },
   {
    "id": "flipkart",
@@ -2991,7 +2991,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1329
+   "ms": 4202
   },
   {
    "id": "myntra",
@@ -3009,9 +3009,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 140
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "ajio",
@@ -3071,7 +3071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 312
+   "ms": 2538
   },
   {
    "id": "asos",
@@ -3089,9 +3089,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 147
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "farfetch",
@@ -3131,7 +3131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 472
+   "ms": 2150
   },
   {
    "id": "macy-s",
@@ -3171,7 +3171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 162
+   "ms": 727
   },
   {
    "id": "ebay-partner",
@@ -3189,9 +3189,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
+   "status": 303,
    "ok": true,
-   "ms": 642
+   "ms": 0
   },
   {
    "id": "etsy-affiliate",
@@ -3211,7 +3211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 276
+   "ms": 1088
   },
   {
    "id": "wayfair",
@@ -3269,9 +3269,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 580
+   "status": 429,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "best-buy",
@@ -3311,7 +3311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 167
+   "ms": 1674
   },
   {
    "id": "costco",
@@ -3331,7 +3331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 440
+   "ms": 2774
   },
   {
    "id": "adsterra",
@@ -3351,7 +3351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 464
+   "ms": 2517
   },
   {
    "id": "monetag",
@@ -3371,7 +3371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 109
+   "ms": 640
   },
   {
    "id": "propellerads",
@@ -3391,7 +3391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 129
+   "ms": 570
   },
   {
    "id": "admaven",
@@ -3411,7 +3411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 231
+   "ms": 1418
   },
   {
    "id": "clickadu",
@@ -3431,7 +3431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1360
+   "ms": 2495
   },
   {
    "id": "hilltopads",
@@ -3451,7 +3451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 697
+   "ms": 1055
   },
   {
    "id": "popads",
@@ -3471,7 +3471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 162
+   "ms": 1135
   },
   {
    "id": "popmyads",
@@ -3491,7 +3491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 497
+   "ms": 2199
   },
   {
    "id": "adcash",
@@ -3511,7 +3511,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 133
+   "ms": 726
   },
   {
    "id": "exoclick",
@@ -3531,7 +3531,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 148
+   "ms": 922
   },
   {
    "id": "bidvertiser",
@@ -3551,7 +3551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 309
+   "ms": 1438
   },
   {
    "id": "trafficstars",
@@ -3571,7 +3571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1770
+   "ms": 2342
   },
   {
    "id": "juicyads",
@@ -3591,7 +3591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3240
+   "ms": 973
   },
   {
    "id": "plugrush",
@@ -3611,7 +3611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 116
+   "ms": 4504
   },
   {
    "id": "galaksion",
@@ -3631,7 +3631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 596
+   "ms": 1185
   },
   {
    "id": "kadam",
@@ -3651,7 +3651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 544
+   "ms": 7492
   },
   {
    "id": "richads",
@@ -3671,7 +3671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 228
+   "ms": 4165
   },
   {
    "id": "rollerads",
@@ -3691,7 +3691,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 452
+   "ms": 4060
   },
   {
    "id": "mgid",
@@ -3711,7 +3711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 66
+   "ms": 4815
   },
   {
    "id": "media-net",
@@ -3731,7 +3731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 361
+   "ms": 3989
   },
   {
    "id": "google-adsense",
@@ -3751,7 +3751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 362
+   "ms": 8108
   },
   {
    "id": "ezoic",
@@ -3771,7 +3771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 200
+   "ms": 14063
   },
   {
    "id": "mediavine",
@@ -3791,7 +3791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 89
+   "ms": 8572
   },
   {
    "id": "raptive",
@@ -3811,7 +3811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 69
+   "ms": 4724
   },
   {
    "id": "snigel",
@@ -3831,7 +3831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 98
+   "ms": 6890
   },
   {
    "id": "setupad",
@@ -3851,7 +3851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 657
+   "ms": 6597
   },
   {
    "id": "nitropay",
@@ -3871,7 +3871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 239
+   "ms": 5024
   },
   {
    "id": "newor-media",
@@ -3891,7 +3891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 248
+   "ms": 5156
   },
   {
    "id": "playwire",
@@ -3911,7 +3911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 190
+   "ms": 6153
   },
   {
    "id": "adscompass",
@@ -3931,7 +3931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 901
+   "ms": 4924
   },
   {
    "id": "adnium",
@@ -3951,7 +3951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 345
+   "ms": 5725
   },
   {
    "id": "trafficjunky",
@@ -3971,7 +3971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1024
+   "ms": 1627
   },
   {
    "id": "buysellads",
@@ -3989,9 +3989,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 594
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "infolinks",
@@ -4009,9 +4009,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 69
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "sovrn",
@@ -4031,7 +4031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 301
+   "ms": 4106
   },
   {
    "id": "vibrant-media",
@@ -4051,7 +4051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 229
+   "ms": 653
   },
   {
    "id": "dianomi",
@@ -4071,7 +4071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 89
+   "ms": 545
   },
   {
    "id": "gumgum",
@@ -4091,7 +4091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 120
+   "ms": 1232
   },
   {
    "id": "criteo",
@@ -4111,7 +4111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 229
+   "ms": 1211
   },
   {
    "id": "freestar",
@@ -4131,7 +4131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 103
+   "ms": 966
   },
   {
    "id": "monetizemore",
@@ -4151,7 +4151,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 160
+   "ms": 964
   },
   {
    "id": "adapex",
@@ -4171,7 +4171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 310
+   "ms": 3641
   },
   {
    "id": "optad360",
@@ -4191,7 +4191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 485
+   "ms": 870
   },
   {
    "id": "adpushup",
@@ -4211,7 +4211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 509
+   "ms": 1125
   },
   {
    "id": "publift",
@@ -4231,7 +4231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 226
+   "ms": 1341
   },
   {
    "id": "broadstreet",
@@ -4251,7 +4251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 209
+   "ms": 1376
   },
   {
    "id": "triplelift",
@@ -4271,7 +4271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 255
+   "ms": 1259
   },
   {
    "id": "openx",
@@ -4291,7 +4291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 459
+   "ms": 2109
   },
   {
    "id": "pubmatic",
@@ -4331,7 +4331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 182
+   "ms": 989
   },
   {
    "id": "index-exchange",
@@ -4351,7 +4351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 352
+   "ms": 1418
   },
   {
    "id": "sharethrough",
@@ -4371,7 +4371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 88
+   "ms": 1892
   },
   {
    "id": "teads",
@@ -4391,7 +4391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 158
+   "ms": 2156
   },
   {
    "id": "outbrain",
@@ -4411,7 +4411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 142
+   "ms": 922
   },
   {
    "id": "taboola",
@@ -4431,7 +4431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 67
+   "ms": 6724
   },
   {
    "id": "revcontent",
@@ -4451,7 +4451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 252
+   "ms": 1257
   },
   {
    "id": "content-ad",
@@ -4491,7 +4491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 613
+   "ms": 1569
   },
   {
    "id": "plista",
@@ -4529,9 +4529,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 61
+   "status": 406,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "nativo",
@@ -4551,7 +4551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 395
+   "ms": 5060
   },
   {
    "id": "adrecover",
@@ -4571,7 +4571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 950
+   "ms": 2994
   },
   {
    "id": "vidoomy",
@@ -4591,7 +4591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 969
+   "ms": 4413
   },
   {
    "id": "unruly",
@@ -4611,7 +4611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 897
+   "ms": 2283
   },
   {
    "id": "aniview",
@@ -4631,7 +4631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 457
+   "ms": 770
   },
   {
    "id": "primis",
@@ -4651,7 +4651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 73
+   "ms": 774
   },
   {
    "id": "connatix",
@@ -4671,7 +4671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 319
+   "ms": 6258
   },
   {
    "id": "brid-tv",
@@ -4709,9 +4709,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 371
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "beachfront",
@@ -4731,7 +4731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 300
+   "ms": 5227
   },
   {
    "id": "springserve",
@@ -4751,7 +4751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 437
+   "ms": 6439
   },
   {
    "id": "vidazoo",
@@ -4771,7 +4771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 202
+   "ms": 5665
   },
   {
    "id": "azerion",
@@ -4791,7 +4791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 295
+   "ms": 4719
   },
   {
    "id": "loopme",
@@ -4809,9 +4809,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 697
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "push-house",
@@ -4831,7 +4831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1051
+   "ms": 1977
   },
   {
    "id": "notix",
@@ -4851,7 +4851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 527
+   "ms": 1037
   },
   {
    "id": "evadav",
@@ -4871,7 +4871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 309
+   "ms": 1604
   },
   {
    "id": "adgem",
@@ -4891,7 +4891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 107
+   "ms": 961
   },
   {
    "id": "tapjoy",
@@ -4911,7 +4911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 688
+   "ms": 3105
   },
   {
    "id": "fyber",
@@ -4931,7 +4931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 264
+   "ms": 1931
   },
   {
    "id": "ironsource",
@@ -4951,7 +4951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 704
+   "ms": 3541
   },
   {
    "id": "vungle",
@@ -4971,7 +4971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 748
+   "ms": 3839
   },
   {
    "id": "adcolony",
@@ -4991,7 +4991,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 282
+   "ms": 2197
   },
   {
    "id": "applovin",
@@ -5011,7 +5011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 390
+   "ms": 3761
   },
   {
    "id": "chartboost",
@@ -5029,9 +5029,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 733
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "mintegral",
@@ -5051,7 +5051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1354
+   "ms": 2537
   },
   {
    "id": "pangle",
@@ -5071,7 +5071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 834
+   "ms": 2010
   },
   {
    "id": "smaato",
@@ -5091,7 +5091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 417
+   "ms": 1960
   },
   {
    "id": "inmobi",
@@ -5111,7 +5111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 315
+   "ms": 1228
   },
   {
    "id": "startapp",
@@ -5131,7 +5131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 570
+   "ms": 3666
   },
   {
    "id": "admob",
@@ -5151,7 +5151,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 135
+   "ms": 1426
   },
   {
    "id": "eroadvertising",
@@ -5171,7 +5171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 703
+   "ms": 1259
   },
   {
    "id": "bitterstrawberry",
@@ -5211,7 +5211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 399
+   "ms": 1705
   },
   {
    "id": "adultforce",
@@ -5231,7 +5231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1257
+   "ms": 1213
   },
   {
    "id": "pornmonetizer",
@@ -5271,7 +5271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 374
+   "ms": 1562
   },
   {
    "id": "adbutler",
@@ -5291,7 +5291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 235
+   "ms": 1804
   },
   {
    "id": "adglare",
@@ -5311,7 +5311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1074
+   "ms": 2240
   },
   {
    "id": "gam360",
@@ -5329,9 +5329,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2660
   },
   {
    "id": "adform",
@@ -5351,7 +5351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 774
+   "ms": 5396
   },
   {
    "id": "amazon-publisher-services",
@@ -5371,7 +5371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 444
+   "ms": 8051
   },
   {
    "id": "yieldmo",
@@ -5391,7 +5391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 906
+   "ms": 4298
   },
   {
    "id": "nielsen-dar",
@@ -5411,7 +5411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 82
+   "ms": 719
   },
   {
    "id": "comscore",
@@ -5431,7 +5431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 613
+   "ms": 3022
   },
   {
    "id": "anzu",
@@ -5451,7 +5451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 514
+   "ms": 1119
   },
   {
    "id": "admix",
@@ -5471,7 +5471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 806
+   "ms": 1404
   },
   {
    "id": "frameplay",
@@ -5491,7 +5491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 352
+   "ms": 5748
   },
   {
    "id": "bidstack",
@@ -5529,9 +5529,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1444
   },
   {
    "id": "mobidea-ads",
@@ -5551,7 +5551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 557
+   "ms": 839
   },
   {
    "id": "aerserv",
@@ -5631,7 +5631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 184
+   "ms": 754
   },
   {
    "id": "neobux",
@@ -5651,7 +5651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 418
+   "ms": 988
   },
   {
    "id": "ysense",
@@ -5671,7 +5671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 122
+   "ms": 671
   },
   {
    "id": "timebucks",
@@ -5689,9 +5689,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 713
   },
   {
    "id": "cointiply",
@@ -5711,7 +5711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 108
+   "ms": 1207
   },
   {
    "id": "freebitco-in",
@@ -5751,7 +5751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1579
+   "ms": 740
   },
   {
    "id": "firefaucet",
@@ -5771,7 +5771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 831
+   "ms": 766
   },
   {
    "id": "coinpayu",
@@ -5791,7 +5791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 830
+   "ms": 1225
   },
   {
    "id": "adbtc",
@@ -5831,7 +5831,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 616
+   "ms": 806
   },
   {
    "id": "scarlet-clicks",
@@ -5851,7 +5851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1305
+   "ms": 3497
   },
   {
    "id": "grabpoints",
@@ -5871,7 +5871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 673
+   "ms": 3473
   },
   {
    "id": "idle-empire",
@@ -5891,7 +5891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 401
+   "ms": 1408
   },
   {
    "id": "watchcrypto",
@@ -5911,7 +5911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 226
+   "ms": 3841
   },
   {
    "id": "rewardxp",
@@ -5929,9 +5929,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 174
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "pawns-app",
@@ -5951,7 +5951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 289
+   "ms": 466
   },
   {
    "id": "repocket",
@@ -5971,7 +5971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 511
+   "ms": 1239
   },
   {
    "id": "packetstream",
@@ -5991,7 +5991,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 1188
   },
   {
    "id": "peer2profit",
@@ -6031,7 +6031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 820
+   "ms": 3077
   },
   {
    "id": "mysterium",
@@ -6049,9 +6049,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 429,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2311
   },
   {
    "id": "freecash",
@@ -6071,7 +6071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 802
+   "ms": 2809
   },
   {
    "id": "jumptask",
@@ -6091,7 +6091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 970
+   "ms": 1035
   },
   {
    "id": "coinbase-earn",
@@ -6111,7 +6111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 349
+   "ms": 1029
   },
   {
    "id": "presearch",
@@ -6171,7 +6171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 913
+   "ms": 1107
   },
   {
    "id": "earnapp",
@@ -6191,7 +6191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 421
+   "ms": 19076
   },
   {
    "id": "honeygain",
@@ -6211,7 +6211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 461
+   "ms": 3648
   },
   {
    "id": "grass",
@@ -6231,7 +6231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 409
+   "ms": 1583
   },
   {
    "id": "nodepay",
@@ -6251,7 +6251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 208
+   "ms": 1684
   },
   {
    "id": "traffmonetizer",
@@ -6271,7 +6271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 629
+   "ms": 2450
   },
   {
    "id": "faucetcrypto",
@@ -6291,7 +6291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 684
+   "ms": 753
   },
   {
    "id": "free-litecoin",
@@ -6311,7 +6311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1158
+   "ms": 1262
   },
   {
    "id": "bonusbitcoin",
@@ -6331,7 +6331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 208
+   "ms": 10009
   },
   {
    "id": "dogefaucet",
@@ -6351,7 +6351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1214
+   "ms": 4806
   },
   {
    "id": "sweatcoin",
@@ -6371,7 +6371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 513
+   "ms": 754
   },
   {
    "id": "rewarded-tv",
@@ -6391,7 +6391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 5190
+   "ms": 2915
   },
   {
    "id": "topcashback",
@@ -6409,9 +6409,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 181
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "mrrebates",
@@ -6431,7 +6431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 197
+   "ms": 1802
   },
   {
    "id": "befrugal",
@@ -6451,7 +6451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 273
+   "ms": 1041
   },
   {
    "id": "fetch-rewards",
@@ -6471,7 +6471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 138
+   "ms": 1566
   },
   {
    "id": "ibotta",
@@ -6489,9 +6489,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 340
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "rakuten-cashback",
@@ -6511,7 +6511,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 52
+   "ms": 2339
   },
   {
    "id": "honey",
@@ -6531,7 +6531,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 231
+   "ms": 1244
   },
   {
    "id": "drop",
@@ -6551,7 +6551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 648
+   "ms": 1463
   },
   {
    "id": "dosh",
@@ -6571,7 +6571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1181
+   "ms": 3229
   },
   {
    "id": "shopkick",
@@ -6591,7 +6591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 219
+   "ms": 1878
   },
   {
    "id": "receipt-hog",
@@ -6611,7 +6611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 100
+   "ms": 1028
   },
   {
    "id": "receiptpal",
@@ -6629,9 +6629,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 280
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "coinout",
@@ -6649,9 +6649,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 253
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "nielsen-panel",
@@ -6671,7 +6671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 57
+   "ms": 505
   },
   {
    "id": "field-agent",
@@ -6691,7 +6691,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 579
+   "ms": 2075
   },
   {
    "id": "mobee",
@@ -6711,7 +6711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1111
+   "ms": 2232
   },
   {
    "id": "easyshift",
@@ -6731,7 +6731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1649
+   "ms": 2283
   },
   {
    "id": "gigwalk",
@@ -6751,7 +6751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 491
+   "ms": 1446
   },
   {
    "id": "premise",
@@ -6771,7 +6771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 347
+   "ms": 2464
   },
   {
    "id": "taskrabbit",
@@ -6791,7 +6791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 262
+   "ms": 1363
   },
   {
    "id": "thumbtack",
@@ -6811,7 +6811,7 @@
    "ref_code": "",
    "status": 202,
    "ok": true,
-   "ms": 73
+   "ms": 661
   },
   {
    "id": "angi",
@@ -6851,7 +6851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 183
+   "ms": 1060
   },
   {
    "id": "toloka-tasks",
@@ -6869,9 +6869,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 598
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "bituro",
@@ -6891,7 +6891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 296
+   "ms": 2550
   },
   {
    "id": "coinbucks",
@@ -6931,7 +6931,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 173
+   "ms": 1452
   },
   {
    "id": "ads-paid",
@@ -6971,7 +6971,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 87
+   "ms": 329
   },
   {
    "id": "timewall",
@@ -6989,9 +6989,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1091
   },
   {
    "id": "ayet-studios",
@@ -7011,7 +7011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 598
+   "ms": 1382
   },
   {
    "id": "lootably",
@@ -7031,7 +7031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 74
+   "ms": 1982
   },
   {
    "id": "swagbucks",
@@ -7048,9 +7048,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 251
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "survey-junkie",
@@ -7067,9 +7067,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 189
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "inboxdollars",
@@ -7088,7 +7088,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 166
+   "ms": 716
   },
   {
    "id": "prizerebel",
@@ -7107,7 +7107,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 282
+   "ms": 2097
   },
   {
    "id": "instagc",
@@ -7126,7 +7126,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 274
+   "ms": 5778
   },
   {
    "id": "yougov",
@@ -7145,7 +7145,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1322
+   "ms": 1216
   },
   {
    "id": "toluna",
@@ -7164,7 +7164,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 349
+   "ms": 1212
   },
   {
    "id": "lifepoints",
@@ -7183,7 +7183,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 878
+   "ms": 1891
   },
   {
    "id": "prolific",
@@ -7202,7 +7202,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 202
+   "ms": 821
   },
   {
    "id": "clickworker",
@@ -7219,9 +7219,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 141
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "microworkers",
@@ -7240,7 +7240,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 685
+   "ms": 923
   },
   {
    "id": "picoworkers",
@@ -7276,9 +7276,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 519
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "appen",
@@ -7297,7 +7297,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 251
+   "ms": 2349
   },
   {
    "id": "toloka",
@@ -7314,9 +7314,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 591
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "attapoll",
@@ -7335,7 +7335,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 230
+   "ms": 2298
   },
   {
    "id": "poll-pay",
@@ -7354,7 +7354,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 351
+   "ms": 2317
   },
   {
    "id": "streetbees",
@@ -7373,7 +7373,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 435
+   "ms": 1542
   },
   {
    "id": "surveytime",
@@ -7392,7 +7392,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 284
+   "ms": 1244
   },
   {
    "id": "oneforma",
@@ -7411,7 +7411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 569
+   "ms": 1403
   },
   {
    "id": "yandex-toloka",
@@ -7449,7 +7449,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 711
+   "ms": 3445
   },
   {
    "id": "metrixlab",
@@ -7468,7 +7468,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 231
+   "ms": 5291
   },
   {
    "id": "gemi",
@@ -7487,7 +7487,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2367
+   "ms": 6678
   },
   {
    "id": "zeitgeist",
@@ -7525,7 +7525,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 203
+   "ms": 1121
   },
   {
    "id": "respondent",
@@ -7544,7 +7544,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 390
+   "ms": 589
   },
   {
    "id": "user-interviews",
@@ -7563,7 +7563,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 353
+   "ms": 1320
   },
   {
    "id": "wonder",
@@ -7639,7 +7639,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 367
+   "ms": 969
   },
   {
    "id": "mysurvey",
@@ -7677,7 +7677,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 799
+   "ms": 3540
   },
   {
    "id": "harris-poll",
@@ -7696,7 +7696,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 249
+   "ms": 2324
   },
   {
    "id": "e-rewards",
@@ -7715,7 +7715,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 385
+   "ms": 925
   },
   {
    "id": "ipsos-isay",
@@ -7732,9 +7732,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1585
   },
   {
    "id": "dynata",
@@ -7753,7 +7753,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 92
+   "ms": 1019
   },
   {
    "id": "cint",
@@ -7772,7 +7772,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 675
+   "ms": 1382
   },
   {
    "id": "lucid",
@@ -7810,7 +7810,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 355
+   "ms": 1877
   },
   {
    "id": "pollfish",
@@ -7829,7 +7829,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 350
+   "ms": 1413
   },
   {
    "id": "bizrate-insights",
@@ -7848,7 +7848,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 146
+   "ms": 962
   },
   {
    "id": "crowdology",
@@ -7886,7 +7886,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 553
+   "ms": 1049
   },
   {
    "id": "panelbase",
@@ -7924,7 +7924,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2202
+   "ms": 8217
   },
   {
    "id": "valued-opinions",
@@ -7981,7 +7981,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 178
+   "ms": 2078
   },
   {
    "id": "springboard-america",
@@ -8000,7 +8000,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 303
+   "ms": 1595
   },
   {
    "id": "american-consumer-opinion",
@@ -8038,7 +8038,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 391
+   "ms": 977
   },
   {
    "id": "sago",
@@ -8057,7 +8057,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2010
+   "ms": 4714
   },
   {
    "id": "schlesinger-group",
@@ -8076,7 +8076,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1935
+   "ms": 8405
   },
   {
    "id": "focus-insite",
@@ -8095,7 +8095,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 522
+   "ms": 5334
   },
   {
    "id": "usertesting",
@@ -8114,7 +8114,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 102
+   "ms": 740
   },
   {
    "id": "trymyui",
@@ -8152,7 +8152,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 176
+   "ms": 1074
   },
   {
    "id": "betatesting",
@@ -8171,7 +8171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 491
+   "ms": 1910
   },
   {
    "id": "testbirds",
@@ -8190,7 +8190,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2131
+   "ms": 2726
   },
   {
    "id": "ferpection",
@@ -8209,7 +8209,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 891
+   "ms": 4745
   },
   {
    "id": "utest",
@@ -8228,7 +8228,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 262
+   "ms": 3477
   },
   {
    "id": "test-io",
@@ -8266,7 +8266,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 243
+   "ms": 726
   },
   {
    "id": "applause",
@@ -8285,7 +8285,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 368
+   "ms": 1833
   },
   {
    "id": "testlio",
@@ -8304,7 +8304,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 428
+   "ms": 1566
   },
   {
    "id": "bugcrowd",
@@ -8323,7 +8323,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 67
+   "ms": 716
   },
   {
    "id": "hackerone",
@@ -8342,7 +8342,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 179
+   "ms": 645
   },
   {
    "id": "askable",
@@ -8361,7 +8361,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 428
+   "ms": 4936
   },
   {
    "id": "centiment",
@@ -8380,7 +8380,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 150
+   "ms": 987
   },
   {
    "id": "metrixlab-mena",
@@ -8399,7 +8399,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 143
+   "ms": 1116
   },
   {
    "id": "datamole",
@@ -8418,7 +8418,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 159
+   "ms": 1599
   },
   {
    "id": "pollfish-mena",
@@ -8437,7 +8437,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 306
+   "ms": 852
   },
   {
    "id": "zaplify",
@@ -8456,7 +8456,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 597
+   "ms": 2706
   },
   {
    "id": "tremendous",
@@ -8473,9 +8473,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 246
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "gemini-surveys",
@@ -8532,7 +8532,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 679
+   "ms": 4330
   },
   {
    "id": "clixsense-surveys",
@@ -8551,7 +8551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 84
+   "ms": 205
   },
   {
    "id": "nordvpn",
@@ -8591,7 +8591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 94
+   "ms": 1023
   },
   {
    "id": "expressvpn",
@@ -8611,7 +8611,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 297
+   "ms": 1667
   },
   {
    "id": "purevpn",
@@ -8631,7 +8631,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 368
+   "ms": 4163
   },
   {
    "id": "ipvanish",
@@ -8671,7 +8671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 257
+   "ms": 2259
   },
   {
    "id": "privatevpn",
@@ -8691,7 +8691,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 580
+   "ms": 1501
   },
   {
    "id": "vyprvpn",
@@ -8711,7 +8711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 505
+   "ms": 3292
   },
   {
    "id": "tunnelbear",
@@ -8731,7 +8731,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 368
+   "ms": 1907
   },
   {
    "id": "windscribe",
@@ -8771,7 +8771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1305
+   "ms": 2992
   },
   {
    "id": "ivpn",
@@ -8849,7 +8849,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
+   "status": 404,
    "ok": false,
    "ms": 0
   },
@@ -8871,7 +8871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 199
+   "ms": 2796
   },
   {
    "id": "protonvpn",
@@ -8911,7 +8911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 165
+   "ms": 1177
   },
   {
    "id": "bluehost",
@@ -8929,9 +8929,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1853
   },
   {
    "id": "siteground",
@@ -8951,7 +8951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 675
+   "ms": 3085
   },
   {
    "id": "namecheap",
@@ -8969,9 +8969,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1215
   },
   {
    "id": "godaddy",
@@ -9011,7 +9011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 289
+   "ms": 1708
   },
   {
    "id": "kinsta",
@@ -9031,7 +9031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 165
+   "ms": 1679
   },
   {
    "id": "wpx-hosting",
@@ -9051,7 +9051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 862
+   "ms": 4175
   },
   {
    "id": "dreamhost",
@@ -9071,7 +9071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 222
+   "ms": 1402
   },
   {
    "id": "digitalocean",
@@ -9091,7 +9091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 58
+   "ms": 966
   },
   {
    "id": "vultr",
@@ -9149,9 +9149,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3131
   },
   {
    "id": "hostpapa",
@@ -9171,7 +9171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 169
+   "ms": 1481
   },
   {
    "id": "greengeeks",
@@ -9191,7 +9191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 481
+   "ms": 1320
   },
   {
    "id": "a2-hosting",
@@ -9211,7 +9211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 217
+   "ms": 1889
   },
   {
    "id": "chemicloud",
@@ -9251,7 +9251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 227
+   "ms": 1120
   },
   {
    "id": "hostarmada",
@@ -9311,7 +9311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 159
+   "ms": 2414
   },
   {
    "id": "wp-engine",
@@ -9331,7 +9331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 826
+   "ms": 4561
   },
   {
    "id": "rocket-net",
@@ -9351,7 +9351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 99
+   "ms": 592
   },
   {
    "id": "ionos",
@@ -9391,7 +9391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 673
+   "ms": 5620
   },
   {
    "id": "hetzner",
@@ -9411,7 +9411,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 552
+   "ms": 2284
   },
   {
    "id": "porkbun",
@@ -9431,7 +9431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 269
+   "ms": 5376
   },
   {
    "id": "google-workspace",
@@ -9451,7 +9451,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 180
+   "ms": 1795
   },
   {
    "id": "microsoft-365",
@@ -9471,7 +9471,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2518
+   "ms": 2361
   },
   {
    "id": "canva",
@@ -9489,9 +9489,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1677
   },
   {
    "id": "envato",
@@ -9511,7 +9511,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 416
+   "ms": 1753
   },
   {
    "id": "elementor",
@@ -9531,7 +9531,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 105
+   "ms": 5184
   },
   {
    "id": "divi",
@@ -9551,7 +9551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 90
+   "ms": 4277
   },
   {
    "id": "astra",
@@ -9591,7 +9591,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 753
+   "ms": 1567
   },
   {
    "id": "kadence",
@@ -9649,9 +9649,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 137
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "yoast",
@@ -9671,7 +9671,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3599
+   "ms": 2998
   },
   {
    "id": "semrush",
@@ -9751,7 +9751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 815
+   "ms": 1119
   },
   {
    "id": "ubersuggest",
@@ -9771,7 +9771,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 681
+   "ms": 2742
   },
   {
    "id": "surfer-seo",
@@ -9811,7 +9811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 344
+   "ms": 2180
   },
   {
    "id": "copy-ai",
@@ -9871,7 +9871,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 212
+   "ms": 1394
   },
   {
    "id": "quillbot",
@@ -9889,9 +9889,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 9348
   },
   {
    "id": "notion",
@@ -9911,7 +9911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 358
+   "ms": 1187
   },
   {
    "id": "clickup",
@@ -9991,7 +9991,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 549
   },
   {
    "id": "slack",
@@ -10011,7 +10011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 377
+   "ms": 2261
   },
   {
    "id": "zoom",
@@ -10051,7 +10051,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 402
+   "ms": 5361
   },
   {
    "id": "pcloud",
@@ -10071,7 +10071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 542
+   "ms": 1838
   },
   {
    "id": "nordlocker",
@@ -10091,7 +10091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 93
+   "ms": 6346
   },
   {
    "id": "1password",
@@ -10131,7 +10131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1292
+   "ms": 6498
   },
   {
    "id": "bitwarden",
@@ -10251,7 +10251,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 501
+   "ms": 8218
   },
   {
    "id": "jotform",
@@ -10271,7 +10271,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 392
+   "ms": 4449
   },
   {
    "id": "teachable",
@@ -10291,7 +10291,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 530
+   "ms": 7059
   },
   {
    "id": "thinkific",
@@ -10311,7 +10311,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 753
+   "ms": 11171
   },
   {
    "id": "kajabi",
@@ -10331,7 +10331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 571
+   "ms": 6557
   },
   {
    "id": "podia",
@@ -10351,7 +10351,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 605
+   "ms": 5647
   },
   {
    "id": "gumroad",
@@ -10371,7 +10371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 9258
+   "ms": 2760
   },
   {
    "id": "convertkit",
@@ -10389,9 +10389,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4579
   },
   {
    "id": "beehiiv",
@@ -10491,7 +10491,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 883
+   "ms": 4484
   },
   {
    "id": "mailerlite",
@@ -10551,7 +10551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 277
+   "ms": 4990
   },
   {
    "id": "zoho",
@@ -10571,7 +10571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 674
+   "ms": 4601
   },
   {
    "id": "pipedrive",
@@ -10651,7 +10651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 677
+   "ms": 12881
   },
   {
    "id": "crisp",
@@ -10709,9 +10709,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1570
   },
   {
    "id": "chatfuel",
@@ -10751,7 +10751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 284
+   "ms": 842
   },
   {
    "id": "framer",
@@ -10791,7 +10791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 448
+   "ms": 2441
   },
   {
    "id": "spline",
@@ -10811,7 +10811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 115
+   "ms": 596
   },
   {
    "id": "fathom-analytics",
@@ -10891,7 +10891,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 119
+   "ms": 7854
   },
   {
    "id": "smartlook",
@@ -10911,7 +10911,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1029
+   "ms": 1785
   },
   {
    "id": "logrocket",
@@ -11011,7 +11011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1359
+   "ms": 13341
   },
   {
    "id": "optimizely",
@@ -11031,7 +11031,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 267
+   "ms": 3122
   },
   {
    "id": "unbounce",
@@ -11071,7 +11071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 708
+   "ms": 12238
   },
   {
    "id": "leadpages",
@@ -11091,7 +11091,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 285
+   "ms": 9214
   },
   {
    "id": "carrd",
@@ -11111,7 +11111,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 337
+   "ms": 4244
   },
   {
    "id": "linktree",
@@ -11131,7 +11131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 240
+   "ms": 4112
   },
   {
    "id": "beacons",
@@ -11171,7 +11171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 75
+   "ms": 2454
   },
   {
    "id": "taplink",
@@ -11191,7 +11191,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2033
+   "ms": 17725
   },
   {
    "id": "youtube-partner",
@@ -11210,7 +11210,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 38
+   "ms": 3815
   },
   {
    "id": "rumble",
@@ -11248,7 +11248,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 611
+   "ms": 7402
   },
   {
    "id": "odysee",
@@ -11267,7 +11267,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 194
+   "ms": 6165
   },
   {
    "id": "vimeo",
@@ -11286,7 +11286,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 61
+   "ms": 6502
   },
   {
    "id": "tiktok-creator",
@@ -11305,7 +11305,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 19130
+   "ms": 17512
   },
   {
    "id": "snapchat-spotlight",
@@ -11324,7 +11324,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 188
+   "ms": 5873
   },
   {
    "id": "facebook-reels",
@@ -11343,7 +11343,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1411
+   "ms": 9334
   },
   {
    "id": "instagram-reels-bonus",
@@ -11362,7 +11362,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1634
+   "ms": 5217
   },
   {
    "id": "x-creator",
@@ -11381,7 +11381,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 121
+   "ms": 4142
   },
   {
    "id": "twitch",
@@ -11400,7 +11400,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 125
+   "ms": 8164
   },
   {
    "id": "kick",
@@ -11419,7 +11419,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 122
+   "ms": 5216
   },
   {
    "id": "trovo",
@@ -11436,7 +11436,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -11457,7 +11457,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 340
+   "ms": 4333
   },
   {
    "id": "bigo-live",
@@ -11476,7 +11476,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 135
+   "ms": 4498
   },
   {
    "id": "likee",
@@ -11495,7 +11495,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1195
+   "ms": 3690
   },
   {
    "id": "clapper",
@@ -11512,9 +11512,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 8321
   },
   {
    "id": "bitchute",
@@ -11533,7 +11533,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 93
+   "ms": 5083
   },
   {
    "id": "peertube",
@@ -11552,7 +11552,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1330
+   "ms": 5887
   },
   {
    "id": "brighteon",
@@ -11571,7 +11571,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 100
+   "ms": 2795
   },
   {
    "id": "floatplane",
@@ -11590,7 +11590,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 348
+   "ms": 7862
   },
   {
    "id": "patreon",
@@ -11607,9 +11607,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2103
   },
   {
    "id": "ko-fi",
@@ -11626,9 +11626,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 99
+   "status": 400,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "buymeacoffee",
@@ -11647,7 +11647,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 191
+   "ms": 8910
   },
   {
    "id": "medium-partner",
@@ -11664,9 +11664,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1842
   },
   {
    "id": "vocal-media",
@@ -11685,7 +11685,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1803
+   "ms": 7884
   },
   {
    "id": "hubpages",
@@ -11721,9 +11721,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6610
   },
   {
    "id": "ghost",
@@ -11742,7 +11742,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 60
+   "ms": 11175
   },
   {
    "id": "buttondown",
@@ -11761,7 +11761,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 304
+   "ms": 8196
   },
   {
    "id": "wordpress-com",
@@ -11780,7 +11780,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 46
+   "ms": 5097
   },
   {
    "id": "blogger",
@@ -11799,7 +11799,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 254
+   "ms": 9540
   },
   {
    "id": "wix",
@@ -11816,9 +11816,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 429,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 7082
   },
   {
    "id": "squarespace",
@@ -11837,7 +11837,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 126
+   "ms": 6865
   },
   {
    "id": "notion-sites",
@@ -11856,7 +11856,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 154
+   "ms": 7225
   },
   {
    "id": "netlify",
@@ -11875,7 +11875,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 400
+   "ms": 5058
   },
   {
    "id": "vercel",
@@ -11894,7 +11894,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 115
+   "ms": 6175
   },
   {
    "id": "cloudflare-pages",
@@ -11913,7 +11913,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 284
+   "ms": 6907
   },
   {
    "id": "github-pages",
@@ -11932,7 +11932,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 292
+   "ms": 5337
   },
   {
    "id": "hashnode",
@@ -11951,7 +11951,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 173
+   "ms": 10720
   },
   {
    "id": "dev-to",
@@ -11970,7 +11970,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 77
+   "ms": 5658
   },
   {
    "id": "hackernoon",
@@ -11989,7 +11989,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 140
+   "ms": 4738
   },
   {
    "id": "quora-partner",
@@ -12006,9 +12006,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4386
   },
   {
    "id": "bear-blog",
@@ -12027,7 +12027,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 362
+   "ms": 2900
   },
   {
    "id": "write-as",
@@ -12046,7 +12046,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 223
+   "ms": 2839
   },
   {
    "id": "textbroker",
@@ -12065,7 +12065,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 225
+   "ms": 2765
   },
   {
    "id": "iwriter",
@@ -12084,7 +12084,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 306
+   "ms": 3613
   },
   {
    "id": "writeraccess",
@@ -12103,7 +12103,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 337
+   "ms": 1525
   },
   {
    "id": "verblio",
@@ -12122,7 +12122,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 101
+   "ms": 725
   },
   {
    "id": "mostaql",
@@ -12139,9 +12139,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 999
   },
   {
    "id": "khamsat",
@@ -12158,9 +12158,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1122
   },
   {
    "id": "bahr",
@@ -12179,7 +12179,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 924
+   "ms": 8810
   },
   {
    "id": "ureed",
@@ -12198,7 +12198,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 407
+   "ms": 1871
   },
   {
    "id": "tasmeemme",
@@ -12217,7 +12217,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 560
+   "ms": 1932
   },
   {
    "id": "upwork",
@@ -12234,9 +12234,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1310
   },
   {
    "id": "fiverr",
@@ -12255,7 +12255,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 294
+   "ms": 2156
   },
   {
    "id": "freelancer",
@@ -12274,7 +12274,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 639
+   "ms": 1272
   },
   {
    "id": "peopleperhour",
@@ -12291,9 +12291,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 202,
+   "status": 200,
    "ok": true,
-   "ms": 83
+   "ms": 970
   },
   {
    "id": "guru",
@@ -12312,7 +12312,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 360
+   "ms": 1697
   },
   {
    "id": "toptal",
@@ -12331,7 +12331,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 149
+   "ms": 1397
   },
   {
    "id": "contra",
@@ -12350,7 +12350,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 289
+   "ms": 939
   },
   {
    "id": "workana",
@@ -12369,7 +12369,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 170
+   "ms": 1105
   },
   {
    "id": "truelancer",
@@ -12407,7 +12407,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 324
+   "ms": 1469
   },
   {
    "id": "surge-ai",
@@ -12426,7 +12426,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 500
+   "ms": 8147
   },
   {
    "id": "scale-ai",
@@ -12445,7 +12445,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 169
+   "ms": 681
   },
   {
    "id": "invisible-tech",
@@ -12464,7 +12464,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 317
+   "ms": 2780
   },
   {
    "id": "sigma-ai",
@@ -12483,7 +12483,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2660
+   "ms": 2818
   },
   {
    "id": "outlier-ai",
@@ -12502,7 +12502,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 163
+   "ms": 611
   },
   {
    "id": "dataannotation",
@@ -12521,7 +12521,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 147
+   "ms": 836
   },
   {
    "id": "alignerr",
@@ -12540,7 +12540,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 96
+   "ms": 566
   },
   {
    "id": "mercor",
@@ -12557,9 +12557,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 514
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "micro1",
@@ -12578,7 +12578,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 335
+   "ms": 1724
   },
   {
    "id": "handshake-ai",
@@ -12597,7 +12597,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 183
+   "ms": 782
   },
   {
    "id": "lionbridge",
@@ -12616,7 +12616,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 374
+   "ms": 7644
   },
   {
    "id": "welocalize",
@@ -12635,7 +12635,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 45
+   "ms": 1205
   },
   {
    "id": "rws",
@@ -12654,7 +12654,7 @@
    "ref_code": "",
    "status": 202,
    "ok": true,
-   "ms": 107
+   "ms": 925
   },
   {
    "id": "transperfect",
@@ -12673,7 +12673,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 80
+   "ms": 736
   },
   {
    "id": "gengo",
@@ -12692,7 +12692,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 550
+   "ms": 1547
   },
   {
    "id": "unbabel",
@@ -12711,7 +12711,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 201
+   "ms": 1069
   },
   {
    "id": "smartcat",
@@ -12730,7 +12730,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 538
+   "ms": 1265
   },
   {
    "id": "proz",
@@ -12768,7 +12768,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 229
+   "ms": 869
   },
   {
    "id": "transcribeme",
@@ -12787,7 +12787,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 260
+   "ms": 780
   },
   {
    "id": "gotranscript",
@@ -12806,7 +12806,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 354
+   "ms": 1312
   },
   {
    "id": "scribie",
@@ -12825,7 +12825,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 220
+   "ms": 814
   },
   {
    "id": "verbit",
@@ -12844,7 +12844,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 74
+   "ms": 728
   },
   {
    "id": "castingwords",
@@ -12863,7 +12863,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 61
+   "ms": 1056
   },
   {
    "id": "happy-scribe",
@@ -12882,7 +12882,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 116
+   "ms": 979
   },
   {
    "id": "sonix",
@@ -12901,7 +12901,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 696
+   "ms": 1521
   },
   {
    "id": "speechpad",
@@ -12920,7 +12920,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1160
+   "ms": 1977
   },
   {
    "id": "quicktate",
@@ -12939,7 +12939,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 173
+   "ms": 1451
   },
   {
    "id": "virtual-vocations",
@@ -12958,7 +12958,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 166
+   "ms": 548
   },
   {
    "id": "binance-p2p",
@@ -12976,9 +12976,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 202,
+   "status": 200,
    "ok": true,
-   "ms": 76
+   "ms": 17692
   },
   {
    "id": "binance",
@@ -12998,7 +12998,7 @@
    "ref_code": "",
    "status": 202,
    "ok": true,
-   "ms": 100
+   "ms": 326
   },
   {
    "id": "bybit",
@@ -13018,7 +13018,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 442
+   "ms": 918
   },
   {
    "id": "okx",
@@ -13038,7 +13038,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 467
+   "ms": 1134
   },
   {
    "id": "kucoin",
@@ -13058,7 +13058,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 87
+   "ms": 701
   },
   {
    "id": "gate-io",
@@ -13098,7 +13098,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 486
+   "ms": 1027
   },
   {
    "id": "bitget",
@@ -13118,7 +13118,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 192
+   "ms": 741
   },
   {
    "id": "htx",
@@ -13138,7 +13138,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 115
+   "ms": 1030
   },
   {
    "id": "kraken",
@@ -13158,7 +13158,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 100
+   "ms": 1390
   },
   {
    "id": "coinbase",
@@ -13178,7 +13178,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 161
+   "ms": 599
   },
   {
    "id": "crypto-com",
@@ -13196,9 +13196,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 184
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "bitstamp",
@@ -13218,7 +13218,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 258
+   "ms": 788
   },
   {
    "id": "bitfinex",
@@ -13238,7 +13238,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 244
+   "ms": 474
   },
   {
    "id": "gemini",
@@ -13258,7 +13258,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 93
+   "ms": 1205
   },
   {
    "id": "bitmart",
@@ -13278,7 +13278,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 308
+   "ms": 1089
   },
   {
    "id": "poloniex",
@@ -13298,7 +13298,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 383
+   "ms": 5523
   },
   {
    "id": "lbank",
@@ -13318,7 +13318,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 174
+   "ms": 923
   },
   {
    "id": "coinex",
@@ -13338,7 +13338,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 235
+   "ms": 2928
   },
   {
    "id": "wazirx",
@@ -13358,7 +13358,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 883
+   "ms": 3430
   },
   {
    "id": "coindcx",
@@ -13416,9 +13416,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 602
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "bisq",
@@ -13438,7 +13438,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 140
+   "ms": 4849
   },
   {
    "id": "trust-wallet",
@@ -13458,7 +13458,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 321
+   "ms": 4999
   },
   {
    "id": "metamask",
@@ -13478,7 +13478,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 516
+   "ms": 4443
   },
   {
    "id": "exodus",
@@ -13498,7 +13498,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 322
+   "ms": 12408
   },
   {
    "id": "atomic-wallet",
@@ -13518,7 +13518,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 464
+   "ms": 5345
   },
   {
    "id": "rainbow",
@@ -13538,7 +13538,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 175
+   "ms": 4624
   },
   {
    "id": "phantom",
@@ -13558,7 +13558,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 391
+   "ms": 12218
   },
   {
    "id": "safepal",
@@ -13578,7 +13578,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 182
+   "ms": 4303
   },
   {
    "id": "ledger",
@@ -13598,7 +13598,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 97
+   "ms": 5844
   },
   {
    "id": "trezor",
@@ -13618,7 +13618,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 152
+   "ms": 4055
   },
   {
    "id": "nowpayments",
@@ -13638,7 +13638,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 278
+   "ms": 5308
   },
   {
    "id": "cryptomus",
@@ -13658,7 +13658,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 539
+   "ms": 10593
   },
   {
    "id": "coinspaid",
@@ -13696,9 +13696,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 168
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "plisio",
@@ -13718,7 +13718,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 376
+   "ms": 3156
   },
   {
    "id": "coinbase-commerce",
@@ -13758,7 +13758,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 377
+   "ms": 2160
   },
   {
    "id": "airtm",
@@ -13796,9 +13796,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 874
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "payoneer",
@@ -13818,7 +13818,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 557
+   "ms": 1574
   },
   {
    "id": "skrill",
@@ -13838,7 +13838,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 303
+   "ms": 4079
   },
   {
    "id": "neteller",
@@ -13858,7 +13858,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3000
+   "ms": 3558
   },
   {
    "id": "payeer",
@@ -13898,7 +13898,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 601
+   "ms": 10787
   },
   {
    "id": "perfect-money",
@@ -13938,7 +13938,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 896
+   "ms": 1884
   },
   {
    "id": "papara",
@@ -13978,7 +13978,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 302
+   "ms": 20007
   },
   {
    "id": "google-search-console",
@@ -13995,7 +13995,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 430
+   "ms": 2408
   },
   {
    "id": "bing-webmaster",
@@ -14010,9 +14010,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 11111
   },
   {
    "id": "yandex-webmaster",
@@ -14029,7 +14029,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1156
+   "ms": 1482
   },
   {
    "id": "indexnow",
@@ -14046,7 +14046,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 439
+   "ms": 1254
   },
   {
    "id": "cloudflare",
@@ -14063,7 +14063,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 176
+   "ms": 888
   },
   {
    "id": "brave-creators",
@@ -14080,7 +14080,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 137
+   "ms": 1708
   },
   {
    "id": "google-analytics",
@@ -14097,7 +14097,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 269
+   "ms": 6641
   },
   {
    "id": "histats",
@@ -14114,7 +14114,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 854
+   "ms": 685
   },
   {
    "id": "statcounter",
@@ -14131,7 +14131,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 190
+   "ms": 19682
   },
   {
    "id": "plausible",
@@ -14148,7 +14148,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 226
+   "ms": 14767
   },
   {
    "id": "umami",
@@ -14165,7 +14165,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 191
+   "ms": 1049
   },
   {
    "id": "yandex-metrica",
@@ -14182,7 +14182,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3518
+   "ms": 9479
   },
   {
    "id": "simple-analytics",
@@ -14199,7 +14199,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1143
+   "ms": 1902
   },
   {
    "id": "goatcounter",
@@ -14216,7 +14216,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1017
+   "ms": 1760
   },
   {
    "id": "splitbee",
@@ -14233,7 +14233,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 371
+   "ms": 2104
   },
   {
    "id": "ackee",
@@ -14250,7 +14250,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 585
+   "ms": 1358
   },
   {
    "id": "clicky",
@@ -14267,7 +14267,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 120
+   "ms": 1138
   },
   {
    "id": "fathom",
@@ -14284,7 +14284,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 123
+   "ms": 811
   },
   {
    "id": "feedburner",
@@ -14301,7 +14301,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 43
+   "ms": 895
   },
   {
    "id": "open-graph-debugger",
@@ -14318,7 +14318,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 290
+   "ms": 643
   },
   {
    "id": "rich-results-test",
@@ -14335,7 +14335,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 14906
   },
   {
    "id": "pagespeed-insights",
@@ -14352,7 +14352,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 380
+   "ms": 11356
   },
   {
    "id": "lighthouse",
@@ -14369,7 +14369,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 291
+   "ms": 14317
   },
   {
    "id": "web-dev",
@@ -14386,7 +14386,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 301
+   "ms": 7480
   },
   {
    "id": "schema-org",
@@ -14403,7 +14403,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 192
+   "ms": 5922
   },
   {
    "id": "broken-link-checker",
@@ -14420,7 +14420,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 310
+   "ms": 3968
   },
   {
    "id": "screaming-frog",
@@ -14437,7 +14437,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 238
+   "ms": 14372
   },
   {
    "id": "gtmetrix",
@@ -14454,7 +14454,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 267
+   "ms": 3962
   },
   {
    "id": "cloudflare-radar",
@@ -14469,9 +14469,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4750
   },
   {
    "id": "ubersuggest-seo",
@@ -14488,7 +14488,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 520
+   "ms": 14629
   },
   {
    "id": "shutterstock",
@@ -14509,7 +14509,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 376
+   "ms": 4105
   },
   {
    "id": "adobe-stock",
@@ -14530,7 +14530,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 320
+   "ms": 1120
   },
   {
    "id": "alamy",
@@ -14551,7 +14551,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 671
+   "ms": 1451
   },
   {
    "id": "dreamstime",
@@ -14614,7 +14614,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 240
+   "ms": 1242
   },
   {
    "id": "freepik",
@@ -14635,7 +14635,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1628
+   "ms": 8776
   },
   {
    "id": "500px",
@@ -14656,7 +14656,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 241
+   "ms": 680
   },
   {
    "id": "eyeem",
@@ -14698,7 +14698,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 151
+   "ms": 4691
   },
   {
    "id": "istock",
@@ -14719,7 +14719,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 221
+   "ms": 2392
   },
   {
    "id": "depositphotos",
@@ -14759,9 +14759,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5467
   },
   {
    "id": "123rf",
@@ -14782,7 +14782,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1089
+   "ms": 4179
   },
   {
    "id": "canva-contributors",
@@ -14801,9 +14801,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4097
   },
   {
    "id": "motion-array",
@@ -14822,9 +14822,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3833
   },
   {
    "id": "storyblocks",
@@ -14843,9 +14843,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 310
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "artgrid",
@@ -14864,9 +14864,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6002
   },
   {
    "id": "artlist",
@@ -14885,9 +14885,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6338
   },
   {
    "id": "musicbed",
@@ -14908,7 +14908,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 433
+   "ms": 6960
   },
   {
    "id": "audiojungle",
@@ -14929,7 +14929,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 116
+   "ms": 5331
   },
   {
    "id": "pixels",
@@ -14948,9 +14948,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6992
   },
   {
    "id": "unsplash",
@@ -14992,7 +14992,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 749
+   "ms": 3707
   },
   {
    "id": "soundsnap",
@@ -15013,7 +15013,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 445
+   "ms": 3139
   },
   {
    "id": "shutterstock-video",
@@ -15055,7 +15055,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 131
+   "ms": 2867
   },
   {
    "id": "pond5-music",
@@ -15095,9 +15095,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3947
   },
   {
    "id": "creative-market",
@@ -15116,9 +15116,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1974
   },
   {
    "id": "design-bundles",
@@ -15139,7 +15139,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 366
+   "ms": 754
   },
   {
    "id": "the-hungry-jpeg",
@@ -15160,7 +15160,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 406
+   "ms": 3556
   },
   {
    "id": "font-bundles",
@@ -15181,7 +15181,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 74
+   "ms": 926
   },
   {
    "id": "ui8",
@@ -15200,9 +15200,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1399
   },
   {
    "id": "gumroad-design",
@@ -15223,7 +15223,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 67
+   "ms": 721
   },
   {
    "id": "lottiefiles",
@@ -15244,7 +15244,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 99
+   "ms": 833
   },
   {
    "id": "iconscout",
@@ -15307,7 +15307,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 286
+   "ms": 1004
   },
   {
    "id": "iconfinder",
@@ -15349,7 +15349,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 196
+   "ms": 869
   },
   {
    "id": "codepen-challenges",
@@ -15368,9 +15368,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 700
   },
   {
    "id": "codester",
@@ -15391,7 +15391,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1443
+   "ms": 1837
   },
   {
    "id": "codecanyon",
@@ -15412,7 +15412,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 108
+   "ms": 561
   },
   {
    "id": "templatemonster",
@@ -15454,7 +15454,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 97
+   "ms": 1228
   },
   {
    "id": "wrapbootstrap",
@@ -15473,7 +15473,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
+   "status": "ERR",
    "ok": false,
    "ms": 0
   },
@@ -15494,9 +15494,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 14189
   },
   {
    "id": "codester-scripts",
@@ -15517,7 +15517,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1291
+   "ms": 1960
   },
   {
    "id": "chupamobile",
@@ -15538,7 +15538,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 204
+   "ms": 12174
   },
   {
    "id": "appsumo",
@@ -15559,7 +15559,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 162
+   "ms": 1504
   },
   {
    "id": "microacquire",
@@ -15580,7 +15580,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 156
+   "ms": 2811
   },
   {
    "id": "flippa",
@@ -15601,7 +15601,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 82
+   "ms": 1285
   },
   {
    "id": "empire-flippers",
@@ -15622,7 +15622,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 233
+   "ms": 1276
   },
   {
    "id": "motionelements",
@@ -15643,7 +15643,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 225
+   "ms": 1468
   },
   {
    "id": "videohive",
@@ -15664,7 +15664,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 94
+   "ms": 1254
   },
   {
    "id": "graphicriver",
@@ -15683,9 +15683,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 929
   },
   {
    "id": "photodune",
@@ -15706,7 +15706,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 87
+   "ms": 10214
   },
   {
    "id": "3docean",
@@ -15727,7 +15727,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 756
   },
   {
    "id": "redbubble",
@@ -15748,7 +15748,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 971
+   "ms": 1224
   },
   {
    "id": "teespring",
@@ -15769,7 +15769,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 232
+   "ms": 7276
   },
   {
    "id": "merch-by-amazon",
@@ -15790,7 +15790,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 529
+   "ms": 11339
   },
   {
    "id": "society6",
@@ -15811,7 +15811,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 380
+   "ms": 9118
   },
   {
    "id": "zazzle",
@@ -15832,7 +15832,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 366
+   "ms": 9614
   },
   {
    "id": "printful",
@@ -15853,7 +15853,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 319
+   "ms": 12884
   },
   {
    "id": "printify",
@@ -15874,7 +15874,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 105
+   "ms": 657
   },
   {
    "id": "displate",
@@ -15893,9 +15893,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 151
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "fine-art-america",
@@ -15916,7 +15916,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 228
+   "ms": 10157
   },
   {
    "id": "cafepress",
@@ -15935,9 +15935,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 202,
+   "ok": true,
+   "ms": 575
   },
   {
    "id": "spreadshirt",
@@ -15979,7 +15979,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 332
+   "ms": 11660
   },
   {
    "id": "teepublic",
@@ -16000,7 +16000,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 535
+   "ms": 2345
   },
   {
    "id": "gelato",
@@ -16019,9 +16019,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1380
   },
   {
    "id": "gooten",
@@ -16042,7 +16042,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 464
+   "ms": 2064
   },
   {
    "id": "spod",
@@ -16063,7 +16063,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 347
+   "ms": 18398
   },
   {
    "id": "customcat",
@@ -16105,7 +16105,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 770
+   "ms": 2115
   },
   {
    "id": "teelaunch",
@@ -16126,7 +16126,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 411
+   "ms": 5035
   },
   {
    "id": "mydesigns",
@@ -16147,7 +16147,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 352
+   "ms": 6744
   },
   {
    "id": "placeit",
@@ -16168,7 +16168,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 138
+   "ms": 11316
   },
   {
    "id": "canva-print",
@@ -16187,9 +16187,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 18119
   },
   {
    "id": "etsy",
@@ -16231,7 +16231,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 313
+   "ms": 20853
   },
   {
    "id": "amazon-kdp",
@@ -16252,7 +16252,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 642
+   "ms": 9482
   },
   {
    "id": "ingramspark",
@@ -16273,7 +16273,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3926
+   "ms": 5003
   },
   {
    "id": "lulu",
@@ -16294,7 +16294,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 270
+   "ms": 6319
   },
   {
    "id": "blurb",
@@ -16315,7 +16315,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 178
+   "ms": 6533
   },
   {
    "id": "bookbaby",
@@ -16334,9 +16334,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 192
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "draft2digital",
@@ -16357,7 +16357,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 467
+   "ms": 5201
   },
   {
    "id": "smashwords",
@@ -16378,7 +16378,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 184
+   "ms": 4236
   },
   {
    "id": "publishdrive",
@@ -16399,7 +16399,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 549
+   "ms": 1438
   },
   {
    "id": "streetlib",
@@ -16420,7 +16420,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 95
+   "ms": 1542
   },
   {
    "id": "kobo-writing-life",
@@ -16462,7 +16462,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 390
+   "ms": 1980
   },
   {
    "id": "google-play-books",
@@ -16483,7 +16483,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 386
+   "ms": 4075
   },
   {
    "id": "gumroad-ebooks",
@@ -16504,7 +16504,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 59
+   "ms": 410
   },
   {
    "id": "payhip",
@@ -16523,9 +16523,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 989
   },
   {
    "id": "sellfy",
@@ -16546,7 +16546,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 423
+   "ms": 1327
   },
   {
    "id": "lemon-squeezy",
@@ -16567,7 +16567,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 131
+   "ms": 706
   },
   {
    "id": "sendowl",
@@ -16588,7 +16588,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 305
+   "ms": 1083
   },
   {
    "id": "fetchapp",
@@ -16609,7 +16609,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 320
+   "ms": 1061
   },
   {
    "id": "shopify",
@@ -16630,7 +16630,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 362
+   "ms": 1311
   },
   {
    "id": "woocommerce",
@@ -16651,7 +16651,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 55
+   "ms": 1057
   },
   {
    "id": "spotify-for-artists",
@@ -16672,7 +16672,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 172
+   "ms": 1377
   },
   {
    "id": "apple-music-for-artists",
@@ -16693,7 +16693,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 38
+   "ms": 3035
   },
   {
    "id": "distrokid",
@@ -16712,9 +16712,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1411
   },
   {
    "id": "tunecore",
@@ -16735,7 +16735,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 172
+   "ms": 1261
   },
   {
    "id": "cd-baby",
@@ -16756,7 +16756,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 110
+   "ms": 920
   },
   {
    "id": "amuse",
@@ -16777,7 +16777,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 457
+   "ms": 2157
   },
   {
    "id": "landr",
@@ -16798,7 +16798,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 85
+   "ms": 1714
   },
   {
    "id": "soundcloud",
@@ -16819,7 +16819,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 246
+   "ms": 1294
   },
   {
    "id": "audiomack",
@@ -16838,9 +16838,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1853
   },
   {
    "id": "bandcamp",
@@ -16861,7 +16861,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 136
+   "ms": 1287
   },
   {
    "id": "ditto-music",
@@ -16882,7 +16882,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 412
+   "ms": 1623
   },
   {
    "id": "routenote",
@@ -16903,7 +16903,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 312
+   "ms": 969
   },
   {
    "id": "united-masters",
@@ -16924,7 +16924,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 228
+   "ms": 6106
   },
   {
    "id": "stem",
@@ -16943,9 +16943,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4485
   },
   {
    "id": "symphonic",
@@ -16966,7 +16966,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 240
+   "ms": 4023
   },
   {
    "id": "awal",
@@ -16987,7 +16987,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 243
+   "ms": 828
   },
   {
    "id": "believe",
@@ -17008,7 +17008,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 518
+   "ms": 1234
   },
   {
    "id": "the-orchard",
@@ -17029,7 +17029,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 202
+   "ms": 548
   },
   {
    "id": "angahmi",
@@ -17048,9 +17048,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1976
   },
   {
    "id": "deezer-artists",
@@ -17071,7 +17071,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 642
+   "ms": 14389
   },
   {
    "id": "tidal-artists",
@@ -17113,7 +17113,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 413
+   "ms": 884
   },
   {
    "id": "sedo",
@@ -17134,7 +17134,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 840
+   "ms": 2457
   },
   {
    "id": "afternic",
@@ -17155,7 +17155,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 167
+   "ms": 1932
   },
   {
    "id": "dan-com",
@@ -17176,7 +17176,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 579
+   "ms": 57624
   },
   {
    "id": "godaddy-auctions",
@@ -17216,9 +17216,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4826
   },
   {
    "id": "bodis",
@@ -17281,7 +17281,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 405
+   "ms": 4039
   },
   {
    "id": "squadhelp",
@@ -17300,9 +17300,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1180
   },
   {
    "id": "brandbucket",
@@ -17323,7 +17323,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 245
+   "ms": 1717
   },
   {
    "id": "atom",
@@ -17344,7 +17344,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 100
+   "ms": 922
   },
   {
    "id": "efty",
@@ -17365,7 +17365,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 115
+   "ms": 1647
   },
   {
    "id": "undeveloped",
@@ -17407,7 +17407,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 792
+   "ms": 2971
   },
   {
    "id": "remoteok",
@@ -17428,7 +17428,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 153
+   "ms": 3424
   },
   {
    "id": "weworkremotely",
@@ -17449,7 +17449,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 736
+   "ms": 1319
   },
   {
    "id": "remote-co",
@@ -17512,7 +17512,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 260
+   "ms": 1306
   },
   {
    "id": "remotive",
@@ -17533,7 +17533,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 774
+   "ms": 1476
   },
   {
    "id": "working-nomads",
@@ -17554,7 +17554,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 632
+   "ms": 3579
   },
   {
    "id": "jobspresso",
@@ -17575,7 +17575,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 106
+   "ms": 655
   },
   {
    "id": "outsourcely",
@@ -17617,7 +17617,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 572
+   "ms": 1583
   },
   {
    "id": "nooro",
@@ -17638,7 +17638,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 484
+   "ms": 1428
   },
   {
    "id": "remote4me",
@@ -17659,7 +17659,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 234
+   "ms": 1356
   },
   {
    "id": "himalayas",
@@ -17680,7 +17680,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 307
+   "ms": 1199
   },
   {
    "id": "remote-leaf",
@@ -17701,7 +17701,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 424
+   "ms": 1222
   },
   {
    "id": "toggl-hire",
@@ -17722,7 +17722,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 205
+   "ms": 1488
   },
   {
    "id": "wellfound",
@@ -17741,9 +17741,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 94
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "otta",
@@ -17764,7 +17764,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 587
+   "ms": 2186
   },
   {
    "id": "built-in",
@@ -17785,7 +17785,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 179
+   "ms": 1601
   },
   {
    "id": "hacker-news-jobs",
@@ -17806,7 +17806,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 103
+   "ms": 2737
   },
   {
    "id": "stack-overflow-jobs",
@@ -17848,7 +17848,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 347
+   "ms": 1293
   },
   {
    "id": "indeed",
@@ -17890,7 +17890,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 254
+   "ms": 873
   },
   {
    "id": "glassdoor",
@@ -17909,9 +17909,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6333
   },
   {
    "id": "bayt",
@@ -17972,9 +17972,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 721
   },
   {
    "id": "akhtaboot",
@@ -17995,7 +17995,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 665
+   "ms": 12957
   },
   {
    "id": "tanqeeb",
@@ -18014,9 +18014,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 9818
   },
   {
    "id": "wuzzuf",
@@ -18035,7 +18035,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
+   "status": "ERR",
    "ok": false,
    "ms": 0
   },
@@ -18079,7 +18079,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1462
+   "ms": 22959
   },
   {
    "id": "bidayat",
@@ -18100,7 +18100,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 382
+   "ms": 1241
   },
   {
    "id": "mihnati",
@@ -18121,7 +18121,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1348
+   "ms": 30069
   },
   {
    "id": "talentera",
@@ -18142,7 +18142,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 572
+   "ms": 23157
   },
   {
    "id": "topcashback-us",
@@ -18161,9 +18161,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 161
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "topcashback-uk",
@@ -18182,9 +18182,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 508
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "rakuten",
@@ -18205,7 +18205,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 66
+   "ms": 7886
   },
   {
    "id": "swagbucks-shop",
@@ -18224,9 +18224,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 229
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "mr-rebates",
@@ -18247,7 +18247,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 138
+   "ms": 14666
   },
   {
    "id": "ebates",
@@ -18268,7 +18268,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 19
+   "ms": 9225
   },
   {
    "id": "fetch",
@@ -18289,7 +18289,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 56
+   "ms": 35447
   },
   {
    "id": "checkout-51",
@@ -18308,9 +18308,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 256
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "quidco",
@@ -18371,9 +18371,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4328
   },
   {
    "id": "karma",
@@ -18394,7 +18394,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 394
+   "ms": 24470
   },
   {
    "id": "capital-one-shopping",
@@ -18413,9 +18413,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 775
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "cently",
@@ -18436,7 +18436,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1061
+   "ms": 21494
   },
   {
    "id": "shopback",
@@ -18455,9 +18455,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 354
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "fave",
@@ -18478,7 +18478,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 260
+   "ms": 22327
   },
   {
    "id": "grabrewards",
@@ -18499,7 +18499,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 597
+   "ms": 10088
   },
   {
    "id": "wemakeprice",
@@ -18541,7 +18541,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 280
+   "ms": 8686
   },
   {
    "id": "noon-cashback",
@@ -18560,7 +18560,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -18581,7 +18581,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -18604,7 +18604,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 2197
+   "ms": 46525
   },
   {
    "id": "fatcoupon",
@@ -18625,7 +18625,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 401
+   "ms": 7601
   },
   {
    "id": "wikibuy",
@@ -18644,9 +18644,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 826
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "fluz",
@@ -18667,7 +18667,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 222
+   "ms": 6552
   },
   {
    "id": "mode-mobile",
@@ -18688,7 +18688,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 279
+   "ms": 8009
   },
   {
    "id": "ember",
@@ -18709,7 +18709,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 42
+   "ms": 6904
   },
   {
    "id": "step",
@@ -18730,7 +18730,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 161
+   "ms": 4768
   },
   {
    "id": "current",
@@ -18751,7 +18751,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 238
+   "ms": 6064
   },
   {
    "id": "chime",
@@ -18791,9 +18791,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 224
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "revolut",
@@ -18812,9 +18812,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 607
   },
   {
    "id": "monzo",
@@ -18835,7 +18835,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 109
+   "ms": 8093
   },
   {
    "id": "n26",
@@ -18856,7 +18856,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 684
+   "ms": 12866
   },
   {
    "id": "wise-cashback",
@@ -18875,9 +18875,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 895
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "booking-com",
@@ -18898,7 +18898,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 322
+   "ms": 740
   },
   {
    "id": "agoda",
@@ -18919,7 +18919,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 597
+   "ms": 1648
   },
   {
    "id": "expedia",
@@ -18982,7 +18982,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 280
+   "ms": 2793
   },
   {
    "id": "klook",
@@ -19024,7 +19024,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 719
+   "ms": 7013
   },
   {
    "id": "viator",
@@ -19087,7 +19087,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 296
+   "ms": 5468
   },
   {
    "id": "airbnb",
@@ -19108,7 +19108,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 829
+   "ms": 5756
   },
   {
    "id": "vrbo",
@@ -19150,7 +19150,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1664
+   "ms": 7287
   },
   {
    "id": "kayak",
@@ -19171,7 +19171,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 777
+   "ms": 6709
   },
   {
    "id": "momondo",
@@ -19192,7 +19192,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 628
+   "ms": 6039
   },
   {
    "id": "cheapoair",
@@ -19211,9 +19211,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 218
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "kiwi-com",
@@ -19234,7 +19234,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 672
+   "ms": 5148
   },
   {
    "id": "omio",
@@ -19253,9 +19253,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6621
   },
   {
    "id": "trainline",
@@ -19276,7 +19276,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 400
+   "ms": 2581
   },
   {
    "id": "flixbus",
@@ -19297,7 +19297,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 127
+   "ms": 7859
   },
   {
    "id": "ryanair",
@@ -19318,7 +19318,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 219
+   "ms": 5361
   },
   {
    "id": "easyjet",
@@ -19465,7 +19465,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 883
+   "ms": 2558
   },
   {
    "id": "yemenia",
@@ -19486,7 +19486,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1450
+   "ms": 5878
   },
   {
    "id": "rixos",
@@ -19507,7 +19507,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 130
+   "ms": 1010
   },
   {
    "id": "accor",
@@ -19528,7 +19528,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 395
+   "ms": 10588
   },
   {
    "id": "marriott",
@@ -19568,9 +19568,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 18236
   },
   {
    "id": "ihg",
@@ -19633,7 +19633,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 251
+   "ms": 26481
   },
   {
    "id": "rotana",
@@ -19654,7 +19654,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 381
+   "ms": 9371
   },
   {
    "id": "jumeirah",
@@ -19675,7 +19675,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 899
+   "ms": 9032
   },
   {
    "id": "rove-hotels",
@@ -19696,7 +19696,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1652
+   "ms": 6424
   },
   {
    "id": "time-hotels",
@@ -19717,7 +19717,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1905
+   "ms": 21037
   },
   {
    "id": "dnata",
@@ -19738,7 +19738,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 748
+   "ms": 8843
   },
   {
    "id": "almosafer",
@@ -19759,7 +19759,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 594
+   "ms": 21284
   },
   {
    "id": "flyin",
@@ -19778,9 +19778,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 471,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 8271
   },
   {
    "id": "rehlat",
@@ -19822,7 +19822,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 215
+   "ms": 6034
   },
   {
    "id": "tajawal",
@@ -19864,7 +19864,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 196
+   "ms": 4332
   },
   {
    "id": "nerdwallet",
@@ -19885,7 +19885,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 228
+   "ms": 3049
   },
   {
    "id": "credit-karma",
@@ -19906,7 +19906,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 102
+   "ms": 16864
   },
   {
    "id": "lendingtree",
@@ -19925,9 +19925,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 95
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "sofi",
@@ -19969,7 +19969,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 239
+   "ms": 14150
   },
   {
    "id": "webull",
@@ -19990,7 +19990,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 286
+   "ms": 12307
   },
   {
    "id": "etoro",
@@ -20011,7 +20011,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 213
+   "ms": 15185
   },
   {
    "id": "interactive-brokers",
@@ -20032,7 +20032,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 243
+   "ms": 13383
   },
   {
    "id": "trading212",
@@ -20072,9 +20072,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 683
+   "status": 503,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "saxo",
@@ -20095,7 +20095,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 401
+   "ms": 12701
   },
   {
    "id": "xtb",
@@ -20114,9 +20114,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 1730
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "plus500",
@@ -20135,9 +20135,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 677
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "avatrade",
@@ -20200,7 +20200,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 289
+   "ms": 12742
   },
   {
    "id": "octafx",
@@ -20219,7 +20219,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
+   "status": 410,
    "ok": false,
    "ms": 0
   },
@@ -20240,9 +20240,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 15501
   },
   {
    "id": "ic-markets",
@@ -20263,7 +20263,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1857
+   "ms": 22930
   },
   {
    "id": "pepperstone",
@@ -20284,7 +20284,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 773
+   "ms": 25122
   },
   {
    "id": "tickmill",
@@ -20305,7 +20305,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1421
+   "ms": 4594
   },
   {
    "id": "fbs",
@@ -20326,7 +20326,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 741
+   "ms": 3076
   },
   {
    "id": "hotforex",
@@ -20345,9 +20345,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 12178
   },
   {
    "id": "forex-com",
@@ -20389,7 +20389,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 315
+   "ms": 7798
   },
   {
    "id": "saxo-bank",
@@ -20410,7 +20410,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 14
+   "ms": 3067
   },
   {
    "id": "alpari",
@@ -20431,7 +20431,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 563
+   "ms": 3895
   },
   {
    "id": "instaforex",
@@ -20452,7 +20452,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 620
+   "ms": 4272
   },
   {
    "id": "fxtm",
@@ -20473,7 +20473,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1012
+   "ms": 11215
   },
   {
    "id": "roboforex",
@@ -20494,7 +20494,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 605
+   "ms": 2945
   },
   {
    "id": "admirals",
@@ -20536,7 +20536,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 935
+   "ms": 14973
   },
   {
    "id": "skilling",
@@ -20576,9 +20576,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 279
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "swissborg",
@@ -20599,7 +20599,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 406
+   "ms": 12896
   },
   {
    "id": "youhodler",
@@ -20620,7 +20620,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 121
+   "ms": 9526
   },
   {
    "id": "nexo",
@@ -20641,7 +20641,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 255
+   "ms": 14238
   },
   {
    "id": "celsius",
@@ -20662,7 +20662,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 103
+   "ms": 9172
   },
   {
    "id": "blockfi",
@@ -20683,7 +20683,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 57
+   "ms": 9308
   },
   {
    "id": "ledn",
@@ -20704,7 +20704,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 114
+   "ms": 9068
   },
   {
    "id": "coinloan",
@@ -20725,7 +20725,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 685
+   "ms": 8531
   },
   {
    "id": "g2a",
@@ -20765,9 +20765,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 8389
   },
   {
    "id": "eneba",
@@ -20788,7 +20788,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 325
+   "ms": 5858
   },
   {
    "id": "greenmangaming",
@@ -20809,7 +20809,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 390
+   "ms": 10892
   },
   {
    "id": "fanatical",
@@ -20830,7 +20830,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 274
+   "ms": 9377
   },
   {
    "id": "humble-bundle",
@@ -20851,7 +20851,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 743
+   "ms": 6580
   },
   {
    "id": "instant-gaming",
@@ -20872,7 +20872,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 214
+   "ms": 10258
   },
   {
    "id": "gamivo",
@@ -20914,7 +20914,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 213
+   "ms": 7330
   },
   {
    "id": "epic-games",
@@ -20956,7 +20956,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 998
+   "ms": 12394
   },
   {
    "id": "origin",
@@ -20977,7 +20977,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 172
+   "ms": 5141
   },
   {
    "id": "ubisoft",
@@ -20998,7 +20998,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 801
+   "ms": 16495
   },
   {
    "id": "playstation",
@@ -21019,7 +21019,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 470
+   "ms": 8192
   },
   {
    "id": "xbox",
@@ -21040,7 +21040,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 251
+   "ms": 7781
   },
   {
    "id": "nintendo",
@@ -21061,7 +21061,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 123
+   "ms": 10309
   },
   {
    "id": "roblox",
@@ -21082,7 +21082,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 389
+   "ms": 6775
   },
   {
    "id": "minecraft",
@@ -21103,7 +21103,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 446
+   "ms": 7221
   },
   {
    "id": "fortnite-creator",
@@ -21145,7 +21145,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 8010
   },
   {
    "id": "discord-nitro",
@@ -21166,7 +21166,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 67
+   "ms": 5337
   },
   {
    "id": "faceit",
@@ -21208,7 +21208,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 391
+   "ms": 10104
   },
   {
    "id": "toornament",
@@ -21229,7 +21229,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1544
+   "ms": 8683
   },
   {
    "id": "challengermode",
@@ -21250,7 +21250,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 668
+   "ms": 5133
   },
   {
    "id": "match",
@@ -21269,9 +21269,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4865
   },
   {
    "id": "tinder",
@@ -21292,7 +21292,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 325
+   "ms": 4597
   },
   {
    "id": "badoo",
@@ -21313,7 +21313,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 513
+   "ms": 5062
   },
   {
    "id": "bumble",
@@ -21334,7 +21334,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 459
+   "ms": 4484
   },
   {
    "id": "okcupid",
@@ -21355,7 +21355,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 182
+   "ms": 3778
   },
   {
    "id": "plenty-of-fish",
@@ -21376,7 +21376,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 200
+   "ms": 6736
   },
   {
    "id": "zoosk",
@@ -21397,7 +21397,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 439
+   "ms": 2790
   },
   {
    "id": "eharmony",
@@ -21416,9 +21416,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 152
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "hinge",
@@ -21439,7 +21439,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 127
+   "ms": 4968
   },
   {
    "id": "coffee-meets-bagel",
@@ -21460,7 +21460,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 481
+   "ms": 7444
   },
   {
    "id": "happn",
@@ -21481,7 +21481,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 246
+   "ms": 9417
   },
   {
    "id": "grindr",
@@ -21502,7 +21502,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 181
+   "ms": 4125
   },
   {
    "id": "her",
@@ -21523,7 +21523,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 148
+   "ms": 7145
   },
   {
    "id": "jdate",
@@ -21542,9 +21542,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 461
+   "status": 451,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "christian-mingle",
@@ -21563,9 +21563,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 409
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "arablounge",
@@ -21607,7 +21607,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1315
+   "ms": 7846
   },
   {
    "id": "salam-swipe",
@@ -21628,7 +21628,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 817
+   "ms": 12910
   },
   {
    "id": "bet365",
@@ -21647,9 +21647,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4775
   },
   {
    "id": "1xbet",
@@ -21668,9 +21668,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 203,
-   "ok": true,
-   "ms": 477
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "betway",
@@ -21689,9 +21689,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 461
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "william-hill",
@@ -21710,9 +21710,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 80
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "pinnacle",
@@ -21733,7 +21733,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 160
+   "ms": 7533
   },
   {
    "id": "unibet",
@@ -21752,9 +21752,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 503,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5695
   },
   {
    "id": "bwin",
@@ -21773,9 +21773,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6125
   },
   {
    "id": "draftkings",
@@ -21794,9 +21794,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 255
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "fanduel",
@@ -21815,9 +21815,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 79
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "betfair",
@@ -21857,9 +21857,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 203,
+   "status": 200,
    "ok": true,
-   "ms": 1343
+   "ms": 14906
   },
   {
    "id": "mostbet",
@@ -21878,9 +21878,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 204,
+   "status": 200,
    "ok": true,
-   "ms": 477
+   "ms": 2090
   },
   {
    "id": "parimatch",
@@ -21920,9 +21920,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 203,
+   "status": 200,
    "ok": true,
-   "ms": 1175
+   "ms": 18850
   },
   {
    "id": "22bet",
@@ -21941,9 +21941,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 203,
+   "status": 200,
    "ok": true,
-   "ms": 929
+   "ms": 8355
   },
   {
    "id": "megapari",
@@ -21962,9 +21962,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 203,
+   "status": 200,
    "ok": true,
-   "ms": 1348
+   "ms": 20410
   },
   {
    "id": "sportingbet",
@@ -21983,9 +21983,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5393
   },
   {
    "id": "marathonbet",
@@ -22004,9 +22004,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4152
   },
   {
    "id": "leon",
@@ -22027,7 +22027,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 457
+   "ms": 3901
   },
   {
    "id": "betano",
@@ -22048,7 +22048,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 820
+   "ms": 3975
   },
   {
    "id": "yobetit",
@@ -22088,9 +22088,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 9064
   },
   {
    "id": "udemy",
@@ -22109,9 +22109,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3477
   },
   {
    "id": "coursera",
@@ -22153,7 +22153,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 445
+   "ms": 14799
   },
   {
    "id": "domestika",
@@ -22174,7 +22174,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1514
+   "ms": 7866
   },
   {
    "id": "edx",
@@ -22216,7 +22216,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1265
+   "ms": 3212
   },
   {
    "id": "masterclass",
@@ -22256,9 +22256,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 476
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "linkedin-learning",
@@ -22279,7 +22279,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 414
+   "ms": 7642
   },
   {
    "id": "treehouse",
@@ -22300,7 +22300,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 621
+   "ms": 5543
   },
   {
    "id": "codecademy",
@@ -22321,7 +22321,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 355
+   "ms": 6613
   },
   {
    "id": "datacamp",
@@ -22340,9 +22340,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 5707
   },
   {
    "id": "brilliant",
@@ -22363,7 +22363,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 416
+   "ms": 6176
   },
   {
    "id": "khan-academy",
@@ -22384,7 +22384,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 270
+   "ms": 13797
   },
   {
    "id": "almentor",
@@ -22405,7 +22405,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 622
+   "ms": 19157
   },
   {
    "id": "rwaq",
@@ -22426,7 +22426,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 4118
+   "ms": 21592
   },
   {
    "id": "edraak",
@@ -22447,7 +22447,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 717
+   "ms": 4917
   },
   {
    "id": "nafham",
@@ -22487,9 +22487,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3155
   },
   {
    "id": "maharah",
@@ -22510,7 +22510,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 642
+   "ms": 2907
   },
   {
    "id": "ta3leem",
@@ -22531,7 +22531,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 689
+   "ms": 8732
   },
   {
    "id": "skillsoft",
@@ -22573,7 +22573,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 82
+   "ms": 1047
   },
   {
    "id": "great-learning",
@@ -22594,7 +22594,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 411
+   "ms": 1143
   },
   {
    "id": "upgrad",
@@ -22615,7 +22615,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 298
+   "ms": 4161
   },
   {
    "id": "scaler",
@@ -22636,7 +22636,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 285
+   "ms": 1788
   },
   {
    "id": "newton-school",
@@ -22657,7 +22657,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 140
+   "ms": 686
   },
   {
    "id": "alura",
@@ -22678,7 +22678,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 424
+   "ms": 1198
   },
   {
    "id": "descomplica",
@@ -22699,7 +22699,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 409
+   "ms": 1760
   },
   {
    "id": "hotmart",
@@ -22720,7 +22720,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 847
+   "ms": 8394
   },
   {
    "id": "myfitnesspal",
@@ -22741,7 +22741,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 487
+   "ms": 1851
   },
   {
    "id": "noom",
@@ -22783,7 +22783,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 450
+   "ms": 8197
   },
   {
    "id": "fitbit",
@@ -22804,7 +22804,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1118
+   "ms": 11924
   },
   {
    "id": "garmin",
@@ -22825,7 +22825,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 177
+   "ms": 6904
   },
   {
    "id": "strava",
@@ -22846,7 +22846,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 275
+   "ms": 5305
   },
   {
    "id": "nike-training",
@@ -22867,7 +22867,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 246
+   "ms": 5643
   },
   {
    "id": "adidas-training",
@@ -22909,7 +22909,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 181
+   "ms": 5735
   },
   {
    "id": "beachbody",
@@ -22930,7 +22930,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 375
+   "ms": 7471
   },
   {
    "id": "zumba",
@@ -22972,7 +22972,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 149
+   "ms": 6285
   },
   {
    "id": "headspace",
@@ -22993,7 +22993,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 430
+   "ms": 5208
   },
   {
    "id": "calm",
@@ -23014,7 +23014,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 673
+   "ms": 5315
   },
   {
    "id": "betterhelp",
@@ -23033,9 +23033,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 202,
+   "status": 200,
    "ok": true,
-   "ms": 44
+   "ms": 4580
   },
   {
    "id": "talkspace",
@@ -23056,7 +23056,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 104
+   "ms": 2468
   },
   {
    "id": "hims",
@@ -23119,7 +23119,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 112
+   "ms": 1688
   },
   {
    "id": "roman",
@@ -23138,9 +23138,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 495
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "nutrisystem",
@@ -23182,7 +23182,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 782
+   "ms": 24828
   },
   {
    "id": "dribbble",
@@ -23203,7 +23203,7 @@
    "ref_code": "",
    "status": 202,
    "ok": true,
-   "ms": 732
+   "ms": 1121
   },
   {
    "id": "behance",
@@ -23245,7 +23245,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 217
+   "ms": 1521
   },
   {
    "id": "fiverr-pro",
@@ -23266,7 +23266,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 359
+   "ms": 1154
   },
   {
    "id": "toptal-design",
@@ -23287,7 +23287,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 76
+   "ms": 739
   },
   {
    "id": "designcrowd",
@@ -23308,7 +23308,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 330
+   "ms": 1613
   },
   {
    "id": "designhill",
@@ -23327,9 +23327,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 257
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "crowdspring",
@@ -23350,7 +23350,7 @@
    "ref_code": "",
    "status": 202,
    "ok": true,
-   "ms": 270
+   "ms": 3024
   },
   {
    "id": "hatchwise",
@@ -23371,7 +23371,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1378
+   "ms": 3182
   },
   {
    "id": "logotournament",
@@ -23392,7 +23392,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 418
+   "ms": 5664
   },
   {
    "id": "bark",
@@ -23413,7 +23413,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 522
+   "ms": 12041
   },
   {
    "id": "freelancer-design",
@@ -23434,7 +23434,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 602
+   "ms": 6407
   },
   {
    "id": "truelancer-design",
@@ -23474,9 +23474,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 202,
+   "status": 200,
    "ok": true,
-   "ms": 49
+   "ms": 3170
   },
   {
    "id": "behance-jobs",
@@ -23518,7 +23518,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 508
+   "ms": 3014
   },
   {
    "id": "muzli",
@@ -23539,7 +23539,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 270
+   "ms": 2101
   },
   {
    "id": "siteinspire",
@@ -23581,7 +23581,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 747
+   "ms": 3115
   },
   {
    "id": "saas-landing-page",
@@ -23602,7 +23602,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 188
+   "ms": 2110
   },
   {
    "id": "lapa-ninja",
@@ -23621,9 +23621,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 2153
   },
   {
    "id": "onepagelove",
@@ -23644,7 +23644,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 330
+   "ms": 1012
   },
   {
    "id": "httpster",
@@ -23665,7 +23665,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 527
+   "ms": 2569
   },
   {
    "id": "minimal-gallery",
@@ -23686,7 +23686,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1148
+   "ms": 1329
   },
   {
    "id": "refero",
@@ -23707,7 +23707,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 143
+   "ms": 1202
   },
   {
    "id": "mobbin",
@@ -23728,7 +23728,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 205
+   "ms": 1009
   },
   {
    "id": "ui-sources",
@@ -23749,7 +23749,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 242
+   "ms": 1248
   },
   {
    "id": "screenlane",
@@ -23768,9 +23768,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3145
   },
   {
    "id": "collect-ui",
@@ -23791,7 +23791,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 271
+   "ms": 1049
   },
   {
    "id": "pttrns",
@@ -23812,7 +23812,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 634
+   "ms": 2818
   },
   {
    "id": "kickstarter",
@@ -23831,9 +23831,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 3533
   },
   {
    "id": "indiegogo",
@@ -23875,7 +23875,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 197
+   "ms": 1649
   },
   {
    "id": "liberapay",
@@ -23896,7 +23896,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 695
+   "ms": 1376
   },
   {
    "id": "open-collective",
@@ -23917,7 +23917,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 314
+   "ms": 1270
   },
   {
    "id": "fundrazr",
@@ -23938,7 +23938,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1850
+   "ms": 2826
   },
   {
    "id": "fundly",
@@ -23959,7 +23959,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 253
+   "ms": 2647
   },
   {
    "id": "launchgood",
@@ -23978,9 +23978,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1573
   },
   {
    "id": "waqf",
@@ -24001,7 +24001,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 500
+   "ms": 1430
   },
   {
    "id": "repay",
@@ -24022,7 +24022,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 76
+   "ms": 1201
   },
   {
    "id": "seedinvest",
@@ -24041,9 +24041,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1905
   },
   {
    "id": "republic",
@@ -24062,9 +24062,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1841
   },
   {
    "id": "wefunder",
@@ -24104,9 +24104,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 202,
+   "status": 200,
    "ok": true,
-   "ms": 277
+   "ms": 1478
   },
   {
    "id": "microventures",
@@ -24127,7 +24127,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 307
+   "ms": 2933
   },
   {
    "id": "hsoub",
@@ -24146,9 +24146,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 7297
   },
   {
    "id": "zinc",
@@ -24169,7 +24169,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 294
+   "ms": 2570
   },
   {
    "id": "nabbesh",
@@ -24188,9 +24188,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 15358
   },
   {
    "id": "starzplay",
@@ -24211,7 +24211,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 721
+   "ms": 3914
   },
   {
    "id": "shahid-vip",
@@ -24232,7 +24232,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 687
+   "ms": 7685
   },
   {
    "id": "osn",
@@ -24251,9 +24251,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 6201
   },
   {
    "id": "anghami",
@@ -24272,9 +24272,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 4000
   },
   {
    "id": "watan",
@@ -24295,7 +24295,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3054
+   "ms": 5615
   },
   {
    "id": "jawaker",
@@ -24316,7 +24316,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 314
+   "ms": 1349
   },
   {
    "id": "yalla-ludo",
@@ -24337,7 +24337,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 525
+   "ms": 5361
   },
   {
    "id": "careem",
@@ -24358,7 +24358,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 156
+   "ms": 1059
   },
   {
    "id": "talabat",
@@ -24379,7 +24379,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 597
+   "ms": 5247
   },
   {
    "id": "deliveroo",
@@ -24400,7 +24400,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 797
+   "ms": 5702
   },
   {
    "id": "zomato",
@@ -24421,7 +24421,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 457
+   "ms": 796
   },
   {
    "id": "elmenus",
@@ -24442,7 +24442,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 899
+   "ms": 2374
   },
   {
    "id": "otle",
@@ -24463,7 +24463,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 3536
+   "ms": 8905
   },
   {
    "id": "aqar",
@@ -24484,7 +24484,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 419
+   "ms": 8031
   },
   {
    "id": "bayut",
@@ -24526,7 +24526,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 816
+   "ms": 5946
   },
   {
    "id": "dubizzle",
@@ -24547,7 +24547,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 113
+   "ms": 4282
   },
   {
    "id": "olx",
@@ -24568,7 +24568,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 50
+   "ms": 11764
   },
   {
    "id": "haraj",
@@ -24589,7 +24589,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 810
+   "ms": 4729
   },
   {
    "id": "opensooq",
@@ -24610,7 +24610,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1070
+   "ms": 12987
   },
   {
    "id": "souq",
@@ -24629,9 +24629,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
+   "status": 202,
    "ok": true,
-   "ms": 278
+   "ms": 4821
   },
   {
    "id": "noon",
@@ -24650,7 +24650,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -24671,9 +24671,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 774
+   "status": 403,
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "golden-scent",
@@ -24694,7 +24694,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 741
+   "ms": 2504
   },
   {
    "id": "namshi-beauty",
@@ -24713,7 +24713,7 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": "ERR",
+   "status": 403,
    "ok": false,
    "ms": 0
   },
@@ -24736,7 +24736,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 426
+   "ms": 3255
   },
   {
    "id": "jamalon",
@@ -24778,7 +24778,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 603
+   "ms": 1837
   },
   {
    "id": "almaktabah",
@@ -24820,7 +24820,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1035
+   "ms": 3572
   },
   {
    "id": "al-jazeera",
@@ -24841,7 +24841,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 139
+   "ms": 1091
   },
   {
    "id": "arab-news",
@@ -24860,9 +24860,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 1417
   },
   {
    "id": "al-arabiya",
@@ -24881,9 +24881,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 403,
-   "ok": false,
-   "ms": 0
+   "status": 200,
+   "ok": true,
+   "ms": 460
   },
   {
    "id": "sky-news-arabia",
@@ -24904,7 +24904,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 261
+   "ms": 1589
   },
   {
    "id": "yemen-hr",
@@ -24925,7 +24925,7 @@
    "ref_code": "",
    "status": 200,
    "ok": true,
-   "ms": 1439
+   "ms": 3007
   },
   {
    "id": "yemen-mobile",
@@ -24944,9 +24944,9 @@
    "ref": true,
    "done": false,
    "ref_code": "",
-   "status": 200,
-   "ok": true,
-   "ms": 20251
+   "status": "ERR",
+   "ok": false,
+   "ms": 0
   },
   {
    "id": "mtn-yemen",
@@ -68617,8 +68617,8 @@
    "ref_code": ""
   }
  ],
- "discovered_at": "2026-10-21T05:37:03Z",
+ "discovered_at": "2026-10-16T21:51:20Z",
  "harvested_at": "2026-10-18T16:58:35Z",
- "live": 915,
- "checked": "2026-10-21T05:38:43Z"
+ "live": 940,
+ "checked": "2026-10-17T00:10:58Z"
 }

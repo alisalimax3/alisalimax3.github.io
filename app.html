@@ -1,4 +1,4 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>CineHub 3099 — التطبيق</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#0b0d12;color:#e9eef6;font:15px/1.7 system-ui,Tahoma}
@@ -17,11 +17,33 @@ input{width:100%;padding:11px 14px;border-radius:11px;border:1px solid #232c3c;b
 .more{width:100%;padding:12px;margin:10px 0 30px;border-radius:11px;background:#16233a;color:#a9ccff;border:1px solid #24354f;font-size:14px;cursor:pointer}
 nav a{color:#8fa4bf;font-size:12.5px;margin-inline-end:12px;text-decoration:none}
 .k{color:#7d8899;font-size:12px;text-align:center;padding:10px}
-</style></head><body>
-<header><div class="w"><nav><a href="./">الرئيسية</a><a href="library.html">المكتبة</a><a href="money.html">الأموال</a><a href="wallet.html">الخزينة</a></nav>
+</style><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b0d12">
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
+</head><body>
+<header><div class="w"><nav><a href="./">الرئيسية</a><a href="library.html">المكتبة</a><a href="links.html">روابط النشر</a><a href="adult.html">🔞 للكبار</a></nav>
 <input id="q" placeholder="ابحث عن فيلم أو مسلسل…" autocomplete="off"></div></header>
 <div class="w"><div class="chips" id="chips"></div><div class="ad" id="ad1"></div>
-<div class="grid" id="g"></div><button class="more" id="more">المزيد</button>
+<div class="grid" id="g"></div><button type="button" class="more" id="more">المزيد</button>
 <div class="ad" id="ad2"></div><div class="k" id="st">…</div></div>
 <script src="hits.js" defer></script>
 <script>
@@ -36,7 +58,7 @@ document.getElementById('more').style.display=F.length>N?'block':'none';
 document.getElementById('st').textContent=ALL.length?F.length+' نتيجة من '+ALL.length:'لا كتالوج بعد — شغّل المولّد';}
 document.getElementById('q').oninput=()=>{N=120;draw()};
 document.getElementById('more').onclick=()=>{N+=120;draw()};
-(async()=>{ALL=await load();const gs=[...new Set(ALL.map(x=>x.c).filter(Boolean))].slice(0,24);
+(async()=>{const P=new URLSearchParams(location.search);ALL=await load();if(P.get('cat')){window.CAT=P.get('cat');}if(P.get('q')){document.getElementById('q').value=P.get('q');}const gs=[...new Set(ALL.map(x=>x.c).filter(Boolean))].slice(0,24);
 document.getElementById('chips').innerHTML=gs.map(g=>'<div class="chip">'+g+'</div>').join('');
 document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{document.querySelectorAll('.chip').forEach(z=>z.classList.remove('on'));
 if(window.CAT===c.textContent){window.CAT=null}else{window.CAT=c.textContent;c.classList.add('on')}N=120;draw()});
@@ -48,4 +70,10 @@ const html=on.slice(0,2).map(n=>{
  return'';}).join('');
 document.getElementById('ad1').innerHTML=html||('<span class="k">'+on.length+' شبكة مفعّلة</span>');}catch(e){}
 })();
-</script></body></html>
+</script><script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(function(){});</script>
+<a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

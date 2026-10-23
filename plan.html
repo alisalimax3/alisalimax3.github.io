@@ -1,4 +1,4 @@
-<!doctype html><html lang="ar" dir="rtl"><head>
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head>
 <script src="killsw.js?v=3099-1792196423"></script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>خطة الأرباح · CineHub 3099</title><style>
@@ -10,6 +10,26 @@ li{margin:5px 0}input[type=checkbox]{transform:scale(1.2);margin-left:6px}
 h1{font-size:21px}h3{font-size:15px}
 </style><link rel="stylesheet" href="/theme.css">
 
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
 </head><body><div class="wrap">
 <h1>خطة الأرباح — يومي / أسبوعي / شهري</h1>
 <p class="l">علّم المهام لتُحفظ محليًا. الخطة مبنية على مصدرين: (أ) زياراتك للموقع، (ب) نشاطك على منصات تدفع لك مباشرة.</p>
@@ -59,4 +79,9 @@ draw('d',D,'d');draw('w',Wk,'w');draw('m',M,'m');
 <script src="ads.js?v=3099-1792197840" defer></script>
 
 <script src="auto.js?v=3099-1792258952" defer></script>
-<script src="hits.js" defer></script></body></html>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,0 +1,14 @@
+{
+  "passed": 7,
+  "failed": 0,
+  "warnings": 0,
+  "details": [
+    "✓ tools/core.py موجود",
+    "✓ tools/gh.py موجود",
+    "✓ tools/profile.py موجود",
+    "✓ data/profile.json JSON صالح",
+    "✓ ledger.json JSON صالح",
+    "✓ adult-networks.html يحتوي على العلامة",
+    "✓ نظام الأسرار موجود"
+  ]
+}

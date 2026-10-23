@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # CineHub 3099 · محرك المحتوى — Archive.org · Ophim · Eporner · YouTube · TMDB
 import json, os, re, sys, time, urllib.request, urllib.parse
-UA = {'User-Agent': 'Mozilla/5.0 (CineHub3099; +https://alkazmybwhwr-dot.github.io)'}
+UA = {'User-Agent': 'Mozilla/5.0 (CineHub3099; +https://alisalimax3.github.io)'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 def get(url, t=35):

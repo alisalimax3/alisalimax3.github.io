@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-23 18:53",
+ "updated": "2026-10-19 04:24",
  "real": {
   "github_views_14d": 0,
   "github_uniques_14d": 0,
   "hits_total": 0,
-  "live_ad_networks": 1
+  "live_ad_networks": 3
  },
  "estimated": {
   "impressions": 0,
@@ -13,18 +13,22 @@
  },
  "networks_live": [
   {
-   "n": "A-ADS",
-   "pay": "BTC تلقائي"
+   "n": "ExoClick",
+   "pay": "Paxum/Wire"
+  },
+  {
+   "n": "JuicyAds",
+   "pay": "Paxum/BTC"
+  },
+  {
+   "n": "Adsterra",
+   "pay": "USDT/PayPal"
   }
  ],
  "networks_off": [
   {
-   "n": "ExoClick",
-   "k": "EXOCLICK_ZONE"
-  },
-  {
-   "n": "JuicyAds",
-   "k": "JUICYADS_ZONE"
+   "n": "A-ADS",
+   "k": "AADS_UNIT"
   },
   {
    "n": "TrafficJunky",
@@ -71,10 +75,6 @@
    "k": "BONGA_AFF"
   },
   {
-   "n": "Adsterra",
-   "k": "ADSTERRA_API_KEY"
-  },
-  {
    "n": "Monetag",
    "k": "MONETAG_MULTITAG"
   },
@@ -105,7 +105,103 @@
   {
    "n": "Linkvertise",
    "k": "LINKVERTISE_UID"
+  },
+  {
+   "n": "PopCash",
+   "k": "POPCASH_ZONE"
+  },
+  {
+   "n": "Ezoic",
+   "k": "EZOIC_ID"
+  },
+  {
+   "n": "Setupad",
+   "k": "SETUPAD_ID"
+  },
+  {
+   "n": "Bitmedia",
+   "k": "BITMEDIA_ZONE"
+  },
+  {
+   "n": "Coinzilla",
+   "k": "COINZILLA_ZONE"
+  },
+  {
+   "n": "AdBlueMedia",
+   "k": "ADBLUE_SMARTLINK"
+  },
+  {
+   "n": "CPALead",
+   "k": "CPALEAD_SMARTLINK"
+  },
+  {
+   "n": "Zeydoo",
+   "k": "ZEYDOO_SMARTLINK"
+  },
+  {
+   "n": "Adscend",
+   "k": "ADSCEND_KEY"
+  },
+  {
+   "n": "AdGate",
+   "k": "ADGATE_KEY"
+  },
+  {
+   "n": "Lootably",
+   "k": "LOOTABLY_KEY"
+  },
+  {
+   "n": "OfferToro",
+   "k": "OFFERTORO_KEY"
+  },
+  {
+   "n": "Timewall",
+   "k": "TIMEWALL_KEY"
+  },
+  {
+   "n": "BitLabs",
+   "k": "BITLABS_KEY"
+  },
+  {
+   "n": "Chaturbate",
+   "k": "CHATURBATE_AFF"
+  },
+  {
+   "n": "Binance",
+   "k": "BINANCE_REF"
+  },
+  {
+   "n": "Amazon",
+   "k": "AMAZON_TAG"
+  },
+  {
+   "n": "ShrinkMe",
+   "k": "SHRINKME_KEY"
+  },
+  {
+   "n": "ShrinkEarn",
+   "k": "SHRINKEARN_KEY"
+  },
+  {
+   "n": "Adf.ly",
+   "k": "ADFLY_UID"
+  },
+  {
+   "n": "Clk.sh",
+   "k": "CLKSH_KEY"
+  },
+  {
+   "n": "OuO",
+   "k": "OUO_KEY"
+  },
+  {
+   "n": "GPLinks",
+   "k": "GPLINKS_KEY"
+  },
+  {
+   "n": "Droplink",
+   "k": "DROPLINK_KEY"
   }
  ],
- "live_url": ""
+ "live_url": "https://alisalimax3.github.io"
 }

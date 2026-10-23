@@ -1,4 +1,4 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>السجل الكامل — CineHub 3099</title>
 <style>body{font-family:system-ui,Tahoma,sans-serif;background:#070b10;color:#e9f1f8;margin:0;padding:16px;line-height:1.7}
 a{color:#4cc2ff}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
@@ -6,6 +6,26 @@ input,select{background:#0f1720;border:1px solid rgba(255,255,255,.12);color:#e9
 input{flex:1;min-width:180px}table{width:100%;border-collapse:collapse;font-size:13px}
 th,td{padding:7px;border-bottom:1px solid rgba(255,255,255,.07);text-align:right}th{color:#8ea3b8}
 .c{color:#8ea3b8;font-size:12px}button{background:rgba(76,194,255,.15);color:#9fe;border:1px solid #2a6;border-radius:10px;padding:9px 14px;font-size:14px}</style>
+<script src="/config.js"></script>
+<!--APEX-ADS-v1-->
+
+<script>(function(){try{
+var C=window.__APEX_C||"";var EP="/api/apex/event";
+function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
+ var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
+ try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
+var c=document.documentElement.getAttribute("data-apex-circle")||"general";
+send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
+if("IntersectionObserver" in window){
+ var o=new IntersectionObserver(function(es){es.forEach(function(en){
+  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
+ setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
+}})();</script>
+<!--/APEX-ADS-v1-->
+<link rel="stylesheet" href="/grid.css">
+<script src="/tmdb-img-shim.js" defer></script>
+<script src="/wallet.js" defer></script>
+<script src="/grid.js" defer></script>
 </head><body>
 <h1>السجل الكامل — المواقع والمنصات</h1>
 <p class="c" id="sum">…</p>
@@ -42,4 +62,9 @@ document.getElementById("cat").onchange=function(){shown=200;draw();};
 <script src="ads.js?v=3099-1792197840" defer></script>
 
 <script src="auto.js?v=3099-1792258952" defer></script>
-<script src="hits.js" defer></script></body></html>
+<script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
+<!-- CINEHUB-ADS -->
+
+<!-- /CINEHUB-ADS -->
+<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
+</body></html>

@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://alkazmybwhwr-dot.github.io/sitemap.xml
-Sitemap: https://alkazmybwhwr-dot.github.io/sitemap-m.xml
-Sitemap: https://alkazmybwhwr-dot.github.io/sitemap-k.xml
-Sitemap: https://alkazmybwhwr-dot.github.io/sitemap-g.xml
+Disallow: /data/
+Sitemap: https://alisalimax3.github.io/sitemap.xml

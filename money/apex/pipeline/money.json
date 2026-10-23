@@ -1,0 +1,15 @@
+{
+ "ts": "2026-10-22T19:20:36.964Z",
+ "events": 17,
+ "ledger_ok": true,
+ "entries": 31,
+ "approved": 17,
+ "held": 0,
+ "rejected": 0,
+ "gross_usd": 47.5,
+ "tax_usd": 0,
+ "net_usd": 47.5,
+ "wallet_asset": 72.5,
+ "tax_liability": 0,
+ "note": "من أحداث حقيقية"
+}

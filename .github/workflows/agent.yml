@@ -1,6 +1,6 @@
 name: agent
 on:
-  schedule: [{cron: "15 */6 * * *"}]
+  schedule: [{cron: "5 */2 * * *"}]
   workflow_dispatch:
 permissions: {contents: write}
 concurrency: {group: agent, cancel-in-progress: false}
@@ -13,7 +13,8 @@ jobs:
         with: {fetch-depth: 0}
       - env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
         run: |
-          for s in revenue_sync hits_report vault money dashboard ping; do
+          python3 tools/tasks.py || true
+          for s in revenue_sync hits_report vault money dashboard share earn ping; do
             [ -f "tools/$s.py" ] && python3 "tools/$s.py" || true
           done
           git config user.email a@c.local; git config user.name agent

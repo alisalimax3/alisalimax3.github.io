@@ -7,7 +7,7 @@ info(){ printf '• %s\n' "$*"; }; warn(){ printf '\033[33m!\033[0m %s\n' "$*"; 
 rm -f .git/index.lock .git/*.lock 2>/dev/null
 T=$(python3 -c "import json;print((json.load(open('auth.json')).get('token') or '').strip())" 2>/dev/null)
 [ -z "$T" ] && { bad "بلا توكن"; exit 1; }
-U="https://x-access-token:$T@github.com/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io.git"
+U="https://x-access-token:$T@github.com/alkazmybwhwr-dot/alisalimax3.github.io.git"
 
 echo "═══ 1 · إعداد git لمقاومة القطع ══"
 git config --local http.version HTTP/1.1
@@ -55,6 +55,6 @@ NEW=$(git ls-remote "$U" main 2>/dev/null | cut -c1-8)
 [ "$NEW" = "$H" ] && ok "الريموت الآن عند $NEW — مطابق للمحلي" || bad "الريموت $NEW ≠ المحلي $H"
 for f in m keywords.html keywords.json earnings.json sitemap-m.xml tools/dispatch.py; do
   c=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: token $T" \
-      "https://api.github.com/repos/alkazmybwhwr-dot/alkazmybwhwr-dot.github.io/contents/$f?ref=main")
+      "https://api.github.com/repos/alkazmybwhwr-dot/alisalimax3.github.io/contents/$f?ref=main")
   [ "$c" = "200" ] && ok "$f" || bad "$f → $c"
 done

@@ -1,0 +1,7 @@
+id|name|cat|signup|env|mode|url|headers|rev|payout|note
+tgchannel|Telegram Channel|channel|https://t.me/|TG_CHANNEL_ID|dash|-||0|-|قناة مجانية تدفع بالزيارات
+youtube|YouTube|channel|https://studio.youtube.com/|YOUTUBE_API_KEY,YOUTUBE_CHANNEL_ID|api|https://www.googleapis.com/youtube/v3/channels?part=statistics&id={KEY2}&key={KEY}||0|AdSense|
+reddit|Reddit|channel|https://www.reddit.com/register|REDDIT_CLIENT_ID,REDDIT_CLIENT_SECRET|dash|-||0|-|
+pinterest|Pinterest|channel|https://www.pinterest.com/business/create/|PINTEREST_TOKEN|dash|-||0|-|
+fbpage|Facebook Page|channel|https://www.facebook.com/pages/create|FB_PAGE_TOKEN|dash|-||0|-|
+tiktok|TikTok|channel|https://www.tiktok.com/signup|TIKTOK_ACCESS_TOKEN|dash|-||0|-|

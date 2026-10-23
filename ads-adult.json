@@ -1,0 +1,267 @@
+{
+ "updated": "2026-10-19 03:02",
+ "count": 26,
+ "enabled": 1,
+ "networks": [
+  {
+   "k": "EXOCLICK_ZONE",
+   "n": "ExoClick",
+   "min": "€20",
+   "pay": "Paxum/Wire",
+   "note": "ملك الإباحي — أعلى RPM",
+   "tier": 1,
+   "id": "736982376",
+   "enabled": true
+  },
+  {
+   "k": "JUICYADS_ZONE",
+   "n": "JuicyAds",
+   "min": "$50",
+   "pay": "Paxum/BTC",
+   "note": "إباحي صافي",
+   "tier": 1,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "TRAFFICJUNKY_ZONE",
+   "n": "TrafficJunky",
+   "min": "$100",
+   "pay": "Wire",
+   "note": "حجم عالٍ",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "PLUGRUSH_ZONE",
+   "n": "PlugRush",
+   "min": "$25",
+   "pay": "PayPal/BTC",
+   "note": "إباحي",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "CLICKADU_ZONE",
+   "n": "Clickadu",
+   "min": "$5",
+   "pay": "PayPal/Paxum",
+   "note": "حد منخفض",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "HILLTOPADS_ZONE",
+   "n": "HilltopAds",
+   "min": "$50",
+   "pay": "PayPal",
+   "note": "إباحي/عام",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "ADMAVEN_ZONE",
+   "n": "AdMaven",
+   "min": "$5",
+   "pay": "PayPal",
+   "note": "بوب أندر قوي",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "EVADAV_ZONE",
+   "n": "Evadav",
+   "min": "$5",
+   "pay": "PayPal",
+   "note": "إباحي",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "GALAKSION_ZONE",
+   "n": "Galaksion",
+   "min": "$10",
+   "pay": "PayPal",
+   "note": "إباحي",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "MYBID_ZONE",
+   "n": "MyBid",
+   "min": "$25",
+   "pay": "PayPal",
+   "note": "إباحي",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "TRAFFICSTARS_ZONE",
+   "n": "TrafficStars",
+   "min": "$100",
+   "pay": "Wire/Paxum",
+   "note": "شبكة إباحية كبرى",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "STRIPCHAT_AFF",
+   "n": "Stripchat",
+   "min": "$50",
+   "pay": "Wire/Paxum",
+   "note": "revshare لكل تسجيل",
+   "tier": 1,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "CHATURBATE_AFF",
+   "n": "Chaturbate",
+   "min": "$50",
+   "pay": "Wire/Paxum",
+   "note": "revshare 20% مدى الحياة",
+   "tier": 1,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "JASMIN_AFF",
+   "n": "LiveJasmin",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare عالي",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "BONGA_AFF",
+   "n": "BongaCams",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "FLIRT4FREE_AFF",
+   "n": "Flirt4Free",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "IMLIVE_AFF",
+   "n": "ImLive",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "STREAMATE_AFF",
+   "n": "Streamate",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "CAMSODA_AFF",
+   "n": "CamSoda",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "FANCENTRO_AFF",
+   "n": "FanCentro",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "اشتراكات",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "XHAMSTERLIVE_AFF",
+   "n": "xHamsterLive",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "JERKMATE_AFF",
+   "n": "Jerkmate",
+   "min": "$50",
+   "pay": "Wire",
+   "note": "revshare",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "LOSPOLLOS",
+   "n": "LosPollos",
+   "min": "$50",
+   "pay": "PayPal",
+   "note": "CPA إباحي — عائد لكل تسجيل",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "CRACKREVENUE",
+   "n": "CrackRevenue",
+   "min": "$50",
+   "pay": "PayPal",
+   "note": "CPA إباحي",
+   "tier": 2,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "MOBIDEA_ADULT",
+   "n": "Mobidea",
+   "min": "$50",
+   "pay": "PayPal",
+   "note": "CPA",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  },
+  {
+   "k": "ZEYDOO_ADULT",
+   "n": "Zeydoo",
+   "min": "$50",
+   "pay": "Paxum",
+   "note": "CPA",
+   "tier": 3,
+   "id": "",
+   "enabled": false
+  }
+ ]
+}

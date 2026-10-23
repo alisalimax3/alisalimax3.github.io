@@ -15,7 +15,7 @@ for u in https://vidlink.pro/movie/550 https://vidsrc.xyz/embed/movie/550 https:
 done
 echo "── فحص النشر ──"
 for f in index.html live.js sw.js partners.html identity.json; do
-  chk "https://alkazmybwhwr-dot.github.io/$f" "/$f"
+  chk "https://alisalimax3.github.io/$f" "/$f"
 done
 echo "── الميّت ──"
 chk "https://api.consumet.org/anime/gogoanime/naruto" "api.consumet.org (متوقع ✗)"

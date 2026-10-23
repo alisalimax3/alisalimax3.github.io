@@ -1,0 +1,10 @@
+PASS async.js سليم
+PASS q-sec.js سليم
+PASS q-lint.js سليم
+PASS q-db يحمّل
+PASS المحفظة مشتقة
+FAIL توقيع ECDSA صحيح
+PASS البريد الحقيقي
+PASS قناة الأحداث تعمل
+PASS الدفتر متوازن وسليم
+PASS اللوحة تعمل

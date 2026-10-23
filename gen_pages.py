@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, html, os
 KEY="8265bd1679663a7ea12ac168da84d2e8"
-SITE="https://alkazmybwhwr-dot.github.io"; IMG="https://image.tmdb.org/t/p/w300"
+SITE="https://alisalimax3.github.io"; IMG="https://image.tmdb.org/t/p/w300"
 os.makedirs("b",exist_ok=True)
 def get(u,d=None):
     h={"User-Agent":"cinehub","Accept":"application/json"}
