@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "owner": "alisalimax3",
+  "wallet": { "balance": "money/db/balance.json", "public": "wallet.json", "ledger": "money/db/real/ledger.jsonl" },
+  "agents": [
+    { "name": "realagent", "file": "money/realagent.mjs", "autostart": true, "cycle_sec": 300,
+      "role": "تسجيل المصادر والمنصات + تنفيذ مهام الزيارة والتحقق + إعادة المحاولة + تسجيل الأرباح في المحفظة",
+      "scopes": ["net:http", "fs:money/db", "fs:wallet.json", "ledger:write", "keys:create", "accounts:create"] },
+    { "name": "heal",  "file": "money/heal.mjs",  "role": "إصلاح ذاتي مستمر", "scopes": ["fs:repo", "git:read"] },
+    { "name": "panel", "file": "money/panel.mjs", "role": "بناء اللوحة",       "scopes": ["fs:repo"] },
+    { "name": "agent", "file": "money/agent.mjs", "role": "مهام دورية",        "scopes": ["fs:money/db", "net:http"] },
+    { "name": "tick",  "file": "money/tick.mjs",  "role": "نبض وتحديث",        "scopes": ["fs:money/db"] }
+  ]
+}

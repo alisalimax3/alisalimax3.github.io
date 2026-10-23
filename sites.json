@@ -1038,5 +1038,325 @@
     "rev": false,
     "payout": "-",
     "note": ""
+  },
+  {
+    "title": "Pornhub",
+    "url": "https://www.pornhub.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-892044B8-28CF2EB3F508"
+  },
+  {
+    "title": "xHamster",
+    "url": "https://xhamster.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-E0AD3957-E76AE0CA4930"
+  },
+  {
+    "title": "YouPorn",
+    "url": "https://www.youporn.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-C41783C1-818EA8AD68CF"
+  },
+  {
+    "title": "TXXX",
+    "url": "https://txxx.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-D46AC0CF-577E40399CF7"
+  },
+  {
+    "title": "HQPorner",
+    "url": "https://hqporner.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-1115191C-A9EBC7F718D9"
+  },
+  {
+    "title": "Porntrex",
+    "url": "https://www.porntrex.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-A91415CE-02F004BBBB19"
+  },
+  {
+    "title": "Tube8",
+    "url": "https://www.tube8.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-15BAB214-AB8CC3E88755"
+  },
+  {
+    "title": "TNAFlix",
+    "url": "https://www.tnaflix.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-BA35A07C-2DDBA2DB12DA"
+  },
+  {
+    "title": "HClips",
+    "url": "https://www.hclips.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-6BB9E4DB-582297B3E759"
+  },
+  {
+    "title": "SunPorno",
+    "url": "https://www.sunporno.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-2E25845F-4D047709BDE7"
+  },
+  {
+    "title": "LetMeJerk",
+    "url": "https://letmejerk.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-D9D46B1F-F88181BDC1A5"
+  },
+  {
+    "title": "Netflix",
+    "url": "https://www.netflix.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-FBD5CCD3-965686C55C9A"
+  },
+  {
+    "title": "Prime Video",
+    "url": "https://www.primevideo.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-6A87F624-8004418765D4"
+  },
+  {
+    "title": "Disney+",
+    "url": "https://www.disneyplus.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-DE0D21D4-DE175F6119B5"
+  },
+  {
+    "title": "Max",
+    "url": "https://www.max.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-1EEC5B8F-AD797D4258B3"
+  },
+  {
+    "title": "Apple TV+",
+    "url": "https://tv.apple.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-BDDD9B8C-66D2E440ED40"
+  },
+  {
+    "title": "Hulu",
+    "url": "https://www.hulu.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-29BA85F2-6103EDB5B22A"
+  },
+  {
+    "title": "Paramount+",
+    "url": "https://www.paramountplus.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-C04277A3-C4F7D1F9F063"
+  },
+  {
+    "title": "Peacock",
+    "url": "https://www.peacocktv.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-8D0002B6-28FFBA3CFA0F"
+  },
+  {
+    "title": "Crunchyroll",
+    "url": "https://www.crunchyroll.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-12F5A7F0-06B42F1C7F5C"
+  },
+  {
+    "title": "Tubi",
+    "url": "https://tubitv.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-D3C1372C-C319D54432CE"
+  },
+  {
+    "title": "Pluto TV",
+    "url": "https://pluto.tv",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-6CEE9C74-E87AEDD093DA"
+  },
+  {
+    "title": "JustWatch",
+    "url": "https://www.justwatch.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-D4D75447-4623A542454D"
+  },
+  {
+    "title": "IMDb",
+    "url": "https://www.imdb.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-B76DA11B-9E28CBBE00EC"
+  },
+  {
+    "title": "TMDB",
+    "url": "https://www.themoviedb.org",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-52BBF59E-1AC39262E350"
+  },
+  {
+    "title": "Letterboxd",
+    "url": "https://letterboxd.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-0DB00F27-55C7B104A1DB"
+  },
+  {
+    "title": "Metacritic",
+    "url": "https://www.metacritic.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-B008E36D-F95B21E0C610"
+  },
+  {
+    "title": "AlloCine",
+    "url": "https://www.allocine.fr",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-77602D5D-6A4400A8BD6B"
+  },
+  {
+    "title": "FilmAffinity",
+    "url": "https://www.filmaffinity.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-3E029905-1AE0175F7E97"
+  },
+  {
+    "title": "Trakt",
+    "url": "https://trakt.tv",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-46A03D22-FFF337E3C35E"
+  },
+  {
+    "title": "Groq",
+    "url": "https://api.groq.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-6E7EBFFA-F522B74CBD62"
+  },
+  {
+    "title": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-80FFCF69-D925C7AD605A"
+  },
+  {
+    "title": "Replicate",
+    "url": "https://api.replicate.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-B4857407-7B7445A01075"
+  },
+  {
+    "title": "Deepgram",
+    "url": "https://api.deepgram.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-F27DC7D9-1FADF8D91A9B"
+  },
+  {
+    "title": "ElevenLabs",
+    "url": "https://api.elevenlabs.io",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-59BF59FC-07002E98A719"
+  },
+  {
+    "title": "Alchemy",
+    "url": "https://www.alchemy.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-FBDBB382-D550CB483D69"
+  },
+  {
+    "title": "QuickNode",
+    "url": "https://www.quicknode.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-8503706A-0F163ECDDDE4"
+  },
+  {
+    "title": "CoinGate",
+    "url": "https://coingate.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-713871A0-59110BAE6421"
+  },
+  {
+    "title": "Formspree",
+    "url": "https://formspree.io",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-EA3F06BE-87782A9BE4FD"
+  },
+  {
+    "title": "Adsterra",
+    "url": "https://adsterra.com",
+    "category": "platform",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-PLATFORM-9A9ACDCA-99E88D9E4C7E"
   }
 ]

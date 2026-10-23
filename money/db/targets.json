@@ -2531,8 +2531,8 @@
  },
  "svc-pinterest": {
   "id": "svc-pinterest",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.686Z",
   "kind": "service",
@@ -2543,12 +2543,22 @@
   "recipe": "pinterest",
   "domain": "www.pinterest.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.686Z"
+  "updated": "2026-10-23T23:40:22.810Z",
+  "nextAt": 1792798912471,
+  "lastError": "لا يستجيب 0",
+  "note": "الموقع 0",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T23:40:22.812Z"
+   }
+  ]
  },
  "svc-quora": {
   "id": "svc-quora",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.701Z",
   "kind": "service",
@@ -2559,13 +2569,23 @@
   "recipe": "quora",
   "domain": "www.quora.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.702Z"
+  "updated": "2026-10-23T23:40:25.336Z",
+  "nextAt": 1792798915174,
+  "lastError": "لا يستجيب 403",
+  "note": "الموقع 403",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T23:40:25.336Z"
+   }
+  ]
  },
  "svc-vk": {
   "id": "svc-vk",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.718Z",
   "kind": "service",
   "cat": "social",
@@ -2575,12 +2595,21 @@
   "recipe": "vk",
   "domain": "vk.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.719Z"
+  "updated": "2026-10-23T23:40:30.657Z",
+  "lastEvidence": "2026-10-23T23:40:30.238Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-23T23:40:30.658Z"
+   }
+  ]
  },
  "svc-mastodon": {
   "id": "svc-mastodon",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.738Z",
   "kind": "service",
@@ -2591,12 +2620,22 @@
   "recipe": "mastodon",
   "domain": "mastodon.social",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.738Z"
+  "updated": "2026-10-23T23:40:32.082Z",
+  "nextAt": 1792798921900,
+  "lastError": "لا يستجيب 0",
+  "note": "الموقع 0",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T23:40:32.082Z"
+   }
+  ]
  },
  "svc-gravatar": {
   "id": "svc-gravatar",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.756Z",
   "kind": "service",
@@ -2607,12 +2646,22 @@
   "recipe": "gravatar",
   "domain": "gravatar.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.757Z"
+  "updated": "2026-10-23T23:40:33.210Z",
+  "nextAt": 1792798923036,
+  "lastError": "لا يستجيب 0",
+  "note": "الموقع 0",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T23:40:33.210Z"
+   }
+  ]
  },
  "svc-imgbb": {
   "id": "svc-imgbb",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.772Z",
   "kind": "service",
@@ -2623,29 +2672,50 @@
   "recipe": "imgbb",
   "domain": "imgbb.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.772Z"
+  "updated": "2026-10-23T23:40:34.139Z",
+  "nextAt": 1792798923988,
+  "lastError": "لا يستجيب 0",
+  "note": "الموقع 0",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T23:40:34.140Z"
+   }
+  ]
  },
  "svc-imagekit": {
   "id": "svc-imagekit",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.786Z",
   "kind": "service",
   "cat": "storage",
   "name": "imagekit",
   "home": "https://imagekit.io",
-  "signup": "https://imagekit.io/registration",
+  "signup": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
   "recipe": "imagekit",
   "domain": "imagekit.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.786Z"
+  "updated": "2026-10-23T23:40:52.606Z",
+  "lastEvidence": "2026-10-23T23:40:52.454Z",
+  "login": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "recipe_conf": 1,
+  "note": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T23:40:52.606Z"
+   }
+  ]
  },
  "svc-statically": {
   "id": "svc-statically",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.806Z",
   "kind": "service",
   "cat": "cdn",
@@ -2655,13 +2725,22 @@
   "recipe": "statically",
   "domain": "statically.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.806Z"
+  "updated": "2026-10-23T23:40:55.557Z",
+  "lastEvidence": "2026-10-23T23:40:55.400Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-23T23:40:55.557Z"
+   }
+  ]
  },
  "svc-jsdelivr": {
   "id": "svc-jsdelivr",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.825Z",
   "kind": "service",
   "cat": "cdn",
@@ -2671,55 +2750,97 @@
   "recipe": "jsdelivr",
   "domain": "www.jsdelivr.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.826Z"
+  "updated": "2026-10-23T23:40:58.391Z",
+  "lastEvidence": "2026-10-23T23:40:58.238Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-23T23:40:58.391Z"
+   }
+  ]
  },
  "svc-bunny": {
   "id": "svc-bunny",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.840Z",
   "kind": "service",
   "cat": "cdn",
   "name": "bunny",
   "home": "https://bunny.net",
-  "signup": "https://bunny.net/signup",
+  "signup": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
   "recipe": "bunny",
   "domain": "bunny.net",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.841Z"
+  "updated": "2026-10-23T23:41:03.763Z",
+  "lastEvidence": "2026-10-23T23:41:03.532Z",
+  "login": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
+  "recipe_conf": 1,
+  "note": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T23:41:03.764Z"
+   }
+  ]
  },
  "svc-gcore": {
   "id": "svc-gcore",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.855Z",
   "kind": "service",
   "cat": "cdn",
   "name": "gcore",
   "home": "https://gcore.com",
-  "signup": "https://gcore.com/signup",
+  "signup": "https://auth.gcore.com/login/signup?lang=en",
   "recipe": "gcore",
   "domain": "gcore.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.855Z"
+  "updated": "2026-10-23T23:41:08.436Z",
+  "lastEvidence": "2026-10-23T23:41:08.230Z",
+  "login": "https://auth.gcore.com/login/signup?lang=en",
+  "recipe_conf": 1,
+  "note": "https://auth.gcore.com/login/signup?lang=en",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T23:41:08.437Z"
+   }
+  ]
  },
  "svc-statcounter": {
   "id": "svc-statcounter",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.869Z",
   "kind": "service",
   "cat": "analytics",
   "name": "statcounter",
   "home": "https://statcounter.com",
-  "signup": "https://statcounter.com/signup/",
+  "signup": "https://statcounter.com/login/",
   "recipe": "statcounter",
   "domain": "statcounter.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.869Z"
+  "updated": "2026-10-23T23:41:11.871Z",
+  "lastEvidence": "2026-10-23T23:41:11.483Z",
+  "login": "https://statcounter.com/login/",
+  "recipe_conf": 1,
+  "note": "https://statcounter.com/login/",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T23:41:11.872Z"
+   }
+  ]
  },
  "svc-matomo": {
   "id": "svc-matomo",

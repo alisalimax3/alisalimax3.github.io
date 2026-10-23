@@ -122,3 +122,6 @@
 {"at":"2026-10-23T23:00:37.682Z","event":"human","data":{"id":"svc-reddit","why":"identity"}}
 {"at":"2026-10-23T23:00:37.859Z","event":"stage","data":{"id":"svc-reddit","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
 {"at":"2026-10-23T23:00:38.404Z","event":"batch","data":{"n":12,"out":["svc-aitools","svc-topai","svc-startupbase","svc-indiehackers","svc-devto","svc-hashnode","svc-medium","svc-substack","svc-blogger","svc-wordpress","svc-tumblr","svc-reddit"]}}
+{"at":"2026-10-23T23:41:08.622Z","event":"stage","data":{"id":"svc-gcore","from":"new","to":"resolved","note":"https://auth.gcore.com/login/signup?lang=en"}}
+{"at":"2026-10-23T23:41:12.060Z","event":"stage","data":{"id":"svc-statcounter","from":"new","to":"resolved","note":"https://statcounter.com/login/"}}
+{"at":"2026-10-23T23:41:12.607Z","event":"batch","data":{"n":12,"out":["svc-pinterest","svc-quora","svc-vk","svc-mastodon","svc-gravatar","svc-imgbb","svc-imagekit","svc-statically","svc-jsdelivr","svc-bunny","svc-gcore","svc-statcounter"]}}
