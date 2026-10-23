@@ -122,19 +122,3 @@
 {"at":"2026-10-23T23:00:37.682Z","event":"human","data":{"id":"svc-reddit","why":"identity"}}
 {"at":"2026-10-23T23:00:37.859Z","event":"stage","data":{"id":"svc-reddit","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
 {"at":"2026-10-23T23:00:38.404Z","event":"batch","data":{"n":12,"out":["svc-aitools","svc-topai","svc-startupbase","svc-indiehackers","svc-devto","svc-hashnode","svc-medium","svc-substack","svc-blogger","svc-wordpress","svc-tumblr","svc-reddit"]}}
-{"at":"2026-10-23T23:20:08.489Z","event":"human","data":{"id":"svc-pinterest","why":"identity"}}
-{"at":"2026-10-23T23:20:08.647Z","event":"stage","data":{"id":"svc-pinterest","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
-{"at":"2026-10-23T23:20:13.530Z","event":"stage","data":{"id":"svc-quora","from":"new","to":"failed","note":"الموقع 403"}}
-{"at":"2026-10-23T23:20:25.194Z","event":"human","data":{"id":"svc-vk","why":"identity"}}
-{"at":"2026-10-23T23:20:25.357Z","event":"stage","data":{"id":"svc-vk","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
-{"at":"2026-10-23T23:20:30.947Z","event":"stage","data":{"id":"svc-mastodon","from":"new","to":"resolved","note":"https://joinmastodon.org/apps"}}
-{"at":"2026-10-23T23:20:36.413Z","event":"stage","data":{"id":"svc-gravatar","from":"new","to":"resolved","note":"https://gravatar.com/connect?gravatar_from=signup"}}
-{"at":"2026-10-23T23:20:42.790Z","event":"stage","data":{"id":"svc-imgbb","from":"new","to":"resolved","note":"https://imgbb.com/signup"}}
-{"at":"2026-10-23T23:20:50.151Z","event":"stage","data":{"id":"svc-imagekit","from":"new","to":"resolved","note":"https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited"}}
-{"at":"2026-10-23T23:20:57.061Z","event":"stage","data":{"id":"svc-statically","from":"new","to":"failed","note":"الموقع 0"}}
-{"at":"2026-10-23T23:21:12.800Z","event":"human","data":{"id":"svc-jsdelivr","why":"identity"}}
-{"at":"2026-10-23T23:21:12.961Z","event":"stage","data":{"id":"svc-jsdelivr","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
-{"at":"2026-10-23T23:21:33.991Z","event":"stage","data":{"id":"svc-bunny","from":"new","to":"failed","note":"الموقع 0"}}
-{"at":"2026-10-23T23:21:40.916Z","event":"stage","data":{"id":"svc-gcore","from":"new","to":"failed","note":"الموقع 0"}}
-{"at":"2026-10-23T23:22:01.788Z","event":"stage","data":{"id":"svc-statcounter","from":"new","to":"failed","note":"الموقع 0"}}
-{"at":"2026-10-23T23:22:02.311Z","event":"batch","data":{"n":12,"out":["svc-pinterest","svc-quora","svc-vk","svc-mastodon","svc-gravatar","svc-imgbb","svc-imagekit","svc-statically","svc-jsdelivr","svc-bunny","svc-gcore","svc-statcounter"]}}

@@ -82,41 +82,5 @@
   ],
   "field": "",
   "resume": "new"
- },
- "svc-pinterest": {
-  "id": "svc-pinterest",
-  "at": "2026-10-23T23:20:08.489Z",
-  "why": "identity",
-  "url": "https://www.pinterest.com/business/create",
-  "steps": [
-   "افتح https://www.pinterest.com",
-   "أنشئ الحساب ثم الصق رابط التسجيل"
-  ],
-  "field": "",
-  "resume": "new"
- },
- "svc-vk": {
-  "id": "svc-vk",
-  "at": "2026-10-23T23:20:25.194Z",
-  "why": "identity",
-  "url": "https://vk.com/join",
-  "steps": [
-   "افتح https://vk.com",
-   "أنشئ الحساب ثم الصق رابط التسجيل"
-  ],
-  "field": "",
-  "resume": "new"
- },
- "svc-jsdelivr": {
-  "id": "svc-jsdelivr",
-  "at": "2026-10-23T23:21:12.799Z",
-  "why": "identity",
-  "url": "https://www.jsdelivr.com/",
-  "steps": [
-   "افتح https://www.jsdelivr.com",
-   "أنشئ الحساب ثم الصق رابط التسجيل"
-  ],
-  "field": "",
-  "resume": "new"
  }
 }

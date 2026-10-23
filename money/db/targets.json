@@ -2531,9 +2531,9 @@
  },
  "svc-pinterest": {
   "id": "svc-pinterest",
-  "stage": "human",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 1,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.686Z",
   "kind": "service",
   "cat": "social",
@@ -2543,21 +2543,12 @@
   "recipe": "pinterest",
   "domain": "www.pinterest.com",
   "conf": 1,
-  "updated": "2026-10-23T23:20:08.579Z",
-  "lastEvidence": "2026-10-23T23:20:08.403Z",
-  "note": "بيانات هوية / تصادق",
-  "history": [
-   {
-    "from": "new",
-    "to": "human",
-    "at": "2026-10-23T23:20:08.580Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.686Z"
  },
  "svc-quora": {
   "id": "svc-quora",
-  "stage": "failed",
-  "attempts": 1,
+  "stage": "new",
+  "attempts": 0,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.701Z",
   "kind": "service",
@@ -2568,23 +2559,13 @@
   "recipe": "quora",
   "domain": "www.quora.com",
   "conf": 1,
-  "updated": "2026-10-23T23:20:13.442Z",
-  "nextAt": 1792797703282,
-  "lastError": "لا يستجيب 403",
-  "note": "الموقع 403",
-  "history": [
-   {
-    "from": "new",
-    "to": "failed",
-    "at": "2026-10-23T23:20:13.442Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.702Z"
  },
  "svc-vk": {
   "id": "svc-vk",
-  "stage": "human",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 1,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.718Z",
   "kind": "service",
   "cat": "social",
@@ -2594,76 +2575,45 @@
   "recipe": "vk",
   "domain": "vk.com",
   "conf": 1,
-  "updated": "2026-10-23T23:20:25.275Z",
-  "lastEvidence": "2026-10-23T23:20:25.124Z",
-  "note": "بيانات هوية / تصادق",
-  "history": [
-   {
-    "from": "new",
-    "to": "human",
-    "at": "2026-10-23T23:20:25.275Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.719Z"
  },
  "svc-mastodon": {
   "id": "svc-mastodon",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.738Z",
   "kind": "service",
   "cat": "social",
   "name": "mastodon",
   "home": "https://mastodon.social",
-  "signup": "https://joinmastodon.org/apps",
+  "signup": "https://mastodon.social/auth/sign_up",
   "recipe": "mastodon",
   "domain": "mastodon.social",
   "conf": 1,
-  "updated": "2026-10-23T23:20:30.850Z",
-  "lastEvidence": "2026-10-23T23:20:30.702Z",
-  "login": "https://joinmastodon.org/apps",
-  "recipe_conf": 1,
-  "note": "https://joinmastodon.org/apps",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:20:30.850Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.738Z"
  },
  "svc-gravatar": {
   "id": "svc-gravatar",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.756Z",
   "kind": "service",
   "cat": "tool",
   "name": "gravatar",
   "home": "https://gravatar.com",
-  "signup": "https://gravatar.com/connect?gravatar_from=signup",
+  "signup": "https://gravatar.com/",
   "recipe": "gravatar",
   "domain": "gravatar.com",
   "conf": 1,
-  "updated": "2026-10-23T23:20:36.332Z",
-  "lastEvidence": "2026-10-23T23:20:36.184Z",
-  "login": "https://gravatar.com/connect?gravatar_from=signup",
-  "recipe_conf": 1,
-  "note": "https://gravatar.com/connect?gravatar_from=signup",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:20:36.332Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.757Z"
  },
  "svc-imgbb": {
   "id": "svc-imgbb",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.772Z",
   "kind": "service",
   "cat": "storage",
@@ -2673,50 +2623,28 @@
   "recipe": "imgbb",
   "domain": "imgbb.com",
   "conf": 1,
-  "updated": "2026-10-23T23:20:42.721Z",
-  "lastEvidence": "2026-10-23T23:20:42.559Z",
-  "login": "https://imgbb.com/signup",
-  "recipe_conf": 1,
-  "note": "https://imgbb.com/signup",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:20:42.722Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.772Z"
  },
  "svc-imagekit": {
   "id": "svc-imagekit",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.786Z",
   "kind": "service",
   "cat": "storage",
   "name": "imagekit",
   "home": "https://imagekit.io",
-  "signup": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "signup": "https://imagekit.io/registration",
   "recipe": "imagekit",
   "domain": "imagekit.io",
   "conf": 1,
-  "updated": "2026-10-23T23:20:50.085Z",
-  "lastEvidence": "2026-10-23T23:20:49.937Z",
-  "login": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
-  "recipe_conf": 1,
-  "note": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:20:50.085Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.786Z"
  },
  "svc-statically": {
   "id": "svc-statically",
-  "stage": "failed",
-  "attempts": 1,
+  "stage": "new",
+  "attempts": 0,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.806Z",
   "kind": "service",
@@ -2727,23 +2655,13 @@
   "recipe": "statically",
   "domain": "statically.io",
   "conf": 1,
-  "updated": "2026-10-23T23:20:56.993Z",
-  "nextAt": 1792797746847,
-  "lastError": "لا يستجيب 0",
-  "note": "الموقع 0",
-  "history": [
-   {
-    "from": "new",
-    "to": "failed",
-    "at": "2026-10-23T23:20:56.993Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.806Z"
  },
  "svc-jsdelivr": {
   "id": "svc-jsdelivr",
-  "stage": "human",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 1,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.825Z",
   "kind": "service",
   "cat": "cdn",
@@ -2753,21 +2671,12 @@
   "recipe": "jsdelivr",
   "domain": "www.jsdelivr.com",
   "conf": 1,
-  "updated": "2026-10-23T23:21:12.882Z",
-  "lastEvidence": "2026-10-23T23:21:12.623Z",
-  "note": "بيانات هوية / تصادق",
-  "history": [
-   {
-    "from": "new",
-    "to": "human",
-    "at": "2026-10-23T23:21:12.882Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.826Z"
  },
  "svc-bunny": {
   "id": "svc-bunny",
-  "stage": "failed",
-  "attempts": 1,
+  "stage": "new",
+  "attempts": 0,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.840Z",
   "kind": "service",
@@ -2778,22 +2687,12 @@
   "recipe": "bunny",
   "domain": "bunny.net",
   "conf": 1,
-  "updated": "2026-10-23T23:21:33.897Z",
-  "nextAt": 1792797783746,
-  "lastError": "لا يستجيب 0",
-  "note": "الموقع 0",
-  "history": [
-   {
-    "from": "new",
-    "to": "failed",
-    "at": "2026-10-23T23:21:33.897Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.841Z"
  },
  "svc-gcore": {
   "id": "svc-gcore",
-  "stage": "failed",
-  "attempts": 1,
+  "stage": "new",
+  "attempts": 0,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.855Z",
   "kind": "service",
@@ -2804,22 +2703,12 @@
   "recipe": "gcore",
   "domain": "gcore.com",
   "conf": 1,
-  "updated": "2026-10-23T23:21:40.849Z",
-  "nextAt": 1792797790702,
-  "lastError": "لا يستجيب 0",
-  "note": "الموقع 0",
-  "history": [
-   {
-    "from": "new",
-    "to": "failed",
-    "at": "2026-10-23T23:21:40.849Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.855Z"
  },
  "svc-statcounter": {
   "id": "svc-statcounter",
-  "stage": "failed",
-  "attempts": 1,
+  "stage": "new",
+  "attempts": 0,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.869Z",
   "kind": "service",
@@ -2830,17 +2719,7 @@
   "recipe": "statcounter",
   "domain": "statcounter.com",
   "conf": 1,
-  "updated": "2026-10-23T23:22:01.720Z",
-  "nextAt": 1792797811569,
-  "lastError": "لا يستجيب 0",
-  "note": "الموقع 0",
-  "history": [
-   {
-    "from": "new",
-    "to": "failed",
-    "at": "2026-10-23T23:22:01.720Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.869Z"
  },
  "svc-matomo": {
   "id": "svc-matomo",
