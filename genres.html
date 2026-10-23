@@ -1,26 +1,5 @@
-<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta name="description" content="منصة أفلام ومسلسلات وأنمي مترجمة بجودة عالية"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>الأنواع — CineHub 3099</title><style>body{font-family:system-ui,Tahoma;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.7}a{color:#4cc2ff;text-decoration:none}.ch{display:flex;gap:6px;flex-wrap:wrap}.ch a{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:7px 13px;font-size:13px}.c{color:#8ea3b8;font-size:13px}</style><script src="/config.js"></script>
-<!--APEX-ADS-v1-->
-
-<script>(function(){try{
-var C=window.__APEX_C||"";var EP="/api/apex/event";
-function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
- var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
- try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
-var c=document.documentElement.getAttribute("data-apex-circle")||"general";
-send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
-if("IntersectionObserver" in window){
- var o=new IntersectionObserver(function(es){es.forEach(function(en){
-  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
- setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
-}})();</script>
-<!--/APEX-ADS-v1-->
-<link rel="stylesheet" href="/grid.css">
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>الأنواع — CineHub 3099</title><style>body{font-family:system-ui,Tahoma;background:#070b10;color:#e9f1f8;margin:0;padding:14px;line-height:1.7}a{color:#4cc2ff;text-decoration:none}.ch{display:flex;gap:6px;flex-wrap:wrap}.ch a{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:20px;padding:7px 13px;font-size:13px}.c{color:#8ea3b8;font-size:13px}</style><link rel="stylesheet" href="/grid.css">
 <script src="/tmdb-img-shim.js" defer></script>
 <script src="/wallet.js" defer></script>
 <script src="/grid.js" defer></script>
-</head><body><h1>الأنواع <span class="c" id="n"></span></h1><div class="ch" id="ch"></div><script>fetch("genres.json?_="+Date.now()).then(function(r){return r.json()}).then(function(d){document.getElementById("n").textContent="· "+d.count+" · "+d.made+" صفحة";document.getElementById("ch").innerHTML=d.items.map(function(i){return "<a href='g/"+encodeURIComponent(i.f)+"'>"+i.k+"</a>";}).join("");});</script><script src="hits.js" defer></script><a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
-<!-- CINEHUB-ADS -->
-
-<!-- /CINEHUB-ADS -->
-<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
-</body></html>
+</head><body><h1>الأنواع <span class="c" id="n"></span></h1><div class="ch" id="ch"></div><script>fetch("genres.json?_="+Date.now()).then(function(r){return r.json()}).then(function(d){document.getElementById("n").textContent="· "+d.count+" · "+d.made+" صفحة";document.getElementById("ch").innerHTML=d.items.map(function(i){return "<a href='g/"+encodeURIComponent(i.f)+"'>"+i.k+"</a>";}).join("");});</script></body></html>
