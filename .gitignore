@@ -54,3 +54,5 @@ money/.heal/backups/
 !data/tools.bak.*/
 
 !data/tools.bak.*/
+
+!data/
