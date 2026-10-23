@@ -17,3 +17,47 @@
 {"ts":"2026-10-23T23:57:23.611Z","site":"UEFA","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":1167,"via":"https://www.uefa.com"}
 {"ts":"2026-10-23T23:57:23.611Z","site":"FIFA","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":2346,"via":"https://www.fifa.com"}
 {"ts":"2026-10-23T23:57:23.612Z","site":"Premier League","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":2401,"via":"https://www.premierleague.com"}
+{"ts":"2026-10-23T23:57:27.868Z","site":"LaLiga","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":4175,"via":"https://www.laliga.com"}
+{"ts":"2026-10-23T23:57:27.869Z","site":"Bundesliga","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":738,"via":"https://www.bundesliga.com"}
+{"ts":"2026-10-23T23:57:27.870Z","site":"NBA","cat":"news","task":"register+visit+verify","amount":0.0004,"http":403,"ms":1669,"via":"https://www.nba.com"}
+{"ts":"2026-10-23T23:57:27.870Z","site":"NFL","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":2183,"via":"https://www.nfl.com"}
+{"ts":"2026-10-23T23:57:27.871Z","site":"MLB","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":1948,"via":"https://www.mlb.com"}
+{"ts":"2026-10-23T23:57:27.871Z","site":"NHL","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":2573,"via":"https://www.nhl.com"}
+{"ts":"2026-10-23T23:57:32.176Z","site":"Formula 1","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":1734,"via":"https://www.formula1.com"}
+{"ts":"2026-10-23T23:57:32.178Z","site":"MotoGP","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":1194,"via":"https://www.motogp.com"}
+{"ts":"2026-10-23T23:57:32.178Z","site":"ATP Tour","cat":"news","task":"register+visit+verify","amount":0.0004,"http":403,"ms":1196,"via":"https://www.atptour.com"}
+{"ts":"2026-10-23T23:57:32.179Z","site":"WTA Tennis","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":4214,"via":"https://www.wtatennis.com"}
+{"ts":"2026-10-23T23:57:32.180Z","site":"UFC","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":3567,"via":"https://www.ufc.com"}
+{"ts":"2026-10-23T23:57:32.181Z","site":"ESPN Cricinfo","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":3335,"via":"https://www.espncricinfo.com"}
+{"ts":"2026-10-23T23:57:35.246Z","site":"Pornhub","cat":"adult","task":"visit+verify","amount":0.0009,"http":200,"ms":1482}
+{"ts":"2026-10-23T23:57:35.264Z","site":"xHamster","cat":"adult","task":"visit+verify","amount":0.0007,"http":200,"ms":1070}
+{"ts":"2026-10-23T23:57:35.930Z","site":"Cricbuzz","cat":"news","task":"register+visit+verify","amount":0.0004,"http":200,"ms":2246,"via":"https://www.cricbuzz.com"}
+{"ts":"2026-10-23T23:57:35.932Z","site":"Binance","cat":"api","task":"register+visit+verify","amount":0.001,"http":403,"ms":1133,"via":"https://api.binance.com"}
+{"ts":"2026-10-23T23:57:35.933Z","site":"Coinbase","cat":"api","task":"register+visit+verify","amount":0.001,"http":404,"ms":3655,"via":"https://api.coinbase.com"}
+{"ts":"2026-10-23T23:57:35.934Z","site":"Kraken","cat":"api","task":"register+visit+verify","amount":0.0009,"http":404,"ms":641,"via":"https://api.kraken.com"}
+{"ts":"2026-10-23T23:57:35.935Z","site":"KuCoin","cat":"api","task":"register+visit+verify","amount":0.0009,"http":404,"ms":933,"via":"https://api.kucoin.com"}
+{"ts":"2026-10-23T23:57:35.936Z","site":"OKX","cat":"api","task":"register+visit+verify","amount":0.0009,"http":200,"ms":1337,"via":"https://www.okx.com"}
+{"ts":"2026-10-23T23:57:39.581Z","site":"YouPorn","cat":"adult","task":"visit+verify","amount":0.0007,"http":200,"ms":995}
+{"ts":"2026-10-23T23:57:39.583Z","site":"SpankBang","cat":"adult","task":"visit+verify","amount":0.0007,"http":403,"ms":3312}
+{"ts":"2026-10-23T23:57:39.584Z","site":"EPorner","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":2421}
+{"ts":"2026-10-23T23:57:39.586Z","site":"TXXX","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":4144}
+{"ts":"2026-10-23T23:57:39.587Z","site":"Beeg","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":1461}
+{"ts":"2026-10-23T23:57:41.114Z","site":"Bybit","cat":"api","task":"register+visit+verify","amount":0.0009,"http":200,"ms":2924,"via":"https://api.bybit.com"}
+{"ts":"2026-10-23T23:57:41.115Z","site":"Gate","cat":"api","task":"register+visit+verify","amount":0.0008,"http":200,"ms":2856,"via":"https://www.gate.io"}
+{"ts":"2026-10-23T23:57:41.117Z","site":"MEXC","cat":"api","task":"register+visit+verify","amount":0.0008,"http":200,"ms":1360,"via":"https://www.mexc.com"}
+{"ts":"2026-10-23T23:57:41.118Z","site":"Bitget","cat":"api","task":"register+visit+verify","amount":0.0008,"http":404,"ms":1016,"via":"https://api.bitget.com"}
+{"ts":"2026-10-23T23:57:41.119Z","site":"CoinMarketCap","cat":"api","task":"register+visit+verify","amount":0.0009,"http":404,"ms":3673,"via":"https://api.coinmarketcap.com"}
+{"ts":"2026-10-23T23:57:41.121Z","site":"CoinGecko","cat":"api","task":"register+visit+verify","amount":0.0009,"http":404,"ms":5079,"via":"https://api.coingecko.com"}
+{"ts":"2026-10-23T23:57:42.427Z","site":"HQPorner","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":1000}
+{"ts":"2026-10-23T23:57:42.429Z","site":"Porntrex","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":943}
+{"ts":"2026-10-23T23:57:42.431Z","site":"Tube8","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":1092}
+{"ts":"2026-10-23T23:57:42.433Z","site":"TNAFlix","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":2662}
+{"ts":"2026-10-23T23:57:45.777Z","site":"DefiLlama","cat":"api","task":"register+visit+verify","amount":0.0008,"http":404,"ms":1377,"via":"https://api.llama.fi"}
+{"ts":"2026-10-23T23:57:45.778Z","site":"Etherscan","cat":"api","task":"register+visit+verify","amount":0.0008,"http":200,"ms":1847,"via":"https://api.etherscan.io"}
+{"ts":"2026-10-23T23:57:45.779Z","site":"BaseScan","cat":"api","task":"register+visit+verify","amount":0.0008,"http":403,"ms":4562,"via":"https://api.basescan.org"}
+{"ts":"2026-10-23T23:57:45.781Z","site":"Arbiscan","cat":"api","task":"register+visit+verify","amount":0.0008,"http":200,"ms":1643,"via":"https://api.arbiscan.io"}
+{"ts":"2026-10-23T23:57:45.782Z","site":"PolygonScan","cat":"api","task":"register+visit+verify","amount":0.0008,"http":200,"ms":2743,"via":"https://api.polygonscan.com"}
+{"ts":"2026-10-23T23:57:45.834Z","site":"HClips","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":3248}
+{"ts":"2026-10-23T23:57:45.836Z","site":"SunPorno","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":1387}
+{"ts":"2026-10-23T23:57:45.839Z","site":"Porn300","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":1467}
+{"ts":"2026-10-23T23:57:45.840Z","site":"LetMeJerk","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":1465}

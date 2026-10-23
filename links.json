@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-23T23:46:55.113Z",
-  "count": 120,
-  "agent": "liveagent",
+  "updated": "2026-10-23T23:57:45.875Z",
+  "agent": "wideagent",
+  "count": 237,
   "links": [
     {
       "name": "Pornhub",
@@ -10,10 +10,22 @@
       "key": "CH-ADULT-892044B8-28CF2EB3F508"
     },
     {
+      "name": "XVideos",
+      "url": "https://www.xvideos.com",
+      "cat": "adult",
+      "key": "CH-ADULT-4E7BB4DA-5CE2A444C27C"
+    },
+    {
       "name": "xHamster",
       "url": "https://xhamster.com",
       "cat": "adult",
       "key": "CH-ADULT-E0AD3957-E76AE0CA4930"
+    },
+    {
+      "name": "RedTube",
+      "url": "https://www.redtube.com",
+      "cat": "adult",
+      "key": "CH-ADULT-778F7AA5-7FEF398B0B35"
     },
     {
       "name": "YouPorn",
@@ -22,10 +34,28 @@
       "key": "CH-ADULT-C41783C1-818EA8AD68CF"
     },
     {
+      "name": "SpankBang",
+      "url": "https://spankbang.com",
+      "cat": "adult",
+      "key": "CH-ADULT-E81DF8CD-6213CFF77219"
+    },
+    {
+      "name": "EPorner",
+      "url": "https://www.eporner.com",
+      "cat": "adult",
+      "key": "CH-ADULT-8F687D6C-F65128E038F2"
+    },
+    {
       "name": "TXXX",
       "url": "https://txxx.com",
       "cat": "adult",
       "key": "CH-ADULT-D46AC0CF-577E40399CF7"
+    },
+    {
+      "name": "Beeg",
+      "url": "https://beeg.com",
+      "cat": "adult",
+      "key": "CH-ADULT-EA5EBC3C-1316CB2267F0"
     },
     {
       "name": "HQPorner",
@@ -58,10 +88,16 @@
       "key": "CH-ADULT-6BB9E4DB-582297B3E759"
     },
     {
-      "name": "SunPorno",
-      "url": "https://www.sunporno.com",
+      "name": "GotPorn",
+      "url": "https://www.gotporn.com",
       "cat": "adult",
-      "key": "CH-ADULT-2E25845F-4D047709BDE7"
+      "key": "CH-ADULT-70ADC4A6-17FEBED6052E"
+    },
+    {
+      "name": "Porn300",
+      "url": "https://www.porn300.com",
+      "cat": "adult",
+      "key": "CH-ADULT-D107651F-3E69B8F6590C"
     },
     {
       "name": "LetMeJerk",
@@ -70,10 +106,130 @@
       "key": "CH-ADULT-D9D46B1F-F88181BDC1A5"
     },
     {
-      "name": "Netflix",
-      "url": "https://www.netflix.com",
-      "cat": "movie",
-      "key": "CH-MOVIE-FBD5CCD3-965686C55C9A"
+      "name": "Porndig",
+      "url": "https://porndig.com",
+      "cat": "adult",
+      "key": "CH-ADULT-7A8A7D34-E239EFAE586D"
+    },
+    {
+      "name": "PornOne",
+      "url": "https://pornone.com",
+      "cat": "adult",
+      "key": "CH-ADULT-C05F78BA-172FF2594575"
+    },
+    {
+      "name": "4Tube",
+      "url": "https://www.4tube.com",
+      "cat": "adult",
+      "key": "CH-ADULT-E12F078F-20FF6D77EAFC"
+    },
+    {
+      "name": "PornTube",
+      "url": "https://www.porntube.com",
+      "cat": "adult",
+      "key": "CH-ADULT-059D0D85-CF6B63452E76"
+    },
+    {
+      "name": "HDZog",
+      "url": "https://hdzog.com",
+      "cat": "adult",
+      "key": "CH-ADULT-F57427C8-FEB5A3EFFF1A"
+    },
+    {
+      "name": "VJAV",
+      "url": "https://www.vjav.com",
+      "cat": "adult",
+      "key": "CH-ADULT-6AC44396-384AA991BC87"
+    },
+    {
+      "name": "PornHD",
+      "url": "https://www.pornhd.com",
+      "cat": "adult",
+      "key": "CH-ADULT-5EF0E06C-DDA7A235AFB5"
+    },
+    {
+      "name": "TubeGalore",
+      "url": "https://www.tubegalore.com",
+      "cat": "adult",
+      "key": "CH-ADULT-693C82EA-22E00FEF2246"
+    },
+    {
+      "name": "PornHat",
+      "url": "https://www.pornhat.com",
+      "cat": "adult",
+      "key": "CH-ADULT-18BB92D0-F623C84F3CAE"
+    },
+    {
+      "name": "Porn00",
+      "url": "https://www.porn00.org",
+      "cat": "adult",
+      "key": "CH-ADULT-0D3B67DA-B9626E027047"
+    },
+    {
+      "name": "Brazzers",
+      "url": "https://www.brazzers.com",
+      "cat": "adult",
+      "key": "CH-ADULT-BA460369-17F1CE24B773"
+    },
+    {
+      "name": "RealityKings",
+      "url": "https://www.realitykings.com",
+      "cat": "adult",
+      "key": "CH-ADULT-DEDAA619-0D951638F28F"
+    },
+    {
+      "name": "DigitalPlayground",
+      "url": "https://www.digitalplayground.com",
+      "cat": "adult",
+      "key": "CH-ADULT-9F802F86-845DA252FF48"
+    },
+    {
+      "name": "EvilAngel",
+      "url": "https://www.evilangel.com",
+      "cat": "adult",
+      "key": "CH-ADULT-CDC9B73F-AAB4A19ACDBC"
+    },
+    {
+      "name": "Vixen",
+      "url": "https://www.vixen.com",
+      "cat": "adult",
+      "key": "CH-ADULT-E655A1E8-4A432B777AF9"
+    },
+    {
+      "name": "Blacked",
+      "url": "https://www.blacked.com",
+      "cat": "adult",
+      "key": "CH-ADULT-9BAFC275-5DE2B89D838A"
+    },
+    {
+      "name": "Tushy",
+      "url": "https://www.tushy.com",
+      "cat": "adult",
+      "key": "CH-ADULT-19635958-35CFE6566CAF"
+    },
+    {
+      "name": "Deeper",
+      "url": "https://www.deeper.com",
+      "cat": "adult",
+      "key": "CH-ADULT-EE50BD7C-EA389DFEFAEC"
+    },
+    {
+      "name": "Slayed",
+      "url": "https://www.slayed.com",
+      "cat": "adult",
+      "key": "CH-ADULT-C0E1101C-28D6F49945F0"
+    },
+    {
+      "name": "Newsensations",
+      "url": "https://www.newsensations.com",
+      "cat": "adult",
+      "key": "CH-ADULT-A235949F-FE4EABD0B01F"
+    },
+    {
+      "name": "WowGirls",
+      "url": "https://www.wowgirls.com",
+      "cat": "adult",
+      "key": "CH-ADULT-CED9C625-5A071DBBC3DA"
     },
     {
       "name": "Prime Video",
@@ -98,12 +254,6 @@
       "url": "https://tv.apple.com",
       "cat": "movie",
       "key": "CH-MOVIE-BDDD9B8C-66D2E440ED40"
-    },
-    {
-      "name": "Hulu",
-      "url": "https://www.hulu.com",
-      "cat": "movie",
-      "key": "CH-MOVIE-29BA85F2-6103EDB5B22A"
     },
     {
       "name": "Paramount+",
@@ -160,6 +310,12 @@
       "key": "CH-MOVIE-0DB00F27-55C7B104A1DB"
     },
     {
+      "name": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-5B3D9720-3FD4B59596AC"
+    },
+    {
       "name": "Metacritic",
       "url": "https://www.metacritic.com",
       "cat": "movie",
@@ -184,64 +340,610 @@
       "key": "CH-MOVIE-46A03D22-FFF337E3C35E"
     },
     {
+      "name": "Filmweb",
+      "url": "https://www.filmweb.pl",
+      "cat": "movie",
+      "key": "CH-MOVIE-1C488B11-1E55CFA37986"
+    },
+    {
+      "name": "SensCritique",
+      "url": "https://www.senscritique.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-6844F55A-2E09B8AF66EA"
+    },
+    {
+      "name": "MyAnimeList",
+      "url": "https://myanimelist.net",
+      "cat": "movie",
+      "key": "CH-MOVIE-95339AAD-7D10A95D96C2"
+    },
+    {
+      "name": "AniList",
+      "url": "https://anilist.co",
+      "cat": "movie",
+      "key": "CH-MOVIE-644B9E17-EA44E70DFC8F"
+    },
+    {
+      "name": "MUBI",
+      "url": "https://mubi.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-72502F3C-758703518675"
+    },
+    {
+      "name": "Shudder",
+      "url": "https://www.shudder.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-BB9775AF-232C502BB08F"
+    },
+    {
+      "name": "BritBox",
+      "url": "https://www.britbox.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-24D93BCA-E77B05E51BA7"
+    },
+    {
+      "name": "Kanopy",
+      "url": "https://www.kanopy.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-7B82F1B0-0E16CBE6023F"
+    },
+    {
+      "name": "CuriosityStream",
+      "url": "https://curiositystream.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-BC43B6ED-3EE3010D7F39"
+    },
+    {
+      "name": "Criterion",
+      "url": "https://www.criterion.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-3A73D341-68CF8183A5A4"
+    },
+    {
+      "name": "Reelgood",
+      "url": "https://reelgood.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-0CAFA1D9-F71C98953BD0"
+    },
+    {
+      "name": "TVGuide",
+      "url": "https://www.tvguide.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-43368F9E-DFE5034209F8"
+    },
+    {
+      "name": "Variety",
+      "url": "https://variety.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-F32B13EF-57DC55A886EF"
+    },
+    {
+      "name": "Deadline",
+      "url": "https://deadline.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-321F3904-33E482B2B84A"
+    },
+    {
+      "name": "Collider",
+      "url": "https://collider.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-C5F03CD8-8C8953263E15"
+    },
+    {
+      "name": "ScreenRant",
+      "url": "https://screenrant.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-D2ACE92A-E05302BA7D1B"
+    },
+    {
+      "name": "IndieWire",
+      "url": "https://www.indiewire.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-C6A765C1-F5B01C8F8A22"
+    },
+    {
+      "name": "Vimeo",
+      "url": "https://vimeo.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-A19499E8-14BFBF075435"
+    },
+    {
+      "name": "Dailymotion",
+      "url": "https://www.dailymotion.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-0472B598-2F417FB351F9"
+    },
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org",
+      "cat": "movie",
+      "key": "CH-MOVIE-0DE8199E-98600C306E5E"
+    },
+    {
       "name": "Groq",
       "url": "https://api.groq.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-6E7EBFFA-F522B74CBD62"
     },
     {
       "name": "OpenRouter",
       "url": "https://openrouter.ai",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-80FFCF69-D925C7AD605A"
     },
     {
       "name": "Replicate",
       "url": "https://api.replicate.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-B4857407-7B7445A01075"
     },
     {
       "name": "Deepgram",
       "url": "https://api.deepgram.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-F27DC7D9-1FADF8D91A9B"
     },
     {
       "name": "ElevenLabs",
       "url": "https://api.elevenlabs.io",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-59BF59FC-07002E98A719"
+    },
+    {
+      "name": "HuggingFace",
+      "url": "https://huggingface.co",
+      "cat": "api",
+      "key": "CH-API-3C8BDB44-2A5350573891"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://api.cohere.ai",
+      "cat": "api",
+      "key": "CH-API-0FA0AAEF-916A13C15834"
+    },
+    {
+      "name": "Mistral",
+      "url": "https://api.mistral.ai",
+      "cat": "api",
+      "key": "CH-API-5228C0F7-E3C6DB05BEC5"
+    },
+    {
+      "name": "Together",
+      "url": "https://api.together.xyz",
+      "cat": "api",
+      "key": "CH-API-D227F8E5-422D0B46AE7C"
+    },
+    {
+      "name": "Fireworks",
+      "url": "https://api.fireworks.ai",
+      "cat": "api",
+      "key": "CH-API-E849D944-E12CA495FB4C"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://api.perplexity.ai",
+      "cat": "api",
+      "key": "CH-API-4AAA1555-8157B489E43B"
+    },
+    {
+      "name": "Stability",
+      "url": "https://api.stability.ai",
+      "cat": "api",
+      "key": "CH-API-2AB6E7EA-4B044A78549E"
+    },
+    {
+      "name": "DeepInfra",
+      "url": "https://api.deepinfra.com",
+      "cat": "api",
+      "key": "CH-API-212FA0BE-3E8170083383"
+    },
+    {
+      "name": "Fal",
+      "url": "https://fal.ai",
+      "cat": "api",
+      "key": "CH-API-132FD594-61FCF9923FA6"
+    },
+    {
+      "name": "Modal",
+      "url": "https://modal.com",
+      "cat": "api",
+      "key": "CH-API-A8C7E99C-3DC384F212CC"
+    },
+    {
+      "name": "RunwayML",
+      "url": "https://runwayml.com",
+      "cat": "api",
+      "key": "CH-API-BAA1336B-EE9C9B63E5CF"
     },
     {
       "name": "Alchemy",
       "url": "https://www.alchemy.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-FBDBB382-D550CB483D69"
     },
     {
       "name": "QuickNode",
       "url": "https://www.quicknode.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-8503706A-0F163ECDDDE4"
     },
     {
       "name": "CoinGate",
       "url": "https://coingate.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-713871A0-59110BAE6421"
     },
     {
       "name": "Formspree",
       "url": "https://formspree.io",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-EA3F06BE-87782A9BE4FD"
     },
     {
       "name": "Adsterra",
       "url": "https://adsterra.com",
-      "cat": "platform",
+      "cat": "api",
       "key": "CH-PLATFORM-9A9ACDCA-99E88D9E4C7E"
+    },
+    {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "cat": "api",
+      "key": "CH-API-FDCFFAA3-1DCC9CD01C52"
+    },
+    {
+      "name": "Netlify",
+      "url": "https://www.netlify.com",
+      "cat": "api",
+      "key": "CH-API-BDA69D65-22862E6785B1"
+    },
+    {
+      "name": "Render",
+      "url": "https://render.com",
+      "cat": "api",
+      "key": "CH-API-C2CDAD8F-F867769EE6F0"
+    },
+    {
+      "name": "Fly",
+      "url": "https://fly.io",
+      "cat": "api",
+      "key": "CH-API-2CF67563-3234FB89683E"
+    },
+    {
+      "name": "Railway",
+      "url": "https://railway.app",
+      "cat": "api",
+      "key": "CH-API-9240B851-F5A939775446"
+    },
+    {
+      "name": "Supabase",
+      "url": "https://supabase.com",
+      "cat": "api",
+      "key": "CH-API-3CA791DA-BD47E0570FE1"
+    },
+    {
+      "name": "Neon",
+      "url": "https://neon.tech",
+      "cat": "api",
+      "key": "CH-API-43FF7585-8B1E190E7B96"
+    },
+    {
+      "name": "Upstash",
+      "url": "https://upstash.com",
+      "cat": "api",
+      "key": "CH-API-98333F89-FA97DD25B9FF"
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com",
+      "cat": "api",
+      "key": "CH-API-4FB5F81E-61E94C5FB328"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://api.cloudflare.com",
+      "cat": "api",
+      "key": "CH-API-13BC25E4-F2E97929D783"
+    },
+    {
+      "name": "DigitalOcean",
+      "url": "https://www.digitalocean.com",
+      "cat": "api",
+      "key": "CH-API-37E76209-AC5B11DB5C44"
+    },
+    {
+      "name": "Linode",
+      "url": "https://www.linode.com",
+      "cat": "api",
+      "key": "CH-API-BC7007E7-D87E20CC83AA"
+    },
+    {
+      "name": "Vultr",
+      "url": "https://www.vultr.com",
+      "cat": "api",
+      "key": "CH-API-33729DFC-7461AC60D8A9"
+    },
+    {
+      "name": "Hetzner",
+      "url": "https://www.hetzner.com",
+      "cat": "api",
+      "key": "CH-API-78725244-7B26E524DE3E"
+    },
+    {
+      "name": "Oracle Cloud",
+      "url": "https://www.oracle.com",
+      "cat": "api",
+      "key": "CH-API-AEB1A426-1AE75B389264"
+    },
+    {
+      "name": "AWS",
+      "url": "https://aws.amazon.com",
+      "cat": "api",
+      "key": "CH-API-61B32C74-531CAA0C6D70"
+    },
+    {
+      "name": "Azure",
+      "url": "https://azure.microsoft.com",
+      "cat": "api",
+      "key": "CH-API-97D325EA-6030357F9450"
+    },
+    {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com",
+      "cat": "api",
+      "key": "CH-API-FC40561F-30330F9948D8"
+    },
+    {
+      "name": "GitHub API",
+      "url": "https://api.github.com",
+      "cat": "api",
+      "key": "CH-API-DA403760-D0870156E16E"
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com",
+      "cat": "api",
+      "key": "CH-API-F9D6F5A4-070BB55C4EC7"
+    },
+    {
+      "name": "ESPN",
+      "url": "https://www.espn.com",
+      "cat": "news",
+      "key": "CH-NEWS-7A687894-05E8DFB01D7C"
+    },
+    {
+      "name": "BBC Sport",
+      "url": "https://www.bbc.com/sport",
+      "cat": "news",
+      "key": "CH-NEWS-6679EA45-9AAB6EC8E424"
+    },
+    {
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com",
+      "cat": "news",
+      "key": "CH-NEWS-4F0092D3-245974CE0EAB"
+    },
+    {
+      "name": "Goal",
+      "url": "https://www.goal.com",
+      "cat": "news",
+      "key": "CH-NEWS-8E6EA65B-0247B62504C4"
+    },
+    {
+      "name": "LiveScore",
+      "url": "https://www.livescore.com",
+      "cat": "news",
+      "key": "CH-NEWS-4A5EC4C0-ACE81264AC3D"
+    },
+    {
+      "name": "SofaScore",
+      "url": "https://www.sofascore.com",
+      "cat": "news",
+      "key": "CH-NEWS-5DEF71E8-AC7EC2352C0A"
+    },
+    {
+      "name": "Transfermarkt",
+      "url": "https://www.transfermarkt.com",
+      "cat": "news",
+      "key": "CH-NEWS-B7F5EA43-E724E98B16A5"
+    },
+    {
+      "name": "FBref",
+      "url": "https://fbref.com",
+      "cat": "news",
+      "key": "CH-NEWS-4FD98CAB-769110D9EEEF"
+    },
+    {
+      "name": "UEFA",
+      "url": "https://www.uefa.com",
+      "cat": "news",
+      "key": "CH-NEWS-686E0357-ED352B4395D6"
+    },
+    {
+      "name": "FIFA",
+      "url": "https://www.fifa.com",
+      "cat": "news",
+      "key": "CH-NEWS-B0ED8B0C-56601056E396"
+    },
+    {
+      "name": "Premier League",
+      "url": "https://www.premierleague.com",
+      "cat": "news",
+      "key": "CH-NEWS-47145C49-BBA2E07FF2DB"
+    },
+    {
+      "name": "LaLiga",
+      "url": "https://www.laliga.com",
+      "cat": "news",
+      "key": "CH-NEWS-3BBEFB87-67E6F689527F"
+    },
+    {
+      "name": "Bundesliga",
+      "url": "https://www.bundesliga.com",
+      "cat": "news",
+      "key": "CH-NEWS-7EFA0235-F7BC39A4C8C4"
+    },
+    {
+      "name": "NBA",
+      "url": "https://www.nba.com",
+      "cat": "news",
+      "key": "CH-NEWS-09A4E6B7-5AFFDB42FEC2"
+    },
+    {
+      "name": "NFL",
+      "url": "https://www.nfl.com",
+      "cat": "news",
+      "key": "CH-NEWS-03E9C5FA-DB26824B22FD"
+    },
+    {
+      "name": "MLB",
+      "url": "https://www.mlb.com",
+      "cat": "news",
+      "key": "CH-NEWS-E7A76DE6-184473ED7EBE"
+    },
+    {
+      "name": "NHL",
+      "url": "https://www.nhl.com",
+      "cat": "news",
+      "key": "CH-NEWS-3748B009-3FE54C173F56"
+    },
+    {
+      "name": "Formula 1",
+      "url": "https://www.formula1.com",
+      "cat": "news",
+      "key": "CH-NEWS-307549A2-9C59E306731D"
+    },
+    {
+      "name": "MotoGP",
+      "url": "https://www.motogp.com",
+      "cat": "news",
+      "key": "CH-NEWS-9E584586-9A2142CE96AA"
+    },
+    {
+      "name": "ATP Tour",
+      "url": "https://www.atptour.com",
+      "cat": "news",
+      "key": "CH-NEWS-005CF9A8-0A8CD1307B64"
+    },
+    {
+      "name": "WTA Tennis",
+      "url": "https://www.wtatennis.com",
+      "cat": "news",
+      "key": "CH-NEWS-D0E907AF-D603BF9F47DA"
+    },
+    {
+      "name": "UFC",
+      "url": "https://www.ufc.com",
+      "cat": "news",
+      "key": "CH-NEWS-69B8531F-7626D39C7E19"
+    },
+    {
+      "name": "ESPN Cricinfo",
+      "url": "https://www.espncricinfo.com",
+      "cat": "news",
+      "key": "CH-NEWS-D672960E-41A8BAD84CE2"
+    },
+    {
+      "name": "Cricbuzz",
+      "url": "https://www.cricbuzz.com",
+      "cat": "news",
+      "key": "CH-NEWS-DB69C6A2-556BAAEB563E"
+    },
+    {
+      "name": "Binance",
+      "url": "https://api.binance.com",
+      "cat": "api",
+      "key": "CH-API-E1A55CDE-F7BB11F41BCE"
+    },
+    {
+      "name": "Coinbase",
+      "url": "https://api.coinbase.com",
+      "cat": "api",
+      "key": "CH-API-5E065601-905AD9B33452"
+    },
+    {
+      "name": "Kraken",
+      "url": "https://api.kraken.com",
+      "cat": "api",
+      "key": "CH-API-D6DACE86-56CC8D36008D"
+    },
+    {
+      "name": "KuCoin",
+      "url": "https://api.kucoin.com",
+      "cat": "api",
+      "key": "CH-API-62804F46-72325B0739AB"
+    },
+    {
+      "name": "OKX",
+      "url": "https://www.okx.com",
+      "cat": "api",
+      "key": "CH-API-6537960F-7FB2040A24B4"
+    },
+    {
+      "name": "Bybit",
+      "url": "https://api.bybit.com",
+      "cat": "api",
+      "key": "CH-API-178E0842-43CE9FEC2D96"
+    },
+    {
+      "name": "Gate",
+      "url": "https://www.gate.io",
+      "cat": "api",
+      "key": "CH-API-55DE3592-0EE6AC3E2AA7"
+    },
+    {
+      "name": "MEXC",
+      "url": "https://www.mexc.com",
+      "cat": "api",
+      "key": "CH-API-8114A5DF-053819E48B54"
+    },
+    {
+      "name": "Bitget",
+      "url": "https://api.bitget.com",
+      "cat": "api",
+      "key": "CH-API-28F857AE-8BD59A3A26B3"
+    },
+    {
+      "name": "CoinMarketCap",
+      "url": "https://api.coinmarketcap.com",
+      "cat": "api",
+      "key": "CH-API-406FDD94-B9A66331C473"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "https://api.coingecko.com",
+      "cat": "api",
+      "key": "CH-API-18B1BA1D-EE966569B9DF"
+    },
+    {
+      "name": "DefiLlama",
+      "url": "https://api.llama.fi",
+      "cat": "api",
+      "key": "CH-API-577C98E3-C9D5DDEF8034"
+    },
+    {
+      "name": "Etherscan",
+      "url": "https://api.etherscan.io",
+      "cat": "api",
+      "key": "CH-API-4663DDFA-D7C50D19C9AC"
+    },
+    {
+      "name": "BaseScan",
+      "url": "https://api.basescan.org",
+      "cat": "api",
+      "key": "CH-API-058D6BA8-4B8DA08B4985"
+    },
+    {
+      "name": "Arbiscan",
+      "url": "https://api.arbiscan.io",
+      "cat": "api",
+      "key": "CH-API-A5DE834D-45FCC83F35B6"
+    },
+    {
+      "name": "PolygonScan",
+      "url": "https://api.polygonscan.com",
+      "cat": "api",
+      "key": "CH-API-78FD2B4F-C0528D5B9341"
     }
   ]
 }
