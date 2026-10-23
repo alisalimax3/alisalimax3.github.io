@@ -1,21 +1,28 @@
 name: agent
 on:
-  schedule: [{cron: "5 */2 * * *"}]
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch:
-permissions: {contents: write}
-concurrency: {group: agent, cancel-in-progress: false}
+permissions:
+  contents: write
+concurrency:
+  group: agent
+  cancel-in-progress: false
 jobs:
   cycle:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-        with: {fetch-depth: 0}
-      - env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: دورة الوكيل
+        run: node money/wideagent.mjs --once
+      - name: حفظ ورفع
         run: |
-          python3 tools/tasks.py || true
-          for s in revenue_sync hits_report vault money dashboard share earn ping; do
-            [ -f "tools/$s.py" ] && python3 "tools/$s.py" || true
-          done
-          git config user.email a@c.local; git config user.name agent
-          git add -A; git commit -m "cycle $(date -u +%FT%TZ)" || true; git push || true
+          git config user.name  "cinehub-agent"
+          git config user.email "agent@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "agent: cloud cycle $(date -u +%FT%TZ)"
+          git pull --rebase --autostash origin main || true
+          git push

@@ -16,3 +16,6 @@ self.addEventListener('fetch', e => {
     })));
   }
 });
+
+/* VN-SWFIX — امسح كل الكاش عند التحديث */
+self.addEventListener('activate',function(e){e.waitUntil(caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k)}))}))});

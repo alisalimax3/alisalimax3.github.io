@@ -1,11 +1,9 @@
 {
-  "ts": "2026-10-23T23:46:55.147Z",
+  "ts": "2026-10-23T23:47:30.889Z",
   "total": 50,
-  "online": 40,
-  "offline": 10,
-  "keys": 50,
-  "accounts": 50,
-  "linked": 40,
-  "balance": 0.0322,
-  "ledger_entries": 48
+  "online": 45,
+  "offline": 5,
+  "earnedCycle": 0.0304,
+  "balance": 0.0626,
+  "entries": 93
 }

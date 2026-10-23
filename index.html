@@ -51,9 +51,9 @@ if("IntersectionObserver" in window){
 </div>
 <script src="hits.js" defer></script><script>
 function go(e){e.preventDefault();location.href='app.html?q='+encodeURIComponent(document.getElementById('q').value)}
-async function load(){for(const f of['catalog.json','films.json','titles.json']){try{const r=await fetch(f);if(!r.ok)continue;
+async function load(){for(const f of['catalog-lite.json','catalog.json','films.json','titles.json']){try{const r=await fetch(f);if(!r.ok)continue;
 const d=await r.json();const a=Array.isArray(d)?d:(d.items||Object.values(d));if(a&&a.length)
-return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.poster||x.image||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){}}return[]}
+return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.poster||x.image||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){window.__catErr=(window.__catErr||'')+f+' '+(e&&e.message||'')+'; '}}return[]}
 (async()=>{const A=await load();
 document.getElementById('chips').innerHTML=[...new Set(A.map(x=>x.c).filter(Boolean))].slice(0,20)
 .map(g=>'<a class="chip" href="app.html?cat='+encodeURIComponent(g)+'">'+g+'</a>').join('');
@@ -81,4 +81,23 @@ z-index:99999;font:13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-w
 </style>
 <div id="vnnav"><a class="p" href="/">الرئيسية</a><a href="/movies.html">الأفلام</a><a href="/app.html">التطبيق</a>
 <a href="/vn-panel.html">اللوحة</a><a href="/vn-wallet.html">المحفظة</a><a href="/withdraw.html">السحب</a></div>
+<!--VN-APPFIX-->
+<script>
+(function(){
+  setTimeout(function(){
+    var g=document.getElementById('g');
+    if(g && g.textContent.indexOf('تعذّر')>-1){
+      var e=(window.__catErr||'').slice(0,150)||'لم تُرجع الملفات بيانات';
+      g.innerHTML='<p style="color:#8b90a6;font-size:13px">تعذّر تحميل الكتالوج<br><small style="opacity:.65;font-size:11px">'+e+'</small></p>';
+    }
+    document.querySelectorAll('.ad iframe').forEach(function(fr){
+      try{ if(fr.getBoundingClientRect().height<10) fr.style.display='none'; }catch(x){}
+    });
+  },6000);
+  if('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations){
+    navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.update()})});
+  }
+})();
+</script>
+<!--/VN-APPFIX-->
 </body></html>

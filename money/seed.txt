@@ -1,0 +1,168 @@
+# name|url|cat|rate   ·  adult / movie / api / news / crypto
+Pornhub|https://www.pornhub.com|adult|0.0009
+XVideos|https://www.xvideos.com|adult|0.0008
+XNXX|https://www.xnxx.com|adult|0.0008
+xHamster|https://xhamster.com|adult|0.0007
+RedTube|https://www.redtube.com|adult|0.0007
+YouPorn|https://www.youporn.com|adult|0.0007
+SpankBang|https://spankbang.com|adult|0.0007
+EPorner|https://www.eporner.com|adult|0.0006
+TXXX|https://txxx.com|adult|0.0006
+Beeg|https://beeg.com|adult|0.0006
+HQPorner|https://hqporner.com|adult|0.0006
+Porntrex|https://www.porntrex.com|adult|0.0006
+Tube8|https://www.tube8.com|adult|0.0006
+Motherless|https://motherless.com|adult|0.0005
+TNAFlix|https://www.tnaflix.com|adult|0.0005
+HClips|https://www.hclips.com|adult|0.0005
+SunPorno|https://www.sunporno.com|adult|0.0005
+GotPorn|https://www.gotporn.com|adult|0.0005
+Porn300|https://www.porn300.com|adult|0.0005
+LetMeJerk|https://letmejerk.com|adult|0.0005
+Porndig|https://porndig.com|adult|0.0005
+PornOne|https://pornone.com|adult|0.0005
+FUQ|https://fuq.com|adult|0.0005
+4Tube|https://www.4tube.com|adult|0.0005
+PornTube|https://www.porntube.com|adult|0.0005
+Upornia|https://upornia.com|adult|0.0004
+HDZog|https://hdzog.com|adult|0.0004
+VJAV|https://www.vjav.com|adult|0.0004
+PornHD|https://www.pornhd.com|adult|0.0004
+TubeGalore|https://www.tubegalore.com|adult|0.0004
+PornHat|https://www.pornhat.com|adult|0.0004
+Porn00|https://www.porn00.org|adult|0.0004
+Brazzers|https://www.brazzers.com|adult|0.0006
+RealityKings|https://www.realitykings.com|adult|0.0006
+DigitalPlayground|https://www.digitalplayground.com|adult|0.0005
+EvilAngel|https://www.evilangel.com|adult|0.0005
+Babes|https://www.babes.com|adult|0.0005
+Vixen|https://www.vixen.com|adult|0.0005
+Blacked|https://www.blacked.com|adult|0.0005
+Tushy|https://www.tushy.com|adult|0.0005
+Deeper|https://www.deeper.com|adult|0.0005
+Slayed|https://www.slayed.com|adult|0.0005
+Newsensations|https://www.newsensations.com|adult|0.0004
+WowGirls|https://www.wowgirls.com|adult|0.0004
+Netflix|https://www.netflix.com|movie|0.0008
+Prime Video|https://www.primevideo.com|movie|0.0008
+Disney+|https://www.disneyplus.com|movie|0.0007
+Max|https://www.max.com|movie|0.0007
+Apple TV+|https://tv.apple.com|movie|0.0007
+Hulu|https://www.hulu.com|movie|0.0006
+Paramount+|https://www.paramountplus.com|movie|0.0006
+Peacock|https://www.peacocktv.com|movie|0.0006
+Crunchyroll|https://www.crunchyroll.com|movie|0.0006
+Tubi|https://tubitv.com|movie|0.0006
+Pluto TV|https://pluto.tv|movie|0.0005
+JustWatch|https://www.justwatch.com|movie|0.0005
+IMDb|https://www.imdb.com|movie|0.0005
+TMDB|https://www.themoviedb.org|movie|0.0005
+Letterboxd|https://letterboxd.com|movie|0.0004
+Rotten Tomatoes|https://www.rottentomatoes.com|movie|0.0004
+Metacritic|https://www.metacritic.com|movie|0.0004
+AlloCine|https://www.allocine.fr|movie|0.0004
+FilmAffinity|https://www.filmaffinity.com|movie|0.0004
+Trakt|https://trakt.tv|movie|0.0004
+Filmweb|https://www.filmweb.pl|movie|0.0004
+SensCritique|https://www.senscritique.com|movie|0.0004
+MyAnimeList|https://myanimelist.net|movie|0.0004
+AniList|https://anilist.co|movie|0.0004
+MUBI|https://mubi.com|movie|0.0004
+Shudder|https://www.shudder.com|movie|0.0004
+BritBox|https://www.britbox.com|movie|0.0004
+Kanopy|https://www.kanopy.com|movie|0.0004
+CuriosityStream|https://curiositystream.com|movie|0.0004
+Criterion|https://www.criterion.com|movie|0.0004
+Reelgood|https://reelgood.com|movie|0.0004
+Decider|https://decider.com|movie|0.0004
+TVGuide|https://www.tvguide.com|movie|0.0004
+Variety|https://variety.com|movie|0.0003
+Deadline|https://deadline.com|movie|0.0003
+Collider|https://collider.com|movie|0.0003
+ScreenRant|https://screenrant.com|movie|0.0003
+IndieWire|https://www.indiewire.com|movie|0.0003
+Vimeo|https://vimeo.com|movie|0.0004
+Dailymotion|https://www.dailymotion.com|movie|0.0004
+Internet Archive|https://archive.org|movie|0.0004
+Groq|https://api.groq.com|api|0.0012
+OpenRouter|https://openrouter.ai|api|0.0012
+Replicate|https://api.replicate.com|api|0.0010
+Deepgram|https://api.deepgram.com|api|0.0010
+ElevenLabs|https://api.elevenlabs.io|api|0.0010
+HuggingFace|https://huggingface.co|api|0.0010
+Cohere|https://api.cohere.ai|api|0.0010
+Mistral|https://api.mistral.ai|api|0.0009
+Together|https://api.together.xyz|api|0.0009
+Fireworks|https://api.fireworks.ai|api|0.0009
+Perplexity|https://api.perplexity.ai|api|0.0009
+Stability|https://api.stability.ai|api|0.0009
+DeepInfra|https://api.deepinfra.com|api|0.0008
+Fal|https://fal.ai|api|0.0008
+Modal|https://modal.com|api|0.0008
+RunwayML|https://runwayml.com|api|0.0008
+Alchemy|https://www.alchemy.com|api|0.0009
+QuickNode|https://www.quicknode.com|api|0.0009
+CoinGate|https://coingate.com|api|0.0009
+Formspree|https://formspree.io|api|0.0008
+Adsterra|https://adsterra.com|api|0.0008
+Vercel|https://vercel.com|api|0.0008
+Netlify|https://www.netlify.com|api|0.0008
+Render|https://render.com|api|0.0008
+Fly|https://fly.io|api|0.0008
+Railway|https://railway.app|api|0.0008
+Supabase|https://supabase.com|api|0.0008
+Neon|https://neon.tech|api|0.0008
+Upstash|https://upstash.com|api|0.0008
+MongoDB|https://www.mongodb.com|api|0.0008
+Cloudflare|https://api.cloudflare.com|api|0.0008
+DigitalOcean|https://www.digitalocean.com|api|0.0008
+Linode|https://www.linode.com|api|0.0008
+Vultr|https://www.vultr.com|api|0.0008
+Hetzner|https://www.hetzner.com|api|0.0008
+Oracle Cloud|https://www.oracle.com|api|0.0007
+AWS|https://aws.amazon.com|api|0.0007
+Azure|https://azure.microsoft.com|api|0.0007
+Google Cloud|https://cloud.google.com|api|0.0007
+GitHub API|https://api.github.com|api|0.0010
+GitLab|https://gitlab.com|api|0.0008
+ESPN|https://www.espn.com|news|0.0004
+BBC Sport|https://www.bbc.com/sport|news|0.0004
+Sky Sports|https://www.skysports.com|news|0.0004
+Goal|https://www.goal.com|news|0.0004
+LiveScore|https://www.livescore.com|news|0.0004
+FlashScore|https://www.flashscore.com|news|0.0004
+SofaScore|https://www.sofascore.com|news|0.0004
+Transfermarkt|https://www.transfermarkt.com|news|0.0004
+FBref|https://fbref.com|news|0.0004
+UEFA|https://www.uefa.com|news|0.0004
+FIFA|https://www.fifa.com|news|0.0004
+Premier League|https://www.premierleague.com|news|0.0004
+LaLiga|https://www.laliga.com|news|0.0004
+Bundesliga|https://www.bundesliga.com|news|0.0004
+NBA|https://www.nba.com|news|0.0004
+NFL|https://www.nfl.com|news|0.0004
+MLB|https://www.mlb.com|news|0.0004
+NHL|https://www.nhl.com|news|0.0004
+Formula 1|https://www.formula1.com|news|0.0004
+MotoGP|https://www.motogp.com|news|0.0004
+ATP Tour|https://www.atptour.com|news|0.0004
+WTA Tennis|https://www.wtatennis.com|news|0.0004
+UFC|https://www.ufc.com|news|0.0004
+ESPN Cricinfo|https://www.espncricinfo.com|news|0.0004
+Cricbuzz|https://www.cricbuzz.com|news|0.0004
+Binance|https://api.binance.com|api|0.0010
+Coinbase|https://api.coinbase.com|api|0.0010
+Kraken|https://api.kraken.com|api|0.0009
+KuCoin|https://api.kucoin.com|api|0.0009
+OKX|https://www.okx.com|api|0.0009
+Bybit|https://api.bybit.com|api|0.0009
+Gate|https://www.gate.io|api|0.0008
+MEXC|https://www.mexc.com|api|0.0008
+Bitget|https://api.bitget.com|api|0.0008
+CoinMarketCap|https://api.coinmarketcap.com|api|0.0009
+CoinGecko|https://api.coingecko.com|api|0.0009
+DefiLlama|https://api.llama.fi|api|0.0008
+Etherscan|https://api.etherscan.io|api|0.0008
+BaseScan|https://api.basescan.org|api|0.0008
+Arbiscan|https://api.arbiscan.io|api|0.0008
+PolygonScan|https://api.polygonscan.com|api|0.0008

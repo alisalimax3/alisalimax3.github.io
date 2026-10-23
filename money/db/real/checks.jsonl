@@ -48,3 +48,53 @@
 {"ts":"2026-10-23T23:40:31.375Z","site":"CoinGate","http":0,"ms":25,"ok":false}
 {"ts":"2026-10-23T23:40:31.380Z","site":"Formspree","http":0,"ms":24,"ok":false}
 {"ts":"2026-10-23T23:40:31.381Z","site":"Adsterra","http":0,"ms":26,"ok":false}
+{"ts":"2026-10-23T23:47:08.856Z","site":"Pornhub","http":200,"ms":919,"ok":true}
+{"ts":"2026-10-23T23:47:08.860Z","site":"XVideos","http":200,"ms":759,"ok":true}
+{"ts":"2026-10-23T23:47:08.861Z","site":"XNXX","http":200,"ms":618,"ok":true}
+{"ts":"2026-10-23T23:47:08.865Z","site":"xHamster","http":200,"ms":775,"ok":true}
+{"ts":"2026-10-23T23:47:08.871Z","site":"RedTube","http":0,"ms":127,"ok":false}
+{"ts":"2026-10-23T23:47:10.163Z","site":"YouPorn","http":200,"ms":798,"ok":true}
+{"ts":"2026-10-23T23:47:10.165Z","site":"SpankBang","http":403,"ms":355,"ok":true}
+{"ts":"2026-10-23T23:47:10.167Z","site":"EPorner","http":0,"ms":85,"ok":false}
+{"ts":"2026-10-23T23:47:10.169Z","site":"TXXX","http":200,"ms":1113,"ok":true}
+{"ts":"2026-10-23T23:47:10.174Z","site":"Beeg","http":200,"ms":507,"ok":true}
+{"ts":"2026-10-23T23:47:13.913Z","site":"HQPorner","http":200,"ms":1692,"ok":true}
+{"ts":"2026-10-23T23:47:13.915Z","site":"Porntrex","http":200,"ms":616,"ok":true}
+{"ts":"2026-10-23T23:47:13.916Z","site":"Tube8","http":200,"ms":1007,"ok":true}
+{"ts":"2026-10-23T23:47:13.917Z","site":"Motherless","http":0,"ms":22,"ok":false}
+{"ts":"2026-10-23T23:47:13.919Z","site":"TNAFlix","http":200,"ms":3571,"ok":true}
+{"ts":"2026-10-23T23:47:15.540Z","site":"HClips","http":200,"ms":1464,"ok":true}
+{"ts":"2026-10-23T23:47:15.547Z","site":"SunPorno","http":200,"ms":827,"ok":true}
+{"ts":"2026-10-23T23:47:15.549Z","site":"GotPorn","http":0,"ms":35,"ok":false}
+{"ts":"2026-10-23T23:47:15.551Z","site":"Porn300","http":0,"ms":42,"ok":false}
+{"ts":"2026-10-23T23:47:15.553Z","site":"LetMeJerk","http":200,"ms":536,"ok":true}
+{"ts":"2026-10-23T23:47:20.825Z","site":"Netflix","http":200,"ms":1261,"ok":true}
+{"ts":"2026-10-23T23:47:20.828Z","site":"Prime Video","http":200,"ms":1064,"ok":true}
+{"ts":"2026-10-23T23:47:20.830Z","site":"Disney+","http":200,"ms":5103,"ok":true}
+{"ts":"2026-10-23T23:47:20.832Z","site":"Max","http":403,"ms":1041,"ok":true}
+{"ts":"2026-10-23T23:47:20.833Z","site":"Apple TV+","http":200,"ms":1364,"ok":true}
+{"ts":"2026-10-23T23:47:23.595Z","site":"Hulu","http":200,"ms":1582,"ok":true}
+{"ts":"2026-10-23T23:47:23.596Z","site":"Paramount+","http":200,"ms":2164,"ok":true}
+{"ts":"2026-10-23T23:47:23.597Z","site":"Peacock","http":403,"ms":485,"ok":true}
+{"ts":"2026-10-23T23:47:23.599Z","site":"Crunchyroll","http":403,"ms":355,"ok":true}
+{"ts":"2026-10-23T23:47:23.600Z","site":"Tubi","http":200,"ms":2590,"ok":true}
+{"ts":"2026-10-23T23:47:26.386Z","site":"Pluto TV","http":200,"ms":2626,"ok":true}
+{"ts":"2026-10-23T23:47:26.391Z","site":"JustWatch","http":200,"ms":604,"ok":true}
+{"ts":"2026-10-23T23:47:26.396Z","site":"IMDb","http":202,"ms":1549,"ok":true}
+{"ts":"2026-10-23T23:47:26.400Z","site":"TMDB","http":200,"ms":1107,"ok":true}
+{"ts":"2026-10-23T23:47:26.404Z","site":"Letterboxd","http":403,"ms":562,"ok":true}
+{"ts":"2026-10-23T23:47:27.574Z","site":"Rotten Tomatoes","http":200,"ms":1011,"ok":true}
+{"ts":"2026-10-23T23:47:27.579Z","site":"Metacritic","http":200,"ms":686,"ok":true}
+{"ts":"2026-10-23T23:47:27.584Z","site":"AlloCine","http":200,"ms":751,"ok":true}
+{"ts":"2026-10-23T23:47:27.589Z","site":"FilmAffinity","http":403,"ms":567,"ok":true}
+{"ts":"2026-10-23T23:47:27.594Z","site":"Trakt","http":200,"ms":689,"ok":true}
+{"ts":"2026-10-23T23:47:29.299Z","site":"Groq","http":200,"ms":539,"ok":true}
+{"ts":"2026-10-23T23:47:29.300Z","site":"OpenRouter","http":200,"ms":381,"ok":true}
+{"ts":"2026-10-23T23:47:29.303Z","site":"Replicate","http":200,"ms":1536,"ok":true}
+{"ts":"2026-10-23T23:47:29.304Z","site":"Deepgram","http":404,"ms":1435,"ok":true}
+{"ts":"2026-10-23T23:47:29.307Z","site":"ElevenLabs","http":404,"ms":636,"ok":true}
+{"ts":"2026-10-23T23:47:30.729Z","site":"Alchemy","http":200,"ms":391,"ok":true}
+{"ts":"2026-10-23T23:47:30.731Z","site":"QuickNode","http":200,"ms":983,"ok":true}
+{"ts":"2026-10-23T23:47:30.732Z","site":"CoinGate","http":403,"ms":314,"ok":true}
+{"ts":"2026-10-23T23:47:30.734Z","site":"Formspree","http":200,"ms":832,"ok":true}
+{"ts":"2026-10-23T23:47:30.735Z","site":"Adsterra","http":200,"ms":1258,"ok":true}
