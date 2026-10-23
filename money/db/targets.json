@@ -1896,57 +1896,90 @@
  },
  "svc-n8n": {
   "id": "svc-n8n",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.384Z",
   "kind": "service",
   "cat": "automation",
   "name": "n8n Cloud",
   "home": "https://n8n.io",
-  "signup": "https://app.n8n.cloud/register",
+  "signup": "https://n8n.io/_nuxt/PartnerdayAgendaTable.iIvKFxOj.css",
   "recipe": "n8n",
   "domain": "n8n.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.385Z"
+  "updated": "2026-10-23T22:40:03.045Z",
+  "lastEvidence": "2026-10-23T22:40:02.894Z",
+  "login": "https://n8n.io/_nuxt/PartnerdayAgendaTable.iIvKFxOj.css",
+  "recipe_conf": 1,
+  "note": "https://n8n.io/_nuxt/PartnerdayAgendaTable.iIvKFxOj.css",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:03.045Z"
+   }
+  ]
  },
  "svc-airtable": {
   "id": "svc-airtable",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.394Z",
   "kind": "service",
   "cat": "automation",
   "name": "Airtable",
   "home": "https://airtable.com",
-  "signup": "https://airtable.com/signup",
+  "signup": "https://www.airtable.com/partners",
   "recipe": "airtable",
   "domain": "airtable.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.394Z"
+  "updated": "2026-10-23T22:40:07.070Z",
+  "lastEvidence": "2026-10-23T22:40:06.915Z",
+  "login": "https://www.airtable.com/partners",
+  "recipe_conf": 1,
+  "note": "https://www.airtable.com/partners",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:07.070Z"
+   }
+  ]
  },
  "svc-notion": {
   "id": "svc-notion",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.404Z",
   "kind": "service",
   "cat": "automation",
   "name": "Notion",
   "home": "https://www.notion.so",
-  "signup": "https://www.notion.so/signup",
+  "signup": "https://www.notion.com/signup",
   "recipe": "notion",
   "domain": "www.notion.so",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.404Z"
+  "updated": "2026-10-23T22:40:09.068Z",
+  "lastEvidence": "2026-10-23T22:40:08.916Z",
+  "login": "https://www.notion.com/signup",
+  "recipe_conf": 1,
+  "note": "https://www.notion.com/signup",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:09.069Z"
+   }
+  ]
  },
  "svc-producthunt": {
   "id": "svc-producthunt",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.418Z",
   "kind": "service",
   "cat": "dir",
@@ -1956,28 +1989,48 @@
   "recipe": "producthunt",
   "domain": "www.producthunt.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.418Z"
+  "updated": "2026-10-23T22:40:10.806Z",
+  "lastEvidence": "2026-10-23T22:40:10.650Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-23T22:40:10.806Z"
+   }
+  ]
  },
  "svc-betalist": {
   "id": "svc-betalist",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.431Z",
   "kind": "service",
   "cat": "dir",
   "name": "betalist",
   "home": "https://betalist.com",
-  "signup": "https://betalist.com/submit",
+  "signup": "https://betalist.com/startups/joinworks",
   "recipe": "betalist",
   "domain": "betalist.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.431Z"
+  "updated": "2026-10-23T22:40:13.582Z",
+  "lastEvidence": "2026-10-23T22:40:13.112Z",
+  "login": "https://betalist.com/startups/joinworks",
+  "recipe_conf": 1,
+  "note": "https://betalist.com/startups/joinworks",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:13.583Z"
+   }
+  ]
  },
  "svc-alternativeto": {
   "id": "svc-alternativeto",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.445Z",
   "kind": "service",
@@ -1988,29 +2041,50 @@
   "recipe": "alternativeto",
   "domain": "alternativeto.net",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.446Z"
+  "updated": "2026-10-23T22:40:14.991Z",
+  "nextAt": 1792795304842,
+  "lastError": "لا يستجيب 403",
+  "note": "الموقع 403",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T22:40:14.991Z"
+   }
+  ]
  },
  "svc-crunchbase": {
   "id": "svc-crunchbase",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.456Z",
   "kind": "service",
   "cat": "dir",
   "name": "crunchbase",
   "home": "https://www.crunchbase.com",
-  "signup": "https://www.crunchbase.com/",
+  "signup": "https://about.crunchbase.com/partners",
   "recipe": "crunchbase",
   "domain": "www.crunchbase.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.456Z"
+  "updated": "2026-10-23T22:40:16.497Z",
+  "lastEvidence": "2026-10-23T22:40:16.313Z",
+  "login": "https://about.crunchbase.com/partners",
+  "recipe_conf": 1,
+  "note": "https://about.crunchbase.com/partners",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:16.497Z"
+   }
+  ]
  },
  "svc-f6s": {
   "id": "svc-f6s",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.470Z",
   "kind": "service",
   "cat": "dir",
@@ -2020,28 +2094,48 @@
   "recipe": "f6s",
   "domain": "www.f6s.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.470Z"
+  "updated": "2026-10-23T22:40:18.379Z",
+  "lastEvidence": "2026-10-23T22:40:17.972Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-23T22:40:18.379Z"
+   }
+  ]
  },
  "svc-saashub": {
   "id": "svc-saashub",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.480Z",
   "kind": "service",
   "cat": "dir",
   "name": "saashub",
   "home": "https://www.saashub.com",
-  "signup": "https://www.saashub.com/",
+  "signup": "https://www.saashub.com/register",
   "recipe": "saashub",
   "domain": "www.saashub.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.480Z"
+  "updated": "2026-10-23T22:40:21.159Z",
+  "lastEvidence": "2026-10-23T22:40:21.010Z",
+  "login": "https://www.saashub.com/register",
+  "recipe_conf": 1,
+  "note": "https://www.saashub.com/register",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:21.159Z"
+   }
+  ]
  },
  "svc-toolify": {
   "id": "svc-toolify",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.490Z",
   "kind": "service",
@@ -2052,28 +2146,49 @@
   "recipe": "toolify",
   "domain": "www.toolify.ai",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.491Z"
+  "updated": "2026-10-23T22:40:22.608Z",
+  "nextAt": 1792795312407,
+  "lastError": "لا يستجيب 403",
+  "note": "الموقع 403",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T22:40:22.608Z"
+   }
+  ]
  },
  "svc-futurepedia": {
   "id": "svc-futurepedia",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.501Z",
   "kind": "service",
   "cat": "dir",
   "name": "futurepedia",
   "home": "https://www.futurepedia.io",
-  "signup": "https://www.futurepedia.io/",
+  "signup": "https://www.futurepedia.io/register",
   "recipe": "futurepedia",
   "domain": "www.futurepedia.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.501Z"
+  "updated": "2026-10-23T22:40:24.751Z",
+  "lastEvidence": "2026-10-23T22:40:24.555Z",
+  "login": "https://www.futurepedia.io/register",
+  "recipe_conf": 1,
+  "note": "https://www.futurepedia.io/register",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-23T22:40:24.751Z"
+   }
+  ]
  },
  "svc-theresanaiforthat": {
   "id": "svc-theresanaiforthat",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.514Z",
   "kind": "service",
@@ -2084,7 +2199,17 @@
   "recipe": "theresanaiforthat",
   "domain": "theresanaiforthat.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.514Z"
+  "updated": "2026-10-23T22:40:25.902Z",
+  "nextAt": 1792795315754,
+  "lastError": "لا يستجيب 403",
+  "note": "الموقع 403",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-23T22:40:25.903Z"
+   }
+  ]
  },
  "svc-aitools": {
   "id": "svc-aitools",

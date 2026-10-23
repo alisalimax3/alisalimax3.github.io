@@ -34,5 +34,29 @@
   ],
   "field": "",
   "resume": "new"
+ },
+ "svc-producthunt": {
+  "id": "svc-producthunt",
+  "at": "2026-10-23T22:40:10.724Z",
+  "why": "identity",
+  "url": "https://www.producthunt.com/",
+  "steps": [
+   "افتح https://www.producthunt.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
+ },
+ "svc-f6s": {
+  "id": "svc-f6s",
+  "at": "2026-10-23T22:40:18.121Z",
+  "why": "identity",
+  "url": "https://www.f6s.com/join",
+  "steps": [
+   "افتح https://www.f6s.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
  }
 }

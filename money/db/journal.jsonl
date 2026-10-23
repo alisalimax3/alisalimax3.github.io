@@ -92,3 +92,18 @@
 {"at":"2026-10-23T22:22:17.852Z","event":"stage","data":{"id":"svc-elevenlabs","from":"new","to":"resolved","note":"https://elevenlabs.io/blog/elevenlabs-partners-with-ibm-to-bring-premium-voice-to-watsonx-orchestrate"}}
 {"at":"2026-10-23T22:22:22.331Z","event":"stage","data":{"id":"svc-formspree","from":"new","to":"resolved","note":"https://formspree.io/register"}}
 {"at":"2026-10-23T22:22:22.848Z","event":"batch","data":{"n":12,"out":["svc-coingate","svc-alchemy","svc-infura","svc-quicknode","svc-thegraph","svc-groq","svc-openrouter","svc-huggingface","svc-replicate","svc-deepgram","svc-elevenlabs","svc-formspree"]}}
+{"at":"2026-10-23T22:40:03.111Z","event":"stage","data":{"id":"svc-n8n","from":"new","to":"resolved","note":"https://n8n.io/_nuxt/PartnerdayAgendaTable.iIvKFxOj.css"}}
+{"at":"2026-10-23T22:40:07.137Z","event":"stage","data":{"id":"svc-airtable","from":"new","to":"resolved","note":"https://www.airtable.com/partners"}}
+{"at":"2026-10-23T22:40:09.170Z","event":"stage","data":{"id":"svc-notion","from":"new","to":"resolved","note":"https://www.notion.com/signup"}}
+{"at":"2026-10-23T22:40:10.725Z","event":"human","data":{"id":"svc-producthunt","why":"identity"}}
+{"at":"2026-10-23T22:40:10.876Z","event":"stage","data":{"id":"svc-producthunt","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-23T22:40:13.766Z","event":"stage","data":{"id":"svc-betalist","from":"new","to":"resolved","note":"https://betalist.com/startups/joinworks"}}
+{"at":"2026-10-23T22:40:15.060Z","event":"stage","data":{"id":"svc-alternativeto","from":"new","to":"failed","note":"الموقع 403"}}
+{"at":"2026-10-23T22:40:16.620Z","event":"stage","data":{"id":"svc-crunchbase","from":"new","to":"resolved","note":"https://about.crunchbase.com/partners"}}
+{"at":"2026-10-23T22:40:18.121Z","event":"human","data":{"id":"svc-f6s","why":"identity"}}
+{"at":"2026-10-23T22:40:18.529Z","event":"stage","data":{"id":"svc-f6s","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-23T22:40:21.229Z","event":"stage","data":{"id":"svc-saashub","from":"new","to":"resolved","note":"https://www.saashub.com/register"}}
+{"at":"2026-10-23T22:40:22.679Z","event":"stage","data":{"id":"svc-toolify","from":"new","to":"failed","note":"الموقع 403"}}
+{"at":"2026-10-23T22:40:24.822Z","event":"stage","data":{"id":"svc-futurepedia","from":"new","to":"resolved","note":"https://www.futurepedia.io/register"}}
+{"at":"2026-10-23T22:40:25.971Z","event":"stage","data":{"id":"svc-theresanaiforthat","from":"new","to":"failed","note":"الموقع 403"}}
+{"at":"2026-10-23T22:40:26.484Z","event":"batch","data":{"n":12,"out":["svc-n8n","svc-airtable","svc-notion","svc-producthunt","svc-betalist","svc-alternativeto","svc-crunchbase","svc-f6s","svc-saashub","svc-toolify","svc-futurepedia","svc-theresanaiforthat"]}}
