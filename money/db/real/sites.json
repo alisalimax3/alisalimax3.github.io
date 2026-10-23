@@ -6,9 +6,9 @@
     "cat": "adult",
     "rate": 0.0009,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:10.657Z",
+    "last": "2026-10-23T23:57:35.246Z",
     "lastStatus": 200
   },
   {
@@ -19,8 +19,8 @@
     "rate": 0.0008,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:10.660Z",
+    "fails": 2,
+    "last": "2026-10-23T23:57:35.260Z",
     "lastStatus": 0
   },
   {
@@ -31,8 +31,8 @@
     "rate": 0.0008,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:10.661Z",
+    "fails": 2,
+    "last": "2026-10-23T23:57:35.262Z",
     "lastStatus": 0
   },
   {
@@ -42,9 +42,9 @@
     "cat": "adult",
     "rate": 0.0007,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:10.663Z",
+    "last": "2026-10-23T23:57:35.264Z",
     "lastStatus": 200
   },
   {
@@ -55,8 +55,8 @@
     "rate": 0.0007,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:10.664Z",
+    "fails": 2,
+    "last": "2026-10-23T23:57:35.266Z",
     "lastStatus": 0
   },
   {
@@ -66,9 +66,9 @@
     "cat": "adult",
     "rate": 0.0007,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:18.999Z",
+    "last": "2026-10-23T23:57:39.581Z",
     "lastStatus": 200
   },
   {
@@ -77,11 +77,11 @@
     "url": "https://spankbang.com",
     "cat": "adult",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:19.000Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:39.583Z",
+    "lastStatus": 403
   },
   {
     "id": "a8f244b4f8f9",
@@ -89,11 +89,11 @@
     "url": "https://www.eporner.com",
     "cat": "adult",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:19.003Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:39.584Z",
+    "lastStatus": 200
   },
   {
     "id": "02f058bd525b",
@@ -102,9 +102,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:19.005Z",
+    "last": "2026-10-23T23:57:39.586Z",
     "lastStatus": 200
   },
   {
@@ -114,9 +114,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:19.007Z",
+    "last": "2026-10-23T23:57:39.587Z",
     "lastStatus": 200
   },
   {
@@ -125,11 +125,11 @@
     "url": "https://hqporner.com",
     "cat": "adult",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:24.295Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:42.427Z",
+    "lastStatus": 200
   },
   {
     "id": "ec9507fbd089",
@@ -138,9 +138,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:24.298Z",
+    "last": "2026-10-23T23:57:42.429Z",
     "lastStatus": 200
   },
   {
@@ -149,11 +149,11 @@
     "url": "https://www.tube8.com",
     "cat": "adult",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:24.302Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:42.431Z",
+    "lastStatus": 200
   },
   {
     "id": "272d454469c4",
@@ -163,8 +163,8 @@
     "rate": 0.0005,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:24.306Z",
+    "fails": 2,
+    "last": "2026-10-23T23:57:42.432Z",
     "lastStatus": 0
   },
   {
@@ -173,11 +173,11 @@
     "url": "https://www.tnaflix.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:24.311Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:42.433Z",
+    "lastStatus": 200
   },
   {
     "id": "ff11c7a56ecd",
@@ -185,11 +185,11 @@
     "url": "https://www.hclips.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:29.952Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:45.834Z",
+    "lastStatus": 200
   },
   {
     "id": "5898a69217d3",
@@ -198,9 +198,9 @@
     "cat": "adult",
     "rate": 0.0005,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:29.957Z",
+    "last": "2026-10-23T23:57:45.836Z",
     "lastStatus": 200
   },
   {
@@ -211,8 +211,8 @@
     "rate": 0.0005,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:29.961Z",
+    "fails": 2,
+    "last": "2026-10-23T23:57:45.837Z",
     "lastStatus": 0
   },
   {
@@ -222,9 +222,9 @@
     "cat": "adult",
     "rate": 0.0005,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 0,
-    "last": "2026-10-23T23:40:29.968Z",
+    "last": "2026-10-23T23:57:45.839Z",
     "lastStatus": 200
   },
   {
@@ -233,11 +233,11 @@
     "url": "https://letmejerk.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:29.974Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:45.840Z",
+    "lastStatus": 200
   },
   {
     "id": "1deee184a49d",
@@ -245,11 +245,11 @@
     "url": "https://www.netflix.com",
     "cat": "movie",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.197Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:51.355Z",
+    "lastStatus": 200
   },
   {
     "id": "6996d3de2ee9",
@@ -257,11 +257,11 @@
     "url": "https://www.primevideo.com",
     "cat": "movie",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.199Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:51.363Z",
+    "lastStatus": 200
   },
   {
     "id": "221e8ebbbbce",
@@ -269,11 +269,11 @@
     "url": "https://www.disneyplus.com",
     "cat": "movie",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.200Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:51.367Z",
+    "lastStatus": 200
   },
   {
     "id": "9bc4d3eab558",
@@ -281,11 +281,11 @@
     "url": "https://www.max.com",
     "cat": "movie",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.201Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:51.371Z",
+    "lastStatus": 403
   },
   {
     "id": "c7bf226799a4",
@@ -293,11 +293,11 @@
     "url": "https://tv.apple.com",
     "cat": "movie",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.204Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:57:51.377Z",
+    "lastStatus": 200
   },
   {
     "id": "caeae4aa5e06",
@@ -305,11 +305,11 @@
     "url": "https://www.hulu.com",
     "cat": "movie",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.471Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:01.585Z",
+    "lastStatus": 200
   },
   {
     "id": "e5feeb9851ab",
@@ -317,11 +317,11 @@
     "url": "https://www.paramountplus.com",
     "cat": "movie",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.475Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:01.590Z",
+    "lastStatus": 200
   },
   {
     "id": "031185000e45",
@@ -329,11 +329,11 @@
     "url": "https://www.peacocktv.com",
     "cat": "movie",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.479Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:01.600Z",
+    "lastStatus": 403
   },
   {
     "id": "5de98257315d",
@@ -341,11 +341,11 @@
     "url": "https://www.crunchyroll.com",
     "cat": "movie",
     "rate": 0.0006,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.484Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:01.605Z",
+    "lastStatus": 403
   },
   {
     "id": "df6573e33a71",
@@ -355,8 +355,8 @@
     "rate": 0.0006,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:30.488Z",
+    "fails": 2,
+    "last": "2026-10-23T23:58:01.610Z",
     "lastStatus": 0
   },
   {
@@ -365,11 +365,11 @@
     "url": "https://pluto.tv",
     "cat": "movie",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.714Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:05.662Z",
+    "lastStatus": 200
   },
   {
     "id": "7b0a9bbe6195",
@@ -377,11 +377,11 @@
     "url": "https://www.justwatch.com",
     "cat": "movie",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.719Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:05.667Z",
+    "lastStatus": 200
   },
   {
     "id": "cc694f6075c3",
@@ -389,11 +389,11 @@
     "url": "https://www.imdb.com",
     "cat": "movie",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.725Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:05.673Z",
+    "lastStatus": 202
   },
   {
     "id": "d9ccdef8e28e",
@@ -401,11 +401,11 @@
     "url": "https://www.themoviedb.org",
     "cat": "movie",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.730Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:05.678Z",
+    "lastStatus": 200
   },
   {
     "id": "59a1ea242ebf",
@@ -413,11 +413,11 @@
     "url": "https://letterboxd.com",
     "cat": "movie",
     "rate": 0.0004,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.735Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:05.682Z",
+    "lastStatus": 403
   },
   {
     "id": "bf2d258c25f1",
@@ -427,8 +427,8 @@
     "rate": 0.0004,
     "status": "offline",
     "hits": 0,
-    "fails": 1,
-    "last": "2026-10-23T23:40:30.935Z",
+    "fails": 2,
+    "last": "2026-10-23T23:58:10.140Z",
     "lastStatus": 0
   },
   {
@@ -437,11 +437,11 @@
     "url": "https://www.metacritic.com",
     "cat": "movie",
     "rate": 0.0004,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.937Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:10.149Z",
+    "lastStatus": 200
   },
   {
     "id": "ce8122ffe959",
@@ -449,11 +449,11 @@
     "url": "https://www.allocine.fr",
     "cat": "movie",
     "rate": 0.0004,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.939Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:10.154Z",
+    "lastStatus": 200
   },
   {
     "id": "ca5b1928a59e",
@@ -461,11 +461,11 @@
     "url": "https://www.filmaffinity.com",
     "cat": "movie",
     "rate": 0.0004,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.941Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:10.158Z",
+    "lastStatus": 403
   },
   {
     "id": "65823f689fbc",
@@ -473,11 +473,11 @@
     "url": "https://trakt.tv",
     "cat": "movie",
     "rate": 0.0004,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:30.943Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:10.164Z",
+    "lastStatus": 200
   },
   {
     "id": "722d3ca76bd8",
@@ -485,11 +485,11 @@
     "url": "https://api.groq.com",
     "cat": "platform",
     "rate": 0.0012,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.168Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:11.752Z",
+    "lastStatus": 200
   },
   {
     "id": "6a513528791c",
@@ -497,11 +497,11 @@
     "url": "https://openrouter.ai",
     "cat": "platform",
     "rate": 0.0012,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.170Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:11.758Z",
+    "lastStatus": 200
   },
   {
     "id": "188e8d46208e",
@@ -509,11 +509,11 @@
     "url": "https://api.replicate.com",
     "cat": "platform",
     "rate": 0.001,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.172Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:11.763Z",
+    "lastStatus": 200
   },
   {
     "id": "b4142a26a46a",
@@ -521,11 +521,11 @@
     "url": "https://api.deepgram.com",
     "cat": "platform",
     "rate": 0.001,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.174Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:11.774Z",
+    "lastStatus": 404
   },
   {
     "id": "7a87485e7efc",
@@ -533,11 +533,11 @@
     "url": "https://api.elevenlabs.io",
     "cat": "platform",
     "rate": 0.001,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.175Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:11.779Z",
+    "lastStatus": 404
   },
   {
     "id": "c76fcc1244d0",
@@ -545,11 +545,11 @@
     "url": "https://www.alchemy.com",
     "cat": "platform",
     "rate": 0.0009,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.372Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:13.842Z",
+    "lastStatus": 200
   },
   {
     "id": "15d53e8f935c",
@@ -557,11 +557,11 @@
     "url": "https://www.quicknode.com",
     "cat": "platform",
     "rate": 0.0009,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.373Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:13.848Z",
+    "lastStatus": 200
   },
   {
     "id": "0f6833dfbbcd",
@@ -569,11 +569,11 @@
     "url": "https://coingate.com",
     "cat": "platform",
     "rate": 0.0009,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.375Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:13.860Z",
+    "lastStatus": 403
   },
   {
     "id": "517867f792ba",
@@ -581,11 +581,11 @@
     "url": "https://formspree.io",
     "cat": "platform",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.380Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:13.864Z",
+    "lastStatus": 200
   },
   {
     "id": "c48f4030ad71",
@@ -593,10 +593,10 @@
     "url": "https://adsterra.com",
     "cat": "platform",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 1,
-    "last": "2026-10-23T23:40:31.381Z",
-    "lastStatus": 0
+    "last": "2026-10-23T23:58:13.875Z",
+    "lastStatus": 200
   }
 ]

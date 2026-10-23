@@ -1,15 +1,15 @@
 {
-  "balance": 0.0376,
+  "balance": 0.0727,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-23T23:57:45.880Z",
+  "updated": "2026-10-23T23:58:14.035Z",
   "human": "2026-10-18 21:21",
-  "agent": "wideagent",
-  "online": 157,
-  "sources": 167,
-  "ledger_entries": 63,
+  "agent": "realagent",
+  "online": 43,
+  "sources": 50,
+  "ledger_entries": 118,
   "transactions": [
     {
       "ts": "2026-10-23T23:57:45.880Z",
