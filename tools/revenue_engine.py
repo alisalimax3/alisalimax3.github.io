@@ -5,6 +5,20 @@ import json, os, sys, time, urllib.parse, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core
 
+# VN_CORE_SHIM — يوفّر core.get لو core.py مش بيوفّره
+try:
+    import core as _vncore
+    if not hasattr(_vncore, "get"):
+        def _vn_get(k, d=None):
+            for _n in ("CFG","CONFIG","CONF","SETTINGS","ENV","DEFAULTS","PARAMS","cfg","conf","config","settings"):
+                _o = getattr(_vncore, _n, None)
+                if isinstance(_o, dict) and k in _o: return _o[k]
+            return getattr(_vncore, k, d)
+        _vncore.get = _vn_get
+except Exception:
+    pass
+
+
 REG, LED, FX = "data/revenue.json", "data/ledger.json", "data/fx.json"
 ACCOUNT = ("unregistered","pending_approval","pending_credentials","active","suspended","rejected","blocked")
 TXSTATE = ("estimated","pending","approved","rejected","paid")

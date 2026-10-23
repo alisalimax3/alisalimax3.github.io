@@ -1,3 +1,20 @@
+/* VN_DOMSHIM — يخلّي سكربتات المتصفح تشتغل تحت node */
+if (typeof document === "undefined") {
+  const _vnEl = () => ({ style:{}, dataset:{}, children:[], textContent:"", innerHTML:"", value:"",
+    classList:{add(){},remove(){},toggle(){},contains(){return false}},
+    setAttribute(){}, getAttribute(){return null}, removeAttribute(){}, hasAttribute(){return false},
+    appendChild(c){this.children.push(c);return c}, removeChild(){}, insertBefore(){}, remove(){},
+    addEventListener(){}, removeEventListener(){}, dispatchEvent(){return true},
+    querySelector(){return _vnEl()}, querySelectorAll(){return []}, closest(){return null},
+    cloneNode(){return _vnEl()}, insertAdjacentHTML(){}, focus(){}, click(){} });
+  global.document = { readyState:"complete", title:"", addEventListener(){}, removeEventListener(){},
+    createElement:()=>_vnEl(), createElementNS:()=>_vnEl(), createTextNode:()=>({textContent:""}),
+    querySelector:()=>_vnEl(), querySelectorAll:()=>[], getElementById:()=>_vnEl(),
+    getElementsByClassName:()=>[], getElementsByTagName:()=>[], head:_vnEl(), body:_vnEl(), documentElement:_vnEl() };
+}
+if (typeof window === "undefined") global.window = global;
+if (typeof navigator === "undefined") global.navigator = { userAgent:"node" };
+if (typeof location === "undefined") global.location = { href:"/", pathname:"/", origin:"" };
 (function(){
 if (window.__ch) return;
 function sig(el){

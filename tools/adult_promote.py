@@ -5,6 +5,20 @@ import os, sys, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core
 
+# VN_CORE_SHIM — يوفّر core.get لو core.py مش بيوفّره
+try:
+    import core as _vncore
+    if not hasattr(_vncore, "get"):
+        def _vn_get(k, d=None):
+            for _n in ("CFG","CONFIG","CONF","SETTINGS","ENV","DEFAULTS","PARAMS","cfg","conf","config","settings"):
+                _o = getattr(_vncore, _n, None)
+                if isinstance(_o, dict) and k in _o: return _o[k]
+            return getattr(_vncore, k, d)
+        _vncore.get = _vn_get
+except Exception:
+    pass
+
+
 ROW = """<div class="c"><img src="%(qr)s" alt="QR"><div style="flex:1">
 <b>%(t)s</b><textarea readonly onclick="this.select()">%(txt)s</textarea>
 <a target="_blank" rel="noopener" href="https://www.reddit.com/submit?url=%(eu)s&title=%(et)s">Reddit ↗</a>

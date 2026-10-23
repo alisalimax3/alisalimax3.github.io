@@ -58,4 +58,7 @@ money/.heal/backups/
 !data/tools.bak.*/
 money/.heal/state-*
 
+!data/tools.bak.*/
+tools.bak.*/
+
 !data/

@@ -5,6 +5,20 @@ import os, sys, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import core, ads
 
+# VN_CORE_SHIM — يوفّر core.get لو core.py مش بيوفّره
+try:
+    import core as _vncore
+    if not hasattr(_vncore, "get"):
+        def _vn_get(k, d=None):
+            for _n in ("CFG","CONFIG","CONF","SETTINGS","ENV","DEFAULTS","PARAMS","cfg","conf","config","settings"):
+                _o = getattr(_vncore, _n, None)
+                if isinstance(_o, dict) and k in _o: return _o[k]
+            return getattr(_vncore, k, d)
+        _vncore.get = _vn_get
+except Exception:
+    pass
+
+
 LIMIT = int(core.get("PAGE_LIMIT") or 3000)
 TPL = """<!doctype html>
 <html lang="ar" dir="rtl"><head><meta charset="utf-8">
