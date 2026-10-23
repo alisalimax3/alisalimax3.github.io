@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /data/
 Sitemap: https://alisalimax3.github.io/sitemap.xml
-Sitemap: https://alisalimax3.github.io/sitemap-m.xml
-Sitemap: https://alisalimax3.github.io/sitemap-k.xml
-Sitemap: https://alisalimax3.github.io/sitemap-g.xml
