@@ -1,13 +1,13 @@
 {
-  "balance": 0.0626,
+  "balance": 0.0051,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-23T23:47:30.890Z",
+  "updated": "2026-10-23T23:40:31.543Z",
   "human": "2026-10-18 21:21",
   "agent": "realagent",
+  "online": 8,
   "sources": 50,
-  "online": 45,
-  "ledger_entries": 93
+  "ledger_entries": 8
 }

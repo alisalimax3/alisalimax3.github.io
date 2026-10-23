@@ -2686,36 +2686,25 @@
  },
  "svc-imagekit": {
   "id": "svc-imagekit",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.786Z",
   "kind": "service",
   "cat": "storage",
   "name": "imagekit",
   "home": "https://imagekit.io",
-  "signup": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "signup": "https://imagekit.io/registration",
   "recipe": "imagekit",
   "domain": "imagekit.io",
   "conf": 1,
-  "updated": "2026-10-23T23:40:52.606Z",
-  "lastEvidence": "2026-10-23T23:40:52.454Z",
-  "login": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
-  "recipe_conf": 1,
-  "note": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:40:52.606Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.786Z"
  },
  "svc-statically": {
   "id": "svc-statically",
-  "stage": "human",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 1,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.806Z",
   "kind": "service",
   "cat": "cdn",
@@ -2725,22 +2714,13 @@
   "recipe": "statically",
   "domain": "statically.io",
   "conf": 1,
-  "updated": "2026-10-23T23:40:55.557Z",
-  "lastEvidence": "2026-10-23T23:40:55.400Z",
-  "note": "بيانات هوية / تصادق",
-  "history": [
-   {
-    "from": "new",
-    "to": "human",
-    "at": "2026-10-23T23:40:55.557Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.806Z"
  },
  "svc-jsdelivr": {
   "id": "svc-jsdelivr",
-  "stage": "human",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 1,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.825Z",
   "kind": "service",
   "cat": "cdn",
@@ -2750,97 +2730,55 @@
   "recipe": "jsdelivr",
   "domain": "www.jsdelivr.com",
   "conf": 1,
-  "updated": "2026-10-23T23:40:58.391Z",
-  "lastEvidence": "2026-10-23T23:40:58.238Z",
-  "note": "بيانات هوية / تصادق",
-  "history": [
-   {
-    "from": "new",
-    "to": "human",
-    "at": "2026-10-23T23:40:58.391Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.826Z"
  },
  "svc-bunny": {
   "id": "svc-bunny",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.840Z",
   "kind": "service",
   "cat": "cdn",
   "name": "bunny",
   "home": "https://bunny.net",
-  "signup": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
+  "signup": "https://bunny.net/signup",
   "recipe": "bunny",
   "domain": "bunny.net",
   "conf": 1,
-  "updated": "2026-10-23T23:41:03.763Z",
-  "lastEvidence": "2026-10-23T23:41:03.532Z",
-  "login": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
-  "recipe_conf": 1,
-  "note": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:41:03.764Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.841Z"
  },
  "svc-gcore": {
   "id": "svc-gcore",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.855Z",
   "kind": "service",
   "cat": "cdn",
   "name": "gcore",
   "home": "https://gcore.com",
-  "signup": "https://auth.gcore.com/login/signup?lang=en",
+  "signup": "https://gcore.com/signup",
   "recipe": "gcore",
   "domain": "gcore.com",
   "conf": 1,
-  "updated": "2026-10-23T23:41:08.436Z",
-  "lastEvidence": "2026-10-23T23:41:08.230Z",
-  "login": "https://auth.gcore.com/login/signup?lang=en",
-  "recipe_conf": 1,
-  "note": "https://auth.gcore.com/login/signup?lang=en",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:41:08.437Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.855Z"
  },
  "svc-statcounter": {
   "id": "svc-statcounter",
-  "stage": "resolved",
+  "stage": "new",
   "attempts": 0,
-  "evidence": 2,
+  "evidence": 0,
   "created": "2026-10-22T17:30:23.869Z",
   "kind": "service",
   "cat": "analytics",
   "name": "statcounter",
   "home": "https://statcounter.com",
-  "signup": "https://statcounter.com/login/",
+  "signup": "https://statcounter.com/signup/",
   "recipe": "statcounter",
   "domain": "statcounter.com",
   "conf": 1,
-  "updated": "2026-10-23T23:41:11.871Z",
-  "lastEvidence": "2026-10-23T23:41:11.483Z",
-  "login": "https://statcounter.com/login/",
-  "recipe_conf": 1,
-  "note": "https://statcounter.com/login/",
-  "history": [
-   {
-    "from": "new",
-    "to": "resolved",
-    "at": "2026-10-23T23:41:11.872Z"
-   }
-  ]
+  "updated": "2026-10-22T17:30:23.869Z"
  },
  "svc-matomo": {
   "id": "svc-matomo",

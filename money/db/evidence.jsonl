@@ -162,5 +162,4 @@
 {"at":"2026-10-23T23:00:34.252Z","id":"svc-wordpress","kind":"resolve","data":{"home":"https://wordpress.com","status":200}}
 {"at":"2026-10-23T23:00:34.663Z","id":"svc-wordpress","kind":"signup-found","data":{"signup":"https://wordpress.com/partners/"}}
 {"at":"2026-10-23T23:00:37.415Z","id":"svc-reddit","kind":"resolve","data":{"home":"https://www.reddit.com","status":200}}
-{"at":"2026-10-23T23:41:11.096Z","id":"svc-statcounter","kind":"resolve","data":{"home":"https://statcounter.com","status":200}}
-{"at":"2026-10-23T23:41:11.404Z","id":"svc-statcounter","kind":"signup-found","data":{"signup":"https://statcounter.com/login/"}}
+{"at":"2026-10-23T23:40:29.930Z","id":"svc-vk","kind":"resolve","data":{"home":"https://vk.com","status":302}}

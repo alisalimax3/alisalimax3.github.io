@@ -82,5 +82,17 @@
   ],
   "field": "",
   "resume": "new"
+ },
+ "svc-vk": {
+  "id": "svc-vk",
+  "at": "2026-10-23T23:40:30.430Z",
+  "why": "identity",
+  "url": "https://vk.com/join",
+  "steps": [
+   "افتح https://vk.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
  }
 }
