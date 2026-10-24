@@ -1,10 +1,10 @@
 {
-  "balance": 0.3358,
+  "balance": 0.33582,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-24T00:18:16.276Z",
+  "updated": "2026-10-24 00:45:30",
   "human": "2026-10-18 21:21",
   "agent": "wideagent",
   "online": 155,
@@ -31,6 +31,18 @@
       "amount": 0.0963,
       "online": 157,
       "total": 167
+    }
+  ],
+  "address": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
+  "pending": 2e-05,
+  "views": 1.0,
+  "earned_total": 2e-05,
+  "hourly_rate": 2e-05,
+  "lastTick": 1792802730,
+  "history": [
+    {
+      "t": "2026-10-24 00:45:30",
+      "d": 2e-05
     }
   ]
 }
