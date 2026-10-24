@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24T07:24:24.443Z",
-  "count": 164,
+  "updated": "2026-10-24T08:02:10.305Z",
+  "count": 165,
   "links": [
     {
       "name": "Pornhub",
@@ -835,6 +835,12 @@
       "url": "https://www.nba.com",
       "cat": "news",
       "key": "CH-NEWS-09A4E6B7-5AFFDB42FEC2"
+    },
+    {
+      "name": "NFL",
+      "url": "https://www.nfl.com",
+      "cat": "news",
+      "key": "CH-NEWS-03E9C5FA-DB26824B22FD"
     },
     {
       "name": "MLB",
