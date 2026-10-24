@@ -1,16 +1,23 @@
 {
-  "balance": 0.33582,
+  "balance": 0.4366,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-24 00:45:30",
+  "updated": "2026-10-24T01:28:11.241Z",
   "human": "2026-10-18 21:21",
   "agent": "wideagent",
-  "online": 155,
+  "online": 165,
   "sources": 167,
-  "ledger_entries": 531,
+  "ledger_entries": 696,
   "transactions": [
+    {
+      "ts": "2026-10-24T01:28:11.241Z",
+      "type": "harvest",
+      "amount": 0.1008,
+      "online": 165,
+      "total": 167
+    },
     {
       "ts": "2026-10-24T00:18:16.276Z",
       "type": "harvest",
@@ -34,15 +41,15 @@
     }
   ],
   "address": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
-  "pending": 2e-05,
-  "views": 1.0,
-  "earned_total": 2e-05,
-  "hourly_rate": 2e-05,
+  "pending": 0.00002,
+  "views": 1,
+  "earned_total": 0.00002,
+  "hourly_rate": 0.00002,
   "lastTick": 1792802730,
   "history": [
     {
       "t": "2026-10-24 00:45:30",
-      "d": 2e-05
+      "d": 0.00002
     }
   ]
 }
