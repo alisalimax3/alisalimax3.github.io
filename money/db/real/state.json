@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-24T00:03:34.786Z",
+  "ts": "2026-10-24T00:09:04.538Z",
   "total": 50,
-  "online": 39,
-  "offline": 11,
-  "earnedCycle": 0.0269,
-  "balance": 0.1832,
-  "entries": 292
+  "online": 40,
+  "offline": 10,
+  "earnedCycle": 0.0274,
+  "balance": 0.2106,
+  "entries": 332
 }

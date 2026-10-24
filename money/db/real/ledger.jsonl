@@ -290,3 +290,43 @@
 {"ts":"2026-10-24T00:03:34.597Z","site":"CoinGate","cat":"platform","task":"visit+verify","amount":0.0009,"http":403,"ms":546}
 {"ts":"2026-10-24T00:03:34.612Z","site":"Formspree","cat":"platform","task":"visit+verify","amount":0.0008,"http":200,"ms":580}
 {"ts":"2026-10-24T00:03:34.617Z","site":"Adsterra","cat":"platform","task":"visit+verify","amount":0.0008,"http":200,"ms":1355}
+{"ts":"2026-10-24T00:08:35.706Z","site":"Pornhub","cat":"adult","task":"visit+verify","amount":0.0009,"http":200,"ms":816}
+{"ts":"2026-10-24T00:08:35.767Z","site":"xHamster","cat":"adult","task":"visit+verify","amount":0.0007,"http":200,"ms":801}
+{"ts":"2026-10-24T00:08:36.881Z","site":"YouPorn","cat":"adult","task":"visit+verify","amount":0.0007,"http":200,"ms":942}
+{"ts":"2026-10-24T00:08:36.889Z","site":"SpankBang","cat":"adult","task":"visit+verify","amount":0.0007,"http":403,"ms":360}
+{"ts":"2026-10-24T00:08:36.894Z","site":"EPorner","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":462}
+{"ts":"2026-10-24T00:08:36.898Z","site":"TXXX","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":721}
+{"ts":"2026-10-24T00:08:36.913Z","site":"Beeg","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":569}
+{"ts":"2026-10-24T00:08:38.887Z","site":"HQPorner","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":1817}
+{"ts":"2026-10-24T00:08:38.891Z","site":"Porntrex","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":936}
+{"ts":"2026-10-24T00:08:38.895Z","site":"Tube8","cat":"adult","task":"visit+verify","amount":0.0006,"http":200,"ms":1176}
+{"ts":"2026-10-24T00:08:38.907Z","site":"TNAFlix","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":1259}
+{"ts":"2026-10-24T00:08:40.797Z","site":"HClips","cat":"adult","task":"visit+verify","amount":0.0005,"http":200,"ms":1734}
+{"ts":"2026-10-24T00:08:40.806Z","site":"GotPorn","cat":"adult","task":"visit+verify","amount":0.0005,"http":403,"ms":497}
+{"ts":"2026-10-24T00:08:51.013Z","site":"Netflix","cat":"movie","task":"visit+verify","amount":0.0008,"http":200,"ms":1384}
+{"ts":"2026-10-24T00:08:51.017Z","site":"Prime Video","cat":"movie","task":"visit+verify","amount":0.0008,"http":200,"ms":863}
+{"ts":"2026-10-24T00:08:51.026Z","site":"Max","cat":"movie","task":"visit+verify","amount":0.0007,"http":403,"ms":2750}
+{"ts":"2026-10-24T00:08:51.031Z","site":"Apple TV+","cat":"movie","task":"visit+verify","amount":0.0007,"http":200,"ms":939}
+{"ts":"2026-10-24T00:08:56.067Z","site":"Hulu","cat":"movie","task":"visit+verify","amount":0.0006,"http":200,"ms":4867}
+{"ts":"2026-10-24T00:08:56.089Z","site":"Paramount+","cat":"movie","task":"visit+verify","amount":0.0006,"http":200,"ms":1276}
+{"ts":"2026-10-24T00:08:56.105Z","site":"Peacock","cat":"movie","task":"visit+verify","amount":0.0006,"http":200,"ms":1041}
+{"ts":"2026-10-24T00:08:56.121Z","site":"Crunchyroll","cat":"movie","task":"visit+verify","amount":0.0006,"http":403,"ms":484}
+{"ts":"2026-10-24T00:08:56.141Z","site":"Tubi","cat":"movie","task":"visit+verify","amount":0.0006,"http":200,"ms":2054}
+{"ts":"2026-10-24T00:08:58.907Z","site":"Pluto TV","cat":"movie","task":"visit+verify","amount":0.0005,"http":200,"ms":2598}
+{"ts":"2026-10-24T00:08:58.914Z","site":"JustWatch","cat":"movie","task":"visit+verify","amount":0.0005,"http":200,"ms":600}
+{"ts":"2026-10-24T00:08:58.932Z","site":"IMDb","cat":"movie","task":"visit+verify","amount":0.0005,"http":202,"ms":482}
+{"ts":"2026-10-24T00:08:58.939Z","site":"TMDB","cat":"movie","task":"visit+verify","amount":0.0005,"http":200,"ms":1181}
+{"ts":"2026-10-24T00:09:00.821Z","site":"Metacritic","cat":"movie","task":"visit+verify","amount":0.0004,"http":200,"ms":817}
+{"ts":"2026-10-24T00:09:00.826Z","site":"AlloCine","cat":"movie","task":"visit+verify","amount":0.0004,"http":200,"ms":483}
+{"ts":"2026-10-24T00:09:00.830Z","site":"FilmAffinity","cat":"movie","task":"visit+verify","amount":0.0004,"http":403,"ms":684}
+{"ts":"2026-10-24T00:09:00.836Z","site":"Trakt","cat":"movie","task":"visit+verify","amount":0.0004,"http":200,"ms":1692}
+{"ts":"2026-10-24T00:09:02.119Z","site":"Groq","cat":"platform","task":"visit+verify","amount":0.0012,"http":200,"ms":589}
+{"ts":"2026-10-24T00:09:02.123Z","site":"OpenRouter","cat":"platform","task":"visit+verify","amount":0.0012,"http":200,"ms":401}
+{"ts":"2026-10-24T00:09:02.130Z","site":"Replicate","cat":"platform","task":"visit+verify","amount":0.001,"http":200,"ms":1061}
+{"ts":"2026-10-24T00:09:02.134Z","site":"Deepgram","cat":"platform","task":"visit+verify","amount":0.001,"http":404,"ms":1112}
+{"ts":"2026-10-24T00:09:02.138Z","site":"ElevenLabs","cat":"platform","task":"visit+verify","amount":0.001,"http":404,"ms":760}
+{"ts":"2026-10-24T00:09:04.310Z","site":"Alchemy","cat":"platform","task":"visit+verify","amount":0.0009,"http":200,"ms":927}
+{"ts":"2026-10-24T00:09:04.330Z","site":"QuickNode","cat":"platform","task":"visit+verify","amount":0.0009,"http":200,"ms":1999}
+{"ts":"2026-10-24T00:09:04.345Z","site":"CoinGate","cat":"platform","task":"visit+verify","amount":0.0009,"http":403,"ms":417}
+{"ts":"2026-10-24T00:09:04.362Z","site":"Formspree","cat":"platform","task":"visit+verify","amount":0.0008,"http":200,"ms":500}
+{"ts":"2026-10-24T00:09:04.380Z","site":"Adsterra","cat":"platform","task":"visit+verify","amount":0.0008,"http":200,"ms":1059}

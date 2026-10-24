@@ -1,4 +1,1 @@
-User-agent: *
-Allow: /
-Disallow: /data/
-Sitemap: https://alisalimax3.github.io/sitemap.xml
+User-agent: *\nAllow: /\nSitemap: https://alisalimax3.github.io/sitemap.xml\n
