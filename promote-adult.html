@@ -482,7 +482,7 @@ ready(function(){
     g.classList.add('vn-grid');
     g.innerHTML=list.map(function(o){
       var t=o.t||o.title||o.name||o.ar||o.en||'';
-      var im=o.p||o.poster||o.img||o.image||o.thumb||'';
+      var im=o.p||o.th||o.img||o.th||o.th||'';
       var y=o.y||o.year||'';
       var u=o.u||o.url||o.link||o.href||'#';
       var ph=im?'<img loading="lazy" src="'+im+'" alt="" onerror="this.remove()">':'<div class="vn-ph"></div>';

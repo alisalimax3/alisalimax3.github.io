@@ -49,7 +49,7 @@ if("IntersectionObserver" in window){
 <script>
 let ALL=[],F=[],N=120;
 async function load(){for(const f of['catalog-lite.json','catalog-lite.json','films.json','titles.json','data/catalog.json']){try{const r=await fetch(f);if(!r.ok)continue;const d=await r.json();
-const a=Array.isArray(d)?d:(d.items||Object.values(d));if(a&&a.length)return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.poster||x.image||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){window.__catErr=(window.__catErr||'')+f+' '+(e&&e.message||'')+'; '}}return[]}
+const a=Array.isArray(d)?d:(d.items||Object.values(d));if(a&&a.length)return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.th||x.th||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){window.__catErr=(window.__catErr||'')+f+' '+(e&&e.message||'')+'; '}}return[]}
 function draw(){const q=(document.getElementById('q').value||'').toLowerCase();
 F=ALL.filter(x=>(!q||x.t.toLowerCase().includes(q))&&(!window.CAT||x.c===window.CAT));
 document.getElementById('g').innerHTML=F.slice(0,N).map(x=>'<a class="c" href="'+(x.i?'f/'+encodeURIComponent(x.i)+'.html':'#')+'">'+
@@ -163,7 +163,7 @@ ready(function(){
     g.classList.add('vn-grid');
     g.innerHTML=list.map(function(o){
       var t=o.t||o.title||o.name||o.ar||o.en||'';
-      var im=o.p||o.poster||o.img||o.image||o.thumb||'';
+      var im=o.p||o.th||o.img||o.th||o.th||'';
       var y=o.y||o.year||'';
       var u=o.u||o.url||o.link||o.href||'#';
       var ph=im?'<img loading="lazy" src="'+im+'" alt="" onerror="this.remove()">':'<div class="vn-ph"></div>';
