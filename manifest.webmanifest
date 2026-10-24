@@ -1,1 +1,21 @@
-{"name":"CineHub","short_name":"CineHub","start_url":"/app.html","display":"standalone","background_color":"#0b0f14","theme_color":"#0b0f14","lang":"ar","dir":"rtl","icons":[]}
+{
+  "name": "CineHub 3099",
+  "short_name": "CineHub",
+  "start_url": "/?nocache=1",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0c15",
+  "theme_color": "#0a0c15",
+  "dir": "rtl",
+  "lang": "ar",
+  "description": "أفلام · أرباح · سحب",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

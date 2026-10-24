@@ -2686,25 +2686,36 @@
  },
  "svc-imagekit": {
   "id": "svc-imagekit",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.786Z",
   "kind": "service",
   "cat": "storage",
   "name": "imagekit",
   "home": "https://imagekit.io",
-  "signup": "https://imagekit.io/registration",
+  "signup": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
   "recipe": "imagekit",
   "domain": "imagekit.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.786Z"
+  "updated": "2026-10-24T00:00:08.964Z",
+  "lastEvidence": "2026-10-24T00:00:08.350Z",
+  "login": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "recipe_conf": 1,
+  "note": "https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:08.965Z"
+   }
+  ]
  },
  "svc-statically": {
   "id": "svc-statically",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.806Z",
   "kind": "service",
   "cat": "cdn",
@@ -2714,13 +2725,22 @@
   "recipe": "statically",
   "domain": "statically.io",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.806Z"
+  "updated": "2026-10-24T00:00:11.557Z",
+  "lastEvidence": "2026-10-24T00:00:11.096Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-24T00:00:11.557Z"
+   }
+  ]
  },
  "svc-jsdelivr": {
   "id": "svc-jsdelivr",
-  "stage": "new",
+  "stage": "human",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 1,
   "created": "2026-10-22T17:30:23.825Z",
   "kind": "service",
   "cat": "cdn",
@@ -2730,44 +2750,75 @@
   "recipe": "jsdelivr",
   "domain": "www.jsdelivr.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.826Z"
+  "updated": "2026-10-24T00:00:17.021Z",
+  "lastEvidence": "2026-10-24T00:00:16.824Z",
+  "note": "بيانات هوية / تصادق",
+  "history": [
+   {
+    "from": "new",
+    "to": "human",
+    "at": "2026-10-24T00:00:17.021Z"
+   }
+  ]
  },
  "svc-bunny": {
   "id": "svc-bunny",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.840Z",
   "kind": "service",
   "cat": "cdn",
   "name": "bunny",
   "home": "https://bunny.net",
-  "signup": "https://bunny.net/signup",
+  "signup": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
   "recipe": "bunny",
   "domain": "bunny.net",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.841Z"
+  "updated": "2026-10-24T00:00:20.486Z",
+  "lastEvidence": "2026-10-24T00:00:20.182Z",
+  "login": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
+  "recipe_conf": 1,
+  "note": "https://dash.bunny.net/auth/register?pk_buttonlocation=menu",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:20.486Z"
+   }
+  ]
  },
  "svc-gcore": {
   "id": "svc-gcore",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.855Z",
   "kind": "service",
   "cat": "cdn",
   "name": "gcore",
   "home": "https://gcore.com",
-  "signup": "https://gcore.com/signup",
+  "signup": "https://auth.gcore.com/login/signup?lang=en",
   "recipe": "gcore",
   "domain": "gcore.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.855Z"
+  "updated": "2026-10-24T00:00:24.049Z",
+  "lastEvidence": "2026-10-24T00:00:23.808Z",
+  "login": "https://auth.gcore.com/login/signup?lang=en",
+  "recipe_conf": 1,
+  "note": "https://auth.gcore.com/login/signup?lang=en",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:24.049Z"
+   }
+  ]
  },
  "svc-statcounter": {
   "id": "svc-statcounter",
-  "stage": "new",
-  "attempts": 0,
+  "stage": "failed",
+  "attempts": 1,
   "evidence": 0,
   "created": "2026-10-22T17:30:23.869Z",
   "kind": "service",
@@ -2778,29 +2829,50 @@
   "recipe": "statcounter",
   "domain": "statcounter.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.869Z"
+  "updated": "2026-10-24T00:00:25.696Z",
+  "nextAt": 1792800115260,
+  "lastError": "لا يستجيب 0",
+  "note": "الموقع 0",
+  "history": [
+   {
+    "from": "new",
+    "to": "failed",
+    "at": "2026-10-24T00:00:25.696Z"
+   }
+  ]
  },
  "svc-matomo": {
   "id": "svc-matomo",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.883Z",
   "kind": "service",
   "cat": "analytics",
   "name": "matomo",
   "home": "https://matomo.org",
-  "signup": "https://matomo.org/",
+  "signup": "https://matomo.org/matomo-partner-programme/",
   "recipe": "matomo",
   "domain": "matomo.org",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.883Z"
+  "updated": "2026-10-24T00:00:29.419Z",
+  "lastEvidence": "2026-10-24T00:00:29.086Z",
+  "login": "https://matomo.org/matomo-partner-programme/",
+  "recipe_conf": 1,
+  "note": "https://matomo.org/matomo-partner-programme/",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:29.419Z"
+   }
+  ]
  },
  "svc-simpleanalytics": {
   "id": "svc-simpleanalytics",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.898Z",
   "kind": "service",
   "cat": "analytics",
@@ -2810,29 +2882,51 @@
   "recipe": "simpleanalytics",
   "domain": "www.simpleanalytics.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.899Z"
+  "updated": "2026-10-24T00:00:35.061Z",
+  "lastEvidence": "2026-10-24T00:00:34.282Z",
+  "login": "https://www.simpleanalytics.com/signup",
+  "recipe_conf": 1,
+  "note": "https://www.simpleanalytics.com/signup",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:35.062Z"
+   }
+  ]
  },
  "svc-counter": {
   "id": "svc-counter",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.917Z",
   "kind": "service",
   "cat": "analytics",
   "name": "counter",
   "home": "https://counter.dev",
-  "signup": "https://counter.dev/",
+  "signup": "https://counter.dev/welcome.html?sign-up",
   "recipe": "counter",
   "domain": "counter.dev",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.917Z"
+  "updated": "2026-10-24T00:00:39.772Z",
+  "lastEvidence": "2026-10-24T00:00:39.149Z",
+  "login": "https://counter.dev/welcome.html?sign-up",
+  "recipe_conf": 1,
+  "note": "https://counter.dev/welcome.html?sign-up",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:39.772Z"
+   }
+  ]
  },
  "svc-posthog": {
   "id": "svc-posthog",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.941Z",
   "kind": "service",
   "cat": "analytics",
@@ -2842,39 +2936,72 @@
   "recipe": "posthog",
   "domain": "posthog.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.942Z"
+  "updated": "2026-10-24T00:00:45.299Z",
+  "lastEvidence": "2026-10-24T00:00:44.969Z",
+  "login": "https://app.posthog.com/signup",
+  "recipe_conf": 1,
+  "note": "https://app.posthog.com/signup",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:45.300Z"
+   }
+  ]
  },
  "svc-clarity": {
   "id": "svc-clarity",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.961Z",
   "kind": "service",
   "cat": "analytics",
   "name": "clarity",
   "home": "https://clarity.microsoft.com",
-  "signup": "https://clarity.microsoft.com/",
+  "signup": "https://claritystatic.azureedge.net/images/brandAgentsUpsellDashboard.png",
   "recipe": "clarity",
   "domain": "clarity.microsoft.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.963Z"
+  "updated": "2026-10-24T00:00:48.484Z",
+  "lastEvidence": "2026-10-24T00:00:48.235Z",
+  "login": "https://claritystatic.azureedge.net/images/brandAgentsUpsellDashboard.png",
+  "recipe_conf": 1,
+  "note": "https://claritystatic.azureedge.net/images/brandAgentsUpsellDashboard.png",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:48.485Z"
+   }
+  ]
  },
  "svc-logtail": {
   "id": "svc-logtail",
-  "stage": "new",
+  "stage": "resolved",
   "attempts": 0,
-  "evidence": 0,
+  "evidence": 2,
   "created": "2026-10-22T17:30:23.979Z",
   "kind": "service",
   "cat": "monitor",
   "name": "logtail",
   "home": "https://betterstack.com/logs",
-  "signup": "https://logs.betterstack.com/users/sign-up",
+  "signup": "https://betterstack.com/pricing",
   "recipe": "logtail",
   "domain": "betterstack.com",
   "conf": 1,
-  "updated": "2026-10-22T17:30:23.980Z"
+  "updated": "2026-10-24T00:00:51.613Z",
+  "lastEvidence": "2026-10-24T00:00:51.344Z",
+  "login": "https://betterstack.com/pricing",
+  "recipe_conf": 1,
+  "note": "https://betterstack.com/pricing",
+  "history": [
+   {
+    "from": "new",
+    "to": "resolved",
+    "at": "2026-10-24T00:00:51.646Z"
+   }
+  ]
  },
  "svc-logflare": {
   "id": "svc-logflare",

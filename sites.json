@@ -2294,5 +2294,77 @@
     "status": "online",
     "source": "agent",
     "key": "CH-API-78FD2B4F-C0528D5B9341"
+  },
+  {
+    "title": "XNXX",
+    "url": "https://www.xnxx.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-031FE833-7F42DDE6921D"
+  },
+  {
+    "title": "SunPorno",
+    "url": "https://www.sunporno.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-2E25845F-4D047709BDE7"
+  },
+  {
+    "title": "FUQ",
+    "url": "https://fuq.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-81704878-A5B0BC254F5F"
+  },
+  {
+    "title": "Upornia",
+    "url": "https://upornia.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-BAEDA90C-CA5F6E3E61AB"
+  },
+  {
+    "title": "Babes",
+    "url": "https://www.babes.com",
+    "category": "adult",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-ADULT-6D226536-57F7DB2044AD"
+  },
+  {
+    "title": "Netflix",
+    "url": "https://www.netflix.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-FBD5CCD3-965686C55C9A"
+  },
+  {
+    "title": "Hulu",
+    "url": "https://www.hulu.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-29BA85F2-6103EDB5B22A"
+  },
+  {
+    "title": "Decider",
+    "url": "https://decider.com",
+    "category": "movie",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-MOVIE-58C04BA2-54CAF4E3C3A4"
+  },
+  {
+    "title": "FlashScore",
+    "url": "https://www.flashscore.com",
+    "category": "news",
+    "status": "online",
+    "source": "agent",
+    "key": "CH-NEWS-C07A7700-9CA727E93AE2"
   }
 ]

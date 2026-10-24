@@ -94,5 +94,29 @@
   ],
   "field": "",
   "resume": "new"
+ },
+ "svc-statically": {
+  "id": "svc-statically",
+  "at": "2026-10-24T00:00:11.277Z",
+  "why": "identity",
+  "url": "https://statically.io/",
+  "steps": [
+   "افتح https://statically.io",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
+ },
+ "svc-jsdelivr": {
+  "id": "svc-jsdelivr",
+  "at": "2026-10-24T00:00:16.917Z",
+  "why": "identity",
+  "url": "https://www.jsdelivr.com/",
+  "steps": [
+   "افتح https://www.jsdelivr.com",
+   "أنشئ الحساب ثم الصق رابط التسجيل"
+  ],
+  "field": "",
+  "resume": "new"
  }
 }

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T23:57:45.876Z",
-  "count": 157,
+  "updated": "2026-10-23T23:59:52.868Z",
+  "count": 162,
   "links": [
     {
       "name": "Pornhub",
@@ -15,16 +15,16 @@
       "key": "CH-ADULT-4E7BB4DA-5CE2A444C27C"
     },
     {
+      "name": "XNXX",
+      "url": "https://www.xnxx.com",
+      "cat": "adult",
+      "key": "CH-ADULT-031FE833-7F42DDE6921D"
+    },
+    {
       "name": "xHamster",
       "url": "https://xhamster.com",
       "cat": "adult",
       "key": "CH-ADULT-E0AD3957-E76AE0CA4930"
-    },
-    {
-      "name": "RedTube",
-      "url": "https://www.redtube.com",
-      "cat": "adult",
-      "key": "CH-ADULT-778F7AA5-7FEF398B0B35"
     },
     {
       "name": "YouPorn",
@@ -87,6 +87,12 @@
       "key": "CH-ADULT-6BB9E4DB-582297B3E759"
     },
     {
+      "name": "SunPorno",
+      "url": "https://www.sunporno.com",
+      "cat": "adult",
+      "key": "CH-ADULT-2E25845F-4D047709BDE7"
+    },
+    {
       "name": "GotPorn",
       "url": "https://www.gotporn.com",
       "cat": "adult",
@@ -117,6 +123,12 @@
       "key": "CH-ADULT-C05F78BA-172FF2594575"
     },
     {
+      "name": "FUQ",
+      "url": "https://fuq.com",
+      "cat": "adult",
+      "key": "CH-ADULT-81704878-A5B0BC254F5F"
+    },
+    {
       "name": "4Tube",
       "url": "https://www.4tube.com",
       "cat": "adult",
@@ -129,6 +141,12 @@
       "key": "CH-ADULT-059D0D85-CF6B63452E76"
     },
     {
+      "name": "Upornia",
+      "url": "https://upornia.com",
+      "cat": "adult",
+      "key": "CH-ADULT-BAEDA90C-CA5F6E3E61AB"
+    },
+    {
       "name": "HDZog",
       "url": "https://hdzog.com",
       "cat": "adult",
@@ -139,12 +157,6 @@
       "url": "https://www.vjav.com",
       "cat": "adult",
       "key": "CH-ADULT-6AC44396-384AA991BC87"
-    },
-    {
-      "name": "PornHD",
-      "url": "https://www.pornhd.com",
-      "cat": "adult",
-      "key": "CH-ADULT-5EF0E06C-DDA7A235AFB5"
     },
     {
       "name": "TubeGalore",
@@ -189,6 +201,12 @@
       "key": "CH-ADULT-CDC9B73F-AAB4A19ACDBC"
     },
     {
+      "name": "Babes",
+      "url": "https://www.babes.com",
+      "cat": "adult",
+      "key": "CH-ADULT-6D226536-57F7DB2044AD"
+    },
+    {
       "name": "Vixen",
       "url": "https://www.vixen.com",
       "cat": "adult",
@@ -231,6 +249,12 @@
       "key": "CH-ADULT-CED9C625-5A071DBBC3DA"
     },
     {
+      "name": "Netflix",
+      "url": "https://www.netflix.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-FBD5CCD3-965686C55C9A"
+    },
+    {
       "name": "Prime Video",
       "url": "https://www.primevideo.com",
       "cat": "movie",
@@ -253,6 +277,12 @@
       "url": "https://tv.apple.com",
       "cat": "movie",
       "key": "CH-MOVIE-BDDD9B8C-66D2E440ED40"
+    },
+    {
+      "name": "Hulu",
+      "url": "https://www.hulu.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-29BA85F2-6103EDB5B22A"
     },
     {
       "name": "Paramount+",
@@ -307,12 +337,6 @@
       "url": "https://letterboxd.com",
       "cat": "movie",
       "key": "CH-MOVIE-0DB00F27-55C7B104A1DB"
-    },
-    {
-      "name": "Rotten Tomatoes",
-      "url": "https://www.rottentomatoes.com",
-      "cat": "movie",
-      "key": "CH-MOVIE-5B3D9720-3FD4B59596AC"
     },
     {
       "name": "Metacritic",
@@ -403,6 +427,12 @@
       "url": "https://reelgood.com",
       "cat": "movie",
       "key": "CH-MOVIE-0CAFA1D9-F71C98953BD0"
+    },
+    {
+      "name": "Decider",
+      "url": "https://decider.com",
+      "cat": "movie",
+      "key": "CH-MOVIE-58C04BA2-54CAF4E3C3A4"
     },
     {
       "name": "TVGuide",
@@ -547,12 +577,6 @@
       "url": "https://modal.com",
       "cat": "api",
       "key": "CH-API-A8C7E99C-3DC384F212CC"
-    },
-    {
-      "name": "RunwayML",
-      "url": "https://runwayml.com",
-      "cat": "api",
-      "key": "CH-API-BAA1336B-EE9C9B63E5CF"
     },
     {
       "name": "Alchemy",
@@ -733,6 +757,12 @@
       "url": "https://www.livescore.com",
       "cat": "news",
       "key": "CH-NEWS-4A5EC4C0-ACE81264AC3D"
+    },
+    {
+      "name": "FlashScore",
+      "url": "https://www.flashscore.com",
+      "cat": "news",
+      "key": "CH-NEWS-C07A7700-9CA727E93AE2"
     },
     {
       "name": "SofaScore",

@@ -62,3 +62,7 @@ money/.heal/state-*
 tools.bak.*/
 
 !data/
+!catalog-lite.json
+!catalog-cats.json
+!manifest.webmanifest
+!icon.svg

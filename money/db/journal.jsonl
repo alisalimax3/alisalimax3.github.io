@@ -129,3 +129,18 @@
 {"at":"2026-10-23T23:40:32.192Z","event":"stage","data":{"id":"svc-mastodon","from":"new","to":"failed","note":"الموقع 0"}}
 {"at":"2026-10-23T23:40:33.319Z","event":"stage","data":{"id":"svc-gravatar","from":"new","to":"failed","note":"الموقع 0"}}
 {"at":"2026-10-23T23:40:34.212Z","event":"stage","data":{"id":"svc-imgbb","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-24T00:00:09.299Z","event":"stage","data":{"id":"svc-imagekit","from":"new","to":"resolved","note":"https://partners.amazonaws.com/partners/0010L00001oB7SfQAK/ImageKit%20Private%20Limited"}}
+{"at":"2026-10-24T00:00:11.279Z","event":"human","data":{"id":"svc-statically","why":"identity"}}
+{"at":"2026-10-24T00:00:11.713Z","event":"stage","data":{"id":"svc-statically","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-24T00:00:16.918Z","event":"human","data":{"id":"svc-jsdelivr","why":"identity"}}
+{"at":"2026-10-24T00:00:17.155Z","event":"stage","data":{"id":"svc-jsdelivr","from":"new","to":"human","note":"بيانات هوية / تصادق"}}
+{"at":"2026-10-24T00:00:20.595Z","event":"stage","data":{"id":"svc-bunny","from":"new","to":"resolved","note":"https://dash.bunny.net/auth/register?pk_buttonlocation=menu"}}
+{"at":"2026-10-24T00:00:24.237Z","event":"stage","data":{"id":"svc-gcore","from":"new","to":"resolved","note":"https://auth.gcore.com/login/signup?lang=en"}}
+{"at":"2026-10-24T00:00:25.865Z","event":"stage","data":{"id":"svc-statcounter","from":"new","to":"failed","note":"الموقع 0"}}
+{"at":"2026-10-24T00:00:29.576Z","event":"stage","data":{"id":"svc-matomo","from":"new","to":"resolved","note":"https://matomo.org/matomo-partner-programme/"}}
+{"at":"2026-10-24T00:00:35.380Z","event":"stage","data":{"id":"svc-simpleanalytics","from":"new","to":"resolved","note":"https://www.simpleanalytics.com/signup"}}
+{"at":"2026-10-24T00:00:40.108Z","event":"stage","data":{"id":"svc-counter","from":"new","to":"resolved","note":"https://counter.dev/welcome.html?sign-up"}}
+{"at":"2026-10-24T00:00:45.470Z","event":"stage","data":{"id":"svc-posthog","from":"new","to":"resolved","note":"https://app.posthog.com/signup"}}
+{"at":"2026-10-24T00:00:48.652Z","event":"stage","data":{"id":"svc-clarity","from":"new","to":"resolved","note":"https://claritystatic.azureedge.net/images/brandAgentsUpsellDashboard.png"}}
+{"at":"2026-10-24T00:00:51.814Z","event":"stage","data":{"id":"svc-logtail","from":"new","to":"resolved","note":"https://betterstack.com/pricing"}}
+{"at":"2026-10-24T00:00:52.448Z","event":"batch","data":{"n":12,"out":["svc-imagekit","svc-statically","svc-jsdelivr","svc-bunny","svc-gcore","svc-statcounter","svc-matomo","svc-simpleanalytics","svc-counter","svc-posthog","svc-clarity","svc-logtail"]}}
