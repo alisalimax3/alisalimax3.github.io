@@ -6,9 +6,9 @@
     "cat": "adult",
     "rate": 0.0009,
     "status": "online",
-    "hits": 4,
+    "hits": 5,
     "fails": 0,
-    "last": "2026-10-24T00:08:35.706Z",
+    "last": "2026-10-24T00:14:08.222Z",
     "lastStatus": 200
   },
   {
@@ -17,11 +17,11 @@
     "url": "https://www.xvideos.com",
     "cat": "adult",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 1,
+    "status": "online",
+    "hits": 2,
     "fails": 3,
-    "last": "2026-10-24T00:08:35.748Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:08.244Z",
+    "lastStatus": 200
   },
   {
     "id": "69ab418ef56b",
@@ -29,11 +29,11 @@
     "url": "https://www.xnxx.com",
     "cat": "adult",
     "rate": 0.0008,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 4,
-    "last": "2026-10-24T00:08:35.757Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:08.249Z",
+    "lastStatus": 200
   },
   {
     "id": "6a56e357b10c",
@@ -42,9 +42,9 @@
     "cat": "adult",
     "rate": 0.0007,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:35.767Z",
+    "last": "2026-10-24T00:14:08.253Z",
     "lastStatus": 200
   },
   {
@@ -53,11 +53,11 @@
     "url": "https://www.redtube.com",
     "cat": "adult",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 0,
+    "status": "online",
+    "hits": 1,
     "fails": 4,
-    "last": "2026-10-24T00:08:35.773Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:08.257Z",
+    "lastStatus": 200
   },
   {
     "id": "4e468e7e31e2",
@@ -66,9 +66,9 @@
     "cat": "adult",
     "rate": 0.0007,
     "status": "online",
-    "hits": 4,
+    "hits": 5,
     "fails": 0,
-    "last": "2026-10-24T00:08:36.881Z",
+    "last": "2026-10-24T00:14:09.629Z",
     "lastStatus": 200
   },
   {
@@ -77,11 +77,11 @@
     "url": "https://spankbang.com",
     "cat": "adult",
     "rate": 0.0007,
-    "status": "online",
+    "status": "offline",
     "hits": 2,
-    "fails": 2,
-    "last": "2026-10-24T00:08:36.889Z",
-    "lastStatus": 403
+    "fails": 3,
+    "last": "2026-10-24T00:14:09.634Z",
+    "lastStatus": 0
   },
   {
     "id": "a8f244b4f8f9",
@@ -90,9 +90,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:36.894Z",
+    "last": "2026-10-24T00:14:09.639Z",
     "lastStatus": 200
   },
   {
@@ -102,9 +102,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:36.898Z",
+    "last": "2026-10-24T00:14:09.643Z",
     "lastStatus": 200
   },
   {
@@ -113,11 +113,11 @@
     "url": "https://beeg.com",
     "cat": "adult",
     "rate": 0.0006,
-    "status": "online",
+    "status": "offline",
     "hits": 4,
-    "fails": 0,
-    "last": "2026-10-24T00:08:36.913Z",
-    "lastStatus": 200
+    "fails": 1,
+    "last": "2026-10-24T00:14:09.647Z",
+    "lastStatus": 0
   },
   {
     "id": "dd3d634ea96b",
@@ -126,9 +126,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:38.887Z",
+    "last": "2026-10-24T00:14:11.314Z",
     "lastStatus": 200
   },
   {
@@ -138,9 +138,9 @@
     "cat": "adult",
     "rate": 0.0006,
     "status": "online",
-    "hits": 4,
+    "hits": 5,
     "fails": 0,
-    "last": "2026-10-24T00:08:38.891Z",
+    "last": "2026-10-24T00:14:11.323Z",
     "lastStatus": 200
   },
   {
@@ -149,11 +149,11 @@
     "url": "https://www.tube8.com",
     "cat": "adult",
     "rate": 0.0006,
-    "status": "online",
+    "status": "offline",
     "hits": 3,
-    "fails": 1,
-    "last": "2026-10-24T00:08:38.895Z",
-    "lastStatus": 200
+    "fails": 2,
+    "last": "2026-10-24T00:14:11.329Z",
+    "lastStatus": 0
   },
   {
     "id": "272d454469c4",
@@ -163,8 +163,8 @@
     "rate": 0.0005,
     "status": "offline",
     "hits": 0,
-    "fails": 4,
-    "last": "2026-10-24T00:08:38.900Z",
+    "fails": 5,
+    "last": "2026-10-24T00:14:11.333Z",
     "lastStatus": 0
   },
   {
@@ -174,9 +174,9 @@
     "cat": "adult",
     "rate": 0.0005,
     "status": "online",
-    "hits": 2,
+    "hits": 3,
     "fails": 2,
-    "last": "2026-10-24T00:08:38.907Z",
+    "last": "2026-10-24T00:14:11.339Z",
     "lastStatus": 200
   },
   {
@@ -186,9 +186,9 @@
     "cat": "adult",
     "rate": 0.0005,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:40.797Z",
+    "last": "2026-10-24T00:14:15.252Z",
     "lastStatus": 200
   },
   {
@@ -197,11 +197,11 @@
     "url": "https://www.sunporno.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 2,
+    "status": "online",
+    "hits": 3,
     "fails": 2,
-    "last": "2026-10-24T00:08:40.802Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:15.256Z",
+    "lastStatus": 200
   },
   {
     "id": "18b409525871",
@@ -210,9 +210,9 @@
     "cat": "adult",
     "rate": 0.0005,
     "status": "online",
-    "hits": 1,
+    "hits": 2,
     "fails": 3,
-    "last": "2026-10-24T00:08:40.806Z",
+    "last": "2026-10-24T00:14:15.260Z",
     "lastStatus": 403
   },
   {
@@ -221,11 +221,11 @@
     "url": "https://www.porn300.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 3,
+    "status": "online",
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:40.817Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:15.266Z",
+    "lastStatus": 200
   },
   {
     "id": "a9edc60bec81",
@@ -233,11 +233,11 @@
     "url": "https://letmejerk.com",
     "cat": "adult",
     "rate": 0.0005,
-    "status": "offline",
-    "hits": 2,
+    "status": "online",
+    "hits": 3,
     "fails": 2,
-    "last": "2026-10-24T00:08:40.822Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:15.270Z",
+    "lastStatus": 200
   },
   {
     "id": "1deee184a49d",
@@ -246,9 +246,9 @@
     "cat": "movie",
     "rate": 0.0008,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:51.013Z",
+    "last": "2026-10-24T00:14:20.035Z",
     "lastStatus": 200
   },
   {
@@ -258,9 +258,9 @@
     "cat": "movie",
     "rate": 0.0008,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:51.017Z",
+    "last": "2026-10-24T00:14:20.043Z",
     "lastStatus": 200
   },
   {
@@ -269,11 +269,11 @@
     "url": "https://www.disneyplus.com",
     "cat": "movie",
     "rate": 0.0007,
-    "status": "offline",
-    "hits": 2,
+    "status": "online",
+    "hits": 3,
     "fails": 2,
-    "last": "2026-10-24T00:08:51.022Z",
-    "lastStatus": 0
+    "last": "2026-10-24T00:14:20.047Z",
+    "lastStatus": 200
   },
   {
     "id": "9bc4d3eab558",
@@ -282,9 +282,9 @@
     "cat": "movie",
     "rate": 0.0007,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:51.026Z",
+    "last": "2026-10-24T00:14:20.051Z",
     "lastStatus": 403
   },
   {
@@ -294,9 +294,9 @@
     "cat": "movie",
     "rate": 0.0007,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:51.031Z",
+    "last": "2026-10-24T00:14:20.056Z",
     "lastStatus": 200
   },
   {
@@ -306,9 +306,9 @@
     "cat": "movie",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:56.067Z",
+    "last": "2026-10-24T00:14:24.549Z",
     "lastStatus": 200
   },
   {
@@ -318,9 +318,9 @@
     "cat": "movie",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:56.089Z",
+    "last": "2026-10-24T00:14:24.556Z",
     "lastStatus": 200
   },
   {
@@ -330,10 +330,10 @@
     "cat": "movie",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:56.105Z",
-    "lastStatus": 200
+    "last": "2026-10-24T00:14:24.563Z",
+    "lastStatus": 403
   },
   {
     "id": "5de98257315d",
@@ -342,9 +342,9 @@
     "cat": "movie",
     "rate": 0.0006,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:56.121Z",
+    "last": "2026-10-24T00:14:24.568Z",
     "lastStatus": 403
   },
   {
@@ -354,9 +354,9 @@
     "cat": "movie",
     "rate": 0.0006,
     "status": "online",
-    "hits": 2,
+    "hits": 3,
     "fails": 2,
-    "last": "2026-10-24T00:08:56.141Z",
+    "last": "2026-10-24T00:14:24.571Z",
     "lastStatus": 200
   },
   {
@@ -366,9 +366,9 @@
     "cat": "movie",
     "rate": 0.0005,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:58.907Z",
+    "last": "2026-10-24T00:14:28.069Z",
     "lastStatus": 200
   },
   {
@@ -378,9 +378,9 @@
     "cat": "movie",
     "rate": 0.0005,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:58.914Z",
+    "last": "2026-10-24T00:14:28.075Z",
     "lastStatus": 200
   },
   {
@@ -390,9 +390,9 @@
     "cat": "movie",
     "rate": 0.0005,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:58.932Z",
+    "last": "2026-10-24T00:14:28.080Z",
     "lastStatus": 202
   },
   {
@@ -402,9 +402,9 @@
     "cat": "movie",
     "rate": 0.0005,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:08:58.939Z",
+    "last": "2026-10-24T00:14:28.084Z",
     "lastStatus": 200
   },
   {
@@ -415,8 +415,8 @@
     "rate": 0.0004,
     "status": "offline",
     "hits": 1,
-    "fails": 3,
-    "last": "2026-10-24T00:08:58.948Z",
+    "fails": 4,
+    "last": "2026-10-24T00:14:28.088Z",
     "lastStatus": 0
   },
   {
@@ -427,8 +427,8 @@
     "rate": 0.0004,
     "status": "offline",
     "hits": 0,
-    "fails": 4,
-    "last": "2026-10-24T00:09:00.811Z",
+    "fails": 5,
+    "last": "2026-10-24T00:14:30.932Z",
     "lastStatus": 0
   },
   {
@@ -438,9 +438,9 @@
     "cat": "movie",
     "rate": 0.0004,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:00.821Z",
+    "last": "2026-10-24T00:14:30.950Z",
     "lastStatus": 200
   },
   {
@@ -450,9 +450,9 @@
     "cat": "movie",
     "rate": 0.0004,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:00.826Z",
+    "last": "2026-10-24T00:14:30.956Z",
     "lastStatus": 200
   },
   {
@@ -462,9 +462,9 @@
     "cat": "movie",
     "rate": 0.0004,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:00.830Z",
+    "last": "2026-10-24T00:14:30.962Z",
     "lastStatus": 403
   },
   {
@@ -474,9 +474,9 @@
     "cat": "movie",
     "rate": 0.0004,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:00.836Z",
+    "last": "2026-10-24T00:14:30.967Z",
     "lastStatus": 200
   },
   {
@@ -486,9 +486,9 @@
     "cat": "platform",
     "rate": 0.0012,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:02.119Z",
+    "last": "2026-10-24T00:14:33.158Z",
     "lastStatus": 200
   },
   {
@@ -498,9 +498,9 @@
     "cat": "platform",
     "rate": 0.0012,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:02.123Z",
+    "last": "2026-10-24T00:14:33.165Z",
     "lastStatus": 200
   },
   {
@@ -510,9 +510,9 @@
     "cat": "platform",
     "rate": 0.001,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:02.130Z",
+    "last": "2026-10-24T00:14:33.172Z",
     "lastStatus": 200
   },
   {
@@ -522,9 +522,9 @@
     "cat": "platform",
     "rate": 0.001,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:02.134Z",
+    "last": "2026-10-24T00:14:33.176Z",
     "lastStatus": 404
   },
   {
@@ -534,9 +534,9 @@
     "cat": "platform",
     "rate": 0.001,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:02.138Z",
+    "last": "2026-10-24T00:14:33.180Z",
     "lastStatus": 404
   },
   {
@@ -546,9 +546,9 @@
     "cat": "platform",
     "rate": 0.0009,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:04.310Z",
+    "last": "2026-10-24T00:14:35.069Z",
     "lastStatus": 200
   },
   {
@@ -558,9 +558,9 @@
     "cat": "platform",
     "rate": 0.0009,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:04.330Z",
+    "last": "2026-10-24T00:14:35.076Z",
     "lastStatus": 200
   },
   {
@@ -570,9 +570,9 @@
     "cat": "platform",
     "rate": 0.0009,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:04.345Z",
+    "last": "2026-10-24T00:14:35.085Z",
     "lastStatus": 403
   },
   {
@@ -582,9 +582,9 @@
     "cat": "platform",
     "rate": 0.0008,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:04.362Z",
+    "last": "2026-10-24T00:14:35.091Z",
     "lastStatus": 200
   },
   {
@@ -594,9 +594,9 @@
     "cat": "platform",
     "rate": 0.0008,
     "status": "online",
-    "hits": 3,
+    "hits": 4,
     "fails": 1,
-    "last": "2026-10-24T00:09:04.380Z",
+    "last": "2026-10-24T00:14:35.095Z",
     "lastStatus": 200
   }
 ]

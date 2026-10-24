@@ -1,216 +1,103 @@
-<!doctype html><html lang="ar" dir="rtl" data-apex-circle="general"><head><link rel="icon" href="/assets/logo.png"><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>CineHub 3099 — أفلام مجانية</title>
-<meta name="description" content="مشاهدة أفلام ومسلسلات مجانًا بجودة عالية — بلا تسجيل">
-<link rel="search" type="application/opensearchdescription+xml" title="CineHub 3099" href="opensearch.xml">
-<style>*{box-sizing:border-box}body{margin:0;background:#0b0d12;color:#e9eef6;font:15px/1.7 system-ui,Tahoma}
-.w{max-width:1100px;margin:0 auto;padding:0 14px}
-.hero{padding:34px 0 20px;text-align:center}
-.hero h1{font-size:26px;margin:0 0 8px}.hero p{color:#8b96a8;font-size:14px;margin:0 0 18px}
-form{display:flex;gap:8px;max-width:520px;margin:0 auto}
-input{flex:1;padding:12px 15px;border-radius:12px;border:1px solid #232c3c;background:#131a25;color:#e9eef6;font-size:15px}
-button{padding:12px 20px;border-radius:12px;border:0;background:#1d4ed8;color:#fff;font-size:15px;cursor:pointer}
-.chips{display:flex;gap:6px;overflow-x:auto;padding:12px 0}.chips::-webkit-scrollbar{display:none}
-.chip{white-space:nowrap;padding:6px 13px;border-radius:999px;background:#161e2b;border:1px solid #232c3c;color:#a9b6c9;font-size:12.5px;text-decoration:none}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px;padding:10px 0 24px}
-.c{background:#131a25;border:1px solid #1e2635;border-radius:12px;overflow:hidden;text-decoration:none;color:#e9eef6}
-.c img{width:100%;aspect-ratio:2/3;object-fit:cover;background:#0f1520;display:block}
-.c b{display:block;font-size:12.5px;padding:6px;height:50px;overflow:hidden;font-weight:500}
-.ad{margin:14px 0;display:flex;justify-content:center;min-height:60px;align-items:center}
-footer{color:#6d7788;font-size:12px;text-align:center;padding:20px 0 30px;border-top:1px solid #161d29;margin-top:14px}
-footer a{color:#7d90a8;text-decoration:none;margin:0 6px}
-h2{font-size:15px;color:#aab6c8;margin:14px 0 4px}</style><link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#0b0d12">
-<script src="/config.js"></script>
-<!--APEX-ADS-v1-->
-
-<script>(function(){try{
-var C=window.__APEX_C||"";var EP="/api/apex/event";
-function send(o){o.id=o.id||(Date.now()+"-"+Math.random().toString(36).slice(2,9));
- var body=JSON.stringify(o);try{navigator.sendBeacon(EP,new Blob([body],{type:"application/json"}));return}catch(e){}
- try{fetch(EP,{method:"POST",headers:{"Content-Type":"application/json"},body:body,keepalive:true}).catch(function(){try{fetch("http://127.0.0.1:8792/api/apex/event",{method:"POST",headers:{"Content-Type":"application/json"},body:body}).catch(function(){})}catch(e){}})}catch(e){}}
-var c=document.documentElement.getAttribute("data-apex-circle")||"general";
-send({type:"pageview",page:location.pathname,circle:c,ref:document.referrer,ua:navigator.userAgent});
-if("IntersectionObserver" in window){
- var o=new IntersectionObserver(function(es){es.forEach(function(en){
-  if(en.isIntersecting&&en.intersectionRatio>=0.5){send({type:"impression",slot:en.target.getAttribute("data-apex-slot")||"body",page:location.pathname,circle:c});o.unobserve(en.target);}});},{threshold:[0.5]});
- setTimeout(function(){document.querySelectorAll("[data-apex-slot]").forEach(function(el){o.observe(el)})},800);
-}})();</script>
-<!--/APEX-ADS-v1-->
-<link rel="stylesheet" href="/grid.css">
-<script src="/tmdb-img-shim.js" defer></script>
-<script src="/wallet.js" defer></script>
-<script src="/grid.js" defer></script>
-</head><body>
-<div class="w"><div class="hero"><h1>🎬 CineHub 3099</h1>
-<p>أفلام ومسلسلات مجانًا — بلا تسجيل، بلا انتظار</p>
-<form onsubmit="go(event)"><input id="q" placeholder="ابحث عن فيلم أو مسلسل…"><button type="button">ابحث</button></form></div>
-<div class="chips" id="chips"></div><div class="ad" id="ad"></div>
-<h2>الأكثر مشاهدة</h2><div class="grid" id="g"></div>
-<div class="ad" id="ad2"></div>
-<footer>© CineHub 3099 · <a href="app.html">التطبيق</a><a href="library.html">المكتبة</a><a href="links.html">روابط النشر</a><a href="owner.html">لوحة المالك</a><a href="install.html" style="color:#8ec5ff">📲 ثبّت التطبيق</a><a href="adult.html">🔞 للكبار</a><a href="install.html">📲 تثبيت</a></footer>
-</div>
-<script src="hits.js" defer></script><script>
-function go(e){e.preventDefault();location.href='app.html?q='+encodeURIComponent(document.getElementById('q').value)}
-async function load(){for(const f of['catalog-lite.json','catalog-lite.json','films.json','titles.json']){try{const r=await fetch(f);if(!r.ok)continue;
-const d=await r.json();const a=Array.isArray(d)?d:(d.items||Object.values(d));if(a&&a.length)
-return a.map(x=>({i:x.i||x.id||x.slug,t:x.t||x.title||x.name||'',th:x.th||x.th||x.th||'',y:x.y||x.year||'',c:x.c||x.cat||x.category||''})).filter(x=>x.t)}catch(e){window.__catErr=(window.__catErr||'')+f+' '+(e&&e.message||'')+'; '}}return[]}
-(async()=>{const A=await load();
-document.getElementById('chips').innerHTML=[...new Set(A.map(x=>x.c).filter(Boolean))].slice(0,20)
-.map(g=>'<a class="chip" href="app.html?cat='+encodeURIComponent(g)+'">'+g+'</a>').join('');
-document.getElementById('g').innerHTML=A.slice(0,30).map(x=>'<a class="c" href="'+(x.i?'f/'+encodeURIComponent(x.i)+'.html':'#')+'">'+
-'<img loading="lazy" src="'+(x.th||'')+'"><b>'+x.t+(x.y?' ('+x.y+')':'')+'</b></a>').join('');
-try{const a=await(await fetch('ads.json')).json();const on=(a.networks||[]).filter(n=>n.id);
-const h=on.slice(0,2).map(n=>n.k==='AADS_UNIT'?'<iframe src="https://a-ads.com/banner?aa='+n.id+'&size=300x250" width="300" height="250" frameborder="0" scrolling="no"></iframe>':
-n.k==='EXOCLICK_ZONE'?'<iframe src="https://s.exoclick.com/ads.php?type=300x250&zone='+n.id+'" width="300" height="250" frameborder="0" scrolling="no"></iframe>':'').join('');
-document.getElementById('ad').innerHTML=h||('<span style="color:#7d8899;font-size:12px">'+on.length+' شبكة إعلان مفعّلة</span>');
-document.getElementById('ad2').innerHTML=h;}catch(e){}})();
-</script><script>if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(function(){});</script>
-<a id="chagent" href="/agent.html" style="position:fixed;bottom:16px;left:16px;z-index:99999;background:#2563eb;color:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;font:700 13px system-ui;box-shadow:0 4px 16px #0008">🤖 الوكيل</a>
-<!-- CINEHUB-ADS -->
-
-<!-- /CINEHUB-ADS -->
-<div data-apex-slot="general-footer" style="min-height:100px;margin:12px 0"></div>
-<!--vn-modern-->
-<style id="vn-modern">
-#vnnav{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);display:flex;gap:4px;padding:7px;
-border-radius:999px;background:rgba(10,14,20,.85);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.12);
-z-index:99999;font:13px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:96vw;overflow-x:auto}
-#vnnav a{color:#e8eef6;text-decoration:none;padding:8px 12px;border-radius:999px;white-space:nowrap}
-#vnnav a:hover{background:rgba(255,255,255,.1)}
-#vnnav a.p{background:#4ade80;color:#04140a;font-weight:700}
-</style>
-<div id="vnnav"><a class="p" href="/">الرئيسية</a><a href="/movies.html">الأفلام</a><a href="/app.html">التطبيق</a>
-<a href="/vn-panel.html">اللوحة</a><a href="/vn-wallet.html">المحفظة</a><a href="/withdraw.html">السحب</a></div>
-<!--VN-APPFIX-->
-<script>
-(function(){
-  setTimeout(function(){
-    var g=document.getElementById('g');
-    if(g && g.textContent.indexOf('تعذّر')>-1){
-      var e=(window.__catErr||'').slice(0,150)||'لم تُرجع الملفات بيانات';
-      g.innerHTML='<p style="color:#8b90a6;font-size:13px">تعذّر تحميل الكتالوج<br><small style="opacity:.65;font-size:11px">'+e+'</small></p>';
-    }
-    document.querySelectorAll('.ad iframe').forEach(function(fr){
-      try{ if(fr.getBoundingClientRect().height<10) fr.style.display='none'; }catch(x){}
-    });
-  },6000);
-  if('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations){
-    navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.update()})});
-  }
-})();
-</script>
-<!--/VN-APPFIX-->
-<!--VN-UI-->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CineHub 3099 — أفلام مجانية</title>
+<meta name="theme-color" content="#0a0c15">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
-:root{--vn-bg:#0a0c15;--vn-card:rgba(255,255,255,.045);--vn-brd:rgba(255,255,255,.09);--vn-txt:#eef1f8;--vn-mut:#98a0b8;--vn-a1:#6c5ce7;--vn-a2:#00d2ff}
-html,body{background:var(--vn-bg)!important;color:var(--vn-txt)!important}
-body{font-family:Cairo,Tajawal,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif!important;padding-bottom:84px!important;overflow-x:hidden}
 *{box-sizing:border-box}
-header,.topbar,.vn-top{position:sticky!important;top:0;z-index:60;background:rgba(10,12,21,.78)!important;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--vn-brd)!important}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;border-radius:12px;display:block}
-.card,.movie,.item,.tile,.poster{border-radius:16px!important;background:var(--vn-card)!important;border:1px solid var(--vn-brd)!important;overflow:hidden;transition:transform .25s cubic-bezier(.2,.7,.3,1),box-shadow .25s,border-color .25s}
-.card:hover,.movie:hover,.item:hover,.tile:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(0,0,0,.5);border-color:rgba(108,92,231,.55)!important}
-button,.btn,input,select,textarea{border-radius:12px!important;font-family:inherit!important}
-button,.btn{background:linear-gradient(135deg,var(--vn-a1),var(--vn-a2))!important;color:#fff!important;border:0!important;padding:10px 18px!important;font-weight:700;cursor:pointer}
-input,select,textarea{background:rgba(255,255,255,.05)!important;color:var(--vn-txt)!important;border:1px solid var(--vn-brd)!important;padding:10px 14px!important}
-h1,h2,h3{letter-spacing:-.2px}
-#g{min-height:180px}
-.vn-grid{display:grid!important;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
-@media(max-width:560px){.vn-grid{grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:10px}}
-.vn-card{position:relative;display:block;border-radius:14px;overflow:hidden;background:var(--vn-card);border:1px solid var(--vn-brd);transition:transform .25s,box-shadow .25s}
-.vn-card:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(0,0,0,.5)}
-.vn-card img{width:100%;aspect-ratio:2/3;object-fit:cover;border-radius:0}
-.vn-ph{width:100%;aspect-ratio:2/3;background:linear-gradient(135deg,rgba(108,92,231,.25),rgba(0,210,255,.15))}
-.vn-t{display:block;padding:8px 10px 2px;font-size:13px;font-weight:600;line-height:1.4}
-.vn-y{display:block;padding:0 10px 10px;font-size:11px;color:var(--vn-mut)}
-.vn-sk{border-radius:14px;aspect-ratio:2/3;background:linear-gradient(100deg,rgba(255,255,255,.05) 30%,rgba(255,255,255,.12) 50%,rgba(255,255,255,.05) 70%);background-size:200% 100%;animation:vnsh 1.2s infinite}
-@keyframes vnsh{0%{background-position:200% 0}100%{background-position:-200% 0}}
-.vn-nav{position:fixed;bottom:0;left:0;right:0;z-index:80;display:flex;justify-content:space-around;align-items:center;padding:8px 6px calc(8px + env(safe-area-inset-bottom));background:rgba(10,12,21,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid var(--vn-brd)}
-.vn-nav a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;color:var(--vn-mut);padding:4px 10px;border-radius:12px;transition:.2s}
-.vn-nav a span{font-size:19px;line-height:1}
-.vn-nav a.on,.vn-nav a:hover{color:#fff;background:rgba(108,92,231,.18)}
-.vn-top{display:flex;align-items:center;gap:10px;padding:10px 14px}
-.vn-top .vn-logo{font-weight:900;font-size:18px;background:linear-gradient(135deg,var(--vn-a1),var(--vn-a2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.vn-top input{flex:1}
+:root{--bg:#0a0c15;--cd:rgba(255,255,255,.045);--bd:rgba(255,255,255,.09);--tx:#eef1f8;--mu:#98a0b8;--a1:#6c5ce7;--a2:#00d2ff}
+html,body{margin:0;background:var(--bg);color:var(--tx);font-family:Cairo,system-ui,-apple-system,sans-serif}
+body{padding-bottom:86px}
+.hd{position:sticky;top:0;z-index:60;display:flex;gap:10px;align-items:center;padding:10px 14px;background:rgba(10,12,21,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+.logo{font-weight:900;font-size:17px;white-space:nowrap}
+.logo span{background:linear-gradient(135deg,var(--a1),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo em{font-size:10px;color:var(--mu);font-style:normal;margin-inline-start:4px}
+.hd input{flex:1;min-width:0;background:rgba(255,255,255,.06);border:1px solid var(--bd);color:var(--tx);border-radius:999px;padding:9px 14px;font-family:inherit;font-size:13px}
+.hd button{background:linear-gradient(135deg,var(--a1),var(--a2));color:#fff;border:0;border-radius:999px;padding:9px 14px;font-weight:700;font-family:inherit;font-size:12px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 14px 4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.ch{white-space:nowrap;padding:7px 14px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--bd);color:var(--mu);font-family:inherit;font-size:12.5px}
+.ch.on{background:linear-gradient(135deg,var(--a1),var(--a2));color:#fff;border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:12px;padding:12px 14px}
+@media(max-width:560px){.grid{grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:9px;padding:10px}}
+.c{display:block;border-radius:14px;overflow:hidden;background:var(--cd);border:1px solid var(--bd);text-decoration:none;color:inherit;transition:transform .22s,box-shadow .22s}
+.c:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.5)}
+.c img{width:100%;aspect-ratio:2/3;object-fit:cover;display:block;background:#12141f}
+.c .ph{width:100%;aspect-ratio:2/3;background:linear-gradient(135deg,rgba(108,92,231,.25),rgba(0,210,255,.12))}
+.c b{display:block;padding:8px 9px 2px;font-size:12.5px;font-weight:700;line-height:1.35}
+.c i{display:block;padding:0 9px 9px;font-size:10.5px;color:var(--mu);font-style:normal}
+.more{display:none;margin:6px auto 18px;padding:11px 26px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--bd);color:var(--tx);font-family:inherit;font-weight:700;font-size:13px;width:max-content;cursor:pointer}
+.diag{position:fixed;bottom:88px;inset-inline:12px;display:none;background:rgba(10,12,21,.92);border:1px solid var(--bd);border-radius:12px;padding:8px 12px;font-size:11px;color:var(--mu);backdrop-filter:blur(12px)}
+.empty{grid-column:1/-1;text-align:center;padding:40px;color:var(--mu)}
+.bn{position:fixed;bottom:0;inset-inline:0;z-index:80;display:flex;justify-content:space-around;padding:7px 4px calc(7px + env(safe-area-inset-bottom));background:rgba(10,12,21,.94);backdrop-filter:blur(18px);border-top:1px solid var(--bd)}
+.bn a{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:10px;color:var(--mu);text-decoration:none;padding:3px 9px;border-radius:11px}
+.bn a span{font-size:18px;line-height:1}
+.bn a.on,.bn a:hover{color:#fff;background:rgba(108,92,231,.18)}
 </style>
+</head>
+<body>
+<header class="hd">
+  <div class="logo">CineHub<span>3099</span><em>v4</em></div>
+  <input id="q" placeholder="ابحث عن فيلم...">
+  <button id="inst" hidden>تثبيت</button>
+</header>
+<nav class="chips" id="chips"><button class="ch on">الكل</button></nav>
+<main class="grid" id="grid"></main>
+<button class="more" id="more">تحميل المزيد</button>
+<div class="diag" id="diag"></div>
+<nav class="bn">
+  <a href="/" class="on"><span>🏠</span>الرئيسية</a>
+  <a href="/movies.html"><span>🎬</span>أفلام</a>
+  <a href="/sites.html"><span>🌐</span>مواقع</a>
+  <a href="/vn-wallet.html"><span>💰</span>المحفظة</a>
+  <a href="/app.html"><span>⚙️</span>التطبيق</a>
+</nav>
 <script>
 (function(){
-var doc=document;
-function ready(fn){if(doc.readyState!=='loading')fn();else doc.addEventListener('DOMContentLoaded',fn);}
-ready(function(){
-  if(!doc.querySelector('link[rel=manifest]')){var l=doc.createElement('link');l.rel='manifest';l.href='/manifest.webmanifest';doc.head.appendChild(l);}
-  if(!doc.querySelector('meta[name=theme-color]')){var m=doc.createElement('meta');m.name='theme-color';m.content='#0a0c15';doc.head.appendChild(m);}
-  if(!doc.querySelector('meta[name=viewport]')){var v=doc.createElement('meta');v.name='viewport';v.content='width=device-width,initial-scale=1,viewport-fit=cover';doc.head.appendChild(v);}
-
-  if(!doc.querySelector('.vn-top') && !doc.querySelector('header,.topbar')){
-    var h=doc.createElement('div');h.className='vn-top';
-    h.innerHTML='<span class="vn-logo">CineHub 3099</span><input id="vn-q" placeholder="ابحث عن فيلم...">';
-    doc.body.insertBefore(h,doc.body.firstChild);
-    h.querySelector('#vn-q').addEventListener('input',function(){
-      var q=this.value.trim().toLowerCase();
-      doc.querySelectorAll('.vn-card,.card,.movie,.item').forEach(function(el){
-        el.style.display=(!q||(el.textContent||'').toLowerCase().indexOf(q)>-1)?'':'none';
-      });
-    });
-  }
-
-  if(!doc.querySelector('.vn-nav')){
-    var p=location.pathname.replace(//$/,'')||'/';
-    var L=[['/','🏠','الرئيسية'],['/movies.html','🎬','أفلام'],['/vn-wallet.html','💰','المحفظة'],['/vn-panel.html','📊','اللوحة'],['/app.html','⚙️','التطبيق']];
-    var n=doc.createElement('nav');n.className='vn-nav';
-    n.innerHTML=L.map(function(x){var on=(p===x[0]||(x[0]!=='/'&&p.indexOf(x[0])===0))?' class="on"':'';
-      return '<a href="'+x[0]+'"'+on+'><span>'+x[1]+'</span>'+x[2]+'</a>';}).join('');
-    doc.body.appendChild(n);
-  }
-
-  var g=doc.getElementById('g')||doc.querySelector('main,#app,#content');
-  function gridify(){ if(!g)return; if(g.children.length>3){var c=g.children[0]; if(c&&c.getBoundingClientRect().width<420&&c.getBoundingClientRect().height>80) g.classList.add('vn-grid'); } }
-
-  if(g && g.children.length===0){
-    var sk='';for(var i=0;i<8;i++)sk+='<div class="vn-sk"></div>';
-    g.innerHTML='<div class="vn-grid" style="display:grid">'+sk+'</div>';
-  }
-
-  var tries=0;
-  var iv=setInterval(function(){
-    tries++;
-    var txt=g?g.textContent:'';
-    var bad=g&&(txt.indexOf('تعذّر')>-1||txt.indexOf('تعذر')>-1);
-    var empty=g&&g.querySelectorAll('img').length===0&&g.querySelectorAll('a').length<2;
-    if((bad||empty)&&tries>=3){clearInterval(iv);fallback();}
-    if(tries>12)clearInterval(iv);
-  },1500);
-
-  function draw(list){
-    if(!g||!list.length)return;
-    g.classList.add('vn-grid');
-    g.innerHTML=list.map(function(o){
-      var t=o.t||o.title||o.name||o.ar||o.en||'';
-      var im=o.p||o.th||o.img||o.th||o.th||'';
-      var y=o.y||o.year||'';
-      var u=o.u||o.url||o.link||o.href||'#';
-      var ph=im?'<img loading="lazy" src="'+im+'" alt="" onerror="this.remove()">':'<div class="vn-ph"></div>';
-      return '<a class="vn-card" href="'+u+'">'+ph+'<span class="vn-t">'+(t||'بدون عنوان')+'</span>'+(y?'<span class="vn-y">'+y+'</span>':'')+'</a>';
-    }).join('');
-    gridify();
-  }
-  function fallback(){
-    var srcs=['/catalog-lite.json','catalog-lite.json','catalog-lite.json','catalog-lite.json'];
-    (function next(i){
-      if(i>=srcs.length){ if(g) g.innerHTML='<p style="color:#98a0b8;text-align:center;padding:24px">تعذّر تحميل الكتالوج — تحقق من الاتصال</p>'; return; }
-      fetch(srcs[i]+'?t='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json();})
-        .then(function(d){var a=Array.isArray(d)?d:(d.items||[]);if(!a.length)throw 0;draw(a.slice(0,900));})
-        .catch(function(){next(i+1);});
-    })(0);
-  }
-
-  setTimeout(gridify,2500);
-  setTimeout(function(){doc.querySelectorAll('.ad iframe,iframe.ad').forEach(function(f){try{if(f.getBoundingClientRect().height<10)f.style.display='none';}catch(e){}});},6000);
-  if(navigator.serviceWorker&&navigator.serviceWorker.getRegistrations){navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.update();});});}
-});
+var ALL=[],PAGE=0,PAGES=0,CAT='';
+function D(m){var d=document.getElementById('diag');d.style.display='block';d.textContent=m;}
+function card(x){
+  var t=x.t||x.title||'', th=x.p||x.th||'', y=x.y||x.year||'';
+  var id=encodeURIComponent(x.i||x.id||''), e=encodeURIComponent(x.e||x.u||'');
+  var img = th ? '<img loading="lazy" src="'+th+'" alt="" onerror="this.style.opacity=.12">' : '<div class="ph"></div>';
+  return '<a class="c" href="/watch.html?id='+id+'&e='+e+'&t='+encodeURIComponent(t)+'">'+img+'<b>'+t+'</b>'+(y?'<i>'+y+'</i>':'')+'</a>';
+}
+function render(){
+  var g=document.getElementById('grid');
+  var l=CAT?ALL.filter(function(x){return String(x.c||x.cat||'').indexOf(CAT)>-1}):ALL;
+  g.innerHTML = l.length ? l.map(card).join('') : '<div class="empty">لا نتائج</div>';
+  D('الإصدار v4 · محمّل: '+ALL.length+' · معروض: '+l.length+(CAT?' · '+CAT:''));
+}
+function page(i){return fetch('/catalog-p'+i+'.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
+  PAGES=d.pages||1;ALL=ALL.concat(d.items||[]);PAGE=i+1;render();});}
+fetch('/catalog-index.json').then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){PAGES=d.pages||1;return page(0);})
+ .catch(function(){return fetch('/catalog-lite.json').then(function(r){return r.json()}).then(function(d){ALL=d.items||[];render();});})
+ .then(function(){if(PAGES>1)document.getElementById('more').style.display='block';})
+ .catch(function(e){D('فشل تحميل الكتالوج: '+(e&&e.message||e));});
+document.getElementById('more').onclick=function(){if(PAGE<PAGES)page(PAGE);else this.textContent='خلص';};
+fetch('/catalog-cats.json').then(function(r){return r.json()}).then(function(d){
+  var c=d.cats||[];
+  document.getElementById('chips').innerHTML='<button class="ch on">الكل</button>'+c.map(function(x){return '<button class="ch">'+x+'</button>'}).join('');
+  document.getElementById('chips').onclick=function(e){var b=e.target.closest('.ch');if(!b)return;
+    document.querySelectorAll('.ch').forEach(function(x){x.classList.remove('on')});b.classList.add('on');
+    CAT=b.textContent==='الكل'?'':b.textContent;render();};
+}).catch(function(){});
+document.getElementById('q').oninput=function(){var q=this.value.trim().toLowerCase();
+  document.querySelectorAll('#grid .c').forEach(function(el){
+    el.style.display=(!q||el.textContent.toLowerCase().indexOf(q)>-1)?'':'none';});};
+var dp;
+window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();dp=e;var b=document.getElementById('inst');b.hidden=false;b.onclick=function(){dp.prompt()};});
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.getRegistrations().then(function(rs){rs.forEach(function(r){
+    var u=(r.active&&r.active.scriptURL)||'';if(u.indexOf('sw4')<0)r.unregister();});})
+  .then(function(){navigator.serviceWorker.register('/sw4.js?v=4');}).catch(function(){});
+}
 })();
 </script>
-<!--VN-WATCHLINK--><script>(function(){document.addEventListener("click",function(e){var a=e.target.closest(".vn-card");if(!a)return;var h=a.getAttribute("href");if(!h||h==="#"){e.preventDefault();var t=a.querySelector(".vn-t");location.href="/watch.html?t="+encodeURIComponent(t?t.textContent:"")}});})();<\/script><!--/VN-WATCHLINK-->
-<!--/VN-UI-->
-</body></html>
+</body>
+</html>
