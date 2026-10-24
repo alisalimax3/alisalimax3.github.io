@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T13:58:42.044Z",
+  "updated": "2026-10-24T14:29:00.757Z",
   "agent": "wideagent",
   "count": 246,
   "links": [
@@ -836,6 +836,12 @@
       "url": "https://www.nba.com",
       "cat": "news",
       "key": "CH-NEWS-09A4E6B7-5AFFDB42FEC2"
+    },
+    {
+      "name": "NFL",
+      "url": "https://www.nfl.com",
+      "cat": "news",
+      "key": "CH-NEWS-03E9C5FA-DB26824B22FD"
     },
     {
       "name": "MLB",
