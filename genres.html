@@ -98,7 +98,7 @@ ready(function(){
     gridify();
   }
   function fallback(){
-    var srcs=['/catalog-lite.json','catalog-lite.json','/catalog.json','catalog.json'];
+    var srcs=['/catalog-lite.json','catalog-lite.json','catalog-lite.json','catalog-lite.json'];
     (function next(i){
       if(i>=srcs.length){ if(g) g.innerHTML='<p style="color:#98a0b8;text-align:center;padding:24px">تعذّر تحميل الكتالوج — تحقق من الاتصال</p>'; return; }
       fetch(srcs[i]+'?t='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json();})
