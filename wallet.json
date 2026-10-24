@@ -1,16 +1,23 @@
 {
-  "balance": 1.1422,
+  "balance": 1.2426,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-24T06:38:00.681Z",
+  "updated": "2026-10-24T07:24:24.447Z",
   "human": "2026-10-18 21:21",
   "agent": "wideagent",
-  "online": 165,
+  "online": 164,
   "sources": 167,
-  "ledger_entries": 1851,
+  "ledger_entries": 2015,
   "transactions": [
+    {
+      "ts": "2026-10-24T07:24:24.447Z",
+      "type": "harvest",
+      "amount": 0.1004,
+      "online": 164,
+      "total": 167
+    },
     {
       "ts": "2026-10-24T06:38:00.681Z",
       "type": "harvest",
