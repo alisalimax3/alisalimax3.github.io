@@ -1,10 +1,10 @@
 {
-  "balance": 0.5374,
+  "balance": 0.53742,
   "points": 0,
   "by_source": {},
   "events": 0,
   "currency": "USD",
-  "updated": "2026-10-24T02:09:13.845Z",
+  "updated": "2026-10-24 02:29:45",
   "human": "2026-10-18 21:21",
   "agent": "wideagent",
   "online": 165,
@@ -48,19 +48,23 @@
     }
   ],
   "address": "0x7AcC22Ed0d07dd775D4456a29011Ff1440945CbB",
-  "pending": 0.00004,
-  "views": 2,
-  "earned_total": 0.00004,
-  "hourly_rate": 0.00002,
-  "lastTick": 1792806028,
+  "pending": 6e-05,
+  "views": 3,
+  "earned_total": 6e-05,
+  "hourly_rate": 2e-05,
+  "lastTick": 1792808985,
   "history": [
     {
       "t": "2026-10-24 00:45:30",
-      "d": 0.00002
+      "d": 2e-05
     },
     {
       "t": "2026-10-24 01:40:28",
-      "d": 0.00002
+      "d": 2e-05
+    },
+    {
+      "t": "2026-10-24 02:29:45",
+      "d": 2e-05
     }
   ]
 }
